@@ -1,6 +1,6 @@
 <template>
     <section class="section">
-        <div class="columns is-mobile">
+        <div class="columns is-mobile is-centered">
             <b-table :data="table" :columns="formatting" :row-class="(row, index) => color(row, index)"></b-table>
         </div>
     </section>

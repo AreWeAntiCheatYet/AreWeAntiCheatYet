@@ -1,74 +1,31 @@
 <template>
-  <div>
-    <nav
-      class="navbar header has-shadow is-primary"
-      role="navigation"
-      aria-label="main navigation"
-    >
-      <div class="navbar-brand">
-        <a
-          class="navbar-item"
-          href="/"
-        >
-          <img
-            src="~assets/buefy.png"
-            alt="Buefy"
-            height="28"
-          >
-        </a>
+    <div>
 
-        <div class="navbar-burger">
-          <span />
-          <span />
-          <span />
-        </div>
-      </div>
-    </nav>
 
-    <section class="main-content columns">
-      <aside class="column is-2 section">
-        <p class="menu-label is-hidden-touch">
-          General
-        </p>
-        <ul class="menu-list">
-          <li
-            v-for="(item, key) of items"
-            :key="key"
-          >
-            <NuxtLink
-              :to="item.to"
-              exact-active-class="is-active"
-            >
-              <b-icon :icon="item.icon" /> {{ item.title }}
-            </NuxtLink>
-          </li>
-        </ul>
-      </aside>
+        <section class="hero is-dark">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <p class="title" style="font-size: 150%">
+                        Are We Anti-Cheat Yet?
+                    </p>
+                    <p class="subtitle" style="font-size: 75%">
+                        A comprehensive and crowd-sourced list of games using anti-cheats and their compatibility with GNU/Linux or Wine.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-      <div class="container column is-10">
-        <Nuxt />
-      </div>
-    </section>
-  </div>
+
+        <section class="main-content columns">
+            <div class="container column is-10">
+                <Nuxt />
+            </div>
+        </section>
+    </div>
 </template>
 
-<script>
-export default {
-  data () {
-    return {
-      items: [
-        {
-          title: 'Home',
-          icon: 'home',
-          to: { name: 'index' }
-        },
-        {
-          title: 'Inspire',
-          icon: 'lightbulb',
-          to: { name: 'inspire' }
-        }
-      ]
-    }
-  }
+<style>
+body {
+    font-size: 200%;
 }
-</script>
+</style>
