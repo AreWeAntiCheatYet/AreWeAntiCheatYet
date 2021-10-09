@@ -1,7 +1,7 @@
 <template>
     <section class="section">
         <div class="columns is-mobile">
-            <b-table :data="table" :columns="formatting"></b-table>
+            <b-table :data="table" :columns="formatting" :row-class="(row, index) => color(row, index)"></b-table>
         </div>
     </section>
 </template>
@@ -44,5 +44,24 @@ export default {
         this.table = gamesList;
     },
     fetchOnServer: true,
+
+    methods: {
+        color(row, index) {
+            switch (row.acStatus) {
+                case "✔ Confirmed":
+                    return 'is-confirmed';
+
+                default:
+                    break;
+            }
+        }
+    },
 }
 </script>
+
+<style>
+tr.is-confirmed {
+    background: #167df0;
+    color: #fff;
+}
+</style>
