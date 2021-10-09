@@ -1,53 +1,48 @@
 <template>
-  <section class="section">
-    <div class="columns is-mobile">
-      <card
-        title="Free"
-        icon="github"
-      >
-        Open source on <a href="https://github.com/buefy/buefy">
-          GitHub
-        </a>
-      </card>
-
-      <card
-        title="Responsive"
-        icon="cellphone-link"
-      >
-        <b class="has-text-grey">
-          Every
-        </b> component is responsive
-      </card>
-
-      <card
-        title="Modern"
-        icon="alert-decagram"
-      >
-        Built with <a href="https://vuejs.org/">
-          Vue.js
-        </a> and <a href="http://bulma.io/">
-          Bulma
-        </a>
-      </card>
-
-      <card
-        title="Lightweight"
-        icon="arrange-bring-to-front"
-      >
-        No other internal dependency
-      </card>
-    </div>
-  </section>
+    <section class="section">
+        <div class="columns is-mobile">
+            <b-table :data="table" :columns="formatting"></b-table>
+        </div>
+    </section>
 </template>
 
 <script>
-import Card from '~/components/Card'
+import axios from 'axios';
+
+const beLogo = require("~/assets/battleye-logo.png");
+const eacLogo = require("~/assets/easy-logo.png");
 
 export default {
-  name: 'HomePage',
+    name: 'HomePage',
 
-  components: {
-    Card
-  }
+    data: () => ({
+        table: [],
+        formatting: [{field: 'game', label: 'Game', numeric: false}, {field: 'acName', label: 'Anti-Cheat'}, {field: 'acStatus', label: 'Status'}],
+    }),
+
+    async fetch() {
+        const req = await axios.get('http://localhost:3000/games.json');
+        const gamesList = req.data;
+
+        for (let i = 0; i < gamesList.length; i++) {
+            // template anti-cheats with a logo
+            const game = gamesList[i];
+            switch (game.acName) {
+                case "BattlEye":
+                    game.acName = `<img src="` + beLogo + `" width="24" height="24"/> BattlEye`;
+                break;
+
+                case "Easy Anti-Cheat":
+                    game.acName = `<img src="` + eacLogo + `" width="24" height="24"/> Easy Anti-Cheat`;
+                break;
+
+                default:
+                    break;
+            }
+        }
+
+        this.table = gamesList;
+    },
+    fetchOnServer: true,
 }
 </script>
