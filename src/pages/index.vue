@@ -12,23 +12,14 @@
 </template>
 
 <script>
-import axios from 'axios';
-
+const gamesList = require("~/static/games.json");
 const beLogo = require("~/assets/battleye-logo.png");
 const eacLogo = require("~/assets/easy-logo.png");
 
 export default {
     name: 'HomePage',
 
-    data: () => ({
-        table: [],
-        formatting: [{field: 'game', label: 'Game', numeric: false}, {field: 'acName', label: 'Anti-Cheat'}, {field: 'acStatus', label: 'Status'}],
-    }),
-
-    async fetch() {
-        const req = await axios.get('http://localhost:3000/games.json');
-        const gamesList = req.data;
-
+    data() {
         for (let i = 0; i < gamesList.length; i++) {
             // template anti-cheats with a logo
             const game = gamesList[i];
@@ -44,9 +35,13 @@ export default {
                 default:
                     break;
             }
+            gamesList[i] = game;
         }
 
-        this.table = gamesList;
+        return {
+            table: gamesList,
+            formatting: [{field: 'game', label: 'Game', numeric: false}, {field: 'acName', label: 'Anti-Cheat'}, {field: 'acStatus', label: 'Status'}],
+        }
     },
     fetchOnServer: true,
 
