@@ -1,0 +1,128 @@
+[
+  {
+    "game": "Halo: The Master Chief Collection",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Fortnite",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "",
+    "acName": "BattlEye",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Battlefield 2042",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Apex Legends",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Paladins",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Playerunknown's Battlegrounds",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "",
+    "acName": "BattlEye",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Rainbow Six: Siege",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "",
+    "acName": "BattlEye",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Smite",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Black Desert Online",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Fall Guys: Ultimate Knockout",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "ARK: Survival Evolved",
+    "acStatus": "✔ Confirmed",
+    "gameUrl": "",
+    "acName": "BattlEye",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "DayZ",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "",
+    "acName": "BattlEye",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Dead By Daylight",
+    "acStatus": "✔ Confirmed",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Destiny 2",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "",
+    "acName": "BattlEye",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Hunt: Showdown",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Rust",
+    "acStatus": "✔ Confirmed",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "War Thunder",
+    "acStatus": "✔ Confirmed",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "7 Days to Die",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatusUrl": ""
+  }
+]

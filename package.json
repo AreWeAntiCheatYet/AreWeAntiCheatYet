@@ -1,6 +1,4 @@
 {
-  "name": "Are We Anti-Cheat Yet?",
-  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "nuxt",
