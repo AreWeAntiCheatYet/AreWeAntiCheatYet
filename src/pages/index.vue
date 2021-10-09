@@ -48,7 +48,7 @@ export default {
     methods: {
         color(row, index) {
             switch (row.acStatus) {
-                case "✔ Confirmed":
+                case "🎉 Confirmed":
                     return 'is-confirmed';
 
                 default:

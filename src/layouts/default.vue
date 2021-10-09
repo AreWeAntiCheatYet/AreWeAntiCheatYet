@@ -1,7 +1,6 @@
 <template>
     <div>
 
-
         <section class="hero is-dark">
             <div class="hero-body">
                 <div class="container has-text-centered">
@@ -21,6 +20,7 @@
                 <Nuxt />
             </div>
         </section>
+
     </div>
 </template>
 
