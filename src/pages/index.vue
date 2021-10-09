@@ -29,11 +29,11 @@ export default {
             const game = gamesList[i];
             switch (game.acName) {
                 case "BattlEye":
-                    game.acName = `<img src="` + beLogo + `" width="24" height="24"/> BattlEye`;
+                    game.acName = `<img src="` + beLogo + `" width="32" height="32"/> BattlEye`;
                 break;
 
                 case "Easy Anti-Cheat":
-                    game.acName = `<img src="` + eacLogo + `" width="24" height="24"/> Easy Anti-Cheat`;
+                    game.acName = `<img src="` + eacLogo + `" width="32" height="32"/> Easy Anti-Cheat`;
                 break;
 
                 default:
