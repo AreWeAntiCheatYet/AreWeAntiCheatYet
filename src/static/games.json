@@ -138,5 +138,12 @@
     "acStatus": "⭐ Supported",
     "acName": "Easy Anti-Cheat",
     "gameUrl": ""
+  },
+  {
+    "game": "New World",
+    "acStatusUrl": "https://forums.newworld.com/t/please-add-easy-anticheat-support-for-linux/256617/103",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://newworld.com"
   }
 ]
