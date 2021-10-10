@@ -53,7 +53,7 @@ export default {
 
         return {
             table: gamesList,
-            formatting: [{field: 'game', label: 'Game', numeric: false}, {field: 'acName', label: 'Anti-Cheat'}, {field: 'acStatus', label: 'Status'}],
+            formatting: [{field: 'game', label: 'Game', numeric: false, sortable: true, searchable: true}, {field: 'acName', label: 'Anti-Cheat'}, {field: 'acStatus', label: 'Status', sortable: true}]
         }
     },
     fetchOnServer: true,
