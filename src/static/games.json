@@ -42,6 +42,13 @@
     "acStatusUrl": ""
   },
   {
+    "game": "Back 4 Blood",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.back4blood.com/"
+  },
+  {
     "game": "Paladins",
     "gameUrl": "",
     "acName": "Easy Anti-Cheat",
@@ -166,5 +173,19 @@
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
     "gameUrl": "https://www.vermintide.com/"
+  },
+  {
+    "game": "Escape From Tarkov",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "BattlEye",
+    "gameUrl": "https://www.escapefromtarkov.com/"
+  },
+  {
+    "game": "Insurgency: Sandstorm",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.focus-entmt.com/en-us/games/insurgency-sandstorm"
   }
 ]
