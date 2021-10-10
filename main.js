@@ -1,5 +1,5 @@
-const beLogoPath = 'src/assets/battleye-logo.png';
-const eacLogoPath = 'src/assets/easy-logo.png';
+const beLogoPath = '/assets/battleye-logo.png';
+const eacLogoPath = '/assets/easy-logo.png';
 
 fetch("games.json")
     .then(response => response.json())
