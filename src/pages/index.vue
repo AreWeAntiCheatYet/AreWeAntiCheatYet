@@ -22,6 +22,7 @@ const gamesList = require("~/static/games.json");
 const beLogo = require("~/assets/battleye-logo.webp");
 const eacLogo = require("~/assets/easy-logo.webp");
 const vanguardLogo = require("~/assets/vanguard-logo.webp");
+const npggLogo = require("~/assets/npgg-logo.webp");
 
 export default {
     name: 'HomePage',
@@ -42,6 +43,10 @@ export default {
 
                 case "Vanguard":
                     game.acName = `<img src="` + vanguardLogo + `" width="32" height="32"/> Vanguard`;
+                break;
+
+                case "nProtect GameGuard":
+                    game.acName = `<img src="` + npggLogo + `" width="32" height="32"/> nProtect GameGuard`;
                 break;
 
                 default:

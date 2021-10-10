@@ -208,5 +208,12 @@
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
     "gameUrl": "https://www.realmroyale.com/"
+  },
+  {
+    "game": "Phantasy Star Online 2",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "nProtect GameGuard",
+    "gameUrl": "https://pso2.jp/"
   }
 ]
