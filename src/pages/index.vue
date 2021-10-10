@@ -19,8 +19,8 @@
 <script>
 const gamesList = require("~/static/games.json");
 
-const beLogo = require("~/assets/battleye-logo.png");
-const eacLogo = require("~/assets/easy-logo.png");
+const beLogo = require("~/assets/battleye-logo.webp");
+const eacLogo = require("~/assets/easy-logo.webp");
 
 export default {
     name: 'HomePage',
