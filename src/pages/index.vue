@@ -13,6 +13,7 @@
 
 <script>
 const gamesList = require("~/static/games.json");
+
 const beLogo = require("~/assets/battleye-logo.png");
 const eacLogo = require("~/assets/easy-logo.png");
 
@@ -21,8 +22,9 @@ export default {
 
     data() {
         for (let i = 0; i < gamesList.length; i++) {
-            // template anti-cheats with a logo
             const game = gamesList[i];
+
+            // template anti-cheats with a logo
             switch (game.acName) {
                 case "BattlEye":
                     game.acName = `<img src="` + beLogo + `" width="32" height="32"/> BattlEye`;
@@ -35,6 +37,12 @@ export default {
                 default:
                     break;
             }
+
+            // link to the status url
+            if (game.acStatusUrl !== "") {
+                game.acStatus = `<a href="` + game.acStatusUrl + `">` + game.acStatus + `</a>`;
+            }
+
             gamesList[i] = game;
         }
 
