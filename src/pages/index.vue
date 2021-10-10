@@ -8,6 +8,11 @@
         <p class="has-text-centered">
             Don't see a game you're interested in on here yet? <a href="https://github.com/Starz0r/AreWeAntiCheatYet/issues/new?assignees=&labels=new-game%2Cstatus-change&template=0-new-game.yml&title=%3CGame+Name+Here%3E">Add it here!</a>
         </p>
+
+        <br/>
+        <p class="has-text-centered">
+            Last Updated: {{new Date().toDateString()}}, {{new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })}}
+        </p>
     </section>
 </template>
 
