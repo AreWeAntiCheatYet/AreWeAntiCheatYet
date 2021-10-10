@@ -1,13 +1,16 @@
 const beLogoPath = '/assets/battleye-logo.png';
 const eacLogoPath = '/assets/easy-logo.png';
 
+const lastUpdateEl = document.getElementById('last-update');
+lastUpdateEl.innerHTML = new Date().toDateString(), new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
+
 fetch("games.json")
     .then(response => response.json())
     .then(gamesList => {
         for (let i = 0; i < gamesList.length; i++) {
             const game = gamesList[i];
             const tableBody = document.getElementById('table-body');
-            
+
             let highlight = '';
             if (game.acStatus.includes("🎉 Confirmed")) {
                 highlight = 'class="is-confirmed"';
