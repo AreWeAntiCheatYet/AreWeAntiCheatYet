@@ -29,7 +29,7 @@
   },
   {
     "game": "Valorant",
-    "gameUrl": "",
+    "gameUrl": "https://playvalorant.com",
     "acName": "Vanguard",
     "acStatus": "❔ Unconfirmed",
     "acStatusUrl": ""
@@ -152,5 +152,12 @@
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
     "gameUrl": "https://newworld.com"
+  },
+  {
+    "game": "Warhammer: Vermintide 2",
+    "acStatusUrl": "https://support.fatshark.se/hc/en-us/articles/4408080108817--PC-Regarding-Easy-Anti-Cheat-and-Linux-Wine-Proton-Support",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.vermintide.com/"
   }
 ]
