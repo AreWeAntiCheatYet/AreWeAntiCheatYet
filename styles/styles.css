@@ -6,3 +6,8 @@ tr.is-confirmed {
     background: #167df0;
     color: #fff;
 }
+
+tr.is-supported {
+    background: #00B200;
+    color: #fff;
+}

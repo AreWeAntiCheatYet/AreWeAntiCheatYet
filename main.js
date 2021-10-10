@@ -7,7 +7,13 @@ fetch("games.json")
         for (let i = 0; i < gamesList.length; i++) {
             const game = gamesList[i];
             const tableBody = document.getElementById('table-body');
-            const highlight = game.acStatus.includes("🎉 Confirmed") ? 'class="is-confirmed"' : '';
+            
+            let highlight = '';
+            if (game.acStatus.includes("🎉 Confirmed")) {
+                highlight = 'class="is-confirmed"';
+            } else if (game.acStatus.includes("⭐ Supported")) {
+                highlight = 'class="is-supported"';
+            }
         
             // template anti-cheats with a logo
             switch (game.acName) {
