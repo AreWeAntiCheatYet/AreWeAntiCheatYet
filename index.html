@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <link rel="stylesheet" href="/styles/sandstone.css" type="text/css">
+        <link rel="stylesheet" href="/styles/styles.css" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css" type="text/css">
+        <title>Are We Anti-Cheat Yet?</title>
+    </head>
+    <body>
+        <div>
+            <section class="hero is-dark">
+                <div class="hero-body">
+                    <div class="container has-text-centered">
+                        <p class="title" style="font-size: 150%">
+                            Are We Anti-Cheat Yet?
+                        </p>
+                        <p class="subtitle" style="font-size: 75%">
+                            A comprehensive and crowd-sourced list of games using anti-cheats and their compatibility with GNU/Linux or Wine.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        
+        
+            <section class="main-content columns">
+                <div class="container column is-10">
+                    <section class="section">
+                        <div class="columns is-mobile is-centered">
+                            <!-- Here comes the table -->
+                            <b-table :data="table" :columns="formatting" :row-class="(row, index) => color(row, index)"></b-table>
+                        </div>
+                
+                        <br/>
+                        <p class="has-text-centered">
+                            Don't see a game you're interested in on here yet? <a href="https://github.com/Starz0r/AreWeAntiCheatYet/issues/new?assignees=&labels=new-game%2Cstatus-change&template=0-new-game.yml&title=%3CGame+Name+Here%3E">Add it here!</a>
+                        </p>
+                    </section>
+                </div>
+            </section>
+        </div>  
+    </body>
+</html>

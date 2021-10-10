@@ -1,0 +1,8 @@
+body {
+    font-size: 200%;
+}
+
+tr.is-confirmed {
+    background: #167df0;
+    color: #fff;
+}
