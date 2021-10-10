@@ -158,7 +158,7 @@
     "acStatusUrl": "",
     "acStatus": "⭐ Supported",
     "acName": "Easy Anti-Cheat",
-    "gameUrl": ""
+    "gameUrl": "https://joinsquad.com/"
   },
   {
     "game": "New World",
@@ -194,5 +194,19 @@
     "acStatus": "❔ Unconfirmed",
     "acName": "BattlEye",
     "gameUrl": "https://arma3.com/"
+  },
+  {
+    "game": "Rogue Company",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.roguecompany.com/"
+  },
+  {
+    "game": "Realm Royale",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.realmroyale.com/"
   }
 ]
