@@ -29,8 +29,30 @@
                 <div class="container column is-10">
                     <section class="section">
                         <div class="columns is-mobile is-centered">
-                            <!-- Here comes the table -->
-                            <b-table :data="table" :columns="formatting" :row-class="(row, index) => color(row, index)"></b-table>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th draggable="false">
+                                            <div class="th-wrap">
+                                                <span class="is-relative"> Game </span>
+                                            </div>
+                                        </th>
+                                        <th draggable="false">
+                                            <div class="th-wrap">
+                                                <span class="is-relative"> Anti-Cheat </span>
+                                            </div>
+                                        </th>
+                                        <th draggable="false">
+                                            <div class="th-wrap">
+                                                <span class="is-relative"> Status </span>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody id="table-body">
+                                    <!-- Table-Data goes here -->
+                                </tbody>
+                            </table>
                         </div>
                 
                         <br/>
