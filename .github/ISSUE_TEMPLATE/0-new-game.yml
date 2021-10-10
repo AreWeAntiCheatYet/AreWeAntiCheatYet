@@ -46,7 +46,7 @@ body:
     id: anti-cheat-comment
     attributes:
       label: Proof of Mention
-      description: A reputible link where the developers either confirmed or deconfirmed the chance of support happening. If non-applicable, just put N/A. Otherwise, wording used in the link must be a resounding yes, with no doubt or chance of second guessing developer intent.
+      description: A reputable link where the developers either confirmed or deconfirmed the chance of support happening. If non-applicable, just put N/A. Otherwise, wording used in the link must be a resounding yes, with no doubt or chance of second guessing developer intent.
       placeholder: ex. https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic
     validations:
       required: true
