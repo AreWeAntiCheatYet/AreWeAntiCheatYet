@@ -11,7 +11,7 @@
 
         <br/>
         <p class="has-text-centered">
-            Last Updated: {{new Date().toDateString()}}, {{new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })}}
+            Last Updated: {{new Date().toDateString()}}, {{new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })}} ({{Intl.DateTimeFormat().resolvedOptions().timeZone}})
         </p>
     </section>
 </template>
