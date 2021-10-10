@@ -229,5 +229,12 @@
     "acStatus": "❔ Unconfirmed",
     "acName": "BattlEye",
     "gameUrl": "https://www.planetside2.com/"
+  },
+  {
+    "game": "For Honor",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.ubisoft.com/en-us/game/for-honor"
   }
 ]
