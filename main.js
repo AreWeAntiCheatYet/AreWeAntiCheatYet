@@ -1,5 +1,6 @@
-const beLogoPath = '/assets/battleye-logo.png';
-const eacLogoPath = '/assets/easy-logo.png';
+const beLogoPath = '/assets/battleye-logo.webp';
+const eacLogoPath = '/assets/easy-logo.webp';
+const vanguardLogoPath = '/assets/vanguard-logo.webp';
 
 const lastUpdateEl = document.getElementById('last-update');
 lastUpdateEl.innerHTML = new Date().toDateString(), new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
@@ -26,6 +27,10 @@ fetch("games.json")
         
                 case "Easy Anti-Cheat":
                     game.acName = `<img src="${eacLogoPath}" width="32" height="32"/> Easy Anti-Cheat`;
+                break;
+
+                case "Vanguard":
+                    game.acName = `<img src="${vanguardLogoPath}" width="32" height="32"/> Vanguard`;
                 break;
         
                 default:
