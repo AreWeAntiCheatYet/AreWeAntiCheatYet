@@ -215,5 +215,19 @@
     "acStatus": "❔ Unconfirmed",
     "acName": "nProtect GameGuard",
     "gameUrl": "https://pso2.jp/"
+  },
+  {
+    "game": "Unturned",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "BattlEye",
+    "gameUrl": ""
+  },
+  {
+    "game": "PlanetSide 2",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "BattlEye",
+    "gameUrl": "https://www.planetside2.com/"
   }
 ]

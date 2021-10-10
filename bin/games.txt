@@ -30,3 +30,5 @@ Insurgency: Sandstorm~Easy Anti-Cheat~❔ Unconfirmed
 Rogue Company~Easy Anti-Cheat~❔ Unconfirmed
 Realm Royale~Easy Anti-Cheat~❔ Unconfirmed
 Phantasy Star Online 2~nProtect GameGuard~❔ Unconfirmed
+Unturned~BattlEye~❔ Unconfirmed
+PlanetSide 2~BattlEye~❔ Unconfirmed
