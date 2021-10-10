@@ -187,5 +187,12 @@
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
     "gameUrl": "https://www.focus-entmt.com/en-us/games/insurgency-sandstorm"
+  },
+  {
+    "game": "ArmA 3",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "BattlEye",
+    "gameUrl": "https://arma3.com/"
   }
 ]
