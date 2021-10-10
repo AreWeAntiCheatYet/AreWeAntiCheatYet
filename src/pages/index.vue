@@ -55,12 +55,8 @@ export default {
 
     methods: {
         color(row, index) {
-            switch (row.acStatus) {
-                case "🎉 Confirmed":
-                    return 'is-confirmed';
-
-                default:
-                    break;
+            if (row.acStatus.includes("🎉 Confirmed")) {
+                return 'is-confirmed';
             }
         }
     },
