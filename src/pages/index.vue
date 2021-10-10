@@ -62,6 +62,8 @@ export default {
         color(row, index) {
             if (row.acStatus.includes("🎉 Confirmed")) {
                 return 'is-confirmed';
+            } else if (row.acStatus.includes("⭐ Supported")) {
+                return 'is-supported';
             }
         }
     },
@@ -71,6 +73,11 @@ export default {
 <style>
 tr.is-confirmed {
     background: #167df0;
+    color: #fff;
+}
+
+tr.is-supported {
+    background: #00B200;
     color: #fff;
 }
 </style>
