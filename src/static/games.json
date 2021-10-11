@@ -320,5 +320,33 @@
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
     "gameUrl": "https://www.bandainamcoent.com/games/dragon-ball-fighterz"
+  },
+  {
+    "game": "Enlisted",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://enlisted.net/"
+  },
+  {
+    "game": "Due Process",
+    "acStatusUrl": "https://www.reddit.com/r/dueprocess/comments/pu252w/bring_steam_decklinux_support_to_due_process/he04229/?context=1",
+    "acStatus": "🎉 Confirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://dueprocess.info/"
+  },
+  {
+    "game": "Rec Room",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://recroom.com/"
+  },
+  {
+    "game": "World War 3",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://worldwar3.com/"
   }
 ]
