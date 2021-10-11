@@ -8,4 +8,4 @@ A list is maintained in `bin/games.txt`, then the actual JSON table is generated
 
 ## I'd like to contribute to the list!
 
-First, make sure that the game you'd like to add isn't actually on the list. In the event that it isn't, file a new issue and follow the template and fill out all the required fields.
+First, make sure that the game you'd like to add isn't actually on the list. In the event that it isn't, **make sure there isn't an issue for it already**, and then file a new issue and follow the template and fill out all the required fields.
