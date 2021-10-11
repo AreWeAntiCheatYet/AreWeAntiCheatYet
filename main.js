@@ -2,6 +2,8 @@ const beLogoPath = '/assets/battleye-logo.webp';
 const eacLogoPath = '/assets/easy-logo.webp';
 const vanguardLogoPath = '/assets/vanguard-logo.webp';
 const nProtectLogoPath = '/assets/npgg-logo.webp';
+const xc3LogoPath = 'assets/xigncode3-logo.webp';
+const equ8Logo = 'assets/equ8-logo.webp';
 let gamesList;
 
 /* Show date of last update */
@@ -53,6 +55,14 @@ function loadTable(searchString = '') {
 
             case "nProtect GameGuard":
                 game.acName = `<img src="${nProtectLogoPath}" width="32" height="32"/> nProtect GameGuard`;
+            break;
+    
+            case "XIGNCODE3":
+                game.acName = `<img src="${xc3LogoPath}" width="32" height="32"/> XIGNCODE3`;
+            break;
+    
+            case "EQU8":
+                game.acName = `<img src="${equ8Logo}" width="32" height="32"/> EQU8`;
             break;
     
             default:
