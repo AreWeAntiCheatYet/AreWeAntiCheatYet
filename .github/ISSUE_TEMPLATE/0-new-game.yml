@@ -28,6 +28,7 @@ body:
         - BattlEye
         - XIGNCODE3
         - nProtect GameGuard
+        - EQU8
         - Other
     validations:
       required: true
