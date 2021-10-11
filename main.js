@@ -3,9 +3,16 @@ const eacLogoPath = '/assets/easy-logo.webp';
 const vanguardLogoPath = '/assets/vanguard-logo.webp';
 const nProtectLogoPath = '/assets/npgg-logo.webp';
 
+/* Show date of last update */
 const lastUpdateEl = document.getElementById('last-update');
-lastUpdateEl.innerHTML = new Date().toDateString(), new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
+lastUpdateEl.innerHTML = 
+    new Date().toDateString() + 
+    ', ' + 
+    new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }) + 
+    ' ' + 
+    Intl.DateTimeFormat().resolvedOptions().timeZone;
 
+/* load table */
 fetch("games.json")
     .then(response => response.json())
     .then(gamesList => {
@@ -72,8 +79,8 @@ function sortTable(n) {
             x = rows[i].getElementsByTagName("TD")[n];
             y = rows[i + 1].getElementsByTagName("TD")[n];
             // Make sure to take the innerhtml of the link, if it has one
-            x = x.innerHTML.includes('<a') ? x.childNodes[0].childNodes[0] : x;
-            y = y.innerHTML.includes('<a') ? y.childNodes[0].childNodes[0] : y;
+            x = x.querySelector('a') ? x.querySelector('a') : x;
+            y = y.querySelector('a') ? y.querySelector('a') : y;
 
             if (dir == "asc") {
                 if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
