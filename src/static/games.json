@@ -369,5 +369,47 @@
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
     "gameUrl": "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2"
+  },
+  {
+    "game": "Tom Clancy's Ghost Recon Wildlands",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.ubisoft.com/en-us/game/ghost-recon/breakpoint/wildlands"
+  },
+  {
+    "game": "Watch Dogs 2",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.ubisoft.com/en-us/game/watch-dogs/watch-dogs-2"
+  },
+  {
+    "game": "Zero Hour",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": ""
+  },
+  {
+    "game": "Ironsight",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2"
+  },
+  {
+    "game": "The Crew 2",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.ubisoft.com/en-us/game/the-crew/the-crew-2"
+  },
+  {
+    "game": "CRSED: F.O.A.D.",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://crsed.net/en/#!/"
   }
 ]
