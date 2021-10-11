@@ -1,6 +1,7 @@
 const beLogoPath = '/assets/battleye-logo.webp';
 const eacLogoPath = '/assets/easy-logo.webp';
 const vanguardLogoPath = '/assets/vanguard-logo.webp';
+const nProtectLogoPath = '/assets/npgg-logo.webp';
 
 const lastUpdateEl = document.getElementById('last-update');
 lastUpdateEl.innerHTML = new Date().toDateString(), new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
@@ -31,6 +32,10 @@ fetch("games.json")
 
                 case "Vanguard":
                     game.acName = `<img src="${vanguardLogoPath}" width="32" height="32"/> Vanguard`;
+                break;
+
+                case "nProtect GameGuard":
+                    game.acName = `<img src="${nProtectLogoPath}" width="32" height="32"/> nProtect GameGuard`;
                 break;
         
                 default:
