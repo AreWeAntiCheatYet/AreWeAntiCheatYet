@@ -77,7 +77,7 @@
     "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
   },
   {
-    "game": "Black Desert Online",
+    "game": "Black Desert",
     "gameUrl": "",
     "acName": "Easy Anti-Cheat",
     "acStatus": "❔ Unconfirmed",
@@ -147,13 +147,6 @@
     "acStatusUrl": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/43"
   },
   {
-    "gameUrl": "",
-    "acStatusUrl": "",
-    "game": "Hunt: Showdown",
-    "acStatus": "❔ Unconfirmed",
-    "acName": "Easy Anti-Cheat"
-  },
-  {
     "game": "Squad",
     "acStatusUrl": "",
     "acStatus": "⭐ Supported",
@@ -190,8 +183,8 @@
   },
   {
     "game": "ArmA 3",
-    "acStatusUrl": "",
-    "acStatus": "❔ Unconfirmed",
+    "acStatusUrl": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/103#issuecomment-939699485",
+    "acStatus": "🎉 Confirmed",
     "acName": "BattlEye",
     "gameUrl": "https://arma3.com/"
   },
@@ -236,5 +229,215 @@
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
     "gameUrl": "https://www.ubisoft.com/en-us/game/for-honor"
+  },
+  {
+    "game": "NARAKA: BLADEPOINT",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "NEAC Protect",
+    "gameUrl": "https://www.narakathegame.com/"
+  },
+  {
+    "game": "Genshin Impact",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "miHoYo Protect 2",
+    "gameUrl": ""
+  },
+  {
+    "game": "DJMAX RESPECT V",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "XIGNCODE3",
+    "gameUrl": "https://www.djmaxrespect.com/"
+  },
+  {
+    "game": "Plants vs. Zombies: Battle for Neighborville",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.ea.com/games/plants-vs-zombies/plants-vs-zombies-battle-for-neighborville"
+  },
+  {
+    "game": "Hell Let Loose",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.hellletloose.com/"
+  },
+  {
+    "game": "Bless Unleashed",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://blessunleashed.com/"
+  },
+  {
+    "game": "Rising Storm 2: Vietnam",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": ""
+  },
+  {
+    "game": "Pandemic Express - Zombie Escape",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": ""
+  },
+  {
+    "game": "SCUM",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://scumgame.com/"
+  },
+  {
+    "game": "Tom Clancy's The Division 2",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.ubisoft.com/en-us/game/the-division/the-division-2"
+  },
+  {
+    "game": "JUMP FORCE",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.bandainamcoent.com/games/jump-force"
+  },
+  {
+    "game": "Knockout City",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.ea.com/games/knockout-city"
+  },
+  {
+    "game": "DRAGON BALL FighterZ",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.bandainamcoent.com/games/dragon-ball-fighterz"
+  },
+  {
+    "game": "Enlisted",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://enlisted.net/"
+  },
+  {
+    "game": "Due Process",
+    "acStatusUrl": "https://www.reddit.com/r/dueprocess/comments/pu252w/bring_steam_decklinux_support_to_due_process/he04229/?context=1",
+    "acStatus": "🎉 Confirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://dueprocess.info/"
+  },
+  {
+    "game": "Rec Room",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://recroom.com/"
+  },
+  {
+    "game": "World War 3",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://worldwar3.com/"
+  },
+  {
+    "game": "iRacing",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.iracing.com/"
+  },
+  {
+    "game": "Survarium",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "BattlEye",
+    "gameUrl": "https://survarium.com/"
+  },
+  {
+    "game": "DRAGON BALL XENOVERSE 2",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2"
+  },
+  {
+    "game": "Tom Clancy's Ghost Recon Wildlands",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.ubisoft.com/en-us/game/ghost-recon/breakpoint/wildlands"
+  },
+  {
+    "game": "Watch Dogs 2",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.ubisoft.com/en-us/game/watch-dogs/watch-dogs-2"
+  },
+  {
+    "game": "Zero Hour",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": ""
+  },
+  {
+    "game": "Ironsight",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2"
+  },
+  {
+    "game": "The Crew 2",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.ubisoft.com/en-us/game/the-crew/the-crew-2"
+  },
+  {
+    "game": "CRSED: F.O.A.D.",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://crsed.net/en/#!/"
+  },
+  {
+    "game": "STAR WARS™: Squadrons",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.ea.com/games/starwars/squadrons"
+  },
+  {
+    "game": "Diabotical",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "EQU8",
+    "gameUrl": "https://www.diabotical.com/"
+  },
+  {
+    "game": "Totally Accurate Battlegrounds",
+    "acStatusUrl": "https://twitter.com/landfallgames/status/1377947424338100227",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "EQU8",
+    "gameUrl": ""
+  },
+  {
+    "game": "Splitgate",
+    "acStatusUrl": "",
+    "acStatus": "⭐ Supported",
+    "acName": "EQU8",
+    "gameUrl": "https://www.splitgate.com/"
   }
 ]

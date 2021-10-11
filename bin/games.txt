@@ -19,13 +19,12 @@ Hunt: Showdown~Easy Anti-Cheat~❔ Unconfirmed
 Rust~Easy Anti-Cheat~🎉 Confirmed
 War Thunder~Easy Anti-Cheat~⭐ Supported
 7 Days to Die~Easy Anti-Cheat~⭐ Supported
-Hunt: Showdown~Easy Anti-Cheat~❔ Unconfirmed
 Squad~Easy Anti-Cheat~⭐ Supported
 New World~Easy Anti-Cheat~❔ Unconfirmed
 Warhammer: Vermintide 2~Easy Anti-Cheat~❔ Unconfirmed
 Escape From Tarkov~BattlEye~❔ Unconfirmed
 Insurgency: Sandstorm~Easy Anti-Cheat~❔ Unconfirmed
-ArmA 3~BattlEye~❔ Unconfirmed
+ArmA 3~BattlEye~🎉 Confirmed
 Insurgency: Sandstorm~Easy Anti-Cheat~❔ Unconfirmed
 Rogue Company~Easy Anti-Cheat~❔ Unconfirmed
 Realm Royale~Easy Anti-Cheat~❔ Unconfirmed
@@ -33,3 +32,33 @@ Phantasy Star Online 2~nProtect GameGuard~❔ Unconfirmed
 Unturned~BattlEye~❔ Unconfirmed
 PlanetSide 2~BattlEye~❔ Unconfirmed
 For Honor~Easy Anti-Cheat~❔ Unconfirmed
+NARAKA: BLADEPOINT~NEAC Protect~❔ Unconfirmed
+Genshin Impact~miHoYo Protect 2~❔ Unconfirmed
+DJMAX RESPECT V~XIGNCODE3~❔ Unconfirmed
+Plants vs. Zombies: Battle for Neighborville~Easy Anti-Cheat~❔ Unconfirmed
+Hell Let Loose~Easy Anti-Cheat~❔ Unconfirmed
+Bless Unleashed~Easy Anti-Cheat~❔ Unconfirmed
+Rising Storm 2: Vietnam~Easy Anti-Cheat~❔ Unconfirmed
+Pandemic Express - Zombie Escape~Easy Anti-Cheat~❔ Unconfirmed
+SCUM~Easy Anti-Cheat~❔ Unconfirmed
+Tom Clancy's The Division 2~Easy Anti-Cheat~❔ Unconfirmed
+JUMP FORCE~Easy Anti-Cheat~❔ Unconfirmed
+Knockout City~Easy Anti-Cheat~❔ Unconfirmed
+DRAGON BALL FighterZ~Easy Anti-Cheat~❔ Unconfirmed
+Enlisted~Easy Anti-Cheat~❔ Unconfirmed
+Due Process~Easy Anti-Cheat~🎉 Confirmed
+Rec Room~Easy Anti-Cheat~❔ Unconfirmed
+World War 3~Easy Anti-Cheat~❔ Unconfirmed
+iRacing~Easy Anti-Cheat~❔ Unconfirmed
+Survarium~BattlEye~❔ Unconfirmed
+DRAGON BALL XENOVERSE 2~Easy Anti-Cheat~❔ Unconfirmed
+Tom Clancy's Ghost Recon Wildlands~Easy Anti-Cheat~❔ Unconfirmed
+Watch Dogs 2~Easy Anti-Cheat~❔ Unconfirmed
+Zero Hour~Easy Anti-Cheat~❔ Unconfirmed
+Ironsight~Easy Anti-Cheat~❔ Unconfirmed
+The Crew 2~Easy Anti-Cheat~❔ Unconfirmed
+CRSED: F.O.A.D.~Easy Anti-Cheat~❔ Unconfirmed
+STAR WARS™: Squadrons~Easy Anti-Cheat~❔ Unconfirmed
+Diabotical~EQU8~❔ Unconfirmed
+Totally Accurate Battlegrounds~EQU8~❔ Unconfirmed
+Splitgate~EQU8~⭐ Supported
