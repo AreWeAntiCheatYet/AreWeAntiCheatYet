@@ -53,6 +53,10 @@ export default {
                 case "XIGNCODE3":
                     game.acName = `<img src="` + xc3Logo + `" width="32" height="32"/> XIGNCODE3`;
                 break;
+ 
+                 case "EQU8":
+                    game.acName = `<img src="` + equ8Logo + `" width="32" height="32"/> EQU8`;
+                break;
 
                 default:
                     break;
