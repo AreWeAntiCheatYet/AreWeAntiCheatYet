@@ -418,5 +418,12 @@
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
     "gameUrl": "https://www.ea.com/games/starwars/squadrons"
+  },
+  {
+    "game": "Diabotical",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "EQU8",
+    "gameUrl": "https://www.diabotical.com/"
   }
 ]
