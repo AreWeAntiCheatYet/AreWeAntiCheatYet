@@ -411,5 +411,12 @@
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
     "gameUrl": "https://crsed.net/en/#!/"
+  },
+  {
+    "game": "STAR WARS™: Squadrons",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.ea.com/games/starwars/squadrons"
   }
 ]
