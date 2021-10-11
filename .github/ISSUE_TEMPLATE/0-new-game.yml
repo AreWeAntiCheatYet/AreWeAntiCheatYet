@@ -26,6 +26,7 @@ body:
       options:
         - Easy Anti-Cheat
         - BattlEye
+        - XIGNCODE3
         - nProtect GameGuard
         - Other
     validations:
