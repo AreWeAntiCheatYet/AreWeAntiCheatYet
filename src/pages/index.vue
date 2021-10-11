@@ -23,6 +23,7 @@ const beLogo = require("~/assets/battleye-logo.webp");
 const eacLogo = require("~/assets/easy-logo.webp");
 const vanguardLogo = require("~/assets/vanguard-logo.webp");
 const npggLogo = require("~/assets/npgg-logo.webp");
+const xc3Logo = require("~/assets/xigncode3-logo.webp");
 
 export default {
     name: 'HomePage',
@@ -47,6 +48,10 @@ export default {
 
                 case "nProtect GameGuard":
                     game.acName = `<img src="` + npggLogo + `" width="32" height="32"/> nProtect GameGuard`;
+                break;
+
+                case "XIGNCODE3":
+                    game.acName = `<img src="` + xc3Logo + `" width="32" height="32"/> XIGNCODE3`;
                 break;
 
                 default:
