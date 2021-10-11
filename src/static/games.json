@@ -420,11 +420,18 @@
     "gameUrl": "https://www.ea.com/games/starwars/squadrons"
   },
   {
+    "game": "Diabotical",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "EQU8",
+    "gameUrl": "https://www.diabotical.com/"
+  },
+  {
     "game": "Totally Accurate Battlegrounds",
     "acStatusUrl": "https://twitter.com/landfallgames/status/1377947424338100227",
-    "acStatus": "🚫 Denied",
+    "acStatus": "❔ Unconfirmed",
     "acName": "EQU8",
-    "gameUrl": "https://store.steampowered.com/app/823130/Totally_Accurate_Battlegrounds/"
+    "gameUrl": ""
   },
   {
     "game": "Splitgate",
@@ -433,5 +440,4 @@
     "acName": "EQU8",
     "gameUrl": "https://www.splitgate.com/"
   }
- 
 ]

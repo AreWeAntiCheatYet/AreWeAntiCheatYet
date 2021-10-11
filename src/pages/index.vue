@@ -24,7 +24,7 @@ const eacLogo = require("~/assets/easy-logo.webp");
 const vanguardLogo = require("~/assets/vanguard-logo.webp");
 const npggLogo = require("~/assets/npgg-logo.webp");
 const xc3Logo = require("~/assets/xigncode3-logo.webp");
-const equ8Logo = require("~/assets/equ8logo.svg");
+const equ8Logo = require("~/assets/equ8-logo.webp");
 
 export default {
     name: 'HomePage',
@@ -54,8 +54,8 @@ export default {
                 case "XIGNCODE3":
                     game.acName = `<img src="` + xc3Logo + `" width="32" height="32"/> XIGNCODE3`;
                 break;
- 
-                 case "EQU8":
+
+                case "EQU8":
                     game.acName = `<img src="` + equ8Logo + `" width="32" height="32"/> EQU8`;
                 break;
 
