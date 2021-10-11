@@ -62,3 +62,4 @@ STAR WARS™: Squadrons~Easy Anti-Cheat~❔ Unconfirmed
 Diabotical~EQU8~❔ Unconfirmed
 Totally Accurate Battlegrounds~EQU8~❔ Unconfirmed
 Splitgate~EQU8~⭐ Supported
+Counter-Strike: Global Offensive~VAC~⭐ Supported
