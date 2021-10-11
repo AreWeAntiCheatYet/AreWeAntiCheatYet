@@ -29,10 +29,24 @@
   },
   {
     "game": "Valorant",
-    "gameUrl": "",
+    "gameUrl": "https://playvalorant.com",
     "acName": "Vanguard",
     "acStatus": "❔ Unconfirmed",
     "acStatusUrl": ""
+  },
+  {
+    "game": "Halo Infinite",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatus": "❔ Unconfirmed",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Back 4 Blood",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.back4blood.com/"
   },
   {
     "game": "Paladins",
@@ -144,7 +158,7 @@
     "acStatusUrl": "",
     "acStatus": "⭐ Supported",
     "acName": "Easy Anti-Cheat",
-    "gameUrl": ""
+    "gameUrl": "https://joinsquad.com/"
   },
   {
     "game": "New World",
@@ -152,5 +166,75 @@
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
     "gameUrl": "https://newworld.com"
+  },
+  {
+    "game": "Warhammer: Vermintide 2",
+    "acStatusUrl": "https://support.fatshark.se/hc/en-us/articles/4408080108817--PC-Regarding-Easy-Anti-Cheat-and-Linux-Wine-Proton-Support",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.vermintide.com/"
+  },
+  {
+    "game": "Escape From Tarkov",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "BattlEye",
+    "gameUrl": "https://www.escapefromtarkov.com/"
+  },
+  {
+    "game": "Insurgency: Sandstorm",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.focus-entmt.com/en-us/games/insurgency-sandstorm"
+  },
+  {
+    "game": "ArmA 3",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "BattlEye",
+    "gameUrl": "https://arma3.com/"
+  },
+  {
+    "game": "Rogue Company",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.roguecompany.com/"
+  },
+  {
+    "game": "Realm Royale",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.realmroyale.com/"
+  },
+  {
+    "game": "Phantasy Star Online 2",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "nProtect GameGuard",
+    "gameUrl": "https://pso2.jp/"
+  },
+  {
+    "game": "Unturned",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "BattlEye",
+    "gameUrl": ""
+  },
+  {
+    "game": "PlanetSide 2",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "BattlEye",
+    "gameUrl": "https://www.planetside2.com/"
+  },
+  {
+    "game": "For Honor",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.ubisoft.com/en-us/game/for-honor"
   }
 ]
