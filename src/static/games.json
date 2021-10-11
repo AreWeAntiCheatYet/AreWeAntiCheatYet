@@ -362,5 +362,12 @@
     "acStatus": "❔ Unconfirmed",
     "acName": "BattlEye",
     "gameUrl": "https://survarium.com/"
+  },
+  {
+    "game": "DRAGON BALL XENOVERSE 2",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2"
   }
 ]
