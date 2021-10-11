@@ -24,6 +24,7 @@ const eacLogo = require("~/assets/easy-logo.webp");
 const vanguardLogo = require("~/assets/vanguard-logo.webp");
 const npggLogo = require("~/assets/npgg-logo.webp");
 const xc3Logo = require("~/assets/xigncode3-logo.webp");
+const equ8Logo = require("~/assets/equ8logo.svg");
 
 export default {
     name: 'HomePage',
