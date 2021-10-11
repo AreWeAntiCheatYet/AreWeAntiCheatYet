@@ -348,5 +348,19 @@
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
     "gameUrl": "https://worldwar3.com/"
+  },
+  {
+    "game": "iRacing",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.iracing.com/"
+  },
+  {
+    "game": "Survarium",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "BattlEye",
+    "gameUrl": "https://survarium.com/"
   }
 ]
