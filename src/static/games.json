@@ -147,13 +147,6 @@
     "acStatusUrl": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/43"
   },
   {
-    "gameUrl": "",
-    "acStatusUrl": "",
-    "game": "Hunt: Showdown",
-    "acStatus": "❔ Unconfirmed",
-    "acName": "Easy Anti-Cheat"
-  },
-  {
     "game": "Squad",
     "acStatusUrl": "",
     "acStatus": "⭐ Supported",
