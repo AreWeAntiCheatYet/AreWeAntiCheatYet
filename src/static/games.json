@@ -313,5 +313,12 @@
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
     "gameUrl": "https://www.ea.com/games/knockout-city"
+  },
+  {
+    "game": "DRAGON BALL FighterZ",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.bandainamcoent.com/games/dragon-ball-fighterz"
   }
 ]
