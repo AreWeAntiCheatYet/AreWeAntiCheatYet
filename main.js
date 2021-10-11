@@ -2,6 +2,7 @@ const beLogoPath = '/assets/battleye-logo.webp';
 const eacLogoPath = '/assets/easy-logo.webp';
 const vanguardLogoPath = '/assets/vanguard-logo.webp';
 const nProtectLogoPath = '/assets/npgg-logo.webp';
+let gamesList;
 
 /* Show date of last update */
 const lastUpdateEl = document.getElementById('last-update');
@@ -12,64 +13,65 @@ lastUpdateEl.innerHTML =
     ' ' + 
     Intl.DateTimeFormat().resolvedOptions().timeZone;
 
-loadTable();
+fetch("games.json")
+    .then(response => response.json())
+    .then(response => { 
+        gamesList = response;
+        loadTable();
+    });
 
 function loadTable(searchString = '') {
-    fetch("games.json")
-        .then(response => response.json())
-        .then(gamesList => {
-            const tableBody = document.getElementById('table-body');
-            tableBody.innerHTML = '';
-            for (let i = 0; i < gamesList.length; i++) {
-                const game = gamesList[i];
+    const tableBody = document.getElementById('table-body');
+    tableBody.innerHTML = '';
+    for (let i = 0; i < gamesList.length; i++) {
+        const game = gamesList[i];
 
-                if (searchString && !game.game.includes(searchString)) {
-                    continue;
-                }
+        if (searchString && !game.game.includes(searchString)) {
+            continue;
+        }
+
+        let highlight = '';
+        if (game.acStatus.includes("🎉 Confirmed")) {
+            highlight = 'class="is-confirmed"';
+        } else if (game.acStatus.includes("⭐ Supported")) {
+            highlight = 'class="is-supported"';
+        }
     
-                let highlight = '';
-                if (game.acStatus.includes("🎉 Confirmed")) {
-                    highlight = 'class="is-confirmed"';
-                } else if (game.acStatus.includes("⭐ Supported")) {
-                    highlight = 'class="is-supported"';
-                }
-            
-                // template anti-cheats with a logo
-                switch (game.acName) {
-                    case "BattlEye":
-                        game.acName = `<img src="${beLogoPath}" width="32" height="32"/> BattlEye`;
-                    break;
-            
-                    case "Easy Anti-Cheat":
-                        game.acName = `<img src="${eacLogoPath}" width="32" height="32"/> Easy Anti-Cheat`;
-                    break;
+        // template anti-cheats with a logo
+        switch (game.acName) {
+            case "BattlEye":
+                game.acName = `<img src="${beLogoPath}" width="32" height="32"/> BattlEye`;
+            break;
     
-                    case "Vanguard":
-                        game.acName = `<img src="${vanguardLogoPath}" width="32" height="32"/> Vanguard`;
-                    break;
+            case "Easy Anti-Cheat":
+                game.acName = `<img src="${eacLogoPath}" width="32" height="32"/> Easy Anti-Cheat`;
+            break;
+
+            case "Vanguard":
+                game.acName = `<img src="${vanguardLogoPath}" width="32" height="32"/> Vanguard`;
+            break;
+
+            case "nProtect GameGuard":
+                game.acName = `<img src="${nProtectLogoPath}" width="32" height="32"/> nProtect GameGuard`;
+            break;
     
-                    case "nProtect GameGuard":
-                        game.acName = `<img src="${nProtectLogoPath}" width="32" height="32"/> nProtect GameGuard`;
-                    break;
-            
-                    default:
-                        break;
-                }
-            
-                // link to the status url
-                if (game.acStatusUrl !== "") {
-                    game.acStatus = `<a href="` + game.acStatusUrl + `">` + game.acStatus + `</a>`;
-                }
-            
-                tableBody.innerHTML += `
-                    <tr draggable="false" ${highlight}>
-                        <td><span>${game.game}</span></td>
-                        <td><span>${game.acName}</span></td>
-                        <td><span>${game.acStatus}</span></td>
-                    </tr>
-                `;
-        };
-    });
+            default:
+                break;
+        }
+    
+        // link to the status url
+        if (game.acStatusUrl !== "") {
+            game.acStatus = `<a href="` + game.acStatusUrl + `">` + game.acStatus + `</a>`;
+        }
+    
+        tableBody.innerHTML += `
+            <tr draggable="false" ${highlight}>
+                <td><span>${game.game}</span></td>
+                <td><span>${game.acName}</span></td>
+                <td><span>${game.acStatus}</span></td>
+            </tr>
+        `;
+    };
 }
 
 function sortTable(n) {
