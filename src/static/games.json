@@ -183,8 +183,8 @@
   },
   {
     "game": "ArmA 3",
-    "acStatusUrl": "",
-    "acStatus": "❔ Unconfirmed",
+    "acStatusUrl": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/103#issuecomment-939699485",
+    "acStatus": "🎉 Confirmed",
     "acName": "BattlEye",
     "gameUrl": "https://arma3.com/"
   },
@@ -292,5 +292,26 @@
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
     "gameUrl": "https://scumgame.com/"
+  },
+  {
+    "game": "Tom Clancy's The Division 2",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.ubisoft.com/en-us/game/the-division/the-division-2"
+  },
+  {
+    "game": "JUMP FORCE",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.bandainamcoent.com/games/jump-force"
+  },
+  {
+    "game": "Knockout City",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "gameUrl": "https://www.ea.com/games/knockout-city"
   }
 ]
