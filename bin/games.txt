@@ -62,3 +62,9 @@ STAR WARS™: Squadrons~Easy Anti-Cheat~❔ Unconfirmed
 Diabotical~EQU8~❔ Unconfirmed
 Totally Accurate Battlegrounds~EQU8~❔ Unconfirmed
 Splitgate~EQU8~⭐ Supported
+Counter-Strike: Global Offensive~VAC~⭐ Supported
+Team Fortress 2~VAC~⭐ Supported
+Dota 2~VAC~⭐ Supported
+Call of Duty®: Black Ops III~VAC~⭐ Supported
+Garry's Mod~VAC~⭐ Supported
+Dying Light~VAC~⭐ Supported

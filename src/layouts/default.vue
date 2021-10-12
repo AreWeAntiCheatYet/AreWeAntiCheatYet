@@ -8,7 +8,7 @@
                         Are We Anti-Cheat Yet?
                     </p>
                     <p class="subtitle" style="font-size: 75%">
-                        A comprehensive and crowd-sourced list of games using anti-cheats and their compatibility with GNU/Linux or Wine.
+                        A comprehensive and crowd-sourced list of games using anti-cheats and their compatibility with GNU/Linux or Wine/Proton.
                     </p>
                 </div>
             </div>
