@@ -70,7 +70,7 @@ export default {
 
             // link to the status url
             if (game.acStatusUrl !== "") {
-                game.acStatus = `<a href="` + game.acStatusUrl + `">` + game.acStatus + `</a>`;
+                game.acStatus = game.acStatus.substring(0,2) + `<a href="` + game.acStatusUrl + `">` + game.acStatus.substring(2, game.acStatus.len) + `</a>`;
             }
 
             gamesList[i] = game;
