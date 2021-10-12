@@ -3,7 +3,8 @@ const eacLogoPath = '/assets/easy-logo.webp';
 const vanguardLogoPath = '/assets/vanguard-logo.webp';
 const nProtectLogoPath = '/assets/npgg-logo.webp';
 const xc3LogoPath = 'assets/xigncode3-logo.webp';
-const equ8Logo = 'assets/equ8-logo.webp';
+const equ8LogoPath = 'assets/equ8-logo.webp';
+const vacLogoPath = 'assets/vac-logo.webp';
 let gamesList;
 
 /* Show date of last update */
@@ -42,27 +43,31 @@ function loadTable(searchString = '') {
         // template anti-cheats with a logo
         switch (game.acName) {
             case "BattlEye":
-                game.acName = `<img src="${beLogoPath}" width="32" height="32"/> BattlEye`;
+                game.acName = `<img src="${beLogoPath}" width="32" height="32" alt/> BattlEye`;
             break;
     
             case "Easy Anti-Cheat":
-                game.acName = `<img src="${eacLogoPath}" width="32" height="32"/> Easy Anti-Cheat`;
+                game.acName = `<img src="${eacLogoPath}" width="32" height="32" alt/> Easy Anti-Cheat`;
             break;
 
             case "Vanguard":
-                game.acName = `<img src="${vanguardLogoPath}" width="32" height="32"/> Vanguard`;
+                game.acName = `<img src="${vanguardLogoPath}" width="32" height="32" alt/> Vanguard`;
             break;
 
             case "nProtect GameGuard":
-                game.acName = `<img src="${nProtectLogoPath}" width="32" height="32"/> nProtect GameGuard`;
+                game.acName = `<img src="${nProtectLogoPath}" width="32" height="32" alt/> nProtect GameGuard`;
             break;
     
             case "XIGNCODE3":
-                game.acName = `<img src="${xc3LogoPath}" width="32" height="32"/> XIGNCODE3`;
+                game.acName = `<img src="${xc3LogoPath}" width="32" height="32" alt/> XIGNCODE3`;
             break;
     
             case "EQU8":
-                game.acName = `<img src="${equ8Logo}" width="32" height="32"/> EQU8`;
+                game.acName = `<img src="${equ8LogoPath}" width="32" height="32" alt/> EQU8`;
+            break;
+
+            case "VAC":
+                game.acName = `<img src="${vacLogoPath}" width="32" height="32" alt/> VAC`;
             break;
     
             default:
