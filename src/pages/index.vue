@@ -19,12 +19,12 @@
 <script>
 const gamesList = require("~/static/games.json");
 
-const beLogo = require("~/assets/battleye-logo.webp");
-const eacLogo = require("~/assets/easy-logo.webp");
+const beLogo       = require("~/assets/battleye-logo.webp");
+const eacLogo      = require("~/assets/easy-logo.webp");
 const vanguardLogo = require("~/assets/vanguard-logo.webp");
-const npggLogo = require("~/assets/npgg-logo.webp");
-const xc3Logo = require("~/assets/xigncode3-logo.webp");
-const equ8Logo = require("~/assets/equ8-logo.webp");
+const npggLogo     = require("~/assets/npgg-logo.webp");
+const xc3Logo      = require("~/assets/xigncode3-logo.webp");
+const equ8Logo     = require("~/assets/equ8-logo.webp");
 
 export default {
     name: 'HomePage',
@@ -63,19 +63,32 @@ export default {
                     break;
             }
 
-            // link to the status url
-            if (game.acStatusUrl !== "") {
-                game.acStatus = `<a href="` + game.acStatusUrl + `">` + game.acStatus + `</a>`;
+            // Generate statSource property
+            if (game.acStatusUrl !== '') {
+                let buttonStyle = 'uk-button-primary';
+
+                if (game.acStatus === '🎉 Confirmed')
+                    buttonStyle = 'uk-button-default';
+
+                game.statSource = '<a class="uk-button ' + buttonStyle + '" href="' + game.acStatusUrl + '" target="_blank">Source</a>';
             }
+
+            else game.statSource = '';
 
             gamesList[i] = game;
         }
 
         return {
             table: gamesList,
-            formatting: [{field: 'game', label: 'Game', numeric: false, sortable: true, searchable: true}, {field: 'acName', label: 'Anti-Cheat'}, {field: 'acStatus', label: 'Status', sortable: true}]
+            formatting: [
+                { field: 'game', label: 'Game', numeric: false, sortable: true, searchable: true },
+                { field: 'acName', label: 'Anti-Cheat' },
+                { field: 'acStatus', label: 'Status', sortable: true },
+                { field: 'statSource', label: 'Source' }
+            ]
         }
     },
+    
     fetchOnServer: true,
 
     methods: {
@@ -91,13 +104,126 @@ export default {
 </script>
 
 <style>
-tr.is-confirmed {
-    background: #167df0;
-    color: #fff;
-}
+    tr.is-confirmed
+    {
+        background: #167df0;
+        color: #fff;
+    }
 
-tr.is-supported {
-    background: #00B200;
-    color: #fff;
-}
+    tr.is-confirmed a
+    {
+        color: #fff;
+    }
+
+    tr.is-supported
+    {
+        background: #00B200;
+        color: #fff;
+    }
+
+    tr.is-supported a
+    {
+        color: #fff;
+    }
+
+    td span
+    {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    td span img
+    {
+        margin: 0 8px;
+    }
+
+    /*
+        UIKit primary button
+        https://getuikit.com/docs/button
+    */
+
+    .uk-button
+    {
+        margin: 0;
+        border: none;
+        overflow: visible;
+        font: inherit;
+        color: inherit;
+        -webkit-appearance: none;
+        border-radius: 0;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 0 30px;
+        vertical-align: middle;
+        font-size: 14px;
+        line-height: 38px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: .1s ease-in-out;
+        transition-property: color,background-color,border-color;
+    }
+
+    .uk-button:not(:disabled)
+    {
+        cursor: pointer;
+    }
+
+    .uk-button:hover
+    {
+        text-decoration: none;
+    }
+
+    .uk-button:focus
+    {
+        outline:none
+    }
+
+    /* Default button styles */
+
+    .uk-button-default
+    {
+        background-color:transparent;
+        color:#222;
+        border:1px solid #e5e5e5;
+    }
+
+    .uk-button-default:hover,
+    .uk-button-default:focus
+    {
+        background-color:transparent;
+        color:#222;
+        border-color:#b2b2b2;
+    }
+
+    .uk-button-default:active,
+    .uk-button-default.uk-active
+    {
+        background-color:transparent;
+        color:#222;
+        border-color:#999;
+    }
+
+    /* Primary button styles */
+
+    .uk-button-primary
+    {
+        background-color: #1e87f0;
+        color: #fff;
+        border: 1px solid transparent;
+    }
+
+    .uk-button-primary:hover,
+    .uk-button-primary:focus
+    {
+        background-color: #0f7ae5;
+        color: #fff;
+    }
+
+    .uk-button-primary:active,
+    .uk-button-primary.uk-active
+    {
+        background-color: #0e6dcd;
+        color: #fff;
+    }
 </style>

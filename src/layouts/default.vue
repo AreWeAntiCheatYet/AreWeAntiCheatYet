@@ -4,10 +4,10 @@
         <section class="hero is-dark">
             <div class="hero-body">
                 <div class="container has-text-centered">
-                    <p class="title" style="font-size: 150%">
+                    <p class="title">
                         Are We Anti-Cheat Yet?
                     </p>
-                    <p class="subtitle" style="font-size: 75%">
+                    <p class="subtitle">
                         A comprehensive and crowd-sourced list of games using anti-cheats and their compatibility with GNU/Linux or Wine.
                     </p>
                 </div>
@@ -25,7 +25,24 @@
 </template>
 
 <style>
-body {
-    font-size: 200%;
-}
+    body
+    {
+        font-size: 24px;
+    }
+
+    .hero
+    {
+        padding: 32px 0;
+    }
+
+    .hero .title
+    {
+        font-size: 150%;
+        margin-bottom: 48px;
+    }
+
+    .hero .subtitle
+    {
+        font-size: 75%;
+    }
 </style>
