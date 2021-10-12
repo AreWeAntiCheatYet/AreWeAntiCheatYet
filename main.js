@@ -29,7 +29,7 @@ function loadTable(searchString = '') {
     for (let i = 0; i < gamesList.length; i++) {
         const game = gamesList[i];
 
-        if (searchString && !game.game.includes(searchString)) {
+        if (searchString && !game.game.toLowerCase().includes(searchString.toLocaleLowerCase())) {
             continue;
         }
 
