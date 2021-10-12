@@ -6,7 +6,7 @@ A website dedicated to keeping track of which games have committed to bringing a
 
 ## How does this work?
 
-A list is maintained in `bin/games.txt`, then the actual JSON table is generated from running `bin/Make-List.ps1`, and placed in `src/static/`. On a new commit, the website is automatically statically regenerated.
+A list is maintained in `bin/games.txt`, then the actual JSON table is generated from running `bin/Make-List.ps1`. On a new commit, the website is automatically statically regenerated.
 
 ## I'd like to contribute to the list!
 
