@@ -29,6 +29,7 @@ body:
         - XIGNCODE3
         - nProtect GameGuard
         - EQU8
+        - VAC
         - Other
     validations:
       required: true
