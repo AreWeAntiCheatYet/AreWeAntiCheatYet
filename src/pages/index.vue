@@ -6,7 +6,7 @@
 
         <br/>
         <p class="has-text-centered">
-            Don't see a game you're interested in on here yet? <a href="https://github.com/Starz0r/AreWeAntiCheatYet/issues/new?assignees=&labels=new-game%2Cstatus-change&template=0-new-game.yml&title=%3CGame+Name+Here%3E">Add it here!</a>
+            Don’t see a game you’re interested in on here yet? <a href="https://github.com/Starz0r/AreWeAntiCheatYet/issues/new?assignees=&labels=new-game%2Cstatus-change&template=0-new-game.yml&title=%3CGame+Name+Here%3E">Add it here!</a>
         </p>
 
         <br/>
@@ -37,27 +37,27 @@ export default {
             // template anti-cheats with a logo
             switch (game.acName) {
                 case "BattlEye":
-                    game.acName = `<img src="` + beLogo + `" width="32" height="32"/> BattlEye`;
+                    game.acName = `<img src="` + beLogo + `" width="32" height="32" alt/> BattlEye`;
                 break;
 
                 case "Easy Anti-Cheat":
-                    game.acName = `<img src="` + eacLogo + `" width="32" height="32"/> Easy Anti-Cheat`;
+                    game.acName = `<img src="` + eacLogo + `" width="32" height="32" alt/> Easy Anti-Cheat`;
                 break;
 
                 case "Vanguard":
-                    game.acName = `<img src="` + vanguardLogo + `" width="32" height="32"/> Vanguard`;
+                    game.acName = `<img src="` + vanguardLogo + `" width="32" height="32" alt> Vanguard`;
                 break;
 
                 case "nProtect GameGuard":
-                    game.acName = `<img src="` + npggLogo + `" width="32" height="32"/> nProtect GameGuard`;
+                    game.acName = `<img src="` + npggLogo + `" width="32" height="32" alt/> nProtect GameGuard`;
                 break;
 
                 case "XIGNCODE3":
-                    game.acName = `<img src="` + xc3Logo + `" width="32" height="32"/> XIGNCODE3`;
+                    game.acName = `<img src="` + xc3Logo + `" width="32" height="32" alt/> XIGNCODE3`;
                 break;
 
                 case "EQU8":
-                    game.acName = `<img src="` + equ8Logo + `" width="32" height="32"/> EQU8`;
+                    game.acName = `<img src="` + equ8Logo + `" width="32" height="32" alt/> EQU8`;
                 break;
 
                 case "VAC":
