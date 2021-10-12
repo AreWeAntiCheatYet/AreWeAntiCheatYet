@@ -61,7 +61,7 @@ export default {
                 break;
 
                 case "VAC":
-                    game.acName = `<img src="` + vacLogo + `" width="32" height="32"/> VAC`;
+                    game.acName = `<img src="` + vacLogo + `" width="32" height="32" alt/> VAC`;
                 break;
 
                 default:

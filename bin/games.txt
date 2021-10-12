@@ -68,3 +68,6 @@ Dota 2~VAC~⭐ Supported
 Call of Duty®: Black Ops III~VAC~⭐ Supported
 Garry's Mod~VAC~⭐ Supported
 Dying Light~VAC~⭐ Supported
+SoulWorker~Easy Anti-Cheat~❔ Unconfirmed
+Tom Clancy's Ghost Recon Breakpoint~BattlEye~❔ Unconfirmed
+Digimon Masters Online~XIGNCODE3~❔ Unconfirmed
