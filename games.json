@@ -37,7 +37,7 @@
   {
     "game": "Halo Infinite",
     "gameUrl": "",
-    "acName": "Easy Anti-Cheat",
+    "acName": "Unknown",
     "acStatus": "❔ Unconfirmed",
     "acStatusUrl": ""
   },
@@ -64,7 +64,7 @@
   },
   {
     "game": "Rainbow Six: Siege",
-    "gameUrl": "",
+    "gameUrl": "https://ubisoft.com/en-us/game/rainbow-six/siege",
     "acName": "BattlEye",
     "acStatus": "❔ Unconfirmed",
     "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
@@ -402,7 +402,7 @@
     "game": "The Crew 2",
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
-    "acName": "Easy Anti-Cheat",
+    "acName": "BattlEye",
     "gameUrl": "https://www.ubisoft.com/en-us/game/the-crew/the-crew-2"
   },
   {
@@ -439,5 +439,68 @@
     "acStatus": "⭐ Supported",
     "acName": "EQU8",
     "gameUrl": "https://www.splitgate.com/"
+  },
+  {
+    "game": "Counter-Strike: Global Offensive",
+    "acStatus": "⭐ Supported",
+    "acName": "VAC",
+    "gameUrl": "",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Team Fortress 2",
+    "acStatus": "⭐ Supported",
+    "acName": "VAC",
+    "gameUrl": "",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Dota 2",
+    "acStatus": "⭐ Supported",
+    "acName": "VAC",
+    "gameUrl": "",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Call of Duty®: Black Ops III",
+    "acStatus": "⭐ Supported",
+    "acName": "VAC",
+    "gameUrl": "",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Garry's Mod",
+    "acStatus": "⭐ Supported",
+    "acName": "VAC",
+    "gameUrl": "",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Dying Light",
+    "acStatus": "⭐ Supported",
+    "acName": "VAC",
+    "gameUrl": "",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "SoulWorker",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "XIGNCODE3",
+    "gameUrl": "",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Tom Clancy's Ghost Recon Breakpoint",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "BattlEye",
+    "gameUrl": "https://www.ubisoft.com/en-us/game/ghost-recon/breakpoint",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Digimon Masters Online",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "XIGNCODE3",
+    "gameUrl": "https://dmo.gameking.com/",
+    "acStatusUrl": ""
   }
 ]

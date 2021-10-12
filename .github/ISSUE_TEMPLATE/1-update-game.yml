@@ -1,7 +1,7 @@
-name: Request Game
-description: Request a new game to add to the list
-title: "<Game Name Here>"
-labels: ["new-game", "status-change"]
+name: Update Game
+description: Request changes to a game that is already on the list
+title: "Update <Game Name Here>"
+
 body:
   - type: input
     id: game
@@ -10,30 +10,7 @@ body:
       placeholder: ex. Team Fortress 2
     validations:
       required: true
-  - type: input
-    id: game-url
-    attributes:
-      label: Game Website
-      description: A valid hyperlink to the game's website.
-      placeholder: ex. https://teamfortress.com
-    validations:
-      required: false
-  - type: dropdown
-    id: anti-cheat
-    attributes:
-      label: Anti-Cheat Software
-      description: Which anti-cheat vendor is the game running?
-      options:
-        - Easy Anti-Cheat
-        - BattlEye
-        - XIGNCODE3
-        - nProtect GameGuard
-        - EQU8
-        - VAC
-        - Other
-    validations:
-      required: true
-  - type: dropdown
+   - type: dropdown
     id: anti-cheat-status
     attributes:
       label: Status of the Anti-Cheat
@@ -45,7 +22,7 @@ body:
         - ⭐ Supported
     validations:
       required: true
-  - type: input
+ - type: input
     id: anti-cheat-comment
     attributes:
       label: Proof of Mention

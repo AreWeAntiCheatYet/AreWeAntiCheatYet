@@ -56,9 +56,18 @@ Tom Clancy's Ghost Recon Wildlands~Easy Anti-Cheat~❔ Unconfirmed
 Watch Dogs 2~Easy Anti-Cheat~❔ Unconfirmed
 Zero Hour~Easy Anti-Cheat~❔ Unconfirmed
 Ironsight~Easy Anti-Cheat~❔ Unconfirmed
-The Crew 2~Easy Anti-Cheat~❔ Unconfirmed
+The Crew 2~BattlEye~❔ Unconfirmed
 CRSED: F.O.A.D.~Easy Anti-Cheat~❔ Unconfirmed
 STAR WARS™: Squadrons~Easy Anti-Cheat~❔ Unconfirmed
 Diabotical~EQU8~❔ Unconfirmed
 Totally Accurate Battlegrounds~EQU8~❔ Unconfirmed
 Splitgate~EQU8~⭐ Supported
+Counter-Strike: Global Offensive~VAC~⭐ Supported
+Team Fortress 2~VAC~⭐ Supported
+Dota 2~VAC~⭐ Supported
+Call of Duty®: Black Ops III~VAC~⭐ Supported
+Garry's Mod~VAC~⭐ Supported
+Dying Light~VAC~⭐ Supported
+SoulWorker~Easy Anti-Cheat~❔ Unconfirmed
+Tom Clancy's Ghost Recon Breakpoint~BattlEye~❔ Unconfirmed
+Digimon Masters Online~XIGNCODE3~❔ Unconfirmed
