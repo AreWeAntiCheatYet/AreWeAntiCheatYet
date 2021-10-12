@@ -59,7 +59,7 @@ export default {
                 case "EQU8":
                     game.acName = `<img src="` + equ8Logo + `" width="32" height="32"/> EQU8`;
                 break;
- 
+
                 case "VAC":
                     game.acName = `<img src="` + vacLogo + `" width="32" height="32"/> VAC`;
                 break;
