@@ -35,37 +35,41 @@ export default {
             const game = gamesList[i];
 
             // template anti-cheats with a logo
-            switch (game.acName) {
-                case "BattlEye":
-                    game.acName = `<img src="` + beLogo + `" width="32" height="32" alt/> BattlEye`;
-                break;
+            game.acLabel = '';
+            for (let j = 0; j < game.acList.length; j++) {
+                switch (game.acList[j]) {
+                    case "BattlEye":
+                        game.acLabel += `<p><img src="` + beLogo + `" width="32" height="32" alt/> BattlEye</p>`;
+                        break;
 
-                case "Easy Anti-Cheat":
-                    game.acName = `<img src="` + eacLogo + `" width="32" height="32" alt/> Easy Anti-Cheat`;
-                break;
+                    case "Easy Anti-Cheat":
+                        game.acLabel += `<p><img src="` + eacLogo + `" width="32" height="32" alt/> Easy Anti-Cheat</p>`;
+                        break;
 
-                case "Vanguard":
-                    game.acName = `<img src="` + vanguardLogo + `" width="32" height="32" alt> Vanguard`;
-                break;
+                    case "Vanguard":
+                        game.acLabel += `<p><img src="` + vanguardLogo + `" width="32" height="32" alt> Vanguard</p>`;
+                        break;
 
-                case "nProtect GameGuard":
-                    game.acName = `<img src="` + npggLogo + `" width="32" height="32" alt/> nProtect GameGuard`;
-                break;
+                    case "nProtect GameGuard":
+                        game.acLabel += `<p><img src="` + npggLogo + `" width="32" height="32" alt/> nProtect GameGuard</p>`;
+                        break;
 
-                case "XIGNCODE3":
-                    game.acName = `<img src="` + xc3Logo + `" width="32" height="32" alt/> XIGNCODE3`;
-                break;
+                    case "XIGNCODE3":
+                        game.acLabel += `<p><img src="` + xc3Logo + `" width="32" height="32" alt/> XIGNCODE3</p>`;
+                        break;
 
-                case "EQU8":
-                    game.acName = `<img src="` + equ8Logo + `" width="32" height="32" alt/> EQU8`;
-                break;
+                    case "EQU8":
+                        game.acLabel += `<p><img src="` + equ8Logo + `" width="32" height="32" alt/> EQU8</p>`;
+                        break;
 
-                case "VAC":
-                    game.acName = `<img src="` + vacLogo + `" width="32" height="32" alt/> VAC`;
-                break;
+                    case "VAC":
+                        game.acLabel += `<p><img src="` + vacLogo + `" width="32" height="32" alt/> VAC</p>`;
+                        break;
 
-                default:
-                    break;
+                    default:
+                        game.acLabel += `<p>` + game.acList[j] + `</p>`;
+                        break;
+                }
             }
 
             // link to the status url
@@ -78,7 +82,7 @@ export default {
 
         return {
             table: gamesList,
-            formatting: [{field: 'game', label: 'Game', numeric: false, sortable: true, searchable: true}, {field: 'acName', label: 'Anti-Cheat'}, {field: 'acStatus', label: 'Status', sortable: true}]
+            formatting: [{field: 'game', label: 'Game', numeric: false, sortable: true, searchable: true}, {field: 'acLabel', label: 'Anti-Cheat'}, {field: 'acStatus', label: 'Status', sortable: true}]
         }
     },
     fetchOnServer: true,
