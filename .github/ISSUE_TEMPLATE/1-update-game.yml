@@ -10,7 +10,7 @@ body:
       placeholder: ex. Team Fortress 2
     validations:
       required: true
-   - type: dropdown
+  - type: dropdown
     id: anti-cheat-status
     attributes:
       label: Status of the Anti-Cheat
@@ -22,7 +22,7 @@ body:
         - ⭐ Supported
     validations:
       required: true
- - type: input
+  - type: input
     id: anti-cheat-comment
     attributes:
       label: Proof of Mention
