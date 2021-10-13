@@ -40,41 +40,41 @@ export default {
                 switch (game.acList[j]) {
                     case "BattlEye":
                         game.acLabel += `<p><img src="` + beLogo + `" width="32" height="32" alt/> BattlEye</p>`;
-                        break;
+                    break;
 
                     case "Easy Anti-Cheat":
                         game.acLabel += `<p><img src="` + eacLogo + `" width="32" height="32" alt/> Easy Anti-Cheat</p>`;
-                        break;
+                    break;
 
                     case "Vanguard":
                         game.acLabel += `<p><img src="` + vanguardLogo + `" width="32" height="32" alt> Vanguard</p>`;
-                        break;
+                    break;
 
                     case "nProtect GameGuard":
                         game.acLabel += `<p><img src="` + npggLogo + `" width="32" height="32" alt/> nProtect GameGuard</p>`;
-                        break;
+                    break;
 
                     case "XIGNCODE3":
                         game.acLabel += `<p><img src="` + xc3Logo + `" width="32" height="32" alt/> XIGNCODE3</p>`;
-                        break;
+                    break;
 
                     case "EQU8":
                         game.acLabel += `<p><img src="` + equ8Logo + `" width="32" height="32" alt/> EQU8</p>`;
-                        break;
+                    break;
 
                     case "VAC":
                         game.acLabel += `<p><img src="` + vacLogo + `" width="32" height="32" alt/> VAC</p>`;
-                        break;
+                    break;
 
                     default:
                         game.acLabel += `<p>` + game.acList[j] + `</p>`;
-                        break;
+                    break;
                 }
             }
 
             // link to the status url
             if (game.acStatusUrl !== "") {
-                //game.acStatus = game.acStatus.substring(0,2) + `<a href="` + game.acStatusUrl + `">` + game.acStatus.substring(2, game.acStatus.len) + `</a>`;
+                game.acStatus = game.acStatus.substring(0,2) + `<a href="` + game.acStatusUrl + `">` + game.acStatus.substring(2, game.acStatus.len) + `</a>`;
             }
 
             gamesList[i] = game;
