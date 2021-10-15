@@ -11,11 +11,11 @@
         <div class="row is-mobile is-centered">
             <div class="columns is-mobile is-centered" >
 
-            <b-progress format="percent" :max="100" size="is-large">
+            <b-progress format="percent" size="is-large">
             <template #bar>
                 <b-progress-bar :value="supportedPercent" type="is-success" show-value></b-progress-bar>
                 <b-progress-bar :value="conmfirmedPercent" type="is-info" show-value></b-progress-bar>
-                <b-progress-bar :value="unconfirmedPercent" type="" show-value></b-progress-bar>
+                <b-progress-bar :value="unconfirmedPercent"  show-value></b-progress-bar>
             </template>
             </b-progress>
             </div>
@@ -28,7 +28,21 @@
 
 
 export default {
-    props:['noUnconfirmed','noSupported','noConfirmed'],
+    props: {
+    noUnconfirmed:{
+        type:Number,
+        default:0
+    },
+    noSupported:{
+        type:Number,
+        default:0
+    },
+    noConfirmed:{
+        type:Number,
+        default:0
+    }
+  },
+  
     data(){
         const total=this.noUnconfirmed+this.noSupported+this.noConfirmed;
         
