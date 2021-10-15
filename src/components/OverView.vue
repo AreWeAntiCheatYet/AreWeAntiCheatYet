@@ -1,13 +1,11 @@
 <template>
     <div class="rows is-mobile is-centered">
 
-        <div class="row is-mobile is-centered">
-            <div class="columns is-mobile is-centered" >
+        <div class="pillRow row is-mobile is-centered">
                 <p class="pill isSupported" >⭐ Supported: {{noSupported}}</p>
                 <p class="pill isConfirmed">🎉 Confirmed {{noConfirmed}}</p>
                 <p class="pill isUnconfirmed">❔ Unconfirmed: {{noUnconfirmed}}</p>
                 <p class="pill isTotal">📈 Total: {{total}}</p>
-            </div>
         </div>
 
         <div class="row is-mobile is-centered">
@@ -48,8 +46,10 @@ export default {
     .pill{
         padding: 0.3rem 1rem 0.2rem 1rem;
         font-size: 1.5rem;
-        margin: 0 0.5rem 0 0.5rem;
+
+        /* margin: 0 0.5rem 0 0.5rem; */
         border-radius: 50rem;
+        min-width: fit-content;
         
     }
 
@@ -67,12 +67,21 @@ export default {
         padding: 0.2rem 1rem 0.2rem 1rem;
         border: 0.12rem solid black;
     }
+
     .isTotal{
         background: rgb(255, 174, 0);
     }
+
     .row{
         margin: 1rem 0 5rem 0;
     }
+
+    .pillRow{
+        display: flex;
+        flex-flow: row wrap;
+        gap: 1rem;
+    }
+
 
 </style>
 
