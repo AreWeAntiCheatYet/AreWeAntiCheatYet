@@ -41,37 +41,41 @@ function loadTable(searchString = '') {
         }
     
         // template anti-cheats with a logo
-        switch (game.acName) {
-            case "BattlEye":
-                game.acName = `<img src="${beLogoPath}" width="32" height="32" alt/> BattlEye`;
-            break;
-    
-            case "Easy Anti-Cheat":
-                game.acName = `<img src="${eacLogoPath}" width="32" height="32" alt/> Easy Anti-Cheat`;
-            break;
-
-            case "Vanguard":
-                game.acName = `<img src="${vanguardLogoPath}" width="32" height="32" alt/> Vanguard`;
-            break;
-
-            case "nProtect GameGuard":
-                game.acName = `<img src="${nProtectLogoPath}" width="32" height="32" alt/> nProtect GameGuard`;
-            break;
-    
-            case "XIGNCODE3":
-                game.acName = `<img src="${xc3LogoPath}" width="32" height="32" alt/> XIGNCODE3`;
-            break;
-    
-            case "EQU8":
-                game.acName = `<img src="${equ8LogoPath}" width="32" height="32" alt/> EQU8`;
-            break;
-
-            case "VAC":
-                game.acName = `<img src="${vacLogoPath}" width="32" height="32" alt/> VAC`;
-            break;
-    
-            default:
+        game.acLabel = '';
+        for (let j = 0; j < game.acList.length; j++) {
+            switch (game.acList[j]) {
+                case "BattlEye":
+                    game.acLabel += `<p><img src="${beLogoPath}" width="32" height="32" alt/> BattlEye</p>`;
                 break;
+        
+                case "Easy Anti-Cheat":
+                    game.acLabel += `<p><img src="${eacLogoPath}" width="32" height="32" alt/> Easy Anti-Cheat</p>`;
+                break;
+
+                case "Vanguard":
+                    game.acLabel += `<p><img src="${vanguardLogoPath}" width="32" height="32" alt/> Vanguard</p>`;
+                break;
+
+                case "nProtect GameGuard":
+                    game.acLabel += `<p><img src="${nProtectLogoPath}" width="32" height="32" alt/> nProtect GameGuard</p>`;
+                break;
+        
+                case "XIGNCODE3":
+                    game.acLabel += `<p><img src="${xc3LogoPath}" width="32" height="32" alt/> XIGNCODE3</p>`;
+                break;
+        
+                case "EQU8":
+                    game.acLabel += `<p><img src="${equ8LogoPath}" width="32" height="32" alt/> EQU8</p>`;
+                break;
+
+                case "VAC":
+                    game.acLabel += `<p><img src="${vacLogoPath}" width="32" height="32" alt/> VAC</p>`;
+                break;
+        
+                default:
+                    game.acLabel += `<p>` + game.acList[j] + `</p>`;
+                break;
+            }
         }
     
         // link to the status url
@@ -82,7 +86,7 @@ function loadTable(searchString = '') {
         tableBody.innerHTML += `
             <tr draggable="false" ${highlight}>
                 <td><span>${game.game}</span></td>
-                <td><span>${game.acName}</span></td>
+                <td><span>${game.acLabel}</span></td>
                 <td><span>${game.acStatus}</span></td>
             </tr>
         `;
