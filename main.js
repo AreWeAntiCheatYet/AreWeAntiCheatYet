@@ -77,10 +77,10 @@ function loadTable(searchString = '') {
                 break;
             }
         }
-    
+
         // link to the status url
         if (game.acStatusUrl !== "") {
-            game.acStatus = `<a href="` + game.acStatusUrl + `">` + game.acStatus + `</a>`;
+            game.acStatus = game.acStatus.substring(0,2) + `<a href="` + game.acStatusUrl + `">` + game.acStatus.substring(2, game.acStatus.len) + `</a>`;
         }
     
         tableBody.innerHTML += `
@@ -107,9 +107,6 @@ function sortTable(n) {
             shouldSwitch = false;
             x = rows[i].getElementsByTagName("TD")[n];
             y = rows[i + 1].getElementsByTagName("TD")[n];
-            // Make sure to take the innerhtml of the link, if it has one
-            x = x.querySelector('a') ? x.querySelector('a') : x;
-            y = y.querySelector('a') ? y.querySelector('a') : y;
 
             if (dir == "asc") {
                 if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
