@@ -241,7 +241,7 @@
     "gameUrl": "https://www.vermintide.com/"
   },
   {
-    "game": "Escape From Tarkov",
+    "game": "Escape from Tarkov",
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "BattlEye",
@@ -303,7 +303,7 @@
   {
     "game": "Unturned",
     "acStatusUrl": "",
-    "acStatus": "❔ Unconfirmed",
+    "acStatus": "⭐ Supported",
     "acName": "BattlEye",
     "acList": [
         "VAC",
