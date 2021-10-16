@@ -81,7 +81,7 @@
     "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
   },
   {
-    "game": "PLAYERUNKNOWN's Battlegrounds",
+    "game": "PUBG: BATTLEGROUNDS",
     "gameUrl": "",
     "acName": "BattlEye",
     "acList": [
@@ -101,7 +101,7 @@
     "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
   },
   {
-    "game": "Smite",
+    "game": "SMITE",
     "gameUrl": "",
     "acName": "Easy Anti-Cheat",
     "acList": [
@@ -182,13 +182,13 @@
   },
   {
     "game": "Rust",
-    "gameUrl": "",
+    "gameUrl": "https://rust.facepunch.com/",
     "acName": "Easy Anti-Cheat",
     "acList": [
         "Easy Anti-Cheat"
     ],
     "acStatus": "🎉 Confirmed",
-    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+    "acStatusUrl": "https://www.gamingonlinux.com/2021/07/garry-newman-of-facepunch-mentions-working-with-eac-for-rust-on-linux-with-proton"
   },
   {
     "game": "War Thunder",
@@ -306,6 +306,7 @@
     "acStatus": "❔ Unconfirmed",
     "acName": "BattlEye",
     "acList": [
+        "VAC",
         "BattlEye"
     ],
     "gameUrl": ""
@@ -788,6 +789,46 @@
     "acList": [
       "RICOCHET"
     ],
+    "acStatusUrl": ""
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "acName": "",
+    "gameUrl": "https://www.brawlhalla.com",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "game": "Brawlhalla",
+    "acStatusUrl": "https://www.gamingonlinux.com/2021/10/brawlhalla-to-get-easy-anti-cheat-dev-puts-up-beta-with-eac-working-on-linux-with-proton"
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "acName": "",
+    "gameUrl": "https://combatarms-r.valofe.com/",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "game": "Combat Arms: Reloaded",
+    "acStatusUrl": ""
+  },
+  {
+    "acStatus": "🎉 Confirmed",
+    "acName": "",
+    "gameUrl": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "game": "POLYGON",
+    "acStatusUrl": "https://twitter.com/RedasterPOLYGON/status/1443057152168325125?s=20"
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "acName": "",
+    "gameUrl": "https://www.callofduty.com/blackopscoldwar",
+    "acList": [
+      "RICOCHET"
+    ],
+    "game": "Call of Duty Black Ops: Cold War",
     "acStatusUrl": ""
   }
 ]

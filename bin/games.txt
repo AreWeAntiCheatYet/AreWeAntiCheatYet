@@ -6,9 +6,9 @@ Valorant~Vanguard~❔ Unconfirmed
 Halo Infinite~Easy Anti-Cheat~❔ Unconfirmed
 Back 4 Blood~Easy Anti-Cheat~❔ Unconfirmed
 Paladins~Easy Anti-Cheat~❔ Unconfirmed
-PLAYERUNKNOWN's Battlegrounds~BattlEye~❔ Unconfirmed
+PUBG: BATTLEGROUNDS~BattlEye~❔ Unconfirmed
 Rainbow Six: Siege~BattlEye~❔ Unconfirmed
-Smite~Easy Anti-Cheat~❔ Unconfirmed
+SMITE~Easy Anti-Cheat~❔ Unconfirmed
 Black Desert Online~Easy Anti-Cheat~❔ Unconfirmed
 Fall Guys: Ultimate Knockout~Easy Anti-Cheat~❔ Unconfirmed
 ARK: Survival Evolved~BattlEye~⭐ Supported
@@ -78,3 +78,7 @@ Dirty Bomb~Easy Anti-Cheat~❔ Unconfirmed
 Empyrion - Galactic Survival~Easy Anti-Cheat~❔ Unconfirmed
 Call of Duty: Modern Warfare (2019)~RICOCHET~❔ Unconfirmed
 Call of Duty: Warzone~RICOCHET~❔ Unconfirmed
+Brawlhalla~Easy Anti-Cheat~⭐ Supported
+Combat Arms: Reloaded~Easy Anti-Cheat~❔ Unconfirmed
+POLYGON~Easy Anti-Cheat~🎉 Confirmed
+Call of Duty Black Ops: Cold War~RICOCHET~❔ Unconfirmed
