@@ -719,5 +719,68 @@
     ],
     "gameUrl": "https://dmo.gameking.com/",
     "acStatusUrl": ""
+  },
+  {
+    "game": "Post Scriptum",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "https://postscriptumgame.com/",
+    "acName": [
+      "Easy Anti-Cheat"
+    ],
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Sector's Edge",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "https://sectorsedge.com/",
+    "acName": [
+      "Easy Anti-Cheat"
+    ],
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Worms Rumble",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "",
+    "acName": [
+      "Easy Anti-Cheat"
+    ],
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Dirty Bomb",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "",
+    "acName": [
+      "Easy Anti-Cheat"
+    ],
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Empyrion - Galactic Survival",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "",
+    "acName": [
+      "Easy Anti-Cheat"
+    ],
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Call of Duty: Modern Warfare (2019)",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "",
+    "acName": [
+      "RICOCHET"
+    ],
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Call of Duty: Warzone",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "https://www.callofduty.com/warzone",
+    "acName": [
+      "RICOCHET"
+    ],
+    "acStatusUrl": ""
   }
 ]
