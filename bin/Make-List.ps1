@@ -7,7 +7,9 @@ ForEach ($line in $FILE) {
 	$TABLE += @{}
 	$TABLE[$i].game = $info[0]
 	$TABLE[$i].gameUrl = ""
-	$TABLE[$i].acName = $info[1]
+	$TABLE[$i].acName = ""
+	$TABLE[$i].acList += @(0)
+	$TABLE[$i].acList[0] = $info[1]
 	$TABLE[$i].acStatus = $info[2]
 	$TABLE[$i].acStatusUrl = ""
 	$i++

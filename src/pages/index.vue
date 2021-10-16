@@ -1,5 +1,11 @@
 <template>
     <section class="section">
+
+        <OverView
+            :noUnconfirmed="noUnconfirmed"
+            :noSupported="noSupported"
+            :noConfirmed="noConfirmed"/>
+
         <div class="columns is-mobile is-centered">
             <b-table :data="table" :columns="formatting" :row-class="(row, index) => color(row, index)"></b-table>
         </div>
@@ -31,6 +37,9 @@ export default {
     name: 'HomePage',
 
     data() {
+        let noUnconfirmed,noSupported,noConfirmed;
+        noUnconfirmed=noSupported=noConfirmed=0;
+
         for (let i = 0; i < gamesList.length; i++) {
             const game = gamesList[i];
 
@@ -72,9 +81,24 @@ export default {
                 }
             }
 
+            // getting the stats
+            switch(game.acStatus){
+                case "❔ Unconfirmed":
+                    noUnconfirmed++;
+                break;
+
+                case "⭐ Supported":
+                    noSupported++;
+                break;
+
+                case "🎉 Confirmed":
+                    noConfirmed++;
+                break;
+            }
+
             // link to the status url
             if (game.acStatusUrl !== "") {
-                game.acStatus = game.acStatus.substring(0,2) + `<a href="` + game.acStatusUrl + `">` + game.acStatus.substring(2, game.acStatus.len) + `</a>`;
+                game.acStatus = game.acStatus.substring(0,2) + `<a class="is-underlined has-text-grey-darker" href="` + game.acStatusUrl + `">` + game.acStatus.substring(2, game.acStatus.len) + `</a>`;
             }
 
             gamesList[i] = game;
@@ -82,6 +106,9 @@ export default {
 
         return {
             table: gamesList,
+            noUnconfirmed,
+            noSupported,
+            noConfirmed,
             formatting: [{field: 'game', label: 'Game', numeric: false, sortable: true, searchable: true}, {field: 'acLabel', label: 'Anti-Cheat'}, {field: 'acStatus', label: 'Status', sortable: true}]
         }
     },
@@ -89,24 +116,12 @@ export default {
 
     methods: {
         color(row, index) {
-            if (row.acStatus.includes("🎉 Confirmed")) {
-                return 'is-confirmed';
-            } else if (row.acStatus.includes("⭐ Supported")) {
-                return 'is-supported';
+            if (row.acStatus.includes("🎉")) {
+                return 'has-background-info';
+            } else if (row.acStatus.includes("⭐")) {
+                return 'has-background-success';
             }
         }
     },
 }
 </script>
-
-<style>
-tr.is-confirmed {
-    background: #167df0;
-    color: #fff;
-}
-
-tr.is-supported {
-    background: #00B200;
-    color: #fff;
-}
-</style>
