@@ -1,11 +1,11 @@
 <template>
     <section class="section">
-        
-        <OverView 
-            :noUnconfirmed="noUnconfirmed" 
-            :noSupported="noSupported" 
+
+        <OverView
+            :noUnconfirmed="noUnconfirmed"
+            :noSupported="noSupported"
             :noConfirmed="noConfirmed"/>
-       
+
         <div class="columns is-mobile is-centered">
             <b-table :data="table" :columns="formatting" :row-class="(row, index) => color(row, index)"></b-table>
         </div>
