@@ -1,0 +1,128 @@
+[
+  {
+    "game": "Halo: The Master Chief Collection",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatus": "❔ Unconfirmed",
+    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+  },
+  {
+    "game": "Fortnite",
+    "gameUrl": "",
+    "acName": "BattlEye",
+    "acStatus": "❔ Unconfirmed",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Battlefield 2042",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatus": "❔ Unconfirmed",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Apex Legends",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatus": "❔ Unconfirmed",
+    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+  },
+  {
+    "game": "Paladins",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatus": "❔ Unconfirmed",
+    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+  },
+  {
+    "game": "Playerunknown's Battlegrounds",
+    "gameUrl": "",
+    "acName": "BattlEye",
+    "acStatus": "❔ Unconfirmed",
+    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+  },
+  {
+    "game": "Rainbow Six: Siege",
+    "gameUrl": "",
+    "acName": "BattlEye",
+    "acStatus": "❔ Unconfirmed",
+    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+  },
+  {
+    "game": "Smite",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatus": "❔ Unconfirmed",
+    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+  },
+  {
+    "game": "Black Desert Online",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatus": "❔ Unconfirmed",
+    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+  },
+  {
+    "game": "Fall Guys: Ultimate Knockout",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatus": "❔ Unconfirmed",
+    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+  },
+  {
+    "game": "ARK: Survival Evolved",
+    "gameUrl": "",
+    "acName": "BattlEye",
+    "acStatus": "🎉 Confirmed",
+    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+  },
+  {
+    "game": "DayZ",
+    "gameUrl": "",
+    "acName": "BattlEye",
+    "acStatus": "❔ Unconfirmed",
+    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+  },
+  {
+    "game": "Dead By Daylight",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatus": "🎉 Confirmed",
+    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+  },
+  {
+    "game": "Destiny 2",
+    "gameUrl": "",
+    "acName": "BattlEye",
+    "acStatus": "❔ Unconfirmed",
+    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+  },
+  {
+    "game": "Hunt: Showdown",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatus": "❔ Unconfirmed",
+    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+  },
+  {
+    "game": "Rust",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatus": "🎉 Confirmed",
+    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+  },
+  {
+    "game": "War Thunder",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatus": "🎉 Confirmed",
+    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+  },
+  {
+    "game": "7 Days to Die",
+    "gameUrl": "",
+    "acName": "Easy Anti-Cheat",
+    "acStatus": "❔ Unconfirmed",
+    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+  }
+]
