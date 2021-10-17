@@ -35,7 +35,7 @@
     "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
   },
   {
-    "game": "Playerunknown's Battlegrounds",
+    "game": "PUBG: BATTLEGROUNDS",
     "gameUrl": "",
     "acName": "BattlEye",
     "acStatus": "❔ Unconfirmed",
@@ -49,7 +49,7 @@
     "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
   },
   {
-    "game": "Smite",
+    "game": "SMITE",
     "gameUrl": "",
     "acName": "Easy Anti-Cheat",
     "acStatus": "❔ Unconfirmed",
@@ -106,10 +106,10 @@
   },
   {
     "game": "Rust",
-    "gameUrl": "",
+    "gameUrl": "https://rust.facepunch.com/",
     "acName": "Easy Anti-Cheat",
     "acStatus": "🎉 Confirmed",
-    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+    "acStatusUrl": "https://www.gamingonlinux.com/2021/07/garry-newman-of-facepunch-mentions-working-with-eac-for-rust-on-linux-with-proton"
   },
   {
     "game": "War Thunder",
@@ -122,7 +122,631 @@
     "game": "7 Days to Die",
     "gameUrl": "",
     "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "acStatus": "⭐ Supported",
+    "acStatusUrl": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/43"
+  },
+  {
+    "game": "Squad",
+    "acStatusUrl": "",
+    "acStatus": "⭐ Supported",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://joinsquad.com/"
+  },
+  {
+    "game": "New World",
+    "acStatusUrl": "https://forums.newworld.com/t/please-add-easy-anticheat-support-for-linux/256617/103",
     "acStatus": "❔ Unconfirmed",
-    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://newworld.com"
+  },
+  {
+    "game": "Warhammer: Vermintide 2",
+    "acStatusUrl": "https://support.fatshark.se/hc/en-us/articles/4408080108817--PC-Regarding-Easy-Anti-Cheat-and-Linux-Wine-Proton-Support",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://www.vermintide.com/"
+  },
+  {
+    "game": "Escape from Tarkov",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "BattlEye",
+    "acList": [
+        "BattlEye"
+    ],
+    "gameUrl": "https://www.escapefromtarkov.com/"
+  },
+  {
+    "game": "Insurgency: Sandstorm",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://www.focus-entmt.com/en-us/games/insurgency-sandstorm"
+  },
+  {
+    "game": "ArmA 3",
+    "acStatusUrl": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/103#issuecomment-939699485",
+    "acStatus": "🎉 Confirmed",
+    "acName": "BattlEye",
+    "acList": [
+        "BattlEye"
+    ],
+    "gameUrl": "https://arma3.com/"
+  },
+  {
+    "game": "Rogue Company",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://www.roguecompany.com/"
+  },
+  {
+    "game": "Realm Royale",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://www.realmroyale.com/"
+  },
+  {
+    "game": "Phantasy Star Online 2",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "nProtect GameGuard",
+    "acList": [
+        "nProtect GameGuard"
+    ],
+    "gameUrl": "https://pso2.jp/"
+  },
+  {
+    "game": "Unturned",
+    "acStatusUrl": "",
+    "acStatus": "⭐ Supported",
+    "acName": "BattlEye",
+    "acList": [
+        "VAC",
+        "BattlEye"
+    ],
+    "gameUrl": ""
+  },
+  {
+    "game": "PlanetSide 2",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "BattlEye",
+    "acList": [
+        "BattlEye"
+    ],
+    "gameUrl": "https://www.planetside2.com/"
+  },
+  {
+    "game": "For Honor",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://www.ubisoft.com/en-us/game/for-honor"
+  },
+  {
+    "game": "NARAKA: BLADEPOINT",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "NEAC Protect",
+    "acList": [
+        "NEAC Protect"
+    ],
+    "gameUrl": "https://www.narakathegame.com/"
+  },
+  {
+    "game": "Genshin Impact",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "miHoYo Protect 2",
+    "acList": [
+        "miHoYo Protect 2"
+    ],
+    "gameUrl": ""
+  },
+  {
+    "game": "DJMAX RESPECT V",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "XIGNCODE3",
+    "acList": [
+        "XIGNCODE3"
+    ],
+    "gameUrl": "https://www.djmaxrespect.com/"
+  },
+  {
+    "game": "Plants vs. Zombies: Battle for Neighborville",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://www.ea.com/games/plants-vs-zombies/plants-vs-zombies-battle-for-neighborville"
+  },
+  {
+    "game": "Hell Let Loose",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://www.hellletloose.com/"
+  },
+  {
+    "game": "Bless Unleashed",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://blessunleashed.com/"
+  },
+  {
+    "game": "Rising Storm 2: Vietnam",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": ""
+  },
+  {
+    "game": "Pandemic Express - Zombie Escape",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": ""
+  },
+  {
+    "game": "SCUM",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://scumgame.com/"
+  },
+  {
+    "game": "Tom Clancy's The Division 2",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://www.ubisoft.com/en-us/game/the-division/the-division-2"
+  },
+  {
+    "game": "JUMP FORCE",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://www.bandainamcoent.com/games/jump-force"
+  },
+  {
+    "game": "Knockout City",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://www.ea.com/games/knockout-city"
+  },
+  {
+    "game": "DRAGON BALL FighterZ",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://www.bandainamcoent.com/games/dragon-ball-fighterz"
+  },
+  {
+    "game": "Enlisted",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://enlisted.net/"
+  },
+  {
+    "game": "Due Process",
+    "acStatusUrl": "https://www.reddit.com/r/dueprocess/comments/pu252w/bring_steam_decklinux_support_to_due_process/he04229/?context=1",
+    "acStatus": "🎉 Confirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://dueprocess.info/"
+  },
+  {
+    "game": "Rec Room",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://recroom.com/"
+  },
+  {
+    "game": "World War 3",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://worldwar3.com/"
+  },
+  {
+    "game": "iRacing",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://www.iracing.com/"
+  },
+  {
+    "game": "Survarium",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "BattlEye",
+    "acList": [
+        "BattlEye"
+    ],
+    "gameUrl": "https://survarium.com/"
+  },
+  {
+    "game": "DRAGON BALL XENOVERSE 2",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2"
+  },
+  {
+    "game": "Tom Clancy's Ghost Recon Wildlands",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://www.ubisoft.com/en-us/game/ghost-recon/breakpoint/wildlands"
+  },
+  {
+    "game": "Watch Dogs 2",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://www.ubisoft.com/en-us/game/watch-dogs/watch-dogs-2"
+  },
+  {
+    "game": "Zero Hour",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": ""
+  },
+  {
+    "game": "Ironsight",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2"
+  },
+  {
+    "game": "The Crew 2",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "BattlEye",
+    "acList": [
+        "BattlEye"
+    ],
+    "gameUrl": "https://www.ubisoft.com/en-us/game/the-crew/the-crew-2"
+  },
+  {
+    "game": "CRSED: F.O.A.D.",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://crsed.net/en/#!/"
+  },
+  {
+    "game": "STAR WARS™: Squadrons",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "Easy Anti-Cheat",
+    "acList": [
+        "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://www.ea.com/games/starwars/squadrons"
+  },
+  {
+    "game": "Diabotical",
+    "acStatusUrl": "",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "EQU8",
+    "acList": [
+        "EQU8"
+    ],
+    "gameUrl": "https://www.diabotical.com/"
+  },
+  {
+    "game": "Totally Accurate Battlegrounds",
+    "acStatusUrl": "https://twitter.com/landfallgames/status/1377947424338100227",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "EQU8",
+    "acList": [
+        "EQU8"
+    ],
+    "gameUrl": ""
+  },
+  {
+    "game": "Splitgate",
+    "acStatusUrl": "",
+    "acStatus": "⭐ Supported",
+    "acName": "EQU8",
+    "acList": [
+        "EQU8"
+    ],
+    "gameUrl": "https://www.splitgate.com/"
+  },
+  {
+    "game": "Counter-Strike: Global Offensive",
+    "acStatus": "⭐ Supported",
+    "acName": "VAC",
+    "acList": [
+        "VAC"
+    ],
+    "gameUrl": "",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Team Fortress 2",
+    "acStatus": "⭐ Supported",
+    "acName": "VAC",
+    "acList": [
+        "VAC"
+    ],
+    "gameUrl": "",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Dota 2",
+    "acStatus": "⭐ Supported",
+    "acName": "VAC",
+    "acList": [
+        "VAC"
+    ],
+    "gameUrl": "",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Call of Duty®: Black Ops III",
+    "acStatus": "⭐ Supported",
+    "acName": "VAC",
+    "acList": [
+        "VAC"
+    ],
+    "gameUrl": "",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Garry's Mod",
+    "acStatus": "⭐ Supported",
+    "acName": "VAC",
+    "acList": [
+        "VAC"
+    ],
+    "gameUrl": "",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Dying Light",
+    "acStatus": "⭐ Supported",
+    "acName": "VAC",
+    "acList": [
+        "VAC"
+    ],
+    "gameUrl": "",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "SoulWorker",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "XIGNCODE3",
+    "acList": [
+        "XIGNCODE3"
+    ],
+    "gameUrl": "",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Tom Clancy's Ghost Recon Breakpoint",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "BattlEye",
+    "acList": [
+        "BattlEye"
+    ],
+    "gameUrl": "https://www.ubisoft.com/en-us/game/ghost-recon/breakpoint",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Digimon Masters Online",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "XIGNCODE3",
+    "acList": [
+        "XIGNCODE3"
+    ],
+    "gameUrl": "https://dmo.gameking.com/",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Post Scriptum",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "https://postscriptumgame.com/",
+	"acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Sector's Edge",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "https://sectorsedge.com/",
+	"acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Worms Rumble",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "",
+	"acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Dirty Bomb",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "",
+	"acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Empyrion - Galactic Survival",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "",
+	"acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Call of Duty: Modern Warfare (2019)",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "",
+	"acName": "",
+    "acList": [
+      "RICOCHET"
+    ],
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Call of Duty: Warzone",
+    "acStatus": "❔ Unconfirmed",
+    "gameUrl": "https://www.callofduty.com/warzone",
+	"acName": "",
+    "acList": [
+      "RICOCHET"
+    ],
+    "acStatusUrl": ""
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "acName": "",
+    "gameUrl": "https://www.brawlhalla.com",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "game": "Brawlhalla",
+    "acStatusUrl": "https://www.gamingonlinux.com/2021/10/brawlhalla-to-get-easy-anti-cheat-dev-puts-up-beta-with-eac-working-on-linux-with-proton"
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "acName": "",
+    "gameUrl": "https://combatarms-r.valofe.com/",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "game": "Combat Arms: Reloaded",
+    "acStatusUrl": ""
+  },
+  {
+    "acStatus": "🎉 Confirmed",
+    "acName": "",
+    "gameUrl": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "game": "POLYGON",
+    "acStatusUrl": "https://twitter.com/RedasterPOLYGON/status/1443057152168325125?s=20"
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "acName": "",
+    "gameUrl": "https://www.callofduty.com/blackopscoldwar",
+    "acList": [
+      "RICOCHET"
+    ],
+    "game": "Call of Duty Black Ops: Cold War",
+    "acStatusUrl": ""
   }
 ]
