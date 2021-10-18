@@ -15,7 +15,7 @@
         </section>
 
 
-        <section class="main-content columns">
+        <section class="main-content columns is-marginless">
             <div class="container column is-10">
                 <Nuxt />
             </div>
