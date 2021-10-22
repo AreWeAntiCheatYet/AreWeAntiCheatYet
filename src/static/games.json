@@ -443,8 +443,8 @@
   },
   {
     "game": "Knockout City",
-    "acStatusUrl": "",
-    "acStatus": "❔ Unconfirmed",
+    "acStatusUrl": "https://www.reddit.com/r/KnockoutCity/comments/qceynd/get_ea_to_turn_on_proton_support_for_linux_and/hhg8s6r?utm_medium=android_app&utm_source=share&context=3",
+    "acStatus": "🎉 Confirmed",
     "acName": "Easy Anti-Cheat",
     "acList": [
         "Easy Anti-Cheat"
@@ -806,7 +806,7 @@
     "acName": "",
     "gameUrl": "https://combatarms-r.valofe.com/",
     "acList": [
-      "Easy Anti-Cheat"
+      "BattlEye"
     ],
     "game": "Combat Arms: Reloaded",
     "acStatusUrl": ""
@@ -829,6 +829,66 @@
       "RICOCHET"
     ],
     "game": "Call of Duty Black Ops: Cold War",
+    "acStatusUrl": ""
+  },
+  {
+    "gameUrl": "https://albiononline.com/",
+    "acName": "",
+    "game": "Albion Online",
+    "acStatus": "⭐ Supported",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "acStatusUrl": ""
+  },
+  {
+    "gameUrl": "",
+    "acName": "",
+    "game": "Counter-Strike: Source",
+    "acStatus": "⭐ Supported",
+    "acList": [
+      "VAC"
+    ],
+    "acStatusUrl": ""
+  },
+  {
+    "gameUrl": "https://outriders.square-enix-games.com",
+    "acName": "",
+    "game": "Outriders",
+    "acStatus": "❔ Unconfirmed",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "acStatusUrl": ""
+  },
+  {
+    "gameUrl": "https://crossout.net",
+    "acName": "",
+    "game": "Crossout",
+    "acStatus": "❔ Unconfirmed",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "acStatusUrl": ""
+  },
+  {
+    "gameUrl": "https://www.team17.com/games/worms-rumble/",
+    "acName": "",
+    "game": "Worms Rumble",
+    "acStatus": "❔ Unconfirmed",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "acStatusUrl": ""
+  },
+  {
+    "gameUrl": "https://playspellbreak.com/en",
+    "acName": "",
+    "game": "Spellbreak",
+    "acStatus": "❔ Unconfirmed",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
     "acStatusUrl": ""
   }
 ]

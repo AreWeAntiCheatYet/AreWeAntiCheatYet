@@ -43,7 +43,7 @@ Pandemic Express - Zombie Escape~Easy Anti-Cheat~❔ Unconfirmed
 SCUM~Easy Anti-Cheat~❔ Unconfirmed
 Tom Clancy's The Division 2~Easy Anti-Cheat~❔ Unconfirmed
 JUMP FORCE~Easy Anti-Cheat~❔ Unconfirmed
-Knockout City~Easy Anti-Cheat~❔ Unconfirmed
+Knockout City~Easy Anti-Cheat~🎉 Confirmed
 DRAGON BALL FighterZ~Easy Anti-Cheat~❔ Unconfirmed
 Enlisted~Easy Anti-Cheat~❔ Unconfirmed
 Due Process~Easy Anti-Cheat~🎉 Confirmed
@@ -79,6 +79,12 @@ Empyrion - Galactic Survival~Easy Anti-Cheat~❔ Unconfirmed
 Call of Duty: Modern Warfare (2019)~RICOCHET~❔ Unconfirmed
 Call of Duty: Warzone~RICOCHET~❔ Unconfirmed
 Brawlhalla~Easy Anti-Cheat~⭐ Supported
-Combat Arms: Reloaded~Easy Anti-Cheat~❔ Unconfirmed
+Combat Arms: Reloaded~BattlEye~❔ Unconfirmed
 POLYGON~Easy Anti-Cheat~🎉 Confirmed
 Call of Duty Black Ops: Cold War~RICOCHET~❔ Unconfirmed
+Albion Online~Easy Anti-Cheat~⭐ Supported
+Counter-Strike: Source~VAC~⭐ Supported
+Outriders~Easy Anti-Cheat~❔ Unconfirmed
+Crossout~Easy Anti-Cheat~❔ Unconfirmed
+Worms Rumble~Easy Anti-Cheat~❔ Unconfirmed
+Spellbreak~Easy Anti-Cheat~❔ Unconfirmed
