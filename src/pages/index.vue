@@ -32,6 +32,8 @@ const npggLogo = require("~/assets/npgg-logo.webp");
 const xc3Logo = require("~/assets/xigncode3-logo.webp");
 const equ8Logo = require("~/assets/equ8-logo.webp");
 const vacLogo = require("~/assets/vac-logo.webp");
+const ffLogo = require("~/assets/fairfight-logo.webp")
+const pbLogo = require("~/assets/punkbuster-logo.webp")
 
 export default {
     name: 'HomePage',
@@ -73,6 +75,14 @@ export default {
 
                     case "VAC":
                         game.acLabel += `<p><img src="` + vacLogo + `" width="32" height="32" alt/> VAC</p>`;
+                    break;
+
+                    case "FairFight":
+                        game.acLabel += `<p><img src="` + ffLogo + `" width="32" height="32" alt/> FairFight</p>`;
+                    break;
+
+                    case "PunkBuster":
+                        game.acLabel += `<p><img src="` + pbLogo + `" width="32" height="32" alt/> PunkBuster</p>`;
                     break;
 
                     default:
