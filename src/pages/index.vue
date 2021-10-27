@@ -17,12 +17,14 @@
 
         <br/>
         <p class="has-text-centered">
-            Last Updated: {{new Date().toDateString()}}, {{new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })}} ({{Intl.DateTimeFormat().resolvedOptions().timeZone}})
+            Last Updated: {{pageUpdatedDate}}
         </p>
     </section>
 </template>
 
 <script>
+import preval from 'preval.macro';
+
 const gamesList = require("~/static/games.json");
 
 const beLogo = require("~/assets/battleye-logo.webp");
@@ -34,6 +36,7 @@ const equ8Logo = require("~/assets/equ8-logo.webp");
 const vacLogo = require("~/assets/vac-logo.webp");
 const ffLogo = require("~/assets/fairfight-logo.webp")
 const pbLogo = require("~/assets/punkbuster-logo.webp")
+
 
 export default {
     name: 'HomePage',
@@ -127,6 +130,16 @@ export default {
         }
     },
     fetchOnServer: true,
+
+    computed: {
+        pageUpdatedDate() {
+            let lastUpdated = preval`module.exports = new Date().toDateString() + ", "`;
+            lastUpdated += preval`module.exports = new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })`
+            lastUpdated += preval`module.exports = " (" + Intl.DateTimeFormat().resolvedOptions().timeZone + ")"`
+
+            return lastUpdated;
+        }
+    },
 
     methods: {
         color(row, index) {
