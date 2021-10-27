@@ -25,7 +25,6 @@ Warhammer: Vermintide 2~Easy Anti-Cheat~❔ Unconfirmed
 Escape from Tarkov~BattlEye~❔ Unconfirmed
 Insurgency: Sandstorm~Easy Anti-Cheat~❔ Unconfirmed
 ArmA 3~BattlEye~🎉 Confirmed
-Insurgency: Sandstorm~Easy Anti-Cheat~❔ Unconfirmed
 Rogue Company~Easy Anti-Cheat~❔ Unconfirmed
 Realm Royale~Easy Anti-Cheat~❔ Unconfirmed
 Phantasy Star Online 2~nProtect GameGuard~❔ Unconfirmed
@@ -96,3 +95,96 @@ MapleStory~nProtect GameGuard~❔ Unconfirmed
 Heroes & Generals~BattlEye~❔ Unconfirmed
 Deadside~Easy Anti-Cheat~❔ Unconfirmed
 Intruder~Easy Anti-Cheat~❔ Unconfirmed
+Warface~Easy Anti-Cheat~❔ Unconfirmed
+Call of Duty~PunkBuster~❔ Unconfirmed
+Half-Life 2: Deathmatch~VAC~⭐ Supported
+Atlas~BattlEye~❔ Unconfirmed
+The Mean Greens: Plastic Warfare~VAC~⭐ Supported
+Mordhau~VAC~⭐ Supported
+ArmA 2~BattlEye~❔ Unconfirmed
+Quake III Arena~PunkBuster~⭐ Supported
+Call of Duty 2~PunkBuster~❔ Unconfirmed
+Battlefield 1~FairFight~⭐ Supported
+Nuclear Dawn~VAC~⭐ Supported
+Pirates, Vikings, and Knights II~VAC~⭐ Supported
+Battlefield 1942~PunkBuster~❔ Unconfirmed
+Team Fortress Classic~VAC~⭐ Supported
+The Cycle~Easy Anti-Cheat~❔ Unconfirmed
+ARK: Survival of the Fittest~BattlEye~⭐ Supported
+Crysis~PunkBuster~❔ Unconfirmed
+The Isle~BattlEye~❔ Unconfirmed
+Call of Duty: Black Ops~PunkBuster + VAC~⭐ Supported
+Call of Duty 4: Modern Warfare~PunkBuster~❔ Unconfirmed
+Day of Defeat~VAC~⭐ Supported
+Chivalry: Medieval Warfare~VAC~⭐ Supported
+Pang Online~nProtect GameGuard~❔ Unconfirmed
+The Ship: Murder Party~VAC~⭐ Supported
+Insurgency~VAC~⭐ Supported
+Call of Duty: Black Ops II~VAC~⭐ Supported
+Monstrum 2~Easy Anti-Cheat~❔ Unconfirmed
+No More Room in Hell~VAC~⭐ Supported
+Depth~VAC~⭐ Supported
+Quake 4~PunkBuster~❔ Unconfirmed
+Deathmatch Classic~VAC~⭐ Supported
+Battlefield 2~PunkBuster~❔ Unconfirmed
+SWORD ART ONLINE Alicization Lycoris~Easy Anti-Cheat~❔ Unconfirmed
+Foxhole~VAC~⭐ Supported
+Block N Load~Easy Anti-Cheat~❔ Unconfirmed
+Titanfall~FairFight~⭐ Supported
+KartRider~nProtect GameGuard~❔ Unconfirmed
+Battlefield 3~PunkBuster~⭐ Supported
+KovaaK 2.0~EQU8~❔ Unconfirmed
+Day of Defeat: Source~VAC~⭐ Supported
+Star Wars: Battlefront (2015)~FairFight~⭐ Supported
+Tower Wars~VAC~❔ Unconfirmed
+Hurtworld~Easy Anti-Cheat~❔ Unconfirmed
+Call of Duty: Ghost~VAC~⭐ Supported
+Sword Art Online: Fatal Bullet~Easy Anti-Cheat~❔ Unconfirmed
+Killing Floor~VAC~⭐ Supported
+Battlefield: Bad Company 2~PunkBuster~⭐ Supported
+Trials Rising~Easy Anti-Cheat~❔ Unconfirmed
+Cry of Fear~VAC~❔ Unconfirmed
+Far Cry 5~Easy Anti-Cheat~❔ Unconfirmed
+Call of Duty: Modern Warfare 2~VAC~⭐ Supported
+Kritika:Reboot~XIGNCODE3~❔ Unconfirmed
+Half-Life Deathmatch: Source~VAC~⭐ Supported
+Beyond the Wire~Easy Anti-Cheat~❔ Unconfirmed
+Lost Planet: Extreme Condition~VAC~❔ Unconfirmed
+Tom Clancy's The Division~FairFight~⭐ Supported
+Rocket Arena~Easy Anti-Cheat~❔ Unconfirmed
+Call of Duty: Modern Warfare 3~VAC~❔ Unconfirmed
+Left 4 Dead 2~VAC~⭐ Supported
+Tower Unite~VAC~⭐ Supported
+Day of Infamy~VAC~⭐ Supported
+Black Squad~BattlEye~❔ Unconfirmed
+Star Wars: Battlefront II (2017)~FairFight~⭐ Supported
+Primal Carnage~VAC~❔ Unconfirmed
+Honkai Impact 3rd~miHoYo Protect 2~❔ Unconfirmed
+Dungeon Defenders~VAC~⭐ Supported
+APB Reloaded~BattlEye~❔ Unconfirmed
+Battlefield: Hardline~PunkBuster + FairFight~⭐ Supported
+Gears 5~Easy Anti-Cheat~❔ Unconfirmed
+Call of Duty: World at War~PunkBuster~❔ Unconfirmed
+Quake Live~PunkBuster~⭐ Supported
+PixARK~BattlEye~❔ Unconfirmed
+Captain Tsubasa: Rise of New Champions~Easy Anti-Cheat~❔ Unconfirmed
+TOXIKK~VAC~⭐ Supported
+ArmA 2: Operation Arrowhead~BattlEye~❔ Unconfirmed
+LaTale~nProtect GameGuard~❔ Unconfirmed
+Crysis: Warhead~PunkBuster~❔ Unconfirmed
+Predator: Hunting Grounds~Easy Anti-Cheat~❔ Unconfirmed
+Call of Duty: WWII~VAC~❔ Unconfirmed
+Nostale~nProtect GameGuard~❔ Unconfirmed
+Battlefield V~FairFight~⭐ Supported
+Chivalry 2~Easy Anti-Cheat~❔ Unconfirmed
+Homefront~VAC~❔ Unconfirmed
+Call of Duty: Infinite Warfare~VAC~⭐ Supported
+PangYa~nProtect GameGuard~❔ Unconfirmed
+Quantum League~Easy Anti-Cheat~❔ Unconfirmed
+Blazing Sails~Easy Anti-Cheat~❔ Unconfirmed
+Titanfall 2~FairFight~⭐ Supported
+Lemnis Gate~Easy Anti-Cheat~❔ Unconfirmed
+Grandchase~nProtect GameGuard~❔ Unconfirmed
+Killing Floor 2~VAC~⭐ Supported
+Black Clover: Quartet Knights~Easy Anti-Cheat~❔ Unconfirmed
+Nine to Five~Easy Anti-Cheat~❔ Unconfirmed

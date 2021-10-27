@@ -95,6 +95,7 @@
     "gameUrl": "https://ubisoft.com/en-us/game/rainbow-six/siege",
     "acName": "BattlEye",
     "acList": [
+		"FairFight",
         "BattlEye"
     ],
     "acStatus": "❔ Unconfirmed",
@@ -971,5 +972,938 @@
     "acStatus": "❔ Unconfirmed",
     "acName": "",
     "acStatusUrl": ""
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Warface",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Call of Duty",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "PunkBuster"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Half-Life 2: Deathmatch",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Atlas",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "BattlEye"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "The Mean Greens: Plastic Warfare",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Mordhau",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "ArmA 2",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "BattlEye"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Quake III Arena",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "PunkBuster"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Call of Duty 2",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "PunkBuster"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Battlefield 1",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "FairFight"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Nuclear Dawn",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Pirates, Vikings, and Knights II",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Battlefield 1942",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "PunkBuster"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Team Fortress Classic",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "The Cycle",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "ARK: Survival of the Fittest",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "BattlEye"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Crysis",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "PunkBuster"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "The Isle",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "BattlEye"
+    ]
+  },
+  {
+    "gameUrl": "",
+    "game": "Call of Duty: Black Ops",
+    "acList": [
+      "VAC",
+	  "PunkBuster"
+    ],
+    "acStatus": "⭐ Supported",
+    "acStatusUrl": "",
+    "acName": ""
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Call of Duty 4: Modern Warfare",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "PunkBuster"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Day of Defeat",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Chivalry: Medieval Warfare",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Pang Online",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "nProtect GameGuard"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "The Ship: Murder Party",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Insurgency",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC",
+	  "BattlEye"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Call of Duty: Black Ops II",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Monstrum 2",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "No More Room in Hell",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Depth",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Quake 4",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "PunkBuster"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Deathmatch Classic",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Battlefield 2",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "PunkBuster"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "SWORD ART ONLINE Alicization Lycoris",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Foxhole",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Block N Load",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Titanfall",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "FairFight"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "KartRider",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "nProtect GameGuard"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Battlefield 3",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "PunkBuster"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "KovaaK 2.0",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "EQU8"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Day of Defeat: Source",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Star Wars: Battlefront (2015)",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "FairFight"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Tower Wars",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Hurtworld",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Call of Duty: Ghost",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Sword Art Online: Fatal Bullet",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Killing Floor",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Battlefield: Bad Company 2",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "PunkBuster"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Trials Rising",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Cry of Fear",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Far Cry 5",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Call of Duty: Modern Warfare 2",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Kritika:Reboot",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "XIGNCODE3"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Half-Life Deathmatch: Source",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Beyond the Wire",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Lost Planet: Extreme Condition",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Tom Clancy's The Division",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "FairFight"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Rocket Arena",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Call of Duty: Modern Warfare 3",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Left 4 Dead 2",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Tower Unite",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Day of Infamy",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Black Squad",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "BattlEye"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Star Wars: Battlefront II (2017)",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "FairFight"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Primal Carnage",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Honkai Impact 3rd",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "miHoYo Protect 2"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Dungeon Defenders",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "APB Reloaded",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "BattlEye"
+    ]
+  },
+  {
+    "gameUrl": "",
+    "game": "Battlefield: Hardline",
+    "acList": [
+      "PunkBuster",
+	  "FairFight"
+    ],
+    "acStatus": "⭐ Supported",
+    "acStatusUrl": "",
+    "acName": ""
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Gears 5",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Call of Duty: World at War",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "PunkBuster"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Quake Live",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "PunkBuster"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "PixARK",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "BattlEye"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Captain Tsubasa: Rise of New Champions",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "TOXIKK",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "ArmA 2: Operation Arrowhead",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "BattlEye"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "LaTale",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "nProtect GameGuard"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Crysis: Warhead",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "PunkBuster"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Predator: Hunting Grounds",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Call of Duty: WWII",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Nostale",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "nProtect GameGuard"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Battlefield V",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "FairFight"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Chivalry 2",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Homefront",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Call of Duty: Infinite Warfare",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "PangYa",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "nProtect GameGuard"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Quantum League",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Blazing Sails",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Titanfall 2",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "FairFight"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Lemnis Gate",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Grandchase",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "nProtect GameGuard"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Killing Floor 2",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "VAC"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Black Clover: Quartet Knights",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Nine to Five",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
   }
 ]
