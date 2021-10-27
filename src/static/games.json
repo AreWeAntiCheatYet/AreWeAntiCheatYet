@@ -890,5 +890,86 @@
       "Easy Anti-Cheat"
     ],
     "acStatusUrl": ""
+  },
+  {
+    "game": "Battlefield 4",
+    "acList": [
+      "PunkBuster",
+	  "FairFight"
+    ],
+    "gameUrl": "https://www.ea.com/games/battlefield/battlefield-4",
+    "acStatus": "⭐ Supported",
+    "acName": "",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Conan Exiles",
+    "acList": [
+      "BattlEye"
+    ],
+    "gameUrl": "https://www.conanexiles.com",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Mount & Blade II: Bannerlord",
+    "acList": [
+      "BattlEye"
+    ],
+    "gameUrl": "https://www.taleworlds.com/en/Games/Bannerlord/",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Vampire: The Masquerade - Bloodhunt",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://bloodhunt.com/",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "MapleStory",
+    "acList": [
+      "nProtect GameGuard"
+    ],
+    "gameUrl": "https://maplestory.nexon.net",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Heroes & Generals",
+    "acList": [
+      "BattlEye"
+    ],
+    "gameUrl": "https://heroesandgenerals.com/",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Deadside",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://www.deadsidegame.com/",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "",
+    "acStatusUrl": ""
+  },
+  {
+    "game": "Intruder",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "gameUrl": "https://intruderfps.com/",
+    "acStatus": "❔ Unconfirmed",
+    "acName": "",
+    "acStatusUrl": ""
   }
 ]
