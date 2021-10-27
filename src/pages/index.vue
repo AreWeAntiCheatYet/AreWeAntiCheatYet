@@ -45,6 +45,10 @@ export default {
         for (let i = 0; i < gamesList.length; i++) {
             const game = gamesList[i];
 
+            // template games with a source URL
+            if (game.gameUrl.length !== 0) {
+                game.game = `<a class="is-underlined has-text-grey-darker" href="` + game.gameUrl + `">` + game.game + `</a>`;
+            }
             // template anti-cheats with a logo
             game.acLabel = '';
             for (let j = 0; j < game.acList.length; j++) {
