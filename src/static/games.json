@@ -1,6 +1,7 @@
 [
   {
     "game": "Halo: The Master Chief Collection",
+    "native": false,
     "gameUrl": "",
     "acName": "Easy Anti-Cheat",
     "acList": [
@@ -11,6 +12,7 @@
   },
   {
     "game": "Fortnite",
+    "native": false,
     "gameUrl": "",
     "acName": "BattlEye",
     "acList": [
@@ -22,6 +24,7 @@
   },
   {
     "game": "Battlefield 2042",
+    "native": false,
     "gameUrl": "",
     "acName": "Easy Anti-Cheat",
     "acList": [
@@ -32,6 +35,7 @@
   },
   {
     "game": "Apex Legends",
+    "native": false,
     "gameUrl": "",
     "acName": "Easy Anti-Cheat",
     "acList": [
@@ -42,6 +46,7 @@
   },
   {
     "game": "Valorant",
+    "native": false,
     "gameUrl": "https://playvalorant.com",
     "acName": "Vanguard",
     "acList": [
@@ -52,6 +57,7 @@
   },
   {
     "game": "Halo Infinite",
+    "native": false,
     "gameUrl": "",
     "acName": "Unknown",
     "acList": [
@@ -62,6 +68,7 @@
   },
   {
     "game": "Back 4 Blood",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -72,6 +79,7 @@
   },
   {
     "game": "Paladins",
+    "native": false,
     "gameUrl": "",
     "acName": "Easy Anti-Cheat",
     "acList": [
@@ -82,6 +90,7 @@
   },
   {
     "game": "PUBG: BATTLEGROUNDS",
+    "native": false,
     "gameUrl": "",
     "acName": "BattlEye",
     "acList": [
@@ -92,6 +101,7 @@
   },
   {
     "game": "Rainbow Six: Siege",
+    "native": false,
     "gameUrl": "https://ubisoft.com/en-us/game/rainbow-six/siege",
     "acName": "BattlEye",
     "acList": [
@@ -103,6 +113,7 @@
   },
   {
     "game": "SMITE",
+    "native": false,
     "gameUrl": "",
     "acName": "Easy Anti-Cheat",
     "acList": [
@@ -113,6 +124,7 @@
   },
   {
     "game": "Black Desert",
+    "native": false,
     "gameUrl": "",
     "acName": "Easy Anti-Cheat",
     "acList": [
@@ -123,6 +135,7 @@
   },
   {
     "game": "Fall Guys: Ultimate Knockout",
+    "native": false,
     "gameUrl": "",
     "acName": "Easy Anti-Cheat",
     "acList": [
@@ -133,6 +146,7 @@
   },
   {
     "game": "ARK: Survival Evolved",
+    "native": false,
     "gameUrl": "",
     "acName": "BattlEye",
     "acList": [
@@ -143,6 +157,7 @@
   },
   {
     "game": "DayZ",
+    "native": false,
     "gameUrl": "",
     "acName": "BattlEye",
     "acList": [
@@ -153,6 +168,7 @@
   },
   {
     "game": "Dead By Daylight",
+    "native": false,
     "gameUrl": "",
     "acName": "Easy Anti-Cheat",
     "acList": [
@@ -163,6 +179,7 @@
   },
   {
     "game": "Destiny 2",
+    "native": false,
     "gameUrl": "",
     "acName": "BattlEye",
     "acList": [
@@ -173,6 +190,7 @@
   },
   {
     "game": "Hunt: Showdown",
+    "native": false,
     "gameUrl": "",
     "acName": "Easy Anti-Cheat",
     "acList": [
@@ -183,6 +201,7 @@
   },
   {
     "game": "Rust",
+    "native": false,
     "gameUrl": "https://rust.facepunch.com/",
     "acName": "Easy Anti-Cheat",
     "acList": [
@@ -193,6 +212,7 @@
   },
   {
     "game": "War Thunder",
+    "native": false,
     "gameUrl": "",
     "acName": "Easy Anti-Cheat",
     "acList": [
@@ -203,6 +223,7 @@
   },
   {
     "game": "7 Days to Die",
+    "native": false,
     "gameUrl": "",
     "acName": "Easy Anti-Cheat",
     "acList": [
@@ -213,6 +234,7 @@
   },
   {
     "game": "Squad",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "⭐ Supported",
     "acName": "Easy Anti-Cheat",
@@ -223,6 +245,7 @@
   },
   {
     "game": "New World",
+    "native": false,
     "acStatusUrl": "https://forums.newworld.com/t/please-add-easy-anticheat-support-for-linux/256617/103",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -233,6 +256,7 @@
   },
   {
     "game": "Warhammer: Vermintide 2",
+    "native": false,
     "acStatusUrl": "https://support.fatshark.se/hc/en-us/articles/4408080108817--PC-Regarding-Easy-Anti-Cheat-and-Linux-Wine-Proton-Support",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -243,6 +267,7 @@
   },
   {
     "game": "Escape from Tarkov",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "BattlEye",
@@ -253,6 +278,7 @@
   },
   {
     "game": "Insurgency: Sandstorm",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -263,6 +289,7 @@
   },
   {
     "game": "ArmA 3",
+    "native": false,
     "acStatusUrl": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/103#issuecomment-939699485",
     "acStatus": "🎉 Confirmed",
     "acName": "BattlEye",
@@ -273,6 +300,7 @@
   },
   {
     "game": "Rogue Company",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -283,6 +311,7 @@
   },
   {
     "game": "Realm Royale",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -293,6 +322,7 @@
   },
   {
     "game": "Phantasy Star Online 2",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "nProtect GameGuard",
@@ -303,6 +333,7 @@
   },
   {
     "game": "Unturned",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "⭐ Supported",
     "acName": "BattlEye",
@@ -314,6 +345,7 @@
   },
   {
     "game": "PlanetSide 2",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "BattlEye",
@@ -324,6 +356,7 @@
   },
   {
     "game": "For Honor",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -334,6 +367,7 @@
   },
   {
     "game": "NARAKA: BLADEPOINT",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "NEAC Protect",
@@ -344,6 +378,7 @@
   },
   {
     "game": "Genshin Impact",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "miHoYo Protect 2",
@@ -354,6 +389,7 @@
   },
   {
     "game": "DJMAX RESPECT V",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "XIGNCODE3",
@@ -364,6 +400,7 @@
   },
   {
     "game": "Plants vs. Zombies: Battle for Neighborville",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -374,6 +411,7 @@
   },
   {
     "game": "Hell Let Loose",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -384,6 +422,7 @@
   },
   {
     "game": "Bless Unleashed",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -394,6 +433,7 @@
   },
   {
     "game": "Rising Storm 2: Vietnam",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -404,6 +444,7 @@
   },
   {
     "game": "Pandemic Express - Zombie Escape",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -414,6 +455,7 @@
   },
   {
     "game": "SCUM",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -424,6 +466,7 @@
   },
   {
     "game": "Tom Clancy's The Division 2",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -434,6 +477,7 @@
   },
   {
     "game": "JUMP FORCE",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -444,6 +488,7 @@
   },
   {
     "game": "Knockout City",
+    "native": false,
     "acStatusUrl": "https://www.reddit.com/r/KnockoutCity/comments/qceynd/get_ea_to_turn_on_proton_support_for_linux_and/hhg8s6r?utm_medium=android_app&utm_source=share&context=3",
     "acStatus": "🎉 Confirmed",
     "acName": "Easy Anti-Cheat",
@@ -454,6 +499,7 @@
   },
   {
     "game": "DRAGON BALL FighterZ",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -464,6 +510,7 @@
   },
   {
     "game": "Enlisted",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -474,6 +521,7 @@
   },
   {
     "game": "Due Process",
+    "native": false,
     "acStatusUrl": "https://www.reddit.com/r/dueprocess/comments/pu252w/bring_steam_decklinux_support_to_due_process/he04229/?context=1",
     "acStatus": "🎉 Confirmed",
     "acName": "Easy Anti-Cheat",
@@ -484,6 +532,7 @@
   },
   {
     "game": "Rec Room",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -494,6 +543,7 @@
   },
   {
     "game": "World War 3",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -504,6 +554,7 @@
   },
   {
     "game": "iRacing",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -514,6 +565,7 @@
   },
   {
     "game": "Survarium",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "BattlEye",
@@ -524,6 +576,7 @@
   },
   {
     "game": "DRAGON BALL XENOVERSE 2",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -534,6 +587,7 @@
   },
   {
     "game": "Tom Clancy's Ghost Recon Wildlands",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -544,6 +598,7 @@
   },
   {
     "game": "Watch Dogs 2",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -554,6 +609,7 @@
   },
   {
     "game": "Zero Hour",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -564,6 +620,7 @@
   },
   {
     "game": "Ironsight",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -574,6 +631,7 @@
   },
   {
     "game": "The Crew 2",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "BattlEye",
@@ -584,6 +642,7 @@
   },
   {
     "game": "CRSED: F.O.A.D.",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -594,6 +653,7 @@
   },
   {
     "game": "STAR WARS™: Squadrons",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "Easy Anti-Cheat",
@@ -604,6 +664,7 @@
   },
   {
     "game": "Diabotical",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "❔ Unconfirmed",
     "acName": "EQU8",
@@ -614,6 +675,7 @@
   },
   {
     "game": "Totally Accurate Battlegrounds",
+    "native": false,
     "acStatusUrl": "https://twitter.com/landfallgames/status/1377947424338100227",
     "acStatus": "❔ Unconfirmed",
     "acName": "EQU8",
@@ -624,6 +686,7 @@
   },
   {
     "game": "Splitgate",
+    "native": false,
     "acStatusUrl": "",
     "acStatus": "⭐ Supported",
     "acName": "EQU8",
@@ -634,6 +697,7 @@
   },
   {
     "game": "Counter-Strike: Global Offensive",
+    "native": false,
     "acStatus": "⭐ Supported",
     "acName": "VAC",
     "acList": [
@@ -644,6 +708,7 @@
   },
   {
     "game": "Team Fortress 2",
+    "native": false,
     "acStatus": "⭐ Supported",
     "acName": "VAC",
     "acList": [
@@ -654,6 +719,7 @@
   },
   {
     "game": "Dota 2",
+    "native": false,
     "acStatus": "⭐ Supported",
     "acName": "VAC",
     "acList": [
@@ -664,6 +730,7 @@
   },
   {
     "game": "Call of Duty®: Black Ops III",
+    "native": false,
     "acStatus": "⭐ Supported",
     "acName": "VAC",
     "acList": [
@@ -674,6 +741,7 @@
   },
   {
     "game": "Garry's Mod",
+    "native": false,
     "acStatus": "⭐ Supported",
     "acName": "VAC",
     "acList": [
@@ -684,6 +752,7 @@
   },
   {
     "game": "Dying Light",
+    "native": false,
     "acStatus": "⭐ Supported",
     "acName": "VAC",
     "acList": [
@@ -694,6 +763,7 @@
   },
   {
     "game": "SoulWorker",
+    "native": false,
     "acStatus": "❔ Unconfirmed",
     "acName": "XIGNCODE3",
     "acList": [
@@ -704,6 +774,7 @@
   },
   {
     "game": "Tom Clancy's Ghost Recon Breakpoint",
+    "native": false,
     "acStatus": "❔ Unconfirmed",
     "acName": "BattlEye",
     "acList": [
@@ -714,6 +785,7 @@
   },
   {
     "game": "Digimon Masters Online",
+    "native": false,
     "acStatus": "❔ Unconfirmed",
     "acName": "XIGNCODE3",
     "acList": [
@@ -724,6 +796,7 @@
   },
   {
     "game": "Post Scriptum",
+    "native": false,
     "acStatus": "❔ Unconfirmed",
     "gameUrl": "https://postscriptumgame.com/",
 	"acName": "",
@@ -734,6 +807,7 @@
   },
   {
     "game": "Sector's Edge",
+    "native": false,
     "acStatus": "❔ Unconfirmed",
     "gameUrl": "https://sectorsedge.com/",
 	"acName": "",
@@ -744,6 +818,7 @@
   },
   {
     "game": "Worms Rumble",
+    "native": false,
     "acStatus": "❔ Unconfirmed",
     "gameUrl": "",
 	"acName": "",
@@ -754,6 +829,7 @@
   },
   {
     "game": "Dirty Bomb",
+    "native": false,
     "acStatus": "❔ Unconfirmed",
     "gameUrl": "",
 	"acName": "",
@@ -764,6 +840,7 @@
   },
   {
     "game": "Empyrion - Galactic Survival",
+    "native": false,
     "acStatus": "❔ Unconfirmed",
     "gameUrl": "",
 	"acName": "",
@@ -774,6 +851,7 @@
   },
   {
     "game": "Call of Duty: Modern Warfare (2019)",
+    "native": false,
     "acStatus": "❔ Unconfirmed",
     "gameUrl": "",
 	"acName": "",
@@ -784,6 +862,7 @@
   },
   {
     "game": "Call of Duty: Warzone",
+    "native": false,
     "acStatus": "❔ Unconfirmed",
     "gameUrl": "https://www.callofduty.com/warzone",
 	"acName": "",
@@ -794,6 +873,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "acName": "",
     "gameUrl": "https://www.brawlhalla.com",
     "acList": [
@@ -804,6 +884,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "acName": "",
     "gameUrl": "https://combatarms-r.valofe.com/",
     "acList": [
@@ -814,6 +895,7 @@
   },
   {
     "acStatus": "🎉 Confirmed",
+    "native": false,
     "acName": "",
     "gameUrl": "",
     "acList": [
@@ -824,6 +906,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "acName": "",
     "gameUrl": "https://www.callofduty.com/blackopscoldwar",
     "acList": [
@@ -834,6 +917,7 @@
   },
   {
     "gameUrl": "https://albiononline.com/",
+    "native": false,
     "acName": "",
     "game": "Albion Online",
     "acStatus": "⭐ Supported",
@@ -844,6 +928,7 @@
   },
   {
     "gameUrl": "",
+    "native": false,
     "acName": "",
     "game": "Counter-Strike: Source",
     "acStatus": "⭐ Supported",
@@ -854,6 +939,7 @@
   },
   {
     "gameUrl": "https://outriders.square-enix-games.com",
+    "native": false,
     "acName": "",
     "game": "Outriders",
     "acStatus": "❔ Unconfirmed",
@@ -864,6 +950,7 @@
   },
   {
     "gameUrl": "https://crossout.net",
+    "native": false,
     "acName": "",
     "game": "Crossout",
     "acStatus": "❔ Unconfirmed",
@@ -874,6 +961,7 @@
   },
   {
     "gameUrl": "https://www.team17.com/games/worms-rumble/",
+    "native": false,
     "acName": "",
     "game": "Worms Rumble",
     "acStatus": "❔ Unconfirmed",
@@ -884,6 +972,7 @@
   },
   {
     "gameUrl": "https://playspellbreak.com/en",
+    "native": false,
     "acName": "",
     "game": "Spellbreak",
     "acStatus": "❔ Unconfirmed",
@@ -894,6 +983,7 @@
   },
   {
     "game": "Battlefield 4",
+    "native": false,
     "acList": [
       "PunkBuster",
 	  "FairFight"
@@ -905,6 +995,7 @@
   },
   {
     "game": "Conan Exiles",
+    "native": false,
     "acList": [
       "BattlEye"
     ],
@@ -915,6 +1006,7 @@
   },
   {
     "game": "Mount & Blade II: Bannerlord",
+    "native": false,
     "acList": [
       "BattlEye"
     ],
@@ -925,6 +1017,7 @@
   },
   {
     "game": "Vampire: The Masquerade - Bloodhunt",
+    "native": false,
     "acList": [
       "Easy Anti-Cheat"
     ],
@@ -935,6 +1028,7 @@
   },
   {
     "game": "MapleStory",
+    "native": false,
     "acList": [
       "nProtect GameGuard"
     ],
@@ -945,6 +1039,7 @@
   },
   {
     "game": "Heroes & Generals",
+    "native": false,
     "acList": [
       "BattlEye"
     ],
@@ -955,6 +1050,7 @@
   },
   {
     "game": "Deadside",
+    "native": false,
     "acList": [
       "Easy Anti-Cheat"
     ],
@@ -965,6 +1061,7 @@
   },
   {
     "game": "Intruder",
+    "native": false,
     "acList": [
       "Easy Anti-Cheat"
     ],
@@ -975,6 +1072,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Warface",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -985,6 +1083,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Call of Duty",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -995,6 +1094,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Half-Life 2: Deathmatch",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1005,6 +1105,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Atlas",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1015,6 +1116,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "The Mean Greens: Plastic Warfare",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1025,6 +1127,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Mordhau",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1035,6 +1138,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "ArmA 2",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1045,6 +1149,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Quake III Arena",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1055,6 +1160,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Call of Duty 2",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1065,6 +1171,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Battlefield 1",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1075,6 +1182,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Nuclear Dawn",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1085,6 +1193,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Pirates, Vikings, and Knights II",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1095,6 +1204,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Battlefield 1942",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1105,6 +1215,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Team Fortress Classic",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1115,6 +1226,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "The Cycle",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1125,6 +1237,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "ARK: Survival of the Fittest",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1135,6 +1248,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Crysis",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1145,6 +1259,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "The Isle",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1155,6 +1270,7 @@
   },
   {
     "gameUrl": "",
+    "native": false,
     "game": "Call of Duty: Black Ops",
     "acList": [
       "VAC",
@@ -1166,6 +1282,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Call of Duty 4: Modern Warfare",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1176,6 +1293,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Day of Defeat",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1186,6 +1304,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Chivalry: Medieval Warfare",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1196,6 +1315,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Pang Online",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1206,6 +1326,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "The Ship: Murder Party",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1216,6 +1337,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Insurgency",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1227,6 +1349,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Call of Duty: Black Ops II",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1237,6 +1360,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Monstrum 2",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1247,6 +1371,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "No More Room in Hell",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1257,6 +1382,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Depth",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1267,6 +1393,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Quake 4",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1277,6 +1404,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Deathmatch Classic",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1287,6 +1415,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Battlefield 2",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1297,6 +1426,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "SWORD ART ONLINE Alicization Lycoris",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1307,6 +1437,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Foxhole",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1317,6 +1448,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Block N Load",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1327,6 +1459,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Titanfall",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1337,6 +1470,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "KartRider",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1347,6 +1481,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Battlefield 3",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1357,6 +1492,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "KovaaK 2.0",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1367,6 +1503,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Day of Defeat: Source",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1377,6 +1514,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Star Wars: Battlefront (2015)",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1387,6 +1525,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Tower Wars",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1397,6 +1536,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Hurtworld",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1407,6 +1547,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Call of Duty: Ghost",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1417,6 +1558,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Sword Art Online: Fatal Bullet",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1427,6 +1569,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Killing Floor",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1437,6 +1580,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Battlefield: Bad Company 2",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1447,6 +1591,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Trials Rising",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1457,6 +1602,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Cry of Fear",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1467,6 +1613,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Far Cry 5",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1477,6 +1624,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Call of Duty: Modern Warfare 2",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1487,6 +1635,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Kritika:Reboot",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1497,6 +1646,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Half-Life Deathmatch: Source",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1507,6 +1657,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Beyond the Wire",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1517,6 +1668,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Lost Planet: Extreme Condition",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1527,6 +1679,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Tom Clancy's The Division",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1537,6 +1690,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Rocket Arena",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1547,6 +1701,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Call of Duty: Modern Warfare 3",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1557,6 +1712,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Left 4 Dead 2",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1567,6 +1723,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Tower Unite",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1577,6 +1734,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Day of Infamy",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1587,6 +1745,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Black Squad",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1597,6 +1756,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Star Wars: Battlefront II (2017)",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1607,6 +1767,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Primal Carnage",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1617,6 +1778,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Honkai Impact 3rd",
     "acStatusUrl": "",
     "gameUrl": "https://honkaiimpact3.mihoyo.com/",
@@ -1627,6 +1789,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Dungeon Defenders",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1637,6 +1800,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "APB Reloaded",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1647,6 +1811,7 @@
   },
   {
     "gameUrl": "",
+    "native": false,
     "game": "Battlefield: Hardline",
     "acList": [
       "PunkBuster",
@@ -1658,6 +1823,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Gears 5",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1668,6 +1834,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Call of Duty: World at War",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1678,6 +1845,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Quake Live",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1688,6 +1856,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "PixARK",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1698,6 +1867,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Captain Tsubasa: Rise of New Champions",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1708,6 +1878,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "TOXIKK",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1718,6 +1889,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "ArmA 2: Operation Arrowhead",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1728,6 +1900,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "LaTale",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1738,6 +1911,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Crysis: Warhead",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1748,6 +1922,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Predator: Hunting Grounds",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1758,6 +1933,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Call of Duty: WWII",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1768,6 +1944,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Nostale",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1778,6 +1955,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Battlefield V",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1788,6 +1966,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Chivalry 2",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1798,6 +1977,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Homefront",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1808,6 +1988,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Call of Duty: Infinite Warfare",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1818,6 +1999,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "PangYa",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1828,6 +2010,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Quantum League",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1838,6 +2021,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Blazing Sails",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1848,6 +2032,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Titanfall 2",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1858,6 +2043,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Lemnis Gate",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1868,6 +2054,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Grandchase",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1878,6 +2065,7 @@
   },
   {
     "acStatus": "⭐ Supported",
+    "native": false,
     "game": "Killing Floor 2",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1888,6 +2076,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Black Clover: Quartet Knights",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1898,6 +2087,7 @@
   },
   {
     "acStatus": "❔ Unconfirmed",
+    "native": false,
     "game": "Nine to Five",
     "acStatusUrl": "",
     "gameUrl": "",
