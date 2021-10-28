@@ -118,7 +118,7 @@ export default {
                 game.acStatus = game.acStatus.substring(0,2) + `<a class="is-underlined has-text-grey-darker" href="` + game.acStatusUrl + `">` + game.acStatus.substring(2, game.acStatus.len) + `</a>`;
             }
 
-            game.nativeLabel = game.native ? 'Native' : 'Proton';
+            game.nativeLabel = game.native ? "✔️ Yes" : "❌️ No";
 
             gamesList[i] = game;
         }
