@@ -146,7 +146,7 @@
   },
   {
     "game": "ARK: Survival Evolved",
-    "native": false,
+    "native": true,
     "gameUrl": "",
     "acName": "BattlEye",
     "acList": [
@@ -212,7 +212,7 @@
   },
   {
     "game": "War Thunder",
-    "native": false,
+    "native": true,
     "gameUrl": "",
     "acName": "Easy Anti-Cheat",
     "acList": [
@@ -223,7 +223,7 @@
   },
   {
     "game": "7 Days to Die",
-    "native": false,
+    "native": true,
     "gameUrl": "",
     "acName": "Easy Anti-Cheat",
     "acList": [
@@ -333,7 +333,7 @@
   },
   {
     "game": "Unturned",
-    "native": false,
+    "native": true,
     "acStatusUrl": "",
     "acStatus": "⭐ Supported",
     "acName": "BattlEye",
@@ -686,7 +686,7 @@
   },
   {
     "game": "Splitgate",
-    "native": false,
+    "native": true,
     "acStatusUrl": "",
     "acStatus": "⭐ Supported",
     "acName": "EQU8",
@@ -697,7 +697,7 @@
   },
   {
     "game": "Counter-Strike: Global Offensive",
-    "native": false,
+    "native": true,
     "acStatus": "⭐ Supported",
     "acName": "VAC",
     "acList": [
@@ -708,7 +708,7 @@
   },
   {
     "game": "Team Fortress 2",
-    "native": false,
+    "native": true,
     "acStatus": "⭐ Supported",
     "acName": "VAC",
     "acList": [
@@ -719,7 +719,7 @@
   },
   {
     "game": "Dota 2",
-    "native": false,
+    "native": true,
     "acStatus": "⭐ Supported",
     "acName": "VAC",
     "acList": [
@@ -741,7 +741,7 @@
   },
   {
     "game": "Garry's Mod",
-    "native": false,
+    "native": true,
     "acStatus": "⭐ Supported",
     "acName": "VAC",
     "acList": [
@@ -752,7 +752,7 @@
   },
   {
     "game": "Dying Light",
-    "native": false,
+    "native": true,
     "acStatus": "⭐ Supported",
     "acName": "VAC",
     "acList": [
@@ -917,7 +917,7 @@
   },
   {
     "gameUrl": "https://albiononline.com/",
-    "native": false,
+    "native": true,
     "acName": "",
     "game": "Albion Online",
     "acStatus": "⭐ Supported",
@@ -928,7 +928,7 @@
   },
   {
     "gameUrl": "",
-    "native": false,
+    "native": true,
     "acName": "",
     "game": "Counter-Strike: Source",
     "acStatus": "⭐ Supported",
@@ -1094,7 +1094,7 @@
   },
   {
     "acStatus": "⭐ Supported",
-    "native": false,
+    "native": true,
     "game": "Half-Life 2: Deathmatch",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1182,7 +1182,7 @@
   },
   {
     "acStatus": "⭐ Supported",
-    "native": false,
+    "native": true,
     "game": "Nuclear Dawn",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1193,7 +1193,7 @@
   },
   {
     "acStatus": "⭐ Supported",
-    "native": false,
+    "native": true,
     "game": "Pirates, Vikings, and Knights II",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1215,7 +1215,7 @@
   },
   {
     "acStatus": "⭐ Supported",
-    "native": false,
+    "native": true,
     "game": "Team Fortress Classic",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1237,7 +1237,7 @@
   },
   {
     "acStatus": "⭐ Supported",
-    "native": false,
+    "native": true,
     "game": "ARK: Survival of the Fittest",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1293,7 +1293,7 @@
   },
   {
     "acStatus": "⭐ Supported",
-    "native": false,
+    "native": true,
     "game": "Day of Defeat",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1304,7 +1304,7 @@
   },
   {
     "acStatus": "⭐ Supported",
-    "native": false,
+    "native": true,
     "game": "Chivalry: Medieval Warfare",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1337,7 +1337,7 @@
   },
   {
     "acStatus": "⭐ Supported",
-    "native": false,
+    "native": true,
     "game": "Insurgency",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1371,7 +1371,7 @@
   },
   {
     "acStatus": "⭐ Supported",
-    "native": false,
+    "native": true,
     "game": "No More Room in Hell",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1404,7 +1404,7 @@
   },
   {
     "acStatus": "⭐ Supported",
-    "native": false,
+    "native": true,
     "game": "Deathmatch Classic",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1503,7 +1503,7 @@
   },
   {
     "acStatus": "⭐ Supported",
-    "native": false,
+    "native": true,
     "game": "Day of Defeat: Source",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1569,7 +1569,7 @@
   },
   {
     "acStatus": "⭐ Supported",
-    "native": false,
+    "native": true,
     "game": "Killing Floor",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1646,7 +1646,7 @@
   },
   {
     "acStatus": "⭐ Supported",
-    "native": false,
+    "native": true,
     "game": "Half-Life Deathmatch: Source",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1712,7 +1712,7 @@
   },
   {
     "acStatus": "⭐ Supported",
-    "native": false,
+    "native": true,
     "game": "Left 4 Dead 2",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1734,7 +1734,7 @@
   },
   {
     "acStatus": "⭐ Supported",
-    "native": false,
+    "native": true,
     "game": "Day of Infamy",
     "acStatusUrl": "",
     "gameUrl": "",

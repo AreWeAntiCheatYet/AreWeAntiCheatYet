@@ -118,6 +118,8 @@ export default {
                 game.acStatus = game.acStatus.substring(0,2) + `<a class="is-underlined has-text-grey-darker" href="` + game.acStatusUrl + `">` + game.acStatus.substring(2, game.acStatus.len) + `</a>`;
             }
 
+            game.nativeLabel = game.native ? 'Native' : 'Proton';
+
             gamesList[i] = game;
         }
 
@@ -126,7 +128,7 @@ export default {
             noUnconfirmed,
             noSupported,
             noConfirmed,
-            formatting: [{field: 'game', label: 'Game', numeric: false, sortable: true, searchable: true}, {field: 'acLabel', label: 'Anti-Cheat'}, {field: 'acStatus', label: 'Status', sortable: true}]
+            formatting: [{field: 'game', label: 'Game', numeric: false, sortable: true, searchable: true}, {field: 'acLabel', label: 'Anti-Cheat'}, {field: 'acStatus', label: 'Status', sortable: true}, {field: 'nativeLabel', label: 'Native', sortable: true}]
         }
     },
     fetchOnServer: true,
