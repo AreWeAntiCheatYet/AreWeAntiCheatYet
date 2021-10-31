@@ -243,7 +243,7 @@
   },
   {
     "game": "Escape from Tarkov",
-    "acStatusUrl": "",
+    "acStatusUrl": "https://forum.escapefromtarkov.com/topic/157618-linuxmac-proton-support/",
     "acStatus": "❔ Unconfirmed",
     "acName": "BattlEye",
     "acList": [
