@@ -103,14 +103,17 @@ export default {
             switch(game.acStatus){
                 case "❔ Unconfirmed":
                     noUnconfirmed++;
+                    game.statusSortvalue = "3";
                 break;
 
                 case "⭐ Supported":
                     noSupported++;
+                    game.statusSortvalue = "1";
                 break;
 
                 case "🎉 Confirmed":
                     noConfirmed++;
+                    game.statusSortvalue = "2";
                 break;
             }
 
@@ -134,7 +137,7 @@ export default {
             noUnconfirmed,
             noSupported,
             noConfirmed,
-            formatting: [{field: 'game', label: 'Game', numeric: false, sortable: true, customSort: customSort('gameSortvalue'), searchable: true}, {field: 'acLabel', label: 'Anti-Cheat'}, {field: 'acStatus', label: 'Status', sortable: true}]
+            formatting: [{field: 'game', label: 'Game', numeric: false, sortable: true, customSort: customSort('gameSortvalue'), searchable: true}, {field: 'acLabel', label: 'Anti-Cheat'}, {field: 'acStatus', label: 'Status', sortable: true, customSort: customSort('statusSortvalue')}]
         }
     },
     fetchOnServer: true,
