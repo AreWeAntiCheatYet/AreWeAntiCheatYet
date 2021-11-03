@@ -48,6 +48,7 @@ export default {
         for (let i = 0; i < gamesList.length; i++) {
             const game = gamesList[i];
 
+            game.gameSortvalue = game.game;
             // template games with a source URL
             if (game.gameUrl.length !== 0) {
                 game.game = `<a class="is-underlined has-text-grey-darker" href="` + game.gameUrl + `">` + game.game + `</a>`;
@@ -121,12 +122,19 @@ export default {
             gamesList[i] = game;
         }
 
+        const customSort = (key) => {
+            return (a, b, isAsc) => {
+                console.log(a, b, isAsc, 8);
+                return isAsc ? a[key].localeCompare(b[key]) : b[key].localeCompare(a[key]);
+            };
+        };
+
         return {
             table: gamesList,
             noUnconfirmed,
             noSupported,
             noConfirmed,
-            formatting: [{field: 'game', label: 'Game', numeric: false, sortable: true, searchable: true}, {field: 'acLabel', label: 'Anti-Cheat'}, {field: 'acStatus', label: 'Status', sortable: true}]
+            formatting: [{field: 'game', label: 'Game', numeric: false, sortable: true, customSort: customSort('gameSortvalue'), searchable: true}, {field: 'acLabel', label: 'Anti-Cheat'}, {field: 'acStatus', label: 'Status', sortable: true}]
         }
     },
     fetchOnServer: true,
