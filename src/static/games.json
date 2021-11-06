@@ -793,14 +793,14 @@
     "acStatusUrl": ""
   },
   {
-    "acStatus": "⭐ Supported",
+    "acStatus": "🎉 Confirmed",
     "acName": "",
     "gameUrl": "https://www.brawlhalla.com",
     "acList": [
       "Easy Anti-Cheat"
     ],
     "game": "Brawlhalla",
-    "acStatusUrl": "https://www.gamingonlinux.com/2021/10/brawlhalla-to-get-easy-anti-cheat-dev-puts-up-beta-with-eac-working-on-linux-with-proton"
+    "acStatusUrl": "https://www.reddit.com/r/Brawlhalla/comments/q7n6zr/will_bmg_developers_optin_for_eac_under_wine/hgmmtm1/?context=3"
   },
   {
     "acStatus": "❔ Unconfirmed",
