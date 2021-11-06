@@ -89,7 +89,7 @@ Worms Rumble~Easy Anti-Cheat~❔ Unconfirmed
 Spellbreak~Easy Anti-Cheat~❔ Unconfirmed
 Battlefield 4~PunkBuster~⭐ Supported
 Conan Exiles~BattlEye~❔ Unconfirmed
-Mount & Blade II: Bannerlord~BattlEye~❔ Unconfirmed
+Mount & Blade II: Bannerlord~BattlEye~⭐ Supported
 Vampire: The Masquerade - Bloodhunt~Easy Anti-Cheat~❔ Unconfirmed
 MapleStory~nProtect GameGuard~❔ Unconfirmed
 Heroes & Generals~BattlEye~❔ Unconfirmed
