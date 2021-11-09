@@ -745,8 +745,8 @@
   {
     "game": "Worms Rumble",
     "acStatus": "❔ Unconfirmed",
-    "gameUrl": "",
-	"acName": "",
+    "gameUrl": "https://www.team17.com/games/worms-rumble/",
+    "acName": "",
     "acList": [
       "Easy Anti-Cheat"
     ],
@@ -866,16 +866,6 @@
     "gameUrl": "https://crossout.net",
     "acName": "",
     "game": "Crossout",
-    "acStatus": "❔ Unconfirmed",
-    "acList": [
-      "Easy Anti-Cheat"
-    ],
-    "acStatusUrl": ""
-  },
-  {
-    "gameUrl": "https://www.team17.com/games/worms-rumble/",
-    "acName": "",
-    "game": "Worms Rumble",
     "acStatus": "❔ Unconfirmed",
     "acList": [
       "Easy Anti-Cheat"
