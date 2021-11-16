@@ -667,7 +667,8 @@
     "acStatus": "⭐ Supported",
     "acName": "VAC",
     "acList": [
-        "VAC"
+        "VAC",
+		"Treyarch Anti-Cheat"
     ],
     "gameUrl": "",
     "acStatusUrl": ""
@@ -827,7 +828,7 @@
     "acName": "",
     "gameUrl": "https://www.callofduty.com/blackopscoldwar",
     "acList": [
-      "RICOCHET"
+      "Treyarch Anti-Cheat"
     ],
     "game": "Call of Duty Black Ops: Cold War",
     "acStatusUrl": ""
@@ -1147,6 +1148,7 @@
     "gameUrl": "",
     "game": "Call of Duty: Black Ops",
     "acList": [
+	  "Treyarch Anti-Cheat",
       "VAC",
 	  "PunkBuster"
     ],
@@ -1222,7 +1224,8 @@
     "gameUrl": "",
     "acName": "",
     "acList": [
-      "VAC"
+      "VAC",
+	  "Treyarch Anti-Cheat"
     ]
   },
   {
@@ -1663,7 +1666,8 @@
     "gameUrl": "",
     "acName": "",
     "acList": [
-      "PunkBuster"
+      "PunkBuster",
+	  "Treyarch Anti-Cheat"
     ]
   },
   {
@@ -1934,6 +1938,16 @@
     "acName": "",
     "acList": [
       "BattlEye"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Call of Duty: Vanguard",
+    "acStatusUrl": "",
+    "gameUrl": "",
+    "acName": "",
+    "acList": [
+      "RICOCHET"
     ]
   }
 ]
