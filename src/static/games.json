@@ -1895,5 +1895,45 @@
     "acList": [
       "Easy Anti-Cheat"
     ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Lost Ark",
+    "acStatusUrl": "",
+    "gameUrl": "https://www.playlostark.com/",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Archeage: Unchained",
+    "acStatusUrl": "",
+    "gameUrl": "https://archeageunchained.com/",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "game": "Hired Ops",
+    "acStatusUrl": "",
+    "gameUrl": "https://www.hiredops.com/",
+    "acName": "",
+    "acList": [
+      "Saberclaw"
+    ]
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "game": "Watch Dogs: Legion",
+    "acStatusUrl": "",
+    "gameUrl": "https://www.ubisoft.com/en-us/game/watch-dogs/legion",
+    "acName": "",
+    "acList": [
+      "BattlEye"
+    ]
   }
 ]

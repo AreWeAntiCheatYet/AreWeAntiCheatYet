@@ -187,3 +187,7 @@ Grandchase~nProtect GameGuard~❔ Unconfirmed
 Killing Floor 2~VAC~⭐ Supported
 Black Clover: Quartet Knights~Easy Anti-Cheat~❔ Unconfirmed
 Nine to Five~Easy Anti-Cheat~❔ Unconfirmed
+Lost Ark~Easy Anti-Cheat~❔ Unconfirmed
+Archeage: Unchained~Easy Anti-Cheat~❔ Unconfirmed
+Hired Ops~Saberclaw~⭐ Supported
+Watch Dogs: Legion~BattlEye~❔ Unconfirmed
