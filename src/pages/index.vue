@@ -98,7 +98,7 @@ export default {
                     break;
 					
                     case "Arbiter":
-                        game.acLabel += `<p><img src="` + arbiterLogoLogo + `" width="32" height="32" alt/> Arbiter</p>`;
+                        game.acLabel += `<p><img src="` + arbiterLogo + `" width="32" height="32" alt/> Arbiter</p>`;
                     break;
 
                     default:
