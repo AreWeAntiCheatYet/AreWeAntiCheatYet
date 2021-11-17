@@ -37,6 +37,7 @@ const vacLogo = require("~/assets/vac-logo.webp");
 const ffLogo = require("~/assets/fairfight-logo.webp")
 const pbLogo = require("~/assets/punkbuster-logo.webp")
 const tacLogo = require("~/assets/tac-logo.webp")
+const arbiterLogo = require("~/assets/arbiter-placeholder.webp")
 
 export default {
     name: 'HomePage',
@@ -94,6 +95,10 @@ export default {
 					
                     case "Treyarch Anti-Cheat":
                         game.acLabel += `<p><img src="` + tacLogo + `" width="32" height="32" alt/> Treyarch Anti-Cheat</p>`;
+                    break;
+					
+                    case "Arbiter":
+                        game.acLabel += `<p><img src="` + arbiterLogoLogo + `" width="32" height="32" alt/> Arbiter</p>`;
                     break;
 
                     default:
