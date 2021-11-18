@@ -1949,5 +1949,15 @@
     "acList": [
       "RICOCHET"
     ]
+  },
+  {
+    "acStatus": "🎉 Confirmed",
+    "game": "Star Citizen",
+    "acStatusUrl": "https://robertsspaceindustries.com/spectrum/community/SC/forum/190048/thread/star-citizen-alpha-3-15-1e-ptu-7876811-patch-notes",
+    "gameUrl": "https://robertsspaceindustries.com/",
+    "acName": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ]
   }
 ]
