@@ -90,19 +90,19 @@ Battlefield 4~PunkBuster~⭐ Supported
 Conan Exiles~BattlEye~❔ Unconfirmed
 Mount & Blade II: Bannerlord~BattlEye~⭐ Supported
 Vampire: The Masquerade - Bloodhunt~Easy Anti-Cheat~❔ Unconfirmed
-MapleStory~nProtect GameGuard~❔ Unconfirmed
+MapleStory~Nexon Game Security~❔ Unconfirmed
 Heroes & Generals~BattlEye~❔ Unconfirmed
 Deadside~Easy Anti-Cheat~❔ Unconfirmed
 Intruder~Easy Anti-Cheat~❔ Unconfirmed
 Warface~Easy Anti-Cheat~❔ Unconfirmed
-Call of Duty~PunkBuster~❔ Unconfirmed
+Call of Duty~PunkBuster~⭐ Supported
 Half-Life 2: Deathmatch~VAC~⭐ Supported
 Atlas~BattlEye~❔ Unconfirmed
 The Mean Greens: Plastic Warfare~VAC~⭐ Supported
 Mordhau~VAC~⭐ Supported
 ArmA 2~BattlEye~❔ Unconfirmed
 Quake III Arena~PunkBuster~⭐ Supported
-Call of Duty 2~PunkBuster~❔ Unconfirmed
+Call of Duty 2~PunkBuster~⭐ Supported
 Battlefield 1~FairFight~⭐ Supported
 Nuclear Dawn~VAC~⭐ Supported
 Pirates, Vikings, and Knights II~VAC~⭐ Supported
@@ -113,7 +113,7 @@ ARK: Survival of the Fittest~BattlEye~⭐ Supported
 Crysis~PunkBuster~❔ Unconfirmed
 The Isle~BattlEye~❔ Unconfirmed
 Call of Duty: Black Ops~PunkBuster + VAC~⭐ Supported
-Call of Duty 4: Modern Warfare~PunkBuster~❔ Unconfirmed
+Call of Duty 4: Modern Warfare~PunkBuster~⭐ Supported
 Day of Defeat~VAC~⭐ Supported
 Chivalry: Medieval Warfare~VAC~⭐ Supported
 Pang Online~nProtect GameGuard~❔ Unconfirmed
@@ -151,7 +151,7 @@ Beyond the Wire~Easy Anti-Cheat~❔ Unconfirmed
 Lost Planet: Extreme Condition~VAC~❔ Unconfirmed
 Tom Clancy's The Division~FairFight~⭐ Supported
 Rocket Arena~Easy Anti-Cheat~❔ Unconfirmed
-Call of Duty: Modern Warfare 3~VAC~❔ Unconfirmed
+Call of Duty: Modern Warfare 3~VAC~⭐ Supported
 Left 4 Dead 2~VAC~⭐ Supported
 Tower Unite~VAC~⭐ Supported
 Day of Infamy~VAC~⭐ Supported
@@ -163,7 +163,7 @@ Dungeon Defenders~VAC~⭐ Supported
 APB Reloaded~BattlEye~❔ Unconfirmed
 Battlefield: Hardline~PunkBuster + FairFight~⭐ Supported
 Gears 5~Easy Anti-Cheat~❔ Unconfirmed
-Call of Duty: World at War~PunkBuster~❔ Unconfirmed
+Call of Duty: World at War~PunkBuster~⭐ Supported
 Quake Live~PunkBuster~⭐ Supported
 PixARK~BattlEye~❔ Unconfirmed
 Captain Tsubasa: Rise of New Champions~Easy Anti-Cheat~❔ Unconfirmed
@@ -173,7 +173,7 @@ LaTale~nProtect GameGuard~❔ Unconfirmed
 Crysis: Warhead~PunkBuster~❔ Unconfirmed
 Predator: Hunting Grounds~Easy Anti-Cheat~❔ Unconfirmed
 Call of Duty: WWII~VAC~❔ Unconfirmed
-Nostale~nProtect GameGuard~❔ Unconfirmed
+Nostale~nProtect GameGuard~⭐ Supported
 Battlefield V~FairFight~⭐ Supported
 Chivalry 2~Easy Anti-Cheat~❔ Unconfirmed
 Homefront~VAC~❔ Unconfirmed
@@ -198,3 +198,4 @@ Dauntless~Easy Anti-Cheat~❔ Unconfirmed
 NARUTO TO BORUTO: SHINOBI STRIKER~Easy Anti-Cheat~❔ Unconfirmed
 Myth of Empires~BattlEye~❔ Unconfirmed
 League of Legends~❔ Internal~❔ Unconfirmed
+Gunfire Reborn~❔ Internal~⭐ Supported

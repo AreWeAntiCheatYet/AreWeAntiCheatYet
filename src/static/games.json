@@ -927,7 +927,7 @@
   {
     "game": "MapleStory",
     "acList": [
-      "nProtect GameGuard"
+      "Nexon Game Security"
     ],
     "gameUrl": "https://maplestory.nexon.net",
     "acStatus": "❔ Unconfirmed",
@@ -975,7 +975,7 @@
     ]
   },
   {
-    "acStatus": "❔ Unconfirmed",
+    "acStatus": "⭐ Supported",
     "game": "Call of Duty",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1045,7 +1045,7 @@
     ]
   },
   {
-    "acStatus": "❔ Unconfirmed",
+    "acStatus": "⭐ Supported",
     "game": "Call of Duty 2",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1157,7 +1157,7 @@
     "acName": ""
   },
   {
-    "acStatus": "❔ Unconfirmed",
+    "acStatus": "⭐ Supported",
     "game": "Call of Duty 4: Modern Warfare",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1539,7 +1539,7 @@
     ]
   },
   {
-    "acStatus": "❔ Unconfirmed",
+    "acStatus": "⭐ Supported",
     "game": "Call of Duty: Modern Warfare 3",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1660,7 +1660,7 @@
     ]
   },
   {
-    "acStatus": "❔ Unconfirmed",
+    "acStatus": "⭐ Supported",
     "game": "Call of Duty: World at War",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -1761,7 +1761,7 @@
     ]
   },
   {
-    "acStatus": "❔ Unconfirmed",
+    "acStatus": "⭐ Supported",
     "game": "Nostale",
     "acStatusUrl": "",
     "gameUrl": "",
@@ -2019,5 +2019,15 @@
       "❔ Internal"
     ],
     "acStatus": "❔ Unconfirmed"
+  },
+  {
+    "acName": "",
+    "acStatusUrl": "",
+    "game": "Gunfire Reborn",
+    "gameUrl": "",
+    "acList": [
+      "❔ Internal"
+    ],
+    "acStatus": "⭐ Supported"
   }
 ]
