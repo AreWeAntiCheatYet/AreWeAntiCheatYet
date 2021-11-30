@@ -22,6 +22,6 @@ RUN npm run generate -- --prod --output-path=dist
 
 ### STAGE 2: Setup ###
 
-FROM alpine:3.11.11
+FROM scratch
 
 COPY --from=builder /nuxt-app/dist /app/
