@@ -1959,5 +1959,65 @@
     "acList": [
       "Easy Anti-Cheat"
     ]
+  },
+  {
+    "acName": "",
+    "acStatusUrl": "",
+    "game": "Quake Champions",
+    "gameUrl": "https://quake.bethesda.net",
+    "acList": [
+      "❔ Internal"
+    ],
+    "acStatus": "⭐ Supported"
+  },
+  {
+    "acName": "",
+    "acStatusUrl": "",
+    "game": "Pavlov VR",
+    "gameUrl": "http://vankrupt.com/#pavlov-vr",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "acStatus": "❔ Unconfirmed"
+  },
+  {
+    "acName": "",
+    "acStatusUrl": "",
+    "game": "Dauntless",
+    "gameUrl": "https://playdauntless.com/",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "acStatus": "❔ Unconfirmed"
+  },
+  {
+    "acName": "",
+    "acStatusUrl": "",
+    "game": "NARUTO TO BORUTO: SHINOBI STRIKER",
+    "gameUrl": "https://www.bandainamcoent.com/games/naruto-to-boruto-shinobi-striker",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "acStatus": "❔ Unconfirmed"
+  },
+  {
+    "acName": "",
+    "acStatusUrl": "",
+    "game": "Myth of Empires",
+    "gameUrl": "https://www.mythofempires.com/",
+    "acList": [
+      "BattlEye"
+    ],
+    "acStatus": "❔ Unconfirmed"
+  },
+  {
+    "acName": "",
+    "acStatusUrl": "",
+    "game": "League of Legends",
+    "gameUrl": "https://leagueoflegends.com",
+    "acList": [
+      "❔ Internal"
+    ],
+    "acStatus": "❔ Unconfirmed"
   }
 ]
