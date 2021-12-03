@@ -143,7 +143,7 @@
   },
   {
     "game": "DayZ",
-    "gameUrl": "",
+    "gameUrl": "https://dayz.com",
     "acName": "BattlEye",
     "acList": [
         "BattlEye"
@@ -303,7 +303,7 @@
   },
   {
     "game": "Unturned",
-    "acStatusUrl": "",
+    "acStatusUrl": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966",
     "acStatus": "⭐ Supported",
     "acName": "BattlEye",
     "acList": [
