@@ -148,8 +148,8 @@
     "acList": [
         "BattlEye"
     ],
-    "acStatus": "❔ Unconfirmed",
-    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+    "acStatus": "⭐ Supported",
+    "acStatusUrl": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966"
   },
   {
     "game": "Dead By Daylight",
@@ -263,8 +263,8 @@
   },
   {
     "game": "ArmA 3",
-    "acStatusUrl": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/103#issuecomment-939699485",
-    "acStatus": "🎉 Confirmed",
+    "acStatusUrl": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966",
+    "acStatus": "⭐ Supported",
     "acName": "BattlEye",
     "acList": [
         "BattlEye"
@@ -314,8 +314,8 @@
   },
   {
     "game": "PlanetSide 2",
-    "acStatusUrl": "",
-    "acStatus": "❔ Unconfirmed",
+    "acStatusUrl": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966",
+    "acStatus": "⭐ Supported",
     "acName": "BattlEye",
     "acList": [
         "BattlEye"
