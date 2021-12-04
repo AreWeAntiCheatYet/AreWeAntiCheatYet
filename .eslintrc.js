@@ -13,6 +13,9 @@ module.exports = {
     'plugin:nuxt/recommended',
     'prettier'
   ],
+  ignorePatterns: [
+	'src/layouts/default.vue'
+  ],
   plugins: [
   ],
   // add your custom rules here
