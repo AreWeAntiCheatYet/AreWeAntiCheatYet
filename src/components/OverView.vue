@@ -6,6 +6,7 @@
                 <p class="pill isConfirmed">🎉 Confirmed {{noConfirmed}}</p>
                 <p class="pill isUnconfirmed">❔ Unconfirmed: {{noUnconfirmed}}</p>
                 <p class="pill isTotal">📈 Total: {{total}}</p>
+                <p v-on:click="breakdownVisible = !breakdownVisible" class="pill breakdown" v-text="breakdownVisible ? '⬆️ Hide Breakdown' : '⬇️ Show Breakdown'"></p>
         </div>
 
         <div class="row is-mobile is-centered">
@@ -20,14 +21,14 @@
             </b-progress>
             </div>
 
-        <table class="row is-mobile is-centered" >
-        <tr v-for="(item,key) in gametotal" :key="key" class="pill" >
-        <td><img v-if="item.logo" :src="item.logo" width="32" height="32" />{{key}}({{item.no}})</td>
-        <td class=""  style="width:80%;vertical-align:middle;"><b-progress :max="item.no" size="is-large" >
+        <table v-show="breakdownVisible" class="row is-mobile is-centered" >
+        <tr v-for="(item,key) in gametotal"  :key="key" class="pill" >
+        <td v-if="item.no>0"><img v-if="item.logo" :src="item.logo" width="32" height="32" />{{key}}({{item.no}})</td>
+        <td v-if="item.no>0" class="breakdownPill"><b-progress :max="item.no" size="is-large" >
         <template #bar>
-            <b-progress-bar :value="item.Supported" type="is-success" show-value></b-progress-bar>
-            <b-progress-bar :value="item.Confirmed" type="is-info" show-value></b-progress-bar>
-            <b-progress-bar :value="item.Unconfirmed"  show-value></b-progress-bar>
+            <b-progress-bar v-if="item.Supported>0" :value="item.Supported" type="is-success" show-value></b-progress-bar>
+            <b-progress-bar v-if="item.Confirmed>0" :value="item.Confirmed" type="is-info" show-value></b-progress-bar>
+            <b-progress-bar v-if="item.Unconfirmed>0" :value="item.Unconfirmed"  show-value></b-progress-bar>
         </template>
         </b-progress>
          </td>
@@ -81,6 +82,7 @@ export default {
             supportedPercent:this.noSupported/total*100,
             unconfirmedPercent:this.noUnconfirmed/total*100,
             gametotal,
+            breakdownVisible:false,
             };
     }
 }
@@ -114,6 +116,20 @@ export default {
 
     .isTotal{
         background: rgb(255, 174, 0);
+    }
+
+    .breakdown{
+        padding: 0.2rem 1rem 0.2rem 1rem;
+        border: 0.12rem solid black;
+    }
+    .breakdown:hover{
+        background: #167df0;
+        color: white;
+    }
+
+    .breakdownPill{
+        width:80%;
+        vertical-align:middle;
     }
 
     .row{

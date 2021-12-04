@@ -59,6 +59,12 @@ export default {
             PunkBuster:{logo:pbLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
             'Treyarch Anti-Cheat':{logo:tacLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
             Arbiter:{logo:arbiterLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            'NEAC Protect':{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            'miHoYo Protect 2':{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            RICOCHET:{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            'Nexon Game Security':{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            Sabreclaw:{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            Internal:{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
             Other:{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
         }
 
@@ -127,6 +133,36 @@ export default {
                     case "Arbiter":
                         game.acLabel += `<p><img src="` + arbiterLogo + `" width="32" height="32" alt/> Arbiter</p>`;
                         gamecount.Arbiter[game.acStatus]++;
+                    break;
+
+                    case "NEAC Protect":
+                        game.acLabel += `<p>NEAC Protect</p>`;
+                        gamecount['NEAC Protect'][game.acStatus]++;
+                    break;
+
+                    case "miHoYo Protect 2":
+                        game.acLabel += `<p>miHoYo Protect 2</p>`;
+                        gamecount['miHoYo Protect 2'][game.acStatus]++;
+                    break;
+
+                    case "RICOCHET":
+                        game.acLabel += `<p>RICOCHET</p>`;
+                        gamecount.RICOCHET[game.acStatus]++;
+                    break;
+
+                    case "Nexon Game Security":
+                        game.acLabel += `<p>Nexon Game Security</p>`;
+                        gamecount['Nexon Game Security'][game.acStatus]++;
+                    break;
+
+                    case "Sabreclaw":
+                        game.acLabel += `<p>Sabreclaw</p>`;
+                        gamecount.Sabreclaw[game.acStatus]++;
+                    break;
+
+                    case "❔ Internal":
+                        game.acLabel += `<p>Internal</p>`;
+                        gamecount.Internal[game.acStatus]++;
                     break;
 
                     default:
