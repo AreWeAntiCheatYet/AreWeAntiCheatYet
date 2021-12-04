@@ -1,10 +1,10 @@
 import { mount } from '@vue/test-utils'
 // HACK: For some reason tests run in the test folder, so '~' and '@' don't work.
-import NuxtLogo from '../components/NuxtLogo.vue'
+import OverView from '../components/OverView.vue'
 
-describe('NuxtLogo', () => {
+describe('OverView', () => {
   test('is a Vue instance', () => {
-    const wrapper = mount(NuxtLogo)
+    const wrapper = mount(OverView)
     expect(wrapper.vm).toBeTruthy()
   })
 })
