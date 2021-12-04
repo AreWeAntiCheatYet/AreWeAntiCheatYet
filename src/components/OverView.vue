@@ -20,6 +20,19 @@
             </b-progress>
             </div>
 
+        <table class="row is-mobile is-centered" >
+        <tr v-for="(item,key) in gametotal" :key="key" class="pill" >
+        <td><img v-if="item.logo" :src="item.logo" width="32" height="32" />{{key}}({{item.no}})</td>
+        <td class=""  style="width:80%;vertical-align:middle;"><b-progress :max="item.no" size="is-large" >
+        <template #bar>
+            <b-progress-bar :value="item.Supported" type="is-success" show-value></b-progress-bar>
+            <b-progress-bar :value="item.Confirmed" type="is-info" show-value></b-progress-bar>
+            <b-progress-bar :value="item.Unconfirmed"  show-value></b-progress-bar>
+        </template>
+        </b-progress>
+         </td>
+        </tr>
+        </table>
         </div>
     </div>
 </template>
@@ -40,17 +53,34 @@ export default {
     noConfirmed:{
         type:Number,
         default:0
-    }
+    },
+    gamecount:{
+        type:Object,
+        default(){}
+    },
   },
   
     data(){
         const total=this.noUnconfirmed+this.noSupported+this.noConfirmed;
         
+        const gametotal = {};
+        for (const key in this.gamecount){
+            const sum = this.gamecount[key]['❔ Unconfirmed']+this.gamecount[key]['⭐ Supported']+this.gamecount[key]['🎉 Confirmed'];
+            gametotal[key] = {
+            logo:this.gamecount[key].logo,
+            no:sum,
+            Unconfirmed:this.gamecount[key]['❔ Unconfirmed'],
+            Supported:this.gamecount[key]['⭐ Supported'],
+            Confirmed:this.gamecount[key]['🎉 Confirmed']
+            };
+        }
+
         return {
             total,
             conmfirmedPercent:this.noConfirmed/total*100,
             supportedPercent:this.noSupported/total*100,
             unconfirmedPercent:this.noUnconfirmed/total*100,
+            gametotal,
             };
     }
 }

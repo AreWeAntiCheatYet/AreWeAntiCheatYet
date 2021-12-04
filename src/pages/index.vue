@@ -4,7 +4,9 @@
         <OverView
             :noUnconfirmed="noUnconfirmed"
             :noSupported="noSupported"
-            :noConfirmed="noConfirmed"/>
+            :noConfirmed="noConfirmed"
+            :gamecount="gamecount"
+            />
 
         <div class="columns is-mobile is-centered">
             <b-table :data="table" :columns="formatting" :row-class="(row, index) => color(row, index)"></b-table>
@@ -45,6 +47,20 @@ export default {
     data() {
         let noUnconfirmed,noSupported,noConfirmed;
         noUnconfirmed=noSupported=noConfirmed=0;
+        const gamecount = {
+            BattlEye:{logo:beLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            'Easy Anti-Cheat':{logo:eacLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            Vanguard:{logo:vanguardLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            'nProtect GameGuard':{logo:npggLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            XIGNCODE3:{logo:xc3Logo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            EQU8:{logo:equ8Logo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            VAC:{logo:vacLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            FairFight:{logo:ffLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            PunkBuster:{logo:pbLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            'Treyarch Anti-Cheat':{logo:tacLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            Arbiter:{logo:arbiterLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            Other:{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+        }
 
         for (let i = 0; i < gamesList.length; i++) {
             const game = gamesList[i];
@@ -60,50 +76,62 @@ export default {
                 switch (game.acList[j]) {
                     case "BattlEye":
                         game.acLabel += `<p><img src="` + beLogo + `" width="32" height="32" alt/> BattlEye</p>`;
+                        gamecount.BattlEye[game.acStatus]++;
                     break;
 
                     case "Easy Anti-Cheat":
                         game.acLabel += `<p><img src="` + eacLogo + `" width="32" height="32" alt/> Easy Anti-Cheat</p>`;
+                        gamecount['Easy Anti-Cheat'][game.acStatus]++;
                     break;
 
                     case "Vanguard":
                         game.acLabel += `<p><img src="` + vanguardLogo + `" width="32" height="32" alt> Vanguard</p>`;
+                        gamecount.Vanguard[game.acStatus]++;
                     break;
 
                     case "nProtect GameGuard":
                         game.acLabel += `<p><img src="` + npggLogo + `" width="32" height="32" alt/> nProtect GameGuard</p>`;
+                        gamecount['nProtect GameGuard'][game.acStatus]++;
                     break;
 
                     case "XIGNCODE3":
                         game.acLabel += `<p><img src="` + xc3Logo + `" width="32" height="32" alt/> XIGNCODE3</p>`;
+                        gamecount.XIGNCODE3[game.acStatus]++;
                     break;
 
                     case "EQU8":
                         game.acLabel += `<p><img src="` + equ8Logo + `" width="32" height="32" alt/> EQU8</p>`;
+                        gamecount.EQU8[game.acStatus]++;
                     break;
 
                     case "VAC":
                         game.acLabel += `<p><img src="` + vacLogo + `" width="32" height="32" alt/> VAC</p>`;
+                        gamecount.VAC[game.acStatus]++;
                     break;
 
                     case "FairFight":
                         game.acLabel += `<p><img src="` + ffLogo + `" width="32" height="32" alt/> FairFight</p>`;
+                        gamecount.FairFight[game.acStatus]++;
                     break;
 
                     case "PunkBuster":
                         game.acLabel += `<p><img src="` + pbLogo + `" width="32" height="32" alt/> PunkBuster</p>`;
+                        gamecount.PunkBuster[game.acStatus]++;
                     break;
 					
                     case "Treyarch Anti-Cheat":
                         game.acLabel += `<p><img src="` + tacLogo + `" width="32" height="32" alt/> Treyarch Anti-Cheat</p>`;
+                        gamecount['Treyarch Anti-Cheat'][game.acStatus]++;
                     break;
 					
                     case "Arbiter":
                         game.acLabel += `<p><img src="` + arbiterLogo + `" width="32" height="32" alt/> Arbiter</p>`;
+                        gamecount.Arbiter[game.acStatus]++;
                     break;
 
                     default:
                         game.acLabel += `<p>` + game.acList[j] + `</p>`;
+                        gamecount.Other[game.acStatus]++;
                     break;
                 }
             }
@@ -145,6 +173,7 @@ export default {
             noUnconfirmed,
             noSupported,
             noConfirmed,
+            gamecount,
             formatting: [{field: 'game', label: 'Game', numeric: false, sortable: true, customSort: customSort('gameSortvalue'), searchable: true}, {field: 'acLabel', label: 'Anti-Cheat'}, {field: 'acStatus', label: 'Status', sortable: true, customSort: customSort('statusSortvalue')}]
         }
     },
