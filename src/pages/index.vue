@@ -40,6 +40,11 @@ const ffLogo = require("~/assets/fairfight-logo.webp")
 const pbLogo = require("~/assets/punkbuster-logo.webp")
 const tacLogo = require("~/assets/tac-logo.webp")
 const arbiterLogo = require("~/assets/arbiter-placeholder.webp")
+const neteaseLogo = require("~/assets/netease-logo.webp")
+const mihoyoLogo = require("~/assets/mihoyo-logo.webp")
+const ricochetLogo = require("~/assets/ricochet-logo.webp")
+const nexonLogo = require("~/assets/nexon-logo.webp")
+const absolutsoftLogo = require("~/assets/absolutsoft-logo.webp")
 
 export default {
     name: 'HomePage',
@@ -59,12 +64,12 @@ export default {
             PunkBuster:{logo:pbLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
             'Treyarch Anti-Cheat':{logo:tacLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
             Arbiter:{logo:arbiterLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            'NEAC Protect':{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            'miHoYo Protect 2':{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            RICOCHET:{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            'Nexon Game Security':{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            Sabreclaw:{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            Internal:{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            'NEAC Protect':{logo:neteaseLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            'miHoYo Protect 2':{logo:mihoyoLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            RICOCHET:{logo:ricochetLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            'Nexon Game Security':{logo:nexonLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            Sabreclaw:{logo:absolutsoftLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            '❔ Internal':{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
             Other:{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
         }
 
@@ -79,96 +84,16 @@ export default {
             // template anti-cheats with a logo
             game.acLabel = '';
             for (let j = 0; j < game.acList.length; j++) {
-                switch (game.acList[j]) {
-                    case "BattlEye":
-                        game.acLabel += `<p><img src="` + beLogo + `" width="32" height="32" alt/> BattlEye</p>`;
-                        gamecount.BattlEye[game.acStatus]++;
-                    break;
-
-                    case "Easy Anti-Cheat":
-                        game.acLabel += `<p><img src="` + eacLogo + `" width="32" height="32" alt/> Easy Anti-Cheat</p>`;
-                        gamecount['Easy Anti-Cheat'][game.acStatus]++;
-                    break;
-
-                    case "Vanguard":
-                        game.acLabel += `<p><img src="` + vanguardLogo + `" width="32" height="32" alt> Vanguard</p>`;
-                        gamecount.Vanguard[game.acStatus]++;
-                    break;
-
-                    case "nProtect GameGuard":
-                        game.acLabel += `<p><img src="` + npggLogo + `" width="32" height="32" alt/> nProtect GameGuard</p>`;
-                        gamecount['nProtect GameGuard'][game.acStatus]++;
-                    break;
-
-                    case "XIGNCODE3":
-                        game.acLabel += `<p><img src="` + xc3Logo + `" width="32" height="32" alt/> XIGNCODE3</p>`;
-                        gamecount.XIGNCODE3[game.acStatus]++;
-                    break;
-
-                    case "EQU8":
-                        game.acLabel += `<p><img src="` + equ8Logo + `" width="32" height="32" alt/> EQU8</p>`;
-                        gamecount.EQU8[game.acStatus]++;
-                    break;
-
-                    case "VAC":
-                        game.acLabel += `<p><img src="` + vacLogo + `" width="32" height="32" alt/> VAC</p>`;
-                        gamecount.VAC[game.acStatus]++;
-                    break;
-
-                    case "FairFight":
-                        game.acLabel += `<p><img src="` + ffLogo + `" width="32" height="32" alt/> FairFight</p>`;
-                        gamecount.FairFight[game.acStatus]++;
-                    break;
-
-                    case "PunkBuster":
-                        game.acLabel += `<p><img src="` + pbLogo + `" width="32" height="32" alt/> PunkBuster</p>`;
-                        gamecount.PunkBuster[game.acStatus]++;
-                    break;
-					
-                    case "Treyarch Anti-Cheat":
-                        game.acLabel += `<p><img src="` + tacLogo + `" width="32" height="32" alt/> Treyarch Anti-Cheat</p>`;
-                        gamecount['Treyarch Anti-Cheat'][game.acStatus]++;
-                    break;
-					
-                    case "Arbiter":
-                        game.acLabel += `<p><img src="` + arbiterLogo + `" width="32" height="32" alt/> Arbiter</p>`;
-                        gamecount.Arbiter[game.acStatus]++;
-                    break;
-
-                    case "NEAC Protect":
-                        game.acLabel += `<p>NEAC Protect</p>`;
-                        gamecount['NEAC Protect'][game.acStatus]++;
-                    break;
-
-                    case "miHoYo Protect 2":
-                        game.acLabel += `<p>miHoYo Protect 2</p>`;
-                        gamecount['miHoYo Protect 2'][game.acStatus]++;
-                    break;
-
-                    case "RICOCHET":
-                        game.acLabel += `<p>RICOCHET</p>`;
-                        gamecount.RICOCHET[game.acStatus]++;
-                    break;
-
-                    case "Nexon Game Security":
-                        game.acLabel += `<p>Nexon Game Security</p>`;
-                        gamecount['Nexon Game Security'][game.acStatus]++;
-                    break;
-
-                    case "Sabreclaw":
-                        game.acLabel += `<p>Sabreclaw</p>`;
-                        gamecount.Sabreclaw[game.acStatus]++;
-                    break;
-
-                    case "❔ Internal":
-                        game.acLabel += `<p>Internal</p>`;
-                        gamecount.Internal[game.acStatus]++;
-                    break;
-
-                    default:
+                if (game.acList[j] in gamecount){
+                    if ('logo' in gamecount[game.acList[j]] ){
+                        game.acLabel += `<p><img src="` +  gamecount[game.acList[j]].logo + `" width="32" height="32" alt/>` + game.acList[j] + `</p>`;
+                    } else {
                         game.acLabel += `<p>` + game.acList[j] + `</p>`;
-                        gamecount.Other[game.acStatus]++;
-                    break;
+                    }
+                    gamecount[game.acList[j]][game.acStatus]++;
+                } else {
+                    game.acLabel += `<p>` + game.acList[j] + `</p>`;
+                    gamecount.Other[game.acStatus]++;
                 }
             }
 
