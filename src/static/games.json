@@ -27,7 +27,7 @@
     "acList": [
         "Easy Anti-Cheat"
     ],
-    "acStatus": "❔ Unconfirmed",
+    "acStatus": "🎉 Confirmed",
     "acStatusUrl": ""
   },
   {
@@ -108,8 +108,8 @@
     "acList": [
         "Easy Anti-Cheat"
     ],
-    "acStatus": "❔ Unconfirmed",
-    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+    "acStatus": "⭐ Supported",
+    "acStatusUrl": ""
   },
   {
     "game": "Black Desert",
@@ -375,7 +375,7 @@
   {
     "game": "Hell Let Loose",
     "acStatusUrl": "",
-    "acStatus": "❔ Unconfirmed",
+    "acStatus": "🎉 Confirmed",
     "acName": "Easy Anti-Cheat",
     "acList": [
         "Easy Anti-Cheat"
@@ -1831,7 +1831,7 @@
     ]
   },
   {
-    "acStatus": "❔ Unconfirmed",
+    "acStatus": "⭐ Supported",
     "game": "Blazing Sails",
     "acStatusUrl": "",
     "gameUrl": "",
