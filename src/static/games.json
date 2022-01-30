@@ -83,9 +83,9 @@
   {
     "game": "PUBG: BATTLEGROUNDS",
     "gameUrl": "",
-    "acName": "BattlEye",
+    "acName": "Zakynthos",
     "acList": [
-        "BattlEye"
+        "Zakynthos"
     ],
     "acStatus": "❔ Unconfirmed",
     "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
@@ -128,7 +128,7 @@
     "acList": [
         "Easy Anti-Cheat"
     ],
-    "acStatus": "❔ Unconfirmed",
+    "acStatus": "🎉 Confirmed",
     "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
   },
   {
@@ -595,7 +595,7 @@
   {
     "game": "STAR WARS™: Squadrons",
     "acStatusUrl": "",
-    "acStatus": "❔ Unconfirmed",
+    "acStatus": "🎉 Confirmed",
     "acName": "Easy Anti-Cheat",
     "acList": [
         "Easy Anti-Cheat"
@@ -1579,7 +1579,7 @@
     ]
   },
   {
-    "acStatus": "❔ Unconfirmed",
+    "acStatus": "⭐ Supported",
     "game": "Black Squad",
     "acStatusUrl": "",
     "gameUrl": "",
