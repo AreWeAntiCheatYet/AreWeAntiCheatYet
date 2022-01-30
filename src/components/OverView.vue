@@ -3,7 +3,7 @@
 
         <div class="pillRow row is-mobile is-centered">
                 <p class="pill isSupported" >⭐ Supported: {{noSupported}}</p>
-                <p class="pill isConfirmed">🎉 Confirmed {{noConfirmed}}</p>
+                <p class="pill isConfirmed">🎉 Confirmed: {{noConfirmed}}</p>
                 <p class="pill isUnconfirmed">❔ Unconfirmed: {{noUnconfirmed}}</p>
                 <p class="pill isTotal">📈 Total: {{total}}</p>
                 <p v-on:click="breakdownVisible = !breakdownVisible" class="pill breakdown" v-text="breakdownVisible ? '⬆️ Hide Breakdown' : '⬇️ Show Breakdown'"></p>
