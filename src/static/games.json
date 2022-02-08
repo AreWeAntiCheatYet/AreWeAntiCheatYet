@@ -18,7 +18,7 @@
         "Easy Anti-Cheat"
     ],
     "acStatus": "🚫 Denied",
-    "acStatusUrl": ""
+    "acStatusUrl": "https://twitter.com/TimSweeneyEpic/status/1490565925648715781?t=kjZblC_B6gsa_bzAz11KjA&s=19"
   },
   {
     "game": "Battlefield 2042",
@@ -2029,5 +2029,15 @@
       "❔ Internal"
     ],
     "acStatus": "⭐ Supported"
+  },
+  {
+    "acName": "",
+    "acStatusUrl": "",
+    "game": "Elden Ring",
+    "gameUrl": "https://www.bandainamcoent.com/games/elden-ring",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "acStatus": "❔ Unconfirmed"
   }
 ]
