@@ -2039,5 +2039,15 @@
       "Easy Anti-Cheat"
     ],
     "acStatus": "❔ Unconfirmed"
+  },
+  {
+    "acName": "",
+    "acStatusUrl": "",
+    "game": "Tibia",
+    "gameUrl": "https://www.tibia.com/",
+    "acList": [
+      "BattlEye"
+    ],
+    "acStatus": "⭐ Supported"
   }
 ]
