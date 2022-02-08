@@ -1,5 +1,5 @@
 Halo: The Master Chief Collection~Easy Anti-Cheat~❔ Unconfirmed
-Fortnite~BattlEye~❔ Unconfirmed
+Fortnite~BattlEye~🚫 Denied
 Battlefield 2042~Easy Anti-Cheat~❔ Unconfirmed
 Apex Legends~Easy Anti-Cheat~❔ Unconfirmed
 Valorant~Vanguard~❔ Unconfirmed
@@ -201,3 +201,6 @@ League of Legends~❔ Internal~❔ Unconfirmed
 Gunfire Reborn~❔ Internal~⭐ Supported
 Elden Ring~Easy Anti-Cheat~❔ Unconfirmed
 Tibia~BattlEye~⭐ Supported
+Will To Live Online~Easy Anti-Cheat~🚫 Denied
+Battlefleet Gothic: Armada 2~Easy Anti-Cheat~❔ Unconfirmed
+SUPER PEOPLE~BattlEye~❔ Unconfirmed

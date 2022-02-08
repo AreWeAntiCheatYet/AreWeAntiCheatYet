@@ -2049,5 +2049,35 @@
       "BattlEye"
     ],
     "acStatus": "⭐ Supported"
+  },
+  {
+    "acName": "",
+    "acStatusUrl": "https://steamcommunity.com/app/707010/discussions/0/2950411088500148325/",
+    "game": "Will To Live Online",
+    "gameUrl": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "acStatus": "🚫 Denied"
+  },
+  {
+    "acName": "",
+    "acStatusUrl": "https://www.focus-entmt.com/en-us/games/battlefleet-gothic-armada-2",
+    "game": "Battlefleet Gothic: Armada 2",
+    "gameUrl": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "acStatus": "❔ Unconfirmed"
+  },
+  {
+    "acName": "",
+    "acStatusUrl": "https://geegee.net/en",
+    "game": "SUPER PEOPLE",
+    "gameUrl": "",
+    "acList": [
+      "BattlEye"
+    ],
+    "acStatus": "❔ Unconfirmed"
   }
 ]
