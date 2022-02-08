@@ -5,6 +5,7 @@
                 <p class="pill isSupported" >⭐ Supported: {{noSupported}}</p>
                 <p class="pill isConfirmed">🎉 Confirmed: {{noConfirmed}}</p>
                 <p class="pill isUnconfirmed">❔ Unconfirmed: {{noUnconfirmed}}</p>
+                <p class="pill isDenied">🚫 Denied: {{noDenied}}</p>
                 <p class="pill isTotal">📈 Total: {{total}}</p>
                 <p v-on:click="breakdownVisible = !breakdownVisible" class="pill breakdown" v-text="breakdownVisible ? '⬆️ Hide Breakdown' : '⬇️ Show Breakdown'"></p>
         </div>
@@ -14,9 +15,10 @@
 
             <b-progress format="percent" size="is-large">
             <template #bar>
-                <b-progress-bar :value="supportedPercent" type="is-success" show-value></b-progress-bar>
-                <b-progress-bar :value="conmfirmedPercent" type="is-info" show-value></b-progress-bar>
+                <b-progress-bar :value="supportedPercent"    type="is-success" show-value></b-progress-bar>
+                <b-progress-bar :value="conmfirmedPercent"   type="is-info" show-value></b-progress-bar>
                 <b-progress-bar :value="unconfirmedPercent"  show-value></b-progress-bar>
+				<b-progress-bar :value="deniedPercent"       type="is-danger" show-value></b-progress-bar>
             </template>
             </b-progress>
             </div>
@@ -29,6 +31,7 @@
             <b-progress-bar v-if="item.Supported>0" :value="item.Supported" type="is-success" show-value></b-progress-bar>
             <b-progress-bar v-if="item.Confirmed>0" :value="item.Confirmed" type="is-info" show-value></b-progress-bar>
             <b-progress-bar v-if="item.Unconfirmed>0" :value="item.Unconfirmed"  show-value></b-progress-bar>
+			<b-progress-bar v-if="item.Denied>0" :value="item.Denied" type="is-danger" show-value></b-progress-bar>
         </template>
         </b-progress>
          </td>
@@ -55,6 +58,10 @@ export default {
         type:Number,
         default:0
     },
+    noDenied:{
+        type:Number,
+        default:0
+    },
     gamecount:{
         type:Object,
         default(){}
@@ -62,17 +69,18 @@ export default {
   },
   
     data(){
-        const total=this.noUnconfirmed+this.noSupported+this.noConfirmed;
+        const total=this.noUnconfirmed+this.noSupported+this.noConfirmed+this.noDenied;
         
         const gametotal = {};
         for (const key in this.gamecount){
-            const sum = this.gamecount[key]['❔ Unconfirmed']+this.gamecount[key]['⭐ Supported']+this.gamecount[key]['🎉 Confirmed'];
+            const sum = this.gamecount[key]['❔ Unconfirmed']+this.gamecount[key]['⭐ Supported']+this.gamecount[key]['🎉 Confirmed']+this.gamecount[key]['🚫 Denied'];
             gametotal[key] = {
             logo:this.gamecount[key].logo,
             no:sum,
             Unconfirmed:this.gamecount[key]['❔ Unconfirmed'],
             Supported:this.gamecount[key]['⭐ Supported'],
-            Confirmed:this.gamecount[key]['🎉 Confirmed']
+            Confirmed:this.gamecount[key]['🎉 Confirmed'],
+            Denied:this.gamecount[key]['🚫 Denied'],
             };
         }
 
@@ -81,6 +89,7 @@ export default {
             conmfirmedPercent:this.noConfirmed/total*100,
             supportedPercent:this.noSupported/total*100,
             unconfirmedPercent:this.noUnconfirmed/total*100,
+			deniedPercent:this.noDenied/total*100,
             gametotal,
             breakdownVisible:false,
             };
@@ -100,12 +109,17 @@ export default {
     }
 
     .isSupported{
-        background: #00B200;
+        background: #93c54b !important;
         color: white;
     }
 
     .isConfirmed{
-        background: #167df0;
+        background: #3298dc !important;
+        color: white;
+    }
+	
+    .isDenied{
+        background: #d9534f !important;
         color: white;
     }
 

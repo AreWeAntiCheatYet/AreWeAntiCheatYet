@@ -5,6 +5,7 @@
             :noUnconfirmed="noUnconfirmed"
             :noSupported="noSupported"
             :noConfirmed="noConfirmed"
+			:noDenied="noDenied"
             :gamecount="gamecount"
             />
 
@@ -45,27 +46,27 @@ export default {
     name: 'HomePage',
 
     data() {
-        let noUnconfirmed,noSupported,noConfirmed;
-        noUnconfirmed=noSupported=noConfirmed=0;
+        let noUnconfirmed,noSupported,noConfirmed,noDenied;
+        noUnconfirmed=noSupported=noConfirmed=noDenied=0;
         const gamecount = {
-            BattlEye:{logo:beLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            'Easy Anti-Cheat':{logo:eacLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            Vanguard:{logo:vanguardLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            'nProtect GameGuard':{logo:npggLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            XIGNCODE3:{logo:xc3Logo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            EQU8:{logo:equ8Logo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            VAC:{logo:vacLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            FairFight:{logo:ffLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            PunkBuster:{logo:pbLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            'Treyarch Anti-Cheat':{logo:tacLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            Arbiter:{logo:arbiterLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            'NEAC Protect':{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            'miHoYo Protect 2':{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            RICOCHET:{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            'Nexon Game Security':{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            Sabreclaw:{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            Internal:{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
-            Other:{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0},
+            BattlEye:{logo:beLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0,'🚫 Denied':0},
+            'Easy Anti-Cheat':{logo:eacLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0,'🚫 Denied':0},
+            Vanguard:{logo:vanguardLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0,'🚫 Denied':0},
+            'nProtect GameGuard':{logo:npggLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0,'🚫 Denied':0},
+            XIGNCODE3:{logo:xc3Logo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0,'🚫 Denied':0},
+            EQU8:{logo:equ8Logo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0,'🚫 Denied':0},
+            VAC:{logo:vacLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0,'🚫 Denied':0},
+            FairFight:{logo:ffLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0,'🚫 Denied':0},
+            PunkBuster:{logo:pbLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0,'🚫 Denied':0},
+            'Treyarch Anti-Cheat':{logo:tacLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0,'🚫 Denied':0},
+            Arbiter:{logo:arbiterLogo,'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0,'🚫 Denied':0},
+            'NEAC Protect':{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0,'🚫 Denied':0},
+            'miHoYo Protect 2':{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0,'🚫 Denied':0},
+            RICOCHET:{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0,'🚫 Denied':0},
+            'Nexon Game Security':{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0,'🚫 Denied':0},
+            Sabreclaw:{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0,'🚫 Denied':0},
+            Internal:{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0,'🚫 Denied':0},
+            Other:{'❔ Unconfirmed':0,'⭐ Supported':0,'🎉 Confirmed':0,'🚫 Denied':0},
         }
 
         for (let i = 0; i < gamesList.length; i++) {
@@ -188,6 +189,11 @@ export default {
                     noConfirmed++;
                     game.statusSortvalue = "2";
                 break;
+				
+                case "🚫 Denied":
+                    noDenied++;
+                    game.statusSortvalue = "4";
+                break;
             }
 
             // link to the status url
@@ -209,6 +215,7 @@ export default {
             noUnconfirmed,
             noSupported,
             noConfirmed,
+			noDenied,
             gamecount,
             formatting: [{field: 'game', label: 'Game', numeric: false, sortable: true, customSort: customSort('gameSortvalue'), searchable: true}, {field: 'acLabel', label: 'Anti-Cheat'}, {field: 'acStatus', label: 'Status', sortable: true, customSort: customSort('statusSortvalue')}]
         }
