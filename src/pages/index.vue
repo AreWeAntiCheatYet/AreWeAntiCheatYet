@@ -231,7 +231,9 @@ export default {
                 return 'has-background-info';
             } else if (row.acStatus.includes("⭐")) {
                 return 'has-background-success';
-            }
+            } else if (row.acStatus.includes("🚫")) {
+				return 'has-background-danger';
+			}
         }
     },
 }
