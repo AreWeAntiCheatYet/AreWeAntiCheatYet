@@ -27,7 +27,7 @@
     "acList": [
         "Easy Anti-Cheat"
     ],
-    "acStatus": "🎉 Confirmed",
+    "acStatus": "❔ Unconfirmed",
     "acStatusUrl": ""
   },
   {
@@ -37,8 +37,8 @@
     "acList": [
         "Easy Anti-Cheat"
     ],
-    "acStatus": "❔ Unconfirmed",
-    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+    "acStatus": "🎉 Confirmed",
+    "acStatusUrl": "https://steamdb.info/app/1172470/depots/?branch=steam_deck"
   },
   {
     "game": "Valorant",
@@ -960,9 +960,9 @@
       "Easy Anti-Cheat"
     ],
     "gameUrl": "https://intruderfps.com/",
-    "acStatus": "❔ Unconfirmed",
+    "acStatus": "🚫 Denied",
     "acName": "",
-    "acStatusUrl": ""
+    "acStatusUrl": "https://user-images.githubusercontent.com/13716824/154804088-77eefcbb-a8c5-4877-963a-cc36b60b33d9.png"
   },
   {
     "acStatus": "❔ Unconfirmed",
@@ -2038,7 +2038,7 @@
     "acList": [
       "Easy Anti-Cheat"
     ],
-    "acStatus": "❔ Unconfirmed"
+    "acStatus": "🎉 Confirmed"
   },
   {
     "acName": "",
@@ -2079,5 +2079,45 @@
       "BattlEye"
     ],
     "acStatus": "❔ Unconfirmed"
+  },
+  {
+    "acName": "",
+    "acStatusUrl": "https://www.scavengers.ca/darwin-project/",
+    "game": "Darwin's Project",
+    "gameUrl": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "acStatus": "❔ Unconfirmed"
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "acName": "",
+    "gameUrl": "https://www.callofduty.com/blackops4",
+    "acList": [
+      "Treyarch Anti-Cheat"
+    ],
+    "game": "Call of Duty: Black Ops 4",
+    "acStatusUrl": ""
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "acName": "",
+    "gameUrl": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "game": "BattleBit Remastered",
+    "acStatusUrl": "https://imgur.com/a/yAH2j8S"
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "acName": "",
+    "gameUrl": "https://vindictus.nexon.net/",
+    "acList": [
+      "Nexon Game Security"
+    ],
+    "game": "Vindictus",
+    "acStatusUrl": ""
   }
 ]
