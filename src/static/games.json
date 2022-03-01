@@ -168,8 +168,8 @@
     "acList": [
         "BattlEye"
     ],
-    "acStatus": "❔ Unconfirmed",
-    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+    "acStatus": "🚫 Denied",
+    "acStatusUrl": "https://help.bungie.net/hc/en-us/articles/360049024592-Destiny-2-Steam-Guide#steam-deck-and-destiny-2-0-3"
   },
   {
     "game": "Hunt: Showdown",
@@ -2038,7 +2038,7 @@
     "acList": [
       "Easy Anti-Cheat"
     ],
-    "acStatus": "🎉 Confirmed"
+    "acStatus": "⭐ Supported"
   },
   {
     "acName": "",
