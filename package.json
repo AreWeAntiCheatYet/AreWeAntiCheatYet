@@ -15,7 +15,7 @@
     "@nuxtjs/axios": "^5.13.6",
     "core-js": "^3.19.2",
     "nuxt": "^2.15.7",
-    "nuxt-buefy": "^0.4.14"
+    "nuxt-buefy": "^0.4.20"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.5",
