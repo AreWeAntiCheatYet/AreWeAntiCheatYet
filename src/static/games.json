@@ -32,12 +32,12 @@
   },
   {
     "game": "Apex Legends",
-    "gameUrl": "",
+    "gameUrl": "https://ea.com/en-en/games/apex-legends",
     "acName": "Easy Anti-Cheat",
     "acList": [
         "Easy Anti-Cheat"
     ],
-    "acStatus": "🎉 Confirmed",
+    "acStatus": "⭐ Supported",
     "acStatusUrl": "https://steamdb.info/app/1172470/depots/?branch=steam_deck"
   },
   {
@@ -814,7 +814,7 @@
     "acStatusUrl": ""
   },
   {
-    "acStatus": "🎉 Confirmed",
+    "acStatus": "⭐ Supported",
     "acName": "",
     "gameUrl": "",
     "acList": [
