@@ -25,7 +25,13 @@
 </template>
 
 <style>
-body {
-    font-size: 200%;
-}
+    body {
+        font-size: 1.8rem;
+    }
+
+    @media only screen and (max-width: 600px) {
+        body {
+            font-size: 1.3rem;
+        }
+    }
 </style>
