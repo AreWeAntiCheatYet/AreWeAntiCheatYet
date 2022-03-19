@@ -4,8 +4,8 @@
         <div class="pillRow row is-mobile is-centered">
                 <p class="pill isSupported" >⭐ Supported: {{noSupported}}</p>
                 <p class="pill isConfirmed">🎉 Confirmed: {{noConfirmed}}</p>
-                <p class="pill isUnconfirmed">❔ Unconfirmed: {{noUnconfirmed}}</p>
                 <p class="pill isDenied">🚫 Denied: {{noDenied}}</p>
+                <p class="pill isUnconfirmed">❔ Unconfirmed: {{noUnconfirmed}}</p>
                 <p class="pill isTotal">📈 Total: {{total}}</p>
                 <button class="pill breakdownBtn" @click="breakdownVisible = !breakdownVisible" v-text="breakdownVisible ? '⬆️ Hide Breakdown' : '⬇️ Show Breakdown'"></button>
         </div>
@@ -17,8 +17,8 @@
             <template #bar>
                 <b-progress-bar :value="supportedPercent"    type="is-success" show-value></b-progress-bar>
                 <b-progress-bar :value="conmfirmedPercent"   type="is-info" show-value></b-progress-bar>
+                <b-progress-bar :value="deniedPercent"       type="is-danger" show-value></b-progress-bar>
                 <b-progress-bar :value="unconfirmedPercent"  show-value></b-progress-bar>
-				<b-progress-bar :value="deniedPercent"       type="is-danger" show-value></b-progress-bar>
             </template>
             </b-progress>
             </div>
@@ -33,8 +33,8 @@
                 <template #bar>
                     <b-progress-bar v-if="item.Supported>0" :value="item.Supported" type="is-success" show-value></b-progress-bar>
                     <b-progress-bar v-if="item.Confirmed>0" :value="item.Confirmed" type="is-info" show-value></b-progress-bar>
+                    <b-progress-bar v-if="item.Denied>0" :value="item.Denied" type="is-danger" show-value></b-progress-bar>
                     <b-progress-bar v-if="item.Unconfirmed>0" :value="item.Unconfirmed"  show-value></b-progress-bar>
-		        	<b-progress-bar v-if="item.Denied>0" :value="item.Denied" type="is-danger" show-value></b-progress-bar>
                 </template>
                 </b-progress>
                 </td>
