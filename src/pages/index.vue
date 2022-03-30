@@ -5,7 +5,7 @@
             :noUnconfirmed="noUnconfirmed"
             :noSupported="noSupported"
             :noConfirmed="noConfirmed"
-			:noDenied="noDenied"
+            :noDenied="noDenied"
             :gamecount="gamecount"
             />
 
@@ -177,7 +177,7 @@ export default {
             switch(game.acStatus){
                 case "❔ Unconfirmed":
                     noUnconfirmed++;
-                    game.statusSortvalue = "3";
+                    game.statusSortvalue = "4";
                 break;
 
                 case "⭐ Supported":
@@ -192,7 +192,7 @@ export default {
 				
                 case "🚫 Denied":
                     noDenied++;
-                    game.statusSortvalue = "4";
+                    game.statusSortvalue = "3";
                 break;
             }
 
