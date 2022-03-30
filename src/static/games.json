@@ -128,7 +128,7 @@
     "acList": [
         "Easy Anti-Cheat"
     ],
-    "acStatus": "🎉 Confirmed",
+    "acStatus": "⭐ Supported",
     "acStatusUrl": ""
   },
   {
@@ -355,7 +355,7 @@
   {
     "game": "DJMAX RESPECT V",
     "acStatusUrl": "",
-    "acStatus": "❔ Unconfirmed",
+    "acStatus": "⭐ Supported",
     "acName": "XIGNCODE3",
     "acList": [
         "XIGNCODE3"
@@ -494,11 +494,11 @@
   },
   {
     "game": "World War 3",
-    "acStatusUrl": "",
+    "acStatusUrl": "https://github.com/ValveSoftware/Proton/issues/1811#issuecomment-981078015",
     "acStatus": "❔ Unconfirmed",
-    "acName": "Easy Anti-Cheat",
+    "acName": "",
     "acList": [
-        "Easy Anti-Cheat"
+        "Mail.ru Anti-Cheat"
     ],
     "gameUrl": "https://worldwar3.com/"
   },
@@ -1105,13 +1105,13 @@
     ]
   },
   {
-    "acStatus": "❔ Unconfirmed",
-    "game": "The Cycle",
+    "acStatus": "⭐ Supported",
+    "game": "The Cycle: Frontier",
     "acStatusUrl": "",
-    "gameUrl": "",
+    "gameUrl": "https://thecycle.game/",
     "acName": "",
     "acList": [
-      "Easy Anti-Cheat"
+      "BattlEye"
     ]
   },
   {
@@ -2118,6 +2118,46 @@
       "Nexon Game Security"
     ],
     "game": "Vindictus",
+    "acStatusUrl": ""
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "acName": "",
+    "gameUrl": "",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "game": "Deceit",
+    "acStatusUrl": ""
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "acName": "",
+    "gameUrl": "https://absolvergame.com/",
+    "acList": [
+      "Easy Anti-Cheat"
+    ],
+    "game": "Absolver",
+    "acStatusUrl": ""
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "acName": "",
+    "gameUrl": "",
+    "acList": [
+      "XIGNCODE3"
+    ],
+    "game": "EZ2ON REBOOT : R",
+    "acStatusUrl": ""
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "acName": "",
+    "gameUrl": "",
+    "acList": [
+      "XIGNCODE3"
+    ],
+    "game": "Closers",
     "acStatusUrl": ""
   }
 ]
