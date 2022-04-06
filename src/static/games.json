@@ -85,7 +85,9 @@
     "gameUrl": "",
     "acName": "Zakynthos",
     "acList": [
-        "Zakynthos"
+        "Zakynthos",
+		"BattlEye",
+		"UNCHEATER"
     ],
     "acStatus": "❔ Unconfirmed",
     "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
@@ -223,8 +225,8 @@
   },
   {
     "game": "New World",
-    "acStatusUrl": "https://forums.newworld.com/t/please-add-easy-anticheat-support-for-linux/256617/103",
-    "acStatus": "❔ Unconfirmed",
+    "acStatusUrl": "",
+    "acStatus": "⭐ Supported",
     "acName": "Easy Anti-Cheat",
     "acList": [
         "Easy Anti-Cheat"
@@ -254,7 +256,7 @@
   {
     "game": "Insurgency: Sandstorm",
     "acStatusUrl": "",
-    "acStatus": "❔ Unconfirmed",
+    "acStatus": "⭐ Supported",
     "acName": "Easy Anti-Cheat",
     "acList": [
         "Easy Anti-Cheat"
@@ -1615,7 +1617,7 @@
     "gameUrl": "https://honkaiimpact3.mihoyo.com/",
     "acName": "",
     "acList": [
-      "miHoYo Protect 2"
+      "miHoYo Protect"
     ]
   },
   {
