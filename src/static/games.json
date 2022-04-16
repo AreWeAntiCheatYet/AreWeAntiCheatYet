@@ -6,8 +6,8 @@
     "acList": [
         "Easy Anti-Cheat"
     ],
-    "acStatus": "❔ Unconfirmed",
-    "acStatusUrl": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+    "acStatus": "🎉 Confirmed",
+    "acStatusUrl": ""
   },
   {
     "game": "Fortnite",
@@ -62,8 +62,8 @@
   },
   {
     "game": "Back 4 Blood",
-    "acStatusUrl": "",
-    "acStatus": "❔ Unconfirmed",
+    "acStatusUrl": "https://back4blood.com/en-us/patch-notes/april-2022-update",
+    "acStatus": "⭐ Supported",
     "acName": "Easy Anti-Cheat",
     "acList": [
         "Easy Anti-Cheat"
@@ -367,7 +367,7 @@
   {
     "game": "Plants vs. Zombies: Battle for Neighborville",
     "acStatusUrl": "",
-    "acStatus": "❔ Unconfirmed",
+    "acStatus": "⭐ Supported",
     "acName": "Easy Anti-Cheat",
     "acList": [
         "Easy Anti-Cheat"
@@ -952,9 +952,9 @@
       "Easy Anti-Cheat"
     ],
     "gameUrl": "https://www.deadsidegame.com/",
-    "acStatus": "❔ Unconfirmed",
+    "acStatus": "🎉 Confirmed",
     "acName": "",
-    "acStatusUrl": ""
+    "acStatusUrl": "https://steamcommunity.com/app/895400/discussions/3/3283695222735434723/"
   },
   {
     "game": "Intruder",
@@ -2160,6 +2160,26 @@
       "XIGNCODE3"
     ],
     "game": "Closers",
+    "acStatusUrl": ""
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "acName": "",
+    "gameUrl": "",
+    "acList": [
+      "Mail.ru Anti-Cheat"
+    ],
+    "game": "Allods Online",
+    "acStatusUrl": ""
+  },
+  {
+    "acStatus": "⭐ Supported",
+    "acName": "",
+    "gameUrl": "",
+    "acList": [
+      "❔ Internal"
+    ],
+    "game": "Warframe",
     "acStatusUrl": ""
   }
 ]
