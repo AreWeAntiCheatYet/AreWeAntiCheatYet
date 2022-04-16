@@ -13,12 +13,12 @@
   "dependencies": {
     "@nuxt/content": "^1.15.1",
     "@nuxtjs/axios": "^5.13.6",
-    "core-js": "^3.19.2",
+    "core-js": "^3.22.0",
     "nuxt": "^2.15.7",
     "nuxt-buefy": "^0.4.14"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.16.5",
+    "@babel/eslint-parser": "^7.17.0",
     "@nuxtjs/eslint-config": "^6.0.1",
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/stylelint-module": "^4.1.0",
