@@ -295,8 +295,8 @@
   },
   {
     "game": "Phantasy Star Online 2",
-    "acStatusUrl": "",
-    "acStatus": "❔ Unconfirmed",
+    "acStatusUrl": "https://www.reddit.com/r/PSO2NGS/comments/ua5gf5/comment/i5vm95k/",
+    "acStatus": "⭐ Supported",
     "acName": "nProtect GameGuard",
     "acList": [
         "nProtect GameGuard"
@@ -922,7 +922,7 @@
       "Easy Anti-Cheat"
     ],
     "gameUrl": "https://bloodhunt.com/",
-    "acStatus": "❔ Unconfirmed",
+    "acStatus": "⭐ Supported",
     "acName": "",
     "acStatusUrl": ""
   },
@@ -1980,7 +1980,7 @@
     "acList": [
       "Easy Anti-Cheat"
     ],
-    "acStatus": "❔ Unconfirmed"
+    "acStatus": "⭐ Supported"
   },
   {
     "acName": "",
@@ -2143,7 +2143,7 @@
     "acStatusUrl": ""
   },
   {
-    "acStatus": "❔ Unconfirmed",
+    "acStatus": "⭐ Supported",
     "acName": "",
     "gameUrl": "",
     "acList": [
@@ -2180,6 +2180,16 @@
       "❔ Internal"
     ],
     "game": "Warframe",
+    "acStatusUrl": ""
+  },
+  {
+    "acStatus": "❔ Unconfirmed",
+    "acName": "",
+    "gameUrl": "",
+    "acList": [
+      "XIGNCODE3"
+    ],
+    "game": "Fiesta Online",
     "acStatusUrl": ""
   }
 ]
