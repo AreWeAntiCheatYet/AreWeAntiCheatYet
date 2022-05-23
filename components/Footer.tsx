@@ -1,7 +1,11 @@
 import { Anchor, Group, Stack } from '@mantine/core';
 import { IconHeart } from '@tabler/icons';
 
-export default function AppFooter() {
+interface AppFooterProps {
+  lastBuildTime: number;
+}
+
+export default function AppFooter({ lastBuildTime }: AppFooterProps) {
   return (
     <Stack sx={{ marginTop: 15, height: '100%' }}>
       <Group position="center">
@@ -16,6 +20,7 @@ export default function AppFooter() {
       <Group position="center">
         Made with <IconHeart color="red" /> by Starz0r & Curve
       </Group>
+      <Group position="center">Last updated {new Date(lastBuildTime).toLocaleDateString()}</Group>
     </Stack>
   );
 }

@@ -19,10 +19,11 @@ export const getStaticProps = async () => {
   const games = await fixIcons(JSON.parse(await fs.readFile('./static/games.json', 'utf8')));
   const overview = generateOverview(games);
   const breakdown = generateBreakdown(games);
-  const anticheatIcons = generateAntiCheatIconLookUp(games);
+  const lastBuildTime = new Date().getTime();
+  const antiCheatIcons = generateAntiCheatIconLookUp(games);
 
   return {
-    props: { games, overview, breakdown, anticheatIcons },
+    props: { games, overview, breakdown, antiCheatIcons, lastBuildTime },
   };
 };
 
@@ -30,7 +31,8 @@ export default function Home({
   games,
   overview,
   breakdown,
-  anticheatIcons: antiCheatIcons,
+  antiCheatIcons,
+  lastBuildTime,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { classes } = style();
 
@@ -49,7 +51,7 @@ export default function Home({
           sx={{ marginBottom: 25 }}
         />
         <GamesList className={classes.tableWidth} anticheatIcons={antiCheatIcons} games={games} />
-        <AppFooter />
+        <AppFooter lastBuildTime={lastBuildTime} />
       </Stack>
     </AppShell>
   );
