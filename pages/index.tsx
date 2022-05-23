@@ -3,6 +3,7 @@ import { promises as fs } from 'fs';
 import { InferGetStaticPropsType } from 'next';
 import Breakdown from '../components/Breakdown';
 import ChangesList from '../components/ChangesList';
+import AppFooter from '../components/Footer';
 import GamesList from '../components/GamesList';
 import AppHeader from '../components/Header';
 import Overview from '../components/Overview';
@@ -48,6 +49,7 @@ export default function Home({
           sx={{ marginBottom: 25 }}
         />
         <GamesList className={classes.tableWidth} anticheatIcons={antiCheatIcons} games={games} />
+        <AppFooter />
       </Stack>
     </AppShell>
   );
