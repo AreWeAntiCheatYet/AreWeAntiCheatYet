@@ -1,23 +1,23 @@
 module.exports = {
-  root: true,
-  env: {
-    browser: true,
-    node: true
-  },
-  parserOptions: {
-    parser: '@babel/eslint-parser',
-    requireConfigFile: false
-  },
   extends: [
-    '@nuxtjs',
-    'plugin:nuxt/recommended',
-    'prettier'
+    'mantine',
+    'plugin:@next/next/recommended',
+    'plugin:jest/recommended',
   ],
-  ignorePatterns: [
-	'src/layouts/default.vue'
+  plugins: ['testing-library', 'jest'],
+  overrides: [
+    {
+      files: ['**/?(*.)+(spec|test).[jt]s?(x)'],
+      extends: ['plugin:testing-library/react'],
+    },
   ],
-  plugins: [
-  ],
-  // add your custom rules here
-  rules: {}
-}
+  parserOptions: {
+    project: './tsconfig.json',
+  },
+  rules: {
+    'react/react-in-jsx-scope': 'off',
+    'no-restricted-syntax': 'off',
+    'no-plusplus': 'off',
+    'max-len': 'off'
+  },
+};

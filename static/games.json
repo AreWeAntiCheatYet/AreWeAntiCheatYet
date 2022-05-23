@@ -1,0 +1,2681 @@
+[
+    {
+        "url": "",
+        "name": "Halo: The Master Chief Collection",
+        "logo": "",
+        "native": false,
+        "status": "Planned",
+        "reference": "https://www.xda-developers.com/halo-mcc-broken-steam-deck/",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Fortnite",
+        "logo": "",
+        "native": false,
+        "status": "Denied",
+        "reference": "https://twitter.com/TimSweeneyEpic/status/1490565925648715781?t=kjZblC_B6gsa_bzAz11KjA&s=19",
+        "anticheats": [
+            "BattlEye",
+            "Easy Anti-Cheat"
+        ],
+        "notes": [
+            ["Works on Xbox-Cloud", "https://news.xbox.com/en-us/2022/05/05/play-fortnite-with-xbox-cloud-gaming-for-free/"]
+        ]
+    },
+    {
+        "url": "",
+        "name": "Battlefield 2042",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://ea.com/en-en/games/apex-legends",
+        "name": "Apex Legends",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "https://steamdb.info/app/1172470/depots/?branch=steam_deck",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://playvalorant.com",
+        "name": "Valorant",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Vanguard"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Halo Infinite",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Arbiter"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.back4blood.com/",
+        "name": "Back 4 Blood",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "https://back4blood.com/en-us/patch-notes/april-2022-update",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Paladins",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "PlayerUnknown's Battlegrounds",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic",
+        "anticheats": [
+            "Zakynthos",
+            "BattlEye",
+            "UNCHEATER"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://ubisoft.com/en-us/game/rainbow-six/siege",
+        "name": "Rainbow Six: Siege",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "https://www.gamingonlinux.com/2021/11/ubisoft-proton-support-rainbow-six-siege-linux/",
+        "anticheats": [
+            "FairFight",
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "SMITE",
+        "logo": "",
+        "native": false,
+        "status": "Running",
+        "reference": "https://www.protondb.com/app/386360",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Black Desert Online",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Fall Guys: Ultimate Knockout",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "ARK: Survival Evolved",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/43",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://dayz.com",
+        "name": "DayZ",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Dead By Daylight",
+        "logo": "",
+        "native": false,
+        "status": "Planned",
+        "reference": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Destiny 2",
+        "logo": "",
+        "native": false,
+        "status": "Denied",
+        "reference": "https://help.bungie.net/hc/en-us/articles/360049024592-Destiny-2-Steam-Guide#steam-deck-and-destiny-2-0-3",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Hunt: Showdown",
+        "logo": "",
+        "native": false,
+        "status": "Denied",
+        "reference": "https://www.protondb.com/app/594650#lMZ4hnX6A",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://rust.facepunch.com/",
+        "name": "Rust",
+        "logo": "",
+        "native": false,
+        "status": "Planned",
+        "reference": "https://www.gamingonlinux.com/2021/07/garry-newman-of-facepunch-mentions-working-with-eac-for-rust-on-linux-with-proton",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "War Thunder",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/43",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "7 Days to Die",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/43",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://joinsquad.com/",
+        "name": "Squad",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://newworld.com",
+        "name": "New World",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.vermintide.com/",
+        "name": "Warhammer: Vermintide 2",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "https://support.fatshark.se/hc/en-us/articles/4408080108817--PC-Regarding-Easy-Anti-Cheat-and-Linux-Wine-Proton-Support",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.escapefromtarkov.com/",
+        "name": "Escape from Tarkov",
+        "logo": "",
+        "native": false,
+        "status": "Planned",
+        "reference": "https://discord.com/channels/891628783176650773/891637148007141387/958009681119428648",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.focus-entmt.com/en-us/games/insurgency-sandstorm",
+        "name": "Insurgency: Sandstorm",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://arma3.com/",
+        "name": "ArmA 3",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.roguecompany.com/",
+        "name": "Rogue Company",
+        "logo": "",
+        "native": false,
+        "status": "Running",
+        "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/444",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": [
+            ["Requires Steam-Flatpak on some systems", "https://github.com/anyc/steam-overlay/issues/313"]
+        ]
+    },
+    {
+        "url": "https://www.realmroyale.com/",
+        "name": "Realm Royale",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://pso2.jp/",
+        "name": "Phantasy Star Online 2",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "https://www.reddit.com/r/PSO2NGS/comments/ua5gf5/comment/i5vm95k/",
+        "anticheats": [
+            "nProtect GameGuard"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Unturned",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966",
+        "anticheats": [
+            "VAC",
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.planetside2.com/",
+        "name": "PlanetSide 2",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.ubisoft.com/en-us/game/for-honor",
+        "name": "For Honor",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.narakathegame.com/",
+        "name": "NARAKA: BLADEPOINT",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "NEAC Protect"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Genshin Impact",
+        "logo": "",
+        "native": false,
+        "status": "Running",
+        "reference": "",
+        "anticheats": [
+            "miHoYo Protect 2"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.djmaxrespect.com/",
+        "name": "DJMAX RESPECT V",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "XIGNCODE3"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.ea.com/games/plants-vs-zombies/plants-vs-zombies-battle-for-neighborville",
+        "name": "Plants vs. Zombies: Battle for Neighborville",
+        "logo": "",
+        "native": false,
+        "status": "Running",
+        "reference": "https://www.protondb.com/app/1262240#ZGsEq7x6Kb",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.hellletloose.com/",
+        "name": "Hell Let Loose",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://blessunleashed.com/",
+        "name": "Bless Unleashed",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Rising Storm 2: Vietnam",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Pandemic Express - Zombie Escape",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://scumgame.com/",
+        "name": "SCUM",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.ubisoft.com/en-us/game/the-division/the-division-2",
+        "name": "Tom Clancy's The Division 2",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.bandainamcoent.com/games/jump-force",
+        "name": "JUMP FORCE",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.ea.com/games/knockout-city",
+        "name": "Knockout City",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "https://twitter.com/Plagman2/status/1493854504290119682",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.bandainamcoent.com/games/dragon-ball-fighterz",
+        "name": "DRAGON BALL FighterZ",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://enlisted.net/",
+        "name": "Enlisted",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://dueprocess.info/",
+        "name": "Due Process",
+        "logo": "",
+        "native": false,
+        "status": "Planned",
+        "reference": "https://www.reddit.com/r/dueprocess/comments/pu252w/bring_steam_decklinux_support_to_due_process/he04229/?context=1",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://recroom.com/",
+        "name": "Rec Room",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://worldwar3.com/",
+        "name": "World War 3",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "https://github.com/ValveSoftware/Proton/issues/1811#issuecomment-981078015",
+        "anticheats": [
+            "Mail.ru Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.iracing.com/",
+        "name": "iRacing",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://survarium.com/",
+        "name": "Survarium",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2",
+        "name": "DRAGON BALL XENOVERSE 2",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.ubisoft.com/en-us/game/ghost-recon/breakpoint/wildlands",
+        "name": "Tom Clancy's Ghost Recon Wildlands",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.ubisoft.com/en-us/game/watch-dogs/watch-dogs-2",
+        "name": "Watch Dogs 2",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Zero Hour",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2",
+        "name": "Ironsight",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.ubisoft.com/en-us/game/the-crew/the-crew-2",
+        "name": "The Crew 2",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://crsed.net/en/#!/",
+        "name": "CRSED: F.O.A.D.",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.ea.com/games/starwars/squadrons",
+        "name": "STAR WARS™: Squadrons",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "https://twitter.com/Plagman2/status/1493854504290119682",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.diabotical.com/",
+        "name": "Diabotical",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "EQU8"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Totally Accurate Battlegrounds",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "https://twitter.com/landfallgames/status/1377947424338100227",
+        "anticheats": [
+            "EQU8"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.splitgate.com/",
+        "name": "Splitgate",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "EQU8"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Counter-Strike: Global Offensive",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Team Fortress 2",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Dota 2",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Call of Duty®: Black Ops III",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC",
+            "Treyarch Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Garry's Mod",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Dying Light",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "SoulWorker",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "XIGNCODE3"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.ubisoft.com/en-us/game/ghost-recon/breakpoint",
+        "name": "Tom Clancy's Ghost Recon Breakpoint",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://dmo.gameking.com/",
+        "name": "Digimon Masters Online",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "XIGNCODE3"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://postscriptumgame.com/",
+        "name": "Post Scriptum",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://sectorsedge.com/",
+        "name": "Sector's Edge",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.team17.com/games/worms-rumble/",
+        "name": "Worms Rumble",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Dirty Bomb",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Empyrion - Galactic Survival",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Call of Duty: Modern Warfare (2019)",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "RICOCHET"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.callofduty.com/warzone",
+        "name": "Call of Duty: Warzone",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "RICOCHET"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.brawlhalla.com",
+        "name": "Brawlhalla",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "https://www.gamingonlinux.com/2021/10/brawlhalla-to-get-easy-anti-cheat-dev-puts-up-beta-with-eac-working-on-linux-with-proton",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://combatarms-r.valofe.com/",
+        "name": "Combat Arms: Reloaded",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "POLYGON",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "https://twitter.com/RedasterPOLYGON/status/1443057152168325125?s=20",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.callofduty.com/blackopscoldwar",
+        "name": "Call of Duty Black Ops: Cold War",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Treyarch Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://albiononline.com/",
+        "name": "Albion Online",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Counter-Strike: Source",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://outriders.square-enix-games.com",
+        "name": "Outriders",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://crossout.net",
+        "name": "Crossout",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://playspellbreak.com/en",
+        "name": "Spellbreak",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.ea.com/games/battlefield/battlefield-4",
+        "name": "Battlefield 4",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "PunkBuster",
+            "FairFight"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.conanexiles.com",
+        "name": "Conan Exiles",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.taleworlds.com/en/Games/Bannerlord/",
+        "name": "Mount & Blade II: Bannerlord",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://bloodhunt.com/",
+        "name": "Vampire: The Masquerade - Bloodhunt",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://maplestory.nexon.net",
+        "name": "MapleStory",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Nexon Game Security"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://heroesandgenerals.com/",
+        "name": "Heroes & Generals",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.deadsidegame.com/",
+        "name": "Deadside",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "https://steamcommunity.com/app/895400/discussions/3/3283695222735434723/",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://intruderfps.com/",
+        "name": "Intruder",
+        "logo": "",
+        "native": false,
+        "status": "Denied",
+        "reference": "https://user-images.githubusercontent.com/13716824/154804088-77eefcbb-a8c5-4877-963a-cc36b60b33d9.png",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Warface",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Call of Duty",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "PunkBuster"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Half-Life 2: Deathmatch",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Atlas",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "The Mean Greens: Plastic Warfare",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Mordhau",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "ArmA 2",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Quake III Arena",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "PunkBuster"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Call of Duty 2",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "PunkBuster"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Battlefield 1",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "FairFight"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Nuclear Dawn",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Pirates, Vikings, and Knights II",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Battlefield 1942",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "PunkBuster"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Team Fortress Classic",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://thecycle.game/",
+        "name": "The Cycle: Frontier",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "ARK: Survival of the Fittest",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Crysis",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "PunkBuster"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "The Isle",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Call of Duty: Black Ops",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "Treyarch Anti-Cheat",
+            "VAC",
+            "PunkBuster"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Call of Duty 4: Modern Warfare",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "PunkBuster"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Day of Defeat",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Chivalry: Medieval Warfare",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Pang Online",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "nProtect GameGuard"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "The Ship: Murder Party",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Insurgency",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC",
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Call of Duty: Black Ops II",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC",
+            "Treyarch Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Monstrum 2",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "No More Room in Hell",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Depth",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Quake 4",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "PunkBuster"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Deathmatch Classic",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Battlefield 2",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "PunkBuster"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "SWORD ART ONLINE Alicization Lycoris",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Foxhole",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Block N Load",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Titanfall",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "FairFight"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "KartRider",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "nProtect GameGuard"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Battlefield 3",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "PunkBuster"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "KovaaK 2.0",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "EQU8"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Day of Defeat: Source",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Star Wars: Battlefront (2015)",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "FairFight"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Tower Wars",
+        "logo": "",
+        "native": false,
+        "status": "Running",
+        "reference": "https://www.protondb.com/app/214360",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Hurtworld",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Call of Duty: Ghost",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Sword Art Online: Fatal Bullet",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Killing Floor",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Battlefield: Bad Company 2",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "PunkBuster"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Trials Rising",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Cry of Fear",
+        "logo": "",
+        "native": false,
+        "status": "Running",
+        "reference": "https://www.protondb.com/app/223710#5ks8FLsQMa",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Far Cry 5",
+        "logo": "",
+        "native": false,
+        "status": "Running",
+        "reference": "https://steamdb.info/depot/552521/history/?changeid=M:7117179758041625493",
+        "anticheats": [],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Call of Duty: Modern Warfare 2",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Kritika:Reboot",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "XIGNCODE3"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Half-Life Deathmatch: Source",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Beyond the Wire",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Lost Planet: Extreme Condition",
+        "logo": "",
+        "native": false,
+        "status": "Running",
+        "reference": "https://www.protondb.com/app/6510",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Tom Clancy's The Division",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "FairFight"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Rocket Arena",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Call of Duty: Modern Warfare 3",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Left 4 Dead 2",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Tower Unite",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Day of Infamy",
+        "logo": "",
+        "native": true,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Black Squad",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Star Wars: Battlefront II (2017)",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "FairFight"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Primal Carnage",
+        "logo": "",
+        "native": false,
+        "status": "Running",
+        "reference": "https://www.protondb.com/app/321360#1lJ-g1OssC",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://honkaiimpact3.mihoyo.com/",
+        "name": "Honkai Impact 3rd",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "miHoYo Protect"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Dungeon Defenders",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "APB Reloaded",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Battlefield: Hardline",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "PunkBuster",
+            "FairFight"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Gears 5",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Call of Duty: World at War",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "PunkBuster",
+            "Treyarch Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Quake Live",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "PunkBuster"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "PixARK",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Captain Tsubasa: Rise of New Champions",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "TOXIKK",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "ArmA 2: Operation Arrowhead",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "LaTale",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "nProtect GameGuard"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Crysis: Warhead",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "PunkBuster"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Predator: Hunting Grounds",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Call of Duty: WWII",
+        "logo": "",
+        "native": false,
+        "status": "Running",
+        "reference": "https://www.protondb.com/app/476600#lIYwA6LTjM",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Nostale",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "nProtect GameGuard"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Battlefield V",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "FairFight"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Chivalry 2",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Homefront",
+        "logo": "",
+        "native": false,
+        "status": "Running",
+        "reference": "https://www.protondb.com/app/55100#faXiLVSsUC",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Call of Duty: Infinite Warfare",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "PangYa",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "nProtect GameGuard"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Quantum League",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Blazing Sails",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Titanfall 2",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "FairFight"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Lemnis Gate",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Grandchase",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "nProtect GameGuard"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Killing Floor 2",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "VAC"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Black Clover: Quartet Knights",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Nine to Five",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.playlostark.com/",
+        "name": "Lost Ark",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://archeageunchained.com/",
+        "name": "Archeage: Unchained",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.hiredops.com/",
+        "name": "Hired Ops",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "Sabreclaw"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.ubisoft.com/en-us/game/watch-dogs/legion",
+        "name": "Watch Dogs: Legion",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Call of Duty: Vanguard",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "RICOCHET"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://robertsspaceindustries.com/",
+        "name": "Star Citizen",
+        "logo": "",
+        "native": false,
+        "status": "Running",
+        "reference": "https://github.com/starcitizen-lug/information-howtos/wiki/Quick-Start-Guide",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://quake.bethesda.net",
+        "name": "Quake Champions",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "Internal"
+        ],
+        "notes": []
+    },
+    {
+        "url": "http://vankrupt.com/#pavlov-vr",
+        "name": "Pavlov VR",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://playdauntless.com/",
+        "name": "Dauntless",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.bandainamcoent.com/games/naruto-to-boruto-shinobi-striker",
+        "name": "NARUTO TO BORUTO: SHINOBI STRIKER",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.mythofempires.com/",
+        "name": "Myth of Empires",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://leagueoflegends.com",
+        "name": "League of Legends",
+        "logo": "",
+        "native": false,
+        "status": "Running",
+        "reference": "https://github.com/kyechou/leagueoflegends",
+        "anticheats": [
+            "Internal"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Gunfire Reborn",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "Internal"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.bandainamcoent.com/games/elden-ring",
+        "name": "Elden Ring",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.tibia.com/",
+        "name": "Tibia",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Will To Live Online",
+        "logo": "",
+        "native": false,
+        "status": "Denied",
+        "reference": "https://steamcommunity.com/app/707010/discussions/0/2950411088500148325/",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Battlefleet Gothic: Armada 2",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "https://www.focus-entmt.com/en-us/games/battlefleet-gothic-armada-2",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "SUPER PEOPLE",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "https://geegee.net/en",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Darwin's Project",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "https://www.scavengers.ca/darwin-project/",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://www.callofduty.com/blackops4",
+        "name": "Call of Duty: Black Ops 4",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "Treyarch Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "BattleBit Remastered",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "https://imgur.com/a/yAH2j8S",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://vindictus.nexon.net/",
+        "name": "Vindictus",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Nexon Game Security"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Deceit",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "https://www.protondb.com/app/466240#uwKYvCVD3f",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://absolvergame.com/",
+        "name": "Absolver",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "EZ2ON REBOOT : R",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "XIGNCODE3"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Closers",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "XIGNCODE3"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Allods Online",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Mail.ru Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Warframe",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "Internal"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Fiesta Online",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "XIGNCODE3"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Friday The 13th: The Game",
+        "logo": "",
+        "status": "Broken",
+        "native": false,
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Grand Theft Auto Online",
+        "logo": "",
+        "status": "Running",
+        "native": false,
+        "reference": "",
+        "anticheats": [
+            "Internal"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Forza Horizon 4",
+        "logo": "",
+        "status": "Supported",
+        "native": false,
+        "reference": "https://www.protondb.com/app/1293830",
+        "anticheats": [
+            "Internal"
+        ],
+        "notes": []
+    },
+    {
+        "url": "",
+        "name": "Forza Horizon 5",
+        "logo": "",
+        "status": "Supported",
+        "native": false,
+        "reference": "https://www.protondb.com/app/1551360",
+        "anticheats": [
+            "Internal"
+        ],
+        "notes": []
+    }
+]
