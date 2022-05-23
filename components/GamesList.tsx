@@ -107,7 +107,14 @@ export default function GamesList({ games, anticheatIcons, ...props }: GamesList
         </thead>
         <tbody>
           {games
-            .filter((game) => game.name.includes(debounced))
+            .filter(
+              (game) =>
+                game.name.toLowerCase().includes(debounced.toLowerCase()) ||
+                game.anticheats.find((anticheat) =>
+                  anticheat.toLowerCase().includes(debounced.toLowerCase())
+                ) ||
+                game.status.toLowerCase().includes(debounced.toLowerCase())
+            )
             .map((game) => (
               <Item key={game.name} game={game} anticheatIcons={anticheatIcons} />
             ))}
