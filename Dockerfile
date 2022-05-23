@@ -1,10 +1,9 @@
 ### STAGE 1: Build ###
 
-
 # We label our stage as ‘builder’
 FROM node:lts-alpine3.14 as builder
 
-COPY package.json package-lock.json ./
+COPY package.json yarn.lock ./
 
 ## Storing node modules on a separate layer will prevent unnecessary npm installs at each build
 
@@ -15,6 +14,7 @@ WORKDIR /next-app
 COPY . .
 
 ## Build the Nuxt app in production mode and store the artifacts in dist folder
+
 RUN yarn cache clean --force
 
 RUN yarn export
