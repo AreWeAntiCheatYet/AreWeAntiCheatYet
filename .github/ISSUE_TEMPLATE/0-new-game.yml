@@ -1,0 +1,64 @@
+name: Request Game
+description: Request a new game to add to the list
+title: 'Request <Game Name Here>'
+labels: ['new-game', 'status-change']
+body:
+  - type: input
+    id: game
+    attributes:
+      label: Game Title
+      placeholder: ex. Team Fortress 2
+    validations:
+      required: true
+  - type: input
+    id: game-url
+    attributes:
+      label: Game Website
+      description: A valid hyperlink to the game's website.
+      placeholder: ex. https://teamfortress.com
+    validations:
+      required: false
+  - type: dropdown
+    id: anti-cheat
+    attributes:
+      label: Anti-Cheat Software
+      description: Which anti-cheat vendor is the game running?
+      options:
+        - Easy Anti-Cheat
+        - BattlEye
+        - XIGNCODE3
+        - nProtect GameGuard
+        - EQU8
+        - VAC
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: anti-cheat-status
+    attributes:
+      label: Status of the Anti-Cheat
+      description: What did the developers say about enabling GNU/Linux or Wine support for the game?
+      options:
+        - 🚫 Denied
+        - 😥 Broken
+        - 🕧 Planned
+        - 👍 Running
+        - ⭐ Supported
+    validations:
+      required: true
+  - type: textarea
+    id: tinkering-steps
+    attributes:
+      label: Tinkering Steps
+      description: Incase tinkering is required please describe the steps here.
+      placeholder: ex. use steam flatpak
+    validations:
+      required: false
+  - type: input
+    id: anti-cheat-comment
+    attributes:
+      label: Proof of Mention
+      description: A reputable link where the developers either confirmed or deconfirmed the chance of support happening. If non-applicable, just put N/A. Otherwise, wording used in the link must be a resounding yes, with no doubt or chance of second guessing developer intent.
+      placeholder: ex. https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic
+    validations:
+      required: true
