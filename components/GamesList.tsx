@@ -4,18 +4,18 @@ import {
   Avatar,
   DefaultProps,
   Group,
-  Input,
   Stack,
   Table,
   Text,
+  TextInput,
   Tooltip,
 } from '@mantine/core';
 import { useDebouncedValue } from '@mantine/hooks';
 import { IconExternalLink, IconSearch } from '@tabler/icons';
-import { useState } from 'react';
+import { Dispatch, SetStateAction, useEffect, useMemo, useState } from 'react';
 import Game from '../types/game';
 import { style } from '../utils/style';
-import AntiCheatBadge from './AntiCheatIcon';
+import AntiCheatIcon from './AntiCheatIcon';
 import Badges from './Badges';
 
 interface ItemProps {
@@ -42,10 +42,10 @@ function Item({ game, anticheatIcons }: ItemProps) {
           {game.anticheats.map((anticheat) => (
             <div key={anticheat}>
               <div className={classes.mobileHide}>
-                <AntiCheatBadge showText anticheat={anticheat} anticheatIcons={anticheatIcons} />
+                <AntiCheatIcon showText anticheat={anticheat} anticheatIcons={anticheatIcons} />
               </div>
               <Tooltip withArrow label={anticheat} className={classes.mobileShow}>
-                <AntiCheatBadge
+                <AntiCheatIcon
                   showText
                   key={anticheat}
                   anticheat={anticheat}
@@ -59,7 +59,7 @@ function Item({ game, anticheatIcons }: ItemProps) {
       <td className={classes.mobileHide}>
         <Stack>
           {game.notes.map((note) => (
-            <Group key={note[1]}>
+            <Group key={note[1]} noWrap>
               <ActionIcon component="a" target="_blank" href={note[1]}>
                 <IconExternalLink />
               </ActionIcon>
@@ -74,6 +74,31 @@ function Item({ game, anticheatIcons }: ItemProps) {
   );
 }
 
+interface SearchBoxProps {
+  setQuery: Dispatch<SetStateAction<string>>;
+}
+
+function SearchBox({ setQuery }: SearchBoxProps) {
+  const [search, setSearch] = useState('');
+  const [debounced] = useDebouncedValue(search, 200);
+
+  useEffect(() => {
+    setQuery(debounced);
+  }, [debounced]);
+
+  return (
+    <Tooltip label="You can also search by Anti-Cheat or Supported-Status">
+      <TextInput
+        value={search}
+        icon={<IconSearch />}
+        variant="unstyled"
+        placeholder="Search..."
+        onChange={(event) => setSearch(event.target.value)}
+      />
+    </Tooltip>
+  );
+}
+
 interface GamesListProps extends DefaultProps {
   games: Game[];
   anticheatIcons: (string | null)[][];
@@ -81,20 +106,25 @@ interface GamesListProps extends DefaultProps {
 
 export default function GamesList({ games, anticheatIcons, ...props }: GamesListProps) {
   const { classes } = style();
-  const [search, setSearch] = useState('');
-  const [debounced] = useDebouncedValue(search, 200);
+  const [query, setQuery] = useState('');
+
+  const shownGames = useMemo(
+    () =>
+      games.filter(
+        (game) =>
+          game.name.toLowerCase().includes(query.toLowerCase()) ||
+          game.anticheats.find((anticheat) =>
+            anticheat.toLowerCase().includes(query.toLowerCase())
+          ) ||
+          game.status.toLowerCase().includes(query.toLowerCase())
+      ),
+    [games, query]
+  );
 
   return (
     <>
       <Group position="center" sx={{ marginTop: 15 }}>
-        <Tooltip label="You can also search by Anti-Cheat or Supported-Status">
-          <Input
-            icon={<IconSearch />}
-            variant="unstyled"
-            placeholder="Search..."
-            onChange={(event: any) => setSearch(event.target.value)}
-          />
-        </Tooltip>
+        <SearchBox setQuery={setQuery} />
       </Group>
       <Table {...props} horizontalSpacing="xl" fontSize="md">
         <thead>
@@ -106,18 +136,9 @@ export default function GamesList({ games, anticheatIcons, ...props }: GamesList
           </tr>
         </thead>
         <tbody>
-          {games
-            .filter(
-              (game) =>
-                game.name.toLowerCase().includes(debounced.toLowerCase()) ||
-                game.anticheats.find((anticheat) =>
-                  anticheat.toLowerCase().includes(debounced.toLowerCase())
-                ) ||
-                game.status.toLowerCase().includes(debounced.toLowerCase())
-            )
-            .map((game) => (
-              <Item key={game.name} game={game} anticheatIcons={anticheatIcons} />
-            ))}
+          {shownGames.map((game) => (
+            <Item key={game.name} game={game} anticheatIcons={anticheatIcons} />
+          ))}
         </tbody>
       </Table>
     </>
