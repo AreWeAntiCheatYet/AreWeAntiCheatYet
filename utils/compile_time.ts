@@ -21,8 +21,11 @@ export async function downloadImagesAndSetLogo(games: Game[]) {
   }
   await fsPromise.mkdir('./temp-icons');
 
+  const gamesWithNoIcons = games.filter((game) => !game.logo);
   const icons = await Promise.all(
-    games.map((game) => fetch(`https://www.igdb.com/search_autocomplete_all?q=${game.name}`))
+    gamesWithNoIcons.map((game) =>
+      fetch(`https://www.igdb.com/search_autocomplete_all?q=${game.name}`)
+    )
   );
 
   for (const [index, icon] of icons.entries()) {
@@ -39,7 +42,9 @@ export async function downloadImagesAndSetLogo(games: Game[]) {
       }
     });
 
-    gamesWithIcons[index].logo = `logos/${name}.webp`;
+    gamesWithIcons.find(
+      (game) => game.name === gamesWithNoIcons[index].name
+    )!.logo = `logos/${name}.webp`;
   }
 
   await fsPromise.rm('./temp-icons', { recursive: true });
