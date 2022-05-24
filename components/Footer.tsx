@@ -18,7 +18,14 @@ export default function AppFooter({ lastBuildTime }: AppFooterProps) {
         </Anchor>
       </Group>
       <Group position="center" spacing={5}>
-        Made with <IconHeartHandshake color="red" /> by Starz0r & Curve
+        Made with <IconHeartHandshake color="red" /> by{' '}
+        <Anchor target="_blank" href="https://github.com/Starz0r">
+          Starz0r
+        </Anchor>
+        &
+        <Anchor target="_blank" href="https://github.com/Curve">
+          Curve
+        </Anchor>
       </Group>
       <Group position="center">
         Last updated {new Date(lastBuildTime).toLocaleDateString()} (
