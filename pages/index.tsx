@@ -8,15 +8,18 @@ import GamesList from '../components/GamesList';
 import AppHeader from '../components/Header';
 import Overview from '../components/Overview';
 import {
-  fixIcons,
+  downloadImagesAndSetLogo,
   generateAntiCheatIconLookUp,
   generateBreakdown,
   generateOverview,
-} from '../utils';
+} from '../utils/compile_time';
 import { style } from '../utils/style';
 
 export const getStaticProps = async () => {
-  const games = await fixIcons(JSON.parse(await fs.readFile('./games.json', 'utf8')));
+  const games = await downloadImagesAndSetLogo(
+    JSON.parse(await fs.readFile('./games.json', 'utf8'))
+  );
+
   const overview = generateOverview(games);
   const breakdown = generateBreakdown(games);
   const lastBuildTime = new Date().getTime();

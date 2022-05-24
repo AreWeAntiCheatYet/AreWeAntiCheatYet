@@ -18,6 +18,7 @@ First, make sure that the game you'd like to add isn't actually on the list. In 
 - React
 - Mantine
 - Next.js
+- IGDB (For Cover Images)
 
 ## Build Setup
 

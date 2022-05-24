@@ -5,6 +5,11 @@ FROM node:lts-alpine3.14 as builder
 
 COPY package.json yarn.lock ./
 
+## Add imagemagick & graphicsmagick
+
+RUN apk add imagemagick 
+RUN apk add graphicsmagick
+
 ## Storing node modules on a separate layer will prevent unnecessary npm installs at each build
 
 RUN yarn && mkdir /next-app && mv ./node_modules ./next-app
