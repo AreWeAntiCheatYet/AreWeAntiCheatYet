@@ -2362,7 +2362,7 @@
         "status": "Supported",
         "reference": "",
         "anticheats": [
-            "Internal"
+            "Unknown (Custom)"
         ],
         "notes": []
     },
@@ -2422,7 +2422,7 @@
         "status": "Running",
         "reference": "https://github.com/kyechou/leagueoflegends",
         "anticheats": [
-            "Internal"
+            "Unknown (Custom)"
         ],
         "notes": []
     },
@@ -2434,7 +2434,7 @@
         "status": "Supported",
         "reference": "",
         "anticheats": [
-            "Internal"
+            "Unknown (Custom)"
         ],
         "notes": []
     },
@@ -2614,7 +2614,7 @@
         "status": "Supported",
         "reference": "",
         "anticheats": [
-            "Internal"
+            "Unknown (Custom)"
         ],
         "notes": []
     },
@@ -2650,31 +2650,7 @@
         "native": false,
         "reference": "",
         "anticheats": [
-            "Internal"
-        ],
-        "notes": []
-    },
-    {
-        "url": "",
-        "name": "Forza Horizon 4",
-        "logo": "",
-        "status": "Supported",
-        "native": false,
-        "reference": "https://www.protondb.com/app/1293830",
-        "anticheats": [
-            "Internal"
-        ],
-        "notes": []
-    },
-    {
-        "url": "",
-        "name": "Forza Horizon 5",
-        "logo": "",
-        "status": "Supported",
-        "native": false,
-        "reference": "https://www.protondb.com/app/1551360",
-        "anticheats": [
-            "Internal"
+            "Unknown (Custom)"
         ],
         "notes": []
     }
