@@ -334,7 +334,7 @@
         "name": "Rogue Company",
         "logo": "",
         "native": false,
-        "status": "Running",
+        "status": "Supported",
         "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/444",
         "anticheats": [
             "Easy Anti-Cheat"
