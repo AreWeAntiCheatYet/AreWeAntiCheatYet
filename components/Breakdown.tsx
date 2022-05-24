@@ -13,7 +13,9 @@ export default function Breakdown({ breakdown, ...props }: BreakdownProps) {
       <Accordion.Item label="Breakdown">
         {breakdown.map(([anticheat, overview]) => (
           <Stack key={anticheat} sx={{ marginTop: 10 }}>
-            <Text>{anticheat}</Text>
+            <Text>
+              {anticheat} ({overview.total})
+            </Text>
             <Progress
               size="xl"
               sections={[
