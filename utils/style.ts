@@ -7,6 +7,12 @@ export const style = createStyles((theme) => ({
   mobileShow: {
     [theme.fn.largerThan('sm')]: { display: 'none' },
   },
+  smallHide: {
+    [theme.fn.smallerThan('lg')]: { display: 'none' },
+  },
+  largeShow: {
+    [theme.fn.largerThan('lg')]: { display: 'none' },
+  },
   breakdownWidth: {
     [theme.fn.smallerThan('sm')]: { width: '90%' },
     [theme.fn.largerThan('sm')]: { width: '60%' },

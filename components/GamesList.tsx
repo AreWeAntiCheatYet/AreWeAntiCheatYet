@@ -41,10 +41,10 @@ function Item({ game, anticheatIcons }: ItemProps) {
         <Stack>
           {game.anticheats.map((anticheat) => (
             <div key={anticheat}>
-              <div className={classes.mobileHide}>
+              <div className={classes.smallHide}>
                 <AntiCheatIcon showText anticheat={anticheat} anticheatIcons={anticheatIcons} />
               </div>
-              <Tooltip withArrow label={anticheat} className={classes.mobileShow}>
+              <Tooltip withArrow label={anticheat} className={classes.largeShow}>
                 <AntiCheatIcon
                   showText
                   key={anticheat}

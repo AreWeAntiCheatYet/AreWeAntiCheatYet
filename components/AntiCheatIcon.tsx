@@ -22,7 +22,7 @@ export default function AntiCheatIcon({ anticheat, showText, anticheatIcons }: A
         </ThemeIcon>
       )}
       {showText ? (
-        <Text align="center" className={classes.mobileHide}>
+        <Text align="center" className={classes.smallHide}>
           {anticheat}
         </Text>
       ) : (
