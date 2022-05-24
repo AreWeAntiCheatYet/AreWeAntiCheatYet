@@ -1,13 +1,12 @@
+import { DefaultProps, Group, RingProgress, Stack, Text, ThemeIcon, Tooltip } from '@mantine/core';
 import {
-  ColorSwatch,
-  DefaultProps,
-  Group,
-  RingProgress,
-  Stack,
-  Text,
-  Tooltip,
-  useMantineTheme,
-} from '@mantine/core';
+  IconCheck,
+  IconClock,
+  IconMinus,
+  IconQuestionMark,
+  IconThumbUp,
+  IconX,
+} from '@tabler/icons';
 import OverviewType from '../types/overview';
 
 interface LegendProps {
@@ -19,10 +18,29 @@ interface LegendProps {
 }
 
 function Legend({ name, color, amount, percentage, description }: LegendProps) {
+  const icon = (() => {
+    switch (color) {
+      case 'red':
+        return <IconX size={18} />;
+      case 'orange':
+        return <IconMinus size={18} />;
+      case 'green':
+        return <IconCheck size={18} />;
+      case 'cyan':
+        return <IconThumbUp size={18} />;
+      case 'violet':
+        return <IconClock size={18} />;
+      default:
+        return <IconQuestionMark size={18} />;
+    }
+  })();
+
   return (
     <Tooltip withArrow label={description}>
       <Group align="center">
-        <ColorSwatch color={color} />
+        <ThemeIcon radius="xl" variant="filled" color={color}>
+          {icon}
+        </ThemeIcon>
         <Text>
           {amount} {name} ({percentage.toFixed(1)}%)
         </Text>
@@ -36,8 +54,6 @@ interface OverviewProps extends DefaultProps {
 }
 
 export default function Overview({ overview, ...props }: OverviewProps) {
-  const theme = useMantineTheme();
-
   return (
     <Group {...props}>
       <Group position="center">
@@ -54,36 +70,36 @@ export default function Overview({ overview, ...props }: OverviewProps) {
       </Group>
       <Stack sx={{ marginLeft: 15 }}>
         <Legend
+          color="green"
           name="Supported"
-          color={theme.colors.green[6]}
           amount={overview.supported}
           description="Game is officially supported"
           percentage={(overview.supported / overview.total) * 100}
         />
         <Legend
+          color="violet"
           name="Planned"
-          color={theme.colors.violet[6]}
           amount={overview.planned}
           description="Game plans to support Proton/Wine"
           percentage={(overview.planned / overview.total) * 100}
         />
         <Legend
+          color="cyan"
           name="Running"
-          color={theme.colors.cyan[6]}
           amount={overview.running}
           description="No official statement but runs fine (may require tinkering)"
           percentage={(overview.running / overview.total) * 100}
         />
         <Legend
+          color="orange"
           name="Broken"
-          color={theme.colors.orange[6]}
           amount={overview.broken}
           description="Game does not work (online)"
           percentage={(overview.broken / overview.total) * 100}
         />
         <Legend
+          color="red"
           name="Denied"
-          color={theme.colors.red[6]}
           amount={overview.denied}
           description="Linux support was explicitly denied"
           percentage={(overview.denied / overview.total) * 100}
