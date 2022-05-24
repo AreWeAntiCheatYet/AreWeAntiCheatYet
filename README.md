@@ -6,7 +6,7 @@ A website dedicated to keeping track of which games have committed to bringing a
 
 ## How does this work?
 
-A list is maintained in `static/games.json`.  
+A list is maintained in `games.json`.  
 On a new commit, the website is automatically statically regenerated.
 
 ## I'd like to contribute to the list!
