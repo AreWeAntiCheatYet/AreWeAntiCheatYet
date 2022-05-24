@@ -13,7 +13,7 @@ export default function AntiCheatIcon({ anticheat, showText, anticheatIcons }: A
   const icon = anticheatIcons.find((item) => item[0] === anticheat)!;
 
   return (
-    <Group>
+    <Group noWrap>
       {icon && icon[1] ? (
         <Avatar radius="xs" size="sm" src={icon[1]} />
       ) : (
