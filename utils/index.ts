@@ -98,19 +98,23 @@ export function generateBreakdown(games: Game[]) {
 
 export function generateAntiCheatIconLookUp(games: Game[]) {
   const logo_map = [
-    ['easy anti-cheat', 'eac.png'],
-    ['battleye', 'battleye.png'],
-    ['equ8', 'equ8.png'],
-    ['vanguard', 'vanguard.png'],
-    ['fairfight', 'fairfight.png'],
-    ['punkbuster', 'punkbuster.png'],
-    ['vac', 'vac.png'],
-    ['xign', 'xigncode3.png'],
-    ['treyarch', 'treyarch.png'],
-    ['arbiter', 'arbiter.png'],
-    ['nprotect', 'nprotect.png'],
-    ['ricochet', 'ricochet.png'],
-    ['mail.ru', 'mailru.png'],
+    ['easy anti-cheat', 'eac.webp'],
+    ['battleye', 'battleye.webp'],
+    ['equ8', 'equ8.webp'],
+    ['vanguard', 'vanguard.webp'],
+    ['fairfight', 'fairfight.webp'],
+    ['punkbuster', 'punkbuster.webp'],
+    ['vac', 'vac.webp'],
+    ['xign', 'xigncode3.webp'],
+    ['treyarch', 'treyarch.webp'],
+    ['arbiter', 'arbiter.webp'],
+    ['nprotect', 'nprotect.webp'],
+    ['ricochet', 'ricochet.webp'],
+    ['mail.ru', 'mailru.webp'],
+    ['mihoyo', 'mihoyo.webp'],
+    ['nexon', 'nexon.webp'],
+    ['neac', 'neac.webp'],
+    ['sabreclaw', 'sabreclaw.webp'],
   ];
 
   return [...new Set(games.flatMap((game) => game.anticheats))].map((anticheat) => [
