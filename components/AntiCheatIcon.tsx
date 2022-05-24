@@ -22,7 +22,7 @@ export default function AntiCheatIcon({ anticheat, showText, anticheatIcons }: A
         </ThemeIcon>
       )}
       {showText ? (
-        <Text align="center" className={classes.smallHide}>
+        <Text align="center" className={classes.smallHide} style={{ whiteSpace: 'nowrap' }}>
           {anticheat}
         </Text>
       ) : (
