@@ -80,7 +80,7 @@ interface SearchBoxProps {
 
 function SearchBox({ setQuery }: SearchBoxProps) {
   const [search, setSearch] = useState('');
-  const [debounced] = useDebouncedValue(search, 200);
+  const [debounced] = useDebouncedValue(search, 500);
 
   useEffect(() => {
     setQuery(debounced);
