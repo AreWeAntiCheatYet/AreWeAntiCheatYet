@@ -19,7 +19,12 @@ export function getChanges(old: Game[], current: Game[]): [Game, Game?][] {
     .filter(
       (game) =>
         old.find(
-          (item) => item.name === game.name && JSON.stringify(item) !== JSON.stringify(game)
+          (item) =>
+            item.name === game.name &&
+            (JSON.stringify(item.reference) !== JSON.stringify(game.reference) ||
+              JSON.stringify(item.notes) !== JSON.stringify(game.notes) ||
+              item.status !== game.status ||
+              item.native !== game.native)
         ) || !old.find((item) => item.name === game.name)
     )
     .map((game) => [game, old.find((item) => item.name === game.name)]);
