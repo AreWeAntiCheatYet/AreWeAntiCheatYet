@@ -1,5 +1,5 @@
 import { Anchor, Group, Stack } from '@mantine/core';
-import { IconHeart } from '@tabler/icons';
+import { IconHeartHandshake } from '@tabler/icons';
 
 interface AppFooterProps {
   lastBuildTime: number;
@@ -17,8 +17,8 @@ export default function AppFooter({ lastBuildTime }: AppFooterProps) {
           Add it here!
         </Anchor>
       </Group>
-      <Group position="center">
-        Made with <IconHeart color="red" /> by Starz0r & Curve
+      <Group position="center" spacing={5}>
+        Made with <IconHeartHandshake color="red" /> by Starz0r & Curve
       </Group>
       <Group position="center">
         Last updated {new Date(lastBuildTime).toLocaleDateString()} (
