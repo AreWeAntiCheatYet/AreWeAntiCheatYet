@@ -20,7 +20,10 @@ export default function AppFooter({ lastBuildTime }: AppFooterProps) {
       <Group position="center">
         Made with <IconHeart color="red" /> by Starz0r & Curve
       </Group>
-      <Group position="center">Last updated {new Date(lastBuildTime).toLocaleDateString()}</Group>
+      <Group position="center">
+        Last updated {new Date(lastBuildTime).toLocaleDateString()} (
+        {new Date(lastBuildTime).toLocaleTimeString()})
+      </Group>
     </Stack>
   );
 }
