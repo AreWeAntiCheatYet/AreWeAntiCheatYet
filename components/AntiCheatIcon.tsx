@@ -14,7 +14,7 @@ export default function AntiCheatIcon({ anticheat, showText, anticheatIcons }: A
 
   return (
     <Group>
-      {icon[1] ? (
+      {icon && icon[1] ? (
         <Avatar radius="xs" size="sm" src={icon[1]} />
       ) : (
         <ThemeIcon radius="xs">
