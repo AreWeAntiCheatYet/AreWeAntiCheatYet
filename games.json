@@ -2348,11 +2348,11 @@
         "logo": "",
         "native": false,
         "status": "Running",
-        "reference": "https://github.com/starcitizen-lug/information-howtos/wiki/Quick-Start-Guide",
+        "reference": "https://robertsspaceindustries.com/spectrum/community/SC/forum/190048/thread/star-citizen-alpha-3-15-1e-ptu-7876811-patch-notes",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": []
+        "notes": [["Currently requires workaround", "https://github.com/starcitizen-lug/information-howtos/wiki/Quick-Start-Guide"]]
     },
     {
         "url": "https://quake.bethesda.net",
