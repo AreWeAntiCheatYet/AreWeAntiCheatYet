@@ -7,7 +7,7 @@ export default function AppHeader() {
     <Header height={60}>
       <Group position="apart" sx={{ marginLeft: 15, marginRight: 15, height: '100%' }} noWrap>
         <Group position="center">
-          <Avatar src="icon.png" size="lg" />
+          <Avatar src="icon.webp" size="lg" />
           <Title order={4}>Are We Anti-Cheat Yet?</Title>
         </Group>
         <Group position="center">
