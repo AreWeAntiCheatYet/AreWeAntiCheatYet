@@ -8,6 +8,7 @@ import {
   Stack,
   Text,
   ThemeIcon,
+  Tooltip,
 } from '@mantine/core';
 import {
   IconArrowRight,
@@ -155,23 +156,25 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
         <IconArrowsRightLeft />
         <Group>
           {oldGame.anticheats.map((anticheat) => (
-            <AntiCheatIcon
-              key={anticheat}
-              anticheat={anticheat}
-              showText={false}
-              anticheatIcons={antiCheatIcons}
-            />
+            <Tooltip key={anticheat} withArrow label={anticheat}>
+              <AntiCheatIcon
+                anticheat={anticheat}
+                showText={false}
+                anticheatIcons={antiCheatIcons}
+              />
+            </Tooltip>
           ))}
         </Group>
         <IconArrowRight />{' '}
         <Group>
           {newGame.anticheats.map((anticheat) => (
-            <AntiCheatIcon
-              key={anticheat}
-              anticheat={anticheat}
-              showText={false}
-              anticheatIcons={antiCheatIcons}
-            />
+            <Tooltip key={anticheat} withArrow label={anticheat}>
+              <AntiCheatIcon
+                anticheat={anticheat}
+                showText={false}
+                anticheatIcons={antiCheatIcons}
+              />
+            </Tooltip>
           ))}
         </Group>
       </Group>
