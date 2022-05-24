@@ -1,4 +1,4 @@
-import { Accordion, DefaultProps, Progress, Stack, Text } from '@mantine/core';
+import { Accordion, DefaultProps, Divider, Progress, Stack, Text } from '@mantine/core';
 import { IconListDetails } from '@tabler/icons';
 import Overview from '../types/overview';
 import StyledAccordion from './StyledAccordion';
@@ -12,7 +12,7 @@ export default function Breakdown({ breakdown, ...props }: BreakdownProps) {
     <StyledAccordion icon={<IconListDetails size={16} />} {...props}>
       <Accordion.Item label="Breakdown">
         {breakdown.map(([anticheat, overview]) => (
-          <Stack key={anticheat}>
+          <Stack key={anticheat} sx={{ marginTop: 10 }}>
             <Text>{anticheat}</Text>
             <Progress
               size="xl"
@@ -44,6 +44,7 @@ export default function Breakdown({ breakdown, ...props }: BreakdownProps) {
                 },
               ]}
             />
+            <Divider />
           </Stack>
         ))}
       </Accordion.Item>
