@@ -23,7 +23,10 @@
             "Easy Anti-Cheat"
         ],
         "notes": [
-            ["Works on Xbox-Cloud", "https://news.xbox.com/en-us/2022/05/05/play-fortnite-with-xbox-cloud-gaming-for-free/"]
+            [
+                "Works on Xbox-Cloud",
+                "https://news.xbox.com/en-us/2022/05/05/play-fortnite-with-xbox-cloud-gaming-for-free/"
+            ]
         ]
     },
     {
@@ -159,7 +162,12 @@
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [["Requires workaround", "https://steamcommunity.com/sharedfiles/filedetails/?id=2787044978"]]
+        "notes": [
+            [
+                "Requires workaround",
+                "https://steamcommunity.com/sharedfiles/filedetails/?id=2787044978"
+            ]
+        ]
     },
     {
         "url": "",
@@ -340,7 +348,10 @@
             "Easy Anti-Cheat"
         ],
         "notes": [
-            ["Requires Steam-Flatpak on some systems", "https://github.com/anyc/steam-overlay/issues/313"]
+            [
+                "Requires Steam-Flatpak on some systems",
+                "https://github.com/anyc/steam-overlay/issues/313"
+            ]
         ]
     },
     {
@@ -1762,7 +1773,12 @@
         "status": "Running",
         "reference": "https://steamdb.info/depot/552521/history/?changeid=M:7117179758041625493",
         "anticheats": [],
-        "notes": [["Used to run Easy Anti-Cheat", "https://steamdb.info/depot/552521/history/?changeid=M:7117179758041625493"]]
+        "notes": [
+            [
+                "Used to run Easy Anti-Cheat",
+                "https://steamdb.info/depot/552521/history/?changeid=M:7117179758041625493"
+            ]
+        ]
     },
     {
         "url": "",
@@ -2352,7 +2368,12 @@
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [["Currently requires workaround", "https://github.com/starcitizen-lug/information-howtos/wiki/Quick-Start-Guide"]]
+        "notes": [
+            [
+                "Currently requires workaround",
+                "https://github.com/starcitizen-lug/information-howtos/wiki/Quick-Start-Guide"
+            ]
+        ]
     },
     {
         "url": "https://quake.bethesda.net",
@@ -2649,6 +2670,18 @@
         "status": "Running",
         "native": false,
         "reference": "",
+        "anticheats": [
+            "Unknown (Custom)"
+        ],
+        "notes": []
+    },
+    {
+        "url": "https://animalroyale.com",
+        "name": "Super Animal Royale",
+        "logo": "",
+        "status": "Supported",
+        "native": false,
+        "reference": "https://store.steampowered.com/news/app/843380/view/3217271087481920646",
         "anticheats": [
             "Unknown (Custom)"
         ],
