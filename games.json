@@ -138,7 +138,12 @@
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": []
+        "notes": [
+            [
+                "Requires Proton-GE",
+                "https://www.protondb.com/app/386360#uEyBL2NWkn"
+            ]
+        ]
     },
     {
         "url": "",
