@@ -2686,5 +2686,17 @@
             "Unknown (Custom)"
         ],
         "notes": []
+    },
+    {
+        "url": "https://fallout.bethesda.net/",
+        "name": "Fallout 76",
+        "logo": "",
+        "status": "Running",
+        "native": false,
+        "reference": "https://www.protondb.com/app/1151340",
+        "anticheats": [
+            "Unknown (Custom)"
+        ],
+        "notes": []
     }
 ]
