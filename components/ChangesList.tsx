@@ -1,6 +1,7 @@
 import {
   Accordion,
   ActionIcon,
+  Anchor,
   Avatar,
   Button,
   DefaultProps,
@@ -43,6 +44,7 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
         </ThemeIcon>
         <Avatar radius="xl" src={newGame.logo} />
         <Text>{newGame.name}</Text>
+        <Badges showText={false} game={newGame} />
       </Group>
     );
   }
@@ -100,12 +102,17 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
 
     if (oldGame.notes.length === 0) {
       return (
-        <Group sx={{ marginLeft: 50 }}>
+        <Group sx={{ marginLeft: 50 }} noWrap>
           <IconPlus />
           {newGame.notes.map((note) => (
-            <ActionIcon key={note[1]} component="a" target="_blank" href={note[1]}>
-              <IconNote />
-            </ActionIcon>
+            <Group key={note[1]} noWrap>
+              <ActionIcon component="a" target="_blank" href={note[1]}>
+                <IconNote />
+              </ActionIcon>
+              <Anchor target="_blank" href={note[1]}>
+                {note[0]}
+              </Anchor>
+            </Group>
           ))}
         </Group>
       );
@@ -113,12 +120,17 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
 
     if (newGame.notes.length === 0) {
       return (
-        <Group sx={{ marginLeft: 50 }}>
+        <Group sx={{ marginLeft: 50 }} noWrap>
           <IconMinus />
           {oldGame.notes.map((note) => (
-            <ActionIcon key={note[1]} component="a" target="_blank" href={note[1]}>
-              <IconNote />
-            </ActionIcon>
+            <Group key={note[1]} noWrap>
+              <ActionIcon component="a" target="_blank" href={note[1]}>
+                <IconNote />
+              </ActionIcon>
+              <Anchor target="_blank" href={note[1]}>
+                {note[0]}
+              </Anchor>
+            </Group>
           ))}
         </Group>
       );
@@ -129,17 +141,21 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
         <IconArrowsRightLeft />
         <Group>
           {oldGame.notes.map((note) => (
-            <ActionIcon key={note[1]} component="a" target="_blank" href={note[1]}>
-              <IconNote />
-            </ActionIcon>
+            <Tooltip withArrow label={note[0]} key={note[1]}>
+              <ActionIcon component="a" target="_blank" href={note[1]}>
+                <IconNote />
+              </ActionIcon>
+            </Tooltip>
           ))}
         </Group>
         <IconArrowRight />
         <Group>
           {newGame.notes.map((note) => (
-            <ActionIcon key={note[1]} component="a" target="_blank" href={note[1]}>
-              <IconNote />
-            </ActionIcon>
+            <Tooltip withArrow label={note[0]} key={note[1]}>
+              <ActionIcon component="a" target="_blank" href={note[1]}>
+                <IconNote />
+              </ActionIcon>
+            </Tooltip>
           ))}
         </Group>
       </Group>
