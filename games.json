@@ -275,12 +275,17 @@
         "name": "Squad",
         "logo": "",
         "native": false,
-        "status": "Supported",
+        "status": "Running",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": []
+        "notes": [
+            [
+                "Currently requires workaround",
+                "https://squadfm.org/#installation-linux-only"
+            ]
+        ]
     },
     {
         "url": "https://newworld.com",
