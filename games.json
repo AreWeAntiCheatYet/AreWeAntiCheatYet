@@ -437,12 +437,17 @@
         "name": "Genshin Impact",
         "logo": "",
         "native": false,
-        "status": "Running",
+        "status": "Broken",
         "reference": "",
         "anticheats": [
             "miHoYo Protect 2"
         ],
-        "notes": []
+        "notes": [
+            [
+                "Works with dangerous patches (see Lutris)",
+                ""
+            ]
+        ]
     },
     {
         "url": "https://www.djmaxrespect.com/",

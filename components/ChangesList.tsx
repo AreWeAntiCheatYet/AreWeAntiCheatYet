@@ -104,16 +104,25 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
       return (
         <Group sx={{ marginLeft: 50 }} noWrap>
           <IconPlus />
-          {newGame.notes.map((note) => (
-            <Group key={note[1]} noWrap>
-              <ActionIcon component="a" target="_blank" href={note[1]}>
-                <IconNote />
-              </ActionIcon>
-              <Anchor target="_blank" href={note[1]}>
-                {note[0]}
-              </Anchor>
-            </Group>
-          ))}
+          <Stack>
+            {newGame.notes.map((note) =>
+              note[1] ? (
+                <Group key={note[1]} noWrap>
+                  <ActionIcon component="a" target="_blank" href={note[1]}>
+                    <IconNote />
+                  </ActionIcon>
+                  <Anchor target="_blank" href={note[1]}>
+                    {note[0]}
+                  </Anchor>
+                </Group>
+              ) : (
+                <Group key={note[0]} noWrap>
+                  <IconNote />
+                  <Text>{note[0]}</Text>
+                </Group>
+              )
+            )}
+          </Stack>
         </Group>
       );
     }

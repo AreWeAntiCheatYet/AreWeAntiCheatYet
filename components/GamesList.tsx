@@ -11,7 +11,7 @@ import {
   Tooltip,
 } from '@mantine/core';
 import { useDebouncedValue } from '@mantine/hooks';
-import { IconExternalLink, IconSearch } from '@tabler/icons';
+import { IconExternalLink, IconNote, IconSearch } from '@tabler/icons';
 import { Dispatch, SetStateAction, useEffect, useMemo, useState } from 'react';
 import Game from '../types/game';
 import { style } from '../utils/style';
@@ -58,16 +58,23 @@ function Item({ game, anticheatIcons }: ItemProps) {
       </td>
       <td className={classes.mobileHide}>
         <Stack>
-          {game.notes.map((note) => (
-            <Group key={note[1]} noWrap>
-              <ActionIcon component="a" target="_blank" href={note[1]}>
-                <IconExternalLink />
-              </ActionIcon>
-              <Anchor target="_blank" href={note[1]}>
-                {note[0]}
-              </Anchor>
-            </Group>
-          ))}
+          {game.notes.map((note) =>
+            note[1] ? (
+              <Group key={note[1]} noWrap>
+                <ActionIcon component="a" target="_blank" href={note[1]}>
+                  <IconExternalLink />
+                </ActionIcon>
+                <Anchor target="_blank" href={note[1]}>
+                  {note[0]}
+                </Anchor>
+              </Group>
+            ) : (
+              <Group key={note[0]} noWrap>
+                <IconNote />
+                <Text>{note[0]}</Text>
+              </Group>
+            )
+          )}
         </Stack>
       </td>
     </tr>

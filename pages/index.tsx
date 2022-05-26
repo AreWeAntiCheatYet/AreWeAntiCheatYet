@@ -3,6 +3,7 @@ import { promises as fs } from 'fs';
 import { InferGetStaticPropsType } from 'next';
 import Breakdown from '../components/Breakdown';
 import ChangesList from '../components/ChangesList';
+import Definitions from '../components/Definitions';
 import AppFooter from '../components/Footer';
 import GamesList from '../components/GamesList';
 import AppHeader from '../components/Header';
@@ -43,6 +44,7 @@ export default function Home({
     <AppShell padding="md" header={<AppHeader />} fixed>
       <Stack align="center" sx={{ marginTop: 25 }}>
         <Overview overview={overview} sx={{ marginBottom: 25 }} />
+        <Definitions className={classes.breakdownWidth} />
         <ChangesList
           games={games}
           antiCheatIcons={antiCheatIcons}

@@ -73,7 +73,7 @@ export default function Overview({ overview, ...props }: OverviewProps) {
           color="green"
           name="Supported"
           amount={overview.supported}
-          description="Game is officially supported"
+          description="Support was explicitly enabled / works out of the box"
           percentage={(overview.supported / overview.total) * 100}
         />
         <Legend
@@ -94,7 +94,7 @@ export default function Overview({ overview, ...props }: OverviewProps) {
           color="orange"
           name="Broken"
           amount={overview.broken}
-          description="Game does not work (online)"
+          description="Anti-Cheat stops game from running properly"
           percentage={(overview.broken / overview.total) * 100}
         />
         <Legend
