@@ -2725,5 +2725,17 @@
             "Unknown (Custom)"
         ],
         "notes": []
+    },
+    {
+        "url": "https://playoverwatch.com/en-us/",
+        "name": "Overwatch",
+        "logo": "",
+        "status": "Supported",
+        "native": false,
+        "reference": "",
+        "anticheats": [
+            "Warden"
+        ],
+        "notes": []
     }
 ]
