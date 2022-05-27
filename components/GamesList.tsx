@@ -181,6 +181,7 @@ function ThButton({ text, type, sortMode, setSortMode, ...props }: ThButtonProps
             }
           }
         }}
+        sx={{ cursor: type !== 'none' ? 'pointer' : 'default' }}
       >
         <Group position="apart">
           <Text weight={500} size="sm">
