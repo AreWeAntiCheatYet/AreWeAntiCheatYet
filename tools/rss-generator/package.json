@@ -1,7 +1,7 @@
 {
   "name": "rss-generator",
   "version": "1.0.0",
-  "description": "Generates a rss feed based on latest changes",
+  "description": "Generates an rss feed based on latest changes",
   "main": "index.ts",
   "repository": "https://github.com/Starz0r/AreWeAntiCheatYet",
   "author": "curve",

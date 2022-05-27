@@ -19,6 +19,8 @@ const changes = current
 
 let description = '';
 
+console.log('Changes', changes);
+
 for (const change of changes) {
   const latest = change[0]!;
   const old = change[1];
