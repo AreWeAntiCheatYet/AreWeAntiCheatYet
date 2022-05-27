@@ -29,8 +29,11 @@ jobs:
           path: previous
           ref: ${{ github.event.before }}
 
-      - name: Install build dependencies
-        run: 'sudo apt-get update && sudo apt-get install git build-essential npm'
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node }}
+          cache: 'yarn'
 
       - name: Generate RSS-Feed
         run: 'cd current/tools/rss-generator && yarn && yarn dev ../../games.json ../../../previous/games.json ../../../rss/feed.rss'
