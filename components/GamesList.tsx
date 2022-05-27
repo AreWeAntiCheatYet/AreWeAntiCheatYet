@@ -2,6 +2,7 @@ import {
   ActionIcon,
   Anchor,
   Avatar,
+  Center,
   DefaultProps,
   Group,
   Stack,
@@ -9,9 +10,17 @@ import {
   Text,
   TextInput,
   Tooltip,
+  UnstyledButton,
 } from '@mantine/core';
 import { useDebouncedValue } from '@mantine/hooks';
-import { IconExternalLink, IconNote, IconSearch } from '@tabler/icons';
+import {
+  IconChevronDown,
+  IconChevronUp,
+  IconExternalLink,
+  IconNote,
+  IconSearch,
+  IconSelector,
+} from '@tabler/icons';
 import { Dispatch, SetStateAction, useEffect, useMemo, useState } from 'react';
 import Game from '../types/game';
 import { style } from '../utils/style';
@@ -106,6 +115,90 @@ function SearchBox({ setQuery }: SearchBoxProps) {
   );
 }
 
+enum SortMode {
+  normal,
+  name_asc,
+  name_desc,
+  status_asc,
+  status_desc,
+}
+
+interface ThButtonProps extends DefaultProps {
+  text: string;
+  type: 'name' | 'status' | 'none';
+
+  sortMode?: SortMode;
+  setSortMode?: Dispatch<SetStateAction<SortMode>>;
+}
+
+function ThButton({ text, type, sortMode, setSortMode, ...props }: ThButtonProps) {
+  const Icon = (() => {
+    if (type === 'name') {
+      switch (sortMode) {
+        case SortMode.name_asc:
+          return IconChevronUp;
+        case SortMode.name_desc:
+          return IconChevronDown;
+      }
+    } else {
+      switch (sortMode) {
+        case SortMode.status_asc:
+          return IconChevronUp;
+        case SortMode.status_desc:
+          return IconChevronDown;
+      }
+    }
+    return IconSelector;
+  })();
+
+  return (
+    <th {...props}>
+      <UnstyledButton
+        onClick={() => {
+          if (type === 'name') {
+            switch (sortMode) {
+              case SortMode.normal:
+                setSortMode!(SortMode.name_asc);
+                break;
+              case SortMode.name_asc:
+                setSortMode!(SortMode.name_desc);
+                break;
+              case SortMode.name_desc:
+                setSortMode!(SortMode.normal);
+                break;
+            }
+          } else if (type === 'status') {
+            switch (sortMode) {
+              case SortMode.normal:
+                setSortMode!(SortMode.status_asc);
+                break;
+              case SortMode.status_asc:
+                setSortMode!(SortMode.status_desc);
+                break;
+              case SortMode.status_desc:
+                setSortMode!(SortMode.normal);
+                break;
+            }
+          }
+        }}
+      >
+        <Group position="apart">
+          <Text weight={500} size="sm">
+            {text}
+          </Text>
+          {type !== 'none' ? (
+            <Center>
+              <Icon size={14} />
+            </Center>
+          ) : (
+            <></>
+          )}
+        </Group>
+      </UnstyledButton>
+    </th>
+  );
+}
+
 interface GamesListProps extends DefaultProps {
   games: Game[];
   anticheatIcons: (string | null)[][];
@@ -114,32 +207,44 @@ interface GamesListProps extends DefaultProps {
 export default function GamesList({ games, anticheatIcons, ...props }: GamesListProps) {
   const { classes } = style();
   const [query, setQuery] = useState('');
+  const [sortMode, setSortMode] = useState(SortMode.normal);
 
-  const shownGames = useMemo(
-    () =>
-      games.filter(
-        (game) =>
-          game.name.toLowerCase().includes(query.toLowerCase()) ||
-          game.anticheats.find((anticheat) =>
-            anticheat.toLowerCase().includes(query.toLowerCase())
-          ) ||
-          game.status.toLowerCase().includes(query.toLowerCase())
-      ),
-    [games, query]
-  );
+  const shownGames = useMemo(() => {
+    const rtn = games.filter(
+      (game) =>
+        game.name.toLowerCase().includes(query.toLowerCase()) ||
+        game.anticheats.find((anticheat) =>
+          anticheat.toLowerCase().includes(query.toLowerCase())
+        ) ||
+        game.status.toLowerCase().includes(query.toLowerCase())
+    );
+
+    switch (sortMode) {
+      case SortMode.name_asc:
+        return rtn.sort((a, b) => a.name.localeCompare(b.name));
+      case SortMode.name_desc:
+        return rtn.sort((a, b) => b.name.localeCompare(a.name));
+      case SortMode.status_asc:
+        return rtn.sort((a, b) => a.status.localeCompare(b.status));
+      case SortMode.status_desc:
+        return rtn.sort((a, b) => b.status.localeCompare(a.status));
+      default:
+        return rtn;
+    }
+  }, [games, query, sortMode]);
 
   return (
     <>
-      <Group position="center" sx={{ marginTop: 15 }}>
+      <Group position="apart" sx={{ marginTop: 15 }}>
         <SearchBox setQuery={setQuery} />
       </Group>
       <Table {...props} horizontalSpacing="xl" fontSize="md">
         <thead>
           <tr>
-            <th>Name</th>
-            <th>Status</th>
-            <th>Anti-Cheat</th>
-            <th className={classes.mobileHide}>Notes</th>
+            <ThButton text="Name" type="name" sortMode={sortMode} setSortMode={setSortMode} />
+            <ThButton text="Status" type="status" sortMode={sortMode} setSortMode={setSortMode} />
+            <ThButton text="Anti-Cheat" type="none" />
+            <ThButton className={classes.mobileHide} text="Notes" type="none" />
           </tr>
         </thead>
         <tbody>
