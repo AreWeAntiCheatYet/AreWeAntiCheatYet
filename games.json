@@ -2713,5 +2713,17 @@
             "Unknown (Custom)"
         ],
         "notes": []
+    },
+    {
+        "url": "https://en.another-eden.jp/",
+        "name": "ANOTHER EDEN",
+        "logo": "",
+        "status": "Broken",
+        "native": false,
+        "reference": "",
+        "anticheats": [
+            "Unknown (Custom)"
+        ],
+        "notes": []
     }
 ]
