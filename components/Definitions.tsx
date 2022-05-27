@@ -5,7 +5,7 @@ import StyledAccordion from './StyledAccordion';
 export default function Definitions({ ...props }: DefaultProps) {
   return (
     <StyledAccordion icon={<IconInfoCircle size={16} />} {...props}>
-      <Accordion.Item label="State Definitions">
+      <Accordion.Item label="Legend">
         <Stack>
           <Group noWrap>
             <ThemeIcon radius="xl" variant="filled" color="green">
@@ -14,8 +14,8 @@ export default function Definitions({ ...props }: DefaultProps) {
             <Title order={5}>Supported</Title>
           </Group>
           <Text>
-            Games that run on linux due to the developers going out of their way to enable the
-            Anti-Cheat to run on linux or games that have Anti-Cheat which works perfectly fine out
+            Games that run on Linux due to the developers going out of their way to enable the
+            anti-cheat to run on Linux or games that have anti-cheat which works perfectly fine out
             of the box under Wine/Proton (e.g. Overwatch, Battlefield 4)
           </Text>
           <Group noWrap>
@@ -26,7 +26,7 @@ export default function Definitions({ ...props }: DefaultProps) {
           </Group>
           <Text>
             Games where the developers have explicitly stated that they plan to enable their
-            Anti-Cheat to work on linux or that they plan to support the game natively
+            anti-cheat to work on Linux or that they plan to support the game natively
           </Text>
           <Group noWrap>
             <ThemeIcon radius="xl" variant="filled" color="cyan">
@@ -35,9 +35,9 @@ export default function Definitions({ ...props }: DefaultProps) {
             <Title order={5}>Running</Title>
           </Group>
           <Text>
-            Games that will run on linux without impact on online or offline gameplay but may
+            Games that will run on Linux without impact on online or offline gameplay but may
             require you to perform certain tinkering steps (This does not include any means of
-            explicitly bypassing the Anti-Cheat)
+            explicitly bypassing the anti-cheat)
           </Text>
           <Group noWrap>
             <ThemeIcon radius="xl" variant="filled" color="orange">
@@ -46,7 +46,7 @@ export default function Definitions({ ...props }: DefaultProps) {
             <Title order={5}>Broken</Title>
           </Group>
           <Text>
-            Games that will not run both online and offline on linux due to the deployed Anti-Cheat
+            Games that will not run both online and offline on Linux due to the deployed anti-cheat
             solution
           </Text>
           <Group noWrap>
@@ -57,7 +57,7 @@ export default function Definitions({ ...props }: DefaultProps) {
           </Group>
           <Text>
             Games where the developers have explicitly stated that they will not enable the
-            Anti-Cheat solution to work on linux or have denied the possibility of linux support
+            anti-cheat solution to work on Linux or have denied the possibility of Linux support
           </Text>
         </Stack>
       </Accordion.Item>
