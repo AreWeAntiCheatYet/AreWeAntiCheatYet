@@ -1,0 +1,23 @@
+{
+  "name": "rss-generator",
+  "version": "1.0.0",
+  "description": "Generates a rss feed based on latest changes",
+  "main": "index.ts",
+  "repository": "https://github.com/Starz0r/AreWeAntiCheatYet",
+  "author": "curve",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx esmo index.ts",
+    "typecheck": "tsc --noEmit",
+    "prettier:check": "prettier --check \"**/*.{ts,tsx}\"",
+    "prettier:write": "prettier --write \"**/*.{ts,tsx}\"",
+    "test": "npm run prettier:check && npm run lint && npm run typecheck && npm run jest"
+  },
+  "dependencies": {
+    "libxmljs": "^0.19.10",
+    "typescript": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/libxmljs": "^0.18.7"
+  }
+}

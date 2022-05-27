@@ -1,0 +1,41 @@
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'games.json'
+
+name: Update RSS-Feed
+jobs:
+  rss-feed:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3.0.2
+        with:
+          path: current
+
+      - name: Checkout RSS
+        uses: actions/checkout@v3.0.2
+        with:
+          ref: rss
+          path: rss
+
+      - name: Checkout Previous
+        uses: actions/checkout@v3.0.2
+        with:
+          path: previous
+          ref: ${{ github.event.before }}
+
+      - name: Install build dependencies
+        run: 'sudo apt-get update && sudo apt-get install git build-essential npm'
+
+      - name: Generate RSS-Feed
+        run: 'cd current/tools/rss-generator && yarn && yarn dev ../../games.json ../../../previous/games.json ../../../rss/feed.rss'
+
+      - uses: EndBug/add-and-commit@v9
+        with:
+          cwd: './rss'
+          new_branch: rss
