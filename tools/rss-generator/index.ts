@@ -53,3 +53,5 @@ if (changes.length > 0) {
 }
 
 fs.writeFileSync(argv[4], doc.toString());
+console.log(`Results: ${doc.toString()}`);
+console.log(`Writing results to: ${argv[4]}`);
