@@ -40,7 +40,13 @@ function Item({ game, anticheatIcons }: ItemProps) {
       <td>
         <Group noWrap>
           <Avatar radius="xl" src={game.logo} />
-          <Text>{game.name}</Text>
+          {game.url ? (
+            <Anchor target="_blank" href={game.url}>
+              {game.name}
+            </Anchor>
+          ) : (
+            <Text>{game.name}</Text>
+          )}
         </Group>
       </td>
       <td>
