@@ -5,6 +5,7 @@
         "logo": "",
         "native": false,
         "status": "Planned",
+        "since": "",
         "reference": "https://www.xda-developers.com/halo-mcc-broken-steam-deck/",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -17,6 +18,7 @@
         "logo": "",
         "native": false,
         "status": "Denied",
+        "since": "",
         "reference": "https://twitter.com/TimSweeneyEpic/status/1490565925648715781?t=kjZblC_B6gsa_bzAz11KjA&s=19",
         "anticheats": [
             "BattlEye",
@@ -35,6 +37,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -47,6 +50,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "https://steamdb.info/app/1172470/depots/?branch=steam_deck",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -59,6 +63,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Vanguard"
@@ -71,6 +76,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Arbiter"
@@ -83,6 +89,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "https://back4blood.com/en-us/patch-notes/april-2022-update",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -95,6 +102,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -107,6 +115,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic",
         "anticheats": [
             "Zakynthos",
@@ -121,6 +130,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "https://www.gamingonlinux.com/2021/11/ubisoft-proton-support-rainbow-six-siege-linux/",
         "anticheats": [
             "FairFight",
@@ -134,6 +144,7 @@
         "logo": "",
         "native": false,
         "status": "Running",
+        "since": "",
         "reference": "https://www.protondb.com/app/386360",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -151,6 +162,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -163,6 +175,7 @@
         "logo": "",
         "native": false,
         "status": "Running",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -180,6 +193,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/43",
         "anticheats": [
             "BattlEye"
@@ -192,6 +206,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966",
         "anticheats": [
             "BattlEye"
@@ -204,6 +219,7 @@
         "logo": "",
         "native": false,
         "status": "Planned",
+        "since": "",
         "reference": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -216,6 +232,7 @@
         "logo": "",
         "native": false,
         "status": "Denied",
+        "since": "",
         "reference": "https://help.bungie.net/hc/en-us/articles/360049024592-Destiny-2-Steam-Guide#steam-deck-and-destiny-2-0-3",
         "anticheats": [
             "BattlEye"
@@ -228,6 +245,7 @@
         "logo": "",
         "native": false,
         "status": "Denied",
+        "since": "",
         "reference": "https://www.protondb.com/app/594650#lMZ4hnX6A",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -240,6 +258,7 @@
         "logo": "",
         "native": false,
         "status": "Planned",
+        "since": "Tue Jul 27 2021 06:07:00 GMT+0000",
         "reference": "https://www.gamingonlinux.com/2021/07/garry-newman-of-facepunch-mentions-working-with-eac-for-rust-on-linux-with-proton",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -252,6 +271,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/43",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -264,6 +284,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/43",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -276,6 +297,7 @@
         "logo": "",
         "native": false,
         "status": "Running",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -293,6 +315,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -305,6 +328,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "https://support.fatshark.se/hc/en-us/articles/4408080108817--PC-Regarding-Easy-Anti-Cheat-and-Linux-Wine-Proton-Support",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -317,6 +341,7 @@
         "logo": "",
         "native": false,
         "status": "Planned",
+        "since": "",
         "reference": "https://discord.com/channels/891628783176650773/891637148007141387/958009681119428648",
         "anticheats": [
             "BattlEye"
@@ -329,6 +354,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -341,6 +367,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966",
         "anticheats": [
             "BattlEye"
@@ -353,6 +380,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/444",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -370,6 +398,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -382,6 +411,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "https://www.reddit.com/r/PSO2NGS/comments/ua5gf5/comment/i5vm95k/",
         "anticheats": [
             "nProtect GameGuard"
@@ -394,6 +424,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966",
         "anticheats": [
             "VAC",
@@ -407,6 +438,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966",
         "anticheats": [
             "BattlEye"
@@ -419,6 +451,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -431,6 +464,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "NEAC Protect"
@@ -443,6 +477,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "miHoYo Protect 2"
@@ -460,6 +495,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "XIGNCODE3"
@@ -472,6 +508,7 @@
         "logo": "",
         "native": false,
         "status": "Running",
+        "since": "",
         "reference": "https://www.protondb.com/app/1262240#ZGsEq7x6Kb",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -484,6 +521,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -505,6 +543,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -517,6 +556,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -529,6 +569,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -541,6 +582,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -553,6 +595,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -565,6 +608,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -577,6 +621,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "https://twitter.com/Plagman2/status/1493854504290119682",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -589,6 +634,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -601,6 +647,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -613,6 +660,7 @@
         "logo": "",
         "native": false,
         "status": "Planned",
+        "since": "",
         "reference": "https://www.reddit.com/r/dueprocess/comments/pu252w/bring_steam_decklinux_support_to_due_process/he04229/?context=1",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -625,6 +673,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -637,6 +686,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "https://github.com/ValveSoftware/Proton/issues/1811#issuecomment-981078015",
         "anticheats": [
             "Mail.ru Anti-Cheat"
@@ -649,6 +699,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -661,6 +712,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "BattlEye"
@@ -672,6 +724,7 @@
         "name": "DRAGON BALL XENOVERSE 2",
         "logo": "",
         "status": "Broken",
+        "since": "",
         "native": false,
         "reference": "https://www.protondb.com/app/454650",
         "anticheats": [
@@ -685,6 +738,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -697,6 +751,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -709,6 +764,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -721,6 +777,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -733,6 +790,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "BattlEye"
@@ -745,6 +803,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "https://www.gamingonlinux.com/2022/05/crsed-foad-is-like-pubg-with-powers-now-on-linux-and-steam-deck-verified/",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -757,6 +816,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "https://twitter.com/Plagman2/status/1493854504290119682",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -769,6 +829,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "EQU8"
@@ -781,6 +842,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "https://twitter.com/landfallgames/status/1377947424338100227",
         "anticheats": [
             "EQU8"
@@ -793,6 +855,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "EQU8"
@@ -805,6 +868,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -817,6 +881,7 @@
         "logo": "",
         "native": false,
         "status": "Denied",
+        "since": "",
         "reference": "https://www.reddit.com/r/FACEITcom/comments/r9zp7l/support_for_steam_decklinux/hng147c/",
         "anticheats": [
             "FACEIT"
@@ -829,6 +894,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -841,6 +907,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -853,6 +920,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC",
@@ -866,6 +934,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -878,6 +947,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -890,6 +960,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "XIGNCODE3"
@@ -902,6 +973,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "BattlEye"
@@ -914,6 +986,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "XIGNCODE3"
@@ -926,6 +999,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -938,6 +1012,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -950,6 +1025,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -962,6 +1038,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -974,6 +1051,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -986,6 +1064,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "RICOCHET"
@@ -998,6 +1077,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "RICOCHET"
@@ -1010,6 +1090,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "https://www.gamingonlinux.com/2021/10/brawlhalla-to-get-easy-anti-cheat-dev-puts-up-beta-with-eac-working-on-linux-with-proton",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -1022,6 +1103,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "BattlEye"
@@ -1034,6 +1116,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "https://twitter.com/RedasterPOLYGON/status/1443057152168325125?s=20",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -1046,6 +1129,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Treyarch Anti-Cheat"
@@ -1058,6 +1142,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -1070,6 +1155,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1082,6 +1168,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -1094,6 +1181,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -1106,6 +1194,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -1118,6 +1207,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "PunkBuster",
@@ -1131,6 +1221,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "BattlEye"
@@ -1143,6 +1234,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966",
         "anticheats": [
             "BattlEye"
@@ -1155,6 +1247,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -1167,6 +1260,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Nexon Game Security"
@@ -1179,6 +1273,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "BattlEye"
@@ -1191,6 +1286,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "https://steamcommunity.com/app/895400/discussions/3/3283695222735434723/",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -1203,6 +1299,7 @@
         "logo": "",
         "native": false,
         "status": "Denied",
+        "since": "",
         "reference": "https://user-images.githubusercontent.com/13716824/154804088-77eefcbb-a8c5-4877-963a-cc36b60b33d9.png",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -1215,6 +1312,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -1227,6 +1325,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "PunkBuster"
@@ -1239,6 +1338,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1251,6 +1351,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "BattlEye"
@@ -1263,6 +1364,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1275,6 +1377,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1287,6 +1390,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "BattlEye"
@@ -1299,6 +1403,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "PunkBuster"
@@ -1311,6 +1416,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "PunkBuster"
@@ -1323,6 +1429,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "FairFight"
@@ -1335,6 +1442,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1347,6 +1455,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1359,6 +1468,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "PunkBuster"
@@ -1371,6 +1481,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1383,6 +1494,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "BattlEye"
@@ -1395,6 +1507,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966",
         "anticheats": [
             "BattlEye"
@@ -1407,6 +1520,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "PunkBuster"
@@ -1419,6 +1533,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "BattlEye"
@@ -1431,6 +1546,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Treyarch Anti-Cheat",
@@ -1445,6 +1561,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "PunkBuster"
@@ -1457,6 +1574,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1469,6 +1587,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1481,6 +1600,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "nProtect GameGuard"
@@ -1493,6 +1613,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1505,6 +1626,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC",
@@ -1518,6 +1640,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC",
@@ -1531,6 +1654,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -1543,6 +1667,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1555,6 +1680,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1566,7 +1692,8 @@
         "name": "Quake 4",
         "logo": "",
         "native": false,
-        "status": "Broken",
+        "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "PunkBuster"
@@ -1579,6 +1706,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1590,7 +1718,8 @@
         "name": "Battlefield 2",
         "logo": "",
         "native": false,
-        "status": "Broken",
+        "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "PunkBuster"
@@ -1603,6 +1732,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -1615,6 +1745,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1627,6 +1758,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -1639,6 +1771,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "FairFight"
@@ -1651,6 +1784,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "nProtect GameGuard"
@@ -1663,6 +1797,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "PunkBuster"
@@ -1675,6 +1810,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "EQU8"
@@ -1687,6 +1823,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1699,6 +1836,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "FairFight"
@@ -1711,6 +1849,7 @@
         "logo": "",
         "native": false,
         "status": "Running",
+        "since": "",
         "reference": "https://www.protondb.com/app/214360",
         "anticheats": [
             "VAC"
@@ -1723,6 +1862,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -1735,6 +1875,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1747,6 +1888,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -1759,6 +1901,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1771,6 +1914,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "PunkBuster"
@@ -1783,6 +1927,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -1795,6 +1940,7 @@
         "logo": "",
         "native": false,
         "status": "Running",
+        "since": "",
         "reference": "https://www.protondb.com/app/223710#5ks8FLsQMa",
         "anticheats": [
             "VAC"
@@ -1807,6 +1953,7 @@
         "logo": "",
         "native": false,
         "status": "Running",
+        "since": "",
         "reference": "https://steamdb.info/depot/552521/history/?changeid=M:7117179758041625493",
         "anticheats": [],
         "notes": [
@@ -1822,6 +1969,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1834,6 +1982,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "XIGNCODE3"
@@ -1846,6 +1995,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1858,6 +2008,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -1870,6 +2021,7 @@
         "logo": "",
         "native": false,
         "status": "Running",
+        "since": "",
         "reference": "https://www.protondb.com/app/6510",
         "anticheats": [
             "VAC"
@@ -1882,6 +2034,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "FairFight"
@@ -1894,6 +2047,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -1906,6 +2060,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1918,6 +2073,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1930,6 +2086,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1942,6 +2099,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -1954,6 +2112,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "BattlEye"
@@ -1966,6 +2125,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "FairFight"
@@ -1978,6 +2138,7 @@
         "logo": "",
         "native": false,
         "status": "Running",
+        "since": "",
         "reference": "https://www.protondb.com/app/321360#1lJ-g1OssC",
         "anticheats": [
             "VAC"
@@ -1990,6 +2151,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "miHoYo Protect"
@@ -2002,6 +2164,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -2014,6 +2177,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "BattlEye"
@@ -2026,6 +2190,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "PunkBuster",
@@ -2039,6 +2204,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -2051,6 +2217,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "PunkBuster",
@@ -2064,6 +2231,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "PunkBuster"
@@ -2076,6 +2244,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "BattlEye"
@@ -2088,6 +2257,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -2100,6 +2270,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -2112,6 +2283,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "BattlEye"
@@ -2124,6 +2296,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "nProtect GameGuard"
@@ -2136,6 +2309,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "PunkBuster"
@@ -2148,6 +2322,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -2160,6 +2335,7 @@
         "logo": "",
         "native": false,
         "status": "Running",
+        "since": "",
         "reference": "https://www.protondb.com/app/476600#lIYwA6LTjM",
         "anticheats": [
             "VAC"
@@ -2172,6 +2348,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "nProtect GameGuard"
@@ -2184,6 +2361,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "FairFight"
@@ -2196,6 +2374,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -2208,6 +2387,7 @@
         "logo": "",
         "native": false,
         "status": "Running",
+        "since": "",
         "reference": "https://www.protondb.com/app/55100#faXiLVSsUC",
         "anticheats": [
             "VAC"
@@ -2220,6 +2400,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -2232,6 +2413,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "nProtect GameGuard"
@@ -2244,6 +2426,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -2256,6 +2439,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -2268,6 +2452,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "FairFight"
@@ -2280,6 +2465,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -2292,6 +2478,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "nProtect GameGuard"
@@ -2304,6 +2491,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "VAC"
@@ -2316,6 +2504,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -2328,6 +2517,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -2340,6 +2530,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -2352,6 +2543,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -2364,6 +2556,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Sabreclaw"
@@ -2376,6 +2569,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "BattlEye"
@@ -2388,6 +2582,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "RICOCHET"
@@ -2400,6 +2595,7 @@
         "logo": "",
         "native": false,
         "status": "Running",
+        "since": "",
         "reference": "https://robertsspaceindustries.com/spectrum/community/SC/forum/190048/thread/star-citizen-alpha-3-15-1e-ptu-7876811-patch-notes",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -2417,6 +2613,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Unknown (Custom)"
@@ -2429,6 +2626,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -2441,6 +2639,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -2453,6 +2652,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -2465,6 +2665,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "BattlEye"
@@ -2477,6 +2678,7 @@
         "logo": "",
         "native": false,
         "status": "Running",
+        "since": "",
         "reference": "https://github.com/kyechou/leagueoflegends",
         "anticheats": [
             "Unknown (Custom)"
@@ -2489,6 +2691,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Unknown (Custom)"
@@ -2501,6 +2704,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -2513,6 +2717,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "BattlEye"
@@ -2525,6 +2730,7 @@
         "logo": "",
         "native": false,
         "status": "Denied",
+        "since": "",
         "reference": "https://steamcommunity.com/app/707010/discussions/0/2950411088500148325/",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -2537,6 +2743,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "https://www.focus-entmt.com/en-us/games/battlefleet-gothic-armada-2",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -2549,6 +2756,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "https://geegee.net/en",
         "anticheats": [
             "BattlEye"
@@ -2561,6 +2769,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "https://www.scavengers.ca/darwin-project/",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -2573,6 +2782,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Treyarch Anti-Cheat"
@@ -2585,6 +2795,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "https://imgur.com/a/yAH2j8S",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -2597,6 +2808,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Nexon Game Security"
@@ -2609,6 +2821,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "https://www.protondb.com/app/466240#uwKYvCVD3f",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -2621,6 +2834,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -2633,6 +2847,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "XIGNCODE3"
@@ -2645,6 +2860,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "XIGNCODE3"
@@ -2657,6 +2873,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Mail.ru Anti-Cheat"
@@ -2669,6 +2886,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
+        "since": "",
         "reference": "",
         "anticheats": [
             "Unknown (Custom)"
@@ -2681,6 +2899,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
+        "since": "",
         "reference": "",
         "anticheats": [
             "XIGNCODE3"
@@ -2692,6 +2911,7 @@
         "name": "Friday The 13th: The Game",
         "logo": "",
         "status": "Broken",
+        "since": "",
         "native": false,
         "reference": "",
         "anticheats": [
@@ -2704,6 +2924,7 @@
         "name": "Grand Theft Auto Online",
         "logo": "",
         "status": "Running",
+        "since": "",
         "native": false,
         "reference": "",
         "anticheats": [
@@ -2716,6 +2937,7 @@
         "name": "Super Animal Royale",
         "logo": "",
         "status": "Supported",
+        "since": "",
         "native": false,
         "reference": "https://store.steampowered.com/news/app/843380/view/3217271087481920646",
         "anticheats": [
@@ -2728,6 +2950,7 @@
         "name": "Fallout 76",
         "logo": "",
         "status": "Running",
+        "since": "",
         "native": false,
         "reference": "https://www.protondb.com/app/1151340",
         "anticheats": [
@@ -2740,6 +2963,7 @@
         "name": "ANOTHER EDEN",
         "logo": "",
         "status": "Broken",
+        "since": "",
         "native": false,
         "reference": "",
         "anticheats": [
@@ -2752,6 +2976,7 @@
         "name": "Overwatch",
         "logo": "",
         "status": "Supported",
+        "since": "",
         "native": false,
         "reference": "",
         "anticheats": [
@@ -2764,6 +2989,7 @@
         "name": "Century: Age of Ashes",
         "logo": "",
         "status": "Broken",
+        "since": "",
         "native": false,
         "reference": "https://www.protondb.com/app/918570",
         "anticheats": [

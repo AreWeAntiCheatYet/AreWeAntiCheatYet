@@ -1,6 +1,18 @@
-import { ActionIcon, Anchor, createStyles, Group, Text, ThemeIcon, Tooltip } from '@mantine/core';
+import {
+  ActionIcon,
+  Anchor,
+  Button,
+  createStyles,
+  Group,
+  Stack,
+  Text,
+  ThemeIcon,
+  Tooltip,
+} from '@mantine/core';
+import { useModals } from '@mantine/modals';
 import {
   IconAward,
+  IconCalendarEvent,
   IconCheck,
   IconClock,
   IconExternalLink,
@@ -9,6 +21,7 @@ import {
   IconThumbUp,
   IconX,
 } from '@tabler/icons';
+import dayjs from 'dayjs';
 import Game, { GameStatus } from '../types/game';
 
 const useStyle = createStyles((theme) => ({
@@ -26,6 +39,7 @@ interface BadgesProps {
 }
 
 export default function Badges({ game, showText }: BadgesProps) {
+  const modals = useModals();
   const { classes } = useStyle();
   const status = game.status[0].toUpperCase() + game.status.substring(1);
 
@@ -46,36 +60,79 @@ export default function Badges({ game, showText }: BadgesProps) {
     }
   })();
 
+  const openInfoModal = () => {
+    const id = modals.openModal({
+      title: 'Last Update',
+      children: (
+        <>
+          <Text>
+            {new Date(game.since).toLocaleDateString()} ({dayjs(game.since).fromNow()})
+          </Text>
+          <Group position="right">
+            <Button onClick={() => modals.closeModal(id)}>Close</Button>
+          </Group>
+        </>
+      ),
+    });
+  };
+
   return (
-    <Group>
-      {game.native && (
-        <Tooltip withArrow label="Also runs native">
-          <ThemeIcon color="green" radius="xl">
-            <IconAward size={16} />
-          </ThemeIcon>
-        </Tooltip>
+    <Stack>
+      <Group>
+        {game.native && (
+          <Tooltip withArrow label="Also runs native">
+            <ThemeIcon color="green" radius="xl">
+              <IconAward size={16} />
+            </ThemeIcon>
+          </Tooltip>
+        )}
+        <ThemeIcon color={info[0]} radius="xl">
+          {info[1]}
+        </ThemeIcon>
+        {showText && game.since && (
+          <ActionIcon
+            radius="xl"
+            color="teal"
+            variant="filled"
+            onClick={openInfoModal}
+            className={classes.mobileShow}
+          >
+            <IconCalendarEvent size={16} />
+          </ActionIcon>
+        )}
+        {showText &&
+          (game.reference ? (
+            <>
+              <Anchor className={classes.mobileHide} target="_blank" href={game.reference}>
+                {status}
+              </Anchor>
+              <ActionIcon
+                component="a"
+                target="_blank"
+                href={game.reference}
+                className={classes.mobileShow}
+              >
+                <IconExternalLink />
+              </ActionIcon>
+            </>
+          ) : (
+            <Text className={classes.mobileHide}>{status}</Text>
+          ))}
+      </Group>
+      {game.since && (
+        <Group noWrap className={classes.mobileHide}>
+          <Tooltip
+            label={`Since ${new Date(game.since).toLocaleDateString()} (${dayjs(
+              game.since
+            ).fromNow()})`}
+          >
+            <ThemeIcon radius="xl" color="teal">
+              <IconCalendarEvent size={16} />
+            </ThemeIcon>
+          </Tooltip>
+          <Text>{dayjs(game.since).fromNow()}</Text>
+        </Group>
       )}
-      <ThemeIcon color={info[0]} radius="xl">
-        {info[1]}
-      </ThemeIcon>
-      {showText &&
-        (game.reference ? (
-          <>
-            <Anchor className={classes.mobileHide} target="_blank" href={game.reference}>
-              {status}
-            </Anchor>
-            <ActionIcon
-              component="a"
-              target="_blank"
-              href={game.reference}
-              className={classes.mobileShow}
-            >
-              <IconExternalLink />
-            </ActionIcon>
-          </>
-        ) : (
-          <Text className={classes.mobileHide}>{status}</Text>
-        ))}
-    </Group>
+    </Stack>
   );
 }
