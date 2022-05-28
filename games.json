@@ -488,7 +488,12 @@
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": []
+        "notes": [
+            [
+                "Required EAC files exist",
+                "https://steamdb.info/depot/686811/"
+            ]
+        ]
     },
     {
         "url": "https://blessunleashed.com/",
@@ -659,12 +664,12 @@
         "notes": []
     },
     {
-        "url": "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2",
+        "url": "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2",
         "name": "DRAGON BALL XENOVERSE 2",
         "logo": "",
-        "native": false,
         "status": "Broken",
-        "reference": "",
+        "native": false,
+        "reference": "https://www.protondb.com/app/454650",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -2745,18 +2750,6 @@
         "status": "Broken",
         "native": false,
         "reference": "https://www.protondb.com/app/918570",
-        "anticheats": [
-            "Easy Anti-Cheat"
-        ],
-        "notes": []
-    },
-    {
-        "url": "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2",
-        "name": "DRAGON BALL XENOVERSE 2",
-        "logo": "",
-        "status": "Broken",
-        "native": false,
-        "reference": "https://www.protondb.com/app/454650",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
