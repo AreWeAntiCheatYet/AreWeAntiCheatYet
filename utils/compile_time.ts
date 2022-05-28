@@ -30,21 +30,24 @@ export async function downloadImagesAndSetLogo(games: Game[]) {
 
   for (const [index, icon] of icons.entries()) {
     const suggestions: any = await icon.json();
-    const name: string = suggestions.game_suggest[0].cloudinary;
-    const png = `https://images.igdb.com/igdb/image/upload/t_cover_big/${name}.png`;
 
-    const blob = await fetch(png);
-    fs.writeFileSync(`temp-icons/${name}.png`, Buffer.from(await blob.arrayBuffer()));
+    if (suggestions.game_suggest) {
+      const name: string = suggestions.game_suggest[0].cloudinary;
+      const png = `https://images.igdb.com/igdb/image/upload/t_cover_big/${name}.png`;
 
-    gm(`temp-icons/${name}.png`).write(`./public/logos/${name}.webp`, (err) => {
-      if (err) {
-        console.error(err);
-      }
-    });
+      const blob = await fetch(png);
+      fs.writeFileSync(`temp-icons/${name}.png`, Buffer.from(await blob.arrayBuffer()));
 
-    gamesWithIcons.find(
-      (game) => game.name === gamesWithNoIcons[index].name
-    )!.logo = `logos/${name}.webp`;
+      gm(`temp-icons/${name}.png`).write(`./public/logos/${name}.webp`, (err) => {
+        if (err) {
+          console.error(err);
+        }
+      });
+
+      gamesWithIcons.find(
+        (game) => game.name === gamesWithNoIcons[index].name
+      )!.logo = `logos/${name}.webp`;
+    }
   }
 
   await fsPromise.rm('./temp-icons', { recursive: true });
