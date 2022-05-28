@@ -2749,5 +2749,17 @@
             "Easy Anti-Cheat"
         ],
         "notes": []
+    },
+    {
+        "url": "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2",
+        "name": "DRAGON BALL XENOVERSE 2",
+        "logo": "",
+        "status": "Broken",
+        "native": false,
+        "reference": "https://www.protondb.com/app/454650",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
     }
 ]
