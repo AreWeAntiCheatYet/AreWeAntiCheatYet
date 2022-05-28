@@ -11,6 +11,7 @@ import {
   TextInput,
   Tooltip,
   UnstyledButton,
+  useMantineTheme,
 } from '@mantine/core';
 import { useDebouncedValue } from '@mantine/hooks';
 import {
@@ -23,21 +24,40 @@ import {
   IconSelector,
 } from '@tabler/icons';
 import { Dispatch, SetStateAction, useEffect, useMemo, useState } from 'react';
-import Game from '../types/game';
+import Game, { GameStatus } from '../types/game';
 import { style } from '../utils/style';
 import AntiCheatIcon from './AntiCheatIcon';
 import Badges from './Badges';
 
 interface ItemProps {
   game: Game;
+  highlight: boolean;
   anticheatIcons: (string | null)[][];
 }
 
-function Item({ game, anticheatIcons }: ItemProps) {
+function Item({ game, highlight, anticheatIcons }: ItemProps) {
   const { classes } = style();
+  const theme = useMantineTheme();
+
+  const getColor = () => {
+    switch (game.status) {
+      case GameStatus.denied:
+        return theme.colors.red[4];
+      case GameStatus.broken:
+        return theme.colors.orange[4];
+      case GameStatus.supported:
+        return theme.colors.green[4];
+      case GameStatus.running:
+        return theme.colors.cyan[4];
+      case GameStatus.planned:
+        return theme.colors.violet[4];
+      default:
+        return '';
+    }
+  };
 
   return (
-    <tr>
+    <tr style={highlight ? { backgroundColor: `${getColor()}22` } : undefined}>
       <td>
         <Group noWrap>
           {game.logo ? (
@@ -213,10 +233,11 @@ function ThButton({ text, type, sortMode, setSortMode, ...props }: ThButtonProps
 
 interface GamesListProps extends DefaultProps {
   games: Game[];
+  highlight: boolean;
   anticheatIcons: (string | null)[][];
 }
 
-export default function GamesList({ games, anticheatIcons, ...props }: GamesListProps) {
+export default function GamesList({ games, highlight, anticheatIcons, ...props }: GamesListProps) {
   const { classes } = style();
   const [query, setQuery] = useState('');
   const [sortMode, setSortMode] = useState(SortMode.normal);
@@ -261,7 +282,12 @@ export default function GamesList({ games, anticheatIcons, ...props }: GamesList
         </thead>
         <tbody>
           {shownGames.map((game) => (
-            <Item key={game.name} game={game} anticheatIcons={anticheatIcons} />
+            <Item
+              game={game}
+              key={game.name}
+              highlight={highlight}
+              anticheatIcons={anticheatIcons}
+            />
           ))}
         </tbody>
       </Table>

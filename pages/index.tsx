@@ -1,6 +1,8 @@
 import { AppShell, Stack } from '@mantine/core';
+import { getCookie, setCookies } from 'cookies-next';
 import { promises as fs } from 'fs';
 import { InferGetStaticPropsType } from 'next';
+import { useEffect, useState } from 'react';
 import Breakdown from '../components/Breakdown';
 import ChangesList from '../components/ChangesList';
 import Definitions from '../components/Definitions';
@@ -39,9 +41,26 @@ export default function Home({
   lastBuildTime,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { classes } = style();
+  const [highlightColors, setHighlightColors] = useState(false);
+
+  useEffect(() => {
+    setHighlightColors(getCookie('highlightColors') as boolean);
+  }, []);
+
+  const toggleHighlight = () => {
+    setHighlightColors(!highlightColors);
+    setCookies('highlightColors', `${!highlightColors}`, {
+      maxAge: 60 * 60 * 24 * 30,
+      sameSite: 'strict',
+    });
+  };
 
   return (
-    <AppShell padding="md" header={<AppHeader />} fixed>
+    <AppShell
+      padding="md"
+      header={<AppHeader toggleHighlight={toggleHighlight} highlight={highlightColors} />}
+      fixed
+    >
       <Stack align="center" sx={{ marginTop: 25 }}>
         <Overview overview={overview} sx={{ marginBottom: 25 }} />
         <Definitions className={classes.breakdownWidth} />
@@ -55,7 +74,12 @@ export default function Home({
           className={classes.breakdownWidth}
           sx={{ marginBottom: 25 }}
         />
-        <GamesList className={classes.tableWidth} anticheatIcons={antiCheatIcons} games={games} />
+        <GamesList
+          highlight={highlightColors}
+          className={classes.tableWidth}
+          anticheatIcons={antiCheatIcons}
+          games={games}
+        />
         <AppFooter lastBuildTime={lastBuildTime} />
       </Stack>
     </AppShell>

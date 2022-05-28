@@ -1,9 +1,15 @@
 import { ActionIcon, Avatar, Group, Header, Text, Title } from '@mantine/core';
 import { IconBrandGithub } from '@tabler/icons';
 import { style } from '../utils/style';
+import HighlightToggle from './HighlightToggle';
 import ThemeToggle from './ThemeToggle';
 
-export default function AppHeader() {
+interface AppHeaderProps {
+  highlight: boolean;
+  toggleHighlight: () => void;
+}
+
+export default function AppHeader({ highlight, toggleHighlight }: AppHeaderProps) {
   const { classes } = style();
 
   return (
@@ -19,16 +25,17 @@ export default function AppHeader() {
         </Text>
         <Group position="center" noWrap>
           <ActionIcon
-            variant="light"
-            color="violet"
             radius="xl"
             component="a"
+            color="violet"
+            variant="light"
             target="_blank"
             href="https://github.com/Starz0r/AreWeAntiCheatYet"
           >
             <IconBrandGithub size={18} />
           </ActionIcon>
           <ThemeToggle />
+          <HighlightToggle highlight={highlight} toggleHighlight={toggleHighlight} />
         </Group>
       </Group>
     </Header>
