@@ -21,12 +21,10 @@ export default function AntiCheatIcon({ anticheat, showText, anticheatIcons }: A
           <IconQuestionMark size={18} />
         </ThemeIcon>
       )}
-      {showText ? (
+      {showText && (
         <Text align="center" className={classes.smallHide} style={{ whiteSpace: 'nowrap' }}>
           {anticheat}
         </Text>
-      ) : (
-        <></>
       )}
     </Group>
   );

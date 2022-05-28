@@ -21,4 +21,7 @@ export const style = createStyles((theme) => ({
     [theme.fn.smallerThan('sm')]: { width: '100%' },
     [theme.fn.largerThan('sm')]: { width: '75%' },
   },
+  mobileSmall: {
+    [theme.fn.smallerThan('sm')]: { fontSize: '85%' },
+  },
 }));

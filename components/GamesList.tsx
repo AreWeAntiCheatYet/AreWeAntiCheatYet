@@ -41,11 +41,11 @@ function Item({ game, anticheatIcons }: ItemProps) {
         <Group noWrap>
           <Avatar radius="xl" src={game.logo} />
           {game.url ? (
-            <Anchor target="_blank" href={game.url}>
+            <Anchor target="_blank" href={game.url} className={classes.mobileSmall}>
               {game.name}
             </Anchor>
           ) : (
-            <Text>{game.name}</Text>
+            <Text className={classes.mobileSmall}>{game.name}</Text>
           )}
         </Group>
       </td>
@@ -189,16 +189,14 @@ function ThButton({ text, type, sortMode, setSortMode, ...props }: ThButtonProps
         }}
         sx={{ cursor: type !== 'none' ? 'pointer' : 'default' }}
       >
-        <Group position="apart">
-          <Text weight={500} size="sm">
+        <Group position="apart" noWrap>
+          <Text weight={600} size="sm">
             {text}
           </Text>
-          {type !== 'none' ? (
+          {type !== 'none' && (
             <Center>
               <Icon size={14} />
             </Center>
-          ) : (
-            <></>
           )}
         </Group>
       </UnstyledButton>

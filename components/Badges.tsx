@@ -48,20 +48,18 @@ export default function Badges({ game, showText }: BadgesProps) {
 
   return (
     <Group>
-      {game.native ? (
+      {game.native && (
         <Tooltip withArrow label="Also runs native">
           <ThemeIcon color="green" radius="xl">
             <IconAward size={16} />
           </ThemeIcon>
         </Tooltip>
-      ) : (
-        <></>
       )}
       <ThemeIcon color={info[0]} radius="xl">
         {info[1]}
       </ThemeIcon>
-      {showText ? (
-        game.reference ? (
+      {showText &&
+        (game.reference ? (
           <>
             <Anchor className={classes.mobileHide} target="_blank" href={game.reference}>
               {status}
@@ -77,10 +75,7 @@ export default function Badges({ game, showText }: BadgesProps) {
           </>
         ) : (
           <Text className={classes.mobileHide}>{status}</Text>
-        )
-      ) : (
-        <></>
-      )}
+        ))}
     </Group>
   );
 }
