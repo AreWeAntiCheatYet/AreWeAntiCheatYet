@@ -14,7 +14,7 @@ body:
     id: anti-cheat-status
     attributes:
       label: Status of the Anti-Cheat
-      description: What did the developers say about enabling GNU/Linux or Wine support for the game?
+      description: What is the state of the game? (For more in depth definitions see "Legend" on https://areweanticheatyet.com)
       options:
         - 🚫 Denied
         - 😥 Broken
@@ -27,7 +27,7 @@ body:
     id: tinkering-steps
     attributes:
       label: Tinkering Steps
-      description: Incase tinkering is required please describe the steps here.
+      description: In case tinkering is required please describe the steps here.
       placeholder: ex. use steam flatpak
     validations:
       required: false
@@ -35,7 +35,7 @@ body:
     id: anti-cheat-comment
     attributes:
       label: Proof of Mention
-      description: A reputable link where the developers either confirmed or deconfirmed the chance of support happening. If non-applicable, just put N/A. Otherwise, wording used in the link must be a resounding yes, with no doubt or chance of second guessing developer intent.
+      description: A reputable source that supports your claim of the games status.
       placeholder: ex. https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic
     validations:
       required: true
