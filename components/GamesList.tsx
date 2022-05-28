@@ -18,6 +18,7 @@ import {
   IconChevronUp,
   IconExternalLink,
   IconNote,
+  IconQuestionMark,
   IconSearch,
   IconSelector,
 } from '@tabler/icons';
@@ -39,7 +40,13 @@ function Item({ game, anticheatIcons }: ItemProps) {
     <tr>
       <td>
         <Group noWrap>
-          <Avatar radius="xl" src={game.logo} />
+          {game.logo ? (
+            <Avatar radius="xl" src={game.logo} />
+          ) : (
+            <Avatar radius="xl">
+              <IconQuestionMark />
+            </Avatar>
+          )}
           {game.url ? (
             <Anchor target="_blank" href={game.url} className={classes.mobileSmall}>
               {game.name}
