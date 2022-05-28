@@ -163,26 +163,26 @@ function ThButton({ text, type, sortMode, setSortMode, ...props }: ThButtonProps
         onClick={() => {
           if (type === 'name') {
             switch (sortMode) {
-              case SortMode.normal:
+              case SortMode.name_desc:
                 setSortMode!(SortMode.name_asc);
                 break;
               case SortMode.name_asc:
-                setSortMode!(SortMode.name_desc);
-                break;
-              case SortMode.name_desc:
                 setSortMode!(SortMode.normal);
+                break;
+              default:
+                setSortMode!(SortMode.name_desc);
                 break;
             }
           } else if (type === 'status') {
             switch (sortMode) {
-              case SortMode.normal:
+              case SortMode.status_desc:
                 setSortMode!(SortMode.status_asc);
                 break;
               case SortMode.status_asc:
-                setSortMode!(SortMode.status_desc);
-                break;
-              case SortMode.status_desc:
                 setSortMode!(SortMode.normal);
+                break;
+              default:
+                setSortMode!(SortMode.status_desc);
                 break;
             }
           }
@@ -234,7 +234,7 @@ export default function GamesList({ games, anticheatIcons, ...props }: GamesList
       case SortMode.status_asc:
         return rtn.sort((a, b) => a.status.localeCompare(b.status));
       case SortMode.status_desc:
-        return rtn.sort((a, b) => b.status.localeCompare(a.status));
+        return rtn.sort((a, b) => (b.native ? 1 : b.status.localeCompare(a.status)));
       default:
         return rtn;
     }
