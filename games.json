@@ -808,6 +808,18 @@
         "notes": []
     },
     {
+        "url": "https://www.faceit.com",
+        "name": "Counter-Strike: Global Offensive",
+        "logo": "",
+        "native": false,
+        "status": "Denied",
+        "reference": "https://www.reddit.com/r/FACEITcom/comments/r9zp7l/support_for_steam_decklinux/hng147c/",
+        "anticheats": [
+            "FACEIT"
+        ],
+        "notes": []
+    },
+    {
         "url": "",
         "name": "Team Fortress 2",
         "logo": "",

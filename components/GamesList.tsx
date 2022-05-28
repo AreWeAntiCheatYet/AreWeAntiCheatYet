@@ -256,7 +256,11 @@ export default function GamesList({ games, anticheatIcons, ...props }: GamesList
         </thead>
         <tbody>
           {shownGames.map((game) => (
-            <Item key={game.name} game={game} anticheatIcons={anticheatIcons} />
+            <Item
+              key={game.name.concat(game.anticheats.join(''))}
+              game={game}
+              anticheatIcons={anticheatIcons}
+            />
           ))}
         </tbody>
       </Table>
