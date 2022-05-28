@@ -7,11 +7,11 @@ import Game, { GameStatus } from '../types/game';
 import Overview from '../types/overview';
 
 export async function downloadImagesAndSetLogo(games: Game[]) {
-  if (process.env.NODE_ENV === 'development') {
-    //? Dont fetch images on dev builds because they would be newly downloaded each time.
-    console.log('Skipping cover image download');
-    return games;
-  }
+  // if (process.env.NODE_ENV === 'development') {
+  //   //? Dont fetch images on dev builds because they would be newly downloaded each time.
+  //   console.log('Skipping cover image download');
+  //   return games;
+  // }
 
   console.log('Downloading cover images...');
   const gamesWithIcons = [...games];
@@ -31,8 +31,9 @@ export async function downloadImagesAndSetLogo(games: Game[]) {
   for (const [index, icon] of icons.entries()) {
     const suggestions: any = await icon.json();
 
-    if (suggestions.game_suggest) {
-      const name: string = suggestions.game_suggest[0].cloudinary;
+    const name: string = suggestions.game_suggest[0].cloudinary;
+
+    if (name) {
       const png = `https://images.igdb.com/igdb/image/upload/t_cover_big/${name}.png`;
 
       const blob = await fetch(png);
