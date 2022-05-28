@@ -2737,5 +2737,17 @@
             "Warden"
         ],
         "notes": []
+    },
+    {
+        "url": "",
+        "name": "Century: Age of Ashes",
+        "logo": "",
+        "status": "Broken",
+        "native": false,
+        "reference": "https://www.protondb.com/app/918570",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
     }
 ]
