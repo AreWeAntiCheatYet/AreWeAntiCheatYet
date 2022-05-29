@@ -7,10 +7,10 @@ export enum GameStatus {
 }
 
 export default interface Game {
-  since: Date;
   url: string;
   name: string;
   logo: string;
+  since: string;
   native: boolean;
   reference: string;
   status: GameStatus;

@@ -15,6 +15,7 @@ import {
 } from '@mantine/core';
 import { useDebouncedValue } from '@mantine/hooks';
 import {
+  IconCalendarStats,
   IconChevronDown,
   IconChevronUp,
   IconExternalLink,
@@ -154,6 +155,7 @@ enum SortMode {
   name_desc,
   status_asc,
   status_desc,
+  status_since,
 }
 
 interface ThButtonProps extends DefaultProps {
@@ -179,6 +181,8 @@ function ThButton({ text, type, sortMode, setSortMode, ...props }: ThButtonProps
           return IconChevronUp;
         case SortMode.status_desc:
           return IconChevronDown;
+        case SortMode.status_since:
+          return IconCalendarStats;
       }
     }
     return IconSelector;
@@ -206,6 +210,9 @@ function ThButton({ text, type, sortMode, setSortMode, ...props }: ThButtonProps
                 setSortMode!(SortMode.status_asc);
                 break;
               case SortMode.status_asc:
+                setSortMode!(SortMode.status_since);
+                break;
+              case SortMode.status_since:
                 setSortMode!(SortMode.normal);
                 break;
               default:
@@ -261,6 +268,14 @@ export default function GamesList({ games, highlight, anticheatIcons, ...props }
         return rtn.sort((a, b) => a.status.localeCompare(b.status));
       case SortMode.status_desc:
         return rtn.sort((a, b) => (b.native ? 1 : b.status.localeCompare(a.status)));
+      case SortMode.status_since:
+        return rtn.sort((a, b) =>
+          a.since && !b.since
+            ? 0
+            : !a.since && b.since
+            ? 1
+            : new Date(b.since).getTime() - new Date(a.since).getTime()
+        );
       default:
         return rtn;
     }
