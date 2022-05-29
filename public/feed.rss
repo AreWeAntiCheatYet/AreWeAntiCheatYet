@@ -1,34 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
-	<channel>
-		<language>en-us</language>
-		<title>AreWeAntiCheatYet</title>
-		<link>https://areweanticheatyet.com/</link>
-		<lastBuildDate>Fri, 27 May 2022 00:00:00 GMT</lastBuildDate>
-		<description>A comprehensive and crowd-sourced list of games using anti-cheats and their compatibility with GNU/Linux or Wine/Proton</description>
-		<item>
-			<title>RSS-Feed</title>
-			<pubDate>Fri, 27 May 2022 00:00:00 GMT</pubDate>
-			<description>AreWeAntiCheatYet now has an rss-feed for those interested!</description>
-		</item>
-		<item>
-			<description>New game added: ANOTHER EDEN (Broken)</description>
-			<pubDate>Fri, 27 May 2022 17:58:43 GMT</pubDate>
-		</item>
-		<item>
-			<description>New game added: Overwatch (Supported)</description>
-			<pubDate>Fri, 27 May 2022 18:49:30 GMT</pubDate>
-		</item>
-		<item>
-			<description>New game added: Century: Age of Ashes (Broken)</description>
-			<pubDate>Sat, 28 May 2022 14:54:44 GMT</pubDate>
-		</item>
-		<item>
-			<description>New game added: Counter-Strike: Global Offensive (FACEIT) (Denied)</description>
-			<pubDate>Sat, 28 May 2022 15:39:38 GMT</pubDate>
-		</item>
-		<item>
-			<description>
+    <channel>
+        <language>en-us</language>
+        <title>AreWeAntiCheatYet</title>
+        <link>https://areweanticheatyet.com/</link>
+        <lastBuildDate>Fri, 27 May 2022 00:00:00 GMT</lastBuildDate>
+        <description>A comprehensive and crowd-sourced list of games using anti-cheats and their compatibility with GNU/Linux or Wine/Proton</description>
+        <item>
+            <title>RSS-Feed</title>
+            <pubDate>Fri, 27 May 2022 00:00:00 GMT</pubDate>
+            <description>AreWeAntiCheatYet now has an rss-feed for those interested!</description>
+        </item>
+        <item>
+            <description>New game added: ANOTHER EDEN (Broken)</description>
+            <pubDate>Fri, 27 May 2022 17:58:43 GMT</pubDate>
+            <title>Changes from Fri May 27 2022</title>
+        </item>
+        <item>
+            <description>New game added: Overwatch (Supported)</description>
+            <pubDate>Fri, 27 May 2022 18:49:30 GMT</pubDate>
+            <title>Changes from Fri May 27 2022</title>
+        </item>
+        <item>
+            <description>New game added: Century: Age of Ashes (Broken)</description>
+            <pubDate>Sat, 28 May 2022 14:54:44 GMT</pubDate>
+            <title>Changes from Sat May 28 2022</title>
+        </item>
+        <item>
+            <description>New game added: Counter-Strike: Global Offensive (FACEIT) (Denied)</description>
+            <pubDate>Sat, 28 May 2022 15:39:38 GMT</pubDate>
+            <title>Changes from Sat May 28 2022</title>
+        </item>
+        <item>
+            <description>
             Quake 4:
             &lt;br&gt;
             - Broken -&gt; Supported
@@ -36,11 +40,12 @@
             Battlefield 2:
             &lt;br&gt;
             - Broken -&gt; Supported
-         </description>
-			<pubDate>Sat, 28 May 2022 19:27:23 GMT</pubDate>
-		</item>
-		<item>
-			<description>
+            </description>
+            <pubDate>Sat, 28 May 2022 19:27:23 GMT</pubDate>
+            <title>Changes from Sat May 28 2022</title>
+        </item>
+        <item>
+            <description>
             Plants vs. Zombies: Battle for Neighborville:
             &lt;br&gt;
                - Running -&gt; Supported
@@ -72,12 +77,19 @@
             Grand Theft Auto Online:
             &lt;br&gt;
                - Running -&gt; Supported
-         </description>
-			<pubDate>Sun, 29 May 2022 08:07:32 GMT</pubDate>
-		</item>
-		<item>
-			<description>Bless Unleashed:&lt;br&gt;&amp;emsp;- Broken -&gt; Supported&lt;br&gt;Zero Hour:&lt;br&gt;&amp;emsp;- Broken -&gt; Running&lt;br&gt;Conan Exiles:&lt;br&gt;&amp;emsp;- Broken -&gt; Running&lt;br&gt;</description>
-			<pubDate>Sun, 29 May 2022 10:04:20 GMT</pubDate>
-		</item>
-	<item><description>Deadside:&lt;br&gt;&amp;emsp;- Supported -&gt; Broken&lt;br&gt;</description><pubDate>Sun, 29 May 2022 11:08:20 GMT</pubDate></item></channel>
+            </description>
+            <pubDate>Sun, 29 May 2022 08:07:32 GMT</pubDate>
+            <title>Changes from Sun May 29 2022</title>
+        </item>
+        <item>
+            <description>Bless Unleashed:&lt;br&gt;&amp;emsp;- Broken -&gt; Supported&lt;br&gt;Zero Hour:&lt;br&gt;&amp;emsp;- Broken -&gt; Running&lt;br&gt;Conan Exiles:&lt;br&gt;&amp;emsp;- Broken -&gt; Running&lt;br&gt;</description>
+            <pubDate>Sun, 29 May 2022 10:04:20 GMT</pubDate>
+            <title>Changes from Sun May 29 2022</title>
+        </item>
+        <item>
+            <description>Deadside:&lt;br&gt;&amp;emsp;- Supported -&gt; Broken&lt;br&gt;</description>
+            <pubDate>Sun, 29 May 2022 11:08:20 GMT</pubDate>
+            <title>Changes from Sun May 29 2022</title>
+        </item>
+    </channel>
 </rss>
