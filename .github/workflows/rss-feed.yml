@@ -18,12 +18,6 @@ jobs:
         with:
           path: current
 
-      - name: Checkout RSS
-        uses: actions/checkout@v3.0.2
-        with:
-          ref: rss
-          path: rss
-
       - name: Checkout Previous
         uses: actions/checkout@v3.0.2
         with:
@@ -36,11 +30,10 @@ jobs:
           node-version: ${{ matrix.node }}
 
       - name: Generate RSS-Feed
-        run: 'cd current/tools/rss-generator && yarn && yarn dev ../../games.json ../../../previous/games.json ../../../rss/feed.rss'
+        run: 'cd current/tools/rss-generator && yarn && yarn dev ../../games.json ../../../previous/games.json ../../public/feed.rss'
 
       - uses: EndBug/add-and-commit@v9
         with:
           push: true
-          cwd: './rss'
-          add: 'feed.rss'
-          new_branch: rss
+          cwd: './current'
+          add: 'public/feed.rss'
