@@ -1,32 +1,50 @@
-# Are We Anti-Cheat Yet?
+<div align="center"> 
+
+<hr/>
+
+<img src="public/icon.webp" width=128/>
+
+#### Are We Anti-Cheat Yet?
 
 https://areweanticheatyet.com/
 
+<hr/>
+</div>
+
+
 A website dedicated to keeping track of which games have committed to bringing anti-cheat support to GNU/Linux. This project was born out of the fact that I could not find a definite list or source of truth for games that are committing to full GNU/Linux support. So in the spirit of transparency and keeping these companies accountable, I decided to take it upon myself to found this project so that there actually a single place where this information is compiled into a single document, and is a trustworthy and reliable source.
 
-## RSS-Feed
+## <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Feed-icon.svg/1200px-Feed-icon.svg.png" width=18/> RSS-Feed
 
 https://areweanticheatyet.com/feed.rss  
 
 In case you want to follow game updates you can use our RSS-Feed!
 
-## How does this work?
+## 🎉 Features
 
-A list is maintained in `games.json`.  
-On a new commit, the website is automatically statically regenerated.
+- 🤖 Tracks changes since you've last visited the page
+- ✏️ Row Highlight for better overview
+- 👀 Overview & Breakdown
+- 🌙 Dark & Light Theme
 
-## I'd like to contribute to the list!
+## 👍 I'd like to contribute to the list!
 
 First, make sure that the game you'd like to add isn't actually on the list. In the event that it isn't, **make sure there isn't an issue for it already**, and then file a new issue and follow the template and fill out all the required fields.
 
-## Technologies Used
-- TypeScript
-- React
-- Mantine
-- Next.js
-- IGDB (For Cover Images)
+## 📖 How does this work?
 
-## Build Setup
+A list is maintained in [games.json](games.json).  
+On a new commit, the website is automatically statically regenerated.
+
+
+## 🧑‍💻 Technologies Used
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://reactjs.org/)
+- [Mantine](https://mantine.dev/)
+- [Next.js](https://nextjs.org/)
+- [IGDB](https://www.igdb.com/) (For Cover Images)
+
+## 👷 Build Setup
 
 ```bash
 # install dependencies
