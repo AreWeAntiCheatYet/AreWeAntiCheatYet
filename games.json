@@ -3,6 +3,7 @@
         "url": "",
         "name": "Halo: The Master Chief Collection",
         "logo": "",
+        "native": false,
         "status": "Planned",
         "since": "Apr 12, 2022, 8:10 AM GMT+2",
         "reference": "https://www.xda-developers.com/halo-mcc-broken-steam-deck/",
