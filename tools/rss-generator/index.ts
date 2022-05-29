@@ -34,10 +34,10 @@ for (const change of changes) {
 
     if (latest.native && !old.native) {
       description += '&emsp;- Added Native&lt;br&gt;';
-    }
-    if (latest.native && !old.native) {
+    } else if (!latest.native && old.native) {
       description += '&emsp;- Removed Native&lt;br&gt;';
     }
+
     if (latest.status !== old.status) {
       description += `&emsp;- ${old.status} -> ${latest.status}&lt;br&gt;`;
     }
