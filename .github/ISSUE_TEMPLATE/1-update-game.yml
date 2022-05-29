@@ -35,7 +35,7 @@ body:
     id: anti-cheat-comment
     attributes:
       label: Proof of Mention
-      description: A reputable source that supports your claim of the games status.
+      description: A reputable source that supports your claim of the games status. (https://github.com/Starz0r/AreWeAntiCheatYet/issues/15#issuecomment-1140423344)
       placeholder: ex. https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic
     validations:
       required: true
