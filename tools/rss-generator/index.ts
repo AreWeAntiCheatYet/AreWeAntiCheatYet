@@ -28,18 +28,18 @@ for (const change of changes) {
   if (!old) {
     description += `New game added: ${latest.name} (${latest.status}${
       latest.native ? ' & Native' : ''
-    })\n`;
+    })&lt;br&gt;`;
   } else {
-    description += `${latest.name}:\n`;
+    description += `${latest.name}:&lt;br&gt;`;
 
     if (latest.native && !old.native) {
-      description += '\t- Added Native\n';
+      description += '&emsp;- Added Native&lt;br&gt;';
     }
     if (latest.native && !old.native) {
-      description += '\t- Removed Native\n';
+      description += '&emsp;- Removed Native&lt;br&gt;';
     }
     if (latest.status !== old.status) {
-      description += `\t- ${old.status} -> ${latest.status}\n`;
+      description += `&emsp;- ${old.status} -> ${latest.status}&lt;br&gt;`;
     }
   }
 }
@@ -54,6 +54,6 @@ if (changes.length > 0) {
   news.node('pubDate').text(new Date().toUTCString());
 }
 
-fs.writeFileSync(argv[4], doc.toString());
-console.log(`Results: ${doc.toString()}`);
+fs.writeFileSync(argv[4], doc.toString(true));
+console.log(`Results: ${doc.toString(true)}`);
 console.log(`Writing results to: ${argv[4]}`);
