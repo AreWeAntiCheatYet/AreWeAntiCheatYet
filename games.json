@@ -1290,13 +1290,22 @@
         "name": "Deadside",
         "logo": "",
         "native": false,
-        "status": "Supported",
-        "since": "",
-        "reference": "https://steamcommunity.com/app/895400/discussions/3/3283695222735434723/",
+        "status": "Broken",
+        "since": "Sat 30, April 2022 7:49:44 AM",
+        "reference": "https://www.protondb.com/app/895400",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": []
+        "notes": [
+            [
+                "Developers seem to have enabled linux support",
+                "https://steamcommunity.com/app/895400/discussions/3/3283695222735434723/"
+            ],
+            [
+                "Game still seems broken though",
+                "https://www.protondb.com/app/895400"
+            ]
+        ]
     },
     {
         "url": "https://intruderfps.com/",
