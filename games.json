@@ -542,9 +542,9 @@
         "name": "Bless Unleashed",
         "logo": "",
         "native": false,
-        "status": "Broken",
+        "status": "Supported",
         "since": "",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/1254120#5HQNHxskhL",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -763,13 +763,18 @@
         "name": "Zero Hour",
         "logo": "",
         "native": false,
-        "status": "Broken",
+        "status": "Running",
         "since": "",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/1359090#apGRVXM6V-",
         "anticheats": [
-            "Easy Anti-Cheat"
+            "Denuvo Anti-Cheat"
         ],
-        "notes": []
+        "notes": [
+            [
+                "Anti-Cheat not implemented yet",
+                "https://store.steampowered.com/news/app/1359090/view/3191371430398762496"
+            ]
+        ]
     },
     {
         "url": "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2",
@@ -1220,9 +1225,9 @@
         "name": "Conan Exiles",
         "logo": "",
         "native": false,
-        "status": "Broken",
+        "status": "Running",
         "since": "",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/440900#sjKT3nVDGE",
         "anticheats": [
             "BattlEye"
         ],
