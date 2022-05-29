@@ -8,7 +8,9 @@ import {
   Text,
   ThemeIcon,
   Tooltip,
+  useMantineTheme,
 } from '@mantine/core';
+import { useMediaQuery } from '@mantine/hooks';
 import { useModals } from '@mantine/modals';
 import {
   IconAward,
@@ -76,9 +78,12 @@ export default function Badges({ game, showText }: BadgesProps) {
     });
   };
 
+  const theme = useMantineTheme();
+  const matches = useMediaQuery(`(min-width: ${theme.breakpoints.sm}px)`, false);
+
   return (
     <Stack>
-      <Group>
+      <Group noWrap={matches}>
         {game.native && (
           <Tooltip withArrow label="Also runs native">
             <ThemeIcon color="green" radius="xl">
