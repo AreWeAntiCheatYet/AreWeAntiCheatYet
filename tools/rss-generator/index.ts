@@ -28,18 +28,18 @@ for (const change of changes) {
   if (!old) {
     description += `New game added: ${latest.name} (${latest.status}${
       latest.native ? ' & Native' : ''
-    })&lt;br&gt;`;
+    })<br>`;
   } else {
-    description += `${latest.name}:&lt;br&gt;`;
+    description += `${latest.name}:<br>`;
 
     if (latest.native && !old.native) {
-      description += '&emsp;- Added Native&lt;br&gt;';
+      description += '&emsp;- Added Native<br>';
     } else if (!latest.native && old.native) {
-      description += '&emsp;- Removed Native&lt;br&gt;';
+      description += '&emsp;- Removed Native<br>';
     }
 
     if (latest.status !== old.status) {
-      description += `&emsp;- ${old.status} -> ${latest.status}&lt;br&gt;`;
+      description += `&emsp;- ${old.status} -> ${latest.status}<br>`;
     }
   }
 }
