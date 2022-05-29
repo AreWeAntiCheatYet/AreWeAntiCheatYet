@@ -120,18 +120,19 @@ export default function Badges({ game, showText }: BadgesProps) {
           ))}
       </Group>
       {game.since && (
-        <Group noWrap className={classes.mobileHide}>
-          <Tooltip
-            label={`Since ${new Date(game.since).toLocaleDateString()} (${dayjs(
-              game.since
-            ).fromNow()})`}
-          >
+        <Tooltip
+          label={`Since ${new Date(game.since).toLocaleDateString()} (${dayjs(
+            game.since
+          ).fromNow()})`}
+          className={classes.mobileHide}
+        >
+          <Group noWrap>
             <ThemeIcon radius="xl" color="teal">
               <IconCalendarEvent size={16} />
             </ThemeIcon>
-          </Tooltip>
-          <Text>{dayjs(game.since).fromNow()}</Text>
-        </Group>
+            <Text>{dayjs(game.since).fromNow()}</Text>
+          </Group>
+        </Tooltip>
       )}
     </Stack>
   );
