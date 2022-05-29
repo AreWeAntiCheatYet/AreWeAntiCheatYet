@@ -42,22 +42,22 @@ function Item({ game, highlight, anticheatIcons }: ItemProps) {
   const getColor = () => {
     switch (game.status) {
       case GameStatus.denied:
-        return theme.colors.red[4];
+        return theme.colors.red[5];
       case GameStatus.broken:
-        return theme.colors.orange[4];
+        return theme.colors.orange[5];
       case GameStatus.supported:
-        return theme.colors.green[4];
+        return theme.colors.green[5];
       case GameStatus.running:
-        return theme.colors.cyan[4];
+        return theme.colors.cyan[5];
       case GameStatus.planned:
-        return theme.colors.violet[4];
+        return theme.colors.violet[5];
       default:
         return '';
     }
   };
 
   return (
-    <tr style={highlight ? { backgroundColor: `${getColor()}22` } : undefined}>
+    <tr style={highlight ? { backgroundColor: `${getColor()}55` } : undefined}>
       <td>
         <Group noWrap>
           {game.logo ? (
