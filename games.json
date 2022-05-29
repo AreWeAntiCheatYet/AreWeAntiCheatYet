@@ -486,6 +486,10 @@
             [
                 "Works with dangerous patches (see Lutris)",
                 ""
+            ],
+            [
+                "Private Server exists",
+                "https://github.com/Grasscutters"
             ]
         ]
     },
