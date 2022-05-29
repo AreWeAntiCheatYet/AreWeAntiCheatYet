@@ -52,6 +52,7 @@ if (changes.length > 0) {
   const news = main_channel.node('item');
   news.node('description').text(description);
   news.node('pubDate').text(new Date().toUTCString());
+  news.node('title').text(`Changes from ${new Date().toDateString()}`);
 }
 
 fs.writeFileSync(argv[4], doc.toString(true));
