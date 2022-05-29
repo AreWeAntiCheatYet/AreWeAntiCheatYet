@@ -1,16 +1,57 @@
-import { Accordion, DefaultProps, Divider, Progress, Stack, Text } from '@mantine/core';
+import { Accordion, DefaultProps, Divider, Group, Progress, Stack, Text } from '@mantine/core';
 import { IconListDetails } from '@tabler/icons';
 import Overview from '../types/overview';
 import StyledAccordion from './StyledAccordion';
 
 interface BreakdownProps extends DefaultProps {
+  statusOverview: Overview;
   breakdown: [string, Overview][];
 }
 
-export default function Breakdown({ breakdown, ...props }: BreakdownProps) {
+export default function Breakdown({ statusOverview, breakdown, ...props }: BreakdownProps) {
   return (
     <StyledAccordion icon={<IconListDetails size={16} />} {...props}>
       <Accordion.Item label="Breakdown">
+        <Stack>
+          <Group noWrap>
+            <Text color="green">Supported & Running</Text> <b>vs</b>{' '}
+            <Text color="red">Broken & Denied</Text>
+          </Group>
+          <Progress
+            size="xl"
+            sections={[
+              {
+                value:
+                  ((statusOverview.running + statusOverview.supported) / statusOverview.total) *
+                  100,
+                color: 'green',
+                label: `${statusOverview.running + statusOverview.supported} (${(
+                  ((statusOverview.running + statusOverview.supported) / statusOverview.total) *
+                  100
+                ).toFixed(1)}%)`,
+              },
+              {
+                value:
+                  ((statusOverview.broken + statusOverview.denied) / statusOverview.total) * 100,
+                color: 'red',
+                label: `${statusOverview.broken + statusOverview.denied} (${(
+                  ((statusOverview.broken + statusOverview.denied) / statusOverview.total) *
+                  100
+                ).toFixed(1)})`,
+              },
+              {
+                value:
+                  100 -
+                  (((statusOverview.broken + statusOverview.denied) / statusOverview.total) * 100 +
+                    ((statusOverview.running + statusOverview.supported) / statusOverview.total) *
+                      100),
+                color: 'gray',
+                label: '...',
+              },
+            ]}
+          />
+          <Divider />
+        </Stack>
         {breakdown.map(([anticheat, overview]) => (
           <Stack key={anticheat} sx={{ marginTop: 10 }}>
             <Text>

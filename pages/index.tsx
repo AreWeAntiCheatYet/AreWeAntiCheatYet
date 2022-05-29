@@ -71,6 +71,7 @@ export default function Home({
         />
         <Breakdown
           breakdown={breakdown}
+          statusOverview={overview}
           className={classes.breakdownWidth}
           sx={{ marginBottom: 25 }}
         />
