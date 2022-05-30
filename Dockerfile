@@ -1,7 +1,8 @@
 ### STAGE 1: Build ###
 
 # We label our stage as ‘builder’
-FROM node:lts-alpine3.14 as builder
+FROM zenika/alpine-chrome:with-puppeteer as builder
+USER root
 
 COPY package.json yarn.lock ./
 
