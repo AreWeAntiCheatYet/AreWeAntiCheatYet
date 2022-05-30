@@ -22,6 +22,7 @@ In case you want to follow game updates you can use our RSS-Feed!
 
 ## 🎉 Features
 
+- ⌚ Game updates are tracked and viewable in a timeline
 - 🤖 Tracks changes since you've last visited the page
 - ✏️ Row Highlight for better overview
 - 👀 Overview & Breakdown
