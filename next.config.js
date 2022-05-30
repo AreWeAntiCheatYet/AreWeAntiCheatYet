@@ -4,7 +4,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 module.exports = withBundleAnalyzer({
   reactStrictMode: true,
-  staticPageGenerationTimeout: 1500,
+  staticPageGenerationTimeout: 3000,
   eslint: {
     ignoreDuringBuilds: true,
   },
