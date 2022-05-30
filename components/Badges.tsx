@@ -4,6 +4,7 @@ import {
   Button,
   createStyles,
   Group,
+  Spoiler,
   Stack,
   Text,
   ThemeIcon,
@@ -74,6 +75,18 @@ export default function Badges({ game, showText }: BadgesProps) {
                 <Anchor target="_blank" href={update.reference}>
                   {update.referenceTitle}
                 </Anchor>
+                {update.referenceDescription && (
+                  <Spoiler
+                    maxHeight={0}
+                    hideLabel="Hide"
+                    showLabel="Show more"
+                    transitionDuration={0}
+                  >
+                    <Text size="sm" mt={2}>
+                      {update.referenceDescription}
+                    </Text>
+                  </Spoiler>
+                )}
                 <Text size="xs" mt={4}>
                   {new Date(update.date).toLocaleDateString()} ({dayjs(update.date).fromNow()})
                 </Text>

@@ -65,17 +65,24 @@ export async function fetchReferenceTitles(games: Game[]) {
     .flatMap((game) => game.updates)
     .filter((game) => game.reference);
 
-  const metadatas = await Promise.all(updates.map((reference) => seeLink(reference.reference)));
+  const metadatas = await Promise.all(
+    updates.map((reference) =>
+      seeLink(reference.reference, { headless: true, args: ['--no-sandbox'] })
+    )
+  );
 
   for (const [index, metadata] of metadatas.entries()) {
     const update = updates[index];
 
-    gamesWithReferenceTitles
+    const gameUpdate = gamesWithReferenceTitles
       .find((game) =>
         game.updates.find((statusUpdate) => statusUpdate.reference === update.reference)
       )!
-      .updates.find((statusUpdate) => statusUpdate.reference === update.reference)!.referenceTitle =
-      metadata.title;
+      .updates.find((statusUpdate) => statusUpdate.reference === update.reference)!;
+
+    gameUpdate.referenceDescription = metadata.description;
+    gameUpdate.referenceTitle =
+      metadata.title.length > 40 ? metadata.title.substr(0, 37).concat('...') : metadata.title;
   }
 
   return gamesWithReferenceTitles;

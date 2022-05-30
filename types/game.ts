@@ -11,6 +11,7 @@ export interface Update {
   name: string;
   reference: string;
   referenceTitle: string;
+  referenceDescription: string;
 }
 
 export default interface Game {
