@@ -12,7 +12,10 @@ const changes = current
     (game: any) =>
       previous.find(
         (item: any) =>
-          item.name === game.name && (item.status !== game.status || item.native !== game.native)
+          item.name === game.name &&
+          (item.status !== game.status ||
+            item.native !== game.native ||
+            JSON.stringify(item.notes) !== JSON.stringify(game.notes))
       ) || !previous.find((item: any) => item.name === game.name)
   )
   .map((game: any) => [game, previous.find((item: any) => item.name === game.name)]);
@@ -26,16 +29,35 @@ for (const change of changes) {
   const old = change[1];
 
   if (!old) {
-    description += `New game added: ${latest.name} (${latest.status}${
-      latest.native ? ' & Native' : ''
-    })<br>`;
+    description += `New game added: ${latest.name}<br>`;
+    description += `&emsp;- ${latest.status}${latest.native ? ' & Native' : ''}<br>`;
+    description += `&emsp;- ${latest.anticheats.join(', ')}<br>`;
+    for (const note of latest.notes) {
+      description += `&emsp;- ${note[0]}`;
+      if (note[1]) {
+        description += ` (${note[1]})`;
+      }
+      description += '<br>';
+    }
   } else {
     description += `${latest.name}:<br>`;
 
     if (latest.native && !old.native) {
-      description += '&emsp;- Added Native<br>';
+      description += '&emsp;+ Added Native<br>';
     } else if (!latest.native && old.native) {
       description += '&emsp;- Removed Native<br>';
+    }
+
+    if (JSON.stringify(latest.notes) !== JSON.stringify(old.notes)) {
+      for (const note of latest.notes) {
+        if (!old.notes.find((item: any) => JSON.stringify(item) === JSON.stringify(note))) {
+          description += `&emsp;+ ${note[0]}`;
+          if (note[1]) {
+            description += ` (${note[1]})`;
+          }
+          description += '<br>';
+        }
+      }
     }
 
     if (latest.status !== old.status) {
