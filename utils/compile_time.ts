@@ -3,6 +3,7 @@
 import fs, { promises as fsPromise } from 'fs';
 import gm from 'gm';
 import fetch from 'node-fetch';
+import seeLink from 'see-link';
 import Game, { GameStatus } from '../types/game';
 import Overview from '../types/overview';
 
@@ -54,6 +55,30 @@ export async function downloadImagesAndSetLogo(games: Game[]) {
   await fsPromise.rm('./temp-icons', { recursive: true });
   console.log('Download & Conversion finished!');
   return gamesWithIcons;
+}
+
+export async function fetchReferenceTitles(games: Game[]) {
+  const gamesWithReferenceTitles = [...games];
+
+  const updates = games
+    .filter((game) => game.updates.length > 0)
+    .flatMap((game) => game.updates)
+    .filter((game) => game.reference);
+
+  const metadatas = await Promise.all(updates.map((reference) => seeLink(reference.reference)));
+
+  for (const [index, metadata] of metadatas.entries()) {
+    const update = updates[index];
+
+    gamesWithReferenceTitles
+      .find((game) =>
+        game.updates.find((statusUpdate) => statusUpdate.reference === update.reference)
+      )!
+      .updates.find((statusUpdate) => statusUpdate.reference === update.reference)!.referenceTitle =
+      metadata.title;
+  }
+
+  return gamesWithReferenceTitles;
 }
 
 export function generateOverview(games: Game[]) {

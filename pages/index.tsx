@@ -12,6 +12,7 @@ import AppHeader from '../components/Header';
 import Overview from '../components/Overview';
 import {
   downloadImagesAndSetLogo,
+  fetchReferenceTitles,
   generateAntiCheatIconLookUp,
   generateBreakdown,
   generateOverview,
@@ -19,8 +20,8 @@ import {
 import { style } from '../utils/style';
 
 export const getStaticProps = async () => {
-  const games = await downloadImagesAndSetLogo(
-    JSON.parse(await fs.readFile('./games.json', 'utf8'))
+  const games = await fetchReferenceTitles(
+    await downloadImagesAndSetLogo(JSON.parse(await fs.readFile('./games.json', 'utf8')))
   );
 
   const overview = generateOverview(games);

@@ -14,6 +14,7 @@ import {
 import {
   IconArrowRight,
   IconArrowsRightLeft,
+  IconCalendarEvent,
   IconCheck,
   IconExternalLink,
   IconMinus,
@@ -22,6 +23,7 @@ import {
   IconRefresh,
   IconRefreshAlert,
 } from '@tabler/icons';
+import dayjs from 'dayjs';
 import { useEffect, useState } from 'react';
 import Game from '../types/game';
 import { getChanges, getLastGames, saveGamesList } from '../utils';
@@ -80,6 +82,19 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
     return <></>;
   })();
 
+  const updateChanges = (() => {
+    if (JSON.stringify(oldGame.updates) === JSON.stringify(newGame.updates)) {
+      return <></>;
+    }
+
+    return (
+      <Group sx={{ marginLeft: 50 }}>
+        <IconCalendarEvent />
+        <Text>{dayjs(newGame.updates.at(-1)!.date).fromNow()}</Text>
+      </Group>
+    );
+  })();
+
   const badgeChanges = (() => {
     if (oldGame.status === newGame.status && oldGame.native === newGame.native) {
       return <></>;
@@ -131,16 +146,25 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
       return (
         <Group sx={{ marginLeft: 50 }} noWrap>
           <IconMinus />
-          {oldGame.notes.map((note) => (
-            <Group key={note[1]} noWrap>
-              <ActionIcon component="a" target="_blank" href={note[1]}>
-                <IconNote />
-              </ActionIcon>
-              <Anchor target="_blank" href={note[1]}>
-                {note[0]}
-              </Anchor>
-            </Group>
-          ))}
+          <Stack>
+            {oldGame.notes.map((note) =>
+              note[1] ? (
+                <Group key={note[1]} noWrap>
+                  <ActionIcon component="a" target="_blank" href={note[1]}>
+                    <IconNote />
+                  </ActionIcon>
+                  <Anchor target="_blank" href={note[1]}>
+                    {note[0]}
+                  </Anchor>
+                </Group>
+              ) : (
+                <Group key={note[0]} noWrap>
+                  <IconNote />
+                  <Text>{note[0]}</Text>
+                </Group>
+              )
+            )}
+          </Stack>
         </Group>
       );
     }
@@ -216,6 +240,7 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
         <Text>{newGame.name}</Text>
       </Group>
       {badgeChanges}
+      {updateChanges}
       {referenceChanges}
       {anticheatChanges}
       {noteChanges}

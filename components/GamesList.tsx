@@ -296,11 +296,10 @@ export default function GamesList({ games, highlight, anticheatIcons, ...props }
         return rtn.sort((a, b) => (b.native ? 1 : b.status.localeCompare(a.status)));
       case SortMode.status_since:
         return rtn.sort((a, b) =>
-          a.since && !b.since
-            ? 0
-            : !a.since && b.since
-            ? 1
-            : new Date(b.since).getTime() - new Date(a.since).getTime()
+          a.updates.length > 0 && b.updates.length > 0
+            ? new Date(b.updates.at(-1)!.date).getTime() -
+              new Date(a.updates.at(-1)!.date).getTime()
+            : b.updates.length - a.updates.length
         );
       case SortMode.notes_asc:
         return rtn.sort((a, b) => a.notes.length - b.notes.length);

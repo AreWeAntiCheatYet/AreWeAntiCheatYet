@@ -6,14 +6,21 @@ export enum GameStatus {
   supported = 'Supported',
 }
 
+export interface Update {
+  date: string;
+  name: string;
+  reference: string;
+  referenceTitle: string;
+}
+
 export default interface Game {
   url: string;
   name: string;
   logo: string;
-  since: string;
   native: boolean;
-  reference: string;
   status: GameStatus;
+  reference: string;
   anticheats: string[];
   notes: string[][];
+  updates: Update[];
 }

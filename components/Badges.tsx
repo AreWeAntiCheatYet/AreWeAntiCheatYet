@@ -7,6 +7,7 @@ import {
   Stack,
   Text,
   ThemeIcon,
+  Timeline,
   Tooltip,
   useMantineTheme,
 } from '@mantine/core';
@@ -64,12 +65,21 @@ export default function Badges({ game, showText }: BadgesProps) {
 
   const openInfoModal = () => {
     const id = modals.openModal({
-      title: 'Last Update',
+      title: 'Recorded updates',
       children: (
         <>
-          <Text>
-            {new Date(game.since).toLocaleDateString()} ({dayjs(game.since).fromNow()})
-          </Text>
+          <Timeline active={game.updates.length - 1}>
+            {game.updates.map((update) => (
+              <Timeline.Item key={update.reference} title={update.name}>
+                <Anchor target="_blank" href={update.reference}>
+                  {update.referenceTitle}
+                </Anchor>
+                <Text size="xs" mt={4}>
+                  {new Date(update.date).toLocaleDateString()} ({dayjs(update.date).fromNow()})
+                </Text>
+              </Timeline.Item>
+            ))}
+          </Timeline>
           <Group position="right">
             <Button onClick={() => modals.closeModal(id)}>Close</Button>
           </Group>
@@ -94,7 +104,7 @@ export default function Badges({ game, showText }: BadgesProps) {
         <ThemeIcon color={info[0]} radius="xl">
           {info[1]}
         </ThemeIcon>
-        {showText && game.since && (
+        {showText && game.updates.length > 0 && (
           <ActionIcon
             radius="xl"
             color="teal"
@@ -124,20 +134,23 @@ export default function Badges({ game, showText }: BadgesProps) {
             <Text className={classes.mobileHide}>{status}</Text>
           ))}
       </Group>
-      {game.since && (
-        <Tooltip
-          label={`Since ${new Date(game.since).toLocaleDateString()} (${dayjs(
-            game.since
-          ).fromNow()})`}
-          className={classes.mobileHide}
-        >
-          <Group noWrap>
-            <ThemeIcon radius="xl" color="teal">
-              <IconCalendarEvent size={16} />
-            </ThemeIcon>
-            <Text>{dayjs(game.since).fromNow()}</Text>
-          </Group>
-        </Tooltip>
+      {game.updates.length > 0 && (
+        <Group noWrap className={classes.mobileHide}>
+          <ActionIcon
+            radius="xl"
+            color="teal"
+            component="a"
+            target="_blank"
+            variant="filled"
+            onClick={openInfoModal}
+          >
+            <IconCalendarEvent size={16} />
+          </ActionIcon>
+          <Anchor onClick={openInfoModal}>{dayjs(game.updates.at(-1)!.date).fromNow()}</Anchor>
+          <ActionIcon component="a" target="_blank" href={game.updates.at(-1)?.reference}>
+            <IconExternalLink />
+          </ActionIcon>
+        </Group>
       )}
     </Stack>
   );
