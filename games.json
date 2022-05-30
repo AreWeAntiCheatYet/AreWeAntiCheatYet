@@ -3014,5 +3014,18 @@
             "Easy Anti-Cheat"
         ],
         "notes": []
+    },
+    {
+        "url": "https: //pathoftitans.com/",
+        "name": "Path Of Titans",
+        "logo": "",
+        "status": "Supported",
+        "since": "",
+        "native": true,
+        "reference": "https://alderongames.com/store/path-of-titans",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": []
     }
 ]
