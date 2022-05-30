@@ -156,11 +156,13 @@ enum SortMode {
   status_asc,
   status_desc,
   status_since,
+  notes_asc,
+  notes_desc,
 }
 
 interface ThButtonProps extends DefaultProps {
   text: string;
-  type: 'name' | 'status' | 'none';
+  type: 'name' | 'status' | 'notes' | 'none';
 
   sortMode?: SortMode;
   setSortMode?: Dispatch<SetStateAction<SortMode>>;
@@ -168,23 +170,35 @@ interface ThButtonProps extends DefaultProps {
 
 function ThButton({ text, type, sortMode, setSortMode, ...props }: ThButtonProps) {
   const Icon = (() => {
-    if (type === 'name') {
-      switch (sortMode) {
-        case SortMode.name_asc:
-          return IconChevronUp;
-        case SortMode.name_desc:
-          return IconChevronDown;
-      }
-    } else {
-      switch (sortMode) {
-        case SortMode.status_asc:
-          return IconChevronUp;
-        case SortMode.status_desc:
-          return IconChevronDown;
-        case SortMode.status_since:
-          return IconCalendarStats;
-      }
+    switch (type) {
+      case 'name':
+        switch (sortMode) {
+          case SortMode.name_asc:
+            return IconChevronUp;
+          case SortMode.name_desc:
+            return IconChevronDown;
+        }
+        break;
+      case 'status':
+        switch (sortMode) {
+          case SortMode.status_asc:
+            return IconChevronUp;
+          case SortMode.status_desc:
+            return IconChevronDown;
+          case SortMode.status_since:
+            return IconCalendarStats;
+        }
+        break;
+      case 'notes':
+        switch (sortMode) {
+          case SortMode.notes_asc:
+            return IconChevronUp;
+          case SortMode.notes_desc:
+            return IconChevronDown;
+        }
+        break;
     }
+
     return IconSelector;
   })();
 
@@ -217,6 +231,18 @@ function ThButton({ text, type, sortMode, setSortMode, ...props }: ThButtonProps
                 break;
               default:
                 setSortMode!(SortMode.status_desc);
+                break;
+            }
+          } else if (type === 'notes') {
+            switch (sortMode) {
+              case SortMode.notes_desc:
+                setSortMode!(SortMode.notes_asc);
+                break;
+              case SortMode.notes_asc:
+                setSortMode!(SortMode.normal);
+                break;
+              default:
+                setSortMode!(SortMode.notes_desc);
                 break;
             }
           }
@@ -276,6 +302,10 @@ export default function GamesList({ games, highlight, anticheatIcons, ...props }
             ? 1
             : new Date(b.since).getTime() - new Date(a.since).getTime()
         );
+      case SortMode.notes_asc:
+        return rtn.sort((a, b) => a.notes.length - b.notes.length);
+      case SortMode.notes_desc:
+        return rtn.sort((a, b) => b.notes.length - a.notes.length);
       default:
         return rtn;
     }
@@ -292,7 +322,13 @@ export default function GamesList({ games, highlight, anticheatIcons, ...props }
             <ThButton text="Name" type="name" sortMode={sortMode} setSortMode={setSortMode} />
             <ThButton text="Status" type="status" sortMode={sortMode} setSortMode={setSortMode} />
             <ThButton text="Anti-Cheat" type="none" />
-            <ThButton className={classes.mobileHide} text="Notes" type="none" />
+            <ThButton
+              className={classes.mobileHide}
+              text="Notes"
+              type="notes"
+              sortMode={sortMode}
+              setSortMode={setSortMode}
+            />
           </tr>
         </thead>
         <tbody>
