@@ -13,13 +13,13 @@ RUN apk add graphicsmagick
 
 ## Storing node modules on a separate layer will prevent unnecessary npm installs at each build
 
-RUN yarn && mkdir /next-app && mv ./node_modules ./next-app
+RUN yarn install --immutable && mkdir /next-app && mv ./node_modules ./next-app
 
 WORKDIR /next-app
 
 COPY . .
 
-## Build the Nuxt app in production mode and store the artifacts in dist folder
+## Build the Next app in production mode and store the artifacts in dist folder
 
 RUN yarn cache clean --force
 
