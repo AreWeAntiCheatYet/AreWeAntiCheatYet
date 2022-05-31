@@ -11,11 +11,6 @@ COPY package.json yarn.lock ./
 RUN apk add imagemagick 
 RUN apk add graphicsmagick
 
-## Add chrome
-
-ENV CHROME_BIN=/usr/bin/chromium-browser
-RUN apk add chromium
-    
 ## Storing node modules on a separate layer will prevent unnecessary npm installs at each build
 
 RUN yarn install --immutable && mkdir /next-app && mv ./node_modules ./next-app

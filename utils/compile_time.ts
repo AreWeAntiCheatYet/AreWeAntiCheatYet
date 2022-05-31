@@ -2,8 +2,11 @@
 /* eslint-disable no-await-in-loop */
 import fs, { promises as fsPromise } from 'fs';
 import gm from 'gm';
+import createMetascraper from 'metascraper';
+import metascraperDescription from 'metascraper-description';
+import metascraperTitle from 'metascraper-title';
 import fetch from 'node-fetch';
-import seeLink from 'see-link';
+import ogs from 'open-graph-scraper';
 import Game, { GameStatus } from '../types/game';
 import Overview from '../types/overview';
 
@@ -68,6 +71,7 @@ export async function fetchReferenceTitles(games: Game[]) {
   }
 
   const gamesWithReferenceTitles = [...games];
+  const metascraper = createMetascraper([metascraperDescription(), metascraperTitle()]);
 
   const updates = games
     .filter((game) => game.updates.length > 0)
@@ -75,39 +79,53 @@ export async function fetchReferenceTitles(games: Game[]) {
     .filter((game) => game.reference);
 
   const metadatas = await Promise.allSettled(
-    updates.map(async (update) => {
-      console.log('Fetching: ', update.reference);
-
-      // eslint-disable-next-line no-promise-executor-return
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-
-      return seeLink(update.reference, {
-        timeout: 666000,
-        headless: true,
-        getVideo: false,
-        getThemeColor: false,
-        detailedPreview: false,
-        getDominantThemeColor: false,
-        args: ['--no-sandbox', '--disable-gpu', '--disable-dev-shm-usage'],
-        executablePath: process.env.CHROME_BIN || undefined,
-      });
-    })
+    updates.map(async (update) =>
+      ogs({
+        url: update.reference,
+        followRedirect: true,
+      })
+    )
   );
 
   for (const [index, promise] of metadatas.entries()) {
     const update = updates[index];
-    if (promise.status === 'fulfilled') {
+
+    const gameUpdate = gamesWithReferenceTitles
+      .find((game) =>
+        game.updates.find((statusUpdate) => statusUpdate.reference === update.reference)
+      )!
+      .updates.find((statusUpdate) => statusUpdate.reference === update.reference)!;
+
+    if (promise.status === 'fulfilled' && !promise.value.error) {
       const metadata = promise.value;
+      const title = metadata.result.ogTitle;
 
-      const gameUpdate = gamesWithReferenceTitles
-        .find((game) =>
-          game.updates.find((statusUpdate) => statusUpdate.reference === update.reference)
-        )!
-        .updates.find((statusUpdate) => statusUpdate.reference === update.reference)!;
+      if (title) {
+        gameUpdate.referenceTitle = title.length > 40 ? title.substr(0, 37).concat('...') : title;
+      } else if (update.reference.includes('protondb')) {
+        gameUpdate.referenceTitle = 'ProtonDB';
+      }
 
-      gameUpdate.referenceDescription = metadata.description;
-      gameUpdate.referenceTitle =
-        metadata.title.length > 40 ? metadata.title.substr(0, 37).concat('...') : metadata.title;
+      if (metadata.result.ogDescription) {
+        gameUpdate.referenceDescription = metadata.result.ogDescription;
+      }
+    } else {
+      const { title, description } = await metascraper({
+        url: update.reference,
+        html: await (await fetch(update.reference)).text(),
+      });
+
+      if (title) {
+        if (title === 'Access denied' && update.reference.includes('steamdb')) {
+          gameUpdate.referenceTitle = 'SteamDB';
+        } else {
+          gameUpdate.referenceTitle = title.length > 40 ? title.substr(0, 37).concat('...') : title;
+        }
+      }
+
+      if (description) {
+        gameUpdate.referenceDescription = description;
+      }
     }
   }
 
