@@ -1,8 +1,10 @@
 import { AppShell, Stack } from '@mantine/core';
 import { getCookie, setCookies } from 'cookies-next';
+import dayjs from 'dayjs';
+import relativeTime from 'dayjs/plugin/relativeTime';
 import { promises as fs } from 'fs';
 import { InferGetStaticPropsType } from 'next';
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import Breakdown from '../components/Breakdown';
 import ChangesList from '../components/ChangesList';
 import Definitions from '../components/Definitions';
@@ -42,6 +44,7 @@ export default function Home({
   lastBuildTime,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { classes } = style();
+  useMemo(() => dayjs.extend(relativeTime), []);
   const [highlightColors, setHighlightColors] = useState(false);
 
   useEffect(() => {
@@ -59,7 +62,7 @@ export default function Home({
   return (
     <AppShell
       padding="md"
-      header={<AppHeader toggleHighlight={toggleHighlight} highlight={highlightColors} />}
+      header={<AppHeader highlight={highlightColors} toggleHighlight={toggleHighlight} />}
       fixed
     >
       <Stack align="center" sx={{ marginTop: 25 }}>

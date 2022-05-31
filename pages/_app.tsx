@@ -1,16 +1,13 @@
 import { ColorScheme, ColorSchemeProvider, MantineProvider } from '@mantine/core';
 import { ModalsProvider } from '@mantine/modals';
 import { getCookie, setCookies } from 'cookies-next';
-import dayjs from 'dayjs';
-import relativeTime from 'dayjs/plugin/relativeTime';
-import { GetServerSidePropsContext } from 'next';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
-export default function App(props: AppProps & { colorScheme: ColorScheme }) {
+export default function App(props: AppProps) {
   const { Component, pageProps } = props;
-  const [colorScheme, setColorScheme] = useState<ColorScheme>(props.colorScheme);
+  const [colorScheme, setColorScheme] = useState<ColorScheme>('dark');
 
   const toggleColorScheme = (value?: ColorScheme) => {
     const nextColorScheme = value || (colorScheme === 'dark' ? 'light' : 'dark');
@@ -21,7 +18,10 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
     });
   };
 
-  dayjs.extend(relativeTime);
+  useEffect(
+    () => toggleColorScheme((getCookie('mantine-color-scheme') as ColorScheme) || 'dark'),
+    []
+  );
 
   return (
     <>
@@ -41,7 +41,3 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
     </>
   );
 }
-
-App.getInitialProps = ({ ctx }: { ctx: GetServerSidePropsContext }) => ({
-  colorScheme: getCookie('mantine-color-scheme', ctx) || 'dark',
-});
