@@ -77,7 +77,7 @@ export default function Badges({ game, showText }: BadgesProps) {
                 </Anchor>
                 {update.referenceDescription && (
                   <Spoiler
-                    maxHeight={0}
+                    maxHeight={20}
                     hideLabel="Hide"
                     showLabel="Show more"
                     transitionDuration={0}
