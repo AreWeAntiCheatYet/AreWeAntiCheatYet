@@ -69,7 +69,7 @@ export default function Badges({ game, showText }: BadgesProps) {
       title: 'Recorded updates',
       children: (
         <>
-          <Timeline active={game.updates.length - 1}>
+          <Timeline active={game.updates && game.updates.length - 1}>
             {game.updates.map((update) => (
               <Timeline.Item key={update.reference} title={update.name}>
                 <Anchor target="_blank" href={update.reference}>
@@ -117,7 +117,7 @@ export default function Badges({ game, showText }: BadgesProps) {
         <ThemeIcon color={info[0]} radius="xl">
           {info[1]}
         </ThemeIcon>
-        {showText && game.updates.length > 0 && (
+        {showText && game.updates && game.updates.length > 0 && (
           <ActionIcon
             radius="xl"
             color="teal"
@@ -147,7 +147,7 @@ export default function Badges({ game, showText }: BadgesProps) {
             <Text className={classes.mobileHide}>{status}</Text>
           ))}
       </Group>
-      {game.updates.length > 0 && (
+      {game.updates && game.updates.length > 0 && (
         <Group noWrap className={classes.mobileHide}>
           <ActionIcon
             radius="xl"

@@ -85,7 +85,7 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
   const updateChanges = useMemo(() => {
     if (
       !newGame.updates ||
-      newGame.updates.length === 0 ||
+      (newGame.updates && newGame.updates.length === 0) ||
       JSON.stringify(oldGame.updates) === JSON.stringify(newGame.updates)
     ) {
       return undefined;
