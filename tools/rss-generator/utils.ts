@@ -24,7 +24,7 @@ export function describeChanges(current: Game, previous?: Game) {
   if (!previous) {
     changes = `New Game: "${current.name}"<br>`;
     changes += `&emsp;- Status: ${current.status}${current.native ? ' & Native' : ''}<br>`;
-    changes += `&emsp;- AntiCheats: ${current.anticheats.join(', ')}<br>`;
+    changes += `&emsp;- AntiCheat(s): ${current.anticheats.join(', ')}<br>`;
 
     if (current.notes && current.notes.length > 0) {
       changes += '&emsp;- Notes<br>';
