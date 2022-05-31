@@ -24,16 +24,18 @@ export default function AppHeader({ highlight, toggleHighlight }: AppHeaderProps
           with GNU/Linux or Wine/Proton.{' '}
         </Text>
         <Group position="center" noWrap>
-          <ActionIcon
-            radius="xl"
-            component="a"
-            color="violet"
-            variant="light"
-            target="_blank"
-            href="https://github.com/Starz0r/AreWeAntiCheatYet"
-          >
-            <IconBrandGithub size={18} />
-          </ActionIcon>
+          <Tooltip label="Open on GitHub">
+            <ActionIcon
+              radius="xl"
+              component="a"
+              color="violet"
+              variant="light"
+              target="_blank"
+              href="https://github.com/Starz0r/AreWeAntiCheatYet"
+            >
+              <IconBrandGithub size={18} />
+            </ActionIcon>
+          </Tooltip>
           <Tooltip label="Toggle Dark-Theme">
             <ThemeToggle />
           </Tooltip>
