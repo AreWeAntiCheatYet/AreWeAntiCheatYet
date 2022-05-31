@@ -3060,6 +3060,19 @@
         "updates": []
     },
     {
+        "url": "https://overwatch2.playoverwatch.com/en-us/trailer",
+        "name": "Overwatch 2",
+        "logo": "",
+        "status": "Supported",
+        "native": false,
+        "reference": "",
+        "anticheats": [
+            "Warden"
+        ],
+        "notes": [],
+        "updates": []
+    },
+    {
         "url": "",
         "name": "Century: Age of Ashes",
         "logo": "",
