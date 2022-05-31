@@ -78,7 +78,7 @@ export async function fetchReferenceTitles(games: Game[]) {
     updates.map((update) => {
       console.log('Fetching: ', update.reference);
       return seeLink(update.reference, {
-        timeout: 90000,
+        timeout: 187000,
         headless: true,
         args: ['--no-sandbox', '--disable-gpu', '--disable-dev-shm-usage'],
         executablePath: process.env.CHROME_BIN || undefined,
@@ -97,11 +97,9 @@ export async function fetchReferenceTitles(games: Game[]) {
         )!
         .updates.find((statusUpdate) => statusUpdate.reference === update.reference)!;
 
-      gameUpdate.referenceDescription = metadata.description || '';
+      gameUpdate.referenceDescription = metadata.description;
       gameUpdate.referenceTitle =
-        (metadata.title.length > 40
-          ? metadata.title.substr(0, 37).concat('...')
-          : metadata.title) || 'Reference';
+        metadata.title.length > 40 ? metadata.title.substr(0, 37).concat('...') : metadata.title;
     }
   }
 

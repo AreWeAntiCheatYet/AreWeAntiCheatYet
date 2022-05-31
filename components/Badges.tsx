@@ -73,7 +73,7 @@ export default function Badges({ game, showText }: BadgesProps) {
             {game.updates.map((update) => (
               <Timeline.Item key={update.reference} title={update.name}>
                 <Anchor target="_blank" href={update.reference}>
-                  {update.referenceTitle}
+                  {update.referenceTitle || 'Reference'}
                 </Anchor>
                 {update.referenceDescription && (
                   <Spoiler
