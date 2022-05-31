@@ -24,7 +24,7 @@ import {
   IconRefreshAlert,
 } from '@tabler/icons';
 import dayjs from 'dayjs';
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import Game from '../types/game';
 import { getChanges, getLastGames, saveGamesList } from '../utils';
 import AntiCheatIcon from './AntiCheatIcon';
@@ -51,7 +51,7 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
     );
   }
 
-  const referenceChanges = (() => {
+  const referenceChanges = useMemo(() => {
     if (newGame.reference !== oldGame.reference) {
       if (!oldGame.reference) {
         return (
@@ -79,12 +79,16 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
         );
       }
     }
-    return <></>;
-  })();
+    return undefined;
+  }, []);
 
-  const updateChanges = (() => {
-    if (JSON.stringify(oldGame.updates) === JSON.stringify(newGame.updates)) {
-      return <></>;
+  const updateChanges = useMemo(() => {
+    if (
+      !newGame.updates ||
+      newGame.updates.length === 0 ||
+      JSON.stringify(oldGame.updates) === JSON.stringify(newGame.updates)
+    ) {
+      return undefined;
     }
 
     return (
@@ -99,11 +103,11 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
         </Text>
       </Group>
     );
-  })();
+  }, []);
 
-  const badgeChanges = (() => {
+  const badgeChanges = useMemo(() => {
     if (oldGame.status === newGame.status && oldGame.native === newGame.native) {
-      return <></>;
+      return undefined;
     }
 
     return (
@@ -114,11 +118,11 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
         <Badges showText={false} game={newGame} />
       </Group>
     );
-  })();
+  }, []);
 
-  const noteChanges = (() => {
+  const noteChanges = useMemo(() => {
     if (JSON.stringify(oldGame.notes) === JSON.stringify(newGame.notes)) {
-      return <></>;
+      return undefined;
     }
 
     if (oldGame.notes.length === 0) {
@@ -199,11 +203,11 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
         </Group>
       </Group>
     );
-  })();
+  }, []);
 
-  const anticheatChanges = (() => {
+  const anticheatChanges = useMemo(() => {
     if (JSON.stringify(oldGame.anticheats) === JSON.stringify(newGame.anticheats)) {
-      return <></>;
+      return undefined;
     }
 
     return (
@@ -234,7 +238,7 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
         </Group>
       </Group>
     );
-  })();
+  }, []);
 
   return (
     <Stack>
