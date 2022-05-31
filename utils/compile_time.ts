@@ -74,7 +74,7 @@ export async function fetchReferenceTitles(games: Game[]) {
     .flatMap((game) => game.updates)
     .filter((game) => game.reference);
 
-  const metadatas = await Promise.all(
+  const metadatas = await Promise.allSettled(
     updates.map((update) => {
       console.log('Fetching: ', update.reference);
       return seeLink(update.reference, {
@@ -86,19 +86,23 @@ export async function fetchReferenceTitles(games: Game[]) {
     })
   );
 
-  for (const [index, metadata] of metadatas.entries()) {
+  for (const [index, promise] of metadatas.entries()) {
     const update = updates[index];
+    if (promise.status === 'fulfilled') {
+      const metadata = promise.value;
 
-    const gameUpdate = gamesWithReferenceTitles
-      .find((game) =>
-        game.updates.find((statusUpdate) => statusUpdate.reference === update.reference)
-      )!
-      .updates.find((statusUpdate) => statusUpdate.reference === update.reference)!;
+      const gameUpdate = gamesWithReferenceTitles
+        .find((game) =>
+          game.updates.find((statusUpdate) => statusUpdate.reference === update.reference)
+        )!
+        .updates.find((statusUpdate) => statusUpdate.reference === update.reference)!;
 
-    gameUpdate.referenceDescription = metadata.description || '';
-    gameUpdate.referenceTitle =
-      (metadata.title.length > 40 ? metadata.title.substr(0, 37).concat('...') : metadata.title) ||
-      'Reference';
+      gameUpdate.referenceDescription = metadata.description || '';
+      gameUpdate.referenceTitle =
+        (metadata.title.length > 40
+          ? metadata.title.substr(0, 37).concat('...')
+          : metadata.title) || 'Reference';
+    }
   }
 
   return gamesWithReferenceTitles;
