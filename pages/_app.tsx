@@ -23,6 +23,10 @@ export default function App(props: AppProps) {
     []
   );
 
+  useEffect(() => {
+    document.documentElement.style.colorScheme = colorScheme;
+  }, [colorScheme]);
+
   return (
     <>
       <Head>
