@@ -58,6 +58,12 @@ export async function downloadImagesAndSetLogo(games: Game[]) {
 }
 
 export async function fetchReferenceTitles(games: Game[]) {
+  if (process.env.NODE_ENV === 'development') {
+    //? Dont fetch references on dev builds.
+    console.log('Skipping reference resolve');
+    return games;
+  }
+
   const gamesWithReferenceTitles = [...games];
 
   const updates = games
@@ -66,8 +72,8 @@ export async function fetchReferenceTitles(games: Game[]) {
     .filter((game) => game.reference);
 
   const metadatas = await Promise.all(
-    updates.map((reference) =>
-      seeLink(reference.reference, {
+    updates.map((update) =>
+      seeLink(update.reference, {
         headless: true,
         args: ['--no-sandbox', '--disable-gpu', '--disable-dev-shm-usage'],
         executablePath: process.env.CHROME_BIN || undefined,
