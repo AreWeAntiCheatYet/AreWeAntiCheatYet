@@ -26,14 +26,14 @@ export function describeChanges(current: Game, previous?: Game) {
     changes += `&emsp;- Status: ${current.status}${current.native ? '& Native' : ''}<br>`;
     changes += `&emsp;- AntiCheats: ${current.anticheats.join(', ')}<br>`;
 
-    if (current.notes) {
+    if (current.notes && current.notes.length > 0) {
       changes += '&emsp;- Notes<br>';
       for (const note of current.notes) {
         changes += `&emsp;&emsp;- ${note[0]} (${note[1]})<br>`;
       }
     }
 
-    if (current.updates) {
+    if (current.updates && current.updates.length > 0) {
       changes += '&emsp;- Updates<br>';
       for (const update of current.updates) {
         changes += `&emsp;&emsp;- ${new Date(update.date).toDateString()}: ${update.name} (${
