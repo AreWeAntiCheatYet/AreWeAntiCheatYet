@@ -78,7 +78,7 @@ export async function fetchReferenceTitles(games: Game[]) {
     updates.map((update) => {
       console.log('Fetching: ', update.reference);
       return seeLink(update.reference, {
-        timeout: 800,
+        timeout: 90000,
         headless: true,
         args: ['--no-sandbox', '--disable-gpu', '--disable-dev-shm-usage'],
         executablePath: process.env.CHROME_BIN || undefined,
