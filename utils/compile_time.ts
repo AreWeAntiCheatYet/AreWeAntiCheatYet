@@ -75,11 +75,19 @@ export async function fetchReferenceTitles(games: Game[]) {
     .filter((game) => game.reference);
 
   const metadatas = await Promise.allSettled(
-    updates.map((update) => {
+    updates.map(async (update) => {
       console.log('Fetching: ', update.reference);
+
+      // eslint-disable-next-line no-promise-executor-return
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+
       return seeLink(update.reference, {
-        timeout: 420000,
+        timeout: 666000,
         headless: true,
+        getVideo: false,
+        getThemeColor: false,
+        detailedPreview: false,
+        getDominantThemeColor: false,
         args: ['--no-sandbox', '--disable-gpu', '--disable-dev-shm-usage'],
         executablePath: process.env.CHROME_BIN || undefined,
       });
