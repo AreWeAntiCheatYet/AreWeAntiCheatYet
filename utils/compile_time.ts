@@ -50,6 +50,9 @@ export async function downloadImagesAndSetLogo(games: Game[]) {
         (game) => game.name === gamesWithNoIcons[index].name
       )!.logo = `logos/${name}.webp`;
     }
+
+    // eslint-disable-next-line no-promise-executor-return
+    await new Promise((resolve) => setTimeout(resolve, 200));
   }
 
   await fsPromise.rm('./temp-icons', { recursive: true });
