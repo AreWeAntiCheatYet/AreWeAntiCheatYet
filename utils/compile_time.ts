@@ -67,7 +67,11 @@ export async function fetchReferenceTitles(games: Game[]) {
 
   const metadatas = await Promise.all(
     updates.map((reference) =>
-      seeLink(reference.reference, { headless: true, args: ['--no-sandbox'] })
+      seeLink(reference.reference, {
+        headless: true,
+        args: ['--no-sandbox', '--disable-gpu', '--disable-dev-shm-usage'],
+        executablePath: process.env.CHROME_BIN || undefined,
+      })
     )
   );
 
