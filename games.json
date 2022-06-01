@@ -518,12 +518,8 @@
         ],
         "notes": [
             [
-                "Works with dangerous patches (see Lutris)",
+                "Will run when using workarounds (at least 2 available)",
                 ""
-            ],
-            [
-                "Private Server exists",
-                "https://github.com/Grasscutters"
             ]
         ],
         "updates": []
