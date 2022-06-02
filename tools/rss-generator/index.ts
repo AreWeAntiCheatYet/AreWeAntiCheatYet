@@ -7,8 +7,8 @@ import { describeChanges, getChanges } from './utils';
 
 console.log(`Generating RSS-Feed from ${argv[2]} and ${argv[3]}`);
 
-const current = JSON.parse(fs.readFileSync(argv[2]).toString()) as Game[];
-const previous = JSON.parse(fs.readFileSync(argv[3]).toString()) as Game[];
+const current: Game[] = JSON.parse(fs.readFileSync(argv[2]).toString());
+const previous: Game[] = JSON.parse(fs.readFileSync(argv[3]).toString());
 
 const changes = getChanges(current, previous);
 
