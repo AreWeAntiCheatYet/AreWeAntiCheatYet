@@ -61,13 +61,13 @@ export function describeChanges(current: Game, previous?: Game) {
     }
 
     for (const note of previous.notes) {
-      if (!current.notes.includes(note)) {
+      if (!current.notes.find((item) => JSON.stringify(item) === JSON.stringify(note))) {
         changes += `&emsp;- Removed note: ${note[0]} (${note[1]})<br>`;
       }
     }
 
     for (const note of current.notes) {
-      if (!previous.notes.includes(note)) {
+      if (!previous.notes.find((item) => JSON.stringify(item) === JSON.stringify(note))) {
         changes += `&emsp;- New note: ${note[0]} (${note[1]})<br>`;
       }
     }
