@@ -402,7 +402,7 @@
         "logo": "",
         "native": false,
         "status": "Running",
-        "reference": "",
+        "reference": "https://www.reddit.com/r/joinsquad/comments/aquk3u/happy_to_see_squad_now_works_on_linux/",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -628,7 +628,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/1203220#i1oY9S_BOG",
         "anticheats": [
             "NEAC Protect"
         ],
@@ -659,12 +659,18 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/960170#FXZsa0HW7J",
         "anticheats": [
             "XIGNCODE3"
         ],
         "notes": [],
-        "updates": []
+        "updates": [
+            {
+                "reference": "https://www.protondb.com/app/960170#FXZsa0HW7J",
+                "name": "Linux Works",
+                "date": "Fri Mar 04 2022 07:20:48 GMT+0000"
+            }
+        ]
     },
     {
         "url": "https://www.ea.com/games/plants-vs-zombies/plants-vs-zombies-battle-for-neighborville",
@@ -691,7 +697,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
-        "reference": "",
+        "reference": "https://www.reddit.com/r/HellLetLoose/comments/tevxzz/comment/i0ux2ks/?utm_source=share&utm_medium=web2x&context=3",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -728,7 +734,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/418460#9Rm6QJUXau",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -754,7 +760,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/513710#kCSHW9b0R9",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -1038,15 +1044,21 @@
         "logo": "",
         "native": true,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://store.steampowered.com/app/677620/Splitgate/",
         "anticheats": [
             "EQU8"
         ],
         "notes": [],
-        "updates": []
+        "updates": [
+            {
+                "reference": "https://www.reddit.com/r/Splitgate/comments/q9ntaf/i_just_wanted_to_say_thanks_to_the_splitgate_devs/",
+                "name": "Linux Native Released",
+                "date": "Sun 17, Oct 2021, 02:12 AM GMT"
+            }
+        ]
     },
     {
-        "url": "",
+        "url": "https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/",
         "name": "Counter-Strike: Global Offensive",
         "logo": "",
         "native": true,
@@ -1072,7 +1084,7 @@
         "updates": []
     },
     {
-        "url": "",
+        "url": "https://store.steampowered.com/app/440/Team_Fortress_2/",
         "name": "Team Fortress 2",
         "logo": "",
         "native": true,
@@ -1085,7 +1097,7 @@
         "updates": []
     },
     {
-        "url": "",
+        "url": "https://store.steampowered.com/app/570/Dota_2/",
         "name": "Dota 2",
         "logo": "",
         "native": true,
@@ -1103,7 +1115,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/311210#BP75Ef3fMr",
         "anticheats": [
             "VAC",
             "Treyarch Anti-Cheat"
@@ -1112,7 +1124,7 @@
         "updates": []
     },
     {
-        "url": "",
+        "url": "https://store.steampowered.com/app/4000/Garrys_Mod/",
         "name": "Garry's Mod",
         "logo": "",
         "native": true,
@@ -1325,7 +1337,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://albiononline.com/en/download",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -1390,7 +1402,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/1238860",
         "anticheats": [
             "PunkBuster",
             "FairFight"
@@ -1430,12 +1442,23 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/760160#ubgU5WtYQV",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
         "notes": [],
-        "updates": []
+        "updates": [
+            {
+                "reference": "https://www.protondb.com/app/760160#ubgU5WtYQV",
+                "name": "First reports of game working",
+                "date": "Sat Mar 26 2022 06:34:04 GMT+0000"
+            },
+            {
+                "reference": "https://www.protondb.com/app/760160#aywgnGYqO3",
+                "name": "Workaround no longer required",
+                "date": "Wed Apr 27 2022 10:54:40 GMT+0000"
+            }
+        ]
     },
     {
         "url": "https://maplestory.nexon.net",
@@ -1558,12 +1581,18 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://store.steampowered.com/news/app/360940/view/4034618638813168633",
         "anticheats": [
             "VAC"
         ],
         "notes": [],
-        "updates": []
+        "updates": [
+            {
+                "reference": "https://store.steampowered.com/news/app/360940/view/4034618638813168633",
+                "name": "Added Native Support",
+                "date": "Thu 2, June 2016, 5:32 PM"
+            }
+        ]
     },
     {
         "url": "",
@@ -1571,7 +1600,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/629760",
         "anticheats": [
             "VAC"
         ],
@@ -1597,7 +1626,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/2200",
         "anticheats": [
             "PunkBuster"
         ],
@@ -1623,7 +1652,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/1238840#MzrUkC1o9E",
         "anticheats": [
             "FairFight"
         ],
@@ -1636,7 +1665,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://store.steampowered.com/app/17710/Nuclear_Dawn/",
         "anticheats": [
             "VAC"
         ],
@@ -1649,7 +1678,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://store.steampowered.com/app/17570/Pirates_Vikings_and_Knights_II/",
         "anticheats": [
             "VAC"
         ],
@@ -1688,7 +1717,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/868270",
         "anticheats": [
             "BattlEye"
         ],
@@ -1740,7 +1769,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/42700",
         "anticheats": [
             "Treyarch Anti-Cheat",
             "VAC",
@@ -1755,7 +1784,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/7940",
         "anticheats": [
             "PunkBuster"
         ],
@@ -1781,7 +1810,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/219640",
         "anticheats": [
             "VAC"
         ],
@@ -1807,7 +1836,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/2400",
         "anticheats": [
             "VAC"
         ],
@@ -1820,13 +1849,19 @@
         "logo": "",
         "native": true,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/222880#YD21dwFjsq",
         "anticheats": [
             "VAC",
             "BattlEye"
         ],
         "notes": [],
-        "updates": []
+        "updates": [
+            {
+                "reference": "https://www.protondb.com/app/222880#YD21dwFjsq",
+                "name": "Works with BattlEye in Proton",
+                "date": "Sun Jan 02 2022 19:54:10 GMT+0000"
+            }
+        ]
     },
     {
         "url": "",
@@ -1834,7 +1869,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/202970",
         "anticheats": [
             "VAC",
             "Treyarch Anti-Cheat"
@@ -1861,7 +1896,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/224260",
         "anticheats": [
             "VAC"
         ],
@@ -1874,7 +1909,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/274940#-kjYn_v36Y",
         "anticheats": [
             "VAC"
         ],
@@ -1887,7 +1922,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/2210",
         "anticheats": [
             "PunkBuster"
         ],
@@ -1939,7 +1974,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/505460",
         "anticheats": [
             "VAC"
         ],
@@ -1965,7 +2000,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/1454890",
         "anticheats": [
             "FairFight"
         ],
@@ -1990,12 +2025,17 @@
         "name": "Battlefield 3",
         "logo": "",
         "native": false,
-        "status": "Supported",
-        "reference": "",
+        "status": "Running",
+        "reference": "https://www.protondb.com/app/1238820#8DplqZiAqJ",
         "anticheats": [
             "PunkBuster"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Issues with Battlelog reported",
+                ""
+            ]
+        ],
         "updates": []
     },
     {
@@ -2030,7 +2070,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/1237980",
         "anticheats": [
             "FairFight"
         ],
@@ -2065,11 +2105,11 @@
     },
     {
         "url": "",
-        "name": "Call of Duty: Ghost",
+        "name": "Call of Duty: Ghosts",
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/209160#zOMApL_5Xd",
         "anticheats": [
             "VAC"
         ],
@@ -2108,7 +2148,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/24960",
         "anticheats": [
             "PunkBuster"
         ],
@@ -2164,7 +2204,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/10180",
         "anticheats": [
             "VAC"
         ],
@@ -2229,7 +2269,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/365590",
         "anticheats": [
             "FairFight"
         ],
@@ -2281,7 +2321,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/394690",
         "anticheats": [
             "VAC"
         ],
@@ -2307,12 +2347,23 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/550650#sxxv_1dLa4",
         "anticheats": [
             "BattlEye"
         ],
-        "notes": [],
-        "updates": []
+        "notes": [
+            [
+                "Recent reports suggest game may be broken",
+                ""
+            ]
+        ],
+        "updates": [
+            {
+                "name": "BattlEye Support enabled",
+                "reference": "https://www.protondb.com/app/550650#sxxv_1dLa4",
+                "date": "Mon Nov 15 2021 17:40:07 GMT+0000"
+            }
+        ]
     },
     {
         "url": "",
@@ -2320,7 +2371,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/1237950",
         "anticheats": [
             "FairFight"
         ],
@@ -2384,13 +2435,18 @@
         "name": "Battlefield: Hardline",
         "logo": "",
         "native": false,
-        "status": "Supported",
+        "status": "Running",
         "reference": "",
         "anticheats": [
             "PunkBuster",
             "FairFight"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Battlelog workaround required",
+                "https://lutris.net/games/battlefield-hardline/"
+            ]
+        ],
         "updates": []
     },
     {
@@ -2412,7 +2468,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/10090",
         "anticheats": [
             "PunkBuster",
             "Treyarch Anti-Cheat"
@@ -2426,7 +2482,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/282440",
         "anticheats": [
             "PunkBuster"
         ],
@@ -2465,7 +2521,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/324810",
         "anticheats": [
             "VAC"
         ],
@@ -2543,7 +2599,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/550470",
         "anticheats": [
             "nProtect GameGuard"
         ],
@@ -2556,7 +2612,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/1238810",
         "anticheats": [
             "FairFight"
         ],
@@ -2595,7 +2651,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/292730",
         "anticheats": [
             "VAC"
         ],
@@ -2633,12 +2689,17 @@
         "name": "Blazing Sails",
         "logo": "",
         "native": false,
-        "status": "Supported",
-        "reference": "",
+        "status": "Broken",
+        "reference": "https://www.protondb.com/app/1158940",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Required EAC files exist",
+                "https://steamdb.info/depot/1158941/"
+            ]
+        ],
         "updates": []
     },
     {
@@ -2647,7 +2708,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/1237970",
         "anticheats": [
             "FairFight"
         ],
@@ -2686,7 +2747,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/232090",
         "anticheats": [
             "VAC"
         ],
@@ -2756,7 +2817,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/374280#cWnleISOn0",
         "anticheats": [
             "Sabreclaw"
         ],
@@ -2819,7 +2880,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/611500",
         "anticheats": [
             "Unknown (Custom)"
         ],
@@ -2832,7 +2893,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/555160#Yo-ndZgjd2",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -2897,7 +2958,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/1217060",
         "anticheats": [
             "Unknown (Custom)"
         ],
@@ -2910,7 +2971,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.forbes.com/sites/jasonevangelho/2022/02/27/yes-elden-ring-is-perfectly-playable-on-linux-including-online-features/?sh=43f5085d1aaf",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -2923,7 +2984,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.tibia.com/support/?subtopic=gethelp&entryid=121",
         "anticheats": [
             "BattlEye"
         ],
@@ -2988,7 +3049,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.reddit.com/r/linux_gaming/comments/srgvz6/call_of_duty_black_ops_4_runs_in_linux_now/",
         "anticheats": [
             "Treyarch Anti-Cheat"
         ],
@@ -3053,7 +3114,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "",
+        "reference": "https://www.protondb.com/app/1477590",
         "anticheats": [
             "XIGNCODE3"
         ],
@@ -3235,7 +3296,7 @@
         "logo": "",
         "status": "Supported",
         "native": true,
-        "reference": "",
+        "reference": "https://www.protondb.com/app/204300",
         "anticheats": [
             "VAC"
         ],
