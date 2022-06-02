@@ -1201,10 +1201,18 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@*", "@types/jest@^27.5.1":
+"@types/jest@*":
   version "27.5.1"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-27.5.1.tgz#2c8b6dc6ff85c33bcd07d0b62cb3d19ddfdb3ab9"
   integrity sha512-fUy7YRpT+rHXto1YlL+J9rs0uLGyiqVt3ZOTQR+4ROc47yNl8WLdVLgUloBRhOxP1PZvguHl44T3H0wAWxahYQ==
+  dependencies:
+    jest-matcher-utils "^27.0.0"
+    pretty-format "^27.0.0"
+
+"@types/jest@^27.5.2":
+  version "27.5.2"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-27.5.2.tgz#ec49d29d926500ffb9fd22b84262e862049c026c"
+  integrity sha512-mpT8LJJ4CMeeahobofYWIjFo0xonRS/HfxnVEPMPFSQdGUt1uHCnoPT7Zhb+sjDU2wz0oKV0OLUR0WzrHNgfeA==
   dependencies:
     jest-matcher-utils "^27.0.0"
     pretty-format "^27.0.0"
@@ -1241,10 +1249,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.36.tgz#9ab9f8276987132ed2b225cace2218ba794fc751"
   integrity sha512-FR5QJe+TaoZ2GsMHkjuwoNabr+UrJNRr2HNOo+r/7vhcuntM6Ee/pRPOnRhhL2XE9OOvX9VLEq+BcXl3VjNoWA==
 
-"@types/node@^17.0.36":
-  version "17.0.36"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.36.tgz#c0d5f2fe76b47b63e0e0efc3d2049a9970d68794"
-  integrity sha512-V3orv+ggDsWVHP99K3JlwtH20R7J4IhI1Kksgc+64q5VxgfRkQG8Ws3MFm/FZOKDYGy9feGFlZ70/HpCNe9QaA==
+"@types/node@^17.0.38":
+  version "17.0.38"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.38.tgz#f8bb07c371ccb1903f3752872c89f44006132947"
+  integrity sha512-5jY9RhV7c0Z4Jy09G+NIDTsCZ5G0L5n+Z+p+Y7t5VJHM30bgwzSjVtlcBxqAj+6L/swIlvtOSzr8rBk/aNyV2g==
 
 "@types/open-graph-scraper@^4.8.1":
   version "4.8.1"
@@ -4615,10 +4623,10 @@ node-domexception@^1.0.0:
   resolved "https://registry.yarnpkg.com/node-domexception/-/node-domexception-1.0.0.tgz#6888db46a1f71c0b76b3f7555016b63fe64766e5"
   integrity sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==
 
-node-fetch@^3.2.4:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-3.2.4.tgz#3fbca2d8838111048232de54cb532bd3cf134947"
-  integrity sha512-WvYJRN7mMyOLurFR2YpysQGuwYrJN+qrrpHjJDuKMcSPdfFccRUla/kng2mz6HWSBxJcqPbvatS6Gb4RhOzCJw==
+node-fetch@^3.2.5:
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-3.2.5.tgz#7d31da657804db5185540ddac7ddd516a9a2bd26"
+  integrity sha512-u7zCHdJp8JXBwF09mMfo2CL6kp37TslDl1KP3hRGTlCInBtag+UO3LGVy+NF0VzvnL3PVMpA2hXh1EtECFnyhQ==
   dependencies:
     data-uri-to-buffer "^4.0.0"
     fetch-blob "^3.1.4"
