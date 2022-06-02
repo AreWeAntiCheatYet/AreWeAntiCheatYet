@@ -11,6 +11,7 @@ import Definitions from '../components/Definitions';
 import AppFooter from '../components/Footer';
 import GamesList from '../components/GamesList';
 import AppHeader from '../components/Header';
+import InfoAlert from '../components/InfoAlert';
 import Overview from '../components/Overview';
 import {
   downloadImagesAndSetLogo,
@@ -79,6 +80,7 @@ export default function Home({
           className={classes.breakdownWidth}
           sx={{ marginBottom: 25 }}
         />
+        <InfoAlert />
         <GamesList
           highlight={highlightColors}
           className={classes.tableWidth}
