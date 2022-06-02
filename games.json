@@ -1415,7 +1415,7 @@
         "name": "Conan Exiles",
         "logo": "",
         "native": false,
-        "status": "Running",
+        "status": "Supported",
         "reference": "https://www.protondb.com/app/440900#sjKT3nVDGE",
         "anticheats": [
             "BattlEye"
