@@ -125,12 +125,21 @@
         "name": "Paladins",
         "logo": "",
         "native": false,
-        "status": "Broken",
+        "status": "Running",
         "reference": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Requires Proton 6.21-GE",
+                "https://www.protondb.com/app/444090#XMl6wYntQI"
+            ],
+            [
+                "Anti-Cheat may not be intentionally enabled",
+                "https://www.protondb.com/app/444090#7U2uy5DZzc"
+            ]
+        ],
         "updates": [
             {
                 "name": "Hope to provide such support in the near future",
