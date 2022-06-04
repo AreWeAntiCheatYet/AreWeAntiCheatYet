@@ -39,10 +39,11 @@ const useStyle = createStyles((theme) => ({
 
 interface BadgesProps {
   game: Game;
+  compact?: boolean;
   showText: boolean;
 }
 
-export default function Badges({ game, showText }: BadgesProps) {
+export default function Badges({ game, compact, showText }: BadgesProps) {
   const modals = useModals();
   const { classes } = useStyle();
   const status = game.status[0].toUpperCase() + game.status.substring(1);
@@ -104,8 +105,10 @@ export default function Badges({ game, showText }: BadgesProps) {
   const theme = useMantineTheme();
   const matches = useMediaQuery(`(min-width: ${theme.breakpoints.sm}px)`, false);
 
+  const Container = compact ? Group : Stack;
+
   return (
-    <Stack>
+    <Container>
       <Group noWrap={matches}>
         {game.native && (
           <Tooltip withArrow label="Also runs native">
@@ -165,6 +168,6 @@ export default function Badges({ game, showText }: BadgesProps) {
           </ActionIcon>
         </Group>
       )}
-    </Stack>
+    </Container>
   );
 }

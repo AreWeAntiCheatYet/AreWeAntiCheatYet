@@ -113,9 +113,9 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
     return (
       <Group sx={{ marginLeft: 50 }}>
         <IconArrowsRightLeft />
-        <Badges showText={false} game={oldGame} />
+        <Badges showText={false} game={oldGame} compact />
         <IconArrowRight />
-        <Badges showText={false} game={newGame} />
+        <Badges showText={false} game={newGame} compact />
       </Group>
     );
   }, []);
