@@ -750,24 +750,24 @@
   resolved "https://registry.yarnpkg.com/@mantine/modals/-/modals-4.2.7.tgz#d0aed6a8fb53ff133f89955665f6db585b288d0f"
   integrity sha512-BxTqsX/z4fJudYsUQ0dWoman/AQClsXVpeWh9zrceRvJQHdtLjL1H8ZfY8WeXYEwkM5iMelSpz9TTkHx+/Shwg==
 
-"@mantine/next@4.2.7":
-  version "4.2.7"
-  resolved "https://registry.yarnpkg.com/@mantine/next/-/next-4.2.7.tgz#b377edd74345b0547aec28fe279d9e0b7f570a29"
-  integrity sha512-ywtKch0nzjigG95xlbcUl7lCPymqEhM9fh2igNAECpAncDsR6iXOpoaVuyr5Fc5RMqfB2hqCQEI7lyEGAV7R/A==
+"@mantine/next@4.2.8":
+  version "4.2.8"
+  resolved "https://registry.yarnpkg.com/@mantine/next/-/next-4.2.8.tgz#31c3da5f336a2e717dc8e26a4b7d16880f24b02d"
+  integrity sha512-EEKQ1HtP5MeCtx0Y8BM5BI53zvSwjaCsfoDerbjSWK9wan5UWcmkV5ZcYsBjbJMnuAKW0PoZaY1SwFd0uunmdQ==
   dependencies:
-    "@mantine/ssr" "4.2.7"
+    "@mantine/ssr" "4.2.8"
 
-"@mantine/ssr@4.2.7":
-  version "4.2.7"
-  resolved "https://registry.yarnpkg.com/@mantine/ssr/-/ssr-4.2.7.tgz#d4a47fa0459fba4e3ace9444b1708b5594569c33"
-  integrity sha512-mPmBbTbgzD4rBRvJUjN8quoePeimRDyKND/bqhSKHEc7KyNRWgJvGpQYRMWZJMO/eM6yg9AIM8Kn+VNLDmQU8g==
+"@mantine/ssr@4.2.8":
+  version "4.2.8"
+  resolved "https://registry.yarnpkg.com/@mantine/ssr/-/ssr-4.2.8.tgz#19cada4f32adc20ac208156fc740ae103c306147"
+  integrity sha512-DCna1pXc3F3Bqbdf+K4wNvCBVSbLuIv2YiyKmE/Yw9Yhod34lVueXIDgkIhSOSwhjBkImqJDaPGxmme1M/XWCQ==
   dependencies:
     "@emotion/cache" "11.7.1"
     "@emotion/react" "11.7.1"
     "@emotion/serialize" "1.0.2"
     "@emotion/server" "11.4.0"
     "@emotion/utils" "1.0.0"
-    "@mantine/styles" "4.2.7"
+    "@mantine/styles" "4.2.8"
     csstype "3.0.9"
     html-react-parser "1.3.0"
 
@@ -775,6 +775,18 @@
   version "4.2.7"
   resolved "https://registry.yarnpkg.com/@mantine/styles/-/styles-4.2.7.tgz#0d22c7b7f4187876e23c99ec63a0c4d8b58b762a"
   integrity sha512-Ox9tgVqACQYAR7U1OvXELIoHUvPQS6ke4hXEa4Lzo6ErPN7kpopbve/HwJbcuipqieomvXkMCY4Fyt1pBt0xSQ==
+  dependencies:
+    "@emotion/cache" "11.7.1"
+    "@emotion/react" "11.7.1"
+    "@emotion/serialize" "1.0.2"
+    "@emotion/utils" "1.0.0"
+    clsx "^1.1.1"
+    csstype "3.0.9"
+
+"@mantine/styles@4.2.8":
+  version "4.2.8"
+  resolved "https://registry.yarnpkg.com/@mantine/styles/-/styles-4.2.8.tgz#fa03bf61d627aaea5b521afaef1ceccf8098aa1d"
+  integrity sha512-e7/EzzUqvwA90pwYjKd3rfIi2AUrInZv5H1Q3HOfaXZH+RkNQzovq558DRtHIR34v9yhVi6nMrTUO2PPf4CNig==
   dependencies:
     "@emotion/cache" "11.7.1"
     "@emotion/react" "11.7.1"
