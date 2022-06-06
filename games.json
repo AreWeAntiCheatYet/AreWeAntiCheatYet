@@ -3325,7 +3325,7 @@
         "updates": []
     },
     {
-        "url": "https: //www.dfoneople.com/",
+        "url": "https://www.dfoneople.com/",
         "name": "Dungeon Fighter Online",
         "logo": "",
         "status": "Running",
@@ -3335,8 +3335,10 @@
             "XIGNCODE3"
         ],
         "notes": [
-            "Requires GE-Proton7-17",
-            "https://www.protondb.com/app/495910#rwv2oxkble"
+            [
+                "Requires GE-Proton7-17",
+                "https://www.protondb.com/app/495910#rwv2oxkble"
+            ]
         ],
         "updates": []
     }
