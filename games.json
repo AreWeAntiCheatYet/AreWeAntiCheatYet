@@ -3341,5 +3341,24 @@
             ]
         ],
         "updates": []
+    },
+    {
+        "url": "https://evildeadthegame.com/en/",
+        "name": "Evil Dead: The Game",
+        "logo": "",
+        "status": "Broken",
+        "native": false,
+        "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/506",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": [],
+        "updates": [
+            {
+                "name": "Added Easy Anti-Cheat",
+                "reference": "https://support.saber.games/hc/en-us/articles/6835493605265-June-14-2022-Patch-Notes",
+                "date": "Tue, 14 Jun 2022 13:01:38 +0000"
+            }
+        ]
     }
 ]
