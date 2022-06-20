@@ -56,7 +56,7 @@
     "eslint-plugin-testing-library": "^5.5.1",
     "gm": "^1.23.1",
     "jest": "^27.5.1",
-    "metascraper": "^5.29.8",
+    "metascraper": "^5.29.10",
     "metascraper-description": "^5.29.7",
     "metascraper-title": "^5.29.7",
     "node-fetch": "^3.2.6",
