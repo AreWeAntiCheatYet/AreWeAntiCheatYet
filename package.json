@@ -44,7 +44,7 @@
     "@typescript-eslint/eslint-plugin": "^5.28.0",
     "@typescript-eslint/parser": "^5.28.0",
     "babel-loader": "^8.2.5",
-    "eslint": "^8.17.0",
+    "eslint": "^8.18.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-typescript": "^16.2.0",
     "eslint-config-mantine": "1.1.0",
