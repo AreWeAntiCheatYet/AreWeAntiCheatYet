@@ -58,7 +58,7 @@
     "jest": "^27.5.1",
     "metascraper": "^5.29.10",
     "metascraper-description": "^5.29.7",
-    "metascraper-title": "^5.29.7",
+    "metascraper-title": "^5.29.10",
     "node-fetch": "^3.2.6",
     "open-graph-scraper": "^4.11.0",
     "prettier": "^2.7.1",
