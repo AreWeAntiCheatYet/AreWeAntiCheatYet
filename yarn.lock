@@ -1837,7 +1837,7 @@ cheerio-select@^2.1.0:
     domhandler "^5.0.3"
     domutils "^3.0.1"
 
-cheerio@^1.0.0-rc.10, cheerio@~1.0.0-rc.11:
+cheerio@^1.0.0-rc.11, cheerio@~1.0.0-rc.11:
   version "1.0.0-rc.11"
   resolved "https://registry.yarnpkg.com/cheerio/-/cheerio-1.0.0-rc.11.tgz#1be84be1a126958366bcc57a11648cd9b30a60c2"
   integrity sha512-bQwNaDIBKID5ts/DsdhxrjqFXYfLw4ste+wMKqWA8DyKcS4qwsPP4Bk8ZNaTJjvpiX/qW3BT4sU7d6Bh5i+dag==
@@ -3068,7 +3068,7 @@ gm@^1.23.1:
     cross-spawn "^4.0.0"
     debug "^3.1.0"
 
-got@^11.8.2:
+got@^11.8.5:
   version "11.8.5"
   resolved "https://registry.yarnpkg.com/got/-/got-11.8.5.tgz#ce77d045136de56e8f024bebb82ea349bc730046"
   integrity sha512-o0Je4NvQObAuZPHLFoRSkdG2lTgtcynqymzg2Vupdx6PorhaT5MCbIyXG6d4D94kk8ZG57QeosgdiqfJWhEhlQ==
@@ -4706,14 +4706,14 @@ onetime@^5.1.2:
   dependencies:
     mimic-fn "^2.1.0"
 
-open-graph-scraper@^4.11.0:
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/open-graph-scraper/-/open-graph-scraper-4.11.0.tgz#ac342e2a3365d2b62c557d066e0eef5328245665"
-  integrity sha512-APlovc5JOWXXUIyNc/1o340ik5d7RA/0TBTRMxpOMvsUXX4/uyjpHQijBUU7NxhjJpDHpc3d/lg7KcHBaSpKEw==
+open-graph-scraper@^4.11.1:
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/open-graph-scraper/-/open-graph-scraper-4.11.1.tgz#cf52bb8f5703840a6723e8a8911ddbf1628752b2"
+  integrity sha512-cGffZ6MtlEj6e46MqEnRU0qf+OmQDG3YTZOaEI15lhZMGAoUbu0bUsDFaq4QOz3lc9DHC7JprQeyJkTNqs7HjA==
   dependencies:
     chardet "^1.4.0"
-    cheerio "^1.0.0-rc.10"
-    got "^11.8.2"
+    cheerio "^1.0.0-rc.11"
+    got "^11.8.5"
     iconv-lite "^0.6.3"
     validator "^13.7.0"
 
