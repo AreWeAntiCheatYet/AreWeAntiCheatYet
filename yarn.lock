@@ -991,10 +991,10 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
-"@tabler/icons@^1.70.0":
-  version "1.70.0"
-  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-1.70.0.tgz#28ebbd38f70169887a06111d1e33deff9cf635ee"
-  integrity sha512-JsCDrVJdbeMzNWluefQNIjkWIBZMAye+94fdWM96UzrWgDvct8X791wVVgfUurHPF/YtGT9ajOvqr5yo+zDW9g==
+"@tabler/icons@^1.71.0":
+  version "1.71.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-1.71.0.tgz#74d771aa18487ea92af07c67048e411ada0f0427"
+  integrity sha512-hOeXAWSXGgT2S8O9QrRTomEq6YE1AtuXrcOy5DgGVI93xub1JnGSA3Z9gZzuND4pSJ+Ee+geI5u8hTYbfIsuGw==
 
 "@testing-library/dom@^8.0.0", "@testing-library/dom@^8.14.0":
   version "8.14.0"
