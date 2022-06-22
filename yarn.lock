@@ -4325,12 +4325,12 @@ metascraper-description@^5.29.10:
   dependencies:
     "@metascraper/helpers" "^5.29.10"
 
-metascraper-title@^5.29.10:
-  version "5.29.10"
-  resolved "https://registry.yarnpkg.com/metascraper-title/-/metascraper-title-5.29.10.tgz#4d949bc5917039cf4b037b4420171ef4d27b1de4"
-  integrity sha512-UxgRLO9ndn4sJz+ggACC6Khhi/iMy02O0bdwws0bmGxJ/xC7ucLE8S2a++IknDvnVIhWtv+59qcZ6gZ0v8H9gA==
+metascraper-title@^5.29.11:
+  version "5.29.11"
+  resolved "https://registry.yarnpkg.com/metascraper-title/-/metascraper-title-5.29.11.tgz#a0c9dfe9a6a689bb823174171a40a37e39d9901c"
+  integrity sha512-tovgVH2Lr8e18mqgH5obQYKvkhp+OdSgx7Sq35YkuecbguEbvcHWdW9dLFhEV7mITqpWn5NtfofE6JGtVe4i8w==
   dependencies:
-    "@metascraper/helpers" "^5.29.10"
+    "@metascraper/helpers" "^5.29.11"
 
 metascraper@^5.29.11:
   version "5.29.11"
