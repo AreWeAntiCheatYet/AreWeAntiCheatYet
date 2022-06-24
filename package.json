@@ -23,7 +23,7 @@
     "@mantine/next": "4.2.10",
     "@next/bundle-analyzer": "^12.1.6",
     "@tabler/icons": "^1.71.0",
-    "cookies-next": "^2.0.4",
+    "cookies-next": "^2.0.5",
     "dayjs": "^1.11.3",
     "next": "12.1.6",
     "react": "^17.0.2",
