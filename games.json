@@ -3420,5 +3420,18 @@
             ]
         ],
         "updates": []
+    },
+    {
+        "url": "https://www.playredfox.com/rumble_fighter",
+        "name": "Rumble Fighter: Unleashed",
+        "logo": "",
+        "status": "Broken",
+        "native": false,
+        "reference": "https://www.protondb.com/app/357500",
+        "anticheats": [
+            "nProtect GameGuard"
+        ],
+        "notes": [],
+        "updates": []
     }
 ]
