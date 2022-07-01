@@ -3394,9 +3394,9 @@
         "url": "https://scpslgame.com/",
         "name": "SCP: Secret Laboratory",
         "logo": "",
-        "status": "Broken",
+        "status": "Supported",
         "native": false,
-        "reference": "https://www.protondb.com/app/700330#lFAi9NdOla",
+        "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/498#issuecomment-1172345129",
         "anticheats": [
             "Unknown (Custom)"
         ],
