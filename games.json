@@ -376,6 +376,16 @@
                 "name": "May be ready in a month!",
                 "date": "Mon May 30 2022 01:26:00 GMT+0200",
                 "reference": "https://twitter.com/garrynewman/status/1531235676653510657"
+            },
+            {
+                "name": "sooo... any updates? - Tomorrow",
+                "date": "Tue Jun 28 2022 15:20:00 GMT+0200",
+                "reference": "https://twitter.com/garrynewman/status/1541773484015161347"
+            },
+            {
+                "name": "Client & Server Update Postponed",
+                "date": "Tue Jun 29 2022 10:55:00 GMT+0200",
+                "reference": "https://twitter.com/garrynewman/status/1541773484015161347"
             }
         ]
     },
@@ -3360,5 +3370,18 @@
                 "date": "Tue, 14 Jun 2022 13:01:38 +0000"
             }
         ]
+    },
+    {
+        "url": "https://scpslgame.com/",
+        "name": "SCP: Secret Laboratory",
+        "logo": "",
+        "status": "Broken",
+        "native": false,
+        "reference": "https://www.protondb.com/app/700330#lFAi9NdOla",
+        "anticheats": [
+            "Unknown (Custom)"
+        ],
+        "notes": [],
+        "updates": []
     }
 ]
