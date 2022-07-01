@@ -3402,5 +3402,23 @@
         ],
         "notes": [],
         "updates": []
+    },
+    {
+        "url": "https://midnightghosthunt.com/",
+        "name": "Midnight Ghost Hunt",
+        "logo": "",
+        "status": "Supported",
+        "native": false,
+        "reference": "https://www.protondb.com/app/700330#lFAi9NdOla",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": [
+            [
+                "Tooltip Videos can cause crashes (Disable in Options > Gameplay)",
+                ""
+            ]
+        ],
+        "updates": []
     }
 ]
