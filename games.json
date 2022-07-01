@@ -1109,6 +1109,19 @@
         "updates": []
     },
     {
+        "url": "https://esea.net",
+        "name": "Counter-Strike: Global Offensive​​",
+        "logo": "",
+        "native": false,
+        "status": "Denied",
+        "reference": "https://support.esea.net/hc/en-us/articles/360008891073-Does-the-ESEA-Client-support-Linux-Mac-OS-or-Apple-computers-in-general-",
+        "anticheats": [
+            "ESEA"
+        ],
+        "notes": [],
+        "updates": []
+    },
+    {
         "url": "https://store.steampowered.com/app/440/Team_Fortress_2/",
         "name": "Team Fortress 2",
         "logo": "",
