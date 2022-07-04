@@ -903,24 +903,24 @@
   resolved "https://registry.yarnpkg.com/@mantine/modals/-/modals-4.2.11.tgz#c4c52eeebf2aee75eb66b8104dc1c8c367e38182"
   integrity sha512-2F+bnrBzq8733HXUXI71fyzQhWiPHngr/ts0J8SXY1fI7ndMacUj058jDZl/zbt7J8uqUy9/bnypd0v3TKYsvg==
 
-"@mantine/next@4.2.11":
-  version "4.2.11"
-  resolved "https://registry.yarnpkg.com/@mantine/next/-/next-4.2.11.tgz#d70658d361e167b6af0b6b3bff677109fb2c97d7"
-  integrity sha512-JAs3fyFyHrmGGiKuo6ic1NunqAbXMPCyHJ4Wpwg3wjZs/wK6TjjV/Da8mVqsb7qfcQpMHYHP3IJGM8sp80sJwQ==
+"@mantine/next@4.2.12":
+  version "4.2.12"
+  resolved "https://registry.yarnpkg.com/@mantine/next/-/next-4.2.12.tgz#02c3893803c098f492d1be5ae041dd2caf4071c4"
+  integrity sha512-Wpjjp5lLy14gFV84EV3Yu4j1uLFugf8mSwQOJa+gD5IT9ENpOHEGykmo7SHS3EormFLPE9seDD28dACC2sNM5Q==
   dependencies:
-    "@mantine/ssr" "4.2.11"
+    "@mantine/ssr" "4.2.12"
 
-"@mantine/ssr@4.2.11":
-  version "4.2.11"
-  resolved "https://registry.yarnpkg.com/@mantine/ssr/-/ssr-4.2.11.tgz#c0da308446c52e6304b3858a03cae48e4e8c5c27"
-  integrity sha512-2MZbO2hFxvjH+KR32B3aGCUIWw7TmdrwIKCHhpe/MPMPS0hERix4qQOgOGSS1jbOZUAWrSCT+BQqfnta98LnWg==
+"@mantine/ssr@4.2.12":
+  version "4.2.12"
+  resolved "https://registry.yarnpkg.com/@mantine/ssr/-/ssr-4.2.12.tgz#86e86243f7c3e010ad4ae0a2f0f6ce6f7154434a"
+  integrity sha512-PhM+nYzKs7ooPgMyJGPrdE0KaBB1T72yln3K/3ydkJBAMb/gl08Gm8gpzInzfn2kB7bdRVNwuF0i8Ba0pDbvJg==
   dependencies:
     "@emotion/cache" "11.7.1"
     "@emotion/react" "11.7.1"
     "@emotion/serialize" "1.0.2"
     "@emotion/server" "11.4.0"
     "@emotion/utils" "1.0.0"
-    "@mantine/styles" "4.2.11"
+    "@mantine/styles" "4.2.12"
     csstype "3.0.9"
     html-react-parser "1.3.0"
 
@@ -928,6 +928,18 @@
   version "4.2.11"
   resolved "https://registry.yarnpkg.com/@mantine/styles/-/styles-4.2.11.tgz#7d4ac340de781285c4b55018dbd5ea93ae14e52e"
   integrity sha512-K0Ih0TUkGOJoVZRpFg3FfXWcYTXWKsC4O43VC5sPRnejQ1bQ6WiYP8DPeYSlPyXAjPyEu2gKqZ72IIRQG9QOJA==
+  dependencies:
+    "@emotion/cache" "11.7.1"
+    "@emotion/react" "11.7.1"
+    "@emotion/serialize" "1.0.2"
+    "@emotion/utils" "1.0.0"
+    clsx "^1.1.1"
+    csstype "3.0.9"
+
+"@mantine/styles@4.2.12":
+  version "4.2.12"
+  resolved "https://registry.yarnpkg.com/@mantine/styles/-/styles-4.2.12.tgz#298ceb87114928916fb69e14efd99958379adf4f"
+  integrity sha512-9q1DzW0UNW/ORMGLHfN2XABOSEm0ZQebhNlLD757R6OQouoLuUf9elUwgGOXSyogMlsAYoy84XbJ3ZbbTm4YCA==
   dependencies:
     "@emotion/cache" "11.7.1"
     "@emotion/react" "11.7.1"
@@ -1438,19 +1450,10 @@
   dependencies:
     "@types/react" "^17"
 
-"@types/react@^17":
+"@types/react@^17", "@types/react@^17.0.2":
   version "17.0.47"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.47.tgz#4ee71aaf4c5a9e290e03aa4d0d313c5d666b3b78"
   integrity sha512-mk0BL8zBinf2ozNr3qPnlu1oyVTYq+4V7WA76RgxUAtf0Em/Wbid38KN6n4abEkvO4xMTBWmnP1FtQzgkEiJoA==
-  dependencies:
-    "@types/prop-types" "*"
-    "@types/scheduler" "*"
-    csstype "^3.0.2"
-
-"@types/react@^18.0.14":
-  version "18.0.14"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.14.tgz#e016616ffff51dba01b04945610fe3671fdbe06d"
-  integrity sha512-x4gGuASSiWmo0xjDLpm5mPb52syZHJx02VKbqUKdLmKtAwIh63XClGsiTI1K6DO5q7ox4xAsQrU+Gl3+gGXF9Q==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
