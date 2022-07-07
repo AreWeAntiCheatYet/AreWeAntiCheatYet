@@ -10,7 +10,7 @@ export const style = createStyles((theme) => ({
   smallHide: {
     [theme.fn.smallerThan('lg')]: { display: 'none' },
   },
-  largeShow: {
+  largeHide: {
     [theme.fn.largerThan('lg')]: { display: 'none' },
   },
   breakdownWidth: {
