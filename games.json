@@ -5,7 +5,7 @@
         "logo": "",
         "native": false,
         "status": "Planned",
-        "reference": "https://www.xda-developers.com/halo-mcc-broken-steam-deck/",
+        "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -27,7 +27,7 @@
         "logo": "",
         "native": false,
         "status": "Denied",
-        "reference": "https://twitter.com/TimSweeneyEpic/status/1490565925648715781?t=kjZblC_B6gsa_bzAz11KjA&s=19",
+        "reference": "",
         "anticheats": [
             "BattlEye",
             "Easy Anti-Cheat"
@@ -69,7 +69,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "https://steamdb.info/app/1172470/depots/?branch=steam_deck",
+        "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -122,7 +122,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "https://back4blood.com/en-us/patch-notes/april-2022-update",
+        "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -142,7 +142,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "https://github.com/ValveSoftware/Proton/wiki/Changelog",
+        "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -174,7 +174,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
-        "reference": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic",
+        "reference": "",
         "anticheats": [
             "Zakynthos",
             "BattlEye",
@@ -196,7 +196,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
-        "reference": "https://www.gamingonlinux.com/2021/11/ubisoft-proton-support-rainbow-six-siege-linux/",
+        "reference": "",
         "anticheats": [
             "FairFight",
             "BattlEye"
@@ -207,6 +207,11 @@
                 "name": "We don’t have anything to share at this time",
                 "date": "Nov 09, 2021, 5:55 PM EST",
                 "reference": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
+            },
+            {
+                "name": "Show your support!",
+                "date": "Nov 30, 2021, 5:55 PM EST",
+                "reference": "https://www.gamingonlinux.com/2021/11/ubisoft-proton-support-rainbow-six-siege-linux/"
             }
         ],
         "storeIds": {}
@@ -238,7 +243,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
-        "reference": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic",
+        "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -260,7 +265,7 @@
         "logo": "",
         "native": false,
         "status": "Running",
-        "reference": "https://www.protondb.com/app/1097150#aRzxJIFk7c",
+        "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -287,7 +292,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
-        "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/43",
+        "reference": "",
         "anticheats": [
             "BattlEye"
         ],
@@ -314,7 +319,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966",
+        "reference": "",
         "anticheats": [
             "BattlEye"
         ],
@@ -336,7 +341,7 @@
         "logo": "",
         "native": false,
         "status": "Planned",
-        "reference": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic",
+        "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -378,7 +383,7 @@
         "logo": "",
         "native": false,
         "status": "Denied",
-        "reference": "https://www.protondb.com/app/594650#lMZ4hnX6A",
+        "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -472,7 +477,7 @@
         "logo": "",
         "native": false,
         "status": "Running",
-        "reference": "https://www.reddit.com/r/joinsquad/comments/aquk3u/happy_to_see_squad_now_works_on_linux/",
+        "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -499,7 +504,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "https://forums.newworld.com/t/solved-please-add-easy-anticheat-support-for-linux/256617",
+        "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -555,7 +560,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "https://www.protondb.com/app/581320",
+        "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -577,7 +582,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966",
+        "reference": "",
         "anticheats": [
             "BattlEye"
         ],
@@ -643,7 +648,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "https://www.reddit.com/r/PSO2NGS/comments/ua5gf5/comment/i5vm95k/",
+        "reference": "",
         "anticheats": [
             "nProtect GameGuard"
         ],
@@ -663,7 +668,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
-        "reference": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966",
+        "reference": "",
         "anticheats": [
             "VAC",
             "BattlEye"
@@ -686,7 +691,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966",
+        "reference": "",
         "anticheats": [
             "BattlEye"
         ],
@@ -759,7 +764,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "https://www.protondb.com/app/960170#FXZsa0HW7J",
+        "reference": "",
         "anticheats": [
             "XIGNCODE3"
         ],
@@ -803,7 +808,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
-        "reference": "https://www.reddit.com/r/HellLetLoose/comments/tevxzz/comment/i0ux2ks/?utm_source=share&utm_medium=web2x&context=3",
+        "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -968,7 +973,7 @@
         "logo": "",
         "native": false,
         "status": "Planned",
-        "reference": "https://www.reddit.com/r/dueprocess/comments/pu252w/bring_steam_decklinux_support_to_due_process/he04229/?context=1",
+        "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -1205,7 +1210,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
-        "reference": "https://store.steampowered.com/app/677620/Splitgate/",
+        "reference": "",
         "anticheats": [
             "EQU8"
         ],
@@ -1683,7 +1688,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "https://www.protondb.com/app/760160#ubgU5WtYQV",
+        "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -1742,7 +1747,7 @@
         "logo": "",
         "native": false,
         "status": "Broken",
-        "reference": "https://www.protondb.com/app/895400",
+        "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -1847,7 +1852,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "https://store.steampowered.com/news/app/360940/view/4034618638813168633",
+        "reference": "",
         "anticheats": [
             "VAC"
         ],
@@ -2157,7 +2162,7 @@
         "logo": "",
         "native": true,
         "status": "Supported",
-        "reference": "https://www.protondb.com/app/222880#YD21dwFjsq",
+        "reference": "",
         "anticheats": [
             "VAC",
             "BattlEye"
@@ -2558,7 +2563,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "https://steamdb.info/depot/552521/history/?changeid=M:7117179758041625493",
+        "reference": "",
         "anticheats": [],
         "notes": [],
         "updates": [
@@ -2748,7 +2753,7 @@
         "logo": "",
         "native": false,
         "status": "Supported",
-        "reference": "https://www.protondb.com/app/550650#sxxv_1dLa4",
+        "reference": "",
         "anticheats": [
             "BattlEye"
         ],
@@ -3332,7 +3337,7 @@
         "logo": "",
         "native": false,
         "status": "Running",
-        "reference": "https://robertsspaceindustries.com/spectrum/community/SC/forum/190048/thread/star-citizen-alpha-3-15-1e-ptu-7876811-patch-notes",
+        "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -3783,7 +3788,7 @@
         "logo": "",
         "status": "Supported",
         "native": false,
-        "reference": "https://us.forums.blizzard.com/en/overwatch/en/overwatch/t/can-we-get-banned-for-playing-on-linux/70929/4",
+        "reference": "",
         "anticheats": [
             "Warden"
         ],
@@ -3803,7 +3808,7 @@
         "logo": "",
         "status": "Supported",
         "native": false,
-        "reference": "https://us.forums.blizzard.com/en/overwatch/en/overwatch/t/can-we-get-banned-for-playing-on-linux/70929/4",
+        "reference": "",
         "anticheats": [
             "Warden"
         ],
@@ -3890,7 +3895,7 @@
         "logo": "",
         "status": "Broken",
         "native": false,
-        "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/506",
+        "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
