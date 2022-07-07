@@ -61,7 +61,7 @@ function Item({ game, highlight, showStores, anticheatIcons }: ItemProps) {
 
   return (
     <tr style={highlight ? { backgroundColor: `${getColor()}55` } : undefined}>
-      <td>
+      <td style={{ width: '30%' }}>
         <Group position="apart" noWrap>
           <Group noWrap>
             {game.logo ? (
@@ -98,7 +98,7 @@ function Item({ game, highlight, showStores, anticheatIcons }: ItemProps) {
           )}
         </Group>
       </td>
-      <td>
+      <td style={{ width: '20%' }}>
         <Badges showText game={game} />
       </td>
       <td>
