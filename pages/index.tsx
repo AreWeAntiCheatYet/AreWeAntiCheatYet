@@ -46,9 +46,11 @@ export default function Home({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { classes } = style();
   useMemo(() => dayjs.extend(relativeTime), []);
+  const [showStores, setShowStores] = useState(true);
   const [highlightColors, setHighlightColors] = useState(false);
 
   useEffect(() => {
+    setHighlightColors(getCookie('showStores') as boolean);
     setHighlightColors(getCookie('highlightColors') as boolean);
   }, []);
 
@@ -60,10 +62,25 @@ export default function Home({
     });
   };
 
+  const toggleShowStores = () => {
+    setShowStores(!showStores);
+    setCookies('showStores', `${!showStores}`, {
+      maxAge: 60 * 60 * 24 * 30,
+      sameSite: 'strict',
+    });
+  };
+
   return (
     <AppShell
       padding="md"
-      header={<AppHeader highlight={highlightColors} toggleHighlight={toggleHighlight} />}
+      header={
+        <AppHeader
+          highlight={highlightColors}
+          toggleHighlight={toggleHighlight}
+          showStores={showStores}
+          toggleShowStores={toggleShowStores}
+        />
+      }
       fixed
     >
       <Stack align="center" sx={{ marginTop: 25 }}>
@@ -82,6 +99,7 @@ export default function Home({
         />
         <InfoAlert />
         <GamesList
+          showStores={showStores}
           highlight={highlightColors}
           className={classes.tableWidth}
           anticheatIcons={antiCheatIcons}

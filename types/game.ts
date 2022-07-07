@@ -6,6 +6,11 @@ export enum GameStatus {
   supported = 'Supported',
 }
 
+export interface StoreIDs {
+  steam?: string;
+  epic?: string;
+}
+
 export interface Update {
   date: string;
   name: string;
@@ -24,4 +29,5 @@ export default interface Game {
   anticheats: string[];
   notes: string[][];
   updates: Update[];
+  storeIds: StoreIDs;
 }

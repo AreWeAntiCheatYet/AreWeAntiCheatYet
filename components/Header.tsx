@@ -2,14 +2,22 @@ import { ActionIcon, Avatar, Group, Header, Text, Title, Tooltip } from '@mantin
 import { IconBrandGithub } from '@tabler/icons';
 import { style } from '../utils/style';
 import HighlightToggle from './HighlightToggle';
+import ShowStoresToggle from './ShowStoresToggle';
 import ThemeToggle from './ThemeToggle';
 
 interface AppHeaderProps {
   highlight: boolean;
   toggleHighlight: () => void;
+  showStores: boolean;
+  toggleShowStores: () => void;
 }
 
-export default function AppHeader({ highlight, toggleHighlight }: AppHeaderProps) {
+export default function AppHeader({
+  highlight,
+  toggleHighlight,
+  showStores,
+  toggleShowStores,
+}: AppHeaderProps) {
   const { classes } = style();
 
   return (
@@ -41,6 +49,9 @@ export default function AppHeader({ highlight, toggleHighlight }: AppHeaderProps
           </Tooltip>
           <Tooltip label="Toggle Row-Highlight">
             <HighlightToggle highlight={highlight} toggleHighlight={toggleHighlight} />
+          </Tooltip>
+          <Tooltip label="Toggle Store Info">
+            <ShowStoresToggle showStores={showStores} toggleShowStores={toggleShowStores} />
           </Tooltip>
         </Group>
       </Group>

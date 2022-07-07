@@ -15,6 +15,7 @@ import {
 } from '@mantine/core';
 import { useDebouncedValue } from '@mantine/hooks';
 import {
+  IconBrandSteam,
   IconCalendarStats,
   IconChevronDown,
   IconChevronUp,
@@ -33,10 +34,11 @@ import Badges from './Badges';
 interface ItemProps {
   game: Game;
   highlight: boolean;
+  showStores: boolean;
   anticheatIcons: (string | null)[][];
 }
 
-function Item({ game, highlight, anticheatIcons }: ItemProps) {
+function Item({ game, highlight, showStores, anticheatIcons }: ItemProps) {
   const { classes } = style();
   const theme = useMantineTheme();
 
@@ -60,20 +62,39 @@ function Item({ game, highlight, anticheatIcons }: ItemProps) {
   return (
     <tr style={highlight ? { backgroundColor: `${getColor()}55` } : undefined}>
       <td>
-        <Group noWrap>
-          {game.logo ? (
-            <Avatar radius="xl" src={game.logo} />
-          ) : (
-            <Avatar radius="xl">
-              <IconQuestionMark />
-            </Avatar>
-          )}
-          {game.url ? (
-            <Anchor target="_blank" href={game.url} className={classes.mobileSmall}>
-              {game.name}
-            </Anchor>
-          ) : (
-            <Text className={classes.mobileSmall}>{game.name}</Text>
+        <Group position="apart" noWrap>
+          <Group noWrap>
+            {game.logo ? (
+              <Avatar radius="xl" src={game.logo} />
+            ) : (
+              <Avatar radius="xl">
+                <IconQuestionMark />
+              </Avatar>
+            )}
+            {game.url ? (
+              <Anchor target="_blank" href={game.url} className={classes.mobileSmall}>
+                {game.name}
+              </Anchor>
+            ) : (
+              <Text className={classes.mobileSmall}>{game.name}</Text>
+            )}
+          </Group>
+          {showStores && game.storeIds && (
+            <Group align="center" className={classes.mobileHide}>
+              {game.storeIds.steam && (
+                <ActionIcon
+                  radius="xl"
+                  size="sm"
+                  variant="filled"
+                  color="gray"
+                  component="a"
+                  target="_blank"
+                  href={`https://store.steampowered.com/app/${game.storeIds.steam}/`}
+                >
+                  <IconBrandSteam />
+                </ActionIcon>
+              )}
+            </Group>
           )}
         </Group>
       </td>
@@ -87,7 +108,7 @@ function Item({ game, highlight, anticheatIcons }: ItemProps) {
               <div className={classes.smallHide}>
                 <AntiCheatIcon showText anticheat={anticheat} anticheatIcons={anticheatIcons} />
               </div>
-              <Tooltip withArrow label={anticheat} className={classes.largeShow}>
+              <Tooltip withArrow label={anticheat} className={classes.largeHide}>
                 <AntiCheatIcon
                   showText
                   key={anticheat}
@@ -267,10 +288,17 @@ function ThButton({ text, type, sortMode, setSortMode, ...props }: ThButtonProps
 interface GamesListProps extends DefaultProps {
   games: Game[];
   highlight: boolean;
+  showStores: boolean;
   anticheatIcons: (string | null)[][];
 }
 
-export default function GamesList({ games, highlight, anticheatIcons, ...props }: GamesListProps) {
+export default function GamesList({
+  games,
+  highlight,
+  showStores,
+  anticheatIcons,
+  ...props
+}: GamesListProps) {
   const { classes } = style();
   const [query, setQuery] = useState('');
   const [sortMode, setSortMode] = useState(SortMode.normal);
@@ -336,6 +364,7 @@ export default function GamesList({ games, highlight, anticheatIcons, ...props }
               game={game}
               key={game.name}
               highlight={highlight}
+              showStores={showStores}
               anticheatIcons={anticheatIcons}
             />
           ))}
