@@ -221,6 +221,7 @@ export function generateAntiCheatIconLookUp(games: Game[]) {
     ['sabreclaw', 'sabreclaw.webp'],
     ['faceit', 'faceit.webp'],
     ['esea', 'esea.webp'],
+    ['hyperion', 'hyperion.webp'],
   ];
 
   return [...new Set(games.flatMap((game) => game.anticheats))].map((anticheat) => [

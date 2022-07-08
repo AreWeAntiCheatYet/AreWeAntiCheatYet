@@ -30,6 +30,7 @@
         "reference": "",
         "anticheats": [
             "BattlEye",
+            "Hyperion",
             "Easy Anti-Cheat"
         ],
         "notes": [
@@ -45,7 +46,12 @@
                 "reference": "https://twitter.com/TimSweeneyEpic/status/1490565925648715781?s=20&t=d7Ya8TH72wrGKXqZIi9gBg"
             }
         ],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "fn",
+                "slug": "fortnite"
+            }
+        }
     },
     {
         "url": "",
