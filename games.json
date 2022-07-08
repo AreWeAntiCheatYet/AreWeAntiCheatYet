@@ -87,7 +87,9 @@
                 "reference": "https://steamdb.info/patchnotes/8270674/"
             }
         ],
-        "storeIds": {}
+        "storeIds": {
+            "steam": "1172470"
+        }
     },
     {
         "url": "https://playvalorant.com",
@@ -120,7 +122,9 @@
             ]
         ],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "steam": "1240440"
+        }
     },
     {
         "url": "https://www.back4blood.com/",
@@ -140,7 +144,9 @@
                 "reference": "https://back4blood.com/en-us/patch-notes/april-2022-update"
             }
         ],
-        "storeIds": {}
+        "storeIds": {
+            "steam": "924970"
+        }
     },
     {
         "url": "",
@@ -194,7 +200,9 @@
                 "reference": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
             }
         ],
-        "storeIds": {}
+        "storeIds": {
+            "steam": "578080"
+        }
     },
     {
         "url": "https://ubisoft.com/en-us/game/rainbow-six/siege",
@@ -220,7 +228,9 @@
                 "reference": "https://www.gamingonlinux.com/2021/11/ubisoft-proton-support-rainbow-six-siege-linux/"
             }
         ],
-        "storeIds": {}
+        "storeIds": {
+            "steam": "359550"
+        }
     },
     {
         "url": "",
@@ -363,7 +373,9 @@
                 "reference": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
             }
         ],
-        "storeIds": {}
+        "storeIds": {
+            "steam": "381210"
+        }
     },
     {
         "url": "",
@@ -1248,7 +1260,9 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "steam": "730"
+        }
     },
     {
         "url": "https://www.faceit.com",
