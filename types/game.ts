@@ -6,9 +6,14 @@ export enum GameStatus {
   supported = 'Supported',
 }
 
+export interface EpicID {
+  namespace: string;
+  slug: string;
+}
+
 export interface StoreIDs {
   steam?: string;
-  epic?: string;
+  epic?: EpicID;
 }
 
 export interface Update {

@@ -25,6 +25,7 @@ import {
   IconSearch,
   IconSelector,
 } from '@tabler/icons';
+import Image from 'next/image';
 import { Dispatch, SetStateAction, useEffect, useMemo, useState } from 'react';
 import Game, { GameStatus } from '../types/game';
 import { style } from '../utils/style';
@@ -81,6 +82,19 @@ function Item({ game, highlight, showStores, anticheatIcons }: ItemProps) {
           </Group>
           {showStores && game.storeIds && (
             <Group align="center" className={classes.mobileHide}>
+              {game.storeIds.epic && (
+                <ActionIcon
+                  radius="xl"
+                  size="sm"
+                  variant="filled"
+                  color="indigo"
+                  component="a"
+                  target="_blank"
+                  href={`https://store.epicgames.com/p/${game.storeIds.epic.slug}/`}
+                >
+                  <Image width="18" height="18" layout="fixed" src="/stores/epic-games.webp" />
+                </ActionIcon>
+              )}
               {game.storeIds.steam && (
                 <ActionIcon
                   radius="xl"
