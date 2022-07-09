@@ -157,7 +157,7 @@
             "steam": "924970",
             "epic": {
                 "namespace": "57dfd95548214a138218e56cd9e5b9d8",
-                "slug": "back-4-blood/home"
+                "slug": "back-4-blood"
             }
         }
     },
@@ -686,7 +686,7 @@
         "storeIds": {
             "epic": {
                 "namespace": "epic",
-                "slug": "rogue-company/home"
+                "slug": "rogue-company"
             }
         }
     },
@@ -792,7 +792,7 @@
             "steam": "304390",
             "epic": {
                 "namespace": "epic",
-                "slug": "for-honor/home"
+                "slug": "for-honor"
             }
         }
     },
@@ -943,7 +943,7 @@
             "steam": "418460",
             "epic": {
                 "namespace": "3542a1df211e492bb2abecb7c734f7f9",
-                "slug": "rising-storm-2-vietnam/home"
+                "slug": "rising-storm-2-vietnam"
             }
         }
     },
@@ -1177,7 +1177,7 @@
         "storeIds": {
             "epic": {
                 "namespace": "epic",
-                "slug": "ghost-recon-wildlands/home"
+                "slug": "ghost-recon-wildlands"
             }
         }
     },
@@ -1196,7 +1196,7 @@
         "storeIds": {
             "epic": {
                 "namespace": "angelonia",
-                "slug": "watch-dogs-2/home"
+                "slug": "watch-dogs-2"
             }
         }
     },
@@ -1251,7 +1251,7 @@
             "steam": "646910",
             "epic": {
                 "namespace": "epic",
-                "slug": "the-crew-2/home"
+                "slug": "the-crew-2"
             }
         }
     },
@@ -1270,7 +1270,7 @@
         "storeIds": {
             "epic": {
                 "namespace": "2b352b4aea3849bd9519842dda263ac7",
-                "slug": "crsed-f-o-a-d/home"
+                "slug": "crsed-f-o-a-d"
             }
         }
     },
@@ -1289,7 +1289,7 @@
         "storeIds": {
             "epic": {
                 "namespace": "bc2b0372eaa448469cb9a769f27acea1",
-                "slug": "star-wars-squadrons/home"
+                "slug": "star-wars-squadrons"
             }
         }
     },
@@ -1308,7 +1308,7 @@
         "storeIds": {
             "epic": {
                 "namespace": "epic",
-                "slug": "diabotical/home"
+                "slug": "diabotical"
             }
         }
     },
@@ -1350,7 +1350,7 @@
             "steam": "677620",
             "epic": {
                 "namespace": "47cba32bce2f4b1e9da0eee33bbb489a",
-                "slug": ""
+                "slug": "splitgate-a4414d"
             }
         }
     },
@@ -1415,7 +1415,7 @@
         }
     },
     {
-        "url": "https://www.dota2.com/home",
+        "url": "https://www.dota2.com",
         "name": "Dota 2",
         "logo": "",
         "native": true,
@@ -1514,7 +1514,7 @@
         "storeIds": {
             "epic": {
                 "namespace": "epic",
-                "slug": "ghost-recon-breakpoint/home"
+                "slug": "ghost-recon-breakpoint"
             }
         }
     },
@@ -1752,7 +1752,7 @@
         "storeIds": {
             "epic": {
                 "namespace": "c6e54ebd92da4ee8819c1c0956cebdc4",
-                "slug": "outriders/home"
+                "slug": "outriders"
             }
         }
     },
@@ -1844,7 +1844,7 @@
             "steam": "261550",
             "epic": {
                 "namespace": "aeac94c7a11048758064b82f8f8d20ed",
-                "slug": "mount-and-blade-2/home"
+                "slug": "mount-and-blade-2"
             }
         }
     },
@@ -1907,7 +1907,7 @@
             "steam": "227940",
             "epic": {
                 "namespace": "c3e63401d6ba410493de31ed69a798a1",
-                "slug": "heroes-and-generals-wwii/home"
+                "slug": "heroes-and-generals-wwii"
             }
         }
     },
@@ -2190,7 +2190,7 @@
             "steam": "868270",
             "epic": {
                 "namespace": "azalea",
-                "slug": "thecycle/home"
+                "slug": "thecycle"
             }
         }
     },
@@ -2724,7 +2724,7 @@
         "storeIds": {
             "epic": {
                 "namespace": "epic",
-                "slug": "trials-rising/home"
+                "slug": "trials-rising"
             }
         }
     },
@@ -2764,7 +2764,7 @@
             "steam": "552520",
             "epic": {
                 "namespace": "epic",
-                "slug": "far-cry-5/home"
+                "slug": "far-cry-5"
             }
         }
     },
@@ -2860,7 +2860,7 @@
             "steam": "365590",
             "epic": {
                 "namespace": "03ecca4e19a9483aa05b3d99948c43ce",
-                "slug": "the-division/home"
+                "slug": "the-division"
             }
         }
     },
@@ -3223,7 +3223,7 @@
         "storeIds": {
             "epic": {
                 "namespace": "epic",
-                "slug": "predator-hunting-grounds/home"
+                "slug": "predator-hunting-grounds"
             }
         }
     },
@@ -3625,7 +3625,7 @@
         "storeIds": {
             "epic": {
                 "namespace": "epic",
-                "slug": "dauntless/home"
+                "slug": "dauntless"
             }
         }
     },
