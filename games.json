@@ -991,7 +991,12 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "impala",
+                "slug": "the-division-2"
+            }
+        }
     },
     {
         "url": "https://www.bandainamcoent.com/games/jump-force",
@@ -2610,7 +2615,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "1237980"
+            "steam": "1237980",
+            "epic": {
+                "namespace": "fefe1db11f534484987ef50ec1e25225",
+                "slug": "star-wars-battlefront"
+            }
         }
     },
     {
@@ -2982,7 +2991,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "1237950"
+            "steam": "1237950",
+            "epic": {
+                "namespace": "b156c3365a5b4cb9a01a5e1108b4e3f4",
+                "slug": "star-wars-battlefront-2"
+            }
         }
     },
     {
@@ -3970,7 +3983,12 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "d5241c76f178492ea1540fce45616757",
+                "slug": "grand-theft-auto-v"
+            }
+        }
     },
     {
         "url": "https://animalroyale.com",
