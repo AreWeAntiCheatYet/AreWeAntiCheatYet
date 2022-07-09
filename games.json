@@ -192,7 +192,7 @@
         "storeIds": {
             "steam": "444090",
             "epic": {
-                "namespace": "epic",
+                "namespace": "badb0ee71b474ed591ec43212547cfc8",
                 "slug": "paladins"
             }
         }
@@ -248,7 +248,7 @@
         "storeIds": {
             "steam": "359550",
             "epic": {
-                "namespace": "epic",
+                "namespace": "carnation",
                 "slug": "rainbow-six-siege"
             }
         }
@@ -273,7 +273,7 @@
         "storeIds": {
             "steam": "386360",
             "epic": {
-                "namespace": "epic",
+                "namespace": "076207fa2b5c4803a636af606c3c28b7",
                 "slug": "smite"
             }
         }
@@ -685,7 +685,7 @@
         ],
         "storeIds": {
             "epic": {
-                "namespace": "epic",
+                "namespace": "933ada2ec45e4184ae840d64c99e0ba9",
                 "slug": "rogue-company"
             }
         }
@@ -791,7 +791,7 @@
         "storeIds": {
             "steam": "304390",
             "epic": {
-                "namespace": "epic",
+                "namespace": "sundrop",
                 "slug": "for-honor"
             }
         }
@@ -1181,7 +1181,7 @@
         "updates": [],
         "storeIds": {
             "epic": {
-                "namespace": "epic",
+                "namespace": "hyacinth",
                 "slug": "ghost-recon-wildlands"
             }
         }
@@ -1255,7 +1255,7 @@
         "storeIds": {
             "steam": "646910",
             "epic": {
-                "namespace": "epic",
+                "namespace": "599d248ca46b45a8b40a3b4e484712cb",
                 "slug": "the-crew-2"
             }
         }
@@ -1312,7 +1312,7 @@
         "updates": [],
         "storeIds": {
             "epic": {
-                "namespace": "epic",
+                "namespace": "36336ee97ec543bbae85abaca618182b",
                 "slug": "diabotical"
             }
         }
@@ -1518,7 +1518,7 @@
         "updates": [],
         "storeIds": {
             "epic": {
-                "namespace": "epic",
+                "namespace": "2dbd2f64abdc4bbab077424d5c85e01b",
                 "slug": "ghost-recon-breakpoint"
             }
         }
@@ -2728,7 +2728,7 @@
         "updates": [],
         "storeIds": {
             "epic": {
-                "namespace": "epic",
+                "namespace": "argyle",
                 "slug": "trials-rising"
             }
         }
@@ -2768,7 +2768,7 @@
         "storeIds": {
             "steam": "552520",
             "epic": {
-                "namespace": "epic",
+                "namespace": "coriander",
                 "slug": "far-cry-5"
             }
         }
@@ -3138,11 +3138,7 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "593600",
-            "epic": {
-                "namespace": "epic",
-                "slug": "pixark"
-            }
+            "steam": "593600"
         }
     },
     {
@@ -3231,7 +3227,7 @@
         "updates": [],
         "storeIds": {
             "epic": {
-                "namespace": "epic",
+                "namespace": "5a82d5954a1943d79dc6b49cde2fe972",
                 "slug": "predator-hunting-grounds"
             }
         }
@@ -3543,7 +3539,7 @@
         "updates": [],
         "storeIds": {
             "epic": {
-                "namespace": "epic",
+                "namespace": "0a84818055e740a7be21a2e5b6162703",
                 "slug": "watch-dogs-legion"
             }
         }
@@ -3633,7 +3629,7 @@
         "updates": [],
         "storeIds": {
             "epic": {
-                "namespace": "epic",
+                "namespace": "jackal",
                 "slug": "dauntless"
             }
         }
