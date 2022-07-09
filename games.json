@@ -66,7 +66,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "1517290"
+            "steam": "1517290",
+            "epic": {
+                "namespace": "52f57f57120c440fad9bfa0e6c279317",
+                "slug": "battlefield-2042"
+            }
         }
     },
     {
@@ -103,7 +107,12 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "cbd5b3d310a54b12bf3fe8c41994174f",
+                "slug": "valorant"
+            }
+        }
     },
     {
         "url": "",
@@ -145,7 +154,11 @@
             }
         ],
         "storeIds": {
-            "steam": "924970"
+            "steam": "924970",
+            "epic": {
+                "namespace": "57dfd95548214a138218e56cd9e5b9d8",
+                "slug": "back-4-blood/home"
+            }
         }
     },
     {
@@ -177,7 +190,11 @@
             }
         ],
         "storeIds": {
-            "steam": "444090"
+            "steam": "444090",
+            "epic": {
+                "namespace": "epic",
+                "slug": "paladins"
+            }
         }
     },
     {
@@ -229,7 +246,11 @@
             }
         ],
         "storeIds": {
-            "steam": "359550"
+            "steam": "359550",
+            "epic": {
+                "namespace": "epic",
+                "slug": "rainbow-six-siege"
+            }
         }
     },
     {
@@ -250,7 +271,11 @@
         ],
         "updates": [],
         "storeIds": {
-            "steam": "386360"
+            "steam": "386360",
+            "epic": {
+                "namespace": "epic",
+                "slug": "smite"
+            }
         }
     },
     {
@@ -330,7 +355,11 @@
             }
         ],
         "storeIds": {
-            "steam": "346110"
+            "steam": "346110",
+            "epic": {
+                "namespace": "ark",
+                "slug": "ark"
+            }
         }
     },
     {
@@ -374,7 +403,11 @@
             }
         ],
         "storeIds": {
-            "steam": "381210"
+            "steam": "381210",
+            "epic": {
+                "namespace": "611482b8586142cda48a0786eb8a127c",
+                "slug": "dead-by-daylight"
+            }
         }
     },
     {
@@ -595,7 +628,11 @@
             }
         ],
         "storeIds": {
-            "steam": "581320"
+            "steam": "581320",
+            "epic": {
+                "namespace": "94cec4802e954a6c9579e29e8b817f3a",
+                "slug": "insurgency-sandstorm"
+            }
         }
     },
     {
@@ -646,7 +683,12 @@
                 "reference": "https://github.com/ValveSoftware/Proton/issues/5214#issuecomment-1133784284"
             }
         ],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "epic",
+                "slug": "rogue-company/home"
+            }
+        }
     },
     {
         "url": "https://www.realmroyale.com/",
@@ -682,7 +724,12 @@
                 "reference": "https://www.reddit.com/r/PSO2NGS/comments/ua5gf5/comment/i5vm95k/"
             }
         ],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "bf333e6236914222a95a536389c05813",
+                "slug": "phantasy-star-online-2"
+            }
+        }
     },
     {
         "url": "",
@@ -742,7 +789,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "304390"
+            "steam": "304390",
+            "epic": {
+                "namespace": "epic",
+                "slug": "for-honor/home"
+            }
         }
     },
     {
@@ -758,7 +809,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "1203220"
+            "steam": "1203220",
+            "epic": {
+                "namespace": "0c6aee83b9b64372bf44a043001325f2",
+                "slug": "naraka-bladepoint"
+            }
         }
     },
     {
@@ -778,7 +833,12 @@
             ]
         ],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "879b0d8776ab46a59a129983ba78f0ce",
+                "slug": "genshin-impact"
+            }
+        }
     },
     {
         "url": "https://www.djmaxrespect.com/",
@@ -880,7 +940,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "418460"
+            "steam": "418460",
+            "epic": {
+                "namespace": "3542a1df211e492bb2abecb7c734f7f9",
+                "slug": "rising-storm-2-vietnam/home"
+            }
         }
     },
     {
@@ -957,7 +1021,12 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "5bb3d43818ae4188850fe1dbad9d57a5",
+                "slug": "knockout-city"
+            }
+        }
     },
     {
         "url": "https://www.bandainamcoent.com/games/dragon-ball-fighterz",
@@ -1054,7 +1123,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "266410"
+            "steam": "266410",
+            "epic": {
+                "namespace": "1d3e38b5e921433caffbbef89e265517",
+                "slug": "iracing"
+            }
         }
     },
     {
@@ -1101,7 +1174,12 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "epic",
+                "slug": "ghost-recon-wildlands/home"
+            }
+        }
     },
     {
         "url": "https://www.ubisoft.com/en-us/game/watch-dogs/watch-dogs-2",
@@ -1115,7 +1193,12 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "angelonia",
+                "slug": "watch-dogs-2/home"
+            }
+        }
     },
     {
         "url": "",
@@ -1165,7 +1248,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "646910"
+            "steam": "646910",
+            "epic": {
+                "namespace": "epic",
+                "slug": "the-crew-2/home"
+            }
         }
     },
     {
@@ -1180,7 +1267,12 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "2b352b4aea3849bd9519842dda263ac7",
+                "slug": "crsed-f-o-a-d/home"
+            }
+        }
     },
     {
         "url": "https://www.ea.com/games/starwars/squadrons",
@@ -1194,7 +1286,12 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "bc2b0372eaa448469cb9a769f27acea1",
+                "slug": "star-wars-squadrons/home"
+            }
+        }
     },
     {
         "url": "https://www.diabotical.com/",
@@ -1208,7 +1305,12 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "epic",
+                "slug": "diabotical/home"
+            }
+        }
     },
     {
         "url": "",
@@ -1245,7 +1347,11 @@
             }
         ],
         "storeIds": {
-            "steam": "677620"
+            "steam": "677620",
+            "epic": {
+                "namespace": "47cba32bce2f4b1e9da0eee33bbb489a",
+                "slug": ""
+            }
         }
     },
     {
@@ -1370,7 +1476,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "304430"
+            "steam": "304430",
+            "epic": {
+                "namespace": "2c42520d342a46d7a6e0cfa77b4715de",
+                "slug": "dying-light"
+            }
         }
     },
     {
@@ -1401,7 +1511,12 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "epic",
+                "slug": "ghost-recon-breakpoint/home"
+            }
+        }
     },
     {
         "url": "https://dmo.gameking.com/",
@@ -1432,7 +1547,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "736220"
+            "steam": "736220",
+            "epic": {
+                "namespace": "6fe830287e1244829c9bcdb4cef9fad5",
+                "slug": "post-scriptum"
+            }
         }
     },
     {
@@ -1461,7 +1580,12 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "2016da2363da487bbf78961d8faec81c",
+                "slug": "worms-rumble"
+            }
+        }
     },
     {
         "url": "",
@@ -1625,7 +1749,12 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "c6e54ebd92da4ee8819c1c0956cebdc4",
+                "slug": "outriders/home"
+            }
+        }
     },
     {
         "url": "https://crossout.net",
@@ -1655,7 +1784,12 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "newt",
+                "slug": "spellbreak"
+            }
+        }
     },
     {
         "url": "https://www.ea.com/games/battlefield/battlefield-4",
@@ -1687,7 +1821,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "440900"
+            "steam": "440900",
+            "epic": {
+                "namespace": "conanexiles",
+                "slug": "conan-exiles"
+            }
         }
     },
     {
@@ -1703,7 +1841,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "261550"
+            "steam": "261550",
+            "epic": {
+                "namespace": "aeac94c7a11048758064b82f8f8d20ed",
+                "slug": "mount-and-blade-2/home"
+            }
         }
     },
     {
@@ -1762,7 +1904,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "227940"
+            "steam": "227940",
+            "epic": {
+                "namespace": "c3e63401d6ba410493de31ed69a798a1",
+                "slug": "heroes-and-generals-wwii/home"
+            }
         }
     },
     {
@@ -1821,7 +1967,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "291480"
+            "steam": "291480",
+            "epic": {
+                "namespace": "80e804312c2149c69a75aee703e85a9a",
+                "slug": "warface"
+            }
         }
     },
     {
@@ -2037,7 +2187,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "868270"
+            "steam": "868270",
+            "epic": {
+                "namespace": "azalea",
+                "slug": "thecycle/home"
+            }
         }
     },
     {
@@ -2067,7 +2221,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "17300"
+            "steam": "17300",
+            "epic": {
+                "namespace": "17a1f8585f9246808597b30780aaf4fb",
+                "slug": "crysis-remastered"
+            }
         }
     },
     {
@@ -2563,7 +2721,12 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "epic",
+                "slug": "trials-rising/home"
+            }
+        }
     },
     {
         "url": "",
@@ -2598,7 +2761,11 @@
             }
         ],
         "storeIds": {
-            "steam": "552520"
+            "steam": "552520",
+            "epic": {
+                "namespace": "epic",
+                "slug": "far-cry-5/home"
+            }
         }
     },
     {
@@ -2690,7 +2857,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "365590"
+            "steam": "365590",
+            "epic": {
+                "namespace": "03ecca4e19a9483aa05b3d99948c43ce",
+                "slug": "the-division/home"
+            }
         }
     },
     {
@@ -2958,7 +3129,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "593600"
+            "steam": "593600",
+            "epic": {
+                "namespace": "epic",
+                "slug": "pixark"
+            }
         }
     },
     {
@@ -3045,7 +3220,12 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "epic",
+                "slug": "predator-hunting-grounds/home"
+            }
+        }
     },
     {
         "url": "",
@@ -3092,7 +3272,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "1238810"
+            "steam": "1238810",
+            "epic": {
+                "namespace": "bf5708c386744107b8a8a24ac707dd0e",
+                "slug": "battlefield-v-definitive-edition"
+            }
         }
     },
     {
@@ -3107,7 +3291,12 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "bd46d4ce259349e5bd8b3ded20274737",
+                "slug": "chivalry-2"
+            }
+        }
     },
     {
         "url": "",
@@ -3247,7 +3436,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "232090"
+            "steam": "232090",
+            "epic": {
+                "namespace": "affc33b82405457595a032f00284abd2",
+                "slug": "killing-floor-2"
+            }
         }
     },
     {
@@ -3339,7 +3532,12 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "epic",
+                "slug": "watch-dogs-legion"
+            }
+        }
     },
     {
         "url": "",
@@ -3424,7 +3622,12 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "epic",
+                "slug": "dauntless/home"
+            }
+        }
     },
     {
         "url": "https://www.bandainamcoent.com/games/naruto-to-boruto-shinobi-striker",
@@ -3468,7 +3671,12 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "24b9b5e323bc40eea252a10cdd3b2f10",
+                "slug": "league-of-legends"
+            }
+        }
     },
     {
         "url": "",
@@ -3713,7 +3921,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "230410"
+            "steam": "230410",
+            "epic": {
+                "namespace": "244aaaa06bfa49d088205b13b9d2d115",
+                "slug": "warframe"
+            }
         }
     },
     {
@@ -3859,7 +4071,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "918570"
+            "steam": "918570",
+            "epic": {
+                "namespace": "f698d5d792654ac99f47d67e93916bef",
+                "slug": "century-age-of-ashes"
+            }
         }
     },
     {
@@ -3931,7 +4147,12 @@
                 "date": "Tue, 14 Jun 2022 13:01:38 +0000"
             }
         ],
-        "storeIds": {}
+        "storeIds": {
+            "epic": {
+                "namespace": "95e09a8c24c44684bca1a6f25aea920c",
+                "slug": "evil-dead-the-game"
+            }
+        }
     },
     {
         "url": "https://scpslgame.com/",
@@ -4005,7 +4226,11 @@
             }
         ],
         "storeIds": {
-            "steam": "927350"
+            "steam": "927350",
+            "epic": {
+                "namespace": "5a2108f4db804040aaf44d139bd21bd1",
+                "slug": "hood-outlaws-and-legends"
+            }
         }
     }
 ]
