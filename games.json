@@ -1552,11 +1552,7 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "736220",
-            "epic": {
-                "namespace": "6fe830287e1244829c9bcdb4cef9fad5",
-                "slug": "post-scriptum"
-            }
+            "steam": "736220"
         }
     },
     {
