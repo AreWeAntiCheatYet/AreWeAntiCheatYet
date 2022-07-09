@@ -1,0 +1,29 @@
+{
+  "name": "fill-epic-store-ids",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn run build && node index.js ../../games.json ../../../offers-tracker/database/list.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "maketypes": "mkdir -p interfaces && make_types -i interfaces/awacy-games.ts ../../games.json AwacyGame"
+  },
+  "dependencies": {
+    "clipanion": "^3.2.0-rc.11",
+    "enquirer": "^2.3.6",
+    "fuse.js": "^6.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "maketypes": "^1.1.2",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  },
+  "volta": {
+    "node": "18.5.0",
+    "npm": "8.13.2"
+  }
+}
