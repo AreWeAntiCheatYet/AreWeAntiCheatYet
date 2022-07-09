@@ -17,7 +17,7 @@ function handle_match() {
     slug="$(echo "${match}" | jq -er '.[8]' | sed 's:/home$//')"
 
     # Write namespace and slug back to AWACY's games.json
-    jq -r \
+    jq -r --indent 4 \
         --arg namespace "${namespace}" \
         --arg name "${name}" \
         --arg slug "${slug}" \
@@ -29,7 +29,6 @@ function handle_match() {
 set -euo pipefail
 
 awacy_games_json="${1}"
-# https://github.com/nachoaldamav/offers-tracker/blob/master/database/titles.json
 epic_data_lists_json="${2}"
 
 readarray -t awacy_games < <(jq -rc '.[] | select((.storeIds.epic.namespace == null) or (.storeIds.epic.slug == null)).name' "${awacy_games_json}")
