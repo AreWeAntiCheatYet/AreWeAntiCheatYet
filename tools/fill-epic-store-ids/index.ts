@@ -1,17 +1,26 @@
 import { Command, Option, runExit } from "clipanion";
 
-import { AwacyGame } from "./interfaces/awacy-game";
-import { EpicDataOffer, EpicDataOfferList } from "./interfaces/epic-data-offer";
+import { AwacyGame, AwacyGameInternal } from "./interfaces/awacy-game";
+import { EpicDataOfferList, EpicGame } from "./interfaces/epic-data-offer";
 
 import * as fs from "fs";
 
 import Chalk from "chalk";
 
 import Fuse from "fuse.js";
-// @ts-ignore
-import Enquirer from "enquirer";
-import chalk from "chalk";
-import terminalLink from "terminal-link";
+import inquirer from "inquirer";
+
+function simplifyGameName(name: string): string {
+  return (
+    name
+      .replaceAll(/[:™®,]/g, "")
+      .replaceAll(/-/g, " ")
+      // Remove years like (2018)
+      .replaceAll(/\(\d{4}\)/g, "")
+      .trim()
+      .toLowerCase()
+  );
+}
 
 runExit(
   class FillEpicStoreIds extends Command {
@@ -20,26 +29,29 @@ runExit(
     epicDataOffersListsJson = Option.String();
 
     async execute() {
-      const awacy_games: AwacyGame[] = JSON.parse(
+      const awacyGames: AwacyGameInternal[] = JSON.parse(
         fs.readFileSync(this.awacyGamesJson, "utf8")
-      );
-      const epicOffers: EpicDataOffer[] = JSON.parse(
+      ).map((game: AwacyGame): AwacyGameInternal => {
+        return {
+          ...game,
+          simplifiedName: simplifyGameName(game.name),
+        };
+      });
+
+      const epicOffers: EpicGame[] = JSON.parse(
         fs.readFileSync(this.epicDataOffersListsJson, "utf8")
       )
         .map((offer: EpicDataOfferList) => {
+          const name = offer[2];
           return {
-            id: offer[0],
             namespace: offer[1],
-            name: offer[2],
+            name,
             offerTypes: offer[3],
-            publisher: offer[4],
-            numericalIdOne: offer[5],
-            numericalIdTwo: offer[6],
-            pictureUrl: offer[7],
             slug: offer[8].replaceAll(/\/home$/g, ""),
+            simplifiedName: name && simplifyGameName(name),
           };
         })
-        .filter((offer: EpicDataOffer) => {
+        .filter((offer: EpicGame) => {
           return (
             // Filter out offers that are not games
             offer.offerTypes.includes("games") &&
@@ -60,128 +72,113 @@ runExit(
       // fuse.js is used to find the best match for each game name
       const fuse = new Fuse(epicOffers, {
         includeScore: true,
-        keys: ["name"],
+        keys: ["simplifiedName"],
         shouldSort: true,
         threshold: 0.15,
       });
 
-      for (const game of awacy_games) {
-        // TODO: exclude year from the search like (2015)
-        const sanitizedName = game.name.replaceAll(/[:,™®]/g, "");
+      for (const awacyGame of awacyGames) {
+        function useMatch(match: EpicGame) {
+          console.log(Chalk.green(`${awacyGame.name} -> ${match.name}`));
 
-        const nameToSearch = `^${sanitizedName.replaceAll(
-          /\s/g,
-          "[:™®,]? "
-        )}[:™®,]?$`;
-
-        // Search the list first with a stricter approach
-        const strictResult = epicOffers
-          .filter((offer: EpicDataOffer) => offer.name.match(nameToSearch)) // Filter out duplicated results
-          // Filter out duplicated results
-          .filter(
-            (result: any, index: number, self: any) =>
-              index ===
-              self.findIndex(
-                (t: any) =>
-                  t.namespace === result.namespace && t.slug === result.slug
-              )
-          );
-
-        if (strictResult.length > 0) {
-          console.log(Chalk.green(`${game.name} -> ${strictResult[0].name}`));
-
-          game.storeIds.epic = {
-            namespace: strictResult[0].namespace,
-            slug: strictResult[0].slug,
+          awacyGame.storeIds.epic = {
+            namespace: match.namespace,
+            slug: match.slug,
           };
-          continue;
         }
 
-        const result = fuse
-          .search(sanitizedName)
-          // Filter out duplicated results
+        function rejectMatches() {
+          console.log(Chalk.red(awacyGame.name));
+        }
+
+        // Search the list first with a stricter approach
+        // const strictResult = epicOffers
+        //   .filter(
+        //     (offer: EpicGame) =>
+        //       offer.simplifiedName === awacyGame.simplifiedName
+        //   )
+        //   .filter(
+        //     (result: any, index: number, self: any) =>
+        //       index ===
+        //       self.findIndex(
+        //         (t: any) =>
+        //           t.namespace === result.namespace && t.slug === result.slug
+        //       )
+        //   );
+
+        // if (strictResult.length > 0) {
+        //   useMatch(strictResult[0]);
+        //   continue;
+        // }
+
+        const matches = fuse
+          .search(awacyGame.simplifiedName)
+          // Remove results with same namespace and slug
           .filter(
             (result: any, index: number, self: any) =>
               index ===
               self.findIndex(
                 (t: any) =>
-                  t.namespace === result.namespace && t.slug === result.slug
+                  t.item.namespace === result.item.namespace &&
+                  t.item.slug === result.item.slug
               )
           );
 
-        if (result.length > 0) {
+        if (matches.length > 0) {
           // If perfect match, use that
-          if (result[0].score <= 0.0001) {
-            console.log(Chalk.green(`${game.name} -> ${result[0].item.name}`));
-
-            game.storeIds.epic = {
-              namespace: result[0].item.namespace,
-              slug: result[0].item.slug,
-            };
+          if (matches[0].score <= 0.0001) {
+            useMatch(matches[0].item);
           }
           // If no perfect match, wait for confirmation
           else {
-            console.log(Chalk.blue(game.name));
-            // Use enquirer to select answer
-            const choices = [
-              {
-                name: "None",
-                message: "None",
-                hint: "None of the below",
-              },
-            ].concat(
-              result.map((r, index) => {
-                return {
-                  // TODO: Use real name here
-                  name: `${index}`,
-                  message: `${r.item.name}`,
-                  hint: terminalLink(
-                    "Open in Epic Games Store",
-                    `https://www.epicgames.com/store/product/${r.item.slug.replaceAll(
-                      /\/home$/g,
-                      ""
-                    )}`,
-                    {
-                      fallback(_text, url) {
-                        return url;
-                      },
-                    }
-                  ),
-                };
+            console.log(Chalk.blue(awacyGame.name));
+
+            const selection: "None" | number = (
+              await inquirer.prompt({
+                type: "list",
+                name: "selection",
+                message: `Select the correct match for ${awacyGame.name}`,
+                choices: [
+                  {
+                    name: "None",
+                    short: "None of the below",
+                    value: "None",
+                  },
+                  ...matches.map((r, index) => {
+                    return {
+                      name: `${r.item.name} (https://epicgames.com/p/${r.item.slug})`,
+                      value: index,
+                      short: r.item.name,
+                    };
+                  }),
+                ],
               })
-            );
+            ).selection;
 
-            // @ts-ignore
-            const answer = await new Enquirer.Select({
-              name: "gameMatch",
-              message: `Select the correct match for ${game.name}`,
-              choices,
-            }).run();
-
-            if (answer === "None") {
-              // Skipping this game
-              console.log(Chalk.red(game.name));
+            if (selection === "None") {
+              rejectMatches();
               continue;
             } else {
-              console.log(
-                Chalk.green(`${game.name} -> ${result[0].item.name}`)
-              );
-
-              game.storeIds.epic = {
-                namespace: result[answer].item.namespace,
-                slug: result[answer].item.slug,
-              };
+              useMatch(matches[selection].item);
             }
           }
         } else {
-          console.log(Chalk.red(game.name));
+          rejectMatches();
         }
       }
 
-      // Write back to awacy_games.json
+      // Write back to AWACY's games.json
       fs.writeFileSync(
         this.awacyGamesJson,
-        JSON.stringify(awacy_games, null, 4),
+        JSON.stringify(
+          // Remove simplifiedName from the output
+          awacyGames.map((game: AwacyGameInternal): AwacyGame => {
+            delete game.simplifiedName;
+            return game;
+          }),
+          null,
+          4
+        ),
         "utf8"
       );
     }
