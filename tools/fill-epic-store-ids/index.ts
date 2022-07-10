@@ -38,7 +38,7 @@ runExit(
         };
       });
 
-      const epicOffers: EpicGame[] = JSON.parse(
+      const epicGames: EpicGame[] = JSON.parse(
         fs.readFileSync(this.epicDataOffersListsJson, "utf8")
       )
         .map((offer: EpicDataOfferList) => {
@@ -51,26 +51,26 @@ runExit(
             simplifiedName: name && simplifyGameName(name),
           };
         })
-        .filter((offer: EpicGame) => {
+        .filter((game: EpicGame) => {
           return (
             // Filter out offers that are not games
-            offer.offerTypes.includes("games") &&
+            game.offerTypes.includes("games") &&
             // Filter out bundles
-            !offer.offerTypes.includes("bundle") &&
+            !game.offerTypes.includes("bundle") &&
             // Either include "games/edition/base" or does not include "games/edition"
-            (offer.offerTypes.includes("games/edition/base") ||
-              !offer.offerTypes.includes("games/edition")) &&
+            (game.offerTypes.includes("games/edition/base") ||
+              !game.offerTypes.includes("games/edition")) &&
             // Filter out empty slugs
-            offer.slug !== "" &&
+            game.slug !== "" &&
             // Either slug ends with /home or does not container any /
-            (offer.slug.endsWith("/home") || !offer.slug.includes("/")) &&
+            (game.slug.endsWith("/home") || !game.slug.includes("/")) &&
             // namespace isn't epic
-            offer.namespace !== "epic"
+            game.namespace !== "epic"
           );
         });
 
       // fuse.js is used to find the best match for each game name
-      const fuse = new Fuse(epicOffers, {
+      const fuse = new Fuse(epicGames, {
         includeScore: true,
         keys: ["simplifiedName"],
         shouldSort: true,
@@ -90,26 +90,6 @@ runExit(
         function rejectMatches() {
           console.log(Chalk.red(awacyGame.name));
         }
-
-        // Search the list first with a stricter approach
-        // const strictResult = epicOffers
-        //   .filter(
-        //     (offer: EpicGame) =>
-        //       offer.simplifiedName === awacyGame.simplifiedName
-        //   )
-        //   .filter(
-        //     (result: any, index: number, self: any) =>
-        //       index ===
-        //       self.findIndex(
-        //         (t: any) =>
-        //           t.namespace === result.namespace && t.slug === result.slug
-        //       )
-        //   );
-
-        // if (strictResult.length > 0) {
-        //   useMatch(strictResult[0]);
-        //   continue;
-        // }
 
         const matches = fuse
           .search(awacyGame.simplifiedName)
