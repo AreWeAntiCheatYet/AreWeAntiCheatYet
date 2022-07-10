@@ -10,6 +10,11 @@ export interface AwacyGame {
   updates?: (UpdatesEntity | null)[] | null;
   storeIds: StoreIds;
 }
+
+export interface AwacyGameInternal extends AwacyGame {
+  simplifiedName: string;
+}
+
 export interface UpdatesEntity {
   name: string;
   date: string;
