@@ -21,7 +21,7 @@
     "@mantine/hooks": "4.2.11",
     "@mantine/modals": "^4.2.11",
     "@mantine/next": "4.2.11",
-    "@next/bundle-analyzer": "^12.2.0",
+    "@next/bundle-analyzer": "^12.2.2",
     "@tabler/icons": "^1.72.0",
     "cookies-next": "^2.1.1",
     "dayjs": "^1.11.3",
