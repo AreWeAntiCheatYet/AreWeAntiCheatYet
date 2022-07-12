@@ -4,6 +4,11 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 module.exports = withBundleAnalyzer({
   reactStrictMode: true,
+  experimental: {
+    images: {
+      unoptimized: true,
+    },
+  },
   staticPageGenerationTimeout: 30000,
   eslint: {
     ignoreDuringBuilds: true,
