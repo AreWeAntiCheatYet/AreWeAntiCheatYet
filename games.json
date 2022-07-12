@@ -684,6 +684,7 @@
             }
         ],
         "storeIds": {
+            "steam": "872200",
             "epic": {
                 "namespace": "933ada2ec45e4184ae840d64c99e0ba9",
                 "slug": "rogue-company"
@@ -725,6 +726,7 @@
             }
         ],
         "storeIds": {
+            "steam": "1056640",
             "epic": {
                 "namespace": "bf333e6236914222a95a536389c05813",
                 "slug": "phantasy-star-online-2"
@@ -1273,6 +1275,7 @@
         "notes": [],
         "updates": [],
         "storeIds": {
+            "steam": "884660",
             "epic": {
                 "namespace": "2b352b4aea3849bd9519842dda263ac7",
                 "slug": "crsed-f-o-a-d"
@@ -1292,6 +1295,7 @@
         "notes": [],
         "updates": [],
         "storeIds": {
+            "steam": "1222730",
             "epic": {
                 "namespace": "bc2b0372eaa448469cb9a769f27acea1",
                 "slug": "star-wars-squadrons"
@@ -1786,6 +1790,7 @@
         "notes": [],
         "updates": [],
         "storeIds": {
+            "steam": "1399780",
             "epic": {
                 "namespace": "newt",
                 "slug": "spellbreak"
@@ -3976,6 +3981,7 @@
         "notes": [],
         "updates": [],
         "storeIds": {
+            "steam": "271590",
             "epic": {
                 "namespace": "d5241c76f178492ea1540fce45616757",
                 "slug": "grand-theft-auto-v"
