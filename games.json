@@ -171,7 +171,12 @@
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Make sure to check recent updates, the game is known to break often (And the status may not update to reflect that)",
+                ""
+            ]
+        ],
         "updates": [
             {
                 "name": "Hope to provide such support in the near future",
@@ -187,6 +192,11 @@
                 "name": "Proton Experimental - Now Playable: Paladins",
                 "date": "Thu Jun 30 2022 16:00:00 GMT+0000",
                 "reference": "https://github.com/ValveSoftware/Proton/wiki/Changelog"
+            },
+            {
+                "name": "Reports of game not working",
+                "date": "Jul 13, 2022, 2:29 AM GMT+2",
+                "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/581"
             }
         ],
         "storeIds": {
