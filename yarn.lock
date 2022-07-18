@@ -936,7 +936,7 @@
     clsx "^1.1.1"
     csstype "3.0.9"
 
-"@metascraper/helpers@^5.29.14", "@metascraper/helpers@^5.29.15":
+"@metascraper/helpers@^5.29.15":
   version "5.29.15"
   resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.29.15.tgz#73aaf1997ba54ac8d97493adcdadb8fa5a950317"
   integrity sha512-7I7X3cHlOnFP5jmbv9/LgATR23tbcp+nYBRzUfnWH6zHt5MfbHIkN+JA45MeflrCBZ+X26RHm8tMVHrYNwUxmA==
@@ -1222,10 +1222,10 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
-"@tabler/icons@^1.74.0":
-  version "1.74.0"
-  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-1.74.0.tgz#21c3295a43d8e7f0d64b72fca7aaed8480b5ee80"
-  integrity sha512-kzoA8YTogdn6CBY4C0eopOZxAsWsSAQouHdydNhr6nFj4LZXHIStYGSt0R9B05fHSBVMic0d6ZRbpKuxMFqsWQ==
+"@tabler/icons@^1.76.0":
+  version "1.76.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-1.76.0.tgz#b47d44c1be0884bd0303d6b6830e087a474d8f7b"
+  integrity sha512-MEN8cWpnYoY0BcPgrtwnkA+U3y5uP6haMqsX1jq5xbej9KZK9EnWc+J2Xi3X3y5HUtTsSeQry+qEOxCzrxw9EQ==
 
 "@testing-library/dom@^8.0.0", "@testing-library/dom@^8.14.0":
   version "8.14.0"
