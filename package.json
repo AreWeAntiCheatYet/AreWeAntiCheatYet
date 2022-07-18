@@ -62,7 +62,7 @@
     "node-fetch": "^3.2.6",
     "open-graph-scraper": "^4.11.1",
     "prettier": "^2.7.1",
-    "ts-jest": "^28.0.5",
+    "ts-jest": "^28.0.7",
     "typescript": "4.7.4"
   }
 }
