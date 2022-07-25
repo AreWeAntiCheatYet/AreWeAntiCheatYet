@@ -963,10 +963,10 @@
     url-regex-safe "~3.0.0"
     video-extensions "~1.2.0"
 
-"@next/bundle-analyzer@^12.2.0":
-  version "12.2.0"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-12.2.0.tgz#8abe89e23c6a9bf5afba3a15ee4d5f432d3db3b9"
-  integrity sha512-Ac+lPLMUW2TBjUi29CwQQu8ay74+mjFoSiI4O3ZlnBVD0xOeQPKwPca/9T9ScO/6/Axx4+B+42eEr2UtgNXeiw==
+"@next/bundle-analyzer@^12.2.3":
+  version "12.2.3"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-12.2.3.tgz#8b4b934d28c09b9c11c4a074fbcc444402c8e017"
+  integrity sha512-tRgyo5afC02eofvnN9IerUvTJpxV+eQH4S02hc1U4oJJOhpHbwRinFUE3u4SNWbT5wSFofv1tnw5rYhyX7W8wQ==
   dependencies:
     webpack-bundle-analyzer "4.3.0"
 
