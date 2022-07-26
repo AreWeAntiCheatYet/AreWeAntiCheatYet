@@ -20,7 +20,7 @@
     "@mantine/core": "4.2.11",
     "@mantine/hooks": "4.2.11",
     "@mantine/modals": "^4.2.11",
-    "@mantine/next": "4.2.11",
+    "@mantine/next": "5.0.0",
     "@next/bundle-analyzer": "^12.2.0",
     "@tabler/icons": "^1.76.0",
     "cookies-next": "^2.1.1",
