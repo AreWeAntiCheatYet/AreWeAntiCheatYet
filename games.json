@@ -4184,13 +4184,18 @@
         "url": "https://scpslgame.com/",
         "name": "SCP: Secret Laboratory",
         "logo": "",
-        "status": "Supported",
+        "status": "Running",
         "native": false,
         "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/498#issuecomment-1172345129",
         "anticheats": [
             "Unknown (Custom)"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Game seems to often break after updates",
+                "https://www.protondb.com/app/700330#RDAhc7-WAR"
+            ]
+        ],
         "updates": [],
         "storeIds": {
             "steam": "700330"
