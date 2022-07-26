@@ -4296,5 +4296,21 @@
         "storeIds": {
             "steam": "438100"
         }
+    },
+    {
+        "url": "https://www.nttgameonline.com/knight/",
+        "name": "Knight Online",
+        "logo": "",
+        "status": "Broken",
+        "native": false,
+        "reference": "",
+        "anticheats": [
+            "XIGNCODE3"
+        ],
+        "notes": [],
+        "updates": [],
+        "storeIds": {
+            "steam": "389430"
+        }
     }
 ]
