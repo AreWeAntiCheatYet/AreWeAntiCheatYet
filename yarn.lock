@@ -1222,10 +1222,10 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
-"@tabler/icons@^1.76.0":
-  version "1.76.0"
-  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-1.76.0.tgz#b47d44c1be0884bd0303d6b6830e087a474d8f7b"
-  integrity sha512-MEN8cWpnYoY0BcPgrtwnkA+U3y5uP6haMqsX1jq5xbej9KZK9EnWc+J2Xi3X3y5HUtTsSeQry+qEOxCzrxw9EQ==
+"@tabler/icons@^1.78.1":
+  version "1.78.1"
+  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-1.78.1.tgz#7577c1b22c736cec43718e512c89b4452c926e99"
+  integrity sha512-QT/94Hufvzn4PxsEyN9NTh96XmNaGGgMh7sKcBZ2216pE9B+Ala98KpdNwTKKBlEvRvHw9y14zW4qFYzxGOhZw==
 
 "@testing-library/dom@^8.0.0", "@testing-library/dom@^8.14.0":
   version "8.14.0"
