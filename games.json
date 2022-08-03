@@ -1049,6 +1049,7 @@
         "notes": [],
         "updates": [],
         "storeIds": {
+            "steam": "1301210",
             "epic": {
                 "namespace": "5bb3d43818ae4188850fe1dbad9d57a5",
                 "slug": "knockout-city"
