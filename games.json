@@ -4287,7 +4287,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "1818750"
+            "steam": "1818750",
+            "epic": {
+                "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+                "slug": "multiversus"
+            }
         }
     },
     {
