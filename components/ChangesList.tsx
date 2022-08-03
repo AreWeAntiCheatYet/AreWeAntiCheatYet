@@ -258,7 +258,7 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
   );
 }
 
-interface ChangesListProps extends AccordionProps {
+interface ChangesListProps extends Omit<AccordionProps, 'children'> {
   games: Game[];
   antiCheatIcons: (string | null)[][];
 }
