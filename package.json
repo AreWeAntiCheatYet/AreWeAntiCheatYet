@@ -17,17 +17,19 @@
     "test": "npm run prettier:check && npm run lint && npm run typecheck && npm run jest"
   },
   "dependencies": {
-    "@mantine/core": "4.2.11",
-    "@mantine/hooks": "4.2.11",
-    "@mantine/modals": "^4.2.11",
-    "@mantine/next": "4.2.11",
+    "@emotion/react": "^11.10.0",
+    "@emotion/server": "^11.10.0",
+    "@mantine/core": "^5.0.2",
+    "@mantine/hooks": "^5.0.2",
+    "@mantine/modals": "^5.0.2",
+    "@mantine/next": "^5.0.2",
     "@next/bundle-analyzer": "^12.2.0",
     "@tabler/icons": "^1.76.0",
     "cookies-next": "^2.1.1",
     "dayjs": "^1.11.4",
     "next": "12.2.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.18.6",
@@ -40,7 +42,7 @@
     "@types/jest": "^28.1.4",
     "@types/node": "^18.0.0",
     "@types/open-graph-scraper": "^4.8.1",
-    "@types/react": "^17.0.2",
+    "@types/react": "^18.0.15",
     "@typescript-eslint/eslint-plugin": "^5.30.0",
     "@typescript-eslint/parser": "^5.30.0",
     "babel-loader": "^8.2.5",
