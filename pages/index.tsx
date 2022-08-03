@@ -81,7 +81,6 @@ export default function Home({
           toggleShowStores={toggleShowStores}
         />
       }
-      fixed
     >
       <Stack align="center" sx={{ marginTop: 25 }}>
         <Overview overview={overview} sx={{ marginBottom: 25 }} />
