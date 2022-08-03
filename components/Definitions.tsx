@@ -2,7 +2,7 @@ import { Accordion, AccordionProps, Group, Stack, Text, ThemeIcon, Title } from 
 import { IconCheck, IconClock, IconInfoCircle, IconMinus, IconThumbUp, IconX } from '@tabler/icons';
 import StyledAccordion from './StyledAccordion';
 
-export default function Definitions(props: AccordionProps) {
+export default function Definitions(props: Omit<AccordionProps, 'children'>) {
   return (
     <StyledAccordion {...props}>
       <Accordion.Item value="legend">

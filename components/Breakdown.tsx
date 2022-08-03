@@ -3,7 +3,7 @@ import { IconListDetails } from '@tabler/icons';
 import Overview from '../types/overview';
 import StyledAccordion from './StyledAccordion';
 
-interface BreakdownProps extends AccordionProps {
+interface BreakdownProps extends Omit<AccordionProps, 'children'> {
   statusOverview: Overview;
   breakdown: [string, Overview][];
 }
