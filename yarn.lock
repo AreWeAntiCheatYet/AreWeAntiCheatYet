@@ -4584,15 +4584,15 @@ metascraper-title@^5.29.15:
   dependencies:
     "@metascraper/helpers" "^5.29.15"
 
-metascraper@^5.29.18:
-  version "5.29.18"
-  resolved "https://registry.yarnpkg.com/metascraper/-/metascraper-5.29.18.tgz#45b8a3fd89e72ba95bbde1d7915a82473193121f"
-  integrity sha512-aVwKhYrLfwJozzJMy/Fo03TwLpQIDl+6vBNPFg/MSmmzOn7XKnX8wkQe+SbWkPKBCMstrayY6xsvPVFE5qc33g==
+metascraper@^5.30.1:
+  version "5.30.1"
+  resolved "https://registry.yarnpkg.com/metascraper/-/metascraper-5.30.1.tgz#fed866c79db979bcdb68e94999ef5685a2491adc"
+  integrity sha512-KDBbAMdNPYTO10EbIalz2au8nVgCH5oPZe65nw4Vpt407WQEW8nyqvuP5aNCVHKie0gPceSCGgi7IAiyt3Efjw==
   dependencies:
     "@metascraper/helpers" "^5.29.15"
     cheerio "~1.0.0-rc.12"
     lodash "~4.17.21"
-    whoops "~4.1.1"
+    whoops "~4.1.2"
 
 micromatch@^4.0.4:
   version "4.0.5"
@@ -6160,10 +6160,10 @@ which@^2.0.1, which@^2.0.2:
   dependencies:
     isexe "^2.0.0"
 
-whoops@~4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/whoops/-/whoops-4.1.1.tgz#fc362098571b151d3b156efb82b339ba797fc25e"
-  integrity sha512-FuLcMHGFfTLJvnwEy6OlxDzRKzjuWibogBVBGBICHQY1LRozEbmNDKea22fNI4fQsMt99aiP/Hyp0Z5CDGxq/Q==
+whoops@~4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/whoops/-/whoops-4.1.2.tgz#b8bf080b9b4f4ab93f8249734ac1086fb14b4dd9"
+  integrity sha512-QITkghBnjbKGOtOrJOGrHnupWDX/AHFlcTXL3/A0B5rx2DacLrpuIpcFVmwYb0IOWZ0G3sxYkS8LBSZ4J/ezng==
   dependencies:
     clean-stack "~3.0.0"
     mimic-fn "~3.1.0"
