@@ -42,7 +42,7 @@
     "@types/jest": "^28.1.4",
     "@types/node": "^18.0.0",
     "@types/open-graph-scraper": "^4.8.1",
-    "@types/react": "^18.0.15",
+    "@types/react": "^18.0.16",
     "@typescript-eslint/eslint-plugin": "^5.30.0",
     "@typescript-eslint/parser": "^5.30.0",
     "babel-loader": "^8.2.5",
