@@ -22,7 +22,7 @@
     "@mantine/core": "^5.0.2",
     "@mantine/hooks": "^5.0.2",
     "@mantine/modals": "^5.0.2",
-    "@mantine/next": "^5.0.3",
+    "@mantine/next": "^5.1.0",
     "@next/bundle-analyzer": "^12.2.0",
     "@tabler/icons": "^1.76.0",
     "cookies-next": "^2.1.1",
