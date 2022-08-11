@@ -1266,10 +1266,10 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
-"@tabler/icons@^1.79.0":
-  version "1.79.0"
-  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-1.79.0.tgz#5432d874dc1f34ef09f9378a05a92c07a640f6f0"
-  integrity sha512-XFWS5YySm/UEn1PY452+td3JoV2/SPQ2QNofMSMkFyVygTX0gANZqCFG4yECeGgFaka9ilSAXZD9rZ/1u8wiLg==
+"@tabler/icons@^1.80.0":
+  version "1.80.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-1.80.0.tgz#a2f83e08736cc76e526b44c64adb2366cd3b6a85"
+  integrity sha512-Ij+9AU8DMW68lO4Q2jpDdJNMMNg4B/3mI59K1+l/V0EbiDHTIifTZM/u2oUqWu1Y2Zx3HGnnMA9SeAddkzhQ3Q==
 
 "@testing-library/dom@^8.0.0", "@testing-library/dom@^8.14.0":
   version "8.14.0"
