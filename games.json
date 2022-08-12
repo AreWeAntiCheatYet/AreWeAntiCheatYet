@@ -1784,13 +1784,19 @@
         "name": "Outriders",
         "logo": "",
         "native": false,
-        "status": "Broken",
-        "reference": "",
+        "status": "Supported",
+        "reference": "https://www.gamingonlinux.com/2022/07/outriders-officially-gets-a-playable-steam-deck-rating/",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
         "notes": [],
-        "updates": [],
+        "updates": [
+            {
+                "name": "Playable Steam Deck rating",
+                "date": "Jul 29, 2022, 11:01 AM",
+                "reference": "https://www.gamingonlinux.com/2022/07/outriders-officially-gets-a-playable-steam-deck-rating/"
+            }
+        ],
         "storeIds": {
             "epic": {
                 "namespace": "c6e54ebd92da4ee8819c1c0956cebdc4",
