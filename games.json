@@ -166,7 +166,7 @@
         "name": "Paladins",
         "logo": "",
         "native": false,
-        "status": "Supported",
+        "status": "Broken",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -197,6 +197,11 @@
                 "name": "Reports of game not working",
                 "date": "Jul 13, 2022, 2:29 AM GMT+2",
                 "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/581"
+            },
+            {
+                "name": "Previously working most likely due to fluke in EAC Config",
+                "date": "Aug 05, 2022, 9:57 PM",
+                "reference": "https://github.com/ValveSoftware/Proton/issues/6062#issuecomment-1206809079"
             }
         ],
         "storeIds": {
@@ -268,7 +273,7 @@
         "name": "SMITE",
         "logo": "",
         "native": false,
-        "status": "Running",
+        "status": "Broken",
         "reference": "https://www.protondb.com/app/386360",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -279,7 +284,13 @@
                 "https://www.protondb.com/app/386360#uEyBL2NWkn"
             ]
         ],
-        "updates": [],
+        "updates": [
+            {
+                "name": "Previously working most likely due to fluke in EAC Config",
+                "date": "Aug 05, 2022, 9:57 PM",
+                "reference": "https://github.com/ValveSoftware/Proton/issues/6062#issuecomment-1206809079"
+            }
+        ],
         "storeIds": {
             "steam": "386360",
             "epic": {
