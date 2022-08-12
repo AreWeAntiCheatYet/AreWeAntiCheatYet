@@ -3722,7 +3722,12 @@
         "anticheats": [
             "Unknown (Custom)"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Works OOTB with Lutris",
+                "https://lutris.net/games/garena/"
+            ]
+        ],
         "updates": [],
         "storeIds": {
             "epic": {
