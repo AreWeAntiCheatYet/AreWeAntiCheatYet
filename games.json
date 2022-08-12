@@ -4377,6 +4377,20 @@
         }
     },
     {
+        "url": "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-the-breakers",
+        "name": "DRAGON BALL: THE BREAKERS",
+        "logo": "",
+        "status": "Broken",
+        "native": false,
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": [],
+        "updates": [],
+        "storeIds": {}
+    },
+    {
         "url": "https://www.rumbleverse.com",
         "name": "Rumbleverse",
         "logo": "",
