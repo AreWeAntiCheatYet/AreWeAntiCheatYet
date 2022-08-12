@@ -4375,5 +4375,24 @@
         "storeIds": {
             "steam": "389430"
         }
+    },
+    {
+        "url": "https://www.rumbleverse.com",
+        "name": "Rumbleverse",
+        "logo": "",
+        "status": "Broken",
+        "native": false,
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": [],
+        "updates": [],
+        "storeIds": {
+            "epic": {
+                "namespace": "0bef9383794a4d779ba0628084b14cba",
+                "slug": "rumbleverse"
+            }
+        }
     }
 ]
