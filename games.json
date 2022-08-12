@@ -835,7 +835,12 @@
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Show your demand!",
+                "https://discussions.ubisoft.com/post/805767"
+            ]
+        ],
         "updates": [],
         "storeIds": {
             "steam": "304390",
