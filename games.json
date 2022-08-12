@@ -362,6 +362,11 @@
                 "name": "Activated BattlEye in Proton",
                 "date": "Nov 06, 2021, 2:15 AM",
                 "reference": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966"
+            },
+            {
+                "name": "Native Build deprecated",
+                "date": "Jul 11, 2022, 10:13 AM",
+                "reference": "https://www.gamingonlinux.com/2022/07/ark-survival-evolved-switches-away-from-linux-native-to-use-proton/"
             }
         ],
         "storeIds": {
