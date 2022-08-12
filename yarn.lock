@@ -948,20 +948,20 @@
   dependencies:
     "@mantine/utils" "5.0.2"
 
-"@mantine/next@^5.0.3":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@mantine/next/-/next-5.0.3.tgz#f2236677384817a5222f8ff647281cdcf8bf25f8"
-  integrity sha512-4bdFJ8nz+pVW0Lks5oZOYP9PsRyFhunBduZzil//ixqKNFHHVBrTxYhCbmEZ7TjFrDqtlU1/dj1oWb73xnCNzQ==
+"@mantine/next@^5.1.3":
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/@mantine/next/-/next-5.1.3.tgz#258f12a0b0c8ffd612f54f84d973a51c2362c8e2"
+  integrity sha512-vDiut4fztj8ZeMjG8wIAtWnKDyqZ2cEZpyJigmsNkEHCa3Tr8DtYA6+qZQCO8myYu9R6mmFXni74i+P5Iak1xQ==
   dependencies:
-    "@mantine/ssr" "5.0.3"
-    "@mantine/styles" "5.0.3"
+    "@mantine/ssr" "5.1.3"
+    "@mantine/styles" "5.1.3"
 
-"@mantine/ssr@5.0.3":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@mantine/ssr/-/ssr-5.0.3.tgz#84c41fb60296c74a59b088dd42af1bd9c9769429"
-  integrity sha512-+MXvZNCb8IA2ZDH5wttAouOYAezyi9sMxE+Gwr2QVEgwYW5iAnfIIKp7IzgPvduOr6GK49jo2W/7wFpAfj8abA==
+"@mantine/ssr@5.1.3":
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/@mantine/ssr/-/ssr-5.1.3.tgz#c27b0ad42859f7cafd616ac9e8fd9c9a3f52a705"
+  integrity sha512-geiA4PdFeSVmhqOtbX0+JxzQZQOnWd+n7sVwgeG9+4iojmkiETDKnoNx1tVBXvO5oFQoeX3ivVEX/Sv4Fz10DQ==
   dependencies:
-    "@mantine/styles" "5.0.3"
+    "@mantine/styles" "5.1.3"
     html-react-parser "1.4.12"
 
 "@mantine/styles@5.0.2":
@@ -972,10 +972,10 @@
     clsx "1.1.1"
     csstype "3.0.9"
 
-"@mantine/styles@5.0.3":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@mantine/styles/-/styles-5.0.3.tgz#0caabd4e607c219eadf7229e3a47fff22d4880cc"
-  integrity sha512-jeyNigJCctBzdiELK7YsE2khyAYj/SkIFMxjUQzzZC54O+leFGpukHefVOORaIelTzs9q9SwmQAxI2qpMcu5+Q==
+"@mantine/styles@5.1.3":
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/@mantine/styles/-/styles-5.1.3.tgz#8a2d4eb4b3957464f920ff6c0350ba7c03a16489"
+  integrity sha512-0GtZ8RFOlk8d6RBcN7Kg+U2QwRzKj3NMxYhZQt9faJx0gpfbbr9tFyBaY7aiSC5hmT5v7B8C7HS5jrsPMaI+Ww==
   dependencies:
     clsx "1.1.1"
     csstype "3.0.9"
