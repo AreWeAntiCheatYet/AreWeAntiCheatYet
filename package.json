@@ -26,7 +26,7 @@
     "@next/bundle-analyzer": "^12.1.4",
     "@tabler/icons": "^1.81.0",
     "cookies-next": "^2.1.1",
-    "dayjs": "^1.11.4",
+    "dayjs": "^1.11.5",
     "next": "12.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -64,7 +64,7 @@
     "node-fetch": "^3.2.10",
     "open-graph-scraper": "^4.11.1",
     "prettier": "^2.7.1",
-    "ts-jest": "^28.0.7",
+    "ts-jest": "^28.0.8",
     "typescript": "4.7.4"
   }
 }
