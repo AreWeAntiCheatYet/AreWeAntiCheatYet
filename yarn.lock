@@ -4790,12 +4790,12 @@ metascraper-description@^5.30.3:
   dependencies:
     "@metascraper/helpers" "^5.30.3"
 
-metascraper-title@^5.30.2:
-  version "5.30.2"
-  resolved "https://registry.yarnpkg.com/metascraper-title/-/metascraper-title-5.30.2.tgz#1820547372aada10243ef7113777771333c9425b"
-  integrity sha512-b2rHz/PctXiy26GYO9oaVfkI0SiloVJD+TiqVKXH4nLkSU/1KQywvj5SXne3Iyl6U+SLeaSh104CKmdNkZQ88A==
+metascraper-title@^5.30.3:
+  version "5.30.3"
+  resolved "https://registry.yarnpkg.com/metascraper-title/-/metascraper-title-5.30.3.tgz#cf49790fb7ec40f4bc212f725eb93263c47143f0"
+  integrity sha512-KSql723y+9QEXmyGAnLuFc8CPQQHC6gFBH84cdcQ36nE/9ekLlvHS2+zGol5DgE6FcmLejYvga2ijAgD6luGug==
   dependencies:
-    "@metascraper/helpers" "^5.30.2"
+    "@metascraper/helpers" "^5.30.3"
 
 metascraper@^5.30.2:
   version "5.30.2"
