@@ -3688,13 +3688,24 @@
         "name": "Dauntless",
         "logo": "",
         "native": false,
-        "status": "Broken",
+        "status": "Running",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [],
-        "updates": [],
+        "notes": [
+            [
+                "Requires workaround",
+                "https://www.reddit.com/r/linux_gaming/comments/wrok4z/dauntless_is_working_again_on_linux/"
+            ]
+        ],
+        "updates": [
+            {
+                "name": "Working with workaround",
+                "date": "Aug 19, 2022, 02:52 PM GMT+2",
+                "reference": "https://www.reddit.com/r/linux_gaming/comments/wrok4z/dauntless_is_working_again_on_linux/"
+            }
+        ],
         "storeIds": {
             "epic": {
                 "namespace": "jackal",
