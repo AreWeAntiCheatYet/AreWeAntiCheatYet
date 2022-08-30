@@ -455,7 +455,11 @@
             }
         ],
         "storeIds": {
-            "steam": "1085660"
+            "steam": "1085660",
+            "epic": {
+                "namespace": "428115def4ca4deea9d69c99c5a5a99e",
+                "slug": "destiny-2"
+            }
         }
     },
     {
