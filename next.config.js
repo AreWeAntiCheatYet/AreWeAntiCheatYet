@@ -4,8 +4,8 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 module.exports = withBundleAnalyzer({
   reactStrictMode: true,
-  basePath:  '/AreWeAntiCheatYet',
-  assetPrefix: '/AreWeAntiCheatYet',
+  basePath: process.env.PAGES ? '/AreWeAntiCheatYet' : '',
+  assetPrefix: process.env.PAGES ? '/AreWeAntiCheatYet' : '',
   experimental: {
     images: {
       unoptimized: true,

@@ -28,7 +28,7 @@ jobs:
         run: 'yarn'
 
       - name: 👷 Build
-        run: 'yarn export'
+        run: 'PAGES=1 yarn export'
 
       - name: 🎉 Deploy
         uses: peaceiris/actions-gh-pages@v3
