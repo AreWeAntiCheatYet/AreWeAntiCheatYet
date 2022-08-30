@@ -10,6 +10,52 @@ import ogs from 'open-graph-scraper';
 import Game, { GameStatus } from '../types/game';
 import Overview from '../types/overview';
 
+const imgps = 5;
+let image_counter = 0;
+
+export async function getImageIGDB(name: string) {
+  const response = await fetch(`https://www.igdb.com/search_autocomplete_all?q=${name}`);
+
+  if (!response.ok) {
+    return null;
+  }
+
+  const json = ((await response.json()) as any);
+  const cloudinary = json?.game_suggest?.at(0)?.cloudinary;
+
+  if (!cloudinary) {
+    return null;
+  }
+
+  return `https://images.igdb.com/igdb/image/upload/t_cover_big/${cloudinary}.png`;
+}
+
+export async function getImageLutris(name: string) {
+  const response = await fetch(`https://lutris.net/api/games?search=${name}`);
+
+  if (!response.ok) {
+    return null;
+  }
+
+  const json = ((await response.json()) as any);
+  return json?.results?.at(0)?.coverart;
+}
+
+export async function getImage(name: string) {
+  let icon = await getImageIGDB(name);
+
+  if (!icon) {
+    icon = await getImageLutris(name);
+    console.log('Fall back to lutris for', name, 'resulted in', icon);
+  }
+
+  if ((++image_counter) % imgps === 0) {
+    await new Promise((resolve) => { setTimeout(resolve, 5000); });
+  }
+
+  return icon;
+}
+
 export async function downloadImagesAndSetLogo(games: Game[]) {
   if (process.env.NODE_ENV === 'development') {
     //? Dont fetch images on dev builds because they would be newly downloaded each time.
@@ -28,22 +74,16 @@ export async function downloadImagesAndSetLogo(games: Game[]) {
   const gamesWithNoIcons = games.filter((game) => !game.logo);
   const icons = await Promise.all(
     gamesWithNoIcons.map((game) =>
-      fetch(`https://www.igdb.com/search_autocomplete_all?q=${game.name}`)
+      getImage(game.name)
     )
   );
 
   for (const [index, icon] of icons.entries()) {
-    const suggestions: any = await icon.json();
+    if (icon) {
+      const blob = await fetch(icon);
+      fs.writeFileSync(`temp-icons/${index}.png`, Buffer.from(await blob.arrayBuffer()));
 
-    const name: string = suggestions.game_suggest[0].cloudinary;
-
-    if (name) {
-      const png = `https://images.igdb.com/igdb/image/upload/t_cover_big/${name}.png`;
-
-      const blob = await fetch(png);
-      fs.writeFileSync(`temp-icons/${name}.png`, Buffer.from(await blob.arrayBuffer()));
-
-      gm(`temp-icons/${name}.png`).write(`./public/logos/${name}.webp`, (err) => {
+      gm(`temp-icons/${index}.png`).write(`./public/logos/${index}.webp`, (err) => {
         if (err) {
           console.error(err);
         }
@@ -51,7 +91,7 @@ export async function downloadImagesAndSetLogo(games: Game[]) {
 
       gamesWithIcons.find(
         (game) => game.name === gamesWithNoIcons[index].name
-      )!.logo = `logos/${name}.webp`;
+      )!.logo = `logos/${index}.webp`;
     }
 
     // eslint-disable-next-line no-promise-executor-return
