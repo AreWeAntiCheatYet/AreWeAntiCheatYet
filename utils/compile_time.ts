@@ -87,7 +87,7 @@ export async function downloadImagesAndSetLogo(games: Game[]) {
       const blob = await fetch(icon);
       fs.writeFileSync(`temp-icons/${index}.png`, Buffer.from(await blob.arrayBuffer()));
 
-      gm(`temp-icons/${index}.png`).write(`../public/logos/${index}.webp`, (err) => {
+      gm(`temp-icons/${index}.png`).write(`./public/logos/${index}.webp`, (err) => {
         if (err) {
           console.error(err);
         }
