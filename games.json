@@ -844,7 +844,7 @@
         "name": "For Honor",
         "logo": "",
         "native": false,
-        "status": "Broken",
+        "status": "Planned",
         "reference": "https://www.protondb.com/app/304390",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -855,7 +855,13 @@
                 "https://discussions.ubisoft.com/post/805767"
             ]
         ],
-        "updates": [],
+        "updates": [
+            {
+                "name": "EasyAntiCheat.so added!",
+                "date": "Jul 28, 2022, 0:00 AM",
+                "reference": "https://steamdb.info/patchnotes/9148911/"
+            }
+        ],
         "storeIds": {
             "steam": "304390",
             "epic": {
