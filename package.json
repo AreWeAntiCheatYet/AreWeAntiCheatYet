@@ -8,7 +8,7 @@
     "analyze": "ANALYZE=true next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "export": "next build && next export",
+    "export": "next build && next export && touch ./out/.nojekyll",
     "lint": "next lint",
     "jest": "jest",
     "jest:watch": "jest --watch",
