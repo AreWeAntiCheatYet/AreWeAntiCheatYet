@@ -27,14 +27,10 @@ jobs:
         run: 'sudo apt-get update && sudo apt-get install imagemagick && sudo apt-get install graphicsmagick'
 
       - name: 🤖 Setup Project
-        uses: borales/actions-yarn@v3.0.0
-        with:
-          cmd: install
+        run: 'yarn'
 
       - name: 👷 Build
-        uses: borales/actions-yarn@v3.0.0
-        with:
-          cmd: export
+        run: 'yarn export'
 
       - name: 🎉 Deploy
         uses: peaceiris/actions-gh-pages@v3
