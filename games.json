@@ -4448,16 +4448,32 @@
         "native": false,
         "reference": "",
         "anticheats": [],
-        "notes": [
+        "notes": [],
+        "updates": [
             {
                 "name": "Removed EAC",
                 "date": "16 August 2022 16:19:04 UTC",
                 "reference": "https://steamdb.info/patchnotes/9316328/"
             }
         ],
-        "updates": [],
         "storeIds": {
             "steam": "489940"
+        }
+    },
+    {
+        "url": "https://www.toweroffantasy-global.com/",
+        "name": "Tower of Fantasy",
+        "logo": "",
+        "status": "Broken",
+        "native": false,
+        "reference": "",
+        "anticheats": [
+            "Unknown (Custom)"
+        ],
+        "notes": [],
+        "updates": [],
+        "storeIds": {
+            "steam": "2064650"
         }
     }
 ]
