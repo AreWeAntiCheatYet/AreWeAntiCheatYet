@@ -92,7 +92,7 @@ function Item({ game, highlight, showStores, anticheatIcons }: ItemProps) {
                   target="_blank"
                   href={`https://store.epicgames.com/p/${game.storeIds.epic.slug}/`}
                 >
-                  <Image width="18" height="18" layout="fixed" src="/stores/epic-games.webp" />
+                  <img alt="epic-store" width="18" height="18" src="/stores/epic-games.webp" />
                 </ActionIcon>
               )}
               {game.storeIds.steam && (
