@@ -9,6 +9,7 @@ name: Deploy to Github-Pages
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    container: archlinux:latest
     strategy:
       fail-fast: false
 
@@ -22,7 +23,7 @@ jobs:
           node-version: ${{ matrix.node }}
 
       - name: 📩 Setup System Dependencies
-        run: 'sudo apt-get update && sudo apt-get install imagemagick && sudo apt-get install graphicsmagick'
+        run: 'pacman --noconfirm -Syu imagemagick graphicsmagick yarn npm nodejs'
 
       - name: 🤖 Setup Project
         run: 'yarn'
