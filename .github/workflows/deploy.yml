@@ -34,7 +34,7 @@ jobs:
       - name: 👷 Build
         uses: borales/actions-yarn@v3.0.0
         with:
-          cmd: build
+          cmd: export
 
       - name: 🎉 Deploy
         uses: peaceiris/actions-gh-pages@v3
