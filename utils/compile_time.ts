@@ -71,6 +71,10 @@ export async function downloadImagesAndSetLogo(games: Game[]) {
   }
   await fsPromise.mkdir('./temp-icons');
 
+  if (!fs.existsSync('./public/logos')) {
+    await fsPromise.mkdir('./public/logos');
+  }
+
   const gamesWithNoIcons = games.filter((game) => !game.logo);
   const icons = await Promise.all(
     gamesWithNoIcons.map((game) =>
