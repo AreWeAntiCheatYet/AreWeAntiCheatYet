@@ -4439,5 +4439,25 @@
                 "slug": "rumbleverse"
             }
         }
+    },
+    {
+        "url": "",
+        "name": "BATTALION: Legacy",
+        "logo": "",
+        "status": "Supported",
+        "native": false,
+        "reference": "",
+        "anticheats": [],
+        "notes": [
+            {
+                "name": "Removed EAC",
+                "date": "16 August 2022 16:19:04 UTC",
+                "reference": "https://steamdb.info/patchnotes/9316328/"
+            }
+        ],
+        "updates": [],
+        "storeIds": {
+            "steam": "489940"
+        }
     }
 ]
