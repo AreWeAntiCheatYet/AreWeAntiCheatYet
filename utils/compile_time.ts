@@ -24,6 +24,7 @@ export async function getImageIGDB(name: string) {
   const cloudinary = json?.game_suggest?.at(0)?.cloudinary;
 
   if (!cloudinary) {
+    console.log('Failed to get cloudinary from IGDB', response.status, json.game_suggest);
     return null;
   }
 
@@ -38,7 +39,13 @@ export async function getImageLutris(name: string) {
   }
 
   const json = ((await response.json()) as any);
-  return json?.results?.at(0)?.coverart;
+  const icon = json?.results?.at(0)?.coverart;
+
+  if (!icon) {
+    console.log('Failed to get cloudinary from Lutris', response.status, json.results);
+  }
+
+  return icon;
 }
 
 export async function getImage(name: string) {
