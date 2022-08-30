@@ -30,7 +30,7 @@ jobs:
         uses: borales/actions-yarn@v3.0.0
         with:
           cmd: install
-        
+
       - name: 👷 Build
         uses: borales/actions-yarn@v3.0.0
         with:
@@ -40,4 +40,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./out
