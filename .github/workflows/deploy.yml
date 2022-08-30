@@ -28,16 +28,16 @@ jobs:
 
       - name: 🤖 Setup Project
         uses: borales/actions-yarn@v3.0.0
-          with:
-            cmd: install
+        with:
+          cmd: install
         
       - name: 👷 Build
         uses: borales/actions-yarn@v3.0.0
-          with:
-            cmd: build
+        with:
+          cmd: build
 
       - name: 🎉 Deploy
         uses: peaceiris/actions-gh-pages@v3
-          with:
-            github_token: ${{ secrets.GITHUB_TOKEN }}
-            publish_dir: ./dist
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
