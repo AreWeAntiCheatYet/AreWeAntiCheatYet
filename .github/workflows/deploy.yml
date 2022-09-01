@@ -2,7 +2,9 @@ on:
   push:
     branches: [master]
     paths:
-      - '*'
+      - '**.ts'
+      - '**.tsx'
+      - 'games.json'
   workflow_dispatch:
 
 name: Deploy to Github-Pages
