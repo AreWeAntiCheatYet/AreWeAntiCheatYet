@@ -11,7 +11,7 @@ import Game, { GameStatus } from '../types/game';
 import Overview from '../types/overview';
 
 const imgps = 5;
-let image_counter = 0;
+let imageCounter = 0;
 
 export async function getImageIGDB(name: string) {
   const response = await fetch(`https://www.igdb.com/search_autocomplete_all?q=${name}`);
@@ -56,7 +56,7 @@ export async function getImage(name: string) {
     console.log('Fall back to lutris for', name, 'resulted in', icon);
   }
 
-  if ((++image_counter) % imgps === 0) {
+  if ((++imageCounter) % imgps === 0) {
     await new Promise((resolve) => { setTimeout(resolve, 5000); });
   }
 
@@ -64,7 +64,7 @@ export async function getImage(name: string) {
 }
 
 export async function downloadImagesAndSetLogo(games: Game[]) {
-  if (process.env.NODE_ENV === 'development') {
+  if (process.env.NODE_ENV === 'development' || process.env.SKIP_HEAVY) {
     //? Dont fetch images on dev builds because they would be newly downloaded each time.
     console.log('Skipping cover image download');
     return games;
@@ -115,7 +115,7 @@ export async function downloadImagesAndSetLogo(games: Game[]) {
 }
 
 export async function fetchReferenceTitles(games: Game[]) {
-  if (process.env.NODE_ENV === 'development') {
+  if (process.env.NODE_ENV === 'development' || process.env.SKIP_HEAVY) {
     //? Dont fetch references on dev builds.
     console.log('Skipping reference resolve');
     return games;
