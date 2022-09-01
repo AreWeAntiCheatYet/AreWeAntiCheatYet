@@ -4,7 +4,9 @@ on:
     paths:
       - '**.ts'
       - '**.tsx'
+      - 'yarn.lock'
       - 'games.json'
+      - 'package.json'
   workflow_dispatch:
 
 name: Deploy to Github-Pages
