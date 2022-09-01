@@ -770,7 +770,7 @@
     },
     {
         "url": "https://pso2.jp/",
-        "name": "Phantasy Star Online 2",
+        "name": "Phantasy Star Online 2 (NA)",
         "logo": "",
         "native": false,
         "status": "Supported",
@@ -793,6 +793,25 @@
                 "slug": "phantasy-star-online-2"
             }
         }
+    },
+    {
+        "url": "https://pso2.jp/",
+        "name": "Phantasy Star Online 2 (JP)",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "nProtect GameGuard"
+        ],
+        "notes": [
+            [
+                "The Japanese version does not currently work on linux",
+                "https://github.com/Starz0r/AreWeAntiCheatYet/issues/726"
+            ]
+        ],
+        "updates": [],
+        "storeIds": {}
     },
     {
         "url": "",
