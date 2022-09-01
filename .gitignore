@@ -89,7 +89,11 @@ sw.*
 # Vim swap files
 *.swp
 
-# VSCode
+# Other
 
 .vscode
 out
+temp-icons
+/test-results/
+/playwright-report/
+/playwright/.cache/
