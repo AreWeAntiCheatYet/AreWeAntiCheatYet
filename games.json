@@ -1063,8 +1063,19 @@
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [],
-        "updates": [],
+        "notes": [
+            [
+                "Show your support!",
+                "https://discussions.ubisoft.com/post/829691"
+            ]
+        ],
+        "updates": [
+            {
+                "name": "Show your support!",
+                "date": "23 August 2022 12:40:12 UTC",
+                "reference": "https://discussions.ubisoft.com/post/829691"
+            }
+        ],
         "storeIds": {
             "epic": {
                 "namespace": "impala",
