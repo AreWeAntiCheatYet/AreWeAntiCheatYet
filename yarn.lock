@@ -1138,7 +1138,7 @@
   resolved "https://registry.yarnpkg.com/@mantine/utils/-/utils-5.1.3.tgz#ee50d793e4fd00a3839006459cf10b672c33e221"
   integrity sha512-Qx+OLMDm/PFqp7nU+5jf+CtnNrm2DNFahupBkrghZdkgQ6Q03ga1Y5CfSmgtKlHXmRj7GLlUN0JrKNxIX9XTuw==
 
-"@metascraper/helpers@^5.30.3", "@metascraper/helpers@^5.30.4":
+"@metascraper/helpers@^5.30.4":
   version "5.30.4"
   resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.30.4.tgz#3ac66adf0cfbe2a07f654bad31d5e0bcfb123991"
   integrity sha512-Dp4xRILq6qjIwzlYYM1mXjD2YzWLT9NHnOkA7Rmsc/5XbHQf0Qe01WX5OMGLNlp62xdlFg1DjFEY3NMxk/D2Iw==
@@ -4791,12 +4791,12 @@ merge2@^1.3.0, merge2@^1.4.1:
   resolved "https://registry.yarnpkg.com/merge2/-/merge2-1.4.1.tgz#4368892f885e907455a6fd7dc55c0c9d404990ae"
   integrity sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==
 
-metascraper-description@^5.30.3:
-  version "5.30.3"
-  resolved "https://registry.yarnpkg.com/metascraper-description/-/metascraper-description-5.30.3.tgz#95bcfbe078aeca6035d6cb658ddc748e9f38e937"
-  integrity sha512-rRZm9Q/ZcmgqdcoC76jIJ4knjk5B3TEPlmn5oBqVXeVZtCSmed5GuDWFXxSL/84mEG4v5oWYiprpRg0mfXNbcg==
+metascraper-description@^5.30.4:
+  version "5.30.4"
+  resolved "https://registry.yarnpkg.com/metascraper-description/-/metascraper-description-5.30.4.tgz#bb34f6779ae00d2cfa5a71cdc945d5bc1f879d56"
+  integrity sha512-W6oj/icvcn/HABvXyO4iKAFvP+hLPw0v+DtaIlZWReQ0RqzK5m87bFspYvX1hVDnnPTQjl/Vi1CkQTtEdSJ5TA==
   dependencies:
-    "@metascraper/helpers" "^5.30.3"
+    "@metascraper/helpers" "^5.30.4"
 
 metascraper-title@^5.30.4:
   version "5.30.4"
