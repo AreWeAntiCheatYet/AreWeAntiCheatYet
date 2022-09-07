@@ -1109,26 +1109,34 @@
   dependencies:
     "@mantine/utils" "5.1.3"
 
-"@mantine/next@^5.1.3":
-  version "5.1.3"
-  resolved "https://registry.yarnpkg.com/@mantine/next/-/next-5.1.3.tgz#258f12a0b0c8ffd612f54f84d973a51c2362c8e2"
-  integrity sha512-vDiut4fztj8ZeMjG8wIAtWnKDyqZ2cEZpyJigmsNkEHCa3Tr8DtYA6+qZQCO8myYu9R6mmFXni74i+P5Iak1xQ==
+"@mantine/next@^5.2.6":
+  version "5.2.6"
+  resolved "https://registry.yarnpkg.com/@mantine/next/-/next-5.2.6.tgz#8dcccd2c621280c554608ad3b35761347914cd75"
+  integrity sha512-yQMlQtCeQU6Hz5aYqaGcupBsV1V/EUXdvKwbngZBivuehnWD89I33391hj43x+Mk/iSoSijKX3uQC2FsEjkbOA==
   dependencies:
-    "@mantine/ssr" "5.1.3"
-    "@mantine/styles" "5.1.3"
+    "@mantine/ssr" "5.2.6"
+    "@mantine/styles" "5.2.6"
 
-"@mantine/ssr@5.1.3":
-  version "5.1.3"
-  resolved "https://registry.yarnpkg.com/@mantine/ssr/-/ssr-5.1.3.tgz#c27b0ad42859f7cafd616ac9e8fd9c9a3f52a705"
-  integrity sha512-geiA4PdFeSVmhqOtbX0+JxzQZQOnWd+n7sVwgeG9+4iojmkiETDKnoNx1tVBXvO5oFQoeX3ivVEX/Sv4Fz10DQ==
+"@mantine/ssr@5.2.6":
+  version "5.2.6"
+  resolved "https://registry.yarnpkg.com/@mantine/ssr/-/ssr-5.2.6.tgz#736cf717e269e220a9fb0884a8e076df4f5428b2"
+  integrity sha512-7hnJ8jeToWPyea9ODYYJoULCMjAGJimpVl4QA0VyhWQTEzqqvq0W/GSiIXDYldm0d2vU4FFQncFYTW2hJQyIpA==
   dependencies:
-    "@mantine/styles" "5.1.3"
+    "@mantine/styles" "5.2.6"
     html-react-parser "1.4.12"
 
 "@mantine/styles@5.1.3":
   version "5.1.3"
   resolved "https://registry.yarnpkg.com/@mantine/styles/-/styles-5.1.3.tgz#8a2d4eb4b3957464f920ff6c0350ba7c03a16489"
   integrity sha512-0GtZ8RFOlk8d6RBcN7Kg+U2QwRzKj3NMxYhZQt9faJx0gpfbbr9tFyBaY7aiSC5hmT5v7B8C7HS5jrsPMaI+Ww==
+  dependencies:
+    clsx "1.1.1"
+    csstype "3.0.9"
+
+"@mantine/styles@5.2.6":
+  version "5.2.6"
+  resolved "https://registry.yarnpkg.com/@mantine/styles/-/styles-5.2.6.tgz#6e612e3a3dca31d83e359c77222e988e0eb50486"
+  integrity sha512-dbF9FMma/Yu8S+8iwdnLA39sDQ0EvxlWrCaSiuRR/b9Yf/dYst+qMOhwTZBDJgVBhVvKlH++lA/boVohGnYrNQ==
   dependencies:
     clsx "1.1.1"
     csstype "3.0.9"
