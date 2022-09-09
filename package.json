@@ -24,7 +24,7 @@
     "@mantine/modals": "^5.1.3",
     "@mantine/next": "^5.2.6",
     "@next/bundle-analyzer": "^12.1.4",
-    "@playwright/test": "^1.25.1",
+    "@playwright/test": "^1.25.2",
     "@tabler/icons": "^1.95.0",
     "cookies-next": "^2.1.1",
     "dayjs": "^1.11.5",
