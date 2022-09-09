@@ -1440,10 +1440,10 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
-"@tabler/icons@^1.93.0":
-  version "1.93.0"
-  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-1.93.0.tgz#466a0bc96e0b90a2cac9e9b4cf49f4fd8ad1761b"
-  integrity sha512-PNvchJ7wUkMmSi5L1fxSj1eCuQHhznLoZiUtsf7rv+/58fd4SaZPMTqC+c3tw8Ha8VvsmZfLTRlSffDTE9KkJQ==
+"@tabler/icons@^1.95.0":
+  version "1.95.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-1.95.0.tgz#7d18588933fb50d732dbbb6bf899c0fe19a85a94"
+  integrity sha512-FZ+0JQf2NwdzIKTtYAXX1woRwgSnB8cFyJ3FK0zX9lhZSo5olcZtkEm2xViuyB73YSb4qtFdIqI6GeOUF4kVsg==
 
 "@testing-library/dom@^8.17.1", "@testing-library/dom@^8.5.0":
   version "8.17.1"
