@@ -23,11 +23,11 @@ function generateDescription(oldGame: Game | undefined, newGame: Game, icons: (s
     };
 
     const anticheatStatus = (anticheat: string) => {
-        if (oldGame && !oldGame.anticheats.find(item => item[0] === anticheat)) {
+        if (oldGame && !oldGame.anticheats.find(item => item === anticheat)) {
             return '(Added) ';
         }
 
-        if (!newGame.anticheats.find(item => item[0] === anticheat)) {
+        if (!newGame.anticheats.find(item => item === anticheat)) {
             return '(Removed) ';
         }
 
@@ -79,7 +79,7 @@ function generateDescription(oldGame: Game | undefined, newGame: Game, icons: (s
             <dl>
             ${newGame.updates.map(update =>
                 `<dd><a target="_blank" href="${update.reference}">${updateStatus(update)}${update.name} (${new Date(update.date).toDateString()})</a></dd>
-                <dt><blockquote>${update.referenceDescription}</blockquote></dt>`
+                <dt><blockquote>${update.referenceDescription ? update.referenceDescription : '<i>No description available</i>'}</blockquote></dt>`
             ).join('\n')}
             </dl>`
             :
