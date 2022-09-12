@@ -15,6 +15,11 @@
                 "name": "Tried to enable EAC",
                 "date": "Apr 12, 2022, 8:10 AM GMT+2",
                 "reference": "https://www.xda-developers.com/halo-mcc-broken-steam-deck/"
+            },
+            {
+                "name": "Updated Linux EAC Files",
+                "date": "Aug 31, 2022, 17:00:12 UTC",
+                "reference": "https://steamdb.info/patchnotes/9367265/"
             }
         ],
         "storeIds": {
