@@ -24,6 +24,9 @@ jobs:
           path: previous
           ref: ${{ github.event.before }}
 
+      - name: 📩 Setup System Dependencies
+        run: 'sudo apt-get update && sudo apt-get install imagemagick && sudo apt-get install graphicsmagick'
+
       - name: 🚧 Setup Node
         uses: actions/setup-node@v3
         with:
