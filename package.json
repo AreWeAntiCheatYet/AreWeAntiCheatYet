@@ -1,5 +1,5 @@
 {
-  "name": "AreWeAntiCheatYet",
+  "name": "areweanticheatyet",
   "version": "2.0.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,8 @@
     "analyze": "ANALYZE=true next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
+    "rss": "npx esmo utils/rss_feed.ts",
+    "validate": "npx esmo utils/validate.ts",
     "export": "next build && next export && touch ./out/.nojekyll",
     "lint": "next lint",
     "jest": "jest",
@@ -26,8 +28,10 @@
     "@next/bundle-analyzer": "^12.1.4",
     "@playwright/test": "^1.25.2",
     "@tabler/icons": "^1.95.0",
+    "@types/libxmljs": "^0.18.8",
     "cookies-next": "^2.1.1",
     "dayjs": "^1.11.5",
+    "libxmljs": "^0.19.10",
     "next": "12.2.2",
     "playwright": "^1.25.2",
     "react": "18.2.0",

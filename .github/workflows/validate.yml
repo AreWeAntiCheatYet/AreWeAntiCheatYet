@@ -24,6 +24,4 @@ jobs:
         run: 'yarn'
 
       - name: 🔎 Check Validity
-        uses: mikeal/npx@master
-        with:
-          args: 'esmo utils/validate.ts'
+        run: 'yarn validate'
