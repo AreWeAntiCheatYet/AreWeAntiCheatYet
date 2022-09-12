@@ -64,8 +64,7 @@ export async function getImage(name: string) {
 }
 
 export async function downloadImagesAndSetLogo(games: Game[]) {
-  if (process.env.NODE_ENV === 'development' || process.env.SKIP_HEAVY) {
-    //? Dont fetch images on dev builds because they would be newly downloaded each time.
+  if (process.env.SKIP_HEAVY) {
     console.log('Skipping cover image download');
     return games;
   }
@@ -115,8 +114,7 @@ export async function downloadImagesAndSetLogo(games: Game[]) {
 }
 
 export async function fetchReferenceTitles(games: Game[]) {
-  if (process.env.NODE_ENV === 'development' || process.env.SKIP_HEAVY) {
-    //? Dont fetch references on dev builds.
+  if (process.env.SKIP_HEAVY) {
     console.log('Skipping reference resolve');
     return games;
   }

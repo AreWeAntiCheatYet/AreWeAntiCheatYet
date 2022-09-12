@@ -26,7 +26,7 @@ export function getChanges(old: Game[], current: Game[]): [Game, Game?][] {
               (game.updates &&
                 item.updates &&
                 JSON.stringify(item.updates.flatMap((update) => update.reference)) !==
-                  JSON.stringify(game.updates.flatMap((update) => update.reference))) ||
+                JSON.stringify(game.updates.flatMap((update) => update.reference))) ||
               JSON.stringify(item.notes) !== JSON.stringify(game.notes) ||
               item.status !== game.status ||
               item.native !== game.native)
