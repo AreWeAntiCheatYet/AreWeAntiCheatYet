@@ -1656,12 +1656,17 @@
         "name": "Post Scriptum",
         "logo": "",
         "native": false,
-        "status": "Broken",
-        "reference": "",
+        "status": "Denied",
+        "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/743",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Can play on EAC disabled servers",
+                "https://github.com/Starz0r/AreWeAntiCheatYet/issues/743#issuecomment-1237381161"
+            ]
+        ],
         "updates": [],
         "storeIds": {
             "steam": "736220"
