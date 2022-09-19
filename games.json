@@ -4542,5 +4542,26 @@
         "storeIds": {
             "steam": "1797880"
         }
+    },
+    {
+        "url": "https://www.shatterline.gg",
+        "name": "Shatterline",
+        "logo": "",
+        "status": "Running",
+        "native": false,
+        "reference": "https://www.protondb.com/app/2087030",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": [
+            [
+                "May require tinkering",
+                "https://github.com/Starz0r/AreWeAntiCheatYet/issues/777#issuecomment-1250568776"
+            ]
+        ],
+        "updates": [],
+        "storeIds": {
+            "steam": "2087030"
+        }
     }
 ]
