@@ -15,6 +15,11 @@
                 "name": "Tried to enable EAC",
                 "date": "Apr 12, 2022, 8:10 AM GMT+2",
                 "reference": "https://www.xda-developers.com/halo-mcc-broken-steam-deck/"
+            },
+            {
+                "name": "Updated Linux EAC Files",
+                "date": "Aug 31, 2022, 17:00:12 UTC",
+                "reference": "https://steamdb.info/patchnotes/9367265/"
             }
         ],
         "storeIds": {
@@ -166,12 +171,17 @@
         "name": "Paladins",
         "logo": "",
         "native": false,
-        "status": "Supported",
+        "status": "Broken",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Make sure to check recent updates, the game is known to break often (And the status may not update to reflect that)",
+                ""
+            ]
+        ],
         "updates": [
             {
                 "name": "Hope to provide such support in the near future",
@@ -187,6 +197,16 @@
                 "name": "Proton Experimental - Now Playable: Paladins",
                 "date": "Thu Jun 30 2022 16:00:00 GMT+0000",
                 "reference": "https://github.com/ValveSoftware/Proton/wiki/Changelog"
+            },
+            {
+                "name": "Reports of game not working",
+                "date": "Jul 13, 2022, 2:29 AM GMT+2",
+                "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/581"
+            },
+            {
+                "name": "Previously working most likely due to fluke in EAC Config",
+                "date": "Aug 05, 2022, 9:57 PM",
+                "reference": "https://github.com/ValveSoftware/Proton/issues/6062#issuecomment-1206809079"
             }
         ],
         "storeIds": {
@@ -232,7 +252,12 @@
             "FairFight",
             "BattlEye"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Show your support!",
+                "https://discussions.ubisoft.com/topic/111054/linux-support-for-r6s"
+            ]
+        ],
         "updates": [
             {
                 "name": "We don’t have anything to share at this time",
@@ -243,6 +268,11 @@
                 "name": "Show your support!",
                 "date": "Nov 30, 2021, 5:55 PM EST",
                 "reference": "https://www.gamingonlinux.com/2021/11/ubisoft-proton-support-rainbow-six-siege-linux/"
+            },
+            {
+                "name": "Show your support! (Thread moved)",
+                "date": "Oct 05, 2021, 10:21 PM EST",
+                "reference": "https://discussions.ubisoft.com/topic/111054/linux-support-for-r6s"
             }
         ],
         "storeIds": {
@@ -258,7 +288,7 @@
         "name": "SMITE",
         "logo": "",
         "native": false,
-        "status": "Running",
+        "status": "Broken",
         "reference": "https://www.protondb.com/app/386360",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -269,7 +299,13 @@
                 "https://www.protondb.com/app/386360#uEyBL2NWkn"
             ]
         ],
-        "updates": [],
+        "updates": [
+            {
+                "name": "Previously working most likely due to fluke in EAC Config",
+                "date": "Aug 05, 2022, 9:57 PM",
+                "reference": "https://github.com/ValveSoftware/Proton/issues/6062#issuecomment-1206809079"
+            }
+        ],
         "storeIds": {
             "steam": "386360",
             "epic": {
@@ -352,6 +388,11 @@
                 "name": "Activated BattlEye in Proton",
                 "date": "Nov 06, 2021, 2:15 AM",
                 "reference": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966"
+            },
+            {
+                "name": "Native Build deprecated",
+                "date": "Jul 11, 2022, 10:13 AM",
+                "reference": "https://www.gamingonlinux.com/2022/07/ark-survival-evolved-switches-away-from-linux-native-to-use-proton/"
             }
         ],
         "storeIds": {
@@ -429,7 +470,11 @@
             }
         ],
         "storeIds": {
-            "steam": "1085660"
+            "steam": "1085660",
+            "epic": {
+                "namespace": "428115def4ca4deea9d69c99c5a5a99e",
+                "slug": "destiny-2"
+            }
         }
     },
     {
@@ -490,6 +535,11 @@
                 "name": "Client & Server Update Postponed",
                 "date": "Tue Jun 29 2022 10:55:00 GMT+0200",
                 "reference": "https://twitter.com/garrynewman/status/1541773484015161347"
+            },
+            {
+                "name": "Problems with update to EOS SDK",
+                "date": "Sun Jul 24 2022 09:01:00 GMT+0200",
+                "reference": "https://twitter.com/garrynewman/status/1551100275884171270"
             }
         ],
         "storeIds": {
@@ -578,13 +628,24 @@
         "name": "Warhammer: Vermintide 2",
         "logo": "",
         "native": false,
-        "status": "Broken",
-        "reference": "https://support.fatshark.se/hc/en-us/articles/4408080108817--PC-Regarding-Easy-Anti-Cheat-and-Linux-Wine-Proton-Support",
+        "status": "Running",
+        "reference": "https://www.protondb.com/app/552500#OFEC_7WqWG",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
         "notes": [],
-        "updates": [],
+        "updates": [
+            {
+                "name": "EAC Implementation more complex than suspected",
+                "date": "Jan 08, 2022, 0:00 AM",
+                "reference": "https://support.fatshark.se/hc/en-us/articles/4408080108817--PC-Regarding-Easy-Anti-Cheat-and-Linux-Wine-Proton-Support"
+            },
+            {
+                "name": "Works with launcher workaround and Proton Experimental",
+                "date": "Aug 04, 2022, 9:21 PM GMT+2",
+                "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/637"
+            }
+        ],
         "storeIds": {
             "steam": "552500"
         }
@@ -599,10 +660,15 @@
         "anticheats": [
             "BattlEye"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Logging in to the game works with BattlEye runtime, including trading, hideout management and offline raids",
+                ""
+            ]
+        ],
         "updates": [
             {
-                "name": "Emailed Battleye",
+                "name": "Emailed BattlEye",
                 "date": "Apr 27, 2022, 6:10 PM GMT+2",
                 "reference": "https://discord.com/channels/891628783176650773/891637148007141387/958009681119428648"
             }
@@ -684,6 +750,7 @@
             }
         ],
         "storeIds": {
+            "steam": "872200",
             "epic": {
                 "namespace": "933ada2ec45e4184ae840d64c99e0ba9",
                 "slug": "rogue-company"
@@ -708,7 +775,7 @@
     },
     {
         "url": "https://pso2.jp/",
-        "name": "Phantasy Star Online 2",
+        "name": "Phantasy Star Online 2 (NA)",
         "logo": "",
         "native": false,
         "status": "Supported",
@@ -725,11 +792,31 @@
             }
         ],
         "storeIds": {
+            "steam": "1056640",
             "epic": {
                 "namespace": "bf333e6236914222a95a536389c05813",
                 "slug": "phantasy-star-online-2"
             }
         }
+    },
+    {
+        "url": "https://pso2.jp/",
+        "name": "Phantasy Star Online 2 (JP)",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "nProtect GameGuard"
+        ],
+        "notes": [
+            [
+                "The Japanese version does not currently work on linux",
+                "https://github.com/Starz0r/AreWeAntiCheatYet/issues/726"
+            ]
+        ],
+        "updates": [],
+        "storeIds": {}
     },
     {
         "url": "",
@@ -781,13 +868,24 @@
         "name": "For Honor",
         "logo": "",
         "native": false,
-        "status": "Broken",
+        "status": "Planned",
         "reference": "https://www.protondb.com/app/304390",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [],
-        "updates": [],
+        "notes": [
+            [
+                "Show your demand!",
+                "https://discussions.ubisoft.com/post/805767"
+            ]
+        ],
+        "updates": [
+            {
+                "name": "EasyAntiCheat.so added!",
+                "date": "Jul 28, 2022, 0:00 AM",
+                "reference": "https://steamdb.info/patchnotes/9148911/"
+            }
+        ],
         "storeIds": {
             "steam": "304390",
             "epic": {
@@ -989,8 +1087,19 @@
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [],
-        "updates": [],
+        "notes": [
+            [
+                "Show your support!",
+                "https://discussions.ubisoft.com/post/829691"
+            ]
+        ],
+        "updates": [
+            {
+                "name": "Show your support!",
+                "date": "23 August 2022 12:40:12 UTC",
+                "reference": "https://discussions.ubisoft.com/post/829691"
+            }
+        ],
         "storeIds": {
             "epic": {
                 "namespace": "impala",
@@ -1027,6 +1136,7 @@
         "notes": [],
         "updates": [],
         "storeIds": {
+            "steam": "1301210",
             "epic": {
                 "namespace": "5bb3d43818ae4188850fe1dbad9d57a5",
                 "slug": "knockout-city"
@@ -1273,6 +1383,7 @@
         "notes": [],
         "updates": [],
         "storeIds": {
+            "steam": "884660",
             "epic": {
                 "namespace": "2b352b4aea3849bd9519842dda263ac7",
                 "slug": "crsed-f-o-a-d"
@@ -1292,6 +1403,7 @@
         "notes": [],
         "updates": [],
         "storeIds": {
+            "steam": "1222730",
             "epic": {
                 "namespace": "bc2b0372eaa448469cb9a769f27acea1",
                 "slug": "star-wars-squadrons"
@@ -1544,12 +1656,17 @@
         "name": "Post Scriptum",
         "logo": "",
         "native": false,
-        "status": "Broken",
-        "reference": "",
+        "status": "Denied",
+        "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/743",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Can play on EAC disabled servers",
+                "https://github.com/Starz0r/AreWeAntiCheatYet/issues/743#issuecomment-1237381161"
+            ]
+        ],
         "updates": [],
         "storeIds": {
             "steam": "736220"
@@ -1743,13 +1860,19 @@
         "name": "Outriders",
         "logo": "",
         "native": false,
-        "status": "Broken",
-        "reference": "",
+        "status": "Supported",
+        "reference": "https://www.gamingonlinux.com/2022/07/outriders-officially-gets-a-playable-steam-deck-rating/",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
         "notes": [],
-        "updates": [],
+        "updates": [
+            {
+                "name": "Playable Steam Deck rating",
+                "date": "Jul 29, 2022, 11:01 AM",
+                "reference": "https://www.gamingonlinux.com/2022/07/outriders-officially-gets-a-playable-steam-deck-rating/"
+            }
+        ],
         "storeIds": {
             "epic": {
                 "namespace": "c6e54ebd92da4ee8819c1c0956cebdc4",
@@ -1786,6 +1909,7 @@
         "notes": [],
         "updates": [],
         "storeIds": {
+            "steam": "1399780",
             "epic": {
                 "namespace": "newt",
                 "slug": "spellbreak"
@@ -3620,13 +3744,24 @@
         "name": "Dauntless",
         "logo": "",
         "native": false,
-        "status": "Broken",
+        "status": "Running",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [],
-        "updates": [],
+        "notes": [
+            [
+                "Requires workaround",
+                "https://www.reddit.com/r/linux_gaming/comments/wrok4z/dauntless_is_working_again_on_linux/"
+            ]
+        ],
+        "updates": [
+            {
+                "name": "Working with workaround",
+                "date": "Aug 19, 2022, 02:52 PM GMT+2",
+                "reference": "https://www.reddit.com/r/linux_gaming/comments/wrok4z/dauntless_is_working_again_on_linux/"
+            }
+        ],
         "storeIds": {
             "epic": {
                 "namespace": "jackal",
@@ -3674,7 +3809,12 @@
         "anticheats": [
             "Unknown (Custom)"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Works OOTB with Lutris",
+                "https://lutris.net/games/garena/"
+            ]
+        ],
         "updates": [],
         "storeIds": {
             "epic": {
@@ -3953,14 +4093,20 @@
         "url": "",
         "name": "Friday The 13th: The Game",
         "logo": "",
-        "status": "Broken",
+        "status": "Running",
         "native": false,
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
         "notes": [],
-        "updates": [],
+        "updates": [
+            {
+                "name": "Game is now Peer To Peer",
+                "date": "Fri Jul 08 2022 18:52:26 GMT+0000",
+                "reference": "https://www.protondb.com/app/438740#k8v0JyaD8l"
+            }
+        ],
         "storeIds": {}
     },
     {
@@ -3976,6 +4122,7 @@
         "notes": [],
         "updates": [],
         "storeIds": {
+            "steam": "271590",
             "epic": {
                 "namespace": "d5241c76f178492ea1540fce45616757",
                 "slug": "grand-theft-auto-v"
@@ -4168,13 +4315,18 @@
         "url": "https://scpslgame.com/",
         "name": "SCP: Secret Laboratory",
         "logo": "",
-        "status": "Supported",
+        "status": "Running",
         "native": false,
         "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/498#issuecomment-1172345129",
         "anticheats": [
             "Unknown (Custom)"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Game seems to often break after updates",
+                "https://www.protondb.com/app/700330#RDAhc7-WAR"
+            ]
+        ],
         "updates": [],
         "storeIds": {
             "steam": "700330"
@@ -4241,6 +4393,175 @@
                 "namespace": "5a2108f4db804040aaf44d139bd21bd1",
                 "slug": "hood-outlaws-and-legends"
             }
+        }
+    },
+    {
+        "url": "https://multiversus.com/en",
+        "name": "Multiversus",
+        "logo": "",
+        "status": "Supported",
+        "native": false,
+        "reference": "https://www.protondb.com/app/1818750",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": [],
+        "updates": [],
+        "storeIds": {
+            "steam": "1818750",
+            "epic": {
+                "namespace": "3a212c0da4f1438e840c21565df4b6fe",
+                "slug": "multiversus"
+            }
+        }
+    },
+    {
+        "url": "https://hello.vrchat.com/",
+        "name": "VRChat",
+        "logo": "",
+        "status": "Supported",
+        "native": false,
+        "reference": "https://hello.vrchat.com/blog/vrchat-security-update",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": [],
+        "updates": [
+            {
+                "name": "Does this prevent people from playing VRChat on platforms like SteamOS on the Steam Deck? - NO!",
+                "reference": "https://hello.vrchat.com/blog/vrchat-security-update",
+                "date": "Tue Jul 26 2022 00:00:00 GMT+0000"
+            }
+        ],
+        "storeIds": {
+            "steam": "438100"
+        }
+    },
+    {
+        "url": "https://www.nttgameonline.com/knight/",
+        "name": "Knight Online",
+        "logo": "",
+        "status": "Broken",
+        "native": false,
+        "reference": "",
+        "anticheats": [
+            "XIGNCODE3"
+        ],
+        "notes": [],
+        "updates": [],
+        "storeIds": {
+            "steam": "389430"
+        }
+    },
+    {
+        "url": "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-the-breakers",
+        "name": "DRAGON BALL: THE BREAKERS",
+        "logo": "",
+        "status": "Broken",
+        "native": false,
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": [],
+        "updates": [],
+        "storeIds": {}
+    },
+    {
+        "url": "https://www.rumbleverse.com",
+        "name": "Rumbleverse",
+        "logo": "",
+        "status": "Broken",
+        "native": false,
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": [],
+        "updates": [],
+        "storeIds": {
+            "epic": {
+                "namespace": "0bef9383794a4d779ba0628084b14cba",
+                "slug": "rumbleverse"
+            }
+        }
+    },
+    {
+        "url": "",
+        "name": "BATTALION: Legacy",
+        "logo": "",
+        "status": "Supported",
+        "native": false,
+        "reference": "",
+        "anticheats": [],
+        "notes": [],
+        "updates": [
+            {
+                "name": "Removed EAC",
+                "date": "16 August 2022 16:19:04 UTC",
+                "reference": "https://steamdb.info/patchnotes/9316328/"
+            }
+        ],
+        "storeIds": {
+            "steam": "489940"
+        }
+    },
+    {
+        "url": "https://www.toweroffantasy-global.com/",
+        "name": "Tower of Fantasy",
+        "logo": "",
+        "status": "Broken",
+        "native": false,
+        "reference": "",
+        "anticheats": [
+            "Unknown (Custom)"
+        ],
+        "notes": [],
+        "updates": [],
+        "storeIds": {
+            "steam": "2064650"
+        }
+    },
+    {
+        "url": "https://www.lostlight.game/",
+        "name": "Lost Light",
+        "logo": "",
+        "status": "Supported",
+        "native": false,
+        "reference": "https://www.protondb.com/app/1797880",
+        "anticheats": [
+            "Unknown (Custom)"
+        ],
+        "notes": [
+            [
+                "May require Proton-GE",
+                ""
+            ]
+        ],
+        "updates": [],
+        "storeIds": {
+            "steam": "1797880"
+        }
+    },
+    {
+        "url": "https://www.shatterline.gg",
+        "name": "Shatterline",
+        "logo": "",
+        "status": "Running",
+        "native": false,
+        "reference": "https://www.protondb.com/app/2087030",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": [
+            [
+                "May require tinkering",
+                "https://github.com/Starz0r/AreWeAntiCheatYet/issues/777#issuecomment-1250568776"
+            ]
+        ],
+        "updates": [],
+        "storeIds": {
+            "steam": "2087030"
         }
     }
 ]

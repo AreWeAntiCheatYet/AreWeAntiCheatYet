@@ -13,24 +13,30 @@ jobs:
       fail-fast: false
 
     steps:
-      - name: Checkout
+      - name: 📦 Checkout Current
         uses: actions/checkout@v3.0.2
         with:
           path: current
 
-      - name: Checkout Previous
+      - name: 📦 Checkout Previous
         uses: actions/checkout@v3.0.2
         with:
           path: previous
           ref: ${{ github.event.before }}
 
-      - name: Setup Node
+      - name: 📩 Setup System Dependencies
+        run: 'sudo apt-get update && sudo apt-get install imagemagick && sudo apt-get install graphicsmagick'
+
+      - name: 🚧 Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node }}
 
-      - name: Generate RSS-Feed
-        run: 'cd current/tools/rss-generator && yarn && yarn dev ../../games.json ../../../previous/games.json ../../public/feed.rss'
+      - name: 🤖 Setup Project
+        run: 'cd current && yarn'
+
+      - name: 📝 Generate RSS-Feed
+        run: 'cd current && yarn rss ./games.json ../previous/games.json ./public/feed.rss'
 
       - uses: EndBug/add-and-commit@v9
         with:

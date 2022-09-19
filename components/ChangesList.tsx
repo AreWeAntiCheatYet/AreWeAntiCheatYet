@@ -4,7 +4,7 @@ import {
   Anchor,
   Avatar,
   Button,
-  DefaultProps,
+  AccordionProps,
   Group,
   Stack,
   Text,
@@ -84,8 +84,8 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
 
   const updateChanges = useMemo(() => {
     if (
-      !newGame.updates ||
-      (newGame.updates && newGame.updates.length === 0) ||
+      !Array.isArray(newGame.updates) ||
+      (Array.isArray(newGame.updates) && newGame.updates.length === 0) ||
       JSON.stringify(oldGame.updates) === JSON.stringify(newGame.updates)
     ) {
       return undefined;
@@ -258,7 +258,7 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
   );
 }
 
-interface ChangesListProps extends DefaultProps {
+interface ChangesListProps extends Omit<AccordionProps, 'children'> {
   games: Game[];
   antiCheatIcons: (string | null)[][];
 }
@@ -277,30 +277,35 @@ export default function ChangesList({ games, antiCheatIcons, ...props }: Changes
 
   if (changes.length > 0) {
     return (
-      <StyledAccordion icon={<IconRefreshAlert size={16} />} {...props}>
-        <Accordion.Item label={`Changes since you've last checked (${changes.length})`}>
-          <Stack>
-            {changes.map(([newGame, oldGame]) => (
-              <Change
-                key={newGame.name}
-                newGame={newGame}
-                oldGame={oldGame}
-                antiCheatIcons={antiCheatIcons}
-              />
-            ))}
-          </Stack>
-          <Button
-            fullWidth
-            color="green"
-            sx={{ marginTop: 15 }}
-            leftIcon={<IconCheck size={20} />}
-            onClick={() => {
-              setChanges([]);
-              saveGamesList(games);
-            }}
-          >
-            Acknowledge
-          </Button>
+      <StyledAccordion {...props}>
+        <Accordion.Item value="changes">
+          <Accordion.Control icon={<IconRefreshAlert size={16} />}>
+            {`Changes since you've last checked (${changes.length})`}
+          </Accordion.Control>
+          <Accordion.Panel>
+            <Stack>
+              {changes.map(([newGame, oldGame]) => (
+                <Change
+                  key={newGame.name}
+                  newGame={newGame}
+                  oldGame={oldGame}
+                  antiCheatIcons={antiCheatIcons}
+                />
+              ))}
+            </Stack>
+            <Button
+              fullWidth
+              color="green"
+              sx={{ marginTop: 15 }}
+              leftIcon={<IconCheck size={20} />}
+              onClick={() => {
+                setChanges([]);
+                saveGamesList(games);
+              }}
+            >
+              Acknowledge
+            </Button>
+          </Accordion.Panel>
         </Accordion.Item>
       </StyledAccordion>
     );

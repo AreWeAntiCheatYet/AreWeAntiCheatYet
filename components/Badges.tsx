@@ -150,7 +150,7 @@ export default function Badges({ game, compact, showText }: BadgesProps) {
             <Text className={classes.mobileHide}>{status}</Text>
           ))}
       </Group>
-      {game.updates && game.updates.length > 0 && (
+      {Array.isArray(game.updates) && game.updates.length > 0 && (
         <Group noWrap className={classes.mobileHide}>
           <ActionIcon
             radius="xl"

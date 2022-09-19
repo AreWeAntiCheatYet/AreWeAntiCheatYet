@@ -31,7 +31,7 @@ export default function App(props: AppProps) {
     <>
       <Head>
         <title>Are We Anti-Cheat Yet?</title>
-        <link rel="shortcut icon" href="/icon.webp" />
+        <link rel="shortcut icon" href="icon.webp" />
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
       </Head>
 
