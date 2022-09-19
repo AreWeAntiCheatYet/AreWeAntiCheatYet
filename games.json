@@ -4519,7 +4519,11 @@
         "notes": [],
         "updates": [],
         "storeIds": {
-            "steam": "2064650"
+            "steam": "2064650",
+            "epic": {
+                "namespace": "b47d3947087147baa8e1665680aefc11",
+                "slug": "tower-of-fantasy"
+            }
         }
     },
     {
