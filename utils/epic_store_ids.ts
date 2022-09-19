@@ -104,18 +104,18 @@ runExit(
             });
 
             for (const awacyGame of awacyGames) {
-                function useMatch(match: EpicGame) {
+                const useMatch = (match: EpicGame) => {
                     console.log(Chalk.green(`${awacyGame.name} -> ${match.name}`));
 
                     awacyGame.storeIds.epic = {
                         namespace: match.namespace,
                         slug: match.slug,
                     };
-                }
+                };
 
-                function rejectMatches() {
+                const rejectMatches = () => {
                     console.log(Chalk.red(awacyGame.name));
-                }
+                };
 
                 const matches = fuse
                     .search(awacyGame.simplifiedName!)
@@ -129,6 +129,10 @@ runExit(
                                     t.item.slug === result.item.slug
                             )
                     );
+
+                if (awacyGame.storeIds?.epic && awacyGame.storeIds?.epic.namespace.length > 0 && awacyGame.storeIds?.epic.slug.length > 0) {
+                    continue;
+                }
 
                 if (matches.length > 0) {
                     // If perfect match, use that
