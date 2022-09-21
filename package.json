@@ -51,7 +51,7 @@
     "@types/node": "^18.7.18",
     "@types/open-graph-scraper": "^4.8.1",
     "@types/react": "^18.0.20",
-    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.37.0",
     "babel-loader": "^8.2.5",
     "chalk": "^5.0.1",
