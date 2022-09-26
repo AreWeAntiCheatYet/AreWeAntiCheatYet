@@ -831,10 +831,10 @@
     semver "^7.3.5"
     tar "^6.1.11"
 
-"@metascraper/helpers@^5.30.4":
-  version "5.30.4"
-  resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.30.4.tgz#3ac66adf0cfbe2a07f654bad31d5e0bcfb123991"
-  integrity sha512-Dp4xRILq6qjIwzlYYM1mXjD2YzWLT9NHnOkA7Rmsc/5XbHQf0Qe01WX5OMGLNlp62xdlFg1DjFEY3NMxk/D2Iw==
+"@metascraper/helpers@^5.30.4", "@metascraper/helpers@^5.31.1":
+  version "5.31.1"
+  resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.31.1.tgz#e36fb89ab6e0e596f13a69f0f2c609f59c7dd3e8"
+  integrity sha512-sf38YSf8HL41+7hzvMJM+fzUeoZabpBSNEKD6qnyGh8RNZs59pqLbsT2aNEOpYdaGrej+nlpNTyjQGFH3ViimQ==
   dependencies:
     audio-extensions "0.0.0"
     chrono-node "2.4.1"
@@ -4608,12 +4608,12 @@ merge2@^1.3.0, merge2@^1.4.1:
   resolved "https://registry.yarnpkg.com/merge2/-/merge2-1.4.1.tgz#4368892f885e907455a6fd7dc55c0c9d404990ae"
   integrity sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==
 
-metascraper-description@^5.30.4:
-  version "5.30.4"
-  resolved "https://registry.yarnpkg.com/metascraper-description/-/metascraper-description-5.30.4.tgz#bb34f6779ae00d2cfa5a71cdc945d5bc1f879d56"
-  integrity sha512-W6oj/icvcn/HABvXyO4iKAFvP+hLPw0v+DtaIlZWReQ0RqzK5m87bFspYvX1hVDnnPTQjl/Vi1CkQTtEdSJ5TA==
+metascraper-description@^5.31.1:
+  version "5.31.1"
+  resolved "https://registry.yarnpkg.com/metascraper-description/-/metascraper-description-5.31.1.tgz#d2ec12190a0f9360857725b32d8cbbd7b5d54cbd"
+  integrity sha512-DAcl48UN97JvLv+3F23vz2Q/c8SdWPutHJ8b7jM1lgZvOitfCF1iPHIM/cI2+kqKOKUV9xLsM6vH9aRTb3DvUw==
   dependencies:
-    "@metascraper/helpers" "^5.30.4"
+    "@metascraper/helpers" "^5.31.1"
 
 metascraper-title@^5.30.4:
   version "5.30.4"
