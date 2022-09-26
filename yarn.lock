@@ -4622,12 +4622,12 @@ metascraper-title@^5.30.4:
   dependencies:
     "@metascraper/helpers" "^5.30.4"
 
-metascraper@^5.30.4:
-  version "5.30.4"
-  resolved "https://registry.yarnpkg.com/metascraper/-/metascraper-5.30.4.tgz#74ce97ce10b970b49e7035e803266a25297f3bb5"
-  integrity sha512-xOK1fwSTpiepLN2wRjdmBZ/zkUmfKZmFDcN28AAYlxKqNSGk4Y2k5+qhaTjscJoQOFUi+vSpRsin4RiGygAYug==
+metascraper@^5.31.1:
+  version "5.31.1"
+  resolved "https://registry.yarnpkg.com/metascraper/-/metascraper-5.31.1.tgz#428da4fb74d3f7a2a7b01c0b1848f2af0a7f9206"
+  integrity sha512-x3yOXOcoe4A0Xab7HvNTLfk+kw4j0PA/MtjQ64UGZNNdHAxBzsrUWCber6G/iwPjrvkIp/V9DPhtICAsF+DTFQ==
   dependencies:
-    "@metascraper/helpers" "^5.30.4"
+    "@metascraper/helpers" "^5.31.1"
     cheerio "~1.0.0-rc.12"
     lodash "~4.17.21"
     whoops "~4.1.2"
