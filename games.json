@@ -4557,13 +4557,17 @@
         "url": "https://www.shatterline.gg",
         "name": "Shatterline",
         "logo": "",
-        "status": "Broken",
+        "status": "Running",
         "native": false,
-        "reference": "https://www.protondb.com/app/2087030",
+        "reference": "https://github.com/ValveSoftware/Proton/issues/6165#issuecomment-1258731897",
         "anticheats": [
-            "Easy Anti-Cheat"
+            "Epic Online Services"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Requires windows release set on 7 (e.g. 'protontricks win7') to workaround the use of Winsock Input/Output (RIO) API which is not implemented in wine/proton"
+            ]
+        ],
         "updates": [],
         "storeIds": {
             "steam": "2087030"
