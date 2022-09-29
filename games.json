@@ -4557,14 +4557,25 @@
         "url": "https://www.shatterline.gg",
         "name": "Shatterline",
         "logo": "",
-        "status": "Broken",
+        "status": "Running",
         "native": false,
         "reference": "https://www.protondb.com/app/2087030",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [],
-        "updates": [],
+        "notes": [
+            [
+                "May require you to set the windows version of your prefix to Windows 7",
+                "https://github.com/ValveSoftware/Proton/issues/6165#issuecomment-1258731897"
+            ]
+        ],
+        "updates": [
+            {
+                "name": "EOS issues fixed",
+                "date": "Sep 27, 2022, 12:42 AM GMT+2",
+                "reference": "https://github.com/ValveSoftware/Proton/issues/6165#issuecomment-1258731897"
+            }
+        ],
         "storeIds": {
             "steam": "2087030"
         }
