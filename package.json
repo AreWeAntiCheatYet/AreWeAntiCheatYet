@@ -52,7 +52,7 @@
     "@types/open-graph-scraper": "^4.8.1",
     "@types/react": "^18.0.21",
     "@typescript-eslint/eslint-plugin": "^5.39.0",
-    "@typescript-eslint/parser": "^5.38.1",
+    "@typescript-eslint/parser": "^5.39.0",
     "babel-loader": "^8.2.5",
     "chalk": "^5.0.1",
     "clipanion": "^3.2.0-rc.12",
