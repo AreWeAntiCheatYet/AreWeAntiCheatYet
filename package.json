@@ -54,7 +54,7 @@
     "@typescript-eslint/eslint-plugin": "^5.39.0",
     "@typescript-eslint/parser": "^5.39.0",
     "babel-loader": "^8.2.5",
-    "chalk": "^5.0.1",
+    "chalk": "^5.1.0",
     "clipanion": "^3.2.0-rc.12",
     "eslint": "^8.24.0",
     "eslint-config-airbnb": "19.0.4",
