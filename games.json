@@ -644,7 +644,12 @@
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Linux user needs to host",
+                "https://github.com/Starz0r/AreWeAntiCheatYet/issues/826"
+            ]
+        ],
         "updates": [
             {
                 "name": "EAC Implementation more complex than suspected",
