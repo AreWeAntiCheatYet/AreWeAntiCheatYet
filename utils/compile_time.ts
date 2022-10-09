@@ -267,7 +267,7 @@ export function generateAntiCheatIconLookUp(games: Game[]) {
     ['mihoyo', 'mihoyo.webp'],
     ['nexon', 'nexon.webp'],
     ['neac', 'neac.webp'],
-    ['sabreclaw', 'sabreclaw.webp'],
+    ['saberclaw', 'saberclaw.webp'],
     ['faceit', 'faceit.webp'],
     ['esea', 'esea.webp'],
     ['hyperion', 'hyperion.webp'],
