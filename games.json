@@ -462,7 +462,12 @@
         "anticheats": [
             "BattlEye"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Show your support!",
+                "https://www.gamingonlinux.com/2022/10/go-tell-bungie-you-want-destiny-2-on-steam-deck-linux/"
+            ]
+        ],
         "updates": [
             {
                 "name": "Destiny 2 is not supported for play on the Steam Deck or on any system utilizing Steam Play's Proton",
