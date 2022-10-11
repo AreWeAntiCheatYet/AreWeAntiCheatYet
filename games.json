@@ -3734,7 +3734,13 @@
             "Unknown (Custom)"
         ],
         "notes": [],
-        "updates": [],
+        "updates": [
+            {
+                "name": "\"Offically Supported through Proton\"",
+                "date": "July 14, 2022, 2:09 PM CDT",
+                "reference": "https://steamcommunity.com/games/611500/announcements/detail/5349730511804644555"
+            }
+        ],
         "storeIds": {
             "steam": "611500"
         }
