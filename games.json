@@ -1901,13 +1901,19 @@
         "name": "Crossout",
         "logo": "",
         "native": false,
-        "status": "Broken",
-        "reference": "",
+        "status": "Supported",
+        "reference": "https://steamdb.info/app/386180/history/?changeid=16318055",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
         "notes": [],
-        "updates": [],
+        "updates": [
+            {
+                "name": "Steam Deck verified",
+                "date": "Oct 10, 2022, 13:21 UTC",
+                "reference": "https://steamdb.info/app/386180/history/?changeid=16318055"
+            }
+        ],
         "storeIds": {
             "steam": "386180"
         }
