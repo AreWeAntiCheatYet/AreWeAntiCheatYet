@@ -1140,9 +1140,9 @@
   version "16.11.47"
   resolved "https://registry.npmjs.org/@types/node/-/node-16.11.47.tgz"
 
-"@types/open-graph-scraper@^4.8.1":
-  version "4.8.1"
-  resolved "https://registry.npmjs.org/@types/open-graph-scraper/-/open-graph-scraper-4.8.1.tgz"
+"@types/open-graph-scraper@^4.8.2":
+  version "4.8.2"
+  resolved "https://registry.yarnpkg.com/@types/open-graph-scraper/-/open-graph-scraper-4.8.2.tgz#25064a6dd572b4b36ce0824f23d131896b7430ec"
   dependencies:
     "@types/node" "*"
 
