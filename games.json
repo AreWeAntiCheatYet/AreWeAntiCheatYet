@@ -687,6 +687,11 @@
                 "name": "Emailed BattlEye",
                 "date": "Apr 27, 2022, 6:10 PM GMT+2",
                 "reference": "https://discord.com/channels/891628783176650773/891637148007141387/958009681119428648"
+            },
+            {
+                "name": "BattlEye have not yet activated support",
+                "date": "Oct 12, 2022, 11:46 AM GMT+2",
+                "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/859"
             }
         ],
         "storeIds": {}
