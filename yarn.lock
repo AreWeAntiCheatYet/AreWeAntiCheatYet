@@ -2460,9 +2460,9 @@ eslint-plugin-react@^7.31.8:
     semver "^6.3.0"
     string.prototype.matchall "^4.0.7"
 
-eslint-plugin-testing-library@^5.7.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-5.7.3.tgz#2397e162f18899f13cee1d70a98238c1365a29bd"
+eslint-plugin-testing-library@^5.8.0:
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-5.8.0.tgz#0faed7695ba76c0021fde3aeda9b90748995d2f2"
   dependencies:
     "@typescript-eslint/utils" "^5.13.0"
 
