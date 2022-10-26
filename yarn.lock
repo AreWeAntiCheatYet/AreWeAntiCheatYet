@@ -733,9 +733,9 @@
     url-regex-safe "~3.0.0"
     video-extensions "~1.2.0"
 
-"@next/bundle-analyzer@^12.3.1":
-  version "12.3.1"
-  resolved "https://registry.npmjs.org/@next/bundle-analyzer/-/bundle-analyzer-12.3.1.tgz"
+"@next/bundle-analyzer@^13.0.0":
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-13.0.0.tgz#e51d38fcb6b8d8b9b93950d7bf0636d44e711b2f"
   dependencies:
     webpack-bundle-analyzer "4.3.0"
 
