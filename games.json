@@ -4383,7 +4383,7 @@
         "url": "https://midnightghosthunt.com/",
         "name": "Midnight Ghost Hunt",
         "logo": "",
-        "status": "Supported",
+        "status": "Broken",
         "native": false,
         "reference": "https://www.protondb.com/app/700330#lFAi9NdOla",
         "anticheats": [
@@ -4393,11 +4393,21 @@
             [
                 "Tooltip Videos can cause crashes (Disable in Options > Gameplay)",
                 ""
+            ],
+            [
+                "While the game is listed as broken, you may have luck when running steam inside of flatpak",
+                "https://github.com/Starz0r/AreWeAntiCheatYet/issues/903"
             ]
         ],
-        "updates": [],
+        "updates": [
+            {
+                "name": "Seems broken since latest patch",
+                "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/903",
+                "date": "Oct 27, 2022, 4:12 PM GMT+2"
+            }
+        ],
         "storeIds": {
-            "steam": "700330"
+            "steam": "915810"
         }
     },
     {
