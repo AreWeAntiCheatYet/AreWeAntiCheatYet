@@ -35,7 +35,6 @@
         "reference": "",
         "anticheats": [
             "BattlEye",
-            "Hyperion",
             "Easy Anti-Cheat"
         ],
         "notes": [
@@ -49,6 +48,16 @@
                 "name": "Not confident in anti-cheat",
                 "date": "Feb 07, 2022, 6:59 AM GMT+2",
                 "reference": "https://twitter.com/TimSweeneyEpic/status/1490565925648715781?s=20&t=d7Ya8TH72wrGKXqZIi9gBg"
+            },
+            {
+                "name": "Removed Hyperion",
+                "date": "Nov 1, 2022, 6:43 PM GMT+1",
+                "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/918"
+            },
+            {
+                "name": "Was running for a short period of time",
+                "date": "Nov 2, 2022, 8:04 AM GMT+1",
+                "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/918#issuecomment-1299673303"
             }
         ],
         "storeIds": {
