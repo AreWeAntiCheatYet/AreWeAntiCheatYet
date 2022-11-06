@@ -1,11 +1,20 @@
 import { Anchor, Group, Stack } from '@mantine/core';
 import { IconHeartHandshake } from '@tabler/icons';
+import { useEffect, useState } from 'react';
 
 interface AppFooterProps {
   lastBuildTime: number;
 }
 
 export default function AppFooter({ lastBuildTime }: AppFooterProps) {
+  const [buildTimeUTC, setBuildTimeUTC] = useState('-');
+  const [buildTimeLocal, setBuildTimeLocal] = useState('-');
+
+  useEffect(() => {
+    setBuildTimeUTC(new Date(lastBuildTime).toUTCString());
+    setBuildTimeLocal(new Date(lastBuildTime).toLocaleString());
+  }, [lastBuildTime]);
+
   return (
     <Stack sx={{ marginTop: 15, height: '100%' }}>
       <Group position="center">
@@ -28,8 +37,7 @@ export default function AppFooter({ lastBuildTime }: AppFooterProps) {
         </Anchor>
       </Group>
       <Group position="center">
-        Last updated {new Date(lastBuildTime).toLocaleDateString()} (
-        {new Date(lastBuildTime).toLocaleTimeString()})
+        Last updated {buildTimeLocal} ({buildTimeUTC})
       </Group>
     </Stack>
   );
