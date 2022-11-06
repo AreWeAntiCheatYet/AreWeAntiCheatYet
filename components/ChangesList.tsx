@@ -91,12 +91,6 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
       return undefined;
     }
 
-    const [timeStamp, setTimeStamp] = useState('');
-
-    useEffect(() => {
-      setTimeStamp(dayjs(newGame.updates.at(-1)!.date).fromNow());
-    }, [newGame]);
-
     return (
       <Group sx={{ marginLeft: 50 }}>
         <IconCalendarEvent />
@@ -105,7 +99,7 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
           <Anchor target="_blank" href={newGame.updates.at(-1)!.reference}>
             {newGame.updates.at(-1)!.name}
           </Anchor>{' '}
-          {timeStamp}
+          {dayjs(newGame.updates.at(-1)!.date).fromNow()}
         </Text>
       </Group>
     );
