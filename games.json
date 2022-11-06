@@ -1464,13 +1464,19 @@
         "name": "Totally Accurate Battlegrounds",
         "logo": "",
         "native": false,
-        "status": "Broken",
-        "reference": "https://twitter.com/landfallgames/status/1377947424338100227",
+        "status": "Denied",
+        "reference": "https://twitter.com/LandfallGames/status/1583343808817016834",
         "anticheats": [
             "EQU8"
         ],
         "notes": [],
-        "updates": [],
+        "updates": [
+            {
+                "name": "Don't plan to look into Linux support",
+                "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/802",
+                "date": "Oct 21, 2022, 8:25 PM GMT+1"
+            }
+        ],
         "storeIds": {
             "steam": "823130"
         }
