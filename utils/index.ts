@@ -1,10 +1,15 @@
+/* eslint-disable no-console */
 import Game from '../types/game';
 
 export function getLastGames(): Game[] | null {
   const previous = localStorage.getItem('previousGames');
 
-  if (previous) {
-    return JSON.parse(previous);
+  try {
+    if (previous) {
+      return JSON.parse(previous);
+    }
+  } catch (error) {
+    console.error(`Failed to load previous game data: ${error}`);
   }
 
   return null;
