@@ -4700,5 +4700,21 @@
         "storeIds": {
             "steam": "1938090"
         }
+    },
+    {
+        "url": "",
+        "name": "Marauders",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/908",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": [],
+        "updates": [],
+        "storeIds": {
+            "steam": "1789480"
+        }
     }
 ]
