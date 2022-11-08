@@ -56,7 +56,7 @@
     "babel-loader": "^8.2.5",
     "chalk": "^5.1.2",
     "clipanion": "^3.2.0-rc.13",
-    "eslint": "^8.26.0",
+    "eslint": "^8.27.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-mantine": "2.0.0",
