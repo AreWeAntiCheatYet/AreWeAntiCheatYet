@@ -73,7 +73,7 @@
     "metascraper": "^5.31.1",
     "metascraper-description": "^5.31.1",
     "metascraper-title": "^5.31.1",
-    "node-fetch": "^3.2.10",
+    "node-fetch": "^3.3.0",
     "open-graph-scraper": "^4.11.1",
     "prettier": "^2.7.1",
     "ts-jest": "^28.0.7",
