@@ -707,9 +707,9 @@
     semver "^7.3.5"
     tar "^6.1.11"
 
-"@metascraper/helpers@^5.31.1":
-  version "5.31.1"
-  resolved "https://registry.npmjs.org/@metascraper/helpers/-/helpers-5.31.1.tgz"
+"@metascraper/helpers@^5.31.1", "@metascraper/helpers@^5.31.3":
+  version "5.31.3"
+  resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.31.3.tgz#c298a64dced1ca301217fc11f35ddb8e6f87ab09"
   dependencies:
     audio-extensions "0.0.0"
     chrono-node "2.4.1"
@@ -730,6 +730,7 @@
     normalize-url "~6.1.0"
     re2 "~1.17.7"
     smartquotes "~2.3.2"
+    tldts "~5.7.92"
     url-regex-safe "~3.0.0"
     video-extensions "~1.2.0"
 
@@ -3937,11 +3938,11 @@ metascraper-title@^5.31.1:
   dependencies:
     "@metascraper/helpers" "^5.31.1"
 
-metascraper@^5.31.1:
-  version "5.31.1"
-  resolved "https://registry.npmjs.org/metascraper/-/metascraper-5.31.1.tgz"
+metascraper@^5.31.3:
+  version "5.31.3"
+  resolved "https://registry.yarnpkg.com/metascraper/-/metascraper-5.31.3.tgz#9abd2b8e986bfddad1526e194d95ca1a42c61159"
   dependencies:
-    "@metascraper/helpers" "^5.31.1"
+    "@metascraper/helpers" "^5.31.3"
     cheerio "~1.0.0-rc.12"
     lodash "~4.17.21"
     whoops "~4.1.2"
@@ -5110,6 +5111,16 @@ through@^2.3.6, through@^2.3.8:
 tlds@^1.228.0:
   version "1.233.0"
   resolved "https://registry.npmjs.org/tlds/-/tlds-1.233.0.tgz"
+
+tldts-core@^5.7.99:
+  version "5.7.99"
+  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-5.7.99.tgz#d9e19fb4449ace33d61916b5b7ad8b40f61ce8ce"
+
+tldts@~5.7.92:
+  version "5.7.99"
+  resolved "https://registry.yarnpkg.com/tldts/-/tldts-5.7.99.tgz#cbf119498e52293078a28a16d051329b77246da5"
+  dependencies:
+    tldts-core "^5.7.99"
 
 tmp@^0.0.33:
   version "0.0.33"
