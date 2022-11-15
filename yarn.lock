@@ -1048,9 +1048,9 @@
   version "0.4.1"
   resolved "https://registry.npmjs.org/@types/cookie/-/cookie-0.4.1.tgz"
 
-"@types/gm@^1.18.12":
-  version "1.18.12"
-  resolved "https://registry.npmjs.org/@types/gm/-/gm-1.18.12.tgz"
+"@types/gm@^1.25.0":
+  version "1.25.0"
+  resolved "https://registry.yarnpkg.com/@types/gm/-/gm-1.25.0.tgz#8e0780e3e9c542570ea2d976bac030993d389922"
   dependencies:
     "@types/node" "*"
 
