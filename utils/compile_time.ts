@@ -139,47 +139,43 @@ export async function fetchReferenceTitles(games: Game[]) {
   for (const [index, promise] of metadatas.entries()) {
     const update = updates[index];
 
-    const gameUpdate = gamesWithReferenceTitles
-      .find((game) =>
-        game.updates.find((statusUpdate) => statusUpdate.reference === update.reference)
-      )!
-      .updates.find((statusUpdate) => statusUpdate.reference === update.reference)!;
+    const gameUpdate = gamesWithReferenceTitles.find((game) =>
+      game.updates.find((statusUpdate) => statusUpdate.reference === update.reference)
+    )!.updates.find((statusUpdate) => statusUpdate.reference === update.reference)!;
 
-    if (promise.status === 'fulfilled' && !promise.value.error) {
-      const metadata = promise.value;
-      const title = metadata.result.ogTitle;
+    let title: string | undefined;
+    let description: string | undefined;
 
-      if (title) {
-        gameUpdate.referenceTitle = title.length > 40 ? title.substr(0, 37).concat('...') : title;
-      } else if (update.reference.includes('protondb')) {
-        gameUpdate.referenceTitle = 'ProtonDB';
-      }
+    try {
+      if (promise.status === 'fulfilled' && !promise.value.error) {
+        const metadata = promise.value.result;
 
-      if (metadata.result.ogDescription) {
-        gameUpdate.referenceDescription = metadata.result.ogDescription;
-      }
-    } else {
-      try {
-        const { title, description } = await metascraper({
+        title = metadata.ogTitle;
+        description = metadata.ogDescription;
+      } else {
+        const metadata = await metascraper({
           url: update.reference,
           html: await (await fetch(update.reference)).text(),
         });
 
-        if (title) {
-          if (title === 'Access denied' && update.reference.includes('steamdb')) {
-            gameUpdate.referenceTitle = 'SteamDB';
-          } else {
-            gameUpdate.referenceTitle = title.length > 40 ? title.substr(0, 37).concat('...') : title;
-          }
-        }
-
-        if (description) {
-          gameUpdate.referenceDescription = description;
-        }
-      } catch (error) {
-        console.log(`Metascraper failed to find information on "${update.reference}": ${error}`);
+        title = metadata.title;
+        description = metadata.description;
       }
+    } catch (error) {
+      console.log(`Failed to fetch OpenGraph/Metadata on "${update.reference}": ${error}`);
     }
+
+    if (title) {
+      gameUpdate.referenceTitle = (title.length > 40 ? title.substr(0, 37).concat('...') : title) || '';
+
+      if (title === 'Access denied' && update.reference.includes('steamdb')) {
+        gameUpdate.referenceTitle = 'SteamDB';
+      }
+    } else if (update.reference.includes('protondb')) {
+      gameUpdate.referenceTitle = 'ProtonDB';
+    }
+
+    gameUpdate.referenceDescription = description || '';
   }
 
   return gamesWithReferenceTitles;
