@@ -159,21 +159,25 @@ export async function fetchReferenceTitles(games: Game[]) {
         gameUpdate.referenceDescription = metadata.result.ogDescription;
       }
     } else {
-      const { title, description } = await metascraper({
-        url: update.reference,
-        html: await (await fetch(update.reference)).text(),
-      });
+      try {
+        const { title, description } = await metascraper({
+          url: update.reference,
+          html: await (await fetch(update.reference)).text(),
+        });
 
-      if (title) {
-        if (title === 'Access denied' && update.reference.includes('steamdb')) {
-          gameUpdate.referenceTitle = 'SteamDB';
-        } else {
-          gameUpdate.referenceTitle = title.length > 40 ? title.substr(0, 37).concat('...') : title;
+        if (title) {
+          if (title === 'Access denied' && update.reference.includes('steamdb')) {
+            gameUpdate.referenceTitle = 'SteamDB';
+          } else {
+            gameUpdate.referenceTitle = title.length > 40 ? title.substr(0, 37).concat('...') : title;
+          }
         }
-      }
 
-      if (description) {
-        gameUpdate.referenceDescription = description;
+        if (description) {
+          gameUpdate.referenceDescription = description;
+        }
+      } catch (error) {
+        console.log(`Metascraper failed to find information on "${update.reference}": ${error}`);
       }
     }
   }
