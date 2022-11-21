@@ -33,7 +33,7 @@
     "cookies-next": "^2.1.1",
     "dayjs": "^1.11.6",
     "libxmljs": "^0.19.10",
-    "next": "12.2.2",
+    "next": "13.0.4",
     "playwright": "^1.25.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
