@@ -966,7 +966,8 @@
         "status": "Broken",
         "reference": "",
         "anticheats": [
-            "miHoYo Protect 2"
+            "miHoYo Protect 2 (Phasing Out)",
+            "miHoYo Protect 3"
         ],
         "notes": [
             [
@@ -3198,7 +3199,8 @@
         "status": "Broken",
         "reference": "",
         "anticheats": [
-            "miHoYo Protect"
+            "miHoYo Protect 2 (Phasing Out)",
+            "Anti-Cheat Expert"
         ],
         "notes": [],
         "updates": [],
