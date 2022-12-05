@@ -449,6 +449,10 @@
             [
                 "May only work with the Epic Games version",
                 "https://forum.deadbydaylight.com/en/discussion/comment/3265320/#Comment_3265320"
+            ],
+            [
+                "Make sure to apply workaround properly",
+                "https://github.com/Starz0r/AreWeAntiCheatYet/issues/971#issuecomment-1336476049"
             ]
         ],
         "updates": [
