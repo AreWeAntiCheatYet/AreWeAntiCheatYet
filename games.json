@@ -4730,5 +4730,21 @@
         "storeIds": {
             "steam": "1789480"
         }
+    },
+    {
+        "url": "https://www.predecessorgame.com/",
+        "name": "Predecessor",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "https://www.protondb.com/app/961200#uTaObZo4eC",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": [],
+        "updates": [],
+        "storeIds": {
+            "steam": "961200"
+        }
     }
 ]
