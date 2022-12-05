@@ -440,7 +440,7 @@
         "name": "Dead By Daylight",
         "logo": "",
         "native": false,
-        "status": "Broken",
+        "status": "Running",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -461,11 +461,6 @@
                 "name": "Runs with workarounds",
                 "date": "Nov 15, 2022, 11:55 AM GMT+1",
                 "reference": "https://forum.deadbydaylight.com/en/discussion/comment/3265222/#Comment_3265222"
-            },
-            {
-                "name": "EAC on Linux disabled",
-                "date": "Nov 25, 2022, 01:00 AM GMT+1",
-                "reference": "https://forum.deadbydaylight.com/en/discussion/282110/eac-on-steam-deck-proton-linux/p23"
             }
         ],
         "storeIds": {
