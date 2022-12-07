@@ -31,7 +31,7 @@
     "@tabler/icons": "^1.112.0",
     "@types/libxmljs": "^0.18.8",
     "cookies-next": "^2.1.1",
-    "dayjs": "^1.11.6",
+    "dayjs": "^1.11.7",
     "libxmljs": "^0.19.10",
     "next": "12.2.2",
     "playwright": "^1.25.2",
