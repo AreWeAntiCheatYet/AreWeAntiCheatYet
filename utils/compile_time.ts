@@ -265,6 +265,7 @@ export function generateAntiCheatIconLookUp(games: Game[]) {
     ['ricochet', 'ricochet.webp'],
     ['mail.ru', 'mailru.webp'],
     ['mihoyo', 'mihoyo.webp'],
+    ['expert', 'anticheat-expert.webp'],
     ['nexon', 'nexon.webp'],
     ['neac', 'neac.webp'],
     ['saberclaw', 'saberclaw.webp'],
