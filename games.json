@@ -3822,6 +3822,10 @@
             [
                 "Requires workaround",
                 "https://www.reddit.com/r/linux_gaming/comments/wrok4z/dauntless_is_working_again_on_linux/"
+            ],
+            [
+                "May be broken on some systems",
+                "https://github.com/Starz0r/AreWeAntiCheatYet/issues/993"
             ]
         ],
         "updates": [
