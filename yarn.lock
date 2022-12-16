@@ -734,11 +734,11 @@
     url-regex-safe "~3.0.0"
     video-extensions "~1.2.0"
 
-"@next/bundle-analyzer@^12.3.1":
-  version "12.3.1"
-  resolved "https://registry.npmjs.org/@next/bundle-analyzer/-/bundle-analyzer-12.3.1.tgz"
+"@next/bundle-analyzer@^13.0.7":
+  version "13.0.7"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-13.0.7.tgz#9cfacd3412cd9956dd10f607eb6e832a6559a240"
   dependencies:
-    webpack-bundle-analyzer "4.3.0"
+    webpack-bundle-analyzer "4.7.0"
 
 "@next/env@12.2.2":
   version "12.2.2"
@@ -1914,9 +1914,9 @@ combined-stream@^1.0.8:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^6.2.0:
-  version "6.2.1"
-  resolved "https://registry.npmjs.org/commander/-/commander-6.2.1.tgz"
+commander@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-7.2.0.tgz#a36cb57d0b501ce108e4d20559a150a391d97ab7"
 
 commondir@^1.0.1:
   version "1.0.1"
@@ -5400,14 +5400,14 @@ webidl-conversions@^7.0.0:
   version "7.0.0"
   resolved "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-7.0.0.tgz"
 
-webpack-bundle-analyzer@4.3.0:
-  version "4.3.0"
-  resolved "https://registry.npmjs.org/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.3.0.tgz"
+webpack-bundle-analyzer@4.7.0:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.7.0.tgz#33c1c485a7fcae8627c547b5c3328b46de733c66"
   dependencies:
     acorn "^8.0.4"
     acorn-walk "^8.0.0"
     chalk "^4.1.0"
-    commander "^6.2.0"
+    commander "^7.2.0"
     gzip-size "^6.0.0"
     lodash "^4.17.20"
     opener "^1.5.2"
