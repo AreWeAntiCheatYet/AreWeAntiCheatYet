@@ -9,7 +9,9 @@
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [],
+        "notes": [
+        Singleplayer, co-op, and custom matches work
+        ],
         "updates": [
             {
                 "name": "Tried to enable EAC",
