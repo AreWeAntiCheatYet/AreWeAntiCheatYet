@@ -162,8 +162,14 @@ export default function Badges({ game, compact, showText }: BadgesProps) {
           >
             <IconCalendarEvent size={16} />
           </ActionIcon>
-          <Anchor onClick={openInfoModal}>{dayjs(game.updates.at(-1)!.date).fromNow()}</Anchor>
-          <ActionIcon component="a" target="_blank" href={game.updates.at(-1)?.reference}>
+          <Anchor onClick={openInfoModal}>
+            {dayjs(game.updates[game.updates.length - 1]?.date).fromNow()}
+          </Anchor>
+          <ActionIcon
+            component="a"
+            target="_blank"
+            href={game.updates[game.updates.length - 1]?.reference}
+          >
             <IconExternalLink />
           </ActionIcon>
         </Group>

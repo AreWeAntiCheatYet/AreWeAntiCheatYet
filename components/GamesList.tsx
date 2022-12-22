@@ -345,8 +345,8 @@ export default function GamesList({
       case SortMode.status_since:
         return rtn.sort((a, b) =>
           a.updates.length > 0 && b.updates.length > 0
-            ? new Date(b.updates.at(-1)!.date).getTime() -
-              new Date(a.updates.at(-1)!.date).getTime()
+            ? new Date(b.updates[b.updates.length - 1]?.date).getTime() -
+              new Date(a.updates[a.updates.length - 1]?.date).getTime()
             : b.updates.length - a.updates.length
         );
       case SortMode.notes_asc:

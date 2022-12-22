@@ -96,10 +96,10 @@ function Change({ newGame, oldGame, antiCheatIcons }: ChangeProps) {
         <IconCalendarEvent />
         <Text>
           New Updates:{' '}
-          <Anchor target="_blank" href={newGame.updates.at(-1)!.reference}>
-            {newGame.updates.at(-1)!.name}
+          <Anchor target="_blank" href={newGame.updates[newGame.updates.length - 1]?.reference}>
+            {newGame.updates[newGame.updates.length - 1]?.name}
           </Anchor>{' '}
-          {dayjs(newGame.updates.at(-1)!.date).fromNow()}
+          {dayjs(newGame.updates[newGame.updates.length - 1]?.date).fromNow()}
         </Text>
       </Group>
     );
