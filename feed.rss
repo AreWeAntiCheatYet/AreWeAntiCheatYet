@@ -571,5 +571,27 @@
             &lt;ul&gt;
             &lt;li&gt;&lt;a target="_blank" href="https://www.reddit.com/r/linux_gaming/comments/wrok4z/dauntless_is_working_again_on_linux/"&gt;Requires workaround&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a target="_blank" href="https://github.com/Starz0r/AreWeAntiCheatYet/issues/993"&gt;May be broken on some systems&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;</description><title>2 Updates</title><pubDate>Mon, 12 Dec 2022 13:36:23 GMT</pubDate></item></channel>
+            &lt;/ul&gt;</description><title>2 Updates</title><pubDate>Mon, 12 Dec 2022 13:36:23 GMT</pubDate></item><item><description>&lt;h2&gt;&lt;img src="https://areweanticheatyet.com/logos/0.webp" height="32" width="32" style="border-radius: 50%; vertical-align:middle;"/&gt;Halo: The Master Chief Collection&lt;/h2&gt;
+                
+        
+
+            &lt;b&gt;🤔 Status&lt;/b&gt; 
+            &lt;ul&gt;
+                &lt;li&gt;&lt;mark style="background-color: rgb(103, 65, 217);"&gt;Planned&lt;/mark&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+                
+        
+                
+        &lt;b&gt;📋 Updates&lt;/b&gt;&lt;br/&gt;
+            &lt;dl&gt;
+            &lt;dd&gt;&lt;a target="_blank" href="https://www.xda-developers.com/halo-mcc-broken-steam-deck/"&gt;Tried to enable EAC (Tue Apr 12 2022)&lt;/a&gt;&lt;/dd&gt;
+                &lt;dt&gt;&lt;blockquote&gt;Halo: MCC has worked on Linux and Steam Deck for single player, but the recent addition of EAC support seems to have completely broken it all&lt;/blockquote&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;a target="_blank" href="https://steamdb.info/patchnotes/9367265/"&gt;Updated Linux EAC Files (Wed Aug 31 2022)&lt;/a&gt;&lt;/dd&gt;
+                &lt;dt&gt;&lt;blockquote&gt;&lt;i&gt;No description available&lt;/i&gt;&lt;/blockquote&gt;&lt;/dt&gt;
+            &lt;/dl&gt;
+
+        &lt;b&gt;📝 Notes&lt;/b&gt;&lt;br/&gt;
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a target="_blank" href="https://www.protondb.com/app/976730#s1M6yjsTt"&gt;Singleplayer, co-op, and custom matches work&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;</description><title>1 Updates</title><pubDate>Mon, 19 Dec 2022 20:08:21 GMT</pubDate></item></channel>
 </rss>
