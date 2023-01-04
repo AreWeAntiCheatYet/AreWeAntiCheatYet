@@ -668,19 +668,26 @@
   dependencies:
     "@mantine/utils" "5.5.5"
 
-"@mantine/next@^5.1.3":
-  version "5.5.5"
-  resolved "https://registry.npmjs.org/@mantine/next/-/next-5.5.5.tgz"
+"@mantine/next@^5.10.0":
+  version "5.10.0"
+  resolved "https://registry.yarnpkg.com/@mantine/next/-/next-5.10.0.tgz#6b2b1eeeec620423d70a08aa7bf10bbf5c97117c"
   dependencies:
-    "@mantine/ssr" "5.5.5"
-    "@mantine/styles" "5.5.5"
+    "@mantine/ssr" "5.10.0"
+    "@mantine/styles" "5.10.0"
 
-"@mantine/ssr@5.5.5":
-  version "5.5.5"
-  resolved "https://registry.npmjs.org/@mantine/ssr/-/ssr-5.5.5.tgz"
+"@mantine/ssr@5.10.0":
+  version "5.10.0"
+  resolved "https://registry.yarnpkg.com/@mantine/ssr/-/ssr-5.10.0.tgz#d8c5364726c22a00c28e279174cfebd28f4094d4"
   dependencies:
-    "@mantine/styles" "5.5.5"
+    "@mantine/styles" "5.10.0"
     html-react-parser "1.4.12"
+
+"@mantine/styles@5.10.0":
+  version "5.10.0"
+  resolved "https://registry.yarnpkg.com/@mantine/styles/-/styles-5.10.0.tgz#52b05a36baeb0b613009e915757461e42a27ae28"
+  dependencies:
+    clsx "1.1.1"
+    csstype "3.0.9"
 
 "@mantine/styles@5.5.5":
   version "5.5.5"
