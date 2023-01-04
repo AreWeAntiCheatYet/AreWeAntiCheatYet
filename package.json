@@ -71,7 +71,7 @@
     "inquirer": "^9.1.4",
     "jest": "^28.1.3",
     "metascraper": "^5.32.0",
-    "metascraper-description": "^5.31.1",
+    "metascraper-description": "^5.33.3",
     "metascraper-title": "^5.31.1",
     "node-fetch": "^3.2.10",
     "open-graph-scraper": "^4.11.1",
