@@ -166,14 +166,18 @@ function Item({ game, highlight, showStores, anticheatIcons }: ItemProps) {
 }
 
 interface SearchBoxProps {
+  query: string;
   setQuery: Dispatch<SetStateAction<string>>;
 }
 
-function SearchBox({ setQuery }: SearchBoxProps) {
-  const [search, setSearch] = useState('');
+function SearchBox({ query, setQuery }: SearchBoxProps) {
+  const [search, setSearch] = useState(query);
   const [debounced] = useDebouncedValue(search, 500);
 
   useEffect(() => {
+    if (query === debounced) {
+      return;
+    }
     setQuery(debounced);
   }, [debounced]);
 
@@ -323,6 +327,14 @@ export default function GamesList({
   const [query, setQuery] = useState('');
   const [sortMode, setSortMode] = useState(SortMode.normal);
 
+  useEffect(() => {
+    const queryParams = new URLSearchParams(document.location.search);
+
+    if (queryParams.has('q')) {
+      setQuery(queryParams.get('q')!);
+    }
+  }, []);
+
   const shownGames = useMemo(() => {
     const rtn = games.filter(
       (game) =>
@@ -361,7 +373,7 @@ export default function GamesList({
   return (
     <>
       <Group position="apart" sx={{ marginTop: 15 }}>
-        <SearchBox setQuery={setQuery} />
+        <SearchBox key={`key-${query}`} query={query} setQuery={setQuery} />
       </Group>
       <Table {...props} horizontalSpacing="xl" fontSize="md">
         <thead>
