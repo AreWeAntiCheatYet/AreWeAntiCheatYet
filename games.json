@@ -3497,12 +3497,17 @@
         "name": "Chivalry 2",
         "logo": "",
         "native": false,
-        "status": "Broken",
+        "status": "Running",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "May require specific launch options",
+                "https://www.protondb.com/app/1824220#qzhEiGmSOK"
+            ]
+        ],
         "updates": [],
         "storeIds": {
             "epic": {
