@@ -3453,7 +3453,7 @@
     },
     {
         "url": "",
-        "name": "Nostale",
+        "name": "NosTale",
         "logo": "",
         "native": false,
         "status": "Supported",
@@ -3461,7 +3461,12 @@
         "anticheats": [
             "nProtect GameGuard"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Dedicated Proton Build exists",
+                "https://github.com/PSzczepanski1996/proton-ge-nostale"
+            ]
+        ],
         "updates": [],
         "storeIds": {
             "steam": "550470"
