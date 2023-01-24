@@ -1148,29 +1148,30 @@
         "name": "Tom Clancy's The Division 2",
         "logo": "",
         "native": false,
-        "status": "Broken",
+        "status": "Supported",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [
-            [
-                "Show your support!",
-                "https://discussions.ubisoft.com/post/829691"
-            ]
-        ],
+        "notes": [],
         "updates": [
             {
                 "name": "Show your support!",
                 "date": "23 August 2022 12:40:12 UTC",
                 "reference": "https://discussions.ubisoft.com/post/829691"
+            },
+            {
+                "name": "Added Proton EAC Support",
+                "date": "18 January 2023 13:11:00 UTC",
+                "reference": "https://steamcommunity.com/games/2221490/announcements/detail/3632750190483497137"
             }
         ],
         "storeIds": {
             "epic": {
                 "namespace": "impala",
                 "slug": "the-division-2"
-            }
+            },
+            "steam": "2221490"
         }
     },
     {
