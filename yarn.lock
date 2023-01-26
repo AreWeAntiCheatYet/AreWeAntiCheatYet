@@ -4514,11 +4514,15 @@ playwright-core@1.27.0:
   version "1.27.0"
   resolved "https://registry.npmjs.org/playwright-core/-/playwright-core-1.27.0.tgz"
 
-playwright@^1.25.2:
-  version "1.27.0"
-  resolved "https://registry.npmjs.org/playwright/-/playwright-1.27.0.tgz"
+playwright-core@1.30.0:
+  version "1.30.0"
+  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.30.0.tgz#de987cea2e86669e3b85732d230c277771873285"
+
+playwright@^1.30.0:
+  version "1.30.0"
+  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.30.0.tgz#b1d7be2d45d97fbb59f829f36f521f12010fe072"
   dependencies:
-    playwright-core "1.27.0"
+    playwright-core "1.30.0"
 
 postcss@8.4.5:
   version "8.4.5"
