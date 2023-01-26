@@ -834,12 +834,12 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@playwright/test@^1.25.2":
-  version "1.27.0"
-  resolved "https://registry.npmjs.org/@playwright/test/-/test-1.27.0.tgz"
+"@playwright/test@^1.30.0":
+  version "1.30.0"
+  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.30.0.tgz#8c0c4930ff2c7be7b3ec3fd434b2a3b4465ed7cb"
   dependencies:
     "@types/node" "*"
-    playwright-core "1.27.0"
+    playwright-core "1.30.0"
 
 "@polka/url@^1.0.0-next.20":
   version "1.0.0-next.21"
@@ -4513,6 +4513,10 @@ pkg-dir@^4.1.0, pkg-dir@^4.2.0:
 playwright-core@1.27.0:
   version "1.27.0"
   resolved "https://registry.npmjs.org/playwright-core/-/playwright-core-1.27.0.tgz"
+
+playwright-core@1.30.0:
+  version "1.30.0"
+  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.30.0.tgz#de987cea2e86669e3b85732d230c277771873285"
 
 playwright@^1.25.2:
   version "1.27.0"
