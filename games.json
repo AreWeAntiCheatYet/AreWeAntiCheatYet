@@ -1153,7 +1153,12 @@
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Workaround for Ubisoft Connect",
+                "https://www.reddit.com/r/SteamDeck/comments/10fsva1/how_to_get_the_division_2_ubisoft_connect_to_work/?utm_source=share&utm_medium=ios_app&utm_name=iossmf"
+            ]
+        ],
         "updates": [
             {
                 "name": "Show your support!",
@@ -4786,6 +4791,27 @@
             "Easy Anti-Cheat"
         ],
         "notes": [],
+        "updates": [],
+        "storeIds": {
+            "steam": "961200"
+        }
+    },
+    {
+        "url": "https://freetrial.finalfantasyxiv.com/",
+        "name": "Final Fantasy XIV",
+        "logo": "",
+        "native": false,
+        "status": "Running",
+        "reference": "https://www.reddit.com/r/ffxiv/comments/xbgbyg/i_managed_to_run_ffxiv_on_linux_fedora/",
+        "anticheats": [
+            "Unknown (Custom)"
+        ],
+        "notes": [
+            [
+                "May require custom launcher",
+                "https://github.com/goatcorp/FFXIVQuickLauncher"
+            ]
+        ],
         "updates": [],
         "storeIds": {
             "steam": "961200"
