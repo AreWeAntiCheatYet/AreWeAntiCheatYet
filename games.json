@@ -3749,13 +3749,19 @@
         "name": "Watch Dogs: Legion",
         "logo": "",
         "native": false,
-        "status": "Broken",
-        "reference": "",
+        "status": "Running",
+        "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/1095",
         "anticheats": [
             "BattlEye"
         ],
         "notes": [],
-        "updates": [],
+        "updates": [
+            {
+                "name": "Multiplayer working",
+                "date": "Jan 28, 2023, 11:23 AM GMT+1",
+                "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/1095"
+            }
+        ],
         "storeIds": {
             "epic": {
                 "namespace": "0a84818055e740a7be21a2e5b6162703",
