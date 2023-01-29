@@ -614,5 +614,89 @@
                 &lt;dt&gt;&lt;blockquote&gt;“We want to make it happen.”&lt;/blockquote&gt;&lt;/dt&gt;
             &lt;/dl&gt;
 
-        </description><title>1 Updates</title><pubDate>Thu, 29 Dec 2022 16:49:27 GMT</pubDate></item></channel>
+        </description><title>1 Updates</title><pubDate>Thu, 29 Dec 2022 16:49:27 GMT</pubDate></item><item><description>&lt;h2&gt;&lt;img src="https://areweanticheatyet.com/logos/21.webp" height="32" width="32" style="border-radius: 50%; vertical-align:middle;"/&gt;Squad&lt;/h2&gt;
+                
+        
+
+            &lt;b&gt;🤔 Status&lt;/b&gt; 
+            &lt;ul&gt;
+                &lt;li&gt;&lt;mark style="background-color: rgb(12, 133, 153);"&gt;Running&lt;/mark&gt; =&gt; &lt;mark style="background-color: rgb(47, 158, 68);"&gt;Supported&lt;/mark&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+                
+        
+                
+        &lt;b&gt;📋 Updates&lt;/b&gt;&lt;br/&gt;
+            &lt;dl&gt;
+            &lt;dd&gt;&lt;a target="_blank" href="https://www.reddit.com/r/joinsquad/comments/aquk3u/happy_to_see_squad_now_works_on_linux/"&gt;Added Linux support (Fri Feb 15 2019)&lt;/a&gt;&lt;/dd&gt;
+                &lt;dt&gt;&lt;blockquote&gt;23 votes and 17 comments so far on Reddit&lt;/blockquote&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;a target="_blank" href="https://github.com/ValveSoftware/Proton/issues/938#issuecomment-1381029311"&gt;&lt;mark&gt;(New)&lt;/mark&gt; Workaround no longer required (Thu Jan 12 2023)&lt;/a&gt;&lt;/dd&gt;
+                &lt;dt&gt;&lt;blockquote&gt;When downloading the game ¨Squad¨ from Steam it directly finishes and trying to start the game causes en error: ¨An error occurred while updating Squad (missing executable) {some very long path her...&lt;/blockquote&gt;&lt;/dt&gt;
+            &lt;/dl&gt;
+
+        
+&lt;h2&gt;&lt;img src="https://areweanticheatyet.com/logos/43.webp" height="32" width="32" style="border-radius: 50%; vertical-align:middle;"/&gt;Tom Clancy's The Division 2&lt;/h2&gt;
+                
+        
+
+            &lt;b&gt;🤔 Status&lt;/b&gt; 
+            &lt;ul&gt;
+                &lt;li&gt;&lt;mark style="background-color: rgb(47, 158, 68);"&gt;Supported&lt;/mark&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+                
+        
+                
+        &lt;b&gt;📋 Updates&lt;/b&gt;&lt;br/&gt;
+            &lt;dl&gt;
+            &lt;dd&gt;&lt;a target="_blank" href="https://discussions.ubisoft.com/post/829691"&gt;Show your support! (Tue Aug 23 2022)&lt;/a&gt;&lt;/dd&gt;
+                &lt;dt&gt;&lt;blockquote&gt;Thanks @Halfloaf We have passed on the thread so the dev team can see how many comments the thread is getting asking for this&lt;/blockquote&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;a target="_blank" href="https://steamcommunity.com/games/2221490/announcements/detail/3632750190483497137"&gt;Added Proton EAC Support (Wed Jan 18 2023)&lt;/a&gt;&lt;/dd&gt;
+                &lt;dt&gt;&lt;blockquote&gt;Fixed an issue that caused the game to be unable to boot on Steam Deck&lt;/blockquote&gt;&lt;/dt&gt;
+            &lt;/dl&gt;
+
+        &lt;b&gt;📝 Notes&lt;/b&gt;&lt;br/&gt;
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a target="_blank" href="https://www.reddit.com/r/SteamDeck/comments/10fsva1/how_to_get_the_division_2_ubisoft_connect_to_work/?utm_source=share&amp;utm_medium=ios_app&amp;utm_name=iossmf"&gt;Workaround for Ubisoft Connect&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+&lt;h2&gt;&lt;img src="https://areweanticheatyet.com/logos/195.webp" height="32" width="32" style="border-radius: 50%; vertical-align:middle;"/&gt;Watch Dogs: Legion&lt;/h2&gt;
+                
+        &lt;b&gt;🔗 Reference &lt;/b&gt;
+            &lt;ul&gt;
+                
+                &lt;li&gt;&lt;a href="https://github.com/Starz0r/AreWeAntiCheatYet/issues/1095" target="_blank"&gt;https://github.com/Starz0r/AreWeAntiCheatYet/issues/1095&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;b&gt;🤔 Status&lt;/b&gt; 
+            &lt;ul&gt;
+                &lt;li&gt;&lt;mark style="background-color: rgb(232, 89, 12);"&gt;Broken&lt;/mark&gt; =&gt; &lt;mark style="background-color: rgb(12, 133, 153);"&gt;Running&lt;/mark&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+                
+        
+                
+        &lt;b&gt;📋 Updates&lt;/b&gt;&lt;br/&gt;
+            &lt;dl&gt;
+            &lt;dd&gt;&lt;a target="_blank" href="https://github.com/Starz0r/AreWeAntiCheatYet/issues/1095"&gt;&lt;mark&gt;(New)&lt;/mark&gt; Multiplayer working (Sat Jan 28 2023)&lt;/a&gt;&lt;/dd&gt;
+                &lt;dt&gt;&lt;blockquote&gt;Game Title Watch_Dogs legion Status of the Anti-Cheat Running. Tinkering Steps No response Proof of Mention Nothing official, but it worked for me and they just enabled it for the division 2.&lt;/blockquote&gt;&lt;/dt&gt;
+            &lt;/dl&gt;
+
+        
+&lt;h2&gt;&lt;img src="https://areweanticheatyet.com/logos/252.webp" height="32" width="32" style="border-radius: 50%; vertical-align:middle;"/&gt;(New!) Final Fantasy XIV&lt;/h2&gt;
+                
+        
+
+            &lt;b&gt;🤔 Status&lt;/b&gt; 
+            &lt;ul&gt;
+                &lt;li&gt;&lt;mark style="background-color: rgb(12, 133, 153);"&gt;Running&lt;/mark&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+                
+        &lt;b&gt;🔒 Anti-Cheats&lt;/b&gt;
+            &lt;ul&gt;
+                &lt;li&gt; &lt;img src="https://areweanticheatyet.com/null" width="16" height="16"/&gt;Unknown (Custom)&lt;/li&gt;
+            &lt;/ul&gt;
+                
+        
+
+        &lt;b&gt;📝 Notes&lt;/b&gt;&lt;br/&gt;
+            &lt;ul&gt;
+            &lt;li&gt;&lt;a target="_blank" href="https://github.com/goatcorp/FFXIVQuickLauncher"&gt;May require custom launcher&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;</description><title>4 Updates</title><pubDate>Sun, 29 Jan 2023 23:25:27 GMT</pubDate></item></channel>
 </rss>
