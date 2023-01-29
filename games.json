@@ -631,22 +631,22 @@
         "name": "Squad",
         "logo": "",
         "native": false,
-        "status": "Running",
+        "status": "Supported",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [
-            [
-                "Currently requires workaround",
-                "https://squadfm.org/#installation-linux-only"
-            ]
-        ],
+        "notes": [],
         "updates": [
             {
                 "name": "Added Linux support",
                 "date": "Feb 15, 2019, 9:30 AM EST",
                 "reference": "https://www.reddit.com/r/joinsquad/comments/aquk3u/happy_to_see_squad_now_works_on_linux/"
+            },
+            {
+                "name": "Workaround no longer required",
+                "date": "Jan 12, 2023, 10:46 PM GMT+1",
+                "reference": "https://github.com/ValveSoftware/Proton/issues/938#issuecomment-1381029311"
             }
         ],
         "storeIds": {
