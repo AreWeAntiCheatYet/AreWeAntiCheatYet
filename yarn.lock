@@ -744,9 +744,9 @@
   version "12.2.2"
   resolved "https://registry.npmjs.org/@next/env/-/env-12.2.2.tgz"
 
-"@next/eslint-plugin-next@^13.0.0":
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-13.0.0.tgz#cf3d799b21671554c1f5889c01d2513afb9973cd"
+"@next/eslint-plugin-next@^13.1.6":
+  version "13.1.6"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-13.1.6.tgz#ad8be22dd3d8aee9a9bd9a2507e2c55a2f7ebdd9"
   dependencies:
     glob "7.1.7"
 
