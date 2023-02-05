@@ -3916,14 +3916,18 @@
         "logo": "",
         "native": false,
         "status": "Running",
-        "reference": "https://github.com/kyechou/leagueoflegends",
+        "reference": "",
         "anticheats": [
             "Unknown (Custom)"
         ],
         "notes": [
             [
-                "Works OOTB with Lutris",
-                "https://lutris.net/games/garena/"
+                "Works with Lutris",
+                "https://reddit.com/r/leagueoflinux/wiki/index"
+            ],
+            [
+                "Helper script available",
+                "https://github.com/kyechou/leagueoflegends"
             ]
         ],
         "updates": [],
