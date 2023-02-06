@@ -74,7 +74,7 @@
     "metascraper-description": "^5.31.1",
     "metascraper-title": "^5.31.1",
     "node-fetch": "^3.2.10",
-    "open-graph-scraper": "^4.11.1",
+    "open-graph-scraper": "^5.0.5",
     "prettier": "^2.7.1",
     "ts-jest": "^28.0.7",
     "typescript": "4.8.4"
