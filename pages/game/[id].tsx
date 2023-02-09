@@ -1,39 +1,35 @@
-import {
-  Box,
-  Card,
-  Center,
-  Grid,
-  Group,
-  List,
-  Paper,
-  Stack,
-  Text,
-  ThemeIcon,
-  Timeline,
-  Title,
-  Tooltip,
-  useMantineTheme,
-} from '@mantine/core';
+import { ActionIcon, Box, Card, Center, Grid, Group, Paper, Stack, Text, Title, useMantineTheme } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
-import { IconNote } from '@tabler/icons-react';
-import dayjs from 'dayjs';
-import relativeTime from 'dayjs/plugin/relativeTime';
+import { IconHourglassEmpty, IconQuestionMark, IconWorld } from '@tabler/icons-react';
+import { access, constants } from 'fs/promises';
 import { InferGetStaticPropsType } from 'next';
 import Image from 'next/image';
-import { useEffect, useState } from 'react';
+import { CSSProperties } from 'react';
+import AntiCheatBadge from '../../components/AntiCheatBadge';
+import Notes from '../../components/Notes';
+import StatusBadge from '../../components/StatusBadge';
+import StoreBadges from '../../components/StoreBadges';
+import Updates from '../../components/Updates';
 import Games from '../../games.json';
 import { Game } from '../../src/types/games';
-import { getLogo, getStyle } from '../../src/utils/games';
 
 // TODO: we should accept both a store-id, as well as some other identifier here.
-// TODO: Empty notes, split up code...
-// TODO: Show reference and stores...
 
 export const getStaticProps = async ({ params: { id } }) => {
   const game = Games.at(id) as Game;
   const updates = game.updates.reverse();
 
-  return { props: { game, id, updates } };
+  const banner = `/assets/banner-${id}.png`;
+  let bannerExists = false;
+
+  try {
+    await access(`public/${banner}`, constants.R_OK);
+    bannerExists = true;
+  } catch (e) {
+    bannerExists = false;
+  }
+
+  return { props: { game, id, updates, banner: bannerExists ? banner : null } };
 };
 
 export const getStaticPaths = async () => {
@@ -41,108 +37,98 @@ export const getStaticPaths = async () => {
   return { paths, fallback: false };
 };
 
-export default function ({ id, game }: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function ({ banner, game }: InferGetStaticPropsType<typeof getStaticProps>) {
   const breakpoint = useMediaQuery('(min-width: 1200px)') ?? true;
   const theme = useMantineTheme();
 
-  const [updates, setUpdates] = useState([]);
+  const background = banner ? theme.colors.dark[6] : 'gray';
 
-  useEffect(() => {
-    dayjs.extend(relativeTime);
-    setUpdates(game.updates.map((update) => dayjs(update.date).fromNow()));
-  }, []);
-
-  const background = theme.colorScheme === 'dark' ? undefined : theme.colors.gray[5];
-  const banner = `/assets/banner-${id}.png`;
-  const status = getStyle(game.status);
+  const style: CSSProperties = {
+    backgroundSize: 'cover',
+    position: 'absolute',
+    height: `100%`,
+    width: `inherit`,
+    zIndex: -1,
+  };
 
   return (
-    <Grid columns={breakpoint ? 4 : 1} m={0} sx={{ height: '100%' }}>
+    <Grid columns={breakpoint ? 3 : 1} m={0} sx={{ height: '100%' }}>
       <Grid.Col span={1} p={0}>
         <Box sx={{ position: 'relative', overflow: 'hidden', height: '100%', width: '100%' }}>
+          <Box bg={background} style={{ ...style }} />
           <Box
-            bg={background}
             style={{
               backgroundImage: `url('${banner}')`,
-              backgroundSize: 'cover',
-              position: 'absolute',
               filter: 'blur(50px)',
-              height: `100%`,
-              width: `inherit`,
               opacity: 0.5,
-              zIndex: -1,
+              ...style,
             }}
           />
-          <Center mt={150}>
+          <Center mt={100}>
             <Stack align="center">
-              <Paper radius="xl" sx={{ overflow: 'hidden' }}>
-                <Image src={banner} alt="Banner" width={220} height={310} />
+              <Paper radius="xl" shadow="xl" sx={{ overflow: 'hidden' }}>
+                {banner ? (
+                  <Image src={banner} alt="Banner" width={220} height={310} />
+                ) : (
+                  <Center bg="gray" w={220} h={310}>
+                    <IconQuestionMark size={32} />
+                  </Center>
+                )}
               </Paper>
-              <Title align="center" mt={15}>
+              <Title color="white" align="center">
                 {game.name}
               </Title>
-              <Card mt={20} bg={status.color} radius="xl">
-                <Group noWrap>
-                  <status.icon size={32} />
-                  <Text fz={20} weight={700} align="center">
-                    {game.status}
-                  </Text>
-                </Group>
-              </Card>
-              <Group noWrap mt={20} mb={20}>
+              {game.url && (
+                <ActionIcon variant="transparent" component="a" href={game.url} target="_blank">
+                  <IconWorld color="white" size={64} />
+                </ActionIcon>
+              )}
+              <StatusBadge mt={20} shadow="lg" fz={20} weight={700} size={32} game={game} />
+              <Group noWrap mt={50} mb={20}>
                 {game.anticheats.map((anticheat) => (
-                  <Tooltip
-                    key={anticheat}
-                    label={anticheat}
-                    transition="slide-up"
-                    events={{ hover: true, touch: true, focus: true }}
-                  >
-                    <img src={getLogo(anticheat)} alt={anticheat} height={64} />
-                  </Tooltip>
+                  <AntiCheatBadge key={anticheat} anticheat={anticheat} height={64} />
                 ))}
               </Group>
+              {Object.entries(game.storeIds).length > 0 && (
+                <>
+                  <Text mt={20} fz="md" color="dimmed">
+                    Available on
+                  </Text>
+                  <StoreBadges game={game} height={64} mb={20} />
+                </>
+              )}
             </Stack>
           </Center>
         </Box>
       </Grid.Col>
-      <Grid.Col ml={50} mt={25} span={1}>
-        <Title>Updates</Title>
-        <Timeline mt={50} active={0}>
-          {game.updates.map((update, index) => (
-            <Timeline.Item key={update.name} fz="xl" title={update.name} lineVariant={index > 0 ? 'dotted' : 'dashed'}>
-              <Text fz="md" color="dimmed">
-                {updates[index]}
-              </Text>
-            </Timeline.Item>
-          ))}
-        </Timeline>
-      </Grid.Col>
-      <Grid.Col span={1} ml={50} mt={25} mb={20}>
-        <Title>Notes</Title>
-        <List
-          mt={50}
-          spacing="md"
-          icon={
-            <ThemeIcon radius="xl" color="gray">
-              <Center>
-                <IconNote size={18} />
-              </Center>
-            </ThemeIcon>
-          }
-        >
-          {game.notes.map((note) => (
-            <List.Item key={note[0]}>
-              <Text
-                fz="xl"
-                component={note[1] ? 'a' : undefined}
-                variant={note[1] ? 'link' : undefined}
-                {...(note[1] ? { href: note[1], target: '_blank' } : undefined)}
-              >
-                {note[0]}
-              </Text>
-            </List.Item>
-          ))}
-        </List>
+      <Grid.Col mt={25} span={breakpoint ? 2 : 1}>
+        <Grid columns={breakpoint ? 2 : 1} sx={{ height: '100%' }}>
+          <Grid.Col p={50} span={1}>
+            <Title>Updates</Title>
+            <Updates mt={55} game={game} />
+          </Grid.Col>
+          <Grid.Col p={50} span={1}>
+            <Title>Notes</Title>
+            <Notes mt={50} game={game} />
+          </Grid.Col>
+          <Grid.Col p={50} offset={breakpoint ? 1 : 0} span={1}>
+            <Title>Reference</Title>
+            <Card mt={55} withBorder>
+              {game.reference ? (
+                <Text variant="link" component="a" href={game.reference} target="_blank">
+                  {game.reference}
+                </Text>
+              ) : (
+                <Group noWrap align="center">
+                  <IconHourglassEmpty />
+                  <Text color="dimmed" italic>
+                    No Reference available at this time
+                  </Text>
+                </Group>
+              )}
+            </Card>
+          </Grid.Col>
+        </Grid>
       </Grid.Col>
     </Grid>
   );
