@@ -60,5 +60,6 @@ export function getLogo(anticheat: string) {
     ['hyperion', 'hyperion.webp'],
   ]);
 
-  return `/anticheats/${logo_map.get(anticheat.toLowerCase())}`;
+  const file = logo_map.get(anticheat.toLowerCase());
+  return file ? `/anticheats/${file}` : undefined;
 }
