@@ -24,7 +24,7 @@ export interface Game {
   anticheats: string[];
 
   updates: Update[];
-  notes: [string, string][];
+  notes: [text: string, reference: string][];
 
   storeIds: StoreIds;
 }
