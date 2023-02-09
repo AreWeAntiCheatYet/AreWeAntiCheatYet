@@ -17,10 +17,8 @@ module.exports = {
   settings: {
     'import/resolver': {
       node: {
-        paths: ['src'
-        ],
-        extensions: ['.js', '.jsx', '.ts', '.tsx'
-        ],
+        paths: ['src'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
     },
   },
@@ -31,9 +29,9 @@ module.exports = {
     'plugin:react/jsx-runtime',
     'plugin:prettier/recommended', // Make sure this is always the last element in the array.
   ],
-  plugins: ['react', 'prettier', '@typescript-eslint'
-  ],
+  plugins: ['react', 'prettier', '@typescript-eslint'],
   rules: {
+    'react/display-name': 'off',
     'prettier/prettier': 'error',
     'react/self-closing-comp': 'error',
     'react/no-unescaped-entities': 'off',

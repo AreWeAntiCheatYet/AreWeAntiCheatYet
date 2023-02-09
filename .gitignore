@@ -89,6 +89,11 @@ sw.*
 # Vim swap files
 *.swp
 
+# Generated assets
+
+/public/assets/*
+!/public/assets/.gitkeep
+
 # Other
 
 .vscode

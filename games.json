@@ -245,7 +245,7 @@
     },
     {
         "url": "",
-        "name": "PlayerUnknown's Battlegrounds",
+        "name": "PUBG: Battlegrounds",
         "logo": "",
         "native": false,
         "status": "Broken",
@@ -1567,7 +1567,7 @@
     },
     {
         "url": "https://www.faceit.com",
-        "name": "Counter-Strike: Global Offensive​",
+        "name": "FACEIT: Counter-Strike: Global Offensive",
         "logo": "",
         "native": false,
         "status": "Denied",
@@ -1581,7 +1581,7 @@
     },
     {
         "url": "https://esea.net",
-        "name": "Counter-Strike: Global Offensive​​",
+        "name": "EASA: Counter-Strike: Global Offensive",
         "logo": "",
         "native": false,
         "status": "Denied",
