@@ -1,4 +1,5 @@
 import { Pagination, SimpleGrid, SimpleGridProps, Stack } from '@mantine/core';
+import { useMediaQuery } from '@mantine/hooks';
 import { useState } from 'react';
 import { Asset } from '../src/types/assets';
 import { Game } from '../src/types/games';
@@ -12,6 +13,7 @@ interface GameGridProps extends Omit<SimpleGridProps, 'cols' | 'spacing' | 'brea
 export default function ({ paginatedGames, assets, ...props }: GameGridProps) {
   const [page, setPage] = useState(0);
   const currentGames = paginatedGames[page];
+  const breakpoint = useMediaQuery('(min-width: 1200px)') ?? true;
 
   return (
     <Stack align="center" mb={20}>
@@ -31,10 +33,10 @@ export default function ({ paginatedGames, assets, ...props }: GameGridProps) {
         })}
       </SimpleGrid>
       <Pagination
-        size="lg"
         radius="md"
         page={page + 1}
         total={paginatedGames.length}
+        size={breakpoint ? 'lg' : undefined}
         onChange={(val) => setPage(val - 1)}
       />
     </Stack>
