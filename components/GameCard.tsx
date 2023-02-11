@@ -7,11 +7,10 @@ import { getStyle } from '../src/utils/games';
 
 interface GameCardProps extends Omit<CardProps, 'withBorder' | 'children' | 'bg'> {
   game: Game;
-  gameId: number;
   banner: string;
 }
 
-export default function ({ w, h, game, gameId, banner, ...props }: GameCardProps) {
+export default function ({ w, h, game, banner, ...props }: GameCardProps) {
   const { hovered, ref } = useHover();
   const theme = useMantineTheme();
 
@@ -59,7 +58,7 @@ export default function ({ w, h, game, gameId, banner, ...props }: GameCardProps
         {(styles) => (
           <div style={{ position: 'absolute', bottom: '50px', width: `${w || 300}px` }}>
             <Stack justify="flex-end" align="center" style={styles}>
-              <Button component={Link} href={`/game/${gameId}`} color={status.color} variant="light">
+              <Button component={Link} href={`/game/${game.slug}`} color={status.color} variant="light">
                 See more
               </Button>
             </Stack>
