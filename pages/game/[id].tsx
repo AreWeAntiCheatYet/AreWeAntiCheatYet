@@ -1,7 +1,6 @@
 import { ActionIcon, Box, Card, Center, Grid, Group, Paper, Stack, Text, Title, useMantineTheme } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
 import { IconHourglassEmpty, IconQuestionMark, IconWorld } from '@tabler/icons-react';
-import { access, constants } from 'fs/promises';
 import { InferGetStaticPropsType } from 'next';
 import Image from 'next/image';
 import { CSSProperties } from 'react';
@@ -11,29 +10,26 @@ import StatusBadge from '../../components/StatusBadge';
 import StoreBadges from '../../components/StoreBadges';
 import Updates from '../../components/Updates';
 import Games from '../../games.json';
+import assets from '../../src/assets';
 import { Game } from '../../src/types/games';
 
-// TODO: we should accept both a store-id, as well as some other identifier here.
-
 export const getStaticProps = async ({ params: { id } }) => {
-  const game = Games.at(id) as Game;
+  const game = Games.find((x) => x.slug === id || x.storeIds.steam === id) as Game;
   const updates = game.updates.reverse();
+  const asset = await assets(game);
 
-  const banner = `/assets/banner-${id}.png`;
-  let bannerExists = false;
-
-  try {
-    await access(`public/${banner}`, constants.R_OK);
-    bannerExists = true;
-  } catch (e) {
-    bannerExists = false;
-  }
-
-  return { props: { game, id, updates, banner: bannerExists ? banner : null } };
+  return { props: { game, id, updates, banner: asset.banner || null } };
 };
 
 export const getStaticPaths = async () => {
-  const paths = Games.map((_value, index) => ({ params: { id: index.toString() } }));
+  const paths = Games.map((game) => ({ params: { id: game.slug } }));
+
+  for (const game of Games) {
+    if (game.storeIds.steam) {
+      paths.push({ params: { id: game.storeIds.steam } });
+    }
+  }
+
   return { paths, fallback: false };
 };
 
@@ -84,11 +80,18 @@ export default function ({ banner, game }: InferGetStaticPropsType<typeof getSta
                 </ActionIcon>
               )}
               <StatusBadge mt={20} shadow="lg" fz={20} weight={700} size={32} game={game} />
-              <Group noWrap mt={50} mb={20}>
-                {game.anticheats.map((anticheat) => (
-                  <AntiCheatBadge key={anticheat} anticheat={anticheat} height={64} />
-                ))}
-              </Group>
+              {game.anticheats.length > 0 && (
+                <>
+                  <Text mt={20} fz="md" color="dimmed">
+                    AntiCheat
+                  </Text>
+                  <Group noWrap mb={20}>
+                    {game.anticheats.map((anticheat) => (
+                      <AntiCheatBadge key={anticheat} anticheat={anticheat} height={64} />
+                    ))}
+                  </Group>
+                </>
+              )}
               {Object.entries(game.storeIds).length > 0 && (
                 <>
                   <Text mt={20} fz="md" color="dimmed">
