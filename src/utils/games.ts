@@ -1,9 +1,21 @@
-import { Game } from '../types/games';
 import Games from '../../games.json';
 import icons, { StatusStyle } from '../app/icons';
+import { Game } from '../types/games';
 
 export function query(filter: (game: Game) => boolean) {
   return Games.filter((x) => filter(x as unknown as Game));
+}
+
+export function stats(): { supported: number; running: number; planned: number; broken: number; denied: number } {
+  const statuses = new Set(Games.map((x) => x.status));
+
+  const rtn = {};
+
+  for (const status of statuses) {
+    rtn[status.toLowerCase()] = query((x) => x.status === status).length;
+  }
+
+  return rtn as ReturnType<typeof stats>;
 }
 
 export function paginate(chunkSize: number) {
@@ -21,18 +33,6 @@ export function paginate(chunkSize: number) {
 
 export function getStyle(status: Game['status']) {
   return icons[status.toLowerCase()] as StatusStyle;
-}
-
-export function stats(): { supported: number; running: number; planned: number; broken: number; denied: number } {
-  const statuses = new Set(Games.map((x) => x.status));
-
-  const rtn = {};
-
-  for (const status of statuses) {
-    rtn[status.toLowerCase()] = query((x) => x.status === status).length;
-  }
-
-  return rtn as ReturnType<typeof stats>;
 }
 
 export function getLogo(anticheat: string) {
