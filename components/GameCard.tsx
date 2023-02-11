@@ -1,5 +1,6 @@
 import { Box, Button, Card, CardProps, Stack, ThemeIcon, Title, Transition, useMantineTheme } from '@mantine/core';
 import { useHover } from '@mantine/hooks';
+import Link from 'next/link';
 import { CSSProperties } from 'react';
 import { Game } from '../src/types/games';
 import { getStyle } from '../src/utils/games';
@@ -58,7 +59,7 @@ export default function ({ w, h, game, gameId, banner, ...props }: GameCardProps
         {(styles) => (
           <div style={{ position: 'absolute', bottom: '50px', width: `${w || 300}px` }}>
             <Stack justify="flex-end" align="center" style={styles}>
-              <Button component="a" href={`/game/${gameId}`} target="_blank" color={status.color} variant="light">
+              <Button component={Link} href={`/game/${gameId}`} color={status.color} variant="light">
                 See more
               </Button>
             </Stack>
