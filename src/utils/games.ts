@@ -3,7 +3,28 @@ import icons, { StatusStyle } from '../app/icons';
 import { Game } from '../types/games';
 
 export function query(filter: (game: Game) => boolean) {
-  return Games.filter((x) => filter(x as unknown as Game));
+
+export function sort(by: 'name' | 'status' | 'updates', order: 'asc' | 'desc', games = Games) {
+  const preSorted = games.sort((a, b) => Games.indexOf(a) - Games.indexOf(b));
+
+  const sorted = preSorted.sort((a, b) => {
+    const first = order === 'desc' ? a : b;
+    const second = order === 'desc' ? b : a;
+
+    switch (by) {
+      case 'name':
+        return first.name.localeCompare(second.name);
+      case 'status':
+        return first.status.localeCompare(second.status);
+      case 'updates': {
+        return first.updates?.length > 0 && second.updates?.length > 0
+          ? new Date(first.updates.at(-1).date).getTime() - new Date(second.updates.at(-1).date).getTime()
+          : 0;
+      }
+    }
+  });
+
+  return sorted;
 }
 
 export function stats(): { supported: number; running: number; planned: number; broken: number; denied: number } {
