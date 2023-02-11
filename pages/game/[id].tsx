@@ -9,12 +9,11 @@ import Notes from '../../components/Notes';
 import StatusBadge from '../../components/StatusBadge';
 import StoreBadges from '../../components/StoreBadges';
 import Updates from '../../components/Updates';
-import Games from '../../games.json';
 import assets from '../../src/assets';
-import { Game } from '../../src/types/games';
+import { Games } from '../../src/static';
 
 export const getStaticProps = async ({ params: { id } }) => {
-  const game = Games.find((x) => x.slug === id || x.storeIds.steam === id) as Game;
+  const game = Games.find((x) => x.slug === id || x.storeIds.steam === id);
   const updates = game.updates.reverse();
   const asset = await assets(game);
 

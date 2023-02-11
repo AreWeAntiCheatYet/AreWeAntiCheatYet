@@ -4,19 +4,19 @@ import { useContext } from 'react';
 import GameGrid from '../../components/GameGrid';
 import Legend from '../../components/Legend';
 import Overview from '../../components/Overview';
-import Games from '../../games.json';
 import { SettingsContext } from '../../src/app/state';
 import { allImages } from '../../src/assets';
-import { paginationSize } from '../../src/static';
+import { Games, paginationSize } from '../../src/static';
 import { paginate, stats } from '../../src/utils/games';
 
 export const getStaticProps = async ({ params: { page: _page } }) => {
   const page = parseInt(_page);
   const paginated = paginate(paginationSize);
 
-  const totalPages = paginated.length;
+  const images = await allImages(Games);
+
   const currentGames = paginated.at(page - 1);
-  const images = await allImages(currentGames);
+  const totalPages = paginated.length;
 
   const { ...statuses } = stats();
   const total = Games.length;

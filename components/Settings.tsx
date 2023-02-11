@@ -1,9 +1,8 @@
 import { Group, Radio, SimpleGrid, Tabs } from '@mantine/core';
 import { IconBrandAmongUs, IconCards } from '@tabler/icons-react';
 import { useContext } from 'react';
-import Games from '../games.json';
 import { SettingsContext } from '../src/app/state';
-import { Game } from '../src/types/games';
+import { Games } from '../src/static';
 import BannerRadio from './BannerRadio';
 import GameCard from './GameCard';
 import Overview, { OverviewProps } from './Overview';
@@ -49,7 +48,7 @@ function OverviewTab() {
 
 function GamesTab() {
   const { display, setDisplay } = useContext(SettingsContext);
-  const game = Games.at(0) as Game;
+  const game = Games.at(0);
 
   return (
     <Group position="center">
