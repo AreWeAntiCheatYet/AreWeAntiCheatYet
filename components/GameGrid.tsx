@@ -1,19 +1,20 @@
 import { Pagination, SimpleGrid, SimpleGridProps, Stack } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
-import { useState } from 'react';
+import { useRouter } from 'next/dist/client/router';
 import { Asset } from '../src/types/assets';
 import { Game } from '../src/types/games';
 import GameCard from './GameCard';
 
 interface GameGridProps extends Omit<SimpleGridProps, 'cols' | 'spacing' | 'breakpoints'> {
-  assets: Partial<Asset>[];
-  paginatedGames: Game[][];
+  assets: Map<string, Partial<Asset>>;
+  totalPages: number;
+  games: Game[];
+  page: number;
 }
 
-export default function ({ paginatedGames, assets, ...props }: GameGridProps) {
-  const [page, setPage] = useState(0);
-  const currentGames = paginatedGames[page];
+export default function ({ page, games, totalPages, assets, ...props }: GameGridProps) {
   const breakpoint = useMediaQuery('(min-width: 1200px)') ?? true;
+  const router = useRouter();
 
   return (
     <Stack align="center" mb={20}>
@@ -26,18 +27,17 @@ export default function ({ paginatedGames, assets, ...props }: GameGridProps) {
         ]}
         {...props}
       >
-        {currentGames.map((game, index) => {
-          const { name } = game;
-          const id = paginatedGames.length * page + index;
-          return <GameCard key={name} gameId={id} game={game} banner={assets[id].banner} />;
+        {games.map((game) => {
+          const { slug } = game;
+          return <GameCard key={slug} game={game} banner={assets.get(slug).banner} />;
         })}
       </SimpleGrid>
       <Pagination
         radius="md"
-        page={page + 1}
-        total={paginatedGames.length}
+        page={page}
+        total={totalPages}
         size={breakpoint ? 'lg' : undefined}
-        onChange={(val) => setPage(val - 1)}
+        onChange={(value) => router.push(`/page/${value}`)}
       />
     </Stack>
   );
