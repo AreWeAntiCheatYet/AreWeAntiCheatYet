@@ -1,7 +1,5 @@
 export type Status = 'Broken' | 'Running' | 'Denied' | 'Supported' | 'Planned';
 
-// TODO: Change to dayjs date and overwrite at compile time?
-
 export interface Update {
   name: string;
   date: string;
@@ -15,6 +13,7 @@ export interface StoreIds {
 
 export interface Game {
   url: string;
+  slug: string;
   name: string;
   logo: string;
   native: boolean;
