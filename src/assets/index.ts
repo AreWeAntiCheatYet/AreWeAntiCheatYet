@@ -54,7 +54,17 @@ async function download(game: Game): Promise<Partial<Asset>> {
   return { banner: `/assets/banner-${slug}.png`, logo: `/assets/logo-${slug}.png` };
 }
 
-export default async function (game: Game): Promise<Partial<Asset>> {
+export async function allImages(chunk: Game[]): Promise<[string, Partial<Asset>][]> {
+  const rtn = [];
+
+  for (const game of chunk) {
+    rtn.push([game.slug, await assets(game)]);
+  }
+
+  return rtn;
+}
+
+export default async function assets(game: Game): Promise<Partial<Asset>> {
   const { slug } = game;
 
   try {
