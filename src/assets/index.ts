@@ -1,56 +1,68 @@
-// import { createWriteStream } from 'fs';
+import { createWriteStream } from 'fs';
+import { access, constants } from 'fs/promises';
+import { cwd } from 'process';
+import { Readable } from 'stream';
+import { finished } from 'stream/promises';
 import { Asset } from '../types/assets';
 import { Game } from '../types/games';
-// import steamgriddb from './provider/steamgriddb';
-import Games from '../../games.json';
-// import { finished } from 'stream/promises';
-// import { Readable } from 'stream';
-// import { cwd } from 'process';
+import steamgriddb from './provider/steamgriddb';
 
-export default async function (game: Game): Promise<Partial<Asset>> {
-  // const providers = [steamgriddb];
+async function download(game: Game): Promise<Partial<Asset>> {
+  const providers = [steamgriddb];
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const id = Games.indexOf(game as any);
-  // const { name } = game;
+  const { slug, name } = game;
 
-  // const result: Partial<Asset> = {};
+  const result: Partial<Asset> = {};
 
-  // for (const provider of providers) {
-  //   const providerResult = await provider(name);
-  //   const banner = providerResult?.banner;
-  //   const logo = providerResult?.logo;
+  for (const provider of providers) {
+    const providerResult = await provider(name);
+    const banner = providerResult?.banner;
+    const logo = providerResult?.logo;
 
-  //   if (!result.banner && banner) {
-  //     result.banner = banner;
-  //   }
+    if (!result.banner && banner) {
+      result.banner = banner;
+    }
 
-  //   if (!result.logo && logo) {
-  //     result.logo = logo;
-  //   }
+    if (!result.logo && logo) {
+      result.logo = logo;
+    }
 
-  //   if (result.logo && result.banner) {
-  //     break;
-  //   }
-  // }
+    if (result.logo && result.banner) {
+      break;
+    }
+  }
 
-  // const currentDir = cwd();
+  const currentDir = cwd();
 
-  // if (result.banner) {
-  //   const image = await fetch(result.banner);
-  //   const stream = createWriteStream(`${currentDir}/public/assets/banner-${id}.png`);
+  if (result.banner) {
+    const image = await fetch(result.banner);
+    const stream = createWriteStream(`${currentDir}/public/assets/banner-${slug}.png`);
 
-  //   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  //   await finished(Readable.fromWeb(image.body as any).pipe(stream));
-  // }
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    await finished(Readable.fromWeb(image.body as any).pipe(stream));
+  }
 
-  // if (result.logo) {
-  //   const image = await fetch(result.banner);
-  //   const stream = createWriteStream(`${currentDir}/public/assets/logo-${id}.png`);
+  if (result.logo) {
+    const image = await fetch(result.banner);
+    const stream = createWriteStream(`${currentDir}/public/assets/logo-${slug}.png`);
 
-  //   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  //   await finished(Readable.fromWeb(image.body as any).pipe(stream));
-  // }
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    await finished(Readable.fromWeb(image.body as any).pipe(stream));
+  }
 
-  return { banner: `/assets/banner-${id}.png`, logo: `/assets/logo-${id}.png` };
+  return { banner: `/assets/banner-${slug}.png`, logo: `/assets/logo-${slug}.png` };
+}
+
+export default async function (game: Game): Promise<Partial<Asset>> {
+  const { slug } = game;
+
+  try {
+    await access(`public/assets/banner-${slug}.png`, constants.R_OK);
+    await access(`public/assets/logo-${slug}.png`, constants.R_OK);
+
+    return { banner: `/assets/banner-${slug}.png`, logo: `/assets/logo-${slug}.png` };
+  } catch (e) {
+    return await download(game);
+  }
 }
