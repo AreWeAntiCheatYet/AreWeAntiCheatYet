@@ -1,8 +1,23 @@
-import Games from '../../games.json';
 import icons, { StatusStyle } from '../app/icons';
+import { Games } from '../static';
 import { Game } from '../types/games';
 
 export function query(filter: (game: Game) => boolean) {
+  return Games.filter(filter);
+}
+
+export function filter(query: string) {
+  const lowerQuery = query.toLowerCase();
+
+  return Games.filter(
+    (game) =>
+      game.name.toLowerCase().includes(lowerQuery) ||
+      game.notes.join().toLowerCase().includes(lowerQuery) ||
+      game.anticheats.join().toLowerCase().includes(lowerQuery) ||
+      game.slug.toLowerCase().includes(lowerQuery) ||
+      game.status.toLowerCase().includes(lowerQuery),
+  );
+}
 
 export function sort(by: 'name' | 'status' | 'updates', order: 'asc' | 'desc', games = Games) {
   const preSorted = games.sort((a, b) => Games.indexOf(a) - Games.indexOf(b));
@@ -39,14 +54,14 @@ export function stats(): { supported: number; running: number; planned: number; 
   return rtn as ReturnType<typeof stats>;
 }
 
-export function paginate(chunkSize: number) {
+export function paginate(chunkSize: number, games = Games) {
   const rtn: Game[][] = [];
 
   for (let i = 0; chunkSize > i; i++) {
     const start = chunkSize * i;
     const end = i === chunkSize - 1 ? undefined : chunkSize * (i + 1);
 
-    rtn.push(Games.slice(start, end) as Game[]);
+    rtn.push(games.slice(start, end));
   }
 
   return rtn;
