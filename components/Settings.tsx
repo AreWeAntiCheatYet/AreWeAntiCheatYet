@@ -1,8 +1,11 @@
-import { Group, Modal, Radio, SimpleGrid, Tabs } from '@mantine/core';
+import { Group, Radio, SimpleGrid, Tabs } from '@mantine/core';
 import { IconBrandAmongUs, IconCards } from '@tabler/icons-react';
 import { useContext } from 'react';
+import Games from '../games.json';
 import { SettingsContext } from '../src/app/state';
+import { Game } from '../src/types/games';
 import BannerRadio from './BannerRadio';
+import GameCard from './GameCard';
 import Overview, { OverviewProps } from './Overview';
 import Scope from './Scope';
 import Tab from './Tab';
@@ -44,22 +47,45 @@ function OverviewTab() {
   );
 }
 
-export default function ({ open, setOpen }: { open: boolean; setOpen: (enabled: boolean) => void }) {
+function GamesTab() {
+  const { display, setDisplay } = useContext(SettingsContext);
+  const game = Games.at(0) as Game;
+
   return (
-    <Modal centered opened={open} onClose={() => setOpen(false)} overlayBlur={3} radius="lg">
-      <Tab mt={-43} defaultValue="overview">
-        <Tabs.List>
-          <Tabs.Tab value="overview" icon={<IconCards />}>
-            Overview
-          </Tabs.Tab>
-          <Tabs.Tab value="games" icon={<IconBrandAmongUs />}>
-            Games
-          </Tabs.Tab>
-        </Tabs.List>
-        <Tabs.Panel value="overview">
-          <OverviewTab />
-        </Tabs.Panel>
-      </Tab>
-    </Modal>
+    <Group position="center">
+      <Radio.Group value={display} onChange={setDisplay}>
+        <SimpleGrid cols={2} mt={30}>
+          <BannerRadio checked={display == 'table'} value="table" description="Table View">
+            <Scope h={200}>{/* TODO! <Overview vertical variant="simple" {...fakeStats} /> */}</Scope>
+          </BannerRadio>
+          <BannerRadio checked={display == 'grid'} value="grid" description="Card View">
+            <Scope h={200} scale={0.3}>
+              <GameCard game={game} banner={`/assets/banner-${game.slug}.png`} />
+            </Scope>
+          </BannerRadio>
+        </SimpleGrid>
+      </Radio.Group>
+    </Group>
+  );
+}
+
+export default function () {
+  return (
+    <Tab mt={-43} defaultValue="overview">
+      <Tabs.List>
+        <Tabs.Tab value="overview" icon={<IconCards />}>
+          Overview
+        </Tabs.Tab>
+        <Tabs.Tab value="games" icon={<IconBrandAmongUs />}>
+          Games
+        </Tabs.Tab>
+      </Tabs.List>
+      <Tabs.Panel value="overview">
+        <OverviewTab />
+      </Tabs.Panel>
+      <Tabs.Panel value="games">
+        <GamesTab />
+      </Tabs.Panel>
+    </Tab>
   );
 }

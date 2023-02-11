@@ -1,12 +1,12 @@
 import { ActionIcon, AppShell, Group, Header, Image, Title, useMantineTheme } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
+import { openModal } from '@mantine/modals';
 import { IconSettings } from '@tabler/icons-react';
 import { useRouter } from 'next/router';
-import { useState } from 'react';
 import Settings from './Settings';
 import ThemeToggle from './ThemeToggle';
 
-function Head({ setSettings }: { setSettings: (enabled: boolean) => void }) {
+function Head() {
   const breakpoint = useMediaQuery('(min-width: 1200px)');
   const theme = useMantineTheme();
   const router = useRouter();
@@ -26,7 +26,7 @@ function Head({ setSettings }: { setSettings: (enabled: boolean) => void }) {
         </Group>
         <Group position="center">
           <ThemeToggle />
-          <ActionIcon onClick={() => setSettings(true)}>
+          <ActionIcon onClick={() => openModal({ children: <Settings /> })}>
             <IconSettings />
           </ActionIcon>
         </Group>
@@ -36,12 +36,9 @@ function Head({ setSettings }: { setSettings: (enabled: boolean) => void }) {
 }
 
 export function Shell({ children }: { children: React.ReactNode }) {
-  const [settings, setSettings] = useState(false);
-
   return (
     <>
-      <Settings open={settings} setOpen={setSettings} />
-      <AppShell padding={0} header={<Head setSettings={setSettings} />}>
+      <AppShell padding={0} header={<Head />}>
         {children}
       </AppShell>
     </>
