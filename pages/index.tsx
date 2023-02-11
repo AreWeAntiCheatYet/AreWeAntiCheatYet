@@ -1,4 +1,4 @@
-import { Blockquote, Container, Stack } from '@mantine/core';
+import { Blockquote, Stack } from '@mantine/core';
 import { InferGetStaticPropsType } from 'next';
 import { useContext } from 'react';
 import GameGrid from '../components/GameGrid';
@@ -6,42 +6,46 @@ import Legend from '../components/Legend';
 import Overview from '../components/Overview';
 import Games from '../games.json';
 import { SettingsContext } from '../src/app/state';
-import assets from '../src/assets';
-import { Game } from '../src/types/games';
+import { allImages } from '../src/assets';
+import { paginationSize } from '../src/static';
 import { paginate, stats } from '../src/utils/games';
 
+// TODO: "Request Changes" Page
+// TODO: Credit Steamgribddb --> Have Credit Button besides settings button, and also show credits to steamgriddb when hovering radiobanner for "game card view"
+// TODO: Old Table Layout
+
 export const getStaticProps = async () => {
-  const images = await Promise.all(Games.map((x) => assets(x as Game)));
-  const paginatedGames = paginate(16);
+  const paginated = paginate(paginationSize);
+
+  const totalPages = paginated.length;
+  const currentGames = paginated.at(0);
+  const images = await allImages(currentGames);
+
   const { ...statuses } = stats();
   const total = Games.length;
 
-  return { props: { ...statuses, total, paginatedGames, images } };
+  return { props: { ...statuses, total, totalPages, currentGames, images } };
 };
 
-// TODO: Add "id" to games.json, which is either a slug or the games steam-id
-// TODO: Optimize Components, i.e. replace Container with Box
-// TODO: "Request Changes" Page
-// TODO: Search that opens card
-// TODO: Credit Steamgribddb
-// TODO: Old Table Layout
-// TODO: Fix Pagination Component on mobile
-
-export default function ({ paginatedGames, images, ...props }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { overview } = useContext(SettingsContext);
+export default function ({
+  totalPages,
+  currentGames,
+  images: _images,
+  ...props
+}: InferGetStaticPropsType<typeof getStaticProps>) {
+  const { overview, display } = useContext(SettingsContext);
+  const images = new Map(_images);
 
   return (
-    <Container fluid>
-      <Stack align="center" mt={70}>
-        <Blockquote cite="- Starz0r" mb={50}>
-          A comprehensive and crowd-sourced list of games using anti-cheats and their compatibility with GNU/Linux or
-          Wine/Proton.
-        </Blockquote>
+    <Stack align="center" mt={70}>
+      <Blockquote cite="- Starz0r" mb={50}>
+        A comprehensive and crowd-sourced list of games using anti-cheats and their compatibility with GNU/Linux or
+        Wine/Proton.
+      </Blockquote>
 
-        <Overview variant={overview} {...props} />
-        <Legend />
-        <GameGrid paginatedGames={paginatedGames} assets={images} />
-      </Stack>
-    </Container>
+      <Overview variant={overview} {...props} />
+      <Legend />
+      {display === 'grid' ? <GameGrid page={1} totalPages={totalPages} games={currentGames} assets={images} /> : <></>}
+    </Stack>
   );
 }
