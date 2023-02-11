@@ -32,9 +32,9 @@ export function sort(by: 'name' | 'status' | 'updates', order: 'asc' | 'desc', g
       case 'status':
         return first.status.localeCompare(second.status);
       case 'updates': {
-        return first.updates?.length > 0 && second.updates?.length > 0
-          ? new Date(first.updates.at(-1).date).getTime() - new Date(second.updates.at(-1).date).getTime()
-          : 0;
+        return first.updates.length > 0 && second.updates.length > 0
+          ? new Date(first.updates.at(-1)?.date).getTime() - new Date(second.updates.at(-1)?.date).getTime()
+          : first.updates.length - second.updates.length;
       }
     }
   });
