@@ -1,5 +1,5 @@
 import { Card, CardProps, Group, Text, Timeline, TimelineProps } from '@mantine/core';
-import { IconHourglassEmpty } from '@tabler/icons-react';
+import { IconExternalLink, IconHourglassEmpty } from '@tabler/icons-react';
 import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime';
 import { useEffect, useState } from 'react';
@@ -32,13 +32,23 @@ export default function ({ game, ...props }: UpdateProps) {
 
   return (
     <Timeline {...props} active={0}>
-      {game.updates.map((update, index) => (
-        <Timeline.Item key={update.name} fz="xl" title={update.name} lineVariant={index > 0 ? 'dotted' : 'dashed'}>
-          <Text fz="md" color="dimmed">
-            {updates[index]}
-          </Text>
-        </Timeline.Item>
-      ))}
+      {game.updates.map((update, index) => {
+        const { reference } = update;
+
+        return (
+          <Timeline.Item key={update.name} fz="xl" title={update.name} lineVariant={index > 0 ? 'dotted' : 'dashed'}>
+            {reference && (
+              <Text variant="link" component="a" href={reference} target="_blank">
+                <IconExternalLink style={{ marginRight: '5px' }} size={16} />
+                Reference
+              </Text>
+            )}
+            <Text fz="md" color="dimmed">
+              {updates[index]}
+            </Text>
+          </Timeline.Item>
+        );
+      })}
     </Timeline>
   );
 }
