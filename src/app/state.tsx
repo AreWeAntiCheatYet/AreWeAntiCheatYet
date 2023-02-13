@@ -1,5 +1,8 @@
 import { createContext, ReactNode, useEffect, useState } from 'react';
+import { Games } from '../static';
+import { Change } from '../types/games';
 import { defaultSettings, Settings } from '../types/settings';
+import { getChanges } from '../utils/games';
 
 interface SettingsSetter {
   setDisplay: (arg: Settings['display']) => void;
@@ -18,18 +21,23 @@ const get = <C extends keyof Settings>(name: C, set: (v: Settings[C]) => void) =
   set((localStorage.getItem(name) as Settings[C]) || defaultSettings[name]);
 };
 
-export const SettingsContext = createContext<Settings & SettingsSetter>(null);
+export const SettingsContext = createContext<Settings & SettingsSetter & { changes: Change[] }>(null);
 
 export function SettingsProvider({ children }: { children: ReactNode }) {
   const [previousGames, setPreviousGames] = useState(defaultSettings.previousGames);
   const [overview, setOverview] = useState(defaultSettings.overview);
   const [display, setDisplay] = useState(defaultSettings.display);
+  const [changes, setChanges] = useState([]);
 
   useEffect(() => {
     get('display', setDisplay);
     get('overview', setOverview);
     get('previousGames', setPreviousGames);
   }, []);
+
+  useEffect(() => {
+    setChanges(getChanges(Games, JSON.parse(previousGames)));
+  }, [previousGames]);
 
   return (
     <SettingsContext.Provider
@@ -40,6 +48,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
         setOverview: update('overview', setOverview),
         previousGames,
         setPreviousGames: update('previousGames', setPreviousGames),
+        changes,
       }}
     >
       {children}
