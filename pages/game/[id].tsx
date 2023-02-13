@@ -1,6 +1,6 @@
 import { ActionIcon, Box, Card, Center, Grid, Group, Paper, Stack, Text, Title, useMantineTheme } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
-import { IconHourglassEmpty, IconQuestionMark, IconWorld } from '@tabler/icons-react';
+import { IconExternalLink, IconHourglassEmpty, IconQuestionMark, IconWorld } from '@tabler/icons-react';
 import { InferGetStaticPropsType } from 'next';
 import Image from 'next/image';
 import { CSSProperties } from 'react';
@@ -70,7 +70,7 @@ export default function ({ banner, game }: InferGetStaticPropsType<typeof getSta
                   </Center>
                 )}
               </Paper>
-              <Title color="white" align="center">
+              <Title mt={15} color="white" align="center">
                 {game.name}
               </Title>
               {game.url && (
@@ -118,6 +118,7 @@ export default function ({ banner, game }: InferGetStaticPropsType<typeof getSta
             <Card mt={55} withBorder>
               {game.reference ? (
                 <Text variant="link" component="a" href={game.reference} target="_blank">
+                  <IconExternalLink style={{ marginRight: '5px' }} size={12} />
                   {game.reference}
                 </Text>
               ) : (
