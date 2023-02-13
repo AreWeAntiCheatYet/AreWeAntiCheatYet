@@ -1,7 +1,8 @@
 import { Group, Pagination, SimpleGrid, SimpleGridProps, Stack } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
 import { useRouter } from 'next/dist/client/router';
-import { useState } from 'react';
+import { useContext, useState } from 'react';
+import { SettingsContext } from '../src/app/state';
 import { Asset } from '../src/types/assets';
 import { Game } from '../src/types/games';
 import Filters from './Filters';
@@ -18,6 +19,7 @@ export default function ({ page, games, totalPages, assets, ...props }: GameGrid
   const breakpoint = useMediaQuery('(min-width: 1200px)') ?? true;
   const [filteredGames, setGames] = useState(games);
   const [filtered, setFiltered] = useState(false);
+  const { changes } = useContext(SettingsContext);
   const router = useRouter();
 
   return (
@@ -36,7 +38,8 @@ export default function ({ page, games, totalPages, assets, ...props }: GameGrid
       >
         {filteredGames.map((game) => {
           const { slug } = game;
-          return <GameCard key={slug} game={game} banner={assets.get(slug).banner} />;
+          const hasChanges = !!changes.find((x) => x.recent.slug === slug);
+          return <GameCard key={slug} game={game} banner={assets.get(slug).banner} withNotification={hasChanges} />;
         })}
       </SimpleGrid>
       {!filtered && (

@@ -1,5 +1,17 @@
-import { Box, Button, Card, CardProps, Stack, ThemeIcon, Title, Transition, useMantineTheme } from '@mantine/core';
+import {
+  Box,
+  Button,
+  Card,
+  CardProps,
+  Group,
+  Stack,
+  ThemeIcon,
+  Title,
+  Transition,
+  useMantineTheme,
+} from '@mantine/core';
 import { useHover } from '@mantine/hooks';
+import { IconBellRinging } from '@tabler/icons-react';
 import Link from 'next/link';
 import { CSSProperties } from 'react';
 import { Game } from '../src/types/games';
@@ -8,9 +20,10 @@ import { getStyle } from '../src/utils/games';
 interface GameCardProps extends Omit<CardProps, 'withBorder' | 'children' | 'bg'> {
   game: Game;
   banner: string;
+  withNotification?: boolean;
 }
 
-export default function ({ w, h, game, banner, ...props }: GameCardProps) {
+export default function ({ w, h, game, banner, withNotification, ...props }: GameCardProps) {
   const { hovered, ref } = useHover();
   const theme = useMantineTheme();
 
@@ -46,6 +59,16 @@ export default function ({ w, h, game, banner, ...props }: GameCardProps) {
           ...style,
         }}
       />
+      {withNotification && (
+        <Group
+          my={15}
+          mx={-15}
+          position="right"
+          sx={{ width: '100%', position: 'absolute', top: 0, left: 0, zIndex: -1 }}
+        >
+          <IconBellRinging />
+        </Group>
+      )}
       <Stack align="center" mt={150}>
         <ThemeIcon color={status.color} size={50} radius="xl">
           <status.icon />
