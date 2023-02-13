@@ -3,12 +3,16 @@ export type Status = 'Broken' | 'Running' | 'Denied' | 'Supported' | 'Planned';
 export interface Update {
   name: string;
   date: string;
+
   reference: string;
 }
 
 export interface StoreIds {
+  epic?: {
+    namespace: string;
+    slug: string;
+  };
   steam?: string;
-  epic?: { namespace: string; slug: string };
 }
 
 export interface Game {
@@ -26,4 +30,9 @@ export interface Game {
   notes: [text: string, reference: string][];
 
   storeIds: StoreIds;
+}
+
+export interface Change {
+  old?: Game;
+  recent: Game;
 }

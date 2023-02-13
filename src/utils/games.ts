@@ -1,6 +1,6 @@
 import icons, { StatusStyle } from '../app/icons';
 import { Games } from '../static';
-import { Game } from '../types/games';
+import { Change, Game } from '../types/games';
 
 export function query(filter: (game: Game) => boolean) {
   return Games.filter(filter);
@@ -98,4 +98,34 @@ export function getLogo(anticheat: string) {
 
   const file = logo_map.get(anticheat.toLowerCase());
   return file ? `/anticheats/${file}` : undefined;
+}
+
+export function getChanges(current: Game[], previous: Game[]) {
+  const propertiesToCheck: (keyof Game)[] = ['anticheats', 'native', 'notes', 'reference', 'status', 'updates'];
+  const rtn: Change[] = [];
+
+  for (const recent of current) {
+    const old = previous.find((old) => old.slug === recent.slug || old.name === recent.name);
+
+    if (!old) {
+      rtn.push({ recent });
+      continue;
+    }
+
+    let changed = false;
+
+    for (const property of propertiesToCheck) {
+      if (JSON.stringify(old[property]) !== JSON.stringify(recent[property])) {
+        changed = true;
+      }
+    }
+
+    if (!changed) {
+      continue;
+    }
+
+    rtn.push({ recent, old });
+  }
+
+  return rtn;
 }

@@ -1,4 +1,4 @@
-import Games from '../../games.json';
+import { Games } from '../static';
 
 export interface Settings {
   previousGames: string;
@@ -6,4 +6,8 @@ export interface Settings {
   overview: 'simple' | 'detailed' | 'ring';
 }
 
-export const defaultSettings: Settings = { overview: 'ring', display: 'table', previousGames: JSON.stringify(Games) };
+export const defaultSettings: Settings = {
+  overview: 'ring',
+  display: 'table',
+  previousGames: JSON.stringify(Games),
+};
