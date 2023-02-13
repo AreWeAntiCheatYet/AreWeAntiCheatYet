@@ -1,5 +1,6 @@
 import { ColorScheme, ColorSchemeProvider, MantineProvider } from '@mantine/core';
 import { ModalsProvider } from '@mantine/modals';
+import { NotificationsProvider } from '@mantine/notifications';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
@@ -28,20 +29,22 @@ export default function App(props: AppProps) {
   return (
     <>
       <Head>
-        <title>AreWeAntiCheatYet</title>
+        <title>Are We Anti-Cheat Yet?</title>
         <link rel="shortcut icon" href="/icon.webp" />
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
       </Head>
 
       <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
         <MantineProvider theme={{ colorScheme, ...theme }} withGlobalStyles withNormalizeCSS>
-          <ModalsProvider>
+          <NotificationsProvider>
             <SettingsProvider>
-              <Shell>
-                <Component {...pageProps} />
-              </Shell>
+              <ModalsProvider>
+                <Shell>
+                  <Component {...pageProps} />
+                </Shell>
+              </ModalsProvider>
             </SettingsProvider>
-          </ModalsProvider>
+          </NotificationsProvider>
         </MantineProvider>
       </ColorSchemeProvider>
     </>

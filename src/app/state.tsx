@@ -1,3 +1,6 @@
+import { Group, Text } from '@mantine/core';
+import { hideNotification, showNotification, updateNotification } from '@mantine/notifications';
+import { IconBellRinging } from '@tabler/icons-react';
 import { createContext, ReactNode, useEffect, useState } from 'react';
 import { Games } from '../static';
 import { Change } from '../types/games';
@@ -36,7 +39,46 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
   }, []);
 
   useEffect(() => {
-    setChanges(getChanges(Games, JSON.parse(previousGames)));
+    showNotification({
+      id: 'changes',
+      loading: true,
+      disallowClose: true,
+      title: 'Loading Changes',
+      message: 'This may take a few seconds!',
+    });
+
+    const changes = getChanges(Games, JSON.parse(previousGames));
+    setChanges(changes);
+
+    if (changes.length <= 0) {
+      hideNotification('changes');
+      return;
+    }
+
+    const multiple = changes.length > 1;
+
+    updateNotification({
+      id: 'changes',
+      autoClose: false,
+      disallowClose: false,
+      icon: <IconBellRinging size={16} />,
+
+      title: 'New changes!',
+      message: (
+        <Group p={0} spacing={5} noWrap>
+          <Text>
+            There {multiple ? 'are' : 'is'} {changes.length} new change{multiple ? 's' : ''}!
+          </Text>
+          <Text
+            variant="link"
+            sx={{ cursor: 'pointer' }}
+            onClick={/*TODO: Show changes modal, preferably as some sort of table maybe*/ undefined}
+          >
+            Show more
+          </Text>
+        </Group>
+      ),
+    });
   }, [previousGames]);
 
   return (
