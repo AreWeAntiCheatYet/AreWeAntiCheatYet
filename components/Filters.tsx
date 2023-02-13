@@ -30,12 +30,20 @@ export default function ({
   useEffect(() => {
     const { searchParams } = new URL(window.location.href);
 
+    if ([...searchParams.entries()].length <= 0) {
+      return;
+    }
+
     setSearch(searchParams.get('search'));
     setSortBy(searchParams.get('sortBy') as typeof sortBy);
     setSortOrder(searchParams.get('sortOrder') as typeof sortOrder);
   }, []);
 
   useEffect(() => {
+    if (!search && !sortOrder && !sortBy) {
+      return;
+    }
+
     router.replace(
       {
         query: { ...router.query, search, sortOrder, sortBy },
