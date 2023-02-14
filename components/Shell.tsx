@@ -1,7 +1,7 @@
 import { ActionIcon, AppShell, Group, Header, Image, Title, useMantineTheme } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
 import { openConfirmModal, openModal } from '@mantine/modals';
-import { IconBellRinging, IconCopyright, IconSettings } from '@tabler/icons-react';
+import { IconBellRinging, IconCopyleft, IconSettings } from '@tabler/icons-react';
 import { useRouter } from 'next/router';
 import { useContext } from 'react';
 import { SettingsContext } from '../src/app/state';
@@ -38,7 +38,7 @@ function Head() {
             </ActionIcon>
           )}
           <ActionIcon onClick={() => openModal({ children: <Credits /> })}>
-            <IconCopyright />
+            <IconCopyleft />
           </ActionIcon>
           <ActionIcon onClick={() => openModal({ children: <Settings /> })}>
             <IconSettings />
