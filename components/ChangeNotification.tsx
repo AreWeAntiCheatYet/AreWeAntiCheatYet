@@ -2,6 +2,7 @@ import { Group, Stack, Text, Title } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
 import { openConfirmModal } from '@mantine/modals';
 import { hideNotification } from '@mantine/notifications';
+import { Fragment } from 'react';
 import { Games } from '../src/static';
 import { Change } from '../src/types/games';
 import Changes from './Changes';
@@ -41,12 +42,12 @@ export function ChangesModal(breakpoint: boolean, changes: Change[], setPrevious
     children: (
       <Stack>
         {changes.map((change) => (
-          <>
+          <Fragment key={change.recent.name}>
             <Title mt={50} order={5}>
               {change.recent.name}
             </Title>
             <Changes withCaption={false} change={change} />
-          </>
+          </Fragment>
         ))}
       </Stack>
     ),
