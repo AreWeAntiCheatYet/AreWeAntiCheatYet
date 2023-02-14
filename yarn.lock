@@ -956,9 +956,9 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
-"@tabler/icons@^1.112.0":
-  version "1.112.0"
-  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-1.112.0.tgz#6119c6046085a06d4246b1ffab7f1c1435d736b5"
+"@tabler/icons@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-2.4.0.tgz#34b1b0d818dc00926b956c3424bff48b89a5b439"
 
 "@testing-library/dom@^8.18.1", "@testing-library/dom@^8.5.0":
   version "8.19.0"
