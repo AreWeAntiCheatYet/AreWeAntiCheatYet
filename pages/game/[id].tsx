@@ -1,6 +1,18 @@
-import { ActionIcon, Box, Center, Grid, Group, Paper, Stack, Text, Title, useMantineTheme } from '@mantine/core';
+import {
+  ActionIcon,
+  Box,
+  Center,
+  Grid,
+  Group,
+  Paper,
+  Stack,
+  Text,
+  Title,
+  Tooltip,
+  useMantineTheme,
+} from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
-import { IconQuestionMark, IconWorld } from '@tabler/icons-react';
+import { IconAward, IconQuestionMark, IconWorld } from '@tabler/icons-react';
 import { InferGetStaticPropsType } from 'next';
 import Image from 'next/image';
 import { CSSProperties } from 'react';
@@ -59,7 +71,7 @@ export default function ({ banner, game }: InferGetStaticPropsType<typeof getSta
               ...style,
             }}
           />
-          <Center mt={100}>
+          <Center mt={80}>
             <Stack align="center">
               <Paper radius="xl" shadow="xl" sx={{ overflow: 'hidden' }}>
                 {banner ? (
@@ -79,6 +91,13 @@ export default function ({ banner, game }: InferGetStaticPropsType<typeof getSta
                 </ActionIcon>
               )}
               <StatusBadge mt={20} shadow="lg" fz={20} weight={700} size={32} game={game} />
+              {game.native && (
+                <Group mt={15}>
+                  <Tooltip label="Native">
+                    <IconAward size={48} />
+                  </Tooltip>
+                </Group>
+              )}
               {game.anticheats.length > 0 && (
                 <>
                   <Text mt={20} fz="md" color="dimmed">
