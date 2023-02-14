@@ -115,7 +115,7 @@ export function getChanges(current: Game[], previous: Game[]) {
     const changedProperties = [];
 
     for (const property of propertiesToCheck) {
-      if (JSON.stringify(old[property]) !== JSON.stringify(recent[property])) {
+      if (old[property].toString() !== recent[property].toString()) {
         changedProperties.push(property);
       }
     }
