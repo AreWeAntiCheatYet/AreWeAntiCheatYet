@@ -1,11 +1,12 @@
-import { ActionIcon, Box, Card, Center, Grid, Group, Paper, Stack, Text, Title, useMantineTheme } from '@mantine/core';
+import { ActionIcon, Box, Center, Grid, Group, Paper, Stack, Text, Title, useMantineTheme } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
-import { IconExternalLink, IconHourglassEmpty, IconQuestionMark, IconWorld } from '@tabler/icons-react';
+import { IconQuestionMark, IconWorld } from '@tabler/icons-react';
 import { InferGetStaticPropsType } from 'next';
 import Image from 'next/image';
 import { CSSProperties } from 'react';
 import AntiCheatBadge from '../../components/AntiCheatBadge';
 import Notes from '../../components/Notes';
+import Reference from '../../components/Reference';
 import StatusBadge from '../../components/StatusBadge';
 import StoreBadges from '../../components/StoreBadges';
 import Updates from '../../components/Updates';
@@ -114,21 +115,7 @@ export default function ({ banner, game }: InferGetStaticPropsType<typeof getSta
           </Grid.Col>
           <Grid.Col p={50} offset={breakpoint ? 1 : 0} span={1}>
             <Title>Reference</Title>
-            <Card mt={55} withBorder>
-              {game.reference ? (
-                <Text variant="link" component="a" href={game.reference} target="_blank">
-                  <IconExternalLink style={{ marginRight: '5px' }} size={12} />
-                  {game.reference}
-                </Text>
-              ) : (
-                <Group noWrap align="center">
-                  <IconHourglassEmpty />
-                  <Text color="dimmed" italic>
-                    No Reference available at this time
-                  </Text>
-                </Group>
-              )}
-            </Card>
+            <Reference mt={55} game={game} />
           </Grid.Col>
         </Grid>
       </Grid.Col>

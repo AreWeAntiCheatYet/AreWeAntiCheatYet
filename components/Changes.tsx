@@ -3,6 +3,7 @@ import { IconCirclePlus } from '@tabler/icons-react';
 import { Change, Game } from '../src/types/games';
 import AntiCheatBadge from './AntiCheatBadge';
 import Notes from './Notes';
+import Reference from './Reference';
 import StatusBadge from './StatusBadge';
 import Updates from './Updates';
 
@@ -44,13 +45,9 @@ export default function ({ change, withCaption }: ChangesProps) {
         case 'updates':
           return <Updates fz="xs" fzBody="xs" fzTitle="xs" game={game} />;
         case 'reference':
-          return (
-            <Text fz="xs" variant="link" component="a" href={game[property]} target="_blank">
-              {game[property]}
-            </Text>
-          );
+          return <Reference game={game} fz={'xs'} />;
         case 'native':
-          return <Text fz="xs">{game[property]}</Text>;
+          return <Text fz="xs">{game[property] ? 'Native' : 'Not Native'}</Text>;
       }
     };
 
