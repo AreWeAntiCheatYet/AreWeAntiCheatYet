@@ -14,10 +14,9 @@ import { Games } from '../../src/static';
 
 export const getStaticProps = async ({ params: { id } }) => {
   const game = Games.find((x) => x.slug === id || x.storeIds.steam === id);
-  const updates = game.updates.reverse();
   const asset = await assets(game);
 
-  return { props: { game, id, updates, banner: asset.banner || null } };
+  return { props: { game, id, banner: asset.banner || null } };
 };
 
 export const getStaticPaths = async () => {

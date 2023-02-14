@@ -1,19 +1,31 @@
-import { Card, CardProps, Group, List, ListProps, SpacingValue, SystemProp, Text, ThemeIcon } from '@mantine/core';
+import {
+  Card,
+  CardProps,
+  Group,
+  List,
+  ListProps,
+  MantineNumberSize,
+  SpacingValue,
+  SystemProp,
+  Text,
+  ThemeIcon,
+} from '@mantine/core';
 import { IconHourglassEmpty, IconNote } from '@tabler/icons-react';
 import { Game } from '../src/types/games';
 
 interface NotesProps extends Omit<ListProps, 'spacing' | 'children'> {
   game: Game;
+  size?: MantineNumberSize;
   fz?: SystemProp<SpacingValue>;
 }
 
-export default function ({ game, fz, ...props }: NotesProps) {
+export default function ({ game, size, fz, ...props }: NotesProps) {
   if (game.notes.length <= 0) {
     return (
       <Card {...(props as CardProps)} withBorder>
         <Group noWrap align="center">
           <IconHourglassEmpty />
-          <Text color="dimmed" italic>
+          <Text fz={fz} color="dimmed" italic>
             No Notes available at this time
           </Text>
         </Group>
@@ -25,7 +37,7 @@ export default function ({ game, fz, ...props }: NotesProps) {
     <List
       spacing="md"
       icon={
-        <ThemeIcon size="lg" radius="xl" color="gray">
+        <ThemeIcon size={size ?? 'lg'} radius="xl" color="gray">
           <IconNote />
         </ThemeIcon>
       }

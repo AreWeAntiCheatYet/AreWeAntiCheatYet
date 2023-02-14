@@ -35,4 +35,5 @@ export interface Game {
 export interface Change {
   old?: Game;
   recent: Game;
+  changedProperties?: (keyof Game)[];
 }

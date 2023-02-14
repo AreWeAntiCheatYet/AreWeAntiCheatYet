@@ -24,7 +24,7 @@ export default function ({ page, games, totalPages, assets, ...props }: GameGrid
 
   return (
     <Stack align="center" mt={50} mb={20}>
-      <Group noWrap>
+      <Group position="center">
         <Filters games={filteredGames} page={page} initialGames={games} setFiltered={setFiltered} setGames={setGames} />
       </Group>
       <SimpleGrid
@@ -38,8 +38,8 @@ export default function ({ page, games, totalPages, assets, ...props }: GameGrid
       >
         {filteredGames.map((game) => {
           const { slug } = game;
-          const hasChanges = !!changes.find((x) => x.recent.slug === slug);
-          return <GameCard key={slug} game={game} banner={assets.get(slug).banner} withNotification={hasChanges} />;
+          const change = changes.find((x) => x.recent.slug === slug);
+          return <GameCard key={slug} game={game} banner={assets.get(slug).banner} change={change} />;
         })}
       </SimpleGrid>
       {!filtered && (

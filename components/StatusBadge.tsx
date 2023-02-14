@@ -14,7 +14,7 @@ export default function ({ game, radius, size, fz, weight, ...props }: StatusBad
 
   return (
     <Card bg={status.color} radius={radius || 'xl'} {...props}>
-      <Group noWrap>
+      <Group noWrap sx={{ height: '100%' }} position="center" align="center">
         <status.icon color="white" size={size} />
         <Text fz={fz} weight={weight} color="white" align="center">
           {game.status}

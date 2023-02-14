@@ -112,19 +112,19 @@ export function getChanges(current: Game[], previous: Game[]) {
       continue;
     }
 
-    let changed = false;
+    const changedProperties = [];
 
     for (const property of propertiesToCheck) {
       if (JSON.stringify(old[property]) !== JSON.stringify(recent[property])) {
-        changed = true;
+        changedProperties.push(property);
       }
     }
 
-    if (!changed) {
+    if (changedProperties.length <= 0) {
       continue;
     }
 
-    rtn.push({ recent, old });
+    rtn.push({ recent, old, changedProperties });
   }
 
   return rtn;

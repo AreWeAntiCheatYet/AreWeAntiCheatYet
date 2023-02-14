@@ -1,4 +1,4 @@
-import { Card, CardProps, Group, Text, Timeline, TimelineProps } from '@mantine/core';
+import { Card, CardProps, Group, SpacingValue, SystemProp, Text, Timeline, TimelineProps } from '@mantine/core';
 import { IconExternalLink, IconHourglassEmpty } from '@tabler/icons-react';
 import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime';
@@ -7,10 +7,14 @@ import { Game } from '../src/types/games';
 
 interface UpdateProps extends Omit<TimelineProps, 'active' | 'children'> {
   game: Game;
+  fz?: SystemProp<SpacingValue>;
+  fzBody?: SystemProp<SpacingValue>;
+  fzTitle?: SystemProp<SpacingValue>;
 }
 
-export default function ({ game, ...props }: UpdateProps) {
+export default function ({ game, fz, fzBody, fzTitle, ...props }: UpdateProps) {
   const [updates, setUpdates] = useState([]);
+  const gameUpdates = game.updates.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
   useEffect(() => {
     dayjs.extend(relativeTime);
@@ -22,7 +26,7 @@ export default function ({ game, ...props }: UpdateProps) {
       <Card {...(props as CardProps)} withBorder>
         <Group noWrap align="center">
           <IconHourglassEmpty />
-          <Text color="dimmed" italic>
+          <Text color="dimmed" italic fz={fz}>
             No Updates available at this time
           </Text>
         </Group>
@@ -32,18 +36,23 @@ export default function ({ game, ...props }: UpdateProps) {
 
   return (
     <Timeline {...props} active={0}>
-      {game.updates.map((update, index) => {
+      {gameUpdates.map((update, index) => {
         const { reference } = update;
 
         return (
-          <Timeline.Item key={update.name} fz="xl" title={update.name} lineVariant={index > 0 ? 'dotted' : 'dashed'}>
+          <Timeline.Item
+            key={update.name}
+            title={update.name}
+            fz={fzTitle ?? 'xl'}
+            lineVariant={index > 0 ? 'dotted' : 'dashed'}
+          >
             {reference && (
-              <Text variant="link" component="a" href={reference} target="_blank">
+              <Text variant="link" component="a" href={reference} fz={fz} target="_blank">
                 <IconExternalLink style={{ marginRight: '5px' }} size={16} />
                 Reference
               </Text>
             )}
-            <Text fz="md" color="dimmed">
+            <Text fz={fzBody ?? 'md'} color="dimmed">
               {updates[index]}
             </Text>
           </Timeline.Item>
