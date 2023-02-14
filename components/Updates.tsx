@@ -13,7 +13,7 @@ interface UpdateProps extends Omit<TimelineProps, 'active' | 'children'> {
 }
 
 export default function ({ game, fz, fzBody, fzTitle, ...props }: UpdateProps) {
-  const [updates, setUpdates] = useState([]);
+  const [updates, setUpdates] = useState(game.updates.map((x) => x.date));
   const gameUpdates = game.updates.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
   useEffect(() => {
@@ -52,7 +52,7 @@ export default function ({ game, fz, fzBody, fzTitle, ...props }: UpdateProps) {
                 Reference
               </Text>
             )}
-            <Text fz={fzBody ?? 'md'} color="dimmed">
+            <Text fz={fzBody ?? 'md'} color="dimmed" suppressHydrationWarning>
               {updates[index]}
             </Text>
           </Timeline.Item>
