@@ -3231,7 +3231,33 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {
+            "steam": "1671200",
+            "epic": {
+                "namespace": "d2d162953fec40e381867d7af8371362",
+                "slug": "honkai-impact-3rd"
+            }
+        }
+    },
+    {
+        "url": "https://hsr.hoyoverse.com/",
+        "name": "Honkai Star Rail",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "miHoYo Protect",
+            "Anti-Cheat Expert"
+        ],
+        "notes": [],
+        "updates": [],
+        "storeIds": {
+            "epic": {
+                "namespace": "a2dcbb9e34204bda9da8415f97b3f4ea",
+                "slug": "honkai-star-rail"
+            }
+        }
     },
     {
         "url": "",
