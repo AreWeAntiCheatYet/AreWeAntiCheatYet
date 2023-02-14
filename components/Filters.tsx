@@ -107,6 +107,7 @@ export default function ({
       <Select
         description="Sort Order"
         placeholder="Nothing"
+        disabled={!sortBy}
         clearable
         data={[
           { value: 'asc', label: 'Ascending' },
