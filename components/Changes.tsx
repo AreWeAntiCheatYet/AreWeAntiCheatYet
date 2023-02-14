@@ -6,7 +6,12 @@ import Notes from './Notes';
 import StatusBadge from './StatusBadge';
 import Updates from './Updates';
 
-export default function ({ change }: { change: Change }) {
+interface ChangesProps {
+  change: Change;
+  withCaption?: boolean;
+}
+
+export default function ({ change, withCaption }: ChangesProps) {
   const { old, recent, changedProperties } = change;
 
   if (!old) {
@@ -59,7 +64,7 @@ export default function ({ change }: { change: Change }) {
 
   return (
     <Table striped withBorder withColumnBorders>
-      <caption>Game Changes</caption>
+      {(withCaption ?? true) && <caption>Game Changes</caption>}
       <thead>{head}</thead>
       <tbody>{body}</tbody>
     </Table>

@@ -1,12 +1,17 @@
 import { ActionIcon, AppShell, Group, Header, Image, Title, useMantineTheme } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
-import { openModal } from '@mantine/modals';
-import { IconSettings } from '@tabler/icons-react';
+import { openConfirmModal, openModal } from '@mantine/modals';
+import { IconBellRinging, IconSettings } from '@tabler/icons-react';
 import { useRouter } from 'next/router';
+import { useContext } from 'react';
+import { SettingsContext } from '../src/app/state';
+import { ChangesModal } from './ChangeNotification';
 import Settings from './Settings';
 import ThemeToggle from './ThemeToggle';
 
 function Head() {
+  const { changes, setPreviousGames } = useContext(SettingsContext);
+  const changesBreakpoint = useMediaQuery('(min-width: 800px)');
   const breakpoint = useMediaQuery('(min-width: 1200px)');
   const theme = useMantineTheme();
   const router = useRouter();
@@ -26,6 +31,11 @@ function Head() {
         </Group>
         <Group position="center">
           <ThemeToggle />
+          {changes.length > 0 && (
+            <ActionIcon onClick={() => openConfirmModal(ChangesModal(changesBreakpoint, changes, setPreviousGames))}>
+              <IconBellRinging />
+            </ActionIcon>
+          )}
           <ActionIcon onClick={() => openModal({ children: <Settings /> })}>
             <IconSettings />
           </ActionIcon>
