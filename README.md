@@ -24,8 +24,9 @@ In case you want to follow game updates you can use our RSS-Feed!
 
 - ⌚ Game updates are tracked and viewable in a timeline
 - 🤖 Tracks changes since you've last visited the page
-- ✏️ Row Highlight for better overview
-- 👀 Overview & Breakdown
+- 🛑 Partially supports no-javascript
+- 📊 Overview & Breakdown
+- 👀 Customizable Design
 - 🌙 Dark & Light Theme
 
 ## 👍 I'd like to contribute to the list!
@@ -36,14 +37,6 @@ First, make sure that the game you'd like to add isn't actually on the list. In 
 
 A list is maintained in [games.json](games.json).  
 On a new commit, the website is automatically statically regenerated.
-
-
-## 🧑‍💻 Technologies Used
-- [TypeScript](https://www.typescriptlang.org/)
-- [React](https://reactjs.org/)
-- [Mantine](https://mantine.dev/)
-- [Next.js](https://nextjs.org/)
-- [IGDB](https://www.igdb.com/) (For Cover Images)
 
 ## 👷 Build Setup
 
