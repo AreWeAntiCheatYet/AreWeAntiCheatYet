@@ -36,10 +36,10 @@ export default function ({ change, withCaption }: ChangesProps) {
       switch (property) {
         case 'anticheats':
           return game.anticheats.map((anticheat) => (
-            <AntiCheatBadge key={property} anticheat={anticheat} height={32} />
+            <AntiCheatBadge key={anticheat} anticheat={anticheat} height={32} />
           ));
         case 'notes':
-          return <Notes size="sm" fz="xs" key={property} game={game} />;
+          return <Notes size="sm" fz="xs" game={game} />;
         case 'status':
           return <StatusBadge sx={{ width: 'fit-content' }} h={25} game={game} />;
         case 'updates':
@@ -60,7 +60,7 @@ export default function ({ change, withCaption }: ChangesProps) {
   });
 
   return (
-    <Table striped withBorder withColumnBorders>
+    <Table withBorder withColumnBorders>
       {(withCaption ?? true) && <caption>Game Changes</caption>}
       <thead>{head}</thead>
       <tbody>{body}</tbody>
