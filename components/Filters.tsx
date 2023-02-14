@@ -40,7 +40,9 @@ export default function ({
   }, []);
 
   useEffect(() => {
-    if (!search && !sortOrder && !sortBy) {
+    const { searchParams } = new URL(window.location.href);
+
+    if ([...searchParams.entries()].length <= 0 && !search && !sortOrder && !sortBy) {
       return;
     }
 
@@ -65,12 +67,8 @@ export default function ({
   }, [search]);
 
   useEffect(() => {
-    if (!search && sortBy === null) {
+    if (!search && !sortBy) {
       setGames([...initialGames]);
-      return;
-    }
-
-    if (sortBy === undefined) {
       return;
     }
 
