@@ -1,9 +1,6 @@
-import { Avatar, Badge, BadgeProps, Group, HoverCard, Stack, Text, ThemeIcon, Title } from '@mantine/core';
-import { useMediaQuery } from '@mantine/hooks';
+import { Avatar, Badge, Group, Stack, Text, ThemeIcon, Title } from '@mantine/core';
 import { openModal } from '@mantine/modals';
-import { PolymorphicComponentProps } from '@mantine/utils';
 import { IconQuestionMark } from '@tabler/icons-react';
-import { forwardRef } from 'react';
 import Icons from '../src/app/icons';
 
 function Description() {
@@ -61,49 +58,24 @@ function Description() {
   );
 }
 
-type InfoBadgeProps = PolymorphicComponentProps<'button' | 'div', BadgeProps>;
-
-// eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/no-unused-vars
-const InfoBadge = forwardRef<any, InfoBadgeProps>(({ ref: _ref, ...props }: InfoBadgeProps, ref) => {
+export default function () {
   return (
     <Badge
       pl={0}
       mt={20}
       size="lg"
-      ref={ref}
-      {...props}
       radius="xl"
       color="gray"
+      component="button"
+      style={{ cursor: 'pointer' }}
       leftSection={
         <Avatar radius="xl" size={24} variant="filled" color="gray" mr={5}>
           <IconQuestionMark />
         </Avatar>
       }
+      onClick={() => openModal({ children: <Description /> })}
     >
       What does "Supported", "Running", ... mean?
     </Badge>
-  );
-});
-
-export default function () {
-  const breakpoint = useMediaQuery('(min-width: 900px)');
-
-  return breakpoint ? (
-    <HoverCard width={900} shadow="md">
-      <HoverCard.Target>
-        <InfoBadge />
-      </HoverCard.Target>
-      <HoverCard.Dropdown>
-        <Description />
-      </HoverCard.Dropdown>
-    </HoverCard>
-  ) : (
-    <>
-      <InfoBadge
-        component="button"
-        style={{ cursor: 'pointer' }}
-        onClick={() => openModal({ children: <Description /> })}
-      />
-    </>
   );
 }
