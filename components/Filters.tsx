@@ -41,8 +41,15 @@ export default function ({
 
   useEffect(() => {
     const { searchParams } = new URL(window.location.href);
+    const params = [...searchParams.entries()].filter((x) => x[0] !== 'page');
 
-    if ([...searchParams.entries()].length <= 0 && !search && !sortOrder && !sortBy) {
+    if (params.length <= 0 && !search && !sortOrder && !sortBy) {
+      return;
+    }
+
+    const nonEmpty = params.find((x) => !!x[1]);
+
+    if (!nonEmpty) {
       return;
     }
 
