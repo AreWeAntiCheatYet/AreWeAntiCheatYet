@@ -23,12 +23,10 @@ export default function ({ game, variant, radius, size, fz, weight, ...props }: 
         <Text
           fz={fz}
           lineClamp={1}
-          align="center"
           weight={weight}
           target="_blank"
           href={reference}
           component={reference ? 'a' : undefined}
-          color={reference ? undefined : 'white'}
           variant={reference ? 'link' : undefined}
         >
           {game.status}
