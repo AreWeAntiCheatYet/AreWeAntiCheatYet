@@ -38,6 +38,13 @@ First, make sure that the game you'd like to add isn't actually on the list. In 
 A list is maintained in [games.json](games.json).  
 On a new commit, the website is automatically statically regenerated.
 
+## 🫶 Credits
+
+- **Information** and **Updates**: [The Community](https://github.com/Starz0r/AreWeAntiCheatYet/issues)
+- All **Banners** and **Logos**: [SteamGridDB](https://www.steamgriddb.com/)
+- Creator: [Starz0r](https://github.com/Starz0r)
+- <sup><sub>Re-Design & Maintainer: [Curve](https://github.com/Curve)</sub></sup>
+
 ## 👷 Build Setup
 
 ```bash
