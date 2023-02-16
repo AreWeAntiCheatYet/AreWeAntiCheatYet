@@ -14,6 +14,7 @@ import {
 import { useMediaQuery } from '@mantine/hooks';
 import { IconAward, IconQuestionMark, IconWorld } from '@tabler/icons-react';
 import { InferGetStaticPropsType } from 'next';
+import Head from 'next/head';
 import { CSSProperties } from 'react';
 import AntiCheatBadge from '../../components/AntiCheatBadge';
 import Notes from '../../components/Notes';
@@ -58,85 +59,98 @@ export default function ({ banner, game }: InferGetStaticPropsType<typeof getSta
   };
 
   return (
-    <Grid columns={breakpoint ? 3 : 1} m={0} sx={{ height: '100%' }}>
-      <Grid.Col span={1} p={0}>
-        <Box sx={{ position: 'relative', overflow: 'hidden', height: '100%', width: '100%' }}>
-          <Box bg={background} style={{ ...style }} />
-          <Box
-            style={{
-              backgroundImage: `url('${banner}')`,
-              filter: 'blur(50px)',
-              opacity: 0.5,
-              ...style,
-            }}
-          />
-          <Center mt={80}>
-            <Stack align="center">
-              <Paper radius="xl" shadow="xl" sx={{ overflow: 'hidden' }}>
-                {banner ? (
-                  <img src={banner} style={{ objectFit: 'cover' }} alt="Banner" width={220} height={310} />
-                ) : (
-                  <Center bg="gray" w={220} h={310}>
-                    <IconQuestionMark size={32} />
-                  </Center>
+    <>
+      <Head>
+        <meta name="og:image" content={banner} />
+        <meta name="og:title" content={game.name} />
+        <title>{game.name} - AreWeAntiCheatYet</title>
+        <meta name="og:description" content={`${game.name} on AreWeAntiCheatYet`} />
+        <meta
+          name="description"
+          key="desc"
+          content={`See Game Status and Updates of ${game.name} on AreWeAntiCheatYet`}
+        />
+      </Head>
+      <Grid columns={breakpoint ? 3 : 1} m={0} sx={{ height: '100%' }}>
+        <Grid.Col span={1} p={0}>
+          <Box sx={{ position: 'relative', overflow: 'hidden', height: '100%', width: '100%' }}>
+            <Box bg={background} style={{ ...style }} />
+            <Box
+              style={{
+                backgroundImage: `url('${banner}')`,
+                filter: 'blur(50px)',
+                opacity: 0.5,
+                ...style,
+              }}
+            />
+            <Center mt={80}>
+              <Stack align="center">
+                <Paper radius="xl" shadow="xl" sx={{ overflow: 'hidden' }}>
+                  {banner ? (
+                    <img src={banner} style={{ objectFit: 'cover' }} alt="Banner" width={220} height={310} />
+                  ) : (
+                    <Center bg="gray" w={220} h={310}>
+                      <IconQuestionMark size={32} />
+                    </Center>
+                  )}
+                </Paper>
+                <Title mt={15} color="white" align="center">
+                  {game.name}
+                </Title>
+                {game.url && (
+                  <ActionIcon variant="transparent" component="a" href={game.url} target="_blank">
+                    <IconWorld color="white" size={64} />
+                  </ActionIcon>
                 )}
-              </Paper>
-              <Title mt={15} color="white" align="center">
-                {game.name}
-              </Title>
-              {game.url && (
-                <ActionIcon variant="transparent" component="a" href={game.url} target="_blank">
-                  <IconWorld color="white" size={64} />
-                </ActionIcon>
-              )}
-              <StatusBadge mt={20} shadow="lg" fz={20} weight={700} size={32} game={game} />
-              {game.native && (
-                <Group mt={15}>
-                  <Tooltip label="Native">
-                    <IconAward size={48} />
-                  </Tooltip>
-                </Group>
-              )}
-              {game.anticheats.length > 0 && (
-                <>
-                  <Text mt={20} fz="md" color="dimmed">
-                    AntiCheat
-                  </Text>
-                  <Group noWrap mb={20}>
-                    {game.anticheats.map((anticheat) => (
-                      <AntiCheatBadge key={anticheat} anticheat={anticheat} height={64} />
-                    ))}
+                <StatusBadge mt={20} shadow="lg" fz={20} weight={700} size={32} game={game} />
+                {game.native && (
+                  <Group mt={15}>
+                    <Tooltip label="Native">
+                      <IconAward size={48} />
+                    </Tooltip>
                   </Group>
-                </>
-              )}
-              {Object.entries(game.storeIds).length > 0 && (
-                <>
-                  <Text mt={20} fz="md" color="dimmed">
-                    Available on
-                  </Text>
-                  <StoreBadges game={game} height={64} mb={20} />
-                </>
-              )}
-            </Stack>
-          </Center>
-        </Box>
-      </Grid.Col>
-      <Grid.Col mt={25} span={breakpoint ? 2 : 1}>
-        <Grid columns={breakpoint ? 2 : 1} sx={{ height: '100%' }}>
-          <Grid.Col p={50} span={1}>
-            <Title>Updates</Title>
-            <Updates mt={55} game={game} />
-          </Grid.Col>
-          <Grid.Col p={50} span={1}>
-            <Title>Notes</Title>
-            <Notes mt={50} game={game} />
-          </Grid.Col>
-          <Grid.Col p={50} offset={breakpoint ? 1 : 0} span={1}>
-            <Title>Reference</Title>
-            <Reference mt={55} game={game} />
-          </Grid.Col>
-        </Grid>
-      </Grid.Col>
-    </Grid>
+                )}
+                {game.anticheats.length > 0 && (
+                  <>
+                    <Text mt={20} fz="md" color="dimmed">
+                      AntiCheat
+                    </Text>
+                    <Group noWrap mb={20}>
+                      {game.anticheats.map((anticheat) => (
+                        <AntiCheatBadge key={anticheat} anticheat={anticheat} height={64} />
+                      ))}
+                    </Group>
+                  </>
+                )}
+                {Object.entries(game.storeIds).length > 0 && (
+                  <>
+                    <Text mt={20} fz="md" color="dimmed">
+                      Available on
+                    </Text>
+                    <StoreBadges game={game} height={64} mb={20} />
+                  </>
+                )}
+              </Stack>
+            </Center>
+          </Box>
+        </Grid.Col>
+        <Grid.Col mt={25} span={breakpoint ? 2 : 1}>
+          <Grid columns={breakpoint ? 2 : 1} sx={{ height: '100%' }}>
+            <Grid.Col p={50} span={1}>
+              <Title>Updates</Title>
+              <Updates mt={55} game={game} />
+            </Grid.Col>
+            <Grid.Col p={50} span={1}>
+              <Title>Notes</Title>
+              <Notes mt={50} game={game} />
+            </Grid.Col>
+            <Grid.Col p={50} offset={breakpoint ? 1 : 0} span={1}>
+              <Title>Reference</Title>
+              <Reference mt={55} game={game} />
+            </Grid.Col>
+          </Grid>
+        </Grid.Col>
+      </Grid>
+    </>
   );
 }
