@@ -2,8 +2,8 @@ import icons, { StatusStyle } from '../app/icons';
 import { Games } from '../static';
 import { Change, Game } from '../types/games';
 
-export function query(filter: (game: Game) => boolean) {
-  return Games.filter(filter);
+export function query(filter: (game: Game) => boolean, games = Games) {
+  return games.filter(filter);
 }
 
 export function filter(query: string) {
@@ -42,13 +42,19 @@ export function sort(by: 'name' | 'status' | 'updates', order: 'asc' | 'desc', g
   return sorted;
 }
 
-export function stats(): { supported: number; running: number; planned: number; broken: number; denied: number } {
+export function stats(games = Games): {
+  supported: number;
+  running: number;
+  planned: number;
+  broken: number;
+  denied: number;
+} {
   const statuses = new Set(Games.map((x) => x.status));
 
   const rtn = {};
 
   for (const status of statuses) {
-    rtn[status.toLowerCase()] = query((x) => x.status === status).length;
+    rtn[status.toLowerCase()] = query((x) => x.status === status, games).length;
   }
 
   return rtn as ReturnType<typeof stats>;
