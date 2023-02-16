@@ -14,7 +14,6 @@ import {
 import { useMediaQuery } from '@mantine/hooks';
 import { IconAward, IconQuestionMark, IconWorld } from '@tabler/icons-react';
 import { InferGetStaticPropsType } from 'next';
-import Image from 'next/image';
 import { CSSProperties } from 'react';
 import AntiCheatBadge from '../../components/AntiCheatBadge';
 import Notes from '../../components/Notes';

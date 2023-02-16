@@ -15,16 +15,18 @@ import { Game } from '../src/types/games';
 
 interface NotesProps extends Omit<ListProps, 'spacing' | 'children'> {
   game: Game;
+  iconSize?: number;
+  lineClamp?: number;
   size?: MantineNumberSize;
   fz?: SystemProp<SpacingValue>;
 }
 
-export default function ({ game, size, fz, ...props }: NotesProps) {
+export default function ({ game, iconSize, lineClamp, size, fz, ...props }: NotesProps) {
   if (game.notes.length <= 0) {
     return (
       <Card {...(props as CardProps)} withBorder>
         <Group noWrap align="center">
-          <IconHourglassEmpty />
+          <IconHourglassEmpty size={iconSize} />
           <Text fz={fz} color="dimmed" italic>
             No Notes available at this time
           </Text>
@@ -38,7 +40,7 @@ export default function ({ game, size, fz, ...props }: NotesProps) {
       spacing="md"
       icon={
         <ThemeIcon size={size ?? 'lg'} radius="xl" color="gray">
-          <IconNote />
+          <IconNote size={iconSize} />
         </ThemeIcon>
       }
       {...props}
@@ -50,8 +52,8 @@ export default function ({ game, size, fz, ...props }: NotesProps) {
         return (
           <List.Item key={text}>
             <Text
-              align="center"
               fz={fz || 'xl'}
+              lineClamp={lineClamp}
               component={reference ? 'a' : undefined}
               variant={reference ? 'link' : undefined}
               {...(reference ? { href: reference, target: '_blank' } : undefined)}

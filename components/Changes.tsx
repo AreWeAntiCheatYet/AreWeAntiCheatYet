@@ -35,17 +35,21 @@ export default function ({ change, withCaption }: ChangesProps) {
     const component = (game: Game) => {
       switch (property) {
         case 'anticheats':
-          return game.anticheats.map((anticheat) => (
-            <AntiCheatBadge key={anticheat} anticheat={anticheat} height={32} />
-          ));
+          return (
+            <Group noWrap>
+              {game.anticheats.map((anticheat) => (
+                <AntiCheatBadge key={anticheat} anticheat={anticheat} height={32} />
+              ))}
+            </Group>
+          );
         case 'notes':
-          return <Notes size="sm" fz="xs" game={game} />;
+          return game.notes.length > 0 ? <Notes size="sm" fz="xs" game={game} /> : <></>;
         case 'status':
-          return <StatusBadge sx={{ width: 'fit-content' }} h={25} game={game} />;
+          return <StatusBadge variant="text" size={16} game={game} />;
         case 'updates':
-          return <Updates fz="xs" fzBody="xs" fzTitle="xs" game={game} />;
+          return game.updates.length > 0 ? <Updates fz="xs" fzBody="xs" fzTitle="xs" game={game} /> : <></>;
         case 'reference':
-          return <Reference game={game} fz={'xs'} />;
+          return game.reference ? <Reference game={game} fz={'xs'} /> : <></>;
         case 'native':
           return <Text fz="xs">{game[property] ? 'Native' : 'Not Native'}</Text>;
       }

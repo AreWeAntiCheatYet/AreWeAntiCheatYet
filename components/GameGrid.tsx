@@ -1,4 +1,4 @@
-import { Group, Pagination, SimpleGrid, SimpleGridProps, Stack } from '@mantine/core';
+import { Group, Pagination, SimpleGrid, Stack, StackProps } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
 import { useRouter } from 'next/dist/client/router';
 import { useContext, useState } from 'react';
@@ -8,7 +8,7 @@ import { Game } from '../src/types/games';
 import Filters from './Filters';
 import GameCard from './GameCard';
 
-interface GameGridProps extends Omit<SimpleGridProps, 'cols' | 'spacing' | 'breakpoints'> {
+interface GameGridProps extends Omit<StackProps, 'align'> {
   assets: Map<string, Partial<Asset>>;
   totalPages: number;
   games: Game[];
@@ -23,7 +23,7 @@ export default function ({ page, games, totalPages, assets, ...props }: GameGrid
   const router = useRouter();
 
   return (
-    <Stack align="center" mt={50} mb={20}>
+    <Stack align="center" {...props}>
       <Group position="center">
         <Filters games={filteredGames} page={page} initialGames={games} setFiltered={setFiltered} setGames={setGames} />
       </Group>
