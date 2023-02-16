@@ -25,7 +25,7 @@ export default function ({ height, game, ...props }: StoreBadgesProps) {
           <Tooltip key={name} transition="slide-up" label={name} events={{ hover: true, touch: true, focus: true }}>
             <ActionIcon variant="transparent" size={height} component="a" href={link} target="_blank">
               {value === 'epic' ? (
-                <img src="/stores/epic-games.webp" height={height} />
+                <img src="/stores/epic-games.webp" alt="Epic Games" height={height} />
               ) : (
                 <IconBrandSteam color="white" size={height} />
               )}
