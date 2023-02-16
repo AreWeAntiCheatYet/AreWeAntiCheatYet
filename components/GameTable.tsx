@@ -2,18 +2,21 @@ import {
   ActionIcon,
   Avatar,
   Group,
+  Pagination,
   ScrollArea,
   Stack,
   StackProps,
+  Sx,
   Table,
   Text,
   ThemeIcon,
   useMantineTheme,
 } from '@mantine/core';
-import { useViewportSize } from '@mantine/hooks';
+import { useMediaQuery, useViewportSize } from '@mantine/hooks';
 import { IconCalendarEvent, IconExternalLink, IconQuestionMark } from '@tabler/icons-react';
 import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime';
+import { useRouter } from 'next/router';
 import { useContext, useEffect, useState } from 'react';
 import { SettingsContext } from '../src/static/state';
 import { Asset } from '../src/types/assets';
@@ -51,13 +54,20 @@ function GameUpdate({ game }: { game: Game }) {
   return;
 }
 
-interface GameTableProps extends Omit<StackProps, 'align'> {
+interface GameTableProps extends Omit<StackProps, 'align' | 'style'> {
   assets: Map<string, Partial<Asset>>;
+  totalPages?: number;
   games: Game[];
+  page?: number;
+  style?: Sx;
 }
 
-export default function ({ assets, games, ...props }: GameTableProps) {
-  const [filteredGames, setGames] = useState([...games]);
+export default function ({ assets, games, style, page, totalPages, ...props }: GameTableProps) {
+  const breakpoint = useMediaQuery('(min-width: 1200px)') ?? true;
+  const [filteredGames, setGames] = useState(games);
+  const [filtered, setFiltered] = useState(false);
+  const router = useRouter();
+
   const { rowHighlight } = useContext(SettingsContext);
   const { width } = useViewportSize();
   const theme = useMantineTheme();
@@ -113,16 +123,9 @@ export default function ({ assets, games, ...props }: GameTableProps) {
   return (
     <Stack align="center" {...props}>
       <Group position="center">
-        <Filters
-          games={filteredGames}
-          setFiltered={() => {
-            /*unused*/
-          }}
-          initialGames={games}
-          setGames={setGames}
-        />
+        <Filters games={filteredGames} page={page} initialGames={games} setFiltered={setFiltered} setGames={setGames} />
       </Group>
-      <ScrollArea type="never" w={width * 0.8 || undefined} sx={width ? undefined : { width: '100%' }}>
+      <ScrollArea type="never" w={style ? undefined : width * 0.8} sx={style}>
         <Table withBorder withColumnBorders striped>
           <thead>
             <tr>
@@ -137,6 +140,15 @@ export default function ({ assets, games, ...props }: GameTableProps) {
           <tbody>{body}</tbody>
         </Table>
       </ScrollArea>
+      {!!page && !filtered && (
+        <Pagination
+          radius="md"
+          page={page}
+          total={totalPages}
+          size={breakpoint ? 'lg' : undefined}
+          onChange={(value) => router.push(`/table/${value}`)}
+        />
+      )}
     </Stack>
   );
 }

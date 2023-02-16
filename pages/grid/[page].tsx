@@ -50,7 +50,7 @@ export default function ({
 
       <Overview variant={overview} {...props} />
       <Legend />
-      <GameGrid page={page} totalPages={totalPages} games={currentGames} assets={images} />
+      <GameGrid page={page} totalPages={totalPages} games={currentGames} assets={images} mt={50} mb={20} />
     </Stack>
   );
 }

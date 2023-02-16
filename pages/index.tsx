@@ -12,6 +12,7 @@ import { paginate, stats } from '../src/utils/games';
 
 // TODO: Polyfill Array.at()
 // TODO: "Request Changes" Page
+// TODO: Middleware to replace "table" by "grid" based on preferences
 
 export const getStaticProps = async () => {
   const paginated = paginate(paginationSize);
@@ -36,19 +37,26 @@ export default function ({
   const images = new Map(_images);
 
   return (
-    <Stack align="center" mt={70}>
-      <Blockquote cite="- Starz0r" mb={50}>
-        A comprehensive and crowd-sourced list of games using anti-cheats and their compatibility with GNU/Linux or
-        Wine/Proton.
-      </Blockquote>
+    <>
+      <noscript>
+        <a href="/no-js">You can find the non-javascript page without pagination here.</a>
+        <style> {'.needsJavascript { display: none }'} </style>
+      </noscript>
 
-      <Overview variant={overview} {...props} />
-      <Legend />
-      {display === 'grid' ? (
-        <GameGrid page={1} totalPages={totalPages} games={currentGames} assets={images} mt={50} mb={20} />
-      ) : (
-        <GameTable assets={images} games={[...Games]} mt={50} mb={20} />
-      )}
-    </Stack>
+      <Stack className="needsJavascript" align="center" mt={70}>
+        <Blockquote cite="- Starz0r" mb={50}>
+          A comprehensive and crowd-sourced list of games using anti-cheats and their compatibility with GNU/Linux or
+          Wine/Proton.
+        </Blockquote>
+
+        <Overview variant={overview} {...props} />
+        <Legend />
+        {display === 'grid' ? (
+          <GameGrid page={1} totalPages={totalPages} games={currentGames} assets={images} mt={50} mb={20} />
+        ) : (
+          <GameTable page={1} totalPages={totalPages} assets={images} games={currentGames} mt={50} mb={20} />
+        )}
+      </Stack>
+    </>
   );
 }

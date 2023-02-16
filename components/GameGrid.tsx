@@ -48,7 +48,7 @@ export default function ({ page, games, totalPages, assets, ...props }: GameGrid
           page={page}
           total={totalPages}
           size={breakpoint ? 'lg' : undefined}
-          onChange={(value) => router.push(`/page/${value}`)}
+          onChange={(value) => router.push(`/grid/${value}`)}
         />
       )}
     </Stack>
