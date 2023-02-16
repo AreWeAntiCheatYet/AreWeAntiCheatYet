@@ -5,6 +5,7 @@ import { SettingsContext } from '../src/app/state';
 import { Games } from '../src/static';
 import BannerRadio from './BannerRadio';
 import GameCard from './GameCard';
+import GameTable from './GameTable';
 import Overview, { OverviewProps } from './Overview';
 import Scope from './Scope';
 import Tab from './Tab';
@@ -48,14 +49,18 @@ function OverviewTab() {
 
 function GamesTab() {
   const { display, setDisplay } = useContext(SettingsContext);
+
   const game = Games.at(0);
+  const fakeAssets = new Map([[game.slug, { logo: `/assets/logo-${game.slug}.png` }]]);
 
   return (
     <Group position="center">
       <Radio.Group value={display} onChange={setDisplay}>
         <SimpleGrid cols={2} mt={30}>
           <BannerRadio checked={display == 'table'} value="table" description="Table View">
-            <Scope h={200}>{/* TODO! <Overview vertical variant="simple" {...fakeStats} /> */}</Scope>
+            <Scope h={200} scale={0.1}>
+              <GameTable assets={fakeAssets} games={[game]} />
+            </Scope>
           </BannerRadio>
           <BannerRadio checked={display == 'grid'} value="grid" description="Card View">
             <Scope h={200} scale={0.3}>

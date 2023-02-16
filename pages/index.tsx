@@ -2,6 +2,7 @@ import { Blockquote, Stack } from '@mantine/core';
 import { InferGetStaticPropsType } from 'next';
 import { useContext } from 'react';
 import GameGrid from '../components/GameGrid';
+import GameTable from '../components/GameTable';
 import Legend from '../components/Legend';
 import Overview from '../components/Overview';
 import { SettingsContext } from '../src/app/state';
@@ -44,7 +45,11 @@ export default function ({
 
       <Overview variant={overview} {...props} />
       <Legend />
-      {display === 'grid' ? <GameGrid page={1} totalPages={totalPages} games={currentGames} assets={images} /> : <></>}
+      {display === 'grid' ? (
+        <GameGrid page={1} totalPages={totalPages} games={currentGames} assets={images} mt={50} mb={20} />
+      ) : (
+        <GameTable assets={images} games={Games} mt={50} mb={20} />
+      )}
     </Stack>
   );
 }

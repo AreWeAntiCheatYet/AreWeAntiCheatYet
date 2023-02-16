@@ -13,7 +13,7 @@ export default function ({
   setFiltered,
   initialGames,
 }: {
-  page: number;
+  page?: number;
   games: Game[];
   initialGames: Game[];
   setGames: (v: Game[]) => void;
@@ -79,9 +79,14 @@ export default function ({
     }
 
     const sorted = sort(sortBy, sortOrder);
-    const paginated = paginate(paginationSize, sorted);
 
-    setGames([...paginated.at(page - 1)]);
+    if (page) {
+      const paginated = paginate(paginationSize, sorted);
+      setGames([...paginated.at(page - 1)]);
+      return;
+    }
+
+    setGames([...sorted]);
   }, [page, sortBy, sortOrder]);
 
   return (
