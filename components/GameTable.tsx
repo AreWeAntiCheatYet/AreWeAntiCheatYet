@@ -70,7 +70,7 @@ export default function ({ assets, games, ...props }: GameTableProps) {
     const highlightColor = theme.fn.rgba(theme.fn.themeColor(style.color, 8), 0.2);
 
     return (
-      <tr key={name} style={rowHighlight ? { backgroundColor: highlightColor } : undefined}>
+      <tr key={name} style={rowHighlight === 'true' ? { backgroundColor: highlightColor } : undefined}>
         <td>
           <Group noWrap>
             {logo ? (
