@@ -2,9 +2,11 @@ import { Divider, List, Space } from '@mantine/core';
 import { openConfirmModal } from '@mantine/modals';
 import { hideNotification, showNotification, updateNotification } from '@mantine/notifications';
 import { IconBellRinging } from '@tabler/icons-react';
+import { getCookie, setCookie } from 'cookies-next';
+import { useRouter } from 'next/router';
 import { createContext, ReactNode, useEffect, useState } from 'react';
+import { cookieOptions, Games } from '.';
 import ChangeNotification from '../../components/ChangeNotification';
-import { Games } from '.';
 import { Change } from '../types/games';
 import { defaultSettings, Settings } from '../types/settings';
 import { getChanges } from '../utils/games';
@@ -18,13 +20,13 @@ interface SettingsSetter {
 
 const update = <C extends keyof Settings>(name: C, set: (v: Settings[C]) => void) => {
   return (value: Settings[C]) => {
-    localStorage.setItem(name, value);
+    setCookie(name, value, cookieOptions);
     set(value);
   };
 };
 
 const get = <C extends keyof Settings>(name: C, set: (v: Settings[C]) => void) => {
-  set((localStorage.getItem(name) as Settings[C]) || defaultSettings[name]);
+  set((getCookie(name)?.toString() as Settings[C]) || defaultSettings[name]);
 };
 
 export const SettingsContext = createContext<Settings & SettingsSetter & { changes: Change[] }>(null);
@@ -35,6 +37,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
   const [overview, setOverview] = useState(defaultSettings.overview);
   const [display, setDisplay] = useState(defaultSettings.display);
   const [changes, setChanges] = useState([]);
+  const router = useRouter();
 
   useEffect(() => {
     get('display', setDisplay);
@@ -48,7 +51,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
       return;
     }
 
-    const lastVersion = localStorage.getItem('lastVersion');
+    const lastVersion = getCookie('lastVersion');
 
     if (lastVersion === '3') {
       return;
@@ -74,7 +77,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
         </>
       ),
       labels: { cancel: 'Remind me later', confirm: 'Alright!' },
-      onConfirm: () => localStorage.setItem('lastVersion', '3'),
+      onConfirm: () => setCookie('lastVersion', '3', cookieOptions),
     });
   }, [previousGames]);
 
@@ -105,6 +108,15 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
       message: <ChangeNotification changes={changes} setPreviousGames={update('previousGames', setPreviousGames)} />,
     });
   }, [previousGames]);
+
+  useEffect(() => {
+    const other = display === 'grid' ? 'table' : 'grid';
+    const { asPath } = router;
+
+    if (asPath.includes(other)) {
+      router.replace(asPath.replace(other, display));
+    }
+  }, [display]);
 
   return (
     <SettingsContext.Provider
