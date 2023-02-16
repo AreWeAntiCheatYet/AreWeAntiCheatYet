@@ -19,7 +19,7 @@ export function filter(query: string) {
   );
 }
 
-export function sort(by: 'name' | 'status' | 'updates', order: 'asc' | 'desc', games = Games) {
+export function sort(by: 'name' | 'status' | 'updates', order: 'asc' | 'desc', games = [...Games]) {
   const preSorted = games.sort((a, b) => Games.indexOf(a) - Games.indexOf(b));
 
   const sorted = preSorted.sort((a, b) => {

@@ -48,7 +48,7 @@ export default function ({
       {display === 'grid' ? (
         <GameGrid page={1} totalPages={totalPages} games={currentGames} assets={images} mt={50} mb={20} />
       ) : (
-        <GameTable assets={images} games={Games} mt={50} mb={20} />
+        <GameTable assets={images} mt={50} mb={20} />
       )}
     </Stack>
   );

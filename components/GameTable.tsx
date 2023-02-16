@@ -4,6 +4,7 @@ import { IconCalendarEvent, IconExternalLink, IconQuestionMark } from '@tabler/i
 import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime';
 import { useEffect, useState } from 'react';
+import { Games } from '../src/static';
 import { Asset } from '../src/types/assets';
 import { Game } from '../src/types/games';
 import AntiCheatBadge from './AntiCheatBadge';
@@ -40,11 +41,10 @@ function GameUpdate({ game }: { game: Game }) {
 
 interface GameTableProps extends Omit<StackProps, 'align'> {
   assets: Map<string, Partial<Asset>>;
-  games: Game[];
 }
 
-export default function ({ games, assets, ...props }: GameTableProps) {
-  const [filteredGames, setGames] = useState(games);
+export default function ({ assets, ...props }: GameTableProps) {
+  const [filteredGames, setGames] = useState([...Games]);
   const { width } = useViewportSize();
 
   const body = filteredGames.map((game) => {
@@ -100,7 +100,7 @@ export default function ({ games, assets, ...props }: GameTableProps) {
           setFiltered={() => {
             /*unused*/
           }}
-          initialGames={games}
+          initialGames={Games}
           setGames={setGames}
         />
       </Group>
