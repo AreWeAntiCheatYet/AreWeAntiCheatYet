@@ -1,11 +1,11 @@
-import { Group, List, Stack, Title, useMantineTheme } from '@mantine/core';
+import { Group, List, Stack, StackProps, Title, useMantineTheme } from '@mantine/core';
 import { IconHeartHandshake } from '@tabler/icons-react';
 
-export default function () {
+export default function ({ ...props }: StackProps) {
   const theme = useMantineTheme();
 
   return (
-    <Stack>
+    <Stack {...props}>
       <Group noWrap spacing={5} align="center">
         <IconHeartHandshake color={theme.colors.red[8]} />
         <Title order={5}>Huge thanks to</Title>

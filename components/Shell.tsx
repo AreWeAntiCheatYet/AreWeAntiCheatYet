@@ -37,7 +37,7 @@ function Head() {
               <IconBellRinging />
             </ActionIcon>
           )}
-          <ActionIcon onClick={() => openModal({ children: <Credits /> })}>
+          <ActionIcon onClick={() => openModal({ children: <Credits mt={-45} /> })}>
             <IconCopyleft />
           </ActionIcon>
           <ActionIcon onClick={() => openModal({ children: <Settings /> })}>
