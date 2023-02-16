@@ -5,7 +5,7 @@ import GameGrid from '../components/GameGrid';
 import GameTable from '../components/GameTable';
 import Legend from '../components/Legend';
 import Overview from '../components/Overview';
-import { SettingsContext } from '../src/app/state';
+import { SettingsContext } from '../src/static/state';
 import { allImages } from '../src/assets';
 import { Games, paginationSize } from '../src/static';
 import { paginate, stats } from '../src/utils/games';

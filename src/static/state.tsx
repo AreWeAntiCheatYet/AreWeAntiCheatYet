@@ -4,7 +4,7 @@ import { hideNotification, showNotification, updateNotification } from '@mantine
 import { IconBellRinging } from '@tabler/icons-react';
 import { createContext, ReactNode, useEffect, useState } from 'react';
 import ChangeNotification from '../../components/ChangeNotification';
-import { Games } from '../static';
+import { Games } from '.';
 import { Change } from '../types/games';
 import { defaultSettings, Settings } from '../types/settings';
 import { getChanges } from '../utils/games';

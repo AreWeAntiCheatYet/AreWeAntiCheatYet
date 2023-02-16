@@ -15,7 +15,7 @@ import { IconCalendarEvent, IconExternalLink, IconQuestionMark } from '@tabler/i
 import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime';
 import { useContext, useEffect, useState } from 'react';
-import { SettingsContext } from '../src/app/state';
+import { SettingsContext } from '../src/static/state';
 import { Asset } from '../src/types/assets';
 import { Game } from '../src/types/games';
 import { getStyle } from '../src/utils/games';

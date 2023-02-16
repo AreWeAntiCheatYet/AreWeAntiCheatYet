@@ -1,7 +1,7 @@
 import { Group, Radio, SimpleGrid, Stack, Tabs } from '@mantine/core';
 import { IconBrandAmongUs, IconCards } from '@tabler/icons-react';
 import { useContext } from 'react';
-import { SettingsContext } from '../src/app/state';
+import { SettingsContext } from '../src/static/state';
 import { Games } from '../src/static';
 import BannerRadio from './BannerRadio';
 import GameCard from './GameCard';

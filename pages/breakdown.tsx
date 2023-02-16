@@ -3,7 +3,7 @@ import { InferGetStaticPropsType } from 'next';
 import { useContext, useState } from 'react';
 import ImageSelect from '../components/ImageSelect';
 import Overview from '../components/Overview';
-import { SettingsContext } from '../src/app/state';
+import { SettingsContext } from '../src/static/state';
 import { Games } from '../src/static';
 import { getLogo, query, stats } from '../src/utils/games';
 

@@ -1,4 +1,4 @@
-import icons, { StatusStyle } from '../app/icons';
+import icons, { StatusStyle } from '../static/icons';
 import { Games } from '../static';
 import { Change, Game } from '../types/games';
 

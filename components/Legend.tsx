@@ -1,7 +1,7 @@
 import { Avatar, Badge, Group, Stack, Text, ThemeIcon, Title } from '@mantine/core';
 import { openModal } from '@mantine/modals';
 import { IconQuestionMark } from '@tabler/icons-react';
-import Icons from '../src/app/icons';
+import Icons from '../src/static/icons';
 
 function Description() {
   return (

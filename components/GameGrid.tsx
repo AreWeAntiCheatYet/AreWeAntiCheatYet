@@ -2,7 +2,7 @@ import { Group, Pagination, SimpleGrid, Stack, StackProps } from '@mantine/core'
 import { useMediaQuery } from '@mantine/hooks';
 import { useRouter } from 'next/dist/client/router';
 import { useContext, useState } from 'react';
-import { SettingsContext } from '../src/app/state';
+import { SettingsContext } from '../src/static/state';
 import { Asset } from '../src/types/assets';
 import { Game } from '../src/types/games';
 import Filters from './Filters';

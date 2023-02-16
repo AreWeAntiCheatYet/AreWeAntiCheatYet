@@ -5,8 +5,8 @@ import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
 import { Shell } from '../components/Shell';
-import { SettingsProvider } from '../src/app/state';
-import theme from '../src/app/theme';
+import { SettingsProvider } from '../src/static/state';
+import theme from '../src/static/theme';
 
 export default function App(props: AppProps) {
   const { Component, pageProps } = props;

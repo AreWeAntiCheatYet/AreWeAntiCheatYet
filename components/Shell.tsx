@@ -4,7 +4,7 @@ import { openConfirmModal, openModal } from '@mantine/modals';
 import { IconBellRinging, IconCopyleft, IconSettings } from '@tabler/icons-react';
 import { useRouter } from 'next/router';
 import { useContext } from 'react';
-import { SettingsContext } from '../src/app/state';
+import { SettingsContext } from '../src/static/state';
 import { ChangesModal } from './ChangeNotification';
 import Credits from './Credits';
 import Settings from './Settings';

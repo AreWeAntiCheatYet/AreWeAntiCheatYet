@@ -1,7 +1,7 @@
 import { Group, MantineColor, RingProgress, SimpleGrid, Stack, Text, ThemeIcon, Tooltip } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
 import { IconTrendingUp, TablerIconsProps } from '@tabler/icons-react';
-import icons from '../src/app/icons';
+import icons from '../src/static/icons';
 import { Settings } from '../src/types/settings';
 import StatCard from './StatCard';
 
