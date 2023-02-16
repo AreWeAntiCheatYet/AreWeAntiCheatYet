@@ -1,3 +1,5 @@
+import { Divider, List, Space } from '@mantine/core';
+import { openConfirmModal } from '@mantine/modals';
 import { hideNotification, showNotification, updateNotification } from '@mantine/notifications';
 import { IconBellRinging } from '@tabler/icons-react';
 import { createContext, ReactNode, useEffect, useState } from 'react';
@@ -10,6 +12,7 @@ import { getChanges } from '../utils/games';
 interface SettingsSetter {
   setDisplay: (arg: Settings['display']) => void;
   setOverview: (arg: Settings['overview']) => void;
+  setRowHighlight: (arg: Settings['rowHighlight']) => void;
   setPreviousGames: (arg: Settings['previousGames']) => void;
 }
 
@@ -28,6 +31,7 @@ export const SettingsContext = createContext<Settings & SettingsSetter & { chang
 
 export function SettingsProvider({ children }: { children: ReactNode }) {
   const [previousGames, setPreviousGames] = useState(defaultSettings.previousGames);
+  const [rowHighlight, setRowHighlight] = useState(defaultSettings.rowHighlight);
   const [overview, setOverview] = useState(defaultSettings.overview);
   const [display, setDisplay] = useState(defaultSettings.display);
   const [changes, setChanges] = useState([]);
@@ -35,8 +39,44 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     get('display', setDisplay);
     get('overview', setOverview);
+    get('rowHighlight', setRowHighlight);
     get('previousGames', setPreviousGames);
   }, []);
+
+  useEffect(() => {
+    if (previousGames === defaultSettings.previousGames) {
+      return;
+    }
+
+    const lastVersion = localStorage.getItem('lastVersion');
+
+    if (lastVersion === '3') {
+      return;
+    }
+
+    openConfirmModal({
+      title: 'Updates, Updates, Updates!',
+      children: (
+        <>
+          Hey there 👋
+          <br />
+          We've been working hard on some updates and are happy to tell you about what's new!
+          <Divider orientation="horizontal" m={10} />
+          Some of the cool features include:
+          <Space h={20} />
+          <List>
+            <List.Item>New Grid View</List.Item>
+            <List.Item>Dedicated Game Pages</List.Item>
+            <List.Item>New Overview Options</List.Item>
+          </List>
+          <br />
+          In case you want to test out the new stuff, just open the settings by pressing the gear icon in the top right!
+        </>
+      ),
+      labels: { cancel: 'Remind me later', confirm: 'Alright!' },
+      onConfirm: () => localStorage.setItem('lastVersion', '3'),
+    });
+  }, [previousGames]);
 
   useEffect(() => {
     showNotification({
@@ -73,6 +113,8 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
         setDisplay: update('display', setDisplay),
         overview,
         setOverview: update('overview', setOverview),
+        rowHighlight,
+        setRowHighlight: update('rowHighlight', setRowHighlight),
         previousGames,
         setPreviousGames: update('previousGames', setPreviousGames),
         changes,

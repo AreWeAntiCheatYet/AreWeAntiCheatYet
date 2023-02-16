@@ -1,12 +1,24 @@
-import { ActionIcon, Avatar, Group, ScrollArea, Stack, StackProps, Table, Text, ThemeIcon } from '@mantine/core';
+import {
+  ActionIcon,
+  Avatar,
+  Group,
+  ScrollArea,
+  Stack,
+  StackProps,
+  Table,
+  Text,
+  ThemeIcon,
+  useMantineTheme,
+} from '@mantine/core';
 import { useViewportSize } from '@mantine/hooks';
 import { IconCalendarEvent, IconExternalLink, IconQuestionMark } from '@tabler/icons-react';
 import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime';
-import { useEffect, useState } from 'react';
-import { Games } from '../src/static';
+import { useContext, useEffect, useState } from 'react';
+import { SettingsContext } from '../src/app/state';
 import { Asset } from '../src/types/assets';
 import { Game } from '../src/types/games';
+import { getStyle } from '../src/utils/games';
 import AntiCheatBadge from './AntiCheatBadge';
 import Filters from './Filters';
 import Notes from './Notes';
@@ -41,18 +53,24 @@ function GameUpdate({ game }: { game: Game }) {
 
 interface GameTableProps extends Omit<StackProps, 'align'> {
   assets: Map<string, Partial<Asset>>;
+  games: Game[];
 }
 
-export default function ({ assets, ...props }: GameTableProps) {
-  const [filteredGames, setGames] = useState([...Games]);
+export default function ({ assets, games, ...props }: GameTableProps) {
+  const [filteredGames, setGames] = useState([...games]);
+  const { rowHighlight } = useContext(SettingsContext);
   const { width } = useViewportSize();
+  const theme = useMantineTheme();
 
   const body = filteredGames.map((game) => {
-    const { name, slug, url } = game;
+    const { name, slug, url, status } = game;
     const { logo } = assets.get(slug);
+    const style = getStyle(status);
+
+    const highlightColor = theme.fn.rgba(theme.fn.themeColor(style.color, 8), 0.2);
 
     return (
-      <tr key={name}>
+      <tr key={name} style={rowHighlight ? { backgroundColor: highlightColor } : undefined}>
         <td>
           <Group noWrap>
             {logo ? (
@@ -100,7 +118,7 @@ export default function ({ assets, ...props }: GameTableProps) {
           setFiltered={() => {
             /*unused*/
           }}
-          initialGames={Games}
+          initialGames={games}
           setGames={setGames}
         />
       </Group>

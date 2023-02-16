@@ -3,11 +3,13 @@ import { Games } from '../static';
 export interface Settings {
   previousGames: string;
   display: 'table' | 'grid';
+  rowHighlight: 'true' | 'false';
   overview: 'simple' | 'detailed' | 'ring';
 }
 
 export const defaultSettings: Settings = {
-  overview: 'ring',
   display: 'table',
+  overview: 'ring',
+  rowHighlight: 'false',
   previousGames: JSON.stringify(Games),
 };
