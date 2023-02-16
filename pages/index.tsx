@@ -10,9 +10,8 @@ import { allImages } from '../src/assets';
 import { Games, paginationSize } from '../src/static';
 import { paginate, stats } from '../src/utils/games';
 
+// TODO: Polyfill Array.at()
 // TODO: "Request Changes" Page
-// TODO: Credit Steamgribddb --> Have Credit Button besides settings button, and also show credits to steamgriddb when hovering radiobanner for "game card view"
-// TODO: Old Table Layout
 
 export const getStaticProps = async () => {
   const paginated = paginate(paginationSize);
