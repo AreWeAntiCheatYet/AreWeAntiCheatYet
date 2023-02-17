@@ -7,7 +7,7 @@ import { Asset } from '../types/assets';
 import { Game } from '../types/games';
 import steamgriddb from './provider/steamgriddb';
 
-async function download(game: Game): Promise<Partial<Asset>> {
+export async function download(game: Game): Promise<Partial<Asset>> {
   const providers = [steamgriddb];
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -65,14 +65,24 @@ export async function allImages(chunk: Game[]): Promise<[string, Partial<Asset>]
 }
 
 export default async function assets(game: Game): Promise<Partial<Asset>> {
+  const rtn: Partial<Asset> = {};
   const { slug } = game;
 
   try {
-    await access(`public/assets/banner-${slug}.png`, constants.R_OK);
-    await access(`public/assets/logo-${slug}.png`, constants.R_OK);
-
-    return { banner: `/assets/banner-${slug}.png`, logo: `/assets/logo-${slug}.png` };
-  } catch (e) {
-    return await download(game);
+    const banner = `public/assets/banner-${slug}.png`;
+    await access(banner, constants.R_OK);
+    rtn.banner = banner.substring(6);
+  } catch (error) {
+    /**/
   }
+
+  try {
+    const logo = `public/assets/logo-${slug}.png`;
+    await access(logo, constants.R_OK);
+    rtn.logo = logo.substring(6);
+  } catch (error) {
+    /**/
+  }
+
+  return rtn;
 }
