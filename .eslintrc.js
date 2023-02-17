@@ -34,6 +34,7 @@ module.exports = {
     'react/display-name': 'off',
     'prettier/prettier': 'error',
     'react/self-closing-comp': 'error',
+    '@next/next/no-img-element': 'off',
     'react/no-unescaped-entities': 'off',
     'react/jsx-closing-tag-location': 'error',
   },
