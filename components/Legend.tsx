@@ -1,4 +1,4 @@
-import { Avatar, Badge, Group, Stack, Text, ThemeIcon, Title } from '@mantine/core';
+import { Avatar, Badge, Button, ButtonProps, Group, Stack, Text, ThemeIcon, Title } from '@mantine/core';
 import { openModal } from '@mantine/modals';
 import { IconQuestionMark } from '@tabler/icons-react';
 import Icons from '../src/static/icons';
@@ -58,24 +58,16 @@ function Description() {
   );
 }
 
-export default function () {
+export default function ({ ...props }: Omit<ButtonProps, 'color' | 'leftIcon' | 'variant' | 'onClick'>) {
   return (
-    <Badge
-      pl={0}
-      mt={20}
-      size="lg"
-      radius="xl"
+    <Button
+      {...props}
       color="gray"
-      component="button"
-      style={{ cursor: 'pointer' }}
-      leftSection={
-        <Avatar radius="xl" size={24} variant="filled" color="gray" mr={5}>
-          <IconQuestionMark />
-        </Avatar>
-      }
+      variant="light"
+      leftIcon={<IconQuestionMark />}
       onClick={() => openModal({ children: <Description /> })}
     >
       What does "Supported", "Running", ... mean?
-    </Badge>
+    </Button>
   );
 }

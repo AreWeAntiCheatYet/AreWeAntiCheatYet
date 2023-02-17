@@ -8,6 +8,7 @@ import { SettingsContext } from '../../src/static/state';
 import { allImages } from '../../src/assets';
 import { Games, paginationSize } from '../../src/static';
 import { paginate, stats } from '../../src/utils/games';
+import BreakdownLink from '../../components/BreakdownLink';
 
 export const getStaticProps = async ({ params: { page: _page } }) => {
   const page = parseInt(_page);
@@ -49,7 +50,8 @@ export default function ({
       </Blockquote>
 
       <Overview variant={overview} {...props} />
-      <Legend />
+      <Legend mt={30} />
+      <BreakdownLink />
       <GameGrid page={page} totalPages={totalPages} games={currentGames} assets={images} mt={50} mb={20} />
     </Stack>
   );

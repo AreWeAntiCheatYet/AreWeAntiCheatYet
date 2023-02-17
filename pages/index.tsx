@@ -9,6 +9,7 @@ import { SettingsContext } from '../src/static/state';
 import { allImages } from '../src/assets';
 import { Games, paginationSize } from '../src/static';
 import { paginate, stats } from '../src/utils/games';
+import BreakdownLink from '../components/BreakdownLink';
 
 // TODO: "Request Changes" Page
 
@@ -48,7 +49,8 @@ export default function ({
         </Blockquote>
 
         <Overview variant={overview} {...props} />
-        <Legend />
+        <Legend mt={30} />
+        <BreakdownLink />
         {display === 'grid' ? (
           <GameGrid page={1} totalPages={totalPages} games={currentGames} assets={images} mt={50} mb={20} />
         ) : (

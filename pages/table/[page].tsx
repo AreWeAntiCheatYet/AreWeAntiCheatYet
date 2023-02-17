@@ -1,6 +1,7 @@
 import { Blockquote, Stack } from '@mantine/core';
 import { InferGetStaticPropsType } from 'next';
 import { useContext } from 'react';
+import BreakdownLink from '../../components/BreakdownLink';
 import GameTable from '../../components/GameTable';
 import Legend from '../../components/Legend';
 import Overview from '../../components/Overview';
@@ -49,7 +50,8 @@ export default function ({
       </Blockquote>
 
       <Overview variant={overview} {...props} />
-      <Legend />
+      <Legend mt={30} />
+      <BreakdownLink />
       <GameTable page={page} totalPages={totalPages} assets={images} games={currentGames} mt={50} mb={20} />
     </Stack>
   );
