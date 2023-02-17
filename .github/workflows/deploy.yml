@@ -21,16 +21,19 @@ jobs:
       - name: 🚧 Setup Node
         uses: actions/setup-node@v3.6.0
         with:
-          node-version: ${{ matrix.node }}
+          node-version: 19
 
       - name: 🤖 Setup Project
         run: 'yarn'
 
       - name: 🌐 Fetch
-        run: 'yarn fetch'
+        run: 'STEAMGRIDDB_KEY=${{ secrets.STEAMGRIDDB_KEY }} yarn fetch'
 
       - name: 👷 Build
-        run: 'STEAMGRIDDB_KEY=${{ secrets.STEAMGRIDDB_KEY }} PAGES=1 yarn build && yarn export'
+        run: |
+          yarn build
+          yarn export
+          touch out/.nojekyll
 
       - name: 🎉 Deploy
         uses: peaceiris/actions-gh-pages@v3
@@ -38,4 +41,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
           keep_files: true
-          
