@@ -38,6 +38,7 @@ export default function ({
   return (
     <>
       <noscript>
+        {/* eslint-disable @next/next/no-html-link-for-pages */}
         <a href="/no-js">You can find the non-javascript page without pagination here.</a>
         <style> {'.needsJavascript { display: none }'} </style>
         <meta httpEquiv="refresh" content="0;url=no-js" />

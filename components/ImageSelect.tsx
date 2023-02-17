@@ -1,5 +1,6 @@
 import { Group, Select, SelectProps, Text, ThemeIcon } from '@mantine/core';
 import { IconQuestionMark } from '@tabler/icons-react';
+import Image from 'next/image';
 import { forwardRef } from 'react';
 
 interface ItemProps extends React.ComponentPropsWithoutRef<'div'> {
@@ -11,7 +12,7 @@ const SelectItem = forwardRef<HTMLDivElement, ItemProps>(({ image, label, ...oth
   <div ref={ref} {...others}>
     <Group noWrap>
       {image ? (
-        <img src={image} alt={label} width={25} />
+        <Image src={image} alt={label} width={25} />
       ) : (
         <ThemeIcon w={25} color="gray" radius="xl">
           <IconQuestionMark />
