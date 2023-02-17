@@ -18,15 +18,20 @@ interface SettingsSetter {
   setPreviousGames: (arg: Settings['previousGames']) => void;
 }
 
-const update = <C extends keyof Settings>(name: C, set: (v: Settings[C]) => void) => {
+const update = <C extends keyof Settings>(name: C, set: (v: Settings[C]) => void, useLocalStorage = false) => {
   return (value: Settings[C]) => {
-    setCookie(name, value, cookieOptions);
+    if (useLocalStorage) {
+      localStorage.setItem(name, value);
+    } else {
+      setCookie(name, value, cookieOptions);
+    }
     set(value);
   };
 };
 
-const get = <C extends keyof Settings>(name: C, set: (v: Settings[C]) => void) => {
-  set((getCookie(name)?.toString() as Settings[C]) || defaultSettings[name]);
+const get = <C extends keyof Settings>(name: C, set: (v: Settings[C]) => void, useLocalStorage = false) => {
+  const getter = useLocalStorage ? (value: string) => localStorage.getItem(value) : getCookie;
+  set((getter(name)?.toString() as Settings[C]) || defaultSettings[name]);
 };
 
 export const SettingsContext = createContext<Settings & SettingsSetter & { changes: Change[] }>(null);
@@ -43,10 +48,10 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     get('display', setDisplay);
     get('overview', setOverview);
     get('rowHighlight', setRowHighlight);
-    get('previousGames', setPreviousGames);
+    get('previousGames', setPreviousGames, true);
 
-    if (!getCookie('previousGames')) {
-      setCookie(previousGames, JSON.stringify(Games));
+    if (!localStorage.getItem('previousGames')) {
+      localStorage.setItem('previousGames', JSON.stringify(Games));
     }
   }, []);
 
@@ -109,7 +114,9 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
       icon: <IconBellRinging size={16} />,
 
       title: 'New changes!',
-      message: <ChangeNotification changes={changes} setPreviousGames={update('previousGames', setPreviousGames)} />,
+      message: (
+        <ChangeNotification changes={changes} setPreviousGames={update('previousGames', setPreviousGames, true)} />
+      ),
     });
   }, [previousGames]);
 
@@ -132,7 +139,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
         rowHighlight,
         setRowHighlight: update('rowHighlight', setRowHighlight),
         previousGames,
-        setPreviousGames: update('previousGames', setPreviousGames),
+        setPreviousGames: update('previousGames', setPreviousGames, true),
         changes,
       }}
     >
