@@ -44,6 +44,10 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     get('overview', setOverview);
     get('rowHighlight', setRowHighlight);
     get('previousGames', setPreviousGames);
+
+    if (!getCookie('previousGames')) {
+      setCookie(previousGames, JSON.stringify(Games));
+    }
   }, []);
 
   useEffect(() => {
