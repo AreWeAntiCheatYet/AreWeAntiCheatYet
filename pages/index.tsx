@@ -10,9 +10,7 @@ import { allImages } from '../src/assets';
 import { Games, paginationSize } from '../src/static';
 import { paginate, stats } from '../src/utils/games';
 
-// TODO: Polyfill Array.at()
 // TODO: "Request Changes" Page
-// TODO: Middleware to replace "table" by "grid" based on preferences
 
 export const getStaticProps = async () => {
   const paginated = paginate(paginationSize);
