@@ -1,7 +1,8 @@
-import { Blockquote, Stack } from '@mantine/core';
+import { Blockquote, Card, Stack } from '@mantine/core';
 import { InferGetStaticPropsType } from 'next';
+import BreakdownLink from '../components/BreakdownLink';
 import GameTable from '../components/GameTable';
-import Legend from '../components/Legend';
+import { Description } from '../components/Legend';
 import Overview from '../components/Overview';
 import { allImages } from '../src/assets';
 import { Games } from '../src/static';
@@ -27,7 +28,10 @@ export default function ({ images: _images, ...props }: InferGetStaticPropsType<
         </Blockquote>
 
         <Overview variant="ring" {...props} />
-        <Legend />
+        <Card mt={30} sx={{ width: '60%' }}>
+          <Description />
+        </Card>
+        <BreakdownLink />
         <GameTable assets={images} games={[...Games]} style={{ width: '80%' }} mt={50} mb={20} />
       </Stack>
     </>

@@ -1,9 +1,9 @@
-import { Avatar, Badge, Button, ButtonProps, Group, Stack, Text, ThemeIcon, Title } from '@mantine/core';
+import { Button, ButtonProps, Group, Stack, Text, ThemeIcon, Title } from '@mantine/core';
 import { openModal } from '@mantine/modals';
 import { IconQuestionMark } from '@tabler/icons-react';
 import Icons from '../src/static/icons';
 
-function Description() {
+export function Description() {
   return (
     <Stack>
       <Group>
