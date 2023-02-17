@@ -40,6 +40,7 @@ export default function ({
       <noscript>
         <a href="/no-js">You can find the non-javascript page without pagination here.</a>
         <style> {'.needsJavascript { display: none }'} </style>
+        <meta httpEquiv="refresh" content="0;url=no-js" />
       </noscript>
 
       <Stack className="needsJavascript" align="center" mt={70}>
