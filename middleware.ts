@@ -2,7 +2,7 @@ import type { NextRequest } from 'next/server';
 import { NextResponse } from 'next/server';
 
 export function middleware(request: NextRequest) {
-  const matches = [...request.nextUrl.pathname.matchAll(/\/(.+)\//g)].map((x) => x[1]);
+  const matches = [...request.nextUrl.pathname.matchAll(/\/(grid|table)\//g)].map((x) => x[1]);
   const type = matches[0];
 
   const display = request.cookies.get('display');
