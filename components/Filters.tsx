@@ -6,19 +6,17 @@ import { paginationSize } from '../src/static';
 import { Game } from '../src/types/games';
 import { filter, paginate, sort } from '../src/utils/games';
 
-export default function ({
-  page,
-  games,
-  setGames,
-  setFiltered,
-  initialGames,
-}: {
-  page?: number;
-  games: Game[];
-  initialGames: Game[];
-  setGames: (v: Game[]) => void;
+interface FilterProps {
   setFiltered: (v: boolean) => void;
-}) {
+  setGames: (v: Game[]) => void;
+
+  initialGames: Game[];
+  ignore?: boolean;
+  games: Game[];
+  page?: number;
+}
+
+export default function ({ page, games, ignore, setGames, setFiltered, initialGames }: FilterProps) {
   const router = useRouter();
 
   const [rawSearch, setSearch] = useState('');
@@ -28,28 +26,7 @@ export default function ({
   const [sortBy, setSortBy] = useState<'name' | 'status' | 'updates'>(undefined);
 
   useEffect(() => {
-    const { searchParams } = new URL(window.location.href);
-
-    if ([...searchParams.entries()].length <= 0) {
-      return;
-    }
-
-    setSearch(searchParams.get('search'));
-    setSortBy(searchParams.get('sortBy') as typeof sortBy);
-    setSortOrder(searchParams.get('sortOrder') as typeof sortOrder);
-  }, []);
-
-  useEffect(() => {
-    const { searchParams } = new URL(window.location.href);
-    const params = [...searchParams.entries()].filter((x) => x[0] !== 'page');
-
-    if (params.length <= 0 && !search && !sortOrder && !sortBy) {
-      return;
-    }
-
-    const nonEmpty = params.find((x) => !!x[1]);
-
-    if (!nonEmpty) {
+    if ((!sortBy && !sortOrder && !search) || ignore) {
       return;
     }
 
@@ -63,38 +40,42 @@ export default function ({
   }, [page, search, sortOrder, sortBy]);
 
   useEffect(() => {
-    if (!search) {
-      setGames(initialGames);
-      setFiltered(false);
-      return;
-    }
+    setFiltered(!!search);
 
-    setFiltered(true);
-    setGames(filter(search));
-  }, [search]);
-
-  useEffect(() => {
-    if (!search && !sortBy) {
+    if ((!search && !sortBy) || ignore) {
       setGames([...initialGames]);
       return;
     }
 
+    let rtn: Game[] = games;
+
     if (search) {
-      const sorted = sort(sortBy, sortOrder, games);
-      setGames([...sorted]);
+      rtn = filter(search);
+    }
+
+    if (sortBy) {
+      rtn = sort(sortBy, sortOrder, search ? rtn : undefined);
+    }
+
+    if (page && !search) {
+      const paginated = paginate(paginationSize, rtn);
+      rtn = paginated.at(page - 1);
+    }
+
+    setGames([...rtn]);
+  }, [search, page, sortBy, sortOrder]);
+
+  useEffect(() => {
+    const { searchParams } = new URL(window.location.href);
+
+    if ([...searchParams.entries()].length <= 0 || ignore) {
       return;
     }
 
-    const sorted = sort(sortBy, sortOrder);
-
-    if (page) {
-      const paginated = paginate(paginationSize, sorted);
-      setGames([...paginated.at(page - 1)]);
-      return;
-    }
-
-    setGames([...sorted]);
-  }, [page, sortBy, sortOrder]);
+    setSearch(searchParams.get('search'));
+    setSortBy(searchParams.get('sortBy') as typeof sortBy);
+    setSortOrder(searchParams.get('sortOrder') as typeof sortOrder);
+  }, []);
 
   return (
     <>

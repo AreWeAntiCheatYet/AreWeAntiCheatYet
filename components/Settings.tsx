@@ -60,8 +60,8 @@ function GamesTab() {
         <Radio.Group value={display} onChange={setDisplay}>
           <SimpleGrid cols={2} mt={30}>
             <BannerRadio checked={display == 'table'} value="table" description="Table View">
-              <Scope h={200} scale={0.1}>
-                <GameTable assets={fakeAssets} games={[game]} />
+              <Scope h={200} scale={0.15}>
+                <GameTable assets={fakeAssets} games={[game]} ignoreFilters />
               </Scope>
             </BannerRadio>
             <BannerRadio checked={display == 'grid'} value="grid" description="Card View">

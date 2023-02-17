@@ -56,13 +56,14 @@ function GameUpdate({ game }: { game: Game }) {
 
 interface GameTableProps extends Omit<StackProps, 'align' | 'style'> {
   assets: Map<string, Partial<Asset>>;
+  ignoreFilters?: boolean;
   totalPages?: number;
   games: Game[];
   page?: number;
   style?: Sx;
 }
 
-export default function ({ assets, games, style, page, totalPages, ...props }: GameTableProps) {
+export default function ({ assets, ignoreFilters, games, style, page, totalPages, ...props }: GameTableProps) {
   const breakpoint = useMediaQuery('(min-width: 1200px)') ?? true;
   const [filteredGames, setGames] = useState(games);
   const [filtered, setFiltered] = useState(false);
@@ -123,7 +124,14 @@ export default function ({ assets, games, style, page, totalPages, ...props }: G
   return (
     <Stack align="center" {...props}>
       <Group position="center">
-        <Filters games={filteredGames} page={page} initialGames={games} setFiltered={setFiltered} setGames={setGames} />
+        <Filters
+          page={page}
+          setGames={setGames}
+          initialGames={games}
+          games={filteredGames}
+          ignore={ignoreFilters}
+          setFiltered={setFiltered}
+        />
       </Group>
       <ScrollArea type="never" w={style ? undefined : width * 0.8} sx={style}>
         <Table withBorder withColumnBorders striped>
