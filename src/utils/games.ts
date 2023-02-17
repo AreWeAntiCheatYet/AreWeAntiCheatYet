@@ -1,6 +1,6 @@
 import icons, { StatusStyle } from '../static/icons';
 import { Games } from '../static';
-import { Change, Game } from '../types/games';
+import { Change, Game, Status } from '../types/games';
 
 export function query(filter: (game: Game) => boolean, games = Games) {
   return games.filter(filter);
@@ -23,14 +23,16 @@ export function sort(by: 'name' | 'status' | 'updates', order: 'asc' | 'desc', g
   const preSorted = games.sort((a, b) => Games.indexOf(a) - Games.indexOf(b));
 
   const sorted = preSorted.sort((a, b) => {
-    const first = order === 'desc' ? a : b;
-    const second = order === 'desc' ? b : a;
+    const first: Game = order === 'desc' ? a : b;
+    const second: Game = order === 'desc' ? b : a;
 
     switch (by) {
       case 'name':
         return first.name.localeCompare(second.name);
-      case 'status':
-        return first.status.localeCompare(second.status);
+      case 'status': {
+        const order: Status[] = ['Supported', 'Running', 'Planned', 'Broken', 'Denied'];
+        return order.indexOf(second.status) - order.indexOf(first.status);
+      }
       case 'updates': {
         return first.updates.length > 0 && second.updates.length > 0
           ? new Date(first.updates.at(-1)?.date).getTime() - new Date(second.updates.at(-1)?.date).getTime()
