@@ -31,7 +31,7 @@ jobs:
 
       - name: 👷 Build
         run: |
-          yarn build
+          GITHUB_ACTIONS=1 yarn build
           yarn export
           touch out/.nojekyll
 
