@@ -7,6 +7,15 @@ import { Asset } from '../types/assets';
 import { Game } from '../types/games';
 import steamgriddb from './provider/steamgriddb';
 
+export async function safeFetch(...args: Parameters<typeof fetch>) {
+  try {
+    return await fetch(...args);
+  } catch (error) {
+    console.warn(`[Assets] Request failed: "${error}, retrying...."`);
+    return safeFetch(...args);
+  }
+}
+
 export async function download(game: Game): Promise<Partial<Asset>> {
   const providers = [steamgriddb];
 
@@ -36,7 +45,7 @@ export async function download(game: Game): Promise<Partial<Asset>> {
   const currentDir = cwd();
 
   if (result.banner) {
-    const image = await fetch(result.banner);
+    const image = await safeFetch(result.banner);
     const stream = createWriteStream(`${currentDir}/public/assets/banner-${slug}.png`);
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -44,7 +53,7 @@ export async function download(game: Game): Promise<Partial<Asset>> {
   }
 
   if (result.logo) {
-    const image = await fetch(result.banner);
+    const image = await safeFetch(result.banner);
     const stream = createWriteStream(`${currentDir}/public/assets/logo-${slug}.png`);
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any

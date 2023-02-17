@@ -1,4 +1,5 @@
 import { Asset } from '../../types/assets';
+import { safeFetch } from '../index';
 
 interface Response<T> {
   data: T[];
@@ -27,7 +28,7 @@ async function request<T>(endpoint: string) {
   const apiKey = process.env.STEAMGRIDDB_KEY;
   const baseUrl = 'https://www.steamgriddb.com/api/v2/';
 
-  const result = await fetch(`${baseUrl}${endpoint}`, {
+  const result = await safeFetch(`${baseUrl}${endpoint}`, {
     headers: {
       Authorization: `Bearer ${apiKey}`,
     },
