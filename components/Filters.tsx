@@ -72,9 +72,17 @@ export default function ({ page, games, ignore, setGames, setFiltered, initialGa
       return;
     }
 
-    setSearch(searchParams.get('search'));
-    setSortBy(searchParams.get('sortBy') as typeof sortBy);
-    setSortOrder(searchParams.get('sortOrder') as typeof sortOrder);
+    if (searchParams.has('search')) {
+      setSearch(searchParams.get('search'));
+    }
+
+    if (searchParams.has('sortBy')) {
+      setSortBy(searchParams.get('sortBy') as typeof sortBy);
+    }
+
+    if (searchParams.has('sortOrder')) {
+      setSortOrder(searchParams.get('sortOrder') as typeof sortOrder);
+    }
   }, []);
 
   return (
