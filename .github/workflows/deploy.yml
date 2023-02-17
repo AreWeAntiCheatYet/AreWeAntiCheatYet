@@ -1,4 +1,5 @@
 on:
+  workflow_dispatch:
   push:
     branches: [master]
     paths:
@@ -7,32 +8,29 @@ on:
       - 'yarn.lock'
       - 'games.json'
       - 'package.json'
-  workflow_dispatch:
 
 name: Deploy to Github-Pages
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
 
     steps:
       - name: 📦 Checkout
-        uses: actions/checkout@v3.0.2
+        uses: actions/checkout@v3.3.0
 
       - name: 🚧 Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v3.6.0
         with:
           node-version: ${{ matrix.node }}
-
-      - name: 📩 Setup System Dependencies
-        run: 'sudo apt-get update && sudo apt-get install imagemagick && sudo apt-get install graphicsmagick'
 
       - name: 🤖 Setup Project
         run: 'yarn'
 
+      - name: 🌐 Fetch
+        run: 'yarn fetch'
+
       - name: 👷 Build
-        run: 'PAGES=1 yarn export'
+        run: 'STEAMGRIDDB_KEY=${{ secrets.STEAMGRIDDB_KEY }} PAGES=1 yarn build && yarn export'
 
       - name: 🎉 Deploy
         uses: peaceiris/actions-gh-pages@v3
@@ -40,3 +38,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
           keep_files: true
+          
