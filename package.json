@@ -7,7 +7,7 @@
     "start": "next start",
     "build": "next build",
     "export": "next export",
-    "fetch": "esno prepare.ts"
+    "fetch": "esno tools/prepare.ts"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",

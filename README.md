@@ -54,6 +54,9 @@ $ yarn
 # serve with hot reload at localhost:3000
 $ yarn dev
 
+# download required images (run once)
+yarn fetch
+
 # build for production and launch server
 $ yarn build
 $ yarn start

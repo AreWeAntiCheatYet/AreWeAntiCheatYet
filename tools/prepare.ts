@@ -1,5 +1,5 @@
-import { download } from './src/assets';
-import { Games } from './src/static';
+import { download } from '../src/assets';
+import { Games } from '../src/static';
 import chalk from 'chalk';
 
 (async () => {
