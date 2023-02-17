@@ -10,6 +10,7 @@ import InfoSwitch from './InfoSwitch';
 import Overview, { OverviewProps } from './Overview';
 import Scope from './Scope';
 import Tab from './Tab';
+import { useRouter } from 'next/router';
 
 function OverviewTab() {
   const { overview, setOverview } = useContext(SettingsContext);
@@ -52,7 +53,8 @@ function GamesTab() {
   const { display, setDisplay, rowHighlight, setRowHighlight } = useContext(SettingsContext);
 
   const game = Games.at(0);
-  const fakeAssets = new Map([[game.slug, { logo: `/assets/logo-${game.slug}.png` }]]);
+  const { basePath } = useRouter();
+  const fakeAssets = new Map([[game.slug, { logo: `${basePath}/assets/logo-${game.slug}.png` }]]);
 
   return (
     <Stack>
