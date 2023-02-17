@@ -82,7 +82,7 @@ export default async function assets(game: Game): Promise<Partial<Asset>> {
   try {
     const banner = `public/assets/banner-${slug}.png`;
     await access(banner, constants.R_OK);
-    rtn.banner = banner.substring(6);
+    rtn.banner = `${basePath}${banner.substring(6)}`;
   } catch (error) {
     /**/
   }
@@ -90,15 +90,9 @@ export default async function assets(game: Game): Promise<Partial<Asset>> {
   try {
     const logo = `public/assets/logo-${slug}.png`;
     await access(logo, constants.R_OK);
-    rtn.logo = logo.substring(6);
+    rtn.logo = `${basePath}${logo.substring(6)}`;
   } catch (error) {
     /**/
   }
-
-  if (basePath) {
-    rtn.logo = basePath + rtn.logo;
-    rtn.banner = basePath + rtn.banner;
-  }
-
   return rtn;
 }

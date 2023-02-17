@@ -46,13 +46,17 @@ export default function ({ w, h, game, banner, change, ...props }: GameCardProps
   return (
     <Card withBorder w={w || 300} h={h || 400} bg={background} sx={{ zIndex: 0 }} p={0} ref={ref} {...props}>
       <Box
-        style={{
-          backgroundImage: `url('${banner}')`,
-          backgroundSize: 'cover',
-          filter: 'blur(5px)',
-          opacity: 0.3,
-          ...style,
-        }}
+        style={
+          banner
+            ? {
+                backgroundImage: `url('${banner}')`,
+                backgroundSize: 'cover',
+                filter: 'blur(5px)',
+                opacity: 0.3,
+                ...style,
+              }
+            : undefined
+        }
       />
       <Box
         style={{

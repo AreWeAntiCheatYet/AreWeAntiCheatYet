@@ -63,7 +63,7 @@ export default function ({ banner, game }: InferGetStaticPropsType<typeof getSta
       <Head>
         <meta name="og:image" content={banner} />
         <meta name="og:title" content={game.name} />
-        <title>{game.name} - AreWeAntiCheatYet</title>
+        <title>{game.name + ' - AreWeAntiCheatYet'}</title>
         <meta name="og:description" content={`${game.name} on AreWeAntiCheatYet`} />
         <meta
           name="description"
@@ -76,12 +76,16 @@ export default function ({ banner, game }: InferGetStaticPropsType<typeof getSta
           <Box sx={{ position: 'relative', overflow: 'hidden', height: '100%', width: '100%' }}>
             <Box bg={background} style={{ ...style }} />
             <Box
-              style={{
-                backgroundImage: `url('${banner}')`,
-                filter: 'blur(50px)',
-                opacity: 0.5,
-                ...style,
-              }}
+              style={
+                banner
+                  ? {
+                      backgroundImage: `url('${banner}')`,
+                      filter: 'blur(50px)',
+                      opacity: 0.5,
+                      ...style,
+                    }
+                  : undefined
+              }
             />
             <Center mt={80}>
               <Stack align="center">
