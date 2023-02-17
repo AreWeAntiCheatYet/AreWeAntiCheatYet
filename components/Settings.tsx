@@ -1,8 +1,10 @@
 import { Group, Radio, SimpleGrid, Stack, Tabs } from '@mantine/core';
 import { IconBrandAmongUs, IconCards } from '@tabler/icons-react';
+import { useRouter } from 'next/router';
 import { useContext } from 'react';
-import { SettingsContext } from '../src/static/state';
 import { Games } from '../src/static';
+import { SettingsContext } from '../src/static/state';
+import { Settings } from '../src/types/settings';
 import BannerRadio from './BannerRadio';
 import GameCard from './GameCard';
 import GameTable from './GameTable';
@@ -10,7 +12,6 @@ import InfoSwitch from './InfoSwitch';
 import Overview, { OverviewProps } from './Overview';
 import Scope from './Scope';
 import Tab from './Tab';
-import { useRouter } from 'next/router';
 
 function OverviewTab() {
   const { overview, setOverview } = useContext(SettingsContext);
@@ -53,13 +54,23 @@ function GamesTab() {
   const { display, setDisplay, rowHighlight, setRowHighlight } = useContext(SettingsContext);
 
   const game = Games.at(0);
-  const { basePath } = useRouter();
+  const { basePath, asPath, ...router } = useRouter();
   const fakeAssets = new Map([[game.slug, { logo: `${basePath}/assets/logo-${game.slug}.png` }]]);
+
+  const changeDisplay = (value: Settings['display']) => {
+    setDisplay(value);
+
+    const other = value === 'grid' ? 'table' : 'grid';
+
+    if (asPath.includes(other)) {
+      router.replace(asPath.replace(other, value));
+    }
+  };
 
   return (
     <Stack>
       <Group position="center">
-        <Radio.Group value={display} onChange={setDisplay}>
+        <Radio.Group value={display} onChange={changeDisplay}>
           <SimpleGrid cols={2} mt={30}>
             <BannerRadio checked={display == 'table'} value="table" description="Table View">
               <Scope h={200} scale={0.15}>

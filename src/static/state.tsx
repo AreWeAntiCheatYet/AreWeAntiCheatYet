@@ -42,7 +42,6 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
   const [overview, setOverview] = useState(defaultSettings.overview);
   const [display, setDisplay] = useState(defaultSettings.display);
   const [changes, setChanges] = useState([]);
-  const router = useRouter();
 
   useEffect(() => {
     get('display', setDisplay);
@@ -119,15 +118,6 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
       ),
     });
   }, [previousGames]);
-
-  useEffect(() => {
-    const other = display === 'grid' ? 'table' : 'grid';
-    const { asPath } = router;
-
-    if (asPath.includes(other)) {
-      router.replace(asPath.replace(other, display));
-    }
-  }, [display]);
 
   return (
     <SettingsContext.Provider
