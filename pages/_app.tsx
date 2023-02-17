@@ -4,6 +4,7 @@ import { NotificationsProvider } from '@mantine/notifications';
 import { getCookie, setCookie } from 'cookies-next';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 import Script from 'next/script';
 import { useEffect, useState } from 'react';
 import { Shell } from '../components/Shell';
@@ -12,6 +13,7 @@ import { SettingsProvider } from '../src/static/state';
 import theme from '../src/static/theme';
 
 export default function App(props: AppProps) {
+  const { basePath } = useRouter();
   const { Component, pageProps } = props;
   const [colorScheme, setColorScheme] = useState<ColorScheme>('dark');
 
@@ -33,7 +35,7 @@ export default function App(props: AppProps) {
     <>
       <Head>
         <title>Are We Anti-Cheat Yet?</title>
-        <link rel="shortcut icon" href="/icon.webp" />
+        <link rel="shortcut icon" href={`${basePath}/icon.webp`} />
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
       </Head>
 

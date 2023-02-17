@@ -23,7 +23,7 @@ function Head() {
     <Header height={60} fixed bg={background}>
       <Group px={15} h={60} position="apart" noWrap>
         <Group sx={{ cursor: 'pointer' }} onClick={() => router.push('/')} position="center" noWrap>
-          <Image src="/icon.webp" width={64} height={64} />
+          <Image src={`${router.basePath}/icon.webp`} width={64} height={64} />
           {breakpoint && (
             <Title ml={-10} order={2}>
               AreWeAntiCheatYet

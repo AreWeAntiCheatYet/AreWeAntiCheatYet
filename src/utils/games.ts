@@ -1,6 +1,7 @@
 import icons, { StatusStyle } from '../static/icons';
 import { Games } from '../static';
 import { Change, Game, Status } from '../types/games';
+import { useRouter } from 'next/router';
 
 export function query(filter: (game: Game) => boolean, games = Games) {
   return games.filter(filter);
@@ -105,7 +106,9 @@ export function getLogo(anticheat: string) {
   ]);
 
   const file = logo_map.get(anticheat.toLowerCase());
-  return file ? `/anticheats/${file}` : undefined;
+  const { basePath } = useRouter();
+
+  return file ? `${basePath}/anticheats/${file}` : undefined;
 }
 
 export function getChanges(current: Game[], previous: Game[]) {

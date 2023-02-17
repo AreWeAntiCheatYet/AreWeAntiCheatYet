@@ -65,6 +65,8 @@ export async function allImages(chunk: Game[]): Promise<[string, Partial<Asset>]
 }
 
 export default async function assets(game: Game): Promise<Partial<Asset>> {
+  const isGithubActions = process.env.GITHUB_ACTIONS || false;
+  const basePath = isGithubActions ? '/AreWeAntiCheatYet' : '';
   const rtn: Partial<Asset> = {};
   const { slug } = game;
 
@@ -82,6 +84,11 @@ export default async function assets(game: Game): Promise<Partial<Asset>> {
     rtn.logo = logo.substring(6);
   } catch (error) {
     /**/
+  }
+
+  if (basePath) {
+    rtn.logo = basePath + rtn.logo;
+    rtn.banner = basePath + rtn.banner;
   }
 
   return rtn;

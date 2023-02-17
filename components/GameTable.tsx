@@ -32,6 +32,7 @@ function GameUpdate({ game }: { game: Game }) {
   const mostRecentUpdate = updatesSorted[0];
 
   const [update, setUpdate] = useState(mostRecentUpdate?.date);
+  const { basePath } = useRouter();
 
   useEffect(() => {
     dayjs.extend(relativeTime);
@@ -44,7 +45,7 @@ function GameUpdate({ game }: { game: Game }) {
         <ThemeIcon color="green" radius="xl">
           <IconCalendarEvent size={16} />
         </ThemeIcon>
-        <Text variant="link" component="a" target="_blank" href={`/game/${game.slug}`}>
+        <Text variant="link" component="a" target="_blank" href={`${basePath}/game/${game.slug}`}>
           {update}
         </Text>
       </Group>
@@ -113,7 +114,7 @@ export default function ({ assets, ignoreFilters, games, style, page, totalPages
           <GameUpdate game={game} />
         </td>
         <td>
-          <ActionIcon variant="transparent" component="a" target="_blank" href={`/game/${game.slug}`}>
+          <ActionIcon variant="transparent" component="a" target="_blank" href={`${router.basePath}/game/${game.slug}`}>
             <IconExternalLink />
           </ActionIcon>
         </td>

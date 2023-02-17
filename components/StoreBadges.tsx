@@ -1,5 +1,6 @@
 import { ActionIcon, Group, GroupProps, Tooltip } from '@mantine/core';
 import { IconBrandSteam } from '@tabler/icons-react';
+import { useRouter } from 'next/router';
 import { Game } from '../src/types/games';
 
 interface StoreBadgesProps extends Omit<GroupProps, 'children'> {
@@ -9,6 +10,7 @@ interface StoreBadgesProps extends Omit<GroupProps, 'children'> {
 
 export default function ({ height, game, ...props }: StoreBadgesProps) {
   const { storeIds: stores } = game;
+  const { basePath } = useRouter();
 
   return (
     <Group noWrap {...props}>
@@ -25,7 +27,7 @@ export default function ({ height, game, ...props }: StoreBadgesProps) {
           <Tooltip key={name} transition="slide-up" label={name} events={{ hover: true, touch: true, focus: true }}>
             <ActionIcon variant="transparent" size={height} component="a" href={link} target="_blank">
               {value === 'epic' ? (
-                <img src="/stores/epic-games.webp" alt="Epic Games" height={height} />
+                <img src={`${basePath}/stores/epic-games.webp`} alt="Epic Games" height={height} />
               ) : (
                 <IconBrandSteam color="white" size={height} />
               )}
