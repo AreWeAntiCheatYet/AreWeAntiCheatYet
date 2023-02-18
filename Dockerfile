@@ -21,7 +21,7 @@ RUN yarn cache clean --force
 ARG key
 ENV STEAMGRIDDB_KEY $key
 
-RUN yarn fetch
+RUN yarn prefetch
 RUN yarn build
 RUN yarn export
 
