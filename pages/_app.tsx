@@ -38,6 +38,7 @@ export default function App(props: AppProps) {
         <title>Are We Anti-Cheat Yet?</title>
         <link rel="shortcut icon" href={`${basePath}/icon.webp`} />
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+        <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="ShortName" />
       </Head>
 
       <Script
