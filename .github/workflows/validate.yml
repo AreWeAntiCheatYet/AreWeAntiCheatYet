@@ -8,8 +8,6 @@ name: Validate games.json
 jobs:
   validate:
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
 
     steps:
       - name: 📦 Checkout
@@ -18,7 +16,7 @@ jobs:
       - name: 🚧 Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node }}
+          node-version: 19
 
       - name: 🤖 Setup Project
         run: 'yarn'

@@ -34,7 +34,8 @@
         ],
         "storeIds": {
             "steam": "976730"
-        }
+        },
+        "slug": "halo-the-master-chief-collection"
     },
     {
         "url": "",
@@ -75,7 +76,8 @@
                 "namespace": "fn",
                 "slug": "fortnite"
             }
-        }
+        },
+        "slug": "fortnite"
     },
     {
         "url": "",
@@ -95,7 +97,8 @@
                 "namespace": "52f57f57120c440fad9bfa0e6c279317",
                 "slug": "battlefield-2042"
             }
-        }
+        },
+        "slug": "battlefield-2042"
     },
     {
         "url": "https://ea.com/en-en/games/apex-legends",
@@ -118,7 +121,8 @@
         ],
         "storeIds": {
             "steam": "1172470"
-        }
+        },
+        "slug": "apex-legends"
     },
     {
         "url": "https://playvalorant.com",
@@ -137,7 +141,8 @@
                 "namespace": "cbd5b3d310a54b12bf3fe8c41994174f",
                 "slug": "valorant"
             }
-        }
+        },
+        "slug": "valorant"
     },
     {
         "url": "",
@@ -164,7 +169,8 @@
         ],
         "storeIds": {
             "steam": "1240440"
-        }
+        },
+        "slug": "halo-infinite"
     },
     {
         "url": "https://www.back4blood.com/",
@@ -190,7 +196,8 @@
                 "namespace": "57dfd95548214a138218e56cd9e5b9d8",
                 "slug": "back-4-blood"
             }
-        }
+        },
+        "slug": "back-4-blood"
     },
     {
         "url": "",
@@ -241,11 +248,12 @@
                 "namespace": "badb0ee71b474ed591ec43212547cfc8",
                 "slug": "paladins"
             }
-        }
+        },
+        "slug": "paladins"
     },
     {
         "url": "",
-        "name": "PlayerUnknown's Battlegrounds",
+        "name": "PUBG: Battlegrounds",
         "logo": "",
         "native": false,
         "status": "Broken",
@@ -265,7 +273,8 @@
         ],
         "storeIds": {
             "steam": "578080"
-        }
+        },
+        "slug": "pubg-battlegrounds"
     },
     {
         "url": "https://ubisoft.com/en-us/game/rainbow-six/siege",
@@ -307,7 +316,8 @@
                 "namespace": "carnation",
                 "slug": "rainbow-six-siege"
             }
-        }
+        },
+        "slug": "rainbow-six-siege"
     },
     {
         "url": "",
@@ -338,7 +348,8 @@
                 "namespace": "076207fa2b5c4803a636af606c3c28b7",
                 "slug": "smite"
             }
-        }
+        },
+        "slug": "smite"
     },
     {
         "url": "",
@@ -360,7 +371,8 @@
         ],
         "storeIds": {
             "steam": "582660"
-        }
+        },
+        "slug": "black-desert-online"
     },
     {
         "url": "",
@@ -391,7 +403,8 @@
                 "namespace": "50118b7f954e450f8823df1614b24e80",
                 "slug": "fall-guys"
             }
-        }
+        },
+        "slug": "fall-guys-ultimate-knockout"
     },
     {
         "url": "",
@@ -427,7 +440,8 @@
                 "namespace": "ark",
                 "slug": "ark"
             }
-        }
+        },
+        "slug": "ark-survival-evolved"
     },
     {
         "url": "https://dayz.com",
@@ -449,7 +463,8 @@
         ],
         "storeIds": {
             "steam": "221100"
-        }
+        },
+        "slug": "dayz"
     },
     {
         "url": "",
@@ -489,7 +504,8 @@
                 "namespace": "611482b8586142cda48a0786eb8a127c",
                 "slug": "dead-by-daylight"
             }
-        }
+        },
+        "slug": "dead-by-daylight"
     },
     {
         "url": "",
@@ -520,22 +536,23 @@
                 "namespace": "428115def4ca4deea9d69c99c5a5a99e",
                 "slug": "destiny-2"
             }
-        }
+        },
+        "slug": "destiny-2"
     },
     {
         "url": "",
         "name": "Hunt: Showdown",
         "logo": "",
         "native": false,
-        "status": "Denied",
-        "reference": "",
+        "status": "Running",
+        "reference": "https://www.gamingonlinux.com/2023/02/hunt-showdown-added-easy-anti-cheat-for-steam-deck-linux/",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
         "notes": [],
         "updates": [
             {
-                "name": "Crytek didn’t respond to repeated requests for comment.",
+                "name": "Crytek didn't respond to repeated requests for comment.",
                 "date": "Nov 9, 2021, 5:55 PM EST",
                 "reference": "https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic"
             },
@@ -543,11 +560,17 @@
                 "name": "We are not confirming that it won't be ever supported, however we don't plan on this in the near future.",
                 "date": "May 11, 2022, 2:30 AM GMT+2",
                 "reference": "https://www.protondb.com/app/594650#lMZ4hnX6A"
+            },
+            {
+                "name": "Multiple reports of game working",
+                "date": "Feb 15, 2023, 5:33 PM GMT+1",
+                "reference": "https://www.gamingonlinux.com/2023/02/hunt-showdown-added-easy-anti-cheat-for-steam-deck-linux/"
             }
         ],
         "storeIds": {
             "steam": "594650"
-        }
+        },
+        "slug": "hunt-showdown"
     },
     {
         "url": "https://rust.facepunch.com/",
@@ -594,7 +617,8 @@
         ],
         "storeIds": {
             "steam": "252490"
-        }
+        },
+        "slug": "rust"
     },
     {
         "url": "",
@@ -610,7 +634,8 @@
         "updates": [],
         "storeIds": {
             "steam": "236390"
-        }
+        },
+        "slug": "war-thunder"
     },
     {
         "url": "",
@@ -624,7 +649,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "7-days-to-die"
     },
     {
         "url": "https://joinsquad.com/",
@@ -651,7 +677,8 @@
         ],
         "storeIds": {
             "steam": "393380"
-        }
+        },
+        "slug": "squad"
     },
     {
         "url": "https://newworld.com",
@@ -671,7 +698,8 @@
                 "reference": "https://forums.newworld.com/t/solved-please-add-easy-anticheat-support-for-linux/256617/772"
             }
         ],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "new-world"
     },
     {
         "url": "https://www.vermintide.com/",
@@ -703,7 +731,8 @@
         ],
         "storeIds": {
             "steam": "552500"
-        }
+        },
+        "slug": "warhammer-vermintide-2"
     },
     {
         "url": "https://www.escapefromtarkov.com/",
@@ -733,7 +762,8 @@
                 "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/859"
             }
         ],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "escape-from-tarkov"
     },
     {
         "url": "https://www.focus-entmt.com/en-us/games/insurgency-sandstorm",
@@ -759,7 +789,8 @@
                 "namespace": "94cec4802e954a6c9579e29e8b817f3a",
                 "slug": "insurgency-sandstorm"
             }
-        }
+        },
+        "slug": "insurgency-sandstorm"
     },
     {
         "url": "https://arma3.com/",
@@ -779,7 +810,8 @@
                 "reference": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966"
             }
         ],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "arma-3"
     },
     {
         "url": "https://www.roguecompany.com/",
@@ -815,7 +847,8 @@
                 "namespace": "933ada2ec45e4184ae840d64c99e0ba9",
                 "slug": "rogue-company"
             }
-        }
+        },
+        "slug": "rogue-company"
     },
     {
         "url": "https://www.realmroyale.com/",
@@ -831,7 +864,8 @@
         "updates": [],
         "storeIds": {
             "steam": "813820"
-        }
+        },
+        "slug": "realm-royale"
     },
     {
         "url": "https://pso2.jp/",
@@ -857,7 +891,8 @@
                 "namespace": "bf333e6236914222a95a536389c05813",
                 "slug": "phantasy-star-online-2"
             }
-        }
+        },
+        "slug": "phantasy-star-online-2-na"
     },
     {
         "url": "https://pso2.jp/",
@@ -876,7 +911,8 @@
             ]
         ],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "phantasy-star-online-2-jp"
     },
     {
         "url": "",
@@ -899,7 +935,8 @@
         ],
         "storeIds": {
             "steam": "304930"
-        }
+        },
+        "slug": "unturned"
     },
     {
         "url": "https://www.planetside2.com/",
@@ -921,7 +958,8 @@
         ],
         "storeIds": {
             "steam": "218230"
-        }
+        },
+        "slug": "planetside-2"
     },
     {
         "url": "https://www.ubisoft.com/en-us/game/for-honor",
@@ -952,7 +990,8 @@
                 "namespace": "sundrop",
                 "slug": "for-honor"
             }
-        }
+        },
+        "slug": "for-honor"
     },
     {
         "url": "https://www.narakathegame.com/",
@@ -978,7 +1017,8 @@
                 "namespace": "0c6aee83b9b64372bf44a043001325f2",
                 "slug": "naraka-bladepoint"
             }
-        }
+        },
+        "slug": "naraka-bladepoint"
     },
     {
         "url": "",
@@ -1002,7 +1042,8 @@
                 "namespace": "879b0d8776ab46a59a129983ba78f0ce",
                 "slug": "genshin-impact"
             }
-        }
+        },
+        "slug": "genshin-impact"
     },
     {
         "url": "https://www.djmaxrespect.com/",
@@ -1024,7 +1065,8 @@
         ],
         "storeIds": {
             "steam": "960170"
-        }
+        },
+        "slug": "djmax-respect-v"
     },
     {
         "url": "https://www.ea.com/games/plants-vs-zombies/plants-vs-zombies-battle-for-neighborville",
@@ -1046,7 +1088,8 @@
         ],
         "storeIds": {
             "steam": "1262240"
-        }
+        },
+        "slug": "plants-vs-zombies-battle-for-neighborville"
     },
     {
         "url": "https://www.hellletloose.com/",
@@ -1073,7 +1116,8 @@
         ],
         "storeIds": {
             "steam": "686810"
-        }
+        },
+        "slug": "hell-let-loose"
     },
     {
         "url": "https://blessunleashed.com/",
@@ -1089,7 +1133,8 @@
         "updates": [],
         "storeIds": {
             "steam": "1254120"
-        }
+        },
+        "slug": "bless-unleashed"
     },
     {
         "url": "",
@@ -1109,7 +1154,8 @@
                 "namespace": "3542a1df211e492bb2abecb7c734f7f9",
                 "slug": "rising-storm-2-vietnam"
             }
-        }
+        },
+        "slug": "rising-storm-2-vietnam"
     },
     {
         "url": "",
@@ -1125,7 +1171,8 @@
         "updates": [],
         "storeIds": {
             "steam": "939510"
-        }
+        },
+        "slug": "pandemic-express-zombie-escape"
     },
     {
         "url": "https://scumgame.com/",
@@ -1141,7 +1188,8 @@
         "updates": [],
         "storeIds": {
             "steam": "513710"
-        }
+        },
+        "slug": "scum"
     },
     {
         "url": "https://www.ubisoft.com/en-us/game/the-division/the-division-2",
@@ -1177,7 +1225,8 @@
                 "slug": "the-division-2"
             },
             "steam": "2221490"
-        }
+        },
+        "slug": "tom-clancys-the-division-2"
     },
     {
         "url": "https://www.bandainamcoent.com/games/jump-force",
@@ -1193,7 +1242,8 @@
         "updates": [],
         "storeIds": {
             "steam": "816020"
-        }
+        },
+        "slug": "jump-force"
     },
     {
         "url": "https://www.ea.com/games/knockout-city",
@@ -1213,7 +1263,8 @@
                 "namespace": "5bb3d43818ae4188850fe1dbad9d57a5",
                 "slug": "knockout-city"
             }
-        }
+        },
+        "slug": "knockout-city"
     },
     {
         "url": "https://www.bandainamcoent.com/games/dragon-ball-fighterz",
@@ -1229,7 +1280,8 @@
         "updates": [],
         "storeIds": {
             "steam": "678950"
-        }
+        },
+        "slug": "dragon-ball-fighterz"
     },
     {
         "url": "https://enlisted.net/",
@@ -1243,7 +1295,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "enlisted"
     },
     {
         "url": "https://dueprocess.info/",
@@ -1263,7 +1316,8 @@
                 "reference": "https://www.reddit.com/r/dueprocess/comments/pu252w/bring_steam_decklinux_support_to_due_process/he04229/?context=1"
             }
         ],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "due-process"
     },
     {
         "url": "https://recroom.com/",
@@ -1279,7 +1333,8 @@
         "updates": [],
         "storeIds": {
             "steam": "471710"
-        }
+        },
+        "slug": "rec-room"
     },
     {
         "url": "https://worldwar3.com/",
@@ -1295,7 +1350,8 @@
         "updates": [],
         "storeIds": {
             "steam": "674020"
-        }
+        },
+        "slug": "world-war-3"
     },
     {
         "url": "https://www.iracing.com/",
@@ -1315,7 +1371,8 @@
                 "namespace": "1d3e38b5e921433caffbbef89e265517",
                 "slug": "iracing"
             }
-        }
+        },
+        "slug": "iracing"
     },
     {
         "url": "https://survarium.com/",
@@ -1331,7 +1388,8 @@
         "updates": [],
         "storeIds": {
             "steam": "355840"
-        }
+        },
+        "slug": "survarium"
     },
     {
         "url": "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2",
@@ -1347,7 +1405,8 @@
         "updates": [],
         "storeIds": {
             "steam": "454650"
-        }
+        },
+        "slug": "dragon-ball-xenoverse-2"
     },
     {
         "url": "https://www.ubisoft.com/en-us/game/ghost-recon/breakpoint/wildlands",
@@ -1366,7 +1425,8 @@
                 "namespace": "hyacinth",
                 "slug": "ghost-recon-wildlands"
             }
-        }
+        },
+        "slug": "tom-clancys-ghost-recon-wildlands"
     },
     {
         "url": "https://www.ubisoft.com/en-us/game/watch-dogs/watch-dogs-2",
@@ -1385,28 +1445,31 @@
                 "namespace": "angelonia",
                 "slug": "watch-dogs-2"
             }
-        }
+        },
+        "slug": "watch-dogs-2"
     },
     {
         "url": "",
         "name": "Zero Hour",
         "logo": "",
         "native": false,
-        "status": "Running",
-        "reference": "https://www.protondb.com/app/1359090#apGRVXM6V-",
+        "status": "Broken",
+        "reference": "https://www.protondb.com/app/1359090#qQYAVWJv3L",
         "anticheats": [
             "Denuvo Anti-Cheat"
         ],
-        "notes": [
-            [
-                "Anti-Cheat not implemented yet",
-                "https://store.steampowered.com/news/app/1359090/view/3191371430398762496"
-            ]
+        "notes": [],
+        "updates": [
+            {
+                "name": "Denuvo seems to break compatibility",
+                "reference": "https://www.protondb.com/app/1359090#qQYAVWJv3L",
+                "date": "Mon Feb 06 2023 14:46:40 GMT+0000"
+            }
         ],
-        "updates": [],
         "storeIds": {
             "steam": "1359090"
-        }
+        },
+        "slug": "zero-hour"
     },
     {
         "url": "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2",
@@ -1420,7 +1483,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "ironsight"
     },
     {
         "url": "https://www.ubisoft.com/en-us/game/the-crew/the-crew-2",
@@ -1440,7 +1504,8 @@
                 "namespace": "599d248ca46b45a8b40a3b4e484712cb",
                 "slug": "the-crew-2"
             }
-        }
+        },
+        "slug": "the-crew-2"
     },
     {
         "url": "https://crsed.net/en/#!/",
@@ -1460,7 +1525,8 @@
                 "namespace": "2b352b4aea3849bd9519842dda263ac7",
                 "slug": "crsed-f-o-a-d"
             }
-        }
+        },
+        "slug": "crsed-foad"
     },
     {
         "url": "https://www.ea.com/games/starwars/squadrons",
@@ -1480,7 +1546,8 @@
                 "namespace": "bc2b0372eaa448469cb9a769f27acea1",
                 "slug": "star-wars-squadrons"
             }
-        }
+        },
+        "slug": "star-wars-squadrons"
     },
     {
         "url": "https://www.diabotical.com/",
@@ -1499,7 +1566,8 @@
                 "namespace": "36336ee97ec543bbae85abaca618182b",
                 "slug": "diabotical"
             }
-        }
+        },
+        "slug": "diabotical"
     },
     {
         "url": "",
@@ -1521,7 +1589,8 @@
         ],
         "storeIds": {
             "steam": "823130"
-        }
+        },
+        "slug": "totally-accurate-battlegrounds"
     },
     {
         "url": "https://www.splitgate.com/",
@@ -1547,7 +1616,8 @@
                 "namespace": "47cba32bce2f4b1e9da0eee33bbb489a",
                 "slug": "splitgate-a4414d"
             }
-        }
+        },
+        "slug": "splitgate"
     },
     {
         "url": "https://blog.counter-strike.net/",
@@ -1563,11 +1633,12 @@
         "updates": [],
         "storeIds": {
             "steam": "730"
-        }
+        },
+        "slug": "counterstrike-global-offensive"
     },
     {
         "url": "https://www.faceit.com",
-        "name": "Counter-Strike: Global Offensive​",
+        "name": "FACEIT: Counter-Strike: Global Offensive",
         "logo": "",
         "native": false,
         "status": "Denied",
@@ -1577,11 +1648,12 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "faceit-counterstrike-global-offensive"
     },
     {
         "url": "https://esea.net",
-        "name": "Counter-Strike: Global Offensive​​",
+        "name": "EASA: Counter-Strike: Global Offensive",
         "logo": "",
         "native": false,
         "status": "Denied",
@@ -1591,7 +1663,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "easa-counterstrike-global-offensive"
     },
     {
         "url": "https://www.teamfortress.com/",
@@ -1607,7 +1680,8 @@
         "updates": [],
         "storeIds": {
             "steam": "440"
-        }
+        },
+        "slug": "team-fortress-2"
     },
     {
         "url": "https://www.dota2.com",
@@ -1623,7 +1697,8 @@
         "updates": [],
         "storeIds": {
             "steam": "570"
-        }
+        },
+        "slug": "dota-2"
     },
     {
         "url": "",
@@ -1640,7 +1715,8 @@
         "updates": [],
         "storeIds": {
             "steam": "311210"
-        }
+        },
+        "slug": "call-of-duty-black-ops-iii"
     },
     {
         "url": "https://gmod.facepunch.com/",
@@ -1656,7 +1732,8 @@
         "updates": [],
         "storeIds": {
             "steam": "4000"
-        }
+        },
+        "slug": "garrys-mod"
     },
     {
         "url": "",
@@ -1676,7 +1753,8 @@
                 "namespace": "2c42520d342a46d7a6e0cfa77b4715de",
                 "slug": "dying-light"
             }
-        }
+        },
+        "slug": "dying-light"
     },
     {
         "url": "",
@@ -1692,7 +1770,8 @@
         "updates": [],
         "storeIds": {
             "steam": "630100"
-        }
+        },
+        "slug": "soulworker"
     },
     {
         "url": "https://www.ubisoft.com/en-us/game/ghost-recon/breakpoint",
@@ -1711,7 +1790,8 @@
                 "namespace": "2dbd2f64abdc4bbab077424d5c85e01b",
                 "slug": "ghost-recon-breakpoint"
             }
-        }
+        },
+        "slug": "tom-clancys-ghost-recon-breakpoint"
     },
     {
         "url": "https://dmo.gameking.com/",
@@ -1727,7 +1807,8 @@
         "updates": [],
         "storeIds": {
             "steam": "537180"
-        }
+        },
+        "slug": "digimon-masters-online"
     },
     {
         "url": "https://postscriptumgame.com/",
@@ -1748,7 +1829,8 @@
         "updates": [],
         "storeIds": {
             "steam": "736220"
-        }
+        },
+        "slug": "post-scriptum"
     },
     {
         "url": "https://sectorsedge.com/",
@@ -1762,7 +1844,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "sectors-edge"
     },
     {
         "url": "https://www.team17.com/games/worms-rumble/",
@@ -1781,7 +1864,8 @@
                 "namespace": "2016da2363da487bbf78961d8faec81c",
                 "slug": "worms-rumble"
             }
-        }
+        },
+        "slug": "worms-rumble"
     },
     {
         "url": "",
@@ -1797,7 +1881,8 @@
         "updates": [],
         "storeIds": {
             "steam": "333930"
-        }
+        },
+        "slug": "dirty-bomb"
     },
     {
         "url": "",
@@ -1813,7 +1898,8 @@
         "updates": [],
         "storeIds": {
             "steam": "383120"
-        }
+        },
+        "slug": "empyrion-galactic-survival"
     },
     {
         "url": "",
@@ -1827,7 +1913,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "call-of-duty-modern-warfare-2019"
     },
     {
         "url": "https://www.callofduty.com/warzone",
@@ -1841,7 +1928,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "call-of-duty-warzone"
     },
     {
         "url": "https://www.brawlhalla.com",
@@ -1857,7 +1945,8 @@
         "updates": [],
         "storeIds": {
             "steam": "291550"
-        }
+        },
+        "slug": "brawlhalla"
     },
     {
         "url": "https://combatarms-r.valofe.com/",
@@ -1871,7 +1960,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "combat-arms-reloaded"
     },
     {
         "url": "",
@@ -1885,7 +1975,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "polygon"
     },
     {
         "url": "https://www.callofduty.com/blackopscoldwar",
@@ -1899,7 +1990,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "call-of-duty-black-ops-cold-war"
     },
     {
         "url": "https://albiononline.com/",
@@ -1915,7 +2007,8 @@
         "updates": [],
         "storeIds": {
             "steam": "761890"
-        }
+        },
+        "slug": "albion-online"
     },
     {
         "url": "",
@@ -1931,7 +2024,8 @@
         "updates": [],
         "storeIds": {
             "steam": "240"
-        }
+        },
+        "slug": "counterstrike-source"
     },
     {
         "url": "https://outriders.square-enix-games.com",
@@ -1956,7 +2050,8 @@
                 "namespace": "c6e54ebd92da4ee8819c1c0956cebdc4",
                 "slug": "outriders"
             }
-        }
+        },
+        "slug": "outriders"
     },
     {
         "url": "https://crossout.net",
@@ -1978,7 +2073,8 @@
         ],
         "storeIds": {
             "steam": "386180"
-        }
+        },
+        "slug": "crossout"
     },
     {
         "url": "https://playspellbreak.com/en",
@@ -1998,7 +2094,8 @@
                 "namespace": "newt",
                 "slug": "spellbreak"
             }
-        }
+        },
+        "slug": "spellbreak"
     },
     {
         "url": "https://www.ea.com/games/battlefield/battlefield-4",
@@ -2015,7 +2112,8 @@
         "updates": [],
         "storeIds": {
             "steam": "1238860"
-        }
+        },
+        "slug": "battlefield-4"
     },
     {
         "url": "https://www.conanexiles.com",
@@ -2035,7 +2133,8 @@
                 "namespace": "conanexiles",
                 "slug": "conan-exiles"
             }
-        }
+        },
+        "slug": "conan-exiles"
     },
     {
         "url": "https://www.taleworlds.com/en/Games/Bannerlord/",
@@ -2055,7 +2154,8 @@
                 "namespace": "aeac94c7a11048758064b82f8f8d20ed",
                 "slug": "mount-and-blade-2"
             }
-        }
+        },
+        "slug": "mount-blade-ii-bannerlord"
     },
     {
         "url": "https://bloodhunt.com/",
@@ -2082,7 +2182,8 @@
         ],
         "storeIds": {
             "steam": "760160"
-        }
+        },
+        "slug": "vampire-the-masquerade-bloodhunt"
     },
     {
         "url": "https://maplestory.nexon.net",
@@ -2098,7 +2199,8 @@
         "updates": [],
         "storeIds": {
             "steam": "216150"
-        }
+        },
+        "slug": "maplestory"
     },
     {
         "url": "https://heroesandgenerals.com/",
@@ -2118,7 +2220,8 @@
                 "namespace": "c3e63401d6ba410493de31ed69a798a1",
                 "slug": "heroes-and-generals-wwii"
             }
-        }
+        },
+        "slug": "heroes-generals"
     },
     {
         "url": "https://www.deadsidegame.com/",
@@ -2145,7 +2248,8 @@
         ],
         "storeIds": {
             "steam": "895400"
-        }
+        },
+        "slug": "deadside"
     },
     {
         "url": "https://intruderfps.com/",
@@ -2161,7 +2265,8 @@
         "updates": [],
         "storeIds": {
             "steam": "518150"
-        }
+        },
+        "slug": "intruder"
     },
     {
         "url": "",
@@ -2181,7 +2286,8 @@
                 "namespace": "80e804312c2149c69a75aee703e85a9a",
                 "slug": "warface"
             }
-        }
+        },
+        "slug": "warface"
     },
     {
         "url": "",
@@ -2197,7 +2303,8 @@
         "updates": [],
         "storeIds": {
             "steam": "2620"
-        }
+        },
+        "slug": "call-of-duty"
     },
     {
         "url": "",
@@ -2213,7 +2320,8 @@
         "updates": [],
         "storeIds": {
             "steam": "320"
-        }
+        },
+        "slug": "halflife-2-deathmatch"
     },
     {
         "url": "",
@@ -2227,7 +2335,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "atlas"
     },
     {
         "url": "",
@@ -2247,7 +2356,8 @@
                 "date": "Thu 2, June 2016, 5:32 PM"
             }
         ],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "the-mean-greens-plastic-warfare"
     },
     {
         "url": "",
@@ -2263,7 +2373,8 @@
         "updates": [],
         "storeIds": {
             "steam": "629760"
-        }
+        },
+        "slug": "mordhau"
     },
     {
         "url": "",
@@ -2277,7 +2388,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "arma-2"
     },
     {
         "url": "",
@@ -2293,7 +2405,8 @@
         "updates": [],
         "storeIds": {
             "steam": "2200"
-        }
+        },
+        "slug": "quake-iii-arena"
     },
     {
         "url": "",
@@ -2309,7 +2422,8 @@
         "updates": [],
         "storeIds": {
             "steam": "2630"
-        }
+        },
+        "slug": "call-of-duty-2"
     },
     {
         "url": "",
@@ -2325,7 +2439,8 @@
         "updates": [],
         "storeIds": {
             "steam": "1238840"
-        }
+        },
+        "slug": "battlefield-1"
     },
     {
         "url": "",
@@ -2339,7 +2454,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "nuclear-dawn"
     },
     {
         "url": "",
@@ -2353,7 +2469,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "pirates-vikings-and-knights-ii"
     },
     {
         "url": "",
@@ -2367,7 +2484,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "battlefield-1942"
     },
     {
         "url": "",
@@ -2381,7 +2499,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "team-fortress-classic"
     },
     {
         "url": "https://thecycle.game/",
@@ -2401,7 +2520,8 @@
                 "namespace": "azalea",
                 "slug": "thecycle"
             }
-        }
+        },
+        "slug": "the-cycle-frontier"
     },
     {
         "url": "",
@@ -2415,7 +2535,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "ark-survival-of-the-fittest"
     },
     {
         "url": "",
@@ -2435,7 +2556,8 @@
                 "namespace": "17a1f8585f9246808597b30780aaf4fb",
                 "slug": "crysis-remastered"
             }
-        }
+        },
+        "slug": "crysis"
     },
     {
         "url": "",
@@ -2451,7 +2573,8 @@
         "updates": [],
         "storeIds": {
             "steam": "376210"
-        }
+        },
+        "slug": "the-isle"
     },
     {
         "url": "",
@@ -2469,7 +2592,8 @@
         "updates": [],
         "storeIds": {
             "steam": "42700"
-        }
+        },
+        "slug": "call-of-duty-black-ops"
     },
     {
         "url": "",
@@ -2485,7 +2609,8 @@
         "updates": [],
         "storeIds": {
             "steam": "7940"
-        }
+        },
+        "slug": "call-of-duty-4-modern-warfare"
     },
     {
         "url": "",
@@ -2499,7 +2624,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "day-of-defeat"
     },
     {
         "url": "",
@@ -2515,7 +2641,8 @@
         "updates": [],
         "storeIds": {
             "steam": "219640"
-        }
+        },
+        "slug": "chivalry-medieval-warfare"
     },
     {
         "url": "",
@@ -2529,7 +2656,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "pang-online"
     },
     {
         "url": "",
@@ -2545,7 +2673,8 @@
         "updates": [],
         "storeIds": {
             "steam": "2400"
-        }
+        },
+        "slug": "the-ship-murder-party"
     },
     {
         "url": "",
@@ -2568,7 +2697,8 @@
         ],
         "storeIds": {
             "steam": "222880"
-        }
+        },
+        "slug": "insurgency"
     },
     {
         "url": "",
@@ -2585,7 +2715,8 @@
         "updates": [],
         "storeIds": {
             "steam": "202970"
-        }
+        },
+        "slug": "call-of-duty-black-ops-ii"
     },
     {
         "url": "",
@@ -2599,7 +2730,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "monstrum-2"
     },
     {
         "url": "",
@@ -2615,7 +2747,8 @@
         "updates": [],
         "storeIds": {
             "steam": "224260"
-        }
+        },
+        "slug": "no-more-room-in-hell"
     },
     {
         "url": "",
@@ -2631,7 +2764,8 @@
         "updates": [],
         "storeIds": {
             "steam": "274940"
-        }
+        },
+        "slug": "depth"
     },
     {
         "url": "",
@@ -2647,7 +2781,8 @@
         "updates": [],
         "storeIds": {
             "steam": "2210"
-        }
+        },
+        "slug": "quake-4"
     },
     {
         "url": "",
@@ -2661,7 +2796,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "deathmatch-classic"
     },
     {
         "url": "",
@@ -2677,7 +2813,8 @@
         "updates": [],
         "storeIds": {
             "steam": "24860"
-        }
+        },
+        "slug": "battlefield-2"
     },
     {
         "url": "",
@@ -2691,7 +2828,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "sword-art-online-alicization-lycoris"
     },
     {
         "url": "",
@@ -2707,7 +2845,8 @@
         "updates": [],
         "storeIds": {
             "steam": "505460"
-        }
+        },
+        "slug": "foxhole"
     },
     {
         "url": "",
@@ -2723,7 +2862,8 @@
         "updates": [],
         "storeIds": {
             "steam": "299360"
-        }
+        },
+        "slug": "block-n-load"
     },
     {
         "url": "",
@@ -2739,7 +2879,8 @@
         "updates": [],
         "storeIds": {
             "steam": "1454890"
-        }
+        },
+        "slug": "titanfall"
     },
     {
         "url": "",
@@ -2753,7 +2894,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "kartrider"
     },
     {
         "url": "",
@@ -2774,7 +2916,8 @@
         "updates": [],
         "storeIds": {
             "steam": "1238820"
-        }
+        },
+        "slug": "battlefield-3"
     },
     {
         "url": "",
@@ -2788,7 +2931,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "kovaak-20"
     },
     {
         "url": "",
@@ -2804,7 +2948,8 @@
         "updates": [],
         "storeIds": {
             "steam": "300"
-        }
+        },
+        "slug": "day-of-defeat-source"
     },
     {
         "url": "",
@@ -2824,7 +2969,8 @@
                 "namespace": "fefe1db11f534484987ef50ec1e25225",
                 "slug": "star-wars-battlefront"
             }
-        }
+        },
+        "slug": "star-wars-battlefront-2015"
     },
     {
         "url": "",
@@ -2840,7 +2986,8 @@
         "updates": [],
         "storeIds": {
             "steam": "214360"
-        }
+        },
+        "slug": "tower-wars"
     },
     {
         "url": "",
@@ -2856,7 +3003,8 @@
         "updates": [],
         "storeIds": {
             "steam": "393420"
-        }
+        },
+        "slug": "hurtworld"
     },
     {
         "url": "",
@@ -2872,7 +3020,8 @@
         "updates": [],
         "storeIds": {
             "steam": "209160"
-        }
+        },
+        "slug": "call-of-duty-ghosts"
     },
     {
         "url": "",
@@ -2888,7 +3037,8 @@
         "updates": [],
         "storeIds": {
             "steam": "626690"
-        }
+        },
+        "slug": "sword-art-online-fatal-bullet"
     },
     {
         "url": "",
@@ -2904,7 +3054,8 @@
         "updates": [],
         "storeIds": {
             "steam": "1250"
-        }
+        },
+        "slug": "killing-floor"
     },
     {
         "url": "",
@@ -2920,7 +3071,8 @@
         "updates": [],
         "storeIds": {
             "steam": "24960"
-        }
+        },
+        "slug": "battlefield-bad-company-2"
     },
     {
         "url": "",
@@ -2939,7 +3091,8 @@
                 "namespace": "argyle",
                 "slug": "trials-rising"
             }
-        }
+        },
+        "slug": "trials-rising"
     },
     {
         "url": "",
@@ -2955,7 +3108,8 @@
         "updates": [],
         "storeIds": {
             "steam": "223710"
-        }
+        },
+        "slug": "cry-of-fear"
     },
     {
         "url": "",
@@ -2979,7 +3133,8 @@
                 "namespace": "coriander",
                 "slug": "far-cry-5"
             }
-        }
+        },
+        "slug": "far-cry-5"
     },
     {
         "url": "",
@@ -2995,7 +3150,8 @@
         "updates": [],
         "storeIds": {
             "steam": "10180"
-        }
+        },
+        "slug": "call-of-duty-modern-warfare-2"
     },
     {
         "url": "",
@@ -3009,7 +3165,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "kritikareboot"
     },
     {
         "url": "",
@@ -3025,7 +3182,8 @@
         "updates": [],
         "storeIds": {
             "steam": "360"
-        }
+        },
+        "slug": "halflife-deathmatch-source"
     },
     {
         "url": "",
@@ -3039,7 +3197,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "beyond-the-wire"
     },
     {
         "url": "",
@@ -3055,7 +3214,8 @@
         "updates": [],
         "storeIds": {
             "steam": "6510"
-        }
+        },
+        "slug": "lost-planet-extreme-condition"
     },
     {
         "url": "",
@@ -3075,7 +3235,8 @@
                 "namespace": "03ecca4e19a9483aa05b3d99948c43ce",
                 "slug": "the-division"
             }
-        }
+        },
+        "slug": "tom-clancys-the-division"
     },
     {
         "url": "",
@@ -3091,7 +3252,8 @@
         "updates": [],
         "storeIds": {
             "steam": "630700"
-        }
+        },
+        "slug": "rocket-arena"
     },
     {
         "url": "",
@@ -3107,7 +3269,8 @@
         "updates": [],
         "storeIds": {
             "steam": "42680"
-        }
+        },
+        "slug": "call-of-duty-modern-warfare-3"
     },
     {
         "url": "",
@@ -3123,7 +3286,8 @@
         "updates": [],
         "storeIds": {
             "steam": "550"
-        }
+        },
+        "slug": "left-4-dead-2"
     },
     {
         "url": "",
@@ -3139,7 +3303,8 @@
         "updates": [],
         "storeIds": {
             "steam": "394690"
-        }
+        },
+        "slug": "tower-unite"
     },
     {
         "url": "",
@@ -3153,7 +3318,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "day-of-infamy"
     },
     {
         "url": "",
@@ -3180,7 +3346,8 @@
         ],
         "storeIds": {
             "steam": "550650"
-        }
+        },
+        "slug": "black-squad"
     },
     {
         "url": "",
@@ -3200,7 +3367,8 @@
                 "namespace": "b156c3365a5b4cb9a01a5e1108b4e3f4",
                 "slug": "star-wars-battlefront-2"
             }
-        }
+        },
+        "slug": "star-wars-battlefront-ii-2017"
     },
     {
         "url": "",
@@ -3216,7 +3384,8 @@
         "updates": [],
         "storeIds": {
             "steam": "321360"
-        }
+        },
+        "slug": "primal-carnage"
     },
     {
         "url": "https://honkaiimpact3.mihoyo.com/",
@@ -3231,6 +3400,7 @@
         ],
         "notes": [],
         "updates": [],
+        "slug": "honkai-impact-3rd",
         "storeIds": {
             "steam": "1671200",
             "epic": {
@@ -3252,6 +3422,7 @@
         ],
         "notes": [],
         "updates": [],
+        "slug": "honkai-star-rail",
         "storeIds": {
             "epic": {
                 "namespace": "a2dcbb9e34204bda9da8415f97b3f4ea",
@@ -3273,7 +3444,8 @@
         "updates": [],
         "storeIds": {
             "steam": "65800"
-        }
+        },
+        "slug": "dungeon-defenders"
     },
     {
         "url": "",
@@ -3289,7 +3461,8 @@
         "updates": [],
         "storeIds": {
             "steam": "113400"
-        }
+        },
+        "slug": "apb-reloaded"
     },
     {
         "url": "",
@@ -3309,7 +3482,8 @@
             ]
         ],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "battlefield-hardline"
     },
     {
         "url": "",
@@ -3325,7 +3499,8 @@
         "updates": [],
         "storeIds": {
             "steam": "1097840"
-        }
+        },
+        "slug": "gears-5"
     },
     {
         "url": "",
@@ -3342,7 +3517,8 @@
         "updates": [],
         "storeIds": {
             "steam": "10090"
-        }
+        },
+        "slug": "call-of-duty-world-at-war"
     },
     {
         "url": "",
@@ -3358,7 +3534,8 @@
         "updates": [],
         "storeIds": {
             "steam": "282440"
-        }
+        },
+        "slug": "quake-live"
     },
     {
         "url": "",
@@ -3374,7 +3551,8 @@
         "updates": [],
         "storeIds": {
             "steam": "593600"
-        }
+        },
+        "slug": "pixark"
     },
     {
         "url": "",
@@ -3388,7 +3566,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "captain-tsubasa-rise-of-new-champions"
     },
     {
         "url": "",
@@ -3404,7 +3583,8 @@
         "updates": [],
         "storeIds": {
             "steam": "324810"
-        }
+        },
+        "slug": "toxikk"
     },
     {
         "url": "",
@@ -3418,7 +3598,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "arma-2-operation-arrowhead"
     },
     {
         "url": "",
@@ -3432,7 +3613,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "latale"
     },
     {
         "url": "",
@@ -3446,7 +3628,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "crysis-warhead"
     },
     {
         "url": "",
@@ -3465,7 +3648,8 @@
                 "namespace": "5a82d5954a1943d79dc6b49cde2fe972",
                 "slug": "predator-hunting-grounds"
             }
-        }
+        },
+        "slug": "predator-hunting-grounds"
     },
     {
         "url": "",
@@ -3481,7 +3665,8 @@
         "updates": [],
         "storeIds": {
             "steam": "476600"
-        }
+        },
+        "slug": "call-of-duty-wwii"
     },
     {
         "url": "",
@@ -3502,7 +3687,8 @@
         "updates": [],
         "storeIds": {
             "steam": "550470"
-        }
+        },
+        "slug": "nostale"
     },
     {
         "url": "",
@@ -3522,7 +3708,8 @@
                 "namespace": "bf5708c386744107b8a8a24ac707dd0e",
                 "slug": "battlefield-v-definitive-edition"
             }
-        }
+        },
+        "slug": "battlefield-v"
     },
     {
         "url": "",
@@ -3546,7 +3733,8 @@
                 "namespace": "bd46d4ce259349e5bd8b3ded20274737",
                 "slug": "chivalry-2"
             }
-        }
+        },
+        "slug": "chivalry-2"
     },
     {
         "url": "",
@@ -3562,7 +3750,8 @@
         "updates": [],
         "storeIds": {
             "steam": "55100"
-        }
+        },
+        "slug": "homefront"
     },
     {
         "url": "",
@@ -3578,7 +3767,8 @@
         "updates": [],
         "storeIds": {
             "steam": "292730"
-        }
+        },
+        "slug": "call-of-duty-infinite-warfare"
     },
     {
         "url": "",
@@ -3592,7 +3782,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "pangya"
     },
     {
         "url": "",
@@ -3606,7 +3797,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "quantum-league"
     },
     {
         "url": "",
@@ -3627,7 +3819,8 @@
         "updates": [],
         "storeIds": {
             "steam": "1158940"
-        }
+        },
+        "slug": "blazing-sails"
     },
     {
         "url": "",
@@ -3643,7 +3836,8 @@
         "updates": [],
         "storeIds": {
             "steam": "1237970"
-        }
+        },
+        "slug": "titanfall-2"
     },
     {
         "url": "",
@@ -3657,7 +3851,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "lemnis-gate"
     },
     {
         "url": "",
@@ -3671,7 +3866,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "grandchase"
     },
     {
         "url": "",
@@ -3691,7 +3887,8 @@
                 "namespace": "affc33b82405457595a032f00284abd2",
                 "slug": "killing-floor-2"
             }
-        }
+        },
+        "slug": "killing-floor-2"
     },
     {
         "url": "",
@@ -3705,7 +3902,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "black-clover-quartet-knights"
     },
     {
         "url": "",
@@ -3719,7 +3917,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "nine-to-five"
     },
     {
         "url": "https://www.playlostark.com/",
@@ -3738,7 +3937,8 @@
             ]
         ],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "lost-ark"
     },
     {
         "url": "https://archeageunchained.com/",
@@ -3752,7 +3952,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "archeage-unchained"
     },
     {
         "url": "https://www.hiredops.com/",
@@ -3768,7 +3969,8 @@
         "updates": [],
         "storeIds": {
             "steam": "374280"
-        }
+        },
+        "slug": "hired-ops"
     },
     {
         "url": "https://www.ubisoft.com/en-us/game/watch-dogs/legion",
@@ -3793,7 +3995,8 @@
                 "namespace": "0a84818055e740a7be21a2e5b6162703",
                 "slug": "watch-dogs-legion"
             }
-        }
+        },
+        "slug": "watch-dogs-legion"
     },
     {
         "url": "",
@@ -3807,7 +4010,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "call-of-duty-vanguard"
     },
     {
         "url": "https://robertsspaceindustries.com/",
@@ -3832,7 +4036,8 @@
                 "reference": "https://robertsspaceindustries.com/spectrum/community/SC/forum/190048/thread/star-citizen-alpha-3-15-1e-ptu-7876811-patch-notes"
             }
         ],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "star-citizen"
     },
     {
         "url": "https://quake.bethesda.net",
@@ -3854,7 +4059,8 @@
         ],
         "storeIds": {
             "steam": "611500"
-        }
+        },
+        "slug": "quake-champions"
     },
     {
         "url": "http://vankrupt.com/#pavlov-vr",
@@ -3870,7 +4076,8 @@
         "updates": [],
         "storeIds": {
             "steam": "555160"
-        }
+        },
+        "slug": "pavlov-vr"
     },
     {
         "url": "https://playdauntless.com/",
@@ -3904,7 +4111,8 @@
                 "namespace": "jackal",
                 "slug": "dauntless"
             }
-        }
+        },
+        "slug": "dauntless"
     },
     {
         "url": "https://www.bandainamcoent.com/games/naruto-to-boruto-shinobi-striker",
@@ -3920,7 +4128,8 @@
         "updates": [],
         "storeIds": {
             "steam": "633230"
-        }
+        },
+        "slug": "naruto-to-boruto-shinobi-striker"
     },
     {
         "url": "https://www.mythofempires.com/",
@@ -3934,7 +4143,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "myth-of-empires"
     },
     {
         "url": "https://leagueoflegends.com",
@@ -3962,7 +4172,8 @@
                 "namespace": "24b9b5e323bc40eea252a10cdd3b2f10",
                 "slug": "league-of-legends"
             }
-        }
+        },
+        "slug": "league-of-legends"
     },
     {
         "url": "",
@@ -3978,7 +4189,8 @@
         "updates": [],
         "storeIds": {
             "steam": "1217060"
-        }
+        },
+        "slug": "gunfire-reborn"
     },
     {
         "url": "https://www.bandainamcoent.com/games/elden-ring",
@@ -3992,7 +4204,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "elden-ring"
     },
     {
         "url": "https://www.tibia.com/",
@@ -4006,7 +4219,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "tibia"
     },
     {
         "url": "",
@@ -4022,7 +4236,8 @@
         "updates": [],
         "storeIds": {
             "steam": "707010"
-        }
+        },
+        "slug": "will-to-live-online"
     },
     {
         "url": "",
@@ -4038,7 +4253,8 @@
         "updates": [],
         "storeIds": {
             "steam": "573100"
-        }
+        },
+        "slug": "battlefleet-gothic-armada-2"
     },
     {
         "url": "",
@@ -4052,7 +4268,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "super-people"
     },
     {
         "url": "",
@@ -4068,7 +4285,8 @@
         "updates": [],
         "storeIds": {
             "steam": "544920"
-        }
+        },
+        "slug": "darwin-project"
     },
     {
         "url": "https://www.callofduty.com/blackops4",
@@ -4082,7 +4300,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "call-of-duty-black-ops-4"
     },
     {
         "url": "",
@@ -4096,7 +4315,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "battlebit-remastered"
     },
     {
         "url": "https://vindictus.nexon.net/",
@@ -4112,7 +4332,8 @@
         "updates": [],
         "storeIds": {
             "steam": "212160"
-        }
+        },
+        "slug": "vindictus"
     },
     {
         "url": "",
@@ -4128,7 +4349,8 @@
         "updates": [],
         "storeIds": {
             "steam": "466240"
-        }
+        },
+        "slug": "deceit"
     },
     {
         "url": "https://absolvergame.com/",
@@ -4144,7 +4366,8 @@
         "updates": [],
         "storeIds": {
             "steam": "473690"
-        }
+        },
+        "slug": "absolver"
     },
     {
         "url": "",
@@ -4160,7 +4383,8 @@
         "updates": [],
         "storeIds": {
             "steam": "1477590"
-        }
+        },
+        "slug": "ez2on-reboot-r"
     },
     {
         "url": "",
@@ -4176,7 +4400,8 @@
         "updates": [],
         "storeIds": {
             "steam": "215830"
-        }
+        },
+        "slug": "closers"
     },
     {
         "url": "",
@@ -4192,7 +4417,8 @@
         "updates": [],
         "storeIds": {
             "steam": "459160"
-        }
+        },
+        "slug": "allods-online"
     },
     {
         "url": "",
@@ -4212,7 +4438,8 @@
                 "namespace": "244aaaa06bfa49d088205b13b9d2d115",
                 "slug": "warframe"
             }
-        }
+        },
+        "slug": "warframe"
     },
     {
         "url": "",
@@ -4228,7 +4455,8 @@
         "updates": [],
         "storeIds": {
             "steam": "280620"
-        }
+        },
+        "slug": "fiesta-online"
     },
     {
         "url": "",
@@ -4248,7 +4476,8 @@
                 "reference": "https://www.protondb.com/app/438740#k8v0JyaD8l"
             }
         ],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "friday-the-13th-the-game"
     },
     {
         "url": "",
@@ -4268,7 +4497,8 @@
                 "namespace": "d5241c76f178492ea1540fce45616757",
                 "slug": "grand-theft-auto-v"
             }
-        }
+        },
+        "slug": "grand-theft-auto-online"
     },
     {
         "url": "https://animalroyale.com",
@@ -4284,7 +4514,8 @@
         "updates": [],
         "storeIds": {
             "steam": "843380"
-        }
+        },
+        "slug": "super-animal-royale"
     },
     {
         "url": "https://fallout.bethesda.net/",
@@ -4300,7 +4531,8 @@
         "updates": [],
         "storeIds": {
             "steam": "1151340"
-        }
+        },
+        "slug": "fallout-76"
     },
     {
         "url": "https://en.another-eden.jp/",
@@ -4314,7 +4546,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "another-eden"
     },
     {
         "url": "https://playoverwatch.com/en-us/",
@@ -4334,7 +4567,8 @@
                 "date": "Fri Apr 20 2018 23:26:33 GMT+0000"
             }
         ],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "overwatch"
     },
     {
         "url": "https://overwatch2.playoverwatch.com/en-us/trailer",
@@ -4354,7 +4588,8 @@
                 "date": "Fri Apr 20 2018 23:26:33 GMT+0000"
             }
         ],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "overwatch-2"
     },
     {
         "url": "",
@@ -4374,7 +4609,8 @@
                 "namespace": "f698d5d792654ac99f47d67e93916bef",
                 "slug": "century-age-of-ashes"
             }
-        }
+        },
+        "slug": "century-age-of-ashes"
     },
     {
         "url": "https://pathoftitans.com/",
@@ -4388,7 +4624,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "path-of-titans"
     },
     {
         "url": "https://www.awesomenauts.com/",
@@ -4404,7 +4641,8 @@
         "updates": [],
         "storeIds": {
             "steam": "204300"
-        }
+        },
+        "slug": "awesomenauts-the-2d-moba"
     },
     {
         "url": "https://www.dfoneople.com/",
@@ -4425,7 +4663,8 @@
         "updates": [],
         "storeIds": {
             "steam": "495910"
-        }
+        },
+        "slug": "dungeon-fighter-online"
     },
     {
         "url": "https://evildeadthegame.com/en/",
@@ -4455,7 +4694,8 @@
                 "namespace": "95e09a8c24c44684bca1a6f25aea920c",
                 "slug": "evil-dead-the-game"
             }
-        }
+        },
+        "slug": "evil-dead-the-game"
     },
     {
         "url": "https://scpslgame.com/",
@@ -4476,7 +4716,8 @@
         "updates": [],
         "storeIds": {
             "steam": "700330"
-        }
+        },
+        "slug": "scp-secret-laboratory"
     },
     {
         "url": "https://midnightghosthunt.com/",
@@ -4507,7 +4748,8 @@
         ],
         "storeIds": {
             "steam": "915810"
-        }
+        },
+        "slug": "midnight-ghost-hunt"
     },
     {
         "url": "https://www.playredfox.com/rumble_fighter",
@@ -4523,7 +4765,8 @@
         "updates": [],
         "storeIds": {
             "steam": "357500"
-        }
+        },
+        "slug": "rumble-fighter-unleashed"
     },
     {
         "url": "https://www.focus-entmt.com/en/games/hood-outlaws-legends",
@@ -4549,7 +4792,8 @@
                 "namespace": "5a2108f4db804040aaf44d139bd21bd1",
                 "slug": "hood-outlaws-and-legends"
             }
-        }
+        },
+        "slug": "hood-outlaws-legends"
     },
     {
         "url": "https://multiversus.com/en",
@@ -4569,7 +4813,8 @@
                 "namespace": "3a212c0da4f1438e840c21565df4b6fe",
                 "slug": "multiversus"
             }
-        }
+        },
+        "slug": "multiversus"
     },
     {
         "url": "https://hello.vrchat.com/",
@@ -4591,7 +4836,8 @@
         ],
         "storeIds": {
             "steam": "438100"
-        }
+        },
+        "slug": "vrchat"
     },
     {
         "url": "https://www.nttgameonline.com/knight/",
@@ -4607,7 +4853,8 @@
         "updates": [],
         "storeIds": {
             "steam": "389430"
-        }
+        },
+        "slug": "knight-online"
     },
     {
         "url": "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-the-breakers",
@@ -4621,7 +4868,8 @@
         ],
         "notes": [],
         "updates": [],
-        "storeIds": {}
+        "storeIds": {},
+        "slug": "dragon-ball-the-breakers"
     },
     {
         "url": "https://www.rumbleverse.com",
@@ -4640,7 +4888,8 @@
                 "namespace": "0bef9383794a4d779ba0628084b14cba",
                 "slug": "rumbleverse"
             }
-        }
+        },
+        "slug": "rumbleverse"
     },
     {
         "url": "",
@@ -4660,7 +4909,8 @@
         ],
         "storeIds": {
             "steam": "489940"
-        }
+        },
+        "slug": "battalion-legacy"
     },
     {
         "url": "https://www.toweroffantasy-global.com/",
@@ -4680,7 +4930,8 @@
                 "namespace": "b47d3947087147baa8e1665680aefc11",
                 "slug": "tower-of-fantasy"
             }
-        }
+        },
+        "slug": "tower-of-fantasy"
     },
     {
         "url": "https://www.lostlight.game/",
@@ -4701,7 +4952,8 @@
         "updates": [],
         "storeIds": {
             "steam": "1797880"
-        }
+        },
+        "slug": "lost-light"
     },
     {
         "url": "https://www.shatterline.gg",
@@ -4728,7 +4980,8 @@
         ],
         "storeIds": {
             "steam": "2087030"
-        }
+        },
+        "slug": "shatterline"
     },
     {
         "url": "https://gundamevolution.com/en/",
@@ -4744,7 +4997,8 @@
         "updates": [],
         "storeIds": {
             "steam": "1816670"
-        }
+        },
+        "slug": "gundam-evolution"
     },
     {
         "url": "https://reforger.armaplatform.com/",
@@ -4760,7 +5014,8 @@
         "updates": [],
         "storeIds": {
             "steam": "1874880"
-        }
+        },
+        "slug": "arma-reforger"
     },
     {
         "url": "https://www.ea.com/de-de/games/fifa/fifa-23",
@@ -4776,7 +5031,8 @@
         "updates": [],
         "storeIds": {
             "steam": "1811260"
-        }
+        },
+        "slug": "fifa-23"
     },
     {
         "url": "https://www.callofduty.com/modernwarfare2/pc",
@@ -4792,7 +5048,8 @@
         "updates": [],
         "storeIds": {
             "steam": "1938090"
-        }
+        },
+        "slug": "call-of-duty-modern-warfare-2-2022"
     },
     {
         "url": "",
@@ -4814,7 +5071,8 @@
         ],
         "storeIds": {
             "steam": "1789480"
-        }
+        },
+        "slug": "marauders"
     },
     {
         "url": "https://www.predecessorgame.com/",
@@ -4830,7 +5088,8 @@
         "updates": [],
         "storeIds": {
             "steam": "961200"
-        }
+        },
+        "slug": "predecessor"
     },
     {
         "url": "https://freetrial.finalfantasyxiv.com/",
@@ -4851,6 +5110,7 @@
         "updates": [],
         "storeIds": {
             "steam": "961200"
-        }
+        },
+        "slug": "final-fantasy-xiv"
     }
 ]

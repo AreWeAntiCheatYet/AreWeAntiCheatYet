@@ -1,111 +1,64 @@
-import { AppShell, Stack } from '@mantine/core';
-import { getCookie, setCookies } from 'cookies-next';
-import dayjs from 'dayjs';
-import relativeTime from 'dayjs/plugin/relativeTime';
-import { promises as fs } from 'fs';
+import { Blockquote, Stack } from '@mantine/core';
 import { InferGetStaticPropsType } from 'next';
-import { useEffect, useMemo, useState } from 'react';
-import Breakdown from '../components/Breakdown';
-import ChangesList from '../components/ChangesList';
-import Definitions from '../components/Definitions';
-import AppFooter from '../components/Footer';
-import GamesList from '../components/GamesList';
-import AppHeader from '../components/Header';
-import InfoAlert from '../components/InfoAlert';
+import { useContext } from 'react';
+import GameGrid from '../components/GameGrid';
+import GameTable from '../components/GameTable';
+import Legend from '../components/Legend';
 import Overview from '../components/Overview';
-import {
-  downloadImagesAndSetLogo,
-  fetchReferenceTitles,
-  generateAntiCheatIconLookUp,
-  generateBreakdown,
-  generateOverview,
-} from '../utils/compile_time';
-import { style } from '../utils/style';
+import { SettingsContext } from '../src/static/state';
+import { allImages } from '../src/assets';
+import { Games, paginationSize } from '../src/static';
+import { paginate, stats } from '../src/utils/games';
+import BreakdownLink from '../components/BreakdownLink';
+
+// TODO: "Request Changes" Page
 
 export const getStaticProps = async () => {
-  const games = await fetchReferenceTitles(
-    await downloadImagesAndSetLogo(JSON.parse(await fs.readFile('./games.json', 'utf8')))
-  );
+  const paginated = paginate(paginationSize);
 
-  const overview = generateOverview(games);
-  const breakdown = generateBreakdown(games);
-  const lastBuildTime = new Date().getTime();
-  const antiCheatIcons = generateAntiCheatIconLookUp(games);
+  const images = await allImages(Games);
+  const currentGames = paginated.at(0);
+  const totalPages = paginated.length;
 
-  return {
-    props: { games, overview, breakdown, antiCheatIcons, lastBuildTime },
-  };
+  const { ...statuses } = stats();
+  const total = Games.length;
+
+  return { props: { ...statuses, total, totalPages, currentGames, images } };
 };
 
-export default function Home({
-  games,
-  overview,
-  breakdown,
-  antiCheatIcons,
-  lastBuildTime,
+export default function ({
+  totalPages,
+  currentGames,
+  images: _images,
+  ...props
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { classes } = style();
-  useMemo(() => dayjs.extend(relativeTime), []);
-  const [showStores, setShowStores] = useState(true);
-  const [highlightColors, setHighlightColors] = useState(false);
-
-  useEffect(() => {
-    setHighlightColors(getCookie('showStores') as boolean);
-    setHighlightColors(getCookie('highlightColors') as boolean);
-  }, []);
-
-  const toggleHighlight = () => {
-    setHighlightColors(!highlightColors);
-    setCookies('highlightColors', `${!highlightColors}`, {
-      maxAge: 60 * 60 * 24 * 30,
-      sameSite: 'strict',
-    });
-  };
-
-  const toggleShowStores = () => {
-    setShowStores(!showStores);
-    setCookies('showStores', `${!showStores}`, {
-      maxAge: 60 * 60 * 24 * 30,
-      sameSite: 'strict',
-    });
-  };
+  const { overview, display } = useContext(SettingsContext);
+  const images = new Map(_images);
 
   return (
-    <AppShell
-      padding="md"
-      header={
-        <AppHeader
-          highlight={highlightColors}
-          toggleHighlight={toggleHighlight}
-          showStores={showStores}
-          toggleShowStores={toggleShowStores}
-        />
-      }
-    >
-      <Stack align="center" sx={{ marginTop: 25 }}>
-        <Overview overview={overview} sx={{ marginBottom: 25 }} />
-        <Definitions className={classes.breakdownWidth} />
-        <ChangesList
-          games={games}
-          antiCheatIcons={antiCheatIcons}
-          className={classes.breakdownWidth}
-        />
-        <Breakdown
-          breakdown={breakdown}
-          statusOverview={overview}
-          className={classes.breakdownWidth}
-          sx={{ marginBottom: 25 }}
-        />
-        <InfoAlert />
-        <GamesList
-          showStores={showStores}
-          highlight={highlightColors}
-          className={classes.tableWidth}
-          anticheatIcons={antiCheatIcons}
-          games={games}
-        />
-        <AppFooter lastBuildTime={lastBuildTime} />
+    <>
+      <noscript>
+        {/* eslint-disable @next/next/no-html-link-for-pages */}
+        <a href="/no-js">You can find the non-javascript page without pagination here.</a>
+        <style> {'.needsJavascript { display: none }'} </style>
+        <meta httpEquiv="refresh" content="0;url=no-js" />
+      </noscript>
+
+      <Stack className="needsJavascript" align="center" mt={70}>
+        <Blockquote cite="- Starz0r" mb={50}>
+          A comprehensive and crowd-sourced list of games using anti-cheats and their compatibility with GNU/Linux or
+          Wine/Proton.
+        </Blockquote>
+
+        <Overview variant={overview} {...props} />
+        <Legend mt={30} />
+        <BreakdownLink />
+        {display === 'grid' ? (
+          <GameGrid page={1} totalPages={totalPages} games={currentGames} assets={images} mt={50} mb={20} />
+        ) : (
+          <GameTable page={1} totalPages={totalPages} assets={images} games={currentGames} mt={50} mb={20} />
+        )}
       </Stack>
-    </AppShell>
+    </>
   );
 }

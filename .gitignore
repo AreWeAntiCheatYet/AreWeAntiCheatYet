@@ -89,11 +89,13 @@ sw.*
 # Vim swap files
 *.swp
 
+# Generated assets
+
+prefetched.json
+/public/assets/*
+!/public/assets/.gitkeep
+
 # Other
 
 .vscode
 out
-temp-icons
-/test-results/
-/playwright-report/
-/playwright/.cache/
