@@ -1,5 +1,5 @@
 import { Group, Table, Text } from '@mantine/core';
-import { IconCirclePlus } from '@tabler/icons-react';
+import { IconCirclePlus, IconX } from '@tabler/icons-react';
 import { Change, Game } from '../src/types/games';
 import AntiCheatBadge from './AntiCheatBadge';
 import Notes from './Notes';
@@ -43,13 +43,13 @@ export default function ({ change, withCaption }: ChangesProps) {
             </Group>
           );
         case 'notes':
-          return game.notes.length > 0 ? <Notes size="sm" fz="xs" game={game} /> : <></>;
+          return game.notes.length > 0 ? <Notes size="sm" fz="xs" game={game} /> : <IconX />;
         case 'status':
           return <StatusBadge variant="text" size={16} game={game} />;
         case 'updates':
-          return game.updates.length > 0 ? <Updates fz="xs" fzBody="xs" fzTitle="xs" game={game} /> : <></>;
+          return game.updates.length > 0 ? <Updates fz="xs" fzBody="xs" fzTitle="xs" game={game} /> : <IconX />;
         case 'reference':
-          return game.reference ? <Reference game={game} fz={'xs'} /> : <></>;
+          return game.reference ? <Reference game={game} fz={'xs'} /> : <IconX />;
         case 'native':
           return <Text fz="xs">{game[property] ? 'Native' : 'Not Native'}</Text>;
       }
