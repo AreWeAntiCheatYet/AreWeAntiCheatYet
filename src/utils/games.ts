@@ -81,7 +81,7 @@ export function getStyle(status: Game['status']) {
 }
 
 export function getLogo(anticheat: string) {
-  const logo_map = new Map([
+  const logo_map = [
     ['easy anti-cheat', 'eac.webp'],
     ['battleye', 'battleye.webp'],
     ['equ8', 'equ8.webp'],
@@ -103,9 +103,9 @@ export function getLogo(anticheat: string) {
     ['faceit', 'faceit.webp'],
     ['esea', 'esea.webp'],
     ['hyperion', 'hyperion.webp'],
-  ]);
+  ];
 
-  const file = logo_map.get(anticheat.toLowerCase());
+  const file = logo_map.find((x) => anticheat.toLowerCase().includes(x[0]))?.[1];
   const { basePath } = useRouter();
 
   return file ? `${basePath}/anticheats/${file}` : undefined;
