@@ -1,0 +1,40 @@
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'games.json'
+  workflow_dispatch:
+
+name: Update RSS-Feed
+jobs:
+  rss-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📦 Checkout Current
+        uses: actions/checkout@v3.0.2
+        with:
+          path: current
+
+      - name: 📦 Checkout Previous
+        uses: actions/checkout@v3.0.2
+        with:
+          path: previous
+          ref: ${{ github.event.before }}
+
+      - name: 🚧 Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 19
+
+      - name: 🤖 Setup Project
+        run: 'cd current && yarn'
+
+      - name: 📝 Generate RSS-Feed
+        run: 'cd current && yarn gen-rss ./games.json ../previous/games.json ./public/feed.rss'
+
+      - uses: EndBug/add-and-commit@v9
+        with:
+          push: true
+          cwd: './current'
+          add: 'public/feed.rss'

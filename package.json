@@ -7,6 +7,7 @@
     "start": "next start",
     "build": "next build",
     "export": "next export",
+    "gen-rss": "esno tools/feed.ts",
     "prefetch": "esno tools/prefetch.ts"
   },
   "dependencies": {
@@ -21,6 +22,7 @@
     "@tabler/icons-react": "^2.4.0",
     "cookies-next": "^2.1.1",
     "dayjs": "^1.11.7",
+    "fast-xml-parser": "^4.1.2",
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
