@@ -1,11 +1,13 @@
 import { Blockquote, Card, Stack } from '@mantine/core';
 import { InferGetStaticPropsType } from 'next';
+import { useContext } from 'react';
 import BreakdownLink from '../components/BreakdownLink';
 import GameTable from '../components/GameTable';
 import { Description } from '../components/Legend';
 import Overview from '../components/Overview';
 import { allImages } from '../src/assets';
 import { Games } from '../src/static';
+import { SettingsContext } from '../src/static/state';
 import { stats } from '../src/utils/games';
 
 export const getStaticProps = async () => {
@@ -17,6 +19,7 @@ export const getStaticProps = async () => {
 };
 
 export default function ({ images: _images, ...props }: InferGetStaticPropsType<typeof getStaticProps>) {
+  const { overview } = useContext(SettingsContext);
   const images = new Map(_images);
 
   return (
@@ -27,7 +30,7 @@ export default function ({ images: _images, ...props }: InferGetStaticPropsType<
           Wine/Proton.
         </Blockquote>
 
-        <Overview variant="ring" {...props} />
+        <Overview variant={overview} {...props} />
         <Card mt={30} sx={{ width: '60%' }}>
           <Description />
         </Card>
