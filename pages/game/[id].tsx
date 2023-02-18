@@ -52,10 +52,9 @@ export default function ({ banner, game }: InferGetStaticPropsType<typeof getSta
   const background = banner ? theme.colors.dark[6] : 'gray';
 
   const style: CSSProperties = {
-    backgroundSize: 'cover',
     position: 'absolute',
-    height: `100%`,
     width: `inherit`,
+    height: `100%`,
     zIndex: -1,
   };
 
@@ -80,7 +79,7 @@ export default function ({ banner, game }: InferGetStaticPropsType<typeof getSta
               style={
                 banner
                   ? {
-                      backgroundImage: `url('${banner}')`,
+                      background: `url('${banner}') center / cover , linear-gradient(black, gray)`,
                       filter: 'blur(50px)',
                       opacity: 0.5,
                       ...style,

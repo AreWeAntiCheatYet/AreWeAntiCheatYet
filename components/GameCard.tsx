@@ -49,8 +49,7 @@ export default function ({ w, h, game, banner, change, ...props }: GameCardProps
         style={
           banner
             ? {
-                backgroundImage: `url('${banner}')`,
-                backgroundSize: 'cover',
+                background: `url('${banner}') center / cover , linear-gradient(black, gray)`,
                 filter: 'blur(5px)',
                 opacity: 0.3,
                 ...style,
