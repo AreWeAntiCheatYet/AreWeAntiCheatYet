@@ -26,8 +26,14 @@ export default function ({ page, games, ignore, setGames, setFiltered, initialGa
   const [sortBy, setSortBy] = useState<'name' | 'status' | 'updates'>(undefined);
 
   useEffect(() => {
-    if ((!sortBy && !sortOrder && !search) || ignore) {
+    if (ignore) {
       return;
+    }
+
+    if (!Object.entries(router.query).find((x) => x[1])) {
+      if (!search && !sortOrder && !sortBy) {
+        return;
+      }
     }
 
     router.replace(
