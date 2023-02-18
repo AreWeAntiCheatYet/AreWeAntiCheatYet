@@ -544,8 +544,8 @@
         "name": "Hunt: Showdown",
         "logo": "",
         "native": false,
-        "status": "Denied",
-        "reference": "",
+        "status": "Running",
+        "reference": "https://www.gamingonlinux.com/2023/02/hunt-showdown-added-easy-anti-cheat-for-steam-deck-linux/",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
@@ -560,6 +560,11 @@
                 "name": "We are not confirming that it won't be ever supported, however we don't plan on this in the near future.",
                 "date": "May 11, 2022, 2:30 AM GMT+2",
                 "reference": "https://www.protondb.com/app/594650#lMZ4hnX6A"
+            },
+            {
+                "name": "Multiple reports of game working",
+                "date": "Feb 15, 2023, 5:33 PM GMT+1",
+                "reference": "https://www.gamingonlinux.com/2023/02/hunt-showdown-added-easy-anti-cheat-for-steam-deck-linux/"
             }
         ],
         "storeIds": {
