@@ -10,4 +10,5 @@ module.exports = withBundleAnalyzer({
   basePath: isGithubActions ? '/AreWeAntiCheatYet' : undefined,
   images: { unoptimized: true },
   reactStrictMode: true,
+  trailingSlash: true,
 });
