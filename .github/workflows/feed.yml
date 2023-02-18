@@ -31,7 +31,7 @@ jobs:
         run: 'cd current && yarn'
 
       - name: 📝 Generate RSS-Feed
-        run: 'cd current && yarn gen-rss ./games.json ../previous/games.json ./public/feed.rss'
+        run: 'cd current && yarn gen-rss ../previous/games.json'
 
       - uses: EndBug/add-and-commit@v9
         with:

@@ -2,6 +2,7 @@ import { XMLBuilder, XMLParser } from 'fast-xml-parser';
 import { readFileSync } from 'fs';
 import { readFile, writeFile } from 'fs/promises';
 import { argv } from 'process';
+import { Games } from '../src/static';
 import { Game } from '../src/types/games';
 import { getChanges } from '../src/utils/games';
 
@@ -59,10 +60,10 @@ function describe<C extends keyof Game>(game: Game, key: C) {
 
   const parsedFeed = parser.parse(currentFeed) as Feed;
 
-  const currentGames: Game[] = JSON.parse(readFileSync(argv[2]).toString());
-  const oldGames: Game[] = JSON.parse(readFileSync(argv[3]).toString());
-  const changes = getChanges(currentGames, oldGames);
+  const oldGames: Game[] = JSON.parse(readFileSync(argv[2]).toString());
+  const changes = getChanges(Games, oldGames);
 
+  console.info('New Games', Games.length, 'Old Games', oldGames.length);
   console.info('Detected', changes.length, 'changes!');
 
   const newEntries: Item[] = [];
