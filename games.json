@@ -1453,18 +1453,19 @@
         "name": "Zero Hour",
         "logo": "",
         "native": false,
-        "status": "Running",
-        "reference": "https://www.protondb.com/app/1359090#apGRVXM6V-",
+        "status": "Broken",
+        "reference": "https://www.protondb.com/app/1359090#qQYAVWJv3L",
         "anticheats": [
             "Denuvo Anti-Cheat"
         ],
-        "notes": [
-            [
-                "Anti-Cheat not implemented yet",
-                "https://store.steampowered.com/news/app/1359090/view/3191371430398762496"
-            ]
+        "notes": [],
+        "updates": [
+            {
+                "name": "Denuvo seems to break compatibility",
+                "reference": "https://www.protondb.com/app/1359090#qQYAVWJv3L",
+                "date": "Mon Feb 06 2023 14:46:40 GMT+0000"
+            }
         ],
-        "updates": [],
         "storeIds": {
             "steam": "1359090"
         },
