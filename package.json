@@ -8,6 +8,7 @@
     "build": "next build",
     "export": "next export",
     "gen-rss": "esno tools/feed.ts",
+    "validate": "esno tools/validate.ts",
     "prefetch": "esno tools/prefetch.ts"
   },
   "dependencies": {

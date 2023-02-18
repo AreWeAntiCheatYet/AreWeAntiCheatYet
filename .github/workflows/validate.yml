@@ -1,0 +1,25 @@
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+name: Validate games.json
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📦 Checkout
+        uses: actions/checkout@v3.0.2
+
+      - name: 🚧 Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 19
+
+      - name: 🤖 Setup Project
+        run: 'yarn'
+
+      - name: 🔎 Check Validity
+        run: 'yarn validate'
