@@ -56,7 +56,7 @@ $ yarn
 $ yarn dev
 
 # download required images (run once)
-yarn fetch
+yarn prefetch
 
 # build for production and launch server
 $ yarn build
