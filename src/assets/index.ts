@@ -1,26 +1,25 @@
-import { createWriteStream } from 'fs';
-import { access, constants } from 'fs/promises';
-import { cwd } from 'process';
-import { Readable } from 'stream';
-import { finished } from 'stream/promises';
+import { readFile } from 'fs/promises';
 import { Asset } from '../types/assets';
 import { Game } from '../types/games';
 import steamgriddb from './provider/steamgriddb';
 
-export async function safeFetch(...args: Parameters<typeof fetch>) {
+export async function request(...args: Parameters<typeof fetch>) {
   try {
     return await fetch(...args);
   } catch (error) {
     console.warn(`[Assets] Request failed: "${error}, retrying...."`);
-    return safeFetch(...args);
+    return request(...args);
   }
 }
 
-export async function download(game: Game): Promise<Partial<Asset>> {
+export async function assets(game: Game): Promise<Partial<Asset>> {
   const providers = [steamgriddb];
+  const cache = await hasCache();
+  const { name } = game;
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const { slug, name } = game;
+  if (cache) {
+    return cache.find((x) => x[0] === game.slug)[1];
+  }
 
   const result: Partial<Asset> = {};
 
@@ -42,29 +41,16 @@ export async function download(game: Game): Promise<Partial<Asset>> {
     }
   }
 
-  const currentDir = cwd();
-
-  if (result.banner) {
-    const image = await safeFetch(result.banner);
-    const stream = createWriteStream(`${currentDir}/public/assets/banner-${slug}.png`);
-
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    await finished(Readable.fromWeb(image.body as any).pipe(stream));
-  }
-
-  if (result.logo) {
-    const image = await safeFetch(result.banner);
-    const stream = createWriteStream(`${currentDir}/public/assets/logo-${slug}.png`);
-
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    await finished(Readable.fromWeb(image.body as any).pipe(stream));
-  }
-
-  return { banner: `/assets/banner-${slug}.png`, logo: `/assets/logo-${slug}.png` };
+  return result;
 }
 
 export async function allImages(chunk: Game[]): Promise<[string, Partial<Asset>][]> {
+  const cache = await hasCache();
   const rtn = [];
+
+  if (cache) {
+    return cache;
+  }
 
   for (const game of chunk) {
     rtn.push([game.slug, await assets(game)]);
@@ -73,26 +59,11 @@ export async function allImages(chunk: Game[]): Promise<[string, Partial<Asset>]
   return rtn;
 }
 
-export default async function assets(game: Game): Promise<Partial<Asset>> {
-  const isGithubActions = process.env.GITHUB_ACTIONS || false;
-  const basePath = isGithubActions ? '/AreWeAntiCheatYet' : '';
-  const rtn: Partial<Asset> = {};
-  const { slug } = game;
-
+async function hasCache(): Promise<false | [string, Partial<Asset>][]> {
   try {
-    const banner = `public/assets/banner-${slug}.png`;
-    await access(banner, constants.R_OK);
-    rtn.banner = `${basePath}${banner.substring(6)}`;
+    const contents = await readFile('prefetched.json');
+    return JSON.parse(contents.toString());
   } catch (error) {
-    /**/
+    return false;
   }
-
-  try {
-    const logo = `public/assets/logo-${slug}.png`;
-    await access(logo, constants.R_OK);
-    rtn.logo = `${basePath}${logo.substring(6)}`;
-  } catch (error) {
-    /**/
-  }
-  return rtn;
 }

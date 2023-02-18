@@ -54,8 +54,8 @@ function GamesTab() {
   const { display, setDisplay, rowHighlight, setRowHighlight } = useContext(SettingsContext);
 
   const game = Games.at(0);
-  const { basePath, asPath, ...router } = useRouter();
-  const fakeAssets = new Map([[game.slug, { logo: `${basePath}/assets/logo-${game.slug}.png` }]]);
+  const { asPath, ...router } = useRouter();
+  const fakeAssets = new Map([[game.slug, { banner: undefined, logo: undefined }]]);
 
   const changeDisplay = (value: Settings['display']) => {
     setDisplay(value);
@@ -79,7 +79,7 @@ function GamesTab() {
             </BannerRadio>
             <BannerRadio checked={display == 'grid'} value="grid" description="Card View">
               <Scope h={200} scale={0.3}>
-                <GameCard game={game} banner={`/assets/banner-${game.slug}.png`} />
+                <GameCard game={game} banner={fakeAssets.get(game.slug).banner} />
               </Scope>
             </BannerRadio>
           </SimpleGrid>

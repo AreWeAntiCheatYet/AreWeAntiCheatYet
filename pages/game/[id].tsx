@@ -15,6 +15,7 @@ import { useMediaQuery } from '@mantine/hooks';
 import { IconAward, IconQuestionMark, IconWorld } from '@tabler/icons-react';
 import { InferGetStaticPropsType } from 'next';
 import Head from 'next/head';
+import Image from 'next/image';
 import { CSSProperties } from 'react';
 import AntiCheatBadge from '../../components/AntiCheatBadge';
 import Notes from '../../components/Notes';
@@ -22,7 +23,7 @@ import Reference from '../../components/Reference';
 import StatusBadge from '../../components/StatusBadge';
 import StoreBadges from '../../components/StoreBadges';
 import Updates from '../../components/Updates';
-import assets from '../../src/assets';
+import { assets } from '../../src/assets';
 import { Games } from '../../src/static';
 
 export const getStaticProps = async ({ params: { id } }) => {
@@ -91,7 +92,7 @@ export default function ({ banner, game }: InferGetStaticPropsType<typeof getSta
               <Stack align="center">
                 <Paper radius="xl" shadow="xl" sx={{ overflow: 'hidden' }}>
                   {banner ? (
-                    <img src={banner} style={{ objectFit: 'cover' }} alt="Banner" width={220} height={310} />
+                    <Image src={banner} style={{ objectFit: 'cover' }} alt="Banner" width={220} height={310} />
                   ) : (
                     <Center bg="gray" w={220} h={310}>
                       <IconQuestionMark size={32} />

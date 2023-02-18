@@ -27,7 +27,7 @@ jobs:
         run: 'yarn'
 
       - name: 🌐 Fetch
-        run: 'STEAMGRIDDB_KEY=${{ secrets.STEAMGRIDDB_KEY }} yarn fetch'
+        run: 'STEAMGRIDDB_KEY=${{ secrets.STEAMGRIDDB_KEY }} yarn prefetch'
 
       - name: 👷 Build
         run: |

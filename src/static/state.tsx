@@ -3,7 +3,6 @@ import { openConfirmModal } from '@mantine/modals';
 import { hideNotification, showNotification, updateNotification } from '@mantine/notifications';
 import { IconBellRinging } from '@tabler/icons-react';
 import { getCookie, setCookie } from 'cookies-next';
-import { useRouter } from 'next/router';
 import { createContext, ReactNode, useEffect, useState } from 'react';
 import { cookieOptions, Games } from '.';
 import ChangeNotification from '../../components/ChangeNotification';
