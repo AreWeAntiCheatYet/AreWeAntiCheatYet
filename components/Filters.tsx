@@ -88,15 +88,17 @@ export default function ({ page, games, ignore, setGames, setFiltered, initialGa
   return (
     <>
       <TextInput
+        w={250}
         value={rawSearch}
         description="Search"
         placeholder="Name, Status, ..."
         onChange={(value) => setSearch(value.currentTarget.value)}
       />
       <Select
+        w={250}
+        clearable
         description="Sort By"
         placeholder="Nothing"
-        clearable
         data={[
           { value: 'name', label: 'Name' },
           { value: 'status', label: 'Status' },
@@ -106,9 +108,10 @@ export default function ({ page, games, ignore, setGames, setFiltered, initialGa
         onChange={(value) => setSortBy(value as Parameters<typeof setSortBy>[0])}
       />
       <Select
-        description="Sort Order"
-        placeholder="Nothing"
+        w={250}
         disabled={!sortBy}
+        placeholder="Nothing"
+        description="Sort Order"
         clearable
         data={[
           { value: 'asc', label: 'Ascending' },
