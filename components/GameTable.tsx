@@ -88,7 +88,7 @@ export default function ({ assets, ignoreFilters, games, style, page, totalPages
             {logo ? (
               <Avatar src={logo} radius="md" w={16} />
             ) : (
-              <ThemeIcon color="gray" size={25}>
+              <ThemeIcon color="gray" size={40}>
                 <IconQuestionMark size={16} />
               </ThemeIcon>
             )}
