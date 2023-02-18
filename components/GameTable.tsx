@@ -13,7 +13,14 @@ import {
   useMantineTheme,
 } from '@mantine/core';
 import { useMediaQuery, useViewportSize } from '@mantine/hooks';
-import { IconCalendarEvent, IconExternalLink, IconQuestionMark } from '@tabler/icons-react';
+import { openModal } from '@mantine/modals';
+import {
+  IconBellRinging,
+  IconCalendarEvent,
+  IconCirclePlus,
+  IconExternalLink,
+  IconQuestionMark,
+} from '@tabler/icons-react';
 import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime';
 import { useRouter } from 'next/router';
@@ -23,6 +30,7 @@ import { Asset } from '../src/types/assets';
 import { Game } from '../src/types/games';
 import { getStyle } from '../src/utils/games';
 import AntiCheatBadge from './AntiCheatBadge';
+import Changes from './Changes';
 import Filters from './Filters';
 import Notes from './Notes';
 import StatusBadge from './StatusBadge';
@@ -70,7 +78,7 @@ export default function ({ assets, ignoreFilters, games, style, page, totalPages
   const [filtered, setFiltered] = useState(false);
   const router = useRouter();
 
-  const { rowHighlight } = useContext(SettingsContext);
+  const { rowHighlight, changes } = useContext(SettingsContext);
   const { width } = useViewportSize();
   const theme = useMantineTheme();
 
@@ -79,6 +87,7 @@ export default function ({ assets, ignoreFilters, games, style, page, totalPages
     const { logo } = assets.get(slug);
     const style = getStyle(status);
 
+    const change = changes.find((x) => x.recent.slug === slug);
     const highlightColor = theme.fn.rgba(theme.fn.themeColor(style.color, 8), 0.2);
 
     return (
@@ -114,9 +123,34 @@ export default function ({ assets, ignoreFilters, games, style, page, totalPages
           <GameUpdate game={game} />
         </td>
         <td>
-          <ActionIcon variant="transparent" component="a" target="_blank" href={`${router.basePath}/game/${game.slug}`}>
-            <IconExternalLink />
-          </ActionIcon>
+          <Group noWrap>
+            <ActionIcon
+              variant="transparent"
+              component="a"
+              target="_blank"
+              href={`${router.basePath}/game/${game.slug}`}
+            >
+              <IconExternalLink />
+            </ActionIcon>
+            {change &&
+              (change.old ? (
+                <ActionIcon
+                  color="gray.0"
+                  variant="transparent"
+                  onClick={() =>
+                    openModal({
+                      children: <Changes change={change} />,
+                      size: breakpoint ? 600 : undefined,
+                      fullScreen: !breakpoint,
+                    })
+                  }
+                >
+                  <IconBellRinging />
+                </ActionIcon>
+              ) : (
+                <IconCirclePlus color="white" />
+              ))}
+          </Group>
         </td>
       </tr>
     );

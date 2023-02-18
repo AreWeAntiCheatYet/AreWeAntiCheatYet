@@ -12,12 +12,14 @@ import {
   useMantineTheme,
 } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
-import { IconAward, IconQuestionMark, IconWorld } from '@tabler/icons-react';
+import { openModal } from '@mantine/modals';
+import { IconAward, IconBellRinging, IconCirclePlus, IconQuestionMark, IconWorld } from '@tabler/icons-react';
 import { InferGetStaticPropsType } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
-import { CSSProperties } from 'react';
+import { CSSProperties, useContext } from 'react';
 import AntiCheatBadge from '../../components/AntiCheatBadge';
+import Changes from '../../components/Changes';
 import Notes from '../../components/Notes';
 import Reference from '../../components/Reference';
 import StatusBadge from '../../components/StatusBadge';
@@ -25,6 +27,7 @@ import StoreBadges from '../../components/StoreBadges';
 import Updates from '../../components/Updates';
 import { assets } from '../../src/assets';
 import { Games } from '../../src/static';
+import { SettingsContext } from '../../src/static/state';
 
 export const getStaticProps = async ({ params: { id } }) => {
   const game = Games.find((x) => x.slug === id || x.storeIds.steam === id);
@@ -47,8 +50,10 @@ export const getStaticPaths = async () => {
 
 export default function ({ banner, game }: InferGetStaticPropsType<typeof getStaticProps>) {
   const breakpoint = useMediaQuery('(min-width: 1200px)') ?? true;
+  const { changes } = useContext(SettingsContext);
   const theme = useMantineTheme();
 
+  const change = changes.find((x) => x.recent.slug === game.slug);
   const background = banner ? theme.colors.dark[6] : 'gray';
 
   const style: CSSProperties = {
@@ -107,13 +112,31 @@ export default function ({ banner, game }: InferGetStaticPropsType<typeof getSta
                   </ActionIcon>
                 )}
                 <StatusBadge mt={20} shadow="lg" fz={20} weight={700} size={32} game={game} />
-                {game.native && (
-                  <Group mt={15}>
+                <Group mt={15} noWrap>
+                  {game.native && (
                     <Tooltip label="Native">
                       <IconAward size={48} />
                     </Tooltip>
-                  </Group>
-                )}
+                  )}
+                  {change &&
+                    (change.old ? (
+                      <ActionIcon
+                        color="gray.0"
+                        variant="transparent"
+                        onClick={() =>
+                          openModal({
+                            children: <Changes change={change} />,
+                            size: breakpoint ? 600 : undefined,
+                            fullScreen: !breakpoint,
+                          })
+                        }
+                      >
+                        <IconBellRinging />
+                      </ActionIcon>
+                    ) : (
+                      <IconCirclePlus color="white" />
+                    ))}
+                </Group>
                 {game.anticheats.length > 0 && (
                   <>
                     <Text mt={20} fz="md" color="dimmed">
