@@ -24,10 +24,11 @@ In case you want to follow game updates you can use our RSS-Feed!
 
 - ⌚ Game updates are tracked and viewable in a timeline
 - 🤖 Tracks changes since you've last visited the page
-- 🛑 Partially supports no-javascript
+- 📄 Dedicated Game Pages
 - 📊 Overview & Breakdown
 - 👀 Customizable Design
 - 🌙 Dark & Light Theme
+- 🛑 Supports noscript
 
 ## 👍 I'd like to contribute to the list!
 
