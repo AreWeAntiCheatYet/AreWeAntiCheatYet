@@ -2,9 +2,8 @@ import { Divider, List, Space } from '@mantine/core';
 import { openConfirmModal } from '@mantine/modals';
 import { hideNotification, showNotification, updateNotification } from '@mantine/notifications';
 import { IconBellRinging } from '@tabler/icons-react';
-import { getCookie, setCookie } from 'cookies-next';
 import { createContext, ReactNode, useEffect, useState } from 'react';
-import { cookieOptions, Games } from '.';
+import { Games } from '.';
 import ChangeNotification from '../../components/ChangeNotification';
 import { Change } from '../types/games';
 import { defaultSettings, Settings } from '../types/settings';
@@ -17,20 +16,15 @@ interface SettingsSetter {
   setPreviousGames: (arg: Settings['previousGames']) => void;
 }
 
-const update = <C extends keyof Settings>(name: C, set: (v: Settings[C]) => void, useLocalStorage = false) => {
+const update = <C extends keyof Settings>(name: C, set: (v: Settings[C]) => void) => {
   return (value: Settings[C]) => {
-    if (useLocalStorage) {
-      localStorage.setItem(name, value);
-    } else {
-      setCookie(name, value, cookieOptions);
-    }
+    localStorage.setItem(name, value);
     set(value);
   };
 };
 
-const get = <C extends keyof Settings>(name: C, set: (v: Settings[C]) => void, useLocalStorage = false) => {
-  const getter = useLocalStorage ? (value: string) => localStorage.getItem(value) : getCookie;
-  set((getter(name)?.toString() as Settings[C]) || defaultSettings[name]);
+const get = <C extends keyof Settings>(name: C, set: (v: Settings[C]) => void) => {
+  set((localStorage.getItem(name)?.toString() as Settings[C]) || defaultSettings[name]);
 };
 
 export const SettingsContext = createContext<Settings & SettingsSetter & { changes: Change[] }>(null);
@@ -46,7 +40,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     get('display', setDisplay);
     get('overview', setOverview);
     get('rowHighlight', setRowHighlight);
-    get('previousGames', setPreviousGames, true);
+    get('previousGames', setPreviousGames);
 
     if (!localStorage.getItem('previousGames')) {
       localStorage.setItem('previousGames', JSON.stringify(Games));
@@ -58,7 +52,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
       return;
     }
 
-    const lastVersion = getCookie('lastVersion');
+    const lastVersion = localStorage.getItem('lastVersion');
 
     if (lastVersion === '3') {
       return;
@@ -84,7 +78,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
         </>
       ),
       labels: { cancel: 'Remind me later', confirm: 'Alright!' },
-      onConfirm: () => setCookie('lastVersion', '3', cookieOptions),
+      onConfirm: () => localStorage.setItem('lastVersion', '3'),
     });
   }, [previousGames]);
 
@@ -112,9 +106,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
       icon: <IconBellRinging size={16} />,
 
       title: 'New changes!',
-      message: (
-        <ChangeNotification changes={changes} setPreviousGames={update('previousGames', setPreviousGames, true)} />
-      ),
+      message: <ChangeNotification changes={changes} setPreviousGames={update('previousGames', setPreviousGames)} />,
     });
   }, [previousGames]);
 
@@ -128,7 +120,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
         rowHighlight,
         setRowHighlight: update('rowHighlight', setRowHighlight),
         previousGames,
-        setPreviousGames: update('previousGames', setPreviousGames, true),
+        setPreviousGames: update('previousGames', setPreviousGames),
         changes,
       }}
     >
