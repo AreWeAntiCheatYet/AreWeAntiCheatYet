@@ -2,6 +2,7 @@ import { Divider, List, Space } from '@mantine/core';
 import { openConfirmModal } from '@mantine/modals';
 import { hideNotification, showNotification, updateNotification } from '@mantine/notifications';
 import { IconBellRinging } from '@tabler/icons-react';
+import { useRouter } from 'next/router';
 import { createContext, ReactNode, useEffect, useState } from 'react';
 import { Games } from '.';
 import ChangeNotification from '../../components/ChangeNotification';
@@ -24,7 +25,10 @@ const update = <C extends keyof Settings>(name: C, set: (v: Settings[C]) => void
 };
 
 const get = <C extends keyof Settings>(name: C, set: (v: Settings[C]) => void) => {
-  set((localStorage.getItem(name)?.toString() as Settings[C]) || defaultSettings[name]);
+  const value = (localStorage.getItem(name)?.toString() as Settings[C]) || defaultSettings[name];
+
+  set(value);
+  return value;
 };
 
 export const SettingsContext = createContext<Settings & SettingsSetter & { changes: Change[] }>(null);
@@ -35,15 +39,22 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
   const [overview, setOverview] = useState(defaultSettings.overview);
   const [display, setDisplay] = useState(defaultSettings.display);
   const [changes, setChanges] = useState([]);
+  const router = useRouter();
 
   useEffect(() => {
-    get('display', setDisplay);
     get('overview', setOverview);
     get('rowHighlight', setRowHighlight);
     get('previousGames', setPreviousGames);
+    const currentDisplay = get('display', setDisplay);
 
     if (!localStorage.getItem('previousGames')) {
       localStorage.setItem('previousGames', JSON.stringify(Games));
+    }
+
+    const other = currentDisplay === 'grid' ? 'table' : 'grid';
+
+    if (router.asPath.includes(other)) {
+      router.replace(router.asPath.replace(other, currentDisplay));
     }
   }, []);
 
