@@ -1653,7 +1653,7 @@
     },
     {
         "url": "https://esea.net",
-        "name": "EASA: Counter-Strike: Global Offensive",
+        "name": "ESEA: Counter-Strike: Global Offensive",
         "logo": "",
         "native": false,
         "status": "Denied",
@@ -1664,7 +1664,7 @@
         "notes": [],
         "updates": [],
         "storeIds": {},
-        "slug": "easa-counterstrike-global-offensive"
+        "slug": "esea-counterstrike-global-offensive"
     },
     {
         "url": "https://www.teamfortress.com/",
