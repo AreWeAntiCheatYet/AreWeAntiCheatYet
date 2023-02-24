@@ -19,7 +19,7 @@
     "@mantine/modals": "^5.10.4",
     "@mantine/next": "^5.10.4",
     "@mantine/notifications": "^5.10.4",
-    "@next/bundle-analyzer": "^13.1.6",
+    "@next/bundle-analyzer": "^13.2.0",
     "@tabler/icons-react": "^2.4.0",
     "dayjs": "^1.11.7",
     "diff": "^5.1.0",
