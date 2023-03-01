@@ -479,11 +479,7 @@
         "notes": [
             [
                 "May only work with the Epic Games version",
-                "https://forum.deadbydaylight.com/en/discussion/comment/3265320/#Comment_3265320"
-            ],
-            [
-                "Make sure to apply workaround properly",
-                "https://github.com/Starz0r/AreWeAntiCheatYet/issues/971#issuecomment-1336476049"
+                ""
             ]
         ],
         "updates": [
@@ -496,6 +492,11 @@
                 "name": "Runs with workarounds",
                 "date": "Nov 15, 2022, 11:55 AM GMT+1",
                 "reference": "https://forum.deadbydaylight.com/en/discussion/comment/3265222/#Comment_3265222"
+            },
+            {
+                "name": "Previous forum link deleted",
+                "date": "Feb 22, 2023, 1:44 PM GMT+1",
+                "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/1151"
             }
         ],
         "storeIds": {
