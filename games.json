@@ -1034,12 +1034,13 @@
         "status": "Broken",
         "reference": "",
         "anticheats": [
-            "miHoYo Protect"
+            "miHoYo Protect",
+            "Anti-Cheat Expert"
         ],
         "notes": [
             [
-                "Will run when using workarounds (at least 2 available)",
-                ""
+                "Until 3.6, could run against official servers when using a workaround.",
+                "Since 3.6, AntiCheatExpert has been added. At time of writing, ACE is not compatible with WINE."
             ]
         ],
         "updates": [],
