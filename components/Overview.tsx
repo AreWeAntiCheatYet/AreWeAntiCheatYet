@@ -1,110 +1,116 @@
-import { DefaultProps, Group, RingProgress, Stack, Text, ThemeIcon, Tooltip } from '@mantine/core';
-import {
-  IconCheck,
-  IconClock,
-  IconMinus,
-  IconQuestionMark,
-  IconThumbUp,
-  IconX,
-} from '@tabler/icons';
-import OverviewType from '../types/overview';
+import { Group, MantineColor, RingProgress, SimpleGrid, Stack, Text, ThemeIcon, Tooltip } from '@mantine/core';
+import { useMediaQuery } from '@mantine/hooks';
+import { IconTrendingUp, TablerIconsProps } from '@tabler/icons-react';
+import icons from '../src/static/icons';
+import { Settings } from '../src/types/settings';
+import StatCard from './StatCard';
 
-interface LegendProps {
-  name: string;
-  color: string;
-  amount: number;
-  percentage: number;
-  description: string;
+export interface OverviewProps {
+  variant: Settings['overview'];
+  vertical?: boolean;
+  supported: number;
+  planned: number;
+  running: number;
+  broken: number;
+  denied: number;
+  total: number;
 }
 
-function Legend({ name, color, amount, percentage, description }: LegendProps) {
-  const icon = (() => {
-    switch (color) {
-      case 'red':
-        return <IconX size={18} />;
-      case 'orange':
-        return <IconMinus size={18} />;
-      case 'green':
-        return <IconCheck size={18} />;
-      case 'cyan':
-        return <IconThumbUp size={18} />;
-      case 'violet':
-        return <IconClock size={18} />;
-      default:
-        return <IconQuestionMark size={18} />;
-    }
-  })();
-
-  return (
-    <Tooltip withArrow label={description}>
-      <Group align="center">
-        <ThemeIcon radius="xl" variant="filled" color={color}>
-          {icon}
-        </ThemeIcon>
-        <Text>
-          {amount} {name} ({percentage.toFixed(1)}%)
-        </Text>
-      </Group>
-    </Tooltip>
+function RingOverview({ total, ...statuses }: Omit<Partial<OverviewProps>, 'variant' | 'vertical'>) {
+  const Description = ({
+    value,
+    label,
+    color,
+    Icon,
+  }: {
+    value: number;
+    label: string;
+    color: MantineColor;
+    Icon: (props: TablerIconsProps) => JSX.Element;
+  }) => (
+    <Group noWrap>
+      <ThemeIcon radius="xl" color={color}>
+        <Icon size={16} />
+      </ThemeIcon>
+      <Text>
+        {value} {label} ({((value / total) * 100).toFixed(0)}%)
+      </Text>
+    </Group>
   );
-}
 
-interface OverviewProps extends DefaultProps {
-  overview: OverviewType;
-}
-
-export default function Overview({ overview, ...props }: OverviewProps) {
   return (
-    <Group {...props}>
-      <Group position="center">
-        <RingProgress
-          label={<Text align="center">{overview.total}</Text>}
-          sections={[
-            { value: (overview.denied / overview.total) * 100, color: 'red' },
-            { value: (overview.broken / overview.total) * 100, color: 'orange' },
-            { value: (overview.running / overview.total) * 100, color: 'cyan' },
-            { value: (overview.supported / overview.total) * 100, color: 'green' },
-            { value: (overview.planned / overview.total) * 100, color: 'violet' },
-          ]}
-        />
-      </Group>
-      <Stack sx={{ marginLeft: 15 }}>
-        <Legend
-          color="green"
-          name="Supported"
-          amount={overview.supported}
-          description="Support was explicitly enabled / works out of the box"
-          percentage={(overview.supported / overview.total) * 100}
-        />
-        <Legend
-          color="violet"
-          name="Planned"
-          amount={overview.planned}
-          description="Game plans to support Proton/Wine"
-          percentage={(overview.planned / overview.total) * 100}
-        />
-        <Legend
-          color="cyan"
-          name="Running"
-          amount={overview.running}
-          description="No official statement but runs fine (may require tinkering)"
-          percentage={(overview.running / overview.total) * 100}
-        />
-        <Legend
-          color="orange"
-          name="Broken"
-          amount={overview.broken}
-          description="Anti-Cheat stops game from running properly"
-          percentage={(overview.broken / overview.total) * 100}
-        />
-        <Legend
-          color="red"
-          name="Denied"
-          amount={overview.denied}
-          description="Linux support was explicitly denied"
-          percentage={(overview.denied / overview.total) * 100}
-        />
+    <Group noWrap>
+      <RingProgress
+        sections={Object.keys(icons).map((status) => {
+          const value = statuses[status];
+          const color = icons[status].color;
+          const name = status[0].toUpperCase() + status.slice(1);
+          return { color: color, value: (value / total) * 100, tooltip: `${name} (${value})` };
+        })}
+        label={
+          <Text weight={700} fz="lg" align="center">
+            {total}
+          </Text>
+        }
+      />
+      <Stack>
+        {Object.keys(icons).map((status) => {
+          const value = statuses[status];
+          const { color, icon } = icons[status];
+          const label = status[0].toUpperCase() + status.slice(1);
+          return <Description key={status} color={color} value={value} Icon={icon} label={label} />;
+        })}
       </Stack>
     </Group>
   );
+}
+
+function StatOverview({ variant, vertical, total, ...stats }: OverviewProps) {
+  const breakpoint = useMediaQuery('(min-width: 900px)');
+  const width = breakpoint ? undefined : 300;
+  const detailed = variant === 'detailed';
+
+  const cols = vertical ? 1 : 2;
+
+  return (
+    <SimpleGrid cols={cols} breakpoints={[{ maxWidth: 900, cols: 1 }]}>
+      {detailed && (
+        <StatCard icon={<IconTrendingUp />} text="Total Games" w={width} total={total} value={total} color="gray" />
+      )}
+      {detailed && (
+        <StatCard
+          icon={<icons.planned.icon />}
+          text="Planned Games"
+          w={width}
+          total={total}
+          value={stats.planned}
+          color={icons.planned.color}
+        />
+      )}
+      <Tooltip label="Includes Games listed as 'Supported' or 'Running'" withArrow transition="slide-up">
+        <StatCard
+          icon={<icons.supported.icon />}
+          text="Working Games"
+          w={width}
+          total={total}
+          value={stats.supported + stats.running}
+          color={icons.supported.color}
+        />
+      </Tooltip>
+      <Tooltip label="Includes Games listed as 'Denied' or 'Broken'" withArrow transition="slide-up">
+        <StatCard
+          icon={<icons.broken.icon />}
+          text="Broken Games"
+          w={width}
+          total={total}
+          value={stats.broken + stats.denied}
+          color={icons.denied.color}
+        />
+      </Tooltip>
+    </SimpleGrid>
+  );
+}
+
+export default function ({ variant, ...props }: OverviewProps) {
+  return variant !== 'ring' ? <StatOverview variant={variant} {...props} /> : <RingOverview {...props} />;
 }

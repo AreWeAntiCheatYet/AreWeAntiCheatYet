@@ -24,9 +24,11 @@ In case you want to follow game updates you can use our RSS-Feed!
 
 - ⌚ Game updates are tracked and viewable in a timeline
 - 🤖 Tracks changes since you've last visited the page
-- ✏️ Row Highlight for better overview
-- 👀 Overview & Breakdown
+- 📄 Dedicated Game Pages
+- 📊 Overview & Breakdown
+- 👀 Customizable Design
 - 🌙 Dark & Light Theme
+- 🛑 Supports noscript
 
 ## 👍 I'd like to contribute to the list!
 
@@ -37,13 +39,12 @@ First, make sure that the game you'd like to add isn't actually on the list. In 
 A list is maintained in [games.json](games.json).  
 On a new commit, the website is automatically statically regenerated.
 
+## 🫶 Credits
 
-## 🧑‍💻 Technologies Used
-- [TypeScript](https://www.typescriptlang.org/)
-- [React](https://reactjs.org/)
-- [Mantine](https://mantine.dev/)
-- [Next.js](https://nextjs.org/)
-- [IGDB](https://www.igdb.com/) (For Cover Images)
+- **Information** and **Updates**: [The Community](https://github.com/Starz0r/AreWeAntiCheatYet/issues)
+- All **Banners** and **Logos**: [SteamGridDB](https://www.steamgriddb.com/)
+- Creator: [Starz0r](https://github.com/Starz0r)
+- <sup><sub>Re-Design & Maintainer: [Curve](https://github.com/Curve)</sub></sup>
 
 ## 👷 Build Setup
 
@@ -53,6 +54,9 @@ $ yarn
 
 # serve with hot reload at localhost:3000
 $ yarn dev
+
+# download required images (run once)
+yarn prefetch
 
 # build for production and launch server
 $ yarn build

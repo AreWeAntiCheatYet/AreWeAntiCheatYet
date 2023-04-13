@@ -1,15 +1,10 @@
 ### STAGE 1: Build ###
 
 # We label our stage as ‘builder’
-FROM node:lts-alpine3.14 as builder
+FROM node:hydrogen-alpine3.17 as builder
 USER root
 
 COPY package.json yarn.lock ./
-
-## Add imagemagick & graphicsmagick
-
-RUN apk add imagemagick 
-RUN apk add graphicsmagick
 
 ## Storing node modules on a separate layer will prevent unnecessary npm installs at each build
 
@@ -23,6 +18,11 @@ COPY . .
 
 RUN yarn cache clean --force
 
+ARG key
+ENV STEAMGRIDDB_KEY $key
+
+RUN yarn prefetch
+RUN yarn build
 RUN yarn export
 
 
