@@ -2584,12 +2584,17 @@
         "name": "The Isle",
         "logo": "",
         "native": false,
-        "status": "Broken",
+        "status": "Running",
         "reference": "",
         "anticheats": [
             "BattlEye"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Works on the EVRIMA Branch",
+                "https://www.protondb.com/app/376210"
+            ]
+        ],
         "updates": [],
         "storeIds": {
             "steam": "376210"
