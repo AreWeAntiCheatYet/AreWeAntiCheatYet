@@ -1,7 +1,7 @@
 ### STAGE 1: Build ###
 
 # We label our stage as ‘builder’
-FROM node:hydrogen-alpine3.17 as builder
+FROM node:18.13.0-alpine3.17 as builder
 USER root
 
 COPY package.json yarn.lock ./
