@@ -5137,5 +5137,25 @@
             "steam": "961200"
         },
         "slug": "final-fantasy-xiv"
+    },
+    {
+        "url": "https://www.ubisoft.com/en-us/game/xdefiant",
+        "name": "XDefiant",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "BattlEye"
+        ],
+        "notes": [
+            [
+                "Tested during the closed beta",
+                ""
+            ]
+        ],
+        "updates": [],
+        "storeIds": {},
+        "slug": "xdefiant"
     }
 ]
