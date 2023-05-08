@@ -3439,12 +3439,14 @@
         "name": "Honkai Star Rail",
         "logo": "",
         "native": false,
-        "status": "Broken",
+        "status": "Running",
         "reference": "",
         "anticheats": [
             "Anti-Cheat Expert"
         ],
-        "notes": [],
+        "notes": [
+            "Can run in Parallels out of the box, and in Wine with some tweaking."
+        ],
         "updates": [],
         "slug": "honkai-star-rail",
         "storeIds": {
