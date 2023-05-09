@@ -1047,7 +1047,11 @@
         ],
         "notes": [
             [
-                "Will run when using workarounds (at least 2 available)",
+                "Since 3.5: Game's Anti-Cheat Services may be allowing WINE/Proton in unidentified scenarios. Based on circumstantial evidence.",
+                ""
+            ],
+            [
+                "Prior to 3.5: would run when using workarounds (at least 2 available)",
                 ""
             ]
         ],
