@@ -3420,10 +3420,14 @@
         "status": "Broken",
         "reference": "",
         "anticheats": [
-            "miHoYo Protect",
             "Anti-Cheat Expert"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Workarounds required.",
+                ""
+            ]
+        ],
         "updates": [],
         "slug": "honkai-impact-3rd",
         "storeIds": {
@@ -3442,10 +3446,14 @@
         "status": "Broken",
         "reference": "",
         "anticheats": [
-            "miHoYo Protect",
             "Anti-Cheat Expert"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Workarounds required.",
+                ""
+            ]
+        ],
         "updates": [],
         "slug": "honkai-star-rail",
         "storeIds": {
