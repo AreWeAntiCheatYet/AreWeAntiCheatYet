@@ -5165,7 +5165,7 @@
         "name": "XDefiant",
         "logo": "",
         "native": false,
-        "status": "Broken",
+        "status": "Supported",
         "reference": "",
         "anticheats": [
             "BattlEye"
@@ -5173,7 +5173,7 @@
         "notes": [
             [
                 "Tested during the closed beta",
-                ""
+                "https://user-images.githubusercontent.com/97386118/234555714-514cc437-4443-4213-be64-bdacbccccee3.png"
             ]
         ],
         "updates": [],
