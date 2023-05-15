@@ -1496,11 +1496,11 @@
         "slug": "zero-hour"
     },
     {
-        "url": "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2",
+        "url": "https://wiplegames.com/?page_id=53",
         "name": "Ironsight",
         "logo": "",
         "native": false,
-        "status": "Broken",
+        "status": "Supported",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
