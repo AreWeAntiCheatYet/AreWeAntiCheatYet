@@ -1125,7 +1125,7 @@
         "name": "Hell Let Loose",
         "logo": "",
         "native": false,
-        "status": "Broken",
+        "status": "Planned",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
@@ -1141,7 +1141,12 @@
                 "name": "Linux EAC files added",
                 "date": "1 March 2022 11:00:12 UTC",
                 "reference": "https://steamdb.info/depot/686811/"
-            }
+            },
+			{
+				"name": "Steam Deck Support Planned",
+				"date": "Apr 3, 2023, 0:00 AM UTC",
+				"reference": "https://youtu.be/DJqh61nfuTs?t=386"
+			}
         ],
         "storeIds": {
             "steam": "686810"
