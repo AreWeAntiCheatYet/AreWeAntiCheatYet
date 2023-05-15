@@ -4360,12 +4360,18 @@
         "name": "BattleBit Remastered",
         "logo": "",
         "native": false,
-        "status": "Supported",
+        "status": "Running",
         "reference": "https://imgur.com/a/yAH2j8S",
         "anticheats": [
-            "Easy Anti-Cheat"
+            "Easy Anti-Cheat",
+			"FACEIT"
         ],
-        "notes": [],
+        "notes": [
+			[
+				"Official Servers may no longer work, limited to some Community Servers only.",
+				"https://steamcommunity.com/games/1611740/announcements/detail/3730713625515970791"
+			]
+		],
         "updates": [],
         "storeIds": {},
         "slug": "battlebit-remastered"
