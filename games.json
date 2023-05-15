@@ -726,15 +726,15 @@
         "name": "Warhammer: Vermintide 2",
         "logo": "",
         "native": false,
-        "status": "Running",
+        "status": "Broken",
         "reference": "https://www.protondb.com/app/552500#OFEC_7WqWG",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
         "notes": [
             [
-                "Linux user needs to host",
-                "https://github.com/Starz0r/AreWeAntiCheatYet/issues/826"
+                "It's complicated...",
+                "https://github.com/AreWeAntiCheatYet/AreWeAntiCheatYet/issues/1271"
             ]
         ],
         "updates": [
