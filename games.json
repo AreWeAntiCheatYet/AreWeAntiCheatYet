@@ -485,15 +485,15 @@
         "name": "Dead By Daylight",
         "logo": "",
         "native": false,
-        "status": "Running",
+        "status": "Supported",
         "reference": "",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
         "notes": [
             [
-                "Only enabled through the Epic Games Store version currently.",
-                "https://forums.bhvr.com/dead-by-daylight/discussion/361429/unofficial-linux-support-thread"
+                "Enabled on Steam and Epic Games Store.",
+                "https://store.steampowered.com/news/app/381210/view/3723958226061651097"
             ]
         ],
         "updates": [
@@ -511,7 +511,12 @@
                 "name": "Previous forum link deleted",
                 "date": "Feb 22, 2023, 1:44 PM GMT+1",
                 "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/1151"
-            }
+            },
+			{
+				"name": "Dead by Daylight is Steam Deck Verified!",
+				"date": "May 10, 2023, 12:27 PM CDT",
+				"reference": "https://store.steampowered.com/news/app/381210/view/3723958226061651097"
+			}
         ],
         "storeIds": {
             "steam": "381210",
