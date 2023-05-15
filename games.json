@@ -976,20 +976,20 @@
         },
         "slug": "planetside-2"
     },
-    {
+        {
         "url": "https://www.ubisoft.com/en-us/game/for-honor",
         "name": "For Honor",
         "logo": "",
         "native": false,
-        "status": "Planned",
+        "status": "Running",
         "reference": "https://www.protondb.com/app/304390",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
         "notes": [
             [
-                "Show your demand!",
-                "https://discussions.ubisoft.com/post/805767"
+                "Working, some tweaks may be required.",
+                "https://www.protondb.com/app/304390#EYb2Q93_MH"
             ]
         ],
         "updates": [
@@ -997,7 +997,12 @@
                 "name": "EasyAntiCheat.so added!",
                 "date": "Jul 28, 2022, 0:00 AM",
                 "reference": "https://steamdb.info/patchnotes/9148911/"
-            }
+            },
+			{
+				"name": "Support Finalized",
+				"date": "Apr 27, 2023, 0:00 AM",
+				"reference": "https://steamdb.info/patchnotes/10988960/"
+			}
         ],
         "storeIds": {
             "steam": "304390",
