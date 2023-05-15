@@ -5200,5 +5200,20 @@
 		],
         "storeIds": {},
         "slug": "roblox"
+    },
+    {
+        "url": "https://www.boundarygame.com/",
+        "name": "Boundary",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Anti-Cheat Expert"
+        ],
+        "notes": [],
+        "updates": [],
+        "storeIds": {},
+        "slug": "boundary"
     }
 ]
