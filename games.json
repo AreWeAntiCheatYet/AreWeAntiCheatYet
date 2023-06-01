@@ -3038,8 +3038,8 @@
         "name": "Hurtworld",
         "logo": "",
         "native": false,
-        "status": "Broken",
-        "reference": "",
+        "status": "Supported",
+        "reference": "https://store.steampowered.com/news/app/393420/view/3686798557184646494",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
