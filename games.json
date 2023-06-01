@@ -1588,12 +1588,14 @@
         "name": "Diabotical",
         "logo": "",
         "native": false,
-        "status": "Broken",
+        "status": "Running",
         "reference": "",
         "anticheats": [
-            "EQU8"
+            "Easy Anti-Cheat"
         ],
-        "notes": [],
+        "notes": [
+			["Required custom wine package", "https://github.com/Etaash-mathamsetty/wine-diabotical/releases/"],
+			["How to run Diabotical on Linux", "https://www.reddit.com/r/Diabotical/comments/13rkzvi/how_to_run_diabotical_on_linux/"]],
         "updates": [],
         "storeIds": {
             "epic": {
