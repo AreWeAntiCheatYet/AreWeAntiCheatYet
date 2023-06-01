@@ -304,7 +304,7 @@
         "notes": [
             [
                 "Show your support!",
-                "https://discussions.ubisoft.com/topic/111054/linux-support-for-r6s"
+                "https://r6fix.ubi.com/projects/RAINBOW6-SIEGE-LIVE/issues/LIVE-49179"
             ]
         ],
         "updates": [
@@ -322,7 +322,12 @@
                 "name": "Show your support! (Thread moved)",
                 "date": "Oct 05, 2021, 10:21 PM EST",
                 "reference": "https://discussions.ubisoft.com/topic/111054/linux-support-for-r6s"
-            }
+            },
+			{
+				"name": "Show your support! (Bug tracker)",
+				"date": "May 16, 2023, 0:00 UTC",
+				"reference": "https://r6fix.ubi.com/projects/RAINBOW6-SIEGE-LIVE/issues/LIVE-49179"
+			}
         ],
         "storeIds": {
             "steam": "359550",
