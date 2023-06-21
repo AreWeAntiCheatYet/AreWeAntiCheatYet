@@ -17,7 +17,7 @@
     "@mantine/core": "5.10.5",
     "@mantine/hooks": "5.10.5",
     "@mantine/modals": "5.10.5",
-    "@mantine/next": "5.10.5",
+    "@mantine/next": "6.0.14",
     "@mantine/notifications": "5.10.5",
     "@next/bundle-analyzer": "13.2.4",
     "@tabler/icons-react": "2.7.0",
