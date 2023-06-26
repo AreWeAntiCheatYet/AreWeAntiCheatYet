@@ -343,22 +343,22 @@
         "name": "SMITE",
         "logo": "",
         "native": false,
-        "status": "Broken",
-        "reference": "https://www.protondb.com/app/386360",
+        "status": "Supported",
+        "reference": "https://www.smitegame.com/news/the-season-of-souls-10-6-update-notes/",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [
-            [
-                "Requires Proton-GE",
-                "https://www.protondb.com/app/386360#uEyBL2NWkn"
-            ]
-        ],
+        "notes": [],
         "updates": [
             {
                 "name": "Previously working most likely due to fluke in EAC Config",
                 "date": "Aug 05, 2022, 9:57 PM",
                 "reference": "https://github.com/ValveSoftware/Proton/issues/6062#issuecomment-1206809079"
+            },
+            {
+                "name": "Linux Support!",
+                "date": "Jun 7, 2023, 12:00 PM CDT",
+                "reference": "https://www.smitegame.com/news/the-season-of-souls-10-6-update-notes/"
             }
         ],
         "storeIds": {
