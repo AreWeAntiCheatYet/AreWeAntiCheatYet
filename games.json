@@ -4374,12 +4374,27 @@
         ],
         "notes": [
 			[
-				"Official Servers may no longer work, limited to some Community Servers only.",
-				"https://steamcommunity.com/games/1611740/announcements/detail/3730713625515970791"
+			"Official support for Linux version of FACEIT has been announced, but is not currently implemented.", "https://postimg.cc/1nSTvRr9"
+			],
+			[
+			"Devs have commited to contunuing to support Linux users via EasyAntiCheat on community servers.","https://www.reddit.com/r/pcgaming/comments/14zhjb1/comment/jrxuy0x/"
 			]
 		],
-        "updates": [],
-        "storeIds": {},
+        "updates": [
+        	{
+		"name": "Devs commit to supporting EAC on Linux.",
+		"date": "Jul 14, 2023",
+		"reference": "https://www.reddit.com/r/pcgaming/comments/14zhjb1/battlebit_ama/jrxva4o/"
+		},
+		{
+		"name": "Devs announce FACEIT Linux support via official Discord",
+		"date": "Jul 15, 2023",
+		"reference": "https://i.postimg.cc/DZ4Ty8Wb/battlebit-mod-post.png"        
+		}
+        ],
+        "storeIds": {
+            "steam": "671860"
+        },
         "slug": "battlebit-remastered"
     },
     {
