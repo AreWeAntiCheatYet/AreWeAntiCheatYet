@@ -990,14 +990,14 @@
         "name": "For Honor",
         "logo": "",
         "native": false,
-        "status": "Running",
+        "status": "Supported",
         "reference": "https://www.protondb.com/app/304390",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
         "notes": [
             [
-                "Working, some tweaks may be required.",
+                "Recommended Tweaks",
                 "https://www.protondb.com/app/304390#EYb2Q93_MH"
             ]
         ],
@@ -1011,6 +1011,11 @@
 				"name": "Support Finalized",
 				"date": "Apr 27, 2023, 0:00 AM",
 				"reference": "https://steamdb.info/patchnotes/10988960/"
+			},
+			{
+				"name": "Steam Deck Support",
+				"date": "Jul 27, 2023, 0:00 AM",
+				"reference": "https://www.ubisoft.com/en-us/game/for-honor/news-updates/6jz99oXbJUVyK5h17fp6B8/patch-notes-2451-for-honor"
 			}
         ],
         "storeIds": {
