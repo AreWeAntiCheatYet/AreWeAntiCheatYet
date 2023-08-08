@@ -5232,5 +5232,22 @@
         "updates": [],
         "storeIds": {},
         "slug": "the-finals"
+    },
+    {
+        "url": "",
+        "name": "PROJECT: PLAYTIME",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": [],
+        "updates": [],
+        "storeIds": {
+            "steam": "1961460"
+        },
+        "slug": "project-playtime"
     }
 ]
