@@ -1828,7 +1828,7 @@
         "name": "Tom Clancy's Ghost Recon Breakpoint",
         "logo": "",
         "native": false,
-        "status": "Broken",
+        "status": "Supported",
         "reference": "",
         "anticheats": [
             "BattlEye"
@@ -1839,7 +1839,8 @@
             "epic": {
                 "namespace": "2dbd2f64abdc4bbab077424d5c85e01b",
                 "slug": "ghost-recon-breakpoint"
-            }
+            },
+            "steam": "2231380"
         },
         "slug": "tom-clancys-ghost-recon-breakpoint"
     },
