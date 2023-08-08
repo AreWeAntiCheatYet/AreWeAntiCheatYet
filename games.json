@@ -1688,7 +1688,7 @@
     },
     {
         "url": "https://www.faceit.com",
-        "name": "FACEIT: Counter-Strike: Global Offensive",
+        "name": "Counter-Strike: Global Offensive (FACEIT)",
         "logo": "",
         "native": false,
         "status": "Denied",
@@ -1703,7 +1703,7 @@
     },
     {
         "url": "https://esea.net",
-        "name": "ESEA: Counter-Strike: Global Offensive",
+        "name": "Counter-Strike: Global Offensive (ESEA)",
         "logo": "",
         "native": false,
         "status": "Denied",
