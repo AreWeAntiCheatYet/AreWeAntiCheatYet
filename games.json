@@ -5249,5 +5249,22 @@
             "steam": "1961460"
         },
         "slug": "project-playtime"
+    },
+    {
+        "url": "https://farlight84.farlightgames.com/",
+        "name": "Farlight 84",
+        "logo": "",
+        "native": false,
+        "status": "Supported",
+        "reference": "",
+        "anticheats": [
+            "Easy Anti-Cheat"
+        ],
+        "notes": [],
+        "updates": [],
+        "storeIds": {
+            "steam": "1928420"
+        },
+        "slug": "farlight84"
     }
 ]
