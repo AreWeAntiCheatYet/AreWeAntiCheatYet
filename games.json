@@ -5294,5 +5294,20 @@
             "steam": "2290180"
         },
         "slug": "riders-republic"
+    },
+    {
+        "url": "https://nikke-en.com/",
+        "name": "Nikke: Goddess of Victory",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Anti-Cheat Expert"
+        ],
+        "notes": [],
+        "updates": [],
+        "storeIds": {},
+        "slug": "nikke"
     }
 ]
