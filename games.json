@@ -47,7 +47,7 @@
         "slug": "halo-the-master-chief-collection"
     },
     {
-        "url": "",
+        "url": "https://www.fortnite.com/",
         "name": "Fortnite",
         "logo": "",
         "native": false,
@@ -154,7 +154,7 @@
         "slug": "valorant"
     },
     {
-        "url": "",
+        "url": "https://www.halowaypoint.com/de-de/halo-infinite",
         "name": "Halo Infinite",
         "logo": "",
         "native": false,
@@ -266,7 +266,7 @@
         "slug": "paladins"
     },
     {
-        "url": "",
+        "url": "https://pubg.com/",
         "name": "PUBG: Battlegrounds",
         "logo": "",
         "native": false,
@@ -339,7 +339,7 @@
         "slug": "rainbow-six-siege"
     },
     {
-        "url": "",
+        "url": "https://www.smitegame.com/",
         "name": "SMITE",
         "logo": "",
         "native": false,
@@ -394,7 +394,7 @@
         "slug": "black-desert-online"
     },
     {
-        "url": "",
+        "url": "https://www.fallguys.com/",
         "name": "Fall Guys: Ultimate Knockout",
         "logo": "",
         "native": false,
@@ -425,7 +425,7 @@
         "slug": "fall-guys-ultimate-knockout"
     },
     {
-        "url": "",
+        "url": "https://playark.com/",
         "name": "ARK: Survival Evolved",
         "logo": "",
         "native": true,
@@ -485,7 +485,7 @@
         "slug": "dayz"
     },
     {
-        "url": "",
+        "url": "https://deadbydaylight.com/",
         "name": "Dead By Daylight",
         "logo": "",
         "native": false,
@@ -532,7 +532,7 @@
         "slug": "dead-by-daylight"
     },
     {
-        "url": "",
+        "url": "http://www.destinythegame.com/",
         "name": "Destiny 2",
         "logo": "",
         "native": false,
@@ -645,7 +645,7 @@
         "slug": "rust"
     },
     {
-        "url": "",
+        "url": "https://warthunder.com/",
         "name": "War Thunder",
         "logo": "",
         "native": true,
@@ -662,7 +662,7 @@
         "slug": "war-thunder"
     },
     {
-        "url": "",
+        "url": "http://7daystodie.com/",
         "name": "7 Days to Die",
         "logo": "",
         "native": true,
@@ -1055,7 +1055,7 @@
         "slug": "naraka-bladepoint"
     },
     {
-        "url": "",
+        "url": "https://genshin.mihoyo.com/",
         "name": "Genshin Impact",
         "logo": "",
         "native": false,
@@ -1180,7 +1180,7 @@
         "slug": "bless-unleashed"
     },
     {
-        "url": "",
+        "url": "http://www.risingstorm2.com/",
         "name": "Rising Storm 2: Vietnam",
         "logo": "",
         "native": false,
@@ -1598,7 +1598,7 @@
         "slug": "diabotical"
     },
     {
-        "url": "",
+        "url": "https://landfall.se/totally-accurate-battlegrounds",
         "name": "Totally Accurate Battlegrounds",
         "logo": "",
         "native": false,
@@ -1769,7 +1769,7 @@
         "slug": "garrys-mod"
     },
     {
-        "url": "",
+        "url": "https://dyinglightgame.com/dying-light/",
         "name": "Dying Light",
         "logo": "",
         "native": true,
@@ -1902,7 +1902,7 @@
         "slug": "worms-rumble"
     },
     {
-        "url": "",
+        "url": "https://www.dirtybomb.com/",
         "name": "Dirty Bomb",
         "logo": "",
         "native": false,
@@ -3257,7 +3257,7 @@
         "slug": "lost-planet-extreme-condition"
     },
     {
-        "url": "",
+        "url": "https://www.ubisoft.com/en-us/game/the-division/the-division-1",
         "name": "Tom Clancy's The Division",
         "logo": "",
         "native": false,
@@ -5295,7 +5295,7 @@
         "slug": "nikke"
     },
     {
-        "url": "https://store.ubisoft.com/at/tom-clancys-rainbow-six-extraction/5cf6bc5639798c0b70a3b17d.html",
+        "url": "https://www.ubisoft.com/en-us/game/rainbow-six/extraction",
         "name": "Tom Clancy’s Rainbow Six® Extraction",
         "logo": "",
         "native": false,
