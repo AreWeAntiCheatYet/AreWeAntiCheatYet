@@ -5310,5 +5310,28 @@
         "updates": [],
         "storeIds": {},
         "slug": "nikke"
-    }
+    },
+    {
+        "url": "https://store.ubisoft.com/at/tom-clancys-rainbow-six-extraction/5cf6bc5639798c0b70a3b17d.html",
+        "name": "Tom Clancy’s Rainbow Six® Extraction",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Denuvo Anti-tamper"
+        ],
+        "notes": [],
+        "updates": [
+			{
+				"name": "Proton Experimental fixes Rainbow Six Extraction, EA App, Immortals of Aveum",
+				"date": "Aug 23, 2023, 4:44 PM UTC",
+				"reference": "https://www.gamingonlinux.com/2023/08/proton-experimental-fixes-rainbow-six-extraction-ea-app-immortals-of-aveum/"
+			}
+        ],
+        "storeIds": {
+            "steam": "2379390"
+        },
+        "slug": "tom-clancys-rainbow-six-extraction"
+    },
 ]
