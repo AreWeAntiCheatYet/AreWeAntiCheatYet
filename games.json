@@ -5302,7 +5302,7 @@
         "status": "Broken",
         "reference": "",
         "anticheats": [
-            "Denuvo Anti-tamper"
+            "Denuvo Anti-Cheat"
         ],
         "notes": [],
         "updates": [
@@ -5316,5 +5316,5 @@
             "steam": "2379390"
         },
         "slug": "tom-clancys-rainbow-six-extraction"
-    },
+    }
 ]
