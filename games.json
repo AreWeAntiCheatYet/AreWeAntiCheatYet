@@ -1418,23 +1418,6 @@
         "slug": "iracing"
     },
     {
-        "url": "https://survarium.com/",
-        "name": "Survarium",
-        "logo": "",
-        "native": false,
-        "status": "Broken",
-        "reference": "",
-        "anticheats": [
-            "BattlEye"
-        ],
-        "notes": [],
-        "updates": [],
-        "storeIds": {
-            "steam": "355840"
-        },
-        "slug": "survarium"
-    },
-    {
         "url": "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2",
         "name": "DRAGON BALL XENOVERSE 2",
         "logo": "",
