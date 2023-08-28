@@ -103,6 +103,7 @@ export function getLogo(anticheat: string) {
     ['faceit', 'faceit.webp'],
     ['esea', 'esea.webp'],
     ['hyperion', 'hyperion.webp'],
+    ['denuvo', 'denuvo.webp'],
   ];
 
   const file = logo_map.find((x) => anticheat.toLowerCase().includes(x[0]))?.[1];
