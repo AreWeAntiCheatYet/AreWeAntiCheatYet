@@ -20,7 +20,7 @@
     "@mantine/next": "5.10.5",
     "@mantine/notifications": "5.10.5",
     "@next/bundle-analyzer": "13.2.4",
-    "@tabler/icons-react": "2.7.0",
+    "@tabler/icons-react": "2.33.0",
     "dayjs": "1.11.7",
     "diff": "5.1.0",
     "fast-xml-parser": "4.1.4",
