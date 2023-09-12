@@ -1059,14 +1059,18 @@
         "name": "Genshin Impact",
         "logo": "",
         "native": false,
-        "status": "Broken",
+        "status": "Running",
         "reference": "",
         "anticheats": [
             "miHoYo Protect"
         ],
         "notes": [
             [
-                "Since 3.5: Game's Anti-Cheat Services may be allowing WINE/Proton in unidentified scenarios. Based on circumstantial evidence.",
+                "Since 3.8: Game's Anti-Cheat Service is allowing Proton on clean installs, from update release date.",
+                ""
+            ],
+            [
+                "Since 3.5: Game's Anti-Cheat Service observed allowing Proton in restricted scenarios, 2 business weeks after update launch.",
                 ""
             ],
             [
