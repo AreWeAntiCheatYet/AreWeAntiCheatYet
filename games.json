@@ -5320,5 +5320,22 @@
             "steam": "2379390"
         },
         "slug": "tom-clancys-rainbow-six-extraction"
+    },
+    {
+        "url": "https://tfd.nexon.com",
+        "name": "The First Descendant",
+        "logo": "",
+        "native": false,
+        "status": "Broken",
+        "reference": "",
+        "anticheats": [
+            "Nexon Game Security"
+        ],
+        "notes": [],
+        "updates": [],
+        "storeIds": {
+            "steam": "2074920"
+        },
+        "slug": "the-first-descendant"
     }
 ]
