@@ -110,7 +110,7 @@
         "slug": "battlefield-2042"
     },
     {
-        "url": "https://ea.com/en-en/games/apex-legends",
+        "url": "https://www.ea.com/games/apex-legends",
         "name": "Apex Legends",
         "logo": "",
         "native": false,
@@ -4382,7 +4382,7 @@
 		{
 		"name": "Devs announce FACEIT Linux support via official Discord",
 		"date": "Jul 15, 2023",
-		"reference": "https://i.postimg.cc/DZ4Ty8Wb/battlebit-mod-post.png"        
+		"reference": "https://i.postimg.cc/DZ4Ty8Wb/battlebit-mod-post.png"
 		}
         ],
         "storeIds": {
