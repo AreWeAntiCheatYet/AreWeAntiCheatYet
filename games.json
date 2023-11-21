@@ -568,12 +568,17 @@
         "name": "Hunt: Showdown",
         "logo": "",
         "native": false,
-        "status": "Running",
+        "status": "Broken",
         "reference": "https://www.gamingonlinux.com/2023/02/hunt-showdown-added-easy-anti-cheat-for-steam-deck-linux/",
         "anticheats": [
             "Easy Anti-Cheat"
         ],
-        "notes": [],
+        "notes": [
+            [
+                "Anticheat also appears to be at least partially broken on Windows.",
+                "https://www.reddit.com/r/HuntShowdown/comments/17wqu9e/hunt_continually_kicking_me_after_the_update/"
+            ]
+        ],
         "updates": [
             {
                 "name": "Crytek didn't respond to repeated requests for comment.",
@@ -589,6 +594,11 @@
                 "name": "Multiple reports of game working",
                 "date": "Feb 15, 2023, 5:33 PM GMT+1",
                 "reference": "https://www.gamingonlinux.com/2023/02/hunt-showdown-added-easy-anti-cheat-for-steam-deck-linux/"
+            },
+            {
+                "name": "Widespread reports of anticheat breaking following November 16th 2023 update",
+                "date": "Nov 16, 2023, 07:24 PM GMT+1",
+                "reference": "https://www.reddit.com/r/linux_gaming/comments/17wtqu1/hunt_showdown_not_working_anymore/"
             }
         ],
         "storeIds": {
