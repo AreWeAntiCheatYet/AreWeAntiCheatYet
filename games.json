@@ -405,7 +405,8 @@
     ],
     "notes": [
       [
-        "Requires Proton GE or Proton Experimental"
+        "Requires Proton GE or Proton Experimental",
+		""
       ]
     ],
     "updates": [
