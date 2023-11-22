@@ -122,7 +122,7 @@ export default function({ style }) {
                     </Button>
 
                     <Button variant="light" onClick={async () => {
-                        const opts = {
+                        const opts: RequestInit = {
                             method: "POST",
                             mode: "cors",
                             cache: "no-cache",
