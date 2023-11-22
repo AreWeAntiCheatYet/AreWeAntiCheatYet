@@ -1,11 +1,11 @@
-import { Accordion, ActionIcon, Avatar, Box, Button, Checkbox, Group, Input, MultiSelect, NativeSelect, ScrollArea, Stack, Switch, Text, TextInput } from "@mantine/core";
+import { Accordion, ActionIcon, Alert, Avatar, Box, Button, Checkbox, Group, Input, MultiSelect, NativeSelect, ScrollArea, Stack, Switch, Text, TextInput } from "@mantine/core";
 import { Game, Status } from "../src/types/games";
 import GamesJSON from '../games.json';
 import { randomId, useMediaQuery, useViewportSize } from "@mantine/hooks";
-import { IconTrash } from "@tabler/icons-react";
+import { IconAlertCircle, IconTrash } from "@tabler/icons-react";
 import { getLogo, query, stats } from '../src/utils/games';
 import { useForm } from "@mantine/form";
-
+import React from "react";
 
 const Games = GamesJSON as Game[];
 const anticheats = [...new Set(Games.map((x) => x.anticheats).flat())].map((ac) => {
@@ -20,6 +20,7 @@ export default function({ style }) {
     const { width } = useViewportSize();
 
     const form = useForm({ initialValues: Games });
+    const [submitResult, setSubmitResult] = React.useState(null);
 
     const body = form.values.map((game, idx) => {
         const { name, slug, logo } = game;
@@ -29,7 +30,7 @@ export default function({ style }) {
                 <Box sx={{ display: "flex", alignItems: "center" }}>
                     <Accordion.Control>
                         <Group noWrap>
-                            <Avatar src={logo} radius="x1" size="lg" />
+                            <Avatar src={logo} radius="xl" size="lg" />
                             <Text>{name}</Text>
                         </Group>
                     </Accordion.Control>
@@ -39,7 +40,7 @@ export default function({ style }) {
                         // HACK: forces the page to re-render, but this only really works once
                         // documentation of course doesn't describe how to properly call this
                         // with also no proper way to push to a form who's root is an array
-                        form.setDirty();
+                        form.setDirty(null);
                     }}>
                         <IconTrash size={16} />
                     </ActionIcon>
@@ -115,10 +116,53 @@ export default function({ style }) {
                         // HACK: forces the page to re-render, but this only really works once
                         // documentation of course doesn't describe how to properly call this
                         // with also no proper way to push to a form who's root is an array
-                        form.setDirty();
+                        form.setDirty(null);
                     }}>
                         Add New Game
                     </Button>
+
+                    <Button variant="light" onClick={async () => {
+                        const opts = {
+                            method: "POST",
+                            mode: "cors",
+                            cache: "no-cache",
+                            referrerPolicy: "no-referrer",
+                            body: JSON.stringify(form.values, null, 4),
+                            headers: {
+                                "Content-Type": "application/json",
+                            },
+                        }
+
+                        try {
+                            const req = await fetch("https://export.areweanticheatyet.com/submit", opts);
+                            if (req.ok) {
+                                setSubmitResult((
+                                    <Alert icon={<IconAlertCircle size={16} />} title="Submitted!" color="lime">
+                                        Your requested changes were successfully sent off for processing and review. Please wait up to 72 for changes to propagate.
+                                    </Alert>
+                                ));
+                            } else {
+                                setSubmitResult((
+                                    <Alert icon={<IconAlertCircle size={16} />} title="No luck, try again later." color="yellow">
+                                        A small problem occured when trying to submit your changes. Please wait at least 5 minutes before retrying.
+                                    </Alert>
+                                ));
+                            }
+                        } catch (e) {
+                            setSubmitResult((
+                                <Alert icon={<IconAlertCircle size={16} />} title="Possible Server Issue." color="red">
+                                    There was a problem reaching the submission server. Please try again later.
+                                </Alert>
+                            ));
+                            console.error(e);
+                        }
+
+                    }}>
+                        Submit Changes
+                    </Button>
+
+                    {submitResult}
+
 
                 </Accordion>
             </ScrollArea>
