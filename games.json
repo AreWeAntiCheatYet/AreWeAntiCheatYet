@@ -1149,17 +1149,12 @@
     "name": "Hell Let Loose",
     "logo": "",
     "native": false,
-    "status": "Planned",
-    "reference": "",
+    "status": "Supported",
+    "reference": "https://www.reddit.com/r/linux_gaming/comments/16v2ula/hell_let_loose_works_on_linux_now/",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
-    "notes": [
-      [
-        "Leave your feedback!",
-        "https://www.reddit.com/r/HellLetLoose/comments/tevxzz/comment/i0ux2ks/?utm_source=share&utm_medium=web2x&context=3"
-      ]
-    ],
+    "notes": [],
     "updates": [
       {
         "name": "Linux EAC files added",
@@ -1170,6 +1165,11 @@
         "name": "Steam Deck Support Planned",
         "date": "Apr 3, 2023, 0:00 AM UTC",
         "reference": "https://youtu.be/DJqh61nfuTs?t=386"
+      },
+      {
+        "name": "No official acknowledgement, but widespread reports that the game works now.",
+        "date": "Sep 29, 2023, 0:00 AM UTC",
+        "reference": "https://www.reddit.com/r/linux_gaming/comments/16v2ula/hell_let_loose_works_on_linux_now/"
       }
     ],
     "storeIds": {
