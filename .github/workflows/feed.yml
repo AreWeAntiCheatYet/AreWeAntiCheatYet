@@ -12,18 +12,19 @@ jobs:
 
     steps:
       - name: 📦 Checkout Current
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3.6.0
         with:
           path: current
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: 📦 Checkout Previous
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3.6.0
         with:
           path: previous
           ref: ${{ github.event.before }}
 
       - name: 🚧 Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v3.8.2
         with:
           node-version: 19
 
@@ -33,7 +34,7 @@ jobs:
       - name: 📝 Generate RSS-Feed
         run: 'cd current && yarn gen-rss ../previous/games.json'
 
-      - uses: EndBug/add-and-commit@v9
+      - uses: EndBug/add-and-commit@v9.1.3
         with:
           push: true
           cwd: './current'
