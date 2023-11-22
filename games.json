@@ -5371,5 +5371,35 @@
     "updates": [],
     "notes": [],
     "storeIds": {}
+  },
+  {
+    "url": "https://www.avaonline.global/",
+    "slug": "ava-global",
+    "name": "A.V.A (Global)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {}
+  },
+  {
+    "url": "",
+    "slug": "cod-mw3-2023",
+    "name": "Call of Duty: Modern Warfare 3 (2023)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "RICOCHET"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {}
   }
 ]
