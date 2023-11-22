@@ -37,5 +37,6 @@ module.exports = {
     '@next/next/no-img-element': 'off',
     'react/no-unescaped-entities': 'off',
     'react/jsx-closing-tag-location': 'error',
+	"prettier/prettier": ["error", { "endOfLine": "off" }],
   },
 };
