@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
-    <channel>
-        <language>en-us</language>
-        <title>AreWeAntiCheatYet</title>
-        <link>https://areweanticheatyet.com/</link>
-        <lastBuildDate>Fri, 27 May 2022 00:00:00 GMT</lastBuildDate>
-        <description>A comprehensive and crowd-sourced list of games using anti-cheats and their compatibility with GNU/Linux or Wine/Proton</description>
-    </channel>
+  <channel>
+    <language>en-us</language>
+    <title>AreWeAntiCheatYet</title>
+    <link>https://areweanticheatyet.com/</link>
+    <lastBuildDate>Fri, 27 May 2022 00:00:00 GMT</lastBuildDate>
+    <description>A comprehensive and crowd-sourced list of games using anti-cheats and their compatibility with GNU/Linux or Wine/Proton</description>
+    <item>
+      <title>Fresh Start</title>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 GMT</pubDate>
+      <description>The RSS-Feed has been cleaned due to style inconsistencies</description>
+    </item>
+    <item>
+      <title>Paladins</title>
+      <pubDate>Wed, 01 Mar 2023 16:18:35 GMT</pubDate>
+      <description>&lt;b&gt;Updates&lt;/b&gt;: 5 Updates &lt;a href=&quot;https://areweanticheatyet.com/game/paladins&quot; target=&quot;_blank&quot;&gt;(See More)&lt;/a&gt; &lt;b&gt;=&gt;&lt;/b&gt; 6 Updates &lt;a href=&quot;https://areweanticheatyet.com/game/paladins&quot; target=&quot;_blank&quot;&gt;(See More)&lt;/a&gt;&lt;br/&gt;</description>
+    </item>
+    <item>
+      <title>Dead By Daylight</title>
+      <pubDate>Wed, 01 Mar 2023 16:18:35 GMT</pubDate>
+      <description>&lt;b&gt;Notes&lt;/b&gt;: &lt;a href=&quot;https://forum.deadbydaylight.com/en/discussion/comment/3265320/#Comment_3265320&quot; target=&quot;_blank&quot;&gt;May only work with the Epic Games version&lt;/a&gt;, &lt;a href=&quot;https://github.com/Starz0r/AreWeAntiCheatYet/issues/971#issuecomment-1336476049&quot; target=&quot;_blank&quot;&gt;Make sure to apply workaround properly&lt;/a&gt; &lt;b&gt;=&gt;&lt;/b&gt; &lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;May only work with the Epic Games version&lt;/a&gt;&lt;br/&gt;&lt;b&gt;Updates&lt;/b&gt;: 2 Updates &lt;a href=&quot;https://areweanticheatyet.com/game/dead-by-daylight&quot; target=&quot;_blank&quot;&gt;(See More)&lt;/a&gt; &lt;b&gt;=&gt;&lt;/b&gt; 3 Updates &lt;a href=&quot;https://areweanticheatyet.com/game/dead-by-daylight&quot; target=&quot;_blank&quot;&gt;(See More)&lt;/a&gt;&lt;br/&gt;</description>
+    </item>
+    <item>
+      <title>Totally Accurate Battlegrounds</title>
+      <pubDate>Wed, 01 Mar 2023 16:18:35 GMT</pubDate>
+      <description>&lt;b&gt;Anticheats&lt;/b&gt;: EQU8 &lt;b&gt;=&gt;&lt;/b&gt; Easy Anti-Cheat&lt;br/&gt;&lt;b&gt;Reference&lt;/b&gt;: &lt;a href=&quot;https://twitter.com/LandfallGames/status/1583343808817016834&quot; target=&quot;_blank&quot;&gt;https://twitter.com/LandfallGames/status/1583343808817016834&lt;/a&gt; &lt;b&gt;=&gt;&lt;/b&gt; &lt;a href=&quot;https://www.gamingonlinux.com/2023/02/totally-accurate-battlegrounds-now-works-on-linux-and-steam-deck/&quot; target=&quot;_blank&quot;&gt;https://www.gamingonlinux.com/2023/02/totally-accurate-battlegrounds-now-works-on-linux-and-steam-deck/&lt;/a&gt;&lt;br/&gt;&lt;b&gt;Status&lt;/b&gt;: Denied &lt;b&gt;=&gt;&lt;/b&gt; Supported&lt;br/&gt;&lt;b&gt;Updates&lt;/b&gt;: 1 Updates &lt;a href=&quot;https://areweanticheatyet.com/game/totally-accurate-battlegrounds&quot; target=&quot;_blank&quot;&gt;(See More)&lt;/a&gt; &lt;b&gt;=&gt;&lt;/b&gt; 2 Updates &lt;a href=&quot;https://areweanticheatyet.com/game/totally-accurate-battlegrounds&quot; target=&quot;_blank&quot;&gt;(See More)&lt;/a&gt;&lt;br/&gt;</description>
+    </item>
+  </channel>
 </rss>
