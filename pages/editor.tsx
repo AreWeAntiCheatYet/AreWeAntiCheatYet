@@ -21,97 +21,114 @@ export default function({ style }) {
 
     const form = useForm({ initialValues: Games });
     const [submitResult, setSubmitResult] = React.useState(null);
+    const [selectedGame, setSelectedGame] = React.useState(0);
 
-    const body = form.values.map((game, idx) => {
-        const slug = form.values[idx].slug;
+    const game = form.values[selectedGame];
+    const idx = selectedGame;
+    const slug = game.slug;
+    const body = (
+        // QUEST: using slug like this causes an entire re-render when editing it
+        // usually this wouldn't be a problem, but because that would also cause
+        // you to unselect that text input in the process, it becomes fairly annoying
+        // to try and edit the slug in any way. the question now becomes what could I use
+        // as a key instead? the index? do I even need a key here anymore?
+        <Accordion.Item key={slug} value={slug}>
+            <Box sx={{ display: "flex", alignItems: "center" }}>
+                <Accordion.Control>
+                    <Group noWrap>
+                        <Avatar src={game.logo} radius="xl" size="lg" />
+                        <Text>{game.name}</Text>
+                    </Group>
+                </Accordion.Control>
+                <ActionIcon size="lg" onClick={() => {
+                    form.values.splice(idx, 1);
 
-        return (
-            <Accordion.Item key={slug} value={slug}>
-                <Box sx={{ display: "flex", alignItems: "center" }}>
-                    <Accordion.Control>
-                        <Group noWrap>
-                            <Avatar src={form.values[idx].logo} radius="xl" size="lg" />
-                            <Text>{form.values[idx].name}</Text>
-                        </Group>
-                    </Accordion.Control>
-                    <ActionIcon size="lg" onClick={() => {
-                        form.values.splice(idx, 1);
+                    // HACK: forces the page to re-render, but this only really works once
+                    // documentation of course doesn't describe how to properly call this
+                    // with also no proper way to push to a form who's root is an array
+                    form.setDirty(null);
 
-                        // HACK: forces the page to re-render, but this only really works once
-                        // documentation of course doesn't describe how to properly call this
-                        // with also no proper way to push to a form who's root is an array
-                        form.setDirty(null);
-                    }}>
-                        <IconTrash size={16} />
-                    </ActionIcon>
-                </Box>
-                <Accordion.Panel>
-                    <Stack key={slug}>
-                        <TextInput label="URL" {...form.getInputProps(`${idx}.url`)} />
-                        <TextInput label="Slug" required {...form.getInputProps(`${idx}.slug`)} />
-                        <TextInput label="Game Name" required {...form.getInputProps(`${idx}.name`)} />
-                        <TextInput label="Logo URL" {...form.getInputProps(`${idx}.logo`)} />
-                        <Checkbox label="Runs on Linux natively?" {...form.getInputProps(`${idx}.native`, { type: "checkbox" })} />
+                    // HACK: we might end up on a non-existent index if we're at the end of the list.
+                    // instead of calculating it, we'll just set the working item to 0 again!
+                    setSelectedGame(0);
+                }}>
+                    <IconTrash size={16} />
+                </ActionIcon>
+            </Box>
+            <Stack key={slug}>
+                <TextInput label="URL" {...form.getInputProps(`${idx}.url`)} />
+                <TextInput label="Slug" required {...form.getInputProps(`${idx}.slug`)} />
+                <TextInput label="Game Name" required {...form.getInputProps(`${idx}.name`)} />
+                <TextInput label="Logo URL" {...form.getInputProps(`${idx}.logo`)} />
+                <Checkbox label="Runs on Linux natively?" {...form.getInputProps(`${idx}.native`, { type: "checkbox" })} />
 
-                        <NativeSelect data={['Broken', 'Running', 'Denied', 'Supported', 'Planned']} label="Status" {...form.getInputProps(`${idx}.status`)} />
+                <NativeSelect data={['Broken', 'Running', 'Denied', 'Supported', 'Planned']} label="Status" {...form.getInputProps(`${idx}.status`)} />
 
-                        <TextInput label="Reference Information on Status" {...form.getInputProps(`${idx}.reference`)} />
-                        <MultiSelect data={anticheats} label="Anti-Cheat(s) In-use" searchable required {...form.getInputProps(`${idx}.anticheats`)} />
+                <TextInput label="Reference Information on Status" {...form.getInputProps(`${idx}.reference`)} />
+                <MultiSelect data={anticheats} label="Anti-Cheat(s) In-use" searchable required {...form.getInputProps(`${idx}.anticheats`)} />
 
-                        Updates
-                        {form.values[idx].updates.map((_, u_idx) => {
-                            return (
-                                <div key={randomId()}>
-                                    <TextInput label="Title" {...form.getInputProps(`${idx}.updates.${u_idx}.name`)} />
-                                    <TextInput label="Reference URL" {...form.getInputProps(`${idx}.updates.${u_idx}.reference`)} />
-                                    <TextInput label="Date & Time" {...form.getInputProps(`${idx}.updates.${u_idx}.date`)} />
-                                    <Button color="red" onClick={() => { form.removeListItem(`${idx}.updates`, u_idx) }}>
-                                        Remove Above Update
-                                    </Button>
-                                </div>
-                            )
-                        })}
-                        <Button onClick={() => { form.insertListItem(`${idx}.updates`, { name: "", date: (new Date(Date.now())).toUTCString(), reference: "" }) }}>
-                            Add Update
-                        </Button>
-
-                        Notes
-                        {form.values[idx].notes.map((_, note_idx) => {
-                            return (
-                                <div key={randomId()}>
-                                    <TextInput label="Title" {...form.getInputProps(`${idx}.notes.${note_idx}.0`)} />
-                                    <TextInput label="Reference URL" {...form.getInputProps(`${idx}.notes.${note_idx}.1`)} />
-                                    <Button color="red" onClick={() => { form.removeListItem(`${idx}.notes`, note_idx) }}>
-                                        Remove Above Note
-                                    </Button>
-                                </div>
-                            )
-                        })}
-                        <Button onClick={() => { form.insertListItem(`${idx}.notes`, new Array(2)) }}>
-                            Add Note
-                        </Button>
-
-                        <div>
-                            {
-                                // TODO: editable storeIds go here
-                            }
+                Updates
+                {form.values[idx].updates.map((_, u_idx) => {
+                    return (
+                        <div key={randomId()}>
+                            <TextInput label="Title" {...form.getInputProps(`${idx}.updates.${u_idx}.name`)} />
+                            <TextInput label="Reference URL" {...form.getInputProps(`${idx}.updates.${u_idx}.reference`)} />
+                            <TextInput label="Date & Time" {...form.getInputProps(`${idx}.updates.${u_idx}.date`)} />
+                            <Button color="red" onClick={() => { form.removeListItem(`${idx}.updates`, u_idx) }}>
+                                Remove Above Update
+                            </Button>
                         </div>
+                    )
+                })}
+                <Button onClick={() => { form.insertListItem(`${idx}.updates`, { name: "", date: (new Date(Date.now())).toUTCString(), reference: "" }) }}>
+                    Add Update
+                </Button>
 
-                    </Stack>
-                </Accordion.Panel>
-            </Accordion.Item>
-        )
-    });
+                Notes
+                {game.notes.map((_, note_idx) => {
+                    return (
+                        <div key={randomId()}>
+                            <TextInput label="Title" {...form.getInputProps(`${idx}.notes.${note_idx}.0`)} />
+                            <TextInput label="Reference URL" {...form.getInputProps(`${idx}.notes.${note_idx}.1`)} />
+                            <Button color="red" onClick={() => { form.removeListItem(`${idx}.notes`, note_idx) }}>
+                                Remove Above Note
+                            </Button>
+                        </div>
+                    )
+                })}
+                <Button onClick={() => { form.insertListItem(`${idx}.notes`, new Array(2)) }}>
+                    Add Note
+                </Button>
+
+                <div>
+                    {
+                        // TODO: editable storeIds go here
+                    }
+                </div>
+
+            </Stack>
+        </Accordion.Item>
+    );
 
     return (
         <Stack align="center">
             <ScrollArea type="never" w={style ? undefined : width * 0.8} sx={style}>
                 <Accordion defaultValue="gamelist" >
+                    <NativeSelect id="gamesDropdown" data={
+                        form.values.map((game) => {
+                            return game.name;
+                        }
+                        )} label="Games" onChange={(e) => {
+                            setSelectedGame(e.currentTarget.selectedIndex)
+                        }} defaultValue={form.values[selectedGame].name} value={form.values[selectedGame].name} />
                     <form>
                         {body}
 
                         <Button color="lime" onClick={() => {
                             form.values.push({ url: "", slug: "new-game-" + randomId(), name: "", logo: "", native: false, status: "Broken", reference: "", anticheats: new Array(1), updates: new Array(), notes: new Array(), storeIds: {} });
+
+                            setSelectedGame(form.values.length - 1);
+
                             // HACK: forces the page to re-render, but this only really works once
                             // documentation of course doesn't describe how to properly call this
                             // with also no proper way to push to a form who's root is an array
