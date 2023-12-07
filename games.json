@@ -5417,5 +5417,21 @@
     "updates": [],
     "notes": [],
     "storeIds": {}
+  },
+  {
+    "url": "https://playeternalreturn.com/main",
+    "slug": "eternal-return",
+    "name": "Eternal Return",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3",
+      "UNCHEATER"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {}
   }
 ]
