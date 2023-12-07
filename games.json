@@ -2559,27 +2559,6 @@
     "slug": "team-fortress-classic"
   },
   {
-    "url": "https://thecycle.game/",
-    "name": "The Cycle: Frontier",
-    "logo": "",
-    "native": false,
-    "status": "Supported",
-    "reference": "https://www.protondb.com/app/868270",
-    "anticheats": [
-      "BattlEye"
-    ],
-    "notes": [],
-    "updates": [],
-    "storeIds": {
-      "steam": "868270",
-      "epic": {
-        "namespace": "azalea",
-        "slug": "thecycle"
-      }
-    },
-    "slug": "the-cycle-frontier"
-  },
-  {
     "url": "",
     "name": "ARK: Survival of the Fittest",
     "logo": "",
@@ -3560,7 +3539,7 @@
     "name": "Gears 5",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -5196,7 +5175,7 @@
     "name": "Roblox",
     "logo": "",
     "native": false,
-    "status": "Planned",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Hyperion"
@@ -5281,8 +5260,8 @@
     "name": "Riders Republic",
     "logo": "",
     "native": false,
-    "status": "Running",
-    "reference": "",
+    "status": "Supported",
+    "reference": "https://github.com/ValveSoftware/Proton/issues/7036",
     "anticheats": [
       "BattlEye"
     ],
