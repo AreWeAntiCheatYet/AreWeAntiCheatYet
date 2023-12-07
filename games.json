@@ -406,7 +406,7 @@
     "notes": [
       [
         "Requires Proton GE or Proton Experimental",
-		""
+        ""
       ]
     ],
     "updates": [
@@ -5398,6 +5398,21 @@
     "reference": "",
     "anticheats": [
       "RICOCHET"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {}
+  },
+  {
+    "url": "https://www.playdeadzone.com/",
+    "slug": "starsiege-deadzone",
+    "name": "Starsiege: Deadzone",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
     ],
     "updates": [],
     "notes": [],
