@@ -3390,7 +3390,8 @@
     "status": "Supported",
     "reference": "",
     "anticheats": [
-      "BattlEye"
+      "BattlEye",
+      "nProtect GameGuard"
     ],
     "notes": [
       [
@@ -5429,6 +5430,111 @@
     "anticheats": [
       "XIGNCODE3",
       "UNCHEATER"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {}
+  },
+  {
+    "url": "",
+    "slug": "armored-core-6",
+    "name": "Armored Core VI: Fires of Rubicon",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {}
+  },
+  {
+    "url": "",
+    "slug": "deceive-inc",
+    "name": "Deceive Inc.",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {}
+  },
+  {
+    "url": "",
+    "slug": "alien-arena-warriors-of-mars",
+    "name": "Alien Arena: Warriors of Mars",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {}
+  },
+  {
+    "url": "",
+    "slug": "goose-goose-duck",
+    "name": "Goose Goose Duck",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {}
+  },
+  {
+    "url": "",
+    "slug": "realm-royale-reforged",
+    "name": "Realm Royale Reforged",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {}
+  },
+  {
+    "url": "",
+    "slug": "hot-wheels-unleashed-2-turbocharged",
+    "name": "Hot Wheels UNLEASHED 2 - Turbocharged",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {}
+  },
+  {
+    "url": "",
+    "slug": "my-hero-ultra-rumble",
+    "name": "MY HERO ULTRA RUMBLE",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
     ],
     "updates": [],
     "notes": [],
