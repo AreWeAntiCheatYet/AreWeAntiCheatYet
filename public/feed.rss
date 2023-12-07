@@ -111,5 +111,20 @@
       <pubDate>Thu, 07 Dec 2023 06:14:47 GMT</pubDate>
       <description>HypeSquad was newly added and is &quot;Broken&quot;</description>
     </item>
+    <item>
+      <title>Gears 5</title>
+      <pubDate>Thu, 07 Dec 2023 08:11:42 GMT</pubDate>
+      <description>&lt;b&gt;Status&lt;/b&gt;: Broken &lt;b&gt;=&gt;&lt;/b&gt; Running&lt;br/&gt;</description>
+    </item>
+    <item>
+      <title>Roblox</title>
+      <pubDate>Thu, 07 Dec 2023 08:11:42 GMT</pubDate>
+      <description>&lt;b&gt;Status&lt;/b&gt;: Planned &lt;b&gt;=&gt;&lt;/b&gt; Running&lt;br/&gt;</description>
+    </item>
+    <item>
+      <title>Riders Republic</title>
+      <pubDate>Thu, 07 Dec 2023 08:11:42 GMT</pubDate>
+      <description>&lt;b&gt;Reference&lt;/b&gt;: &lt;i&gt;(Nothing)&lt;/i&gt; &lt;b&gt;=&gt;&lt;/b&gt; &lt;a href=&quot;https://github.com/ValveSoftware/Proton/issues/7036&quot; target=&quot;_blank&quot;&gt;https://github.com/ValveSoftware/Proton/issues/7036&lt;/a&gt;&lt;br/&gt;&lt;b&gt;Status&lt;/b&gt;: Running &lt;b&gt;=&gt;&lt;/b&gt; Supported&lt;br/&gt;</description>
+    </item>
   </channel>
 </rss>
