@@ -5539,5 +5539,95 @@
     "updates": [],
     "notes": [],
     "storeIds": {}
+  },
+  {
+    "url": "",
+    "slug": "microvolts-recharged",
+    "name": "MicroVolts: Recharged",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {}
+  },
+  {
+    "url": "",
+    "slug": "arc-raiders",
+    "name": "ARC Raiders",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {}
+  },
+  {
+    "url": "",
+    "slug": "lords-of-the-fallen-2023",
+    "name": "Lords of the Fallen (2023)",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {}
+  },
+  {
+    "url": "",
+    "slug": "deceit-2",
+    "name": "Deceit 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {}
+  },
+  {
+    "url": "",
+    "slug": "block-n-load-2",
+    "name": "Block N Load 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {}
+  },
+  {
+    "url": "",
+    "slug": "hypesquad",
+    "name": "HypeSquad",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {}
   }
 ]
