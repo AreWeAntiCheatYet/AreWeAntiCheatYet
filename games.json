@@ -5211,14 +5211,16 @@
     "name": "THE FINALS",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Planned",
+    "reference": "https://github.com/ValveSoftware/Proton/issues/6602#issuecomment-1848319302",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2073850"
+    },
     "slug": "the-finals"
   },
   {
