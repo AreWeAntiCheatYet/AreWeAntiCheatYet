@@ -3908,14 +3908,16 @@
     "name": "Grandchase",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Running",
+    "reference": "https://www.protondb.com/app/985810",
     "anticheats": [
       "nProtect GameGuard"
     ],
-    "notes": [],
+    "notes": ["The game seems to be running now according to the latest ProtonDB reports"],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "985810",
+    },
     "slug": "grandchase"
   },
   {
