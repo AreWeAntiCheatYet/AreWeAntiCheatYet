@@ -3913,7 +3913,7 @@
     "anticheats": [
       "nProtect GameGuard"
     ],
-    "notes": ["The game seems to be running now according to the latest ProtonDB reports"],
+    "notes": [],
     "updates": [],
     "storeIds": {
       "steam": "985810",
