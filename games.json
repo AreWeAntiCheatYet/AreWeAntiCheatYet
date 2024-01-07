@@ -4209,6 +4209,10 @@
     ],
     "notes": [
       [
+        "Will stop working in the future due to the planned implementation of Vanguard kernel-level anticheat",
+        "https://www.youtube.com/watch?v=9U_jEzKf0_0&t=732s"
+      ],
+      [
         "Works with Lutris",
         "https://reddit.com/r/leagueoflinux/wiki/index"
       ],
