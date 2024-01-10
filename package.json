@@ -15,7 +15,7 @@
     "@emotion/react": "11.10.8",
     "@emotion/server": "11.10.0",
     "@mantine/core": "5.10.5",
-    "@mantine/form": "5.10.5",
+    "@mantine/form": "7.4.1",
     "@mantine/hooks": "5.10.5",
     "@mantine/modals": "5.10.5",
     "@mantine/next": "5.10.5",
