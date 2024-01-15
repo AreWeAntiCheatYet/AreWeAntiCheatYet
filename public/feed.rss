@@ -136,5 +136,10 @@
       <pubDate>Sun, 07 Jan 2024 20:22:06 GMT</pubDate>
       <description>&lt;b&gt;Notes&lt;/b&gt;: &lt;a href=&quot;https://reddit.com/r/leagueoflinux/wiki/index&quot; target=&quot;_blank&quot;&gt;Works with Lutris&lt;/a&gt;, &lt;a href=&quot;https://github.com/kyechou/leagueoflegends&quot; target=&quot;_blank&quot;&gt;Helper script available&lt;/a&gt; &lt;b&gt;=&gt;&lt;/b&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=9U_jEzKf0_0&amp;t=732s&quot; target=&quot;_blank&quot;&gt;Will stop working in the future due to the planned implementation of Vanguard kernel-level anticheat&lt;/a&gt;, &lt;a href=&quot;https://reddit.com/r/leagueoflinux/wiki/index&quot; target=&quot;_blank&quot;&gt;Works with Lutris&lt;/a&gt;, &lt;a href=&quot;https://github.com/kyechou/leagueoflegends&quot; target=&quot;_blank&quot;&gt;Helper script available&lt;/a&gt;&lt;br/&gt;</description>
     </item>
+    <item>
+      <title>THE FINALS</title>
+      <pubDate>Mon, 15 Jan 2024 14:28:24 GMT</pubDate>
+      <description>&lt;b&gt;Reference&lt;/b&gt;: &lt;a href=&quot;https://github.com/ValveSoftware/Proton/issues/6602#issuecomment-1848319302&quot; target=&quot;_blank&quot;&gt;https://github.com/ValveSoftware/Proton/issues/6602#issuecomment-1848319302&lt;/a&gt; &lt;b&gt;=&gt;&lt;/b&gt; &lt;i&gt;(Nothing)&lt;/i&gt;&lt;br/&gt;&lt;b&gt;Status&lt;/b&gt;: Planned &lt;b&gt;=&gt;&lt;/b&gt; Supported&lt;br/&gt;</description>
+    </item>
   </channel>
 </rss>
