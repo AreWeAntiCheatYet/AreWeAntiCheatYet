@@ -5217,8 +5217,8 @@
     "name": "THE FINALS",
     "logo": "",
     "native": false,
-    "status": "Planned",
-    "reference": "https://github.com/ValveSoftware/Proton/issues/6602#issuecomment-1848319302",
+    "status": "Supported",
+    "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
