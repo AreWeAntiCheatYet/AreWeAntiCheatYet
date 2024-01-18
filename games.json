@@ -375,10 +375,10 @@
     "name": "Black Desert Online",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "XIGNCODE3"
     ],
     "notes": [],
     "updates": [
