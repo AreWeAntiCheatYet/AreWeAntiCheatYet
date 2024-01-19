@@ -115,12 +115,13 @@ export default function({ style }) {
             <ScrollArea type="never" w={style ? undefined : width * 0.8} sx={style}>
                 <Accordion defaultValue="gamelist" >
                     <NativeSelect id="gamesDropdown" data={
+                        // QUEST: should I use value here instead of defaultValue
                         form.values.map((game) => {
                             return game.name;
                         }
                         )} label="Games" onChange={(e) => {
                             setSelectedGame(e.currentTarget.selectedIndex)
-                        }} defaultValue={form.values[selectedGame].name} value={form.values[selectedGame].name} />
+                        }} defaultValue={form.values[selectedGame].name} />
                     <form>
                         {body}
 
