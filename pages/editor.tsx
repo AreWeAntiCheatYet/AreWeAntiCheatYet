@@ -7,6 +7,8 @@ import { getLogo, query, stats } from '../src/utils/games';
 import { useForm } from "@mantine/form";
 import React from "react";
 
+const node_assert = require("assert");
+
 const Games = GamesJSON as Game[];
 const anticheats = [...new Set(Games.map((x) => x.anticheats).flat())].map((ac) => {
     // QUEST: why does attempting to get the anti-cheat logo cause the page to crash?
@@ -141,10 +143,12 @@ export default function({ style }) {
                         <Button variant="light" onClick={async () => {
                             // any game that has had it's data changed from it's inital value needs to
                             // have it's dateChanged value updated
-                            form.values.forEach((g, idx) => {
+                            form.values.forEach((g, i) => {
                                 // TODO: use fast-deep-equal or similar here
-                                if (g !== Games[idx]) {
-                                    g.dateChanged = new Date();
+                                try {
+                                    node_assert.deepStrictEqual(g, Games[i])
+                                } catch (_) {
+                                    form.values[i].dateChanged = new Date(Date.now());
                                 }
                             });
 
