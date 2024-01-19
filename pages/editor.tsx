@@ -125,7 +125,7 @@ export default function({ style }) {
                         {body}
 
                         <Button color="lime" onClick={() => {
-                            form.values.push({ url: "", slug: "new-game-" + randomId(), name: "", logo: "", native: false, status: "Broken", reference: "", anticheats: new Array(1), updates: new Array(), notes: new Array(), storeIds: {} });
+                            form.values.push({ url: "", slug: "new-game-" + randomId(), name: "", logo: "", native: false, status: "Broken", reference: "", anticheats: new Array(1), updates: new Array(), notes: new Array(), storeIds: {}, dateChanged: new Date() });
 
                             setSelectedGame(form.values.length - 1);
 
@@ -138,6 +138,15 @@ export default function({ style }) {
                         </Button>
 
                         <Button variant="light" onClick={async () => {
+                            // any game that has had it's data changed from it's inital value needs to
+                            // have it's dateChanged value updated
+                            form.values.forEach((g, idx) => {
+                                // TODO: use fast-deep-equal or similar here
+                                if (g !== Games[idx]) {
+                                    g.dateChanged = new Date();
+                                }
+                            });
+
                             const opts: RequestInit = {
                                 method: "POST",
                                 mode: "cors",
