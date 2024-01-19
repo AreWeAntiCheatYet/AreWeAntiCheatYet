@@ -126,7 +126,7 @@ export default function({ style }) {
                         {body}
 
                         <Button color="lime" onClick={() => {
-                            form.values.push({ url: "", slug: "new-game-" + randomId(), name: "", logo: "", native: false, status: "Broken", reference: "", anticheats: new Array(1), updates: new Array(), notes: new Array(), storeIds: {}, dateChanged: new Date() });
+                            form.values.push({ url: "", slug: "new-game-" + randomId(), name: "", logo: "", native: false, status: "Broken", reference: "", anticheats: new Array(1), updates: new Array(), notes: new Array(), storeIds: {}, dateChanged: new Date(Date.now()) });
 
                             setSelectedGame(form.values.length - 1);
 
