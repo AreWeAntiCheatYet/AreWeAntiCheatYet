@@ -9,7 +9,15 @@ import React from "react";
 
 const node_assert = require("assert");
 
-const Games = GamesJSON as Game[];
+// NOTE: TypeScript likes to do it's job a bit too well. In
+// this case, it's evaluating every entry in this array to
+// the type "Game". However some values in the JSON file
+// are simply missing, as they are optional, or not required,
+// and because they are not marked as such in the interface
+// definition, we'll get errors that the type does not meet
+// the requirements to properly satisfy it. For now, converting
+// to unknown/any then back to the type we actually want will silence this error.
+const Games = GamesJSON as unknown as Game[];
 const anticheats = [...new Set(Games.map((x) => x.anticheats).flat())].map((ac) => {
     // QUEST: why does attempting to get the anti-cheat logo cause the page to crash?
     // QUEST: the error message is in some unrelated place too... ugh.
