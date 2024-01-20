@@ -143,14 +143,23 @@ export default function({ style }) {
                         <Button variant="light" onClick={async () => {
                             // any game that has had it's data changed from it's inital value needs to
                             // have it's dateChanged value updated
-                            form.values.forEach((g, i) => {
-                                // TODO: use fast-deep-equal or similar here
+
+                            // TODO: calculate these two maps ahead of time
+                            const formMap: Map<string, Game> = new Map(form.values.map((g) => [g.slug, g]));
+                            const defaultGamesMap: Map<string, Game> = new Map(Games.map((g) => [g.slug, g]));
+
+                            for (const [k, v] of formMap) {
                                 try {
-                                    node_assert.deepStrictEqual(g, Games[i])
+                                    // TODO: use fast-deep-equal or similar here
+                                    node_assert.deepStrictEqual(v, defaultGamesMap.get(k));
                                 } catch (_) {
-                                    form.values[i].dateChanged = new Date(Date.now());
+                                    form.values.find((g, i) => {
+                                        if (g.slug === k) {
+                                            form.values[i].dateChanged = new Date(Date.now());
+                                        }
+                                    });
                                 }
-                            });
+                            }
 
                             const opts: RequestInit = {
                                 method: "POST",
