@@ -31,7 +31,7 @@ export interface Game {
 
     storeIds: StoreIds;
 
-    dateChanged: Date;
+    dateChanged: string;
 }
 
 export interface Change {
