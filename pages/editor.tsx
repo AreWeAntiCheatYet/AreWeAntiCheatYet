@@ -136,7 +136,7 @@ export default function({ style }) {
                         {body}
 
                         <Button color="lime" onClick={() => {
-                            form.values.push({ url: "", slug: "new-game-" + randomId(), name: "", logo: "", native: false, status: "Broken", reference: "", anticheats: new Array(1), updates: new Array(), notes: new Array(), storeIds: {}, dateChanged: new Date(Date.now()) });
+                            form.values.push({ url: "", slug: "new-game-" + randomId(), name: "", logo: "", native: false, status: "Broken", reference: "", anticheats: new Array(1), updates: new Array(), notes: new Array(), storeIds: {}, dateChanged: (new Date(Date.now())).toISOString() });
 
                             setSelectedGame(form.values.length - 1);
 
@@ -163,7 +163,7 @@ export default function({ style }) {
                                 } catch (_) {
                                     form.values.find((g, i) => {
                                         if (g.slug === k) {
-                                            form.values[i].dateChanged = new Date(Date.now());
+                                            form.values[i].dateChanged = (new Date(Date.now())).toISOString();
                                         }
                                     });
                                 }
