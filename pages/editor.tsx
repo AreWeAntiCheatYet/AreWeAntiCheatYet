@@ -80,7 +80,7 @@ export default function({ style }) {
                 Updates
                 {form.values[idx].updates.map((_, u_idx) => {
                     return (
-                        <div key={randomId()}>
+                        <div key={u_idx}>
                             <TextInput label="Title" {...form.getInputProps(`${idx}.updates.${u_idx}.name`)} />
                             <TextInput label="Reference URL" {...form.getInputProps(`${idx}.updates.${u_idx}.reference`)} />
                             <TextInput label="Date & Time" {...form.getInputProps(`${idx}.updates.${u_idx}.date`)} />
@@ -97,7 +97,7 @@ export default function({ style }) {
                 Notes
                 {game.notes.map((_, note_idx) => {
                     return (
-                        <div key={randomId()}>
+                        <div key={note_idx}>
                             <TextInput label="Title" {...form.getInputProps(`${idx}.notes.${note_idx}.0`)} />
                             <TextInput label="Reference URL" {...form.getInputProps(`${idx}.notes.${note_idx}.1`)} />
                             <Button color="red" onClick={() => { form.removeListItem(`${idx}.notes`, note_idx) }}>
