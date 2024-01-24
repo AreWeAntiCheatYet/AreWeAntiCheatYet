@@ -5894,5 +5894,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-01-19T04:40:56.000Z"
+  },
+  {
+    "url": "",
+    "slug": "madden-nfl-23",
+    "name": "Madden NFL 23",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-01-24T22:55:44.933Z"
   }
 ]
