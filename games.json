@@ -95,7 +95,7 @@
     "name": "Battlefield 2042",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Denied",
     "reference": "https://www.protondb.com/app/1517290#atmpx3XrXL",
     "anticheats": [
       "EA anticheat"
@@ -110,7 +110,7 @@
       }
     },
     "slug": "battlefield-2042",
-    "dateChanged": "2024-01-22T09:33:20.161Z"
+    "dateChanged": "2024-01-26T01:24:49.589Z"
   },
   {
     "url": "https://www.ea.com/games/apex-legends",
