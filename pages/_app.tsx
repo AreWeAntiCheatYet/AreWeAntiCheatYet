@@ -12,51 +12,50 @@ import { SettingsProvider } from '../src/static/state';
 import theme from '../src/static/theme';
 
 export default function App(props: AppProps) {
-    const { basePath } = useRouter();
-    const { Component, pageProps } = props;
-    const [colorScheme, setColorScheme] = useState<ColorScheme>('dark');
+  const { basePath } = useRouter();
+  const { Component, pageProps } = props;
+  const [colorScheme, setColorScheme] = useState<ColorScheme>('dark');
 
-    const toggleColorScheme = (value?: ColorScheme) => {
-        const scheme = value || (colorScheme == 'dark' ? 'light' : 'dark');
-        localStorage.setItem('theme', scheme);
-        setColorScheme(scheme);
-    };
+  const toggleColorScheme = (value?: ColorScheme) => {
+    const scheme = value || (colorScheme == 'dark' ? 'light' : 'dark');
+    localStorage.setItem('theme', scheme);
+    setColorScheme(scheme);
+  };
 
-    useEffect(() => {
-        toggleColorScheme((localStorage.getItem('theme') as ColorScheme) || 'dark');
-    }, []);
+  useEffect(() => {
+    toggleColorScheme((localStorage.getItem('theme') as ColorScheme) || 'dark');
+  }, []);
 
-    useEffect(() => {
-        document.documentElement.style.colorScheme = colorScheme;
-    }, [colorScheme]);
+  useEffect(() => {
+    document.documentElement.style.colorScheme = colorScheme;
+  }, [colorScheme]);
 
-    return (
-        <>
-            <Head>
-                <title>Are We Anti-Cheat Yet?</title>
-                <link rel="shortcut icon" href={`${basePath}/icon.webp`} />
-                <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
-                <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="ShortName" />
-            </Head>
+  return (
+    <>
+      <Head>
+        <title>Are We Anti-Cheat Yet?</title>
+        <link rel="shortcut icon" href={`${basePath}/icon.webp`} />
+        <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+        <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="ShortName" />
+      </Head>
 
-            <Script
-                src="https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.at%2Cdefault"
-                strategy="beforeInteractive"
-            />
+      <Script
+        src="https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.at%2Cdefault"
+        strategy="beforeInteractive"
+      />
 
-            <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
-                <MantineProvider theme={{ colorScheme, ...theme }} withGlobalStyles withNormalizeCSS>
-                    <Notifications>
-                        <SettingsProvider>
-                            <ModalsProvider>
-                                <Shell>
-                                    <Component {...pageProps} />
-                                </Shell>
-                            </ModalsProvider>
-                        </SettingsProvider>
-                    </Notifications>
-                </MantineProvider>
-            </ColorSchemeProvider>
-        </>
-    );
+      <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
+        <MantineProvider theme={{ colorScheme, ...theme }} withGlobalStyles withNormalizeCSS>
+          <Notifications />
+          <SettingsProvider>
+            <ModalsProvider>
+              <Shell>
+                <Component {...pageProps} />
+              </Shell>
+            </ModalsProvider>
+          </SettingsProvider>
+        </MantineProvider>
+      </ColorSchemeProvider>
+    </>
+  );
 }
