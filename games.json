@@ -2273,7 +2273,7 @@
     "name": "Conan Exiles",
     "logo": "",
     "native": false,
-    "status": "Supported",
+    "status": "Broken",
     "reference": "https://www.protondb.com/app/440900#sjKT3nVDGE",
     "anticheats": [
       "BattlEye"
@@ -2288,7 +2288,7 @@
       }
     },
     "slug": "conan-exiles",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-01-27T04:12:17.907Z"
   },
   {
     "url": "https://www.taleworlds.com/en/Games/Bannerlord/",
