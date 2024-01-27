@@ -5575,7 +5575,7 @@
     "name": "Tom Clancy’s Rainbow Six® Extraction",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Denuvo Anti-Cheat"
@@ -5592,7 +5592,7 @@
       "steam": "2379390"
     },
     "slug": "tom-clancys-rainbow-six-extraction",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-01-27T04:14:03.069Z"
   },
   {
     "url": "https://tfd.nexon.com",
