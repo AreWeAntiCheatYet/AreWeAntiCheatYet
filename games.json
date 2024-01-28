@@ -1893,8 +1893,8 @@
     "name": "SoulWorker",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Running",
+    "reference": "https://www.gamingonlinux.com/2023/09/proton-experimental-fixes-up-metro-exodus-sword-art-online-integral-factor-and-more/",
     "anticheats": [
       "XIGNCODE3"
     ],
@@ -1904,7 +1904,7 @@
       "steam": "630100"
     },
     "slug": "soulworker",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-01-28T03:05:01.671Z"
   },
   {
     "url": "https://www.ubisoft.com/en-us/game/ghost-recon/breakpoint",
