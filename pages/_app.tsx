@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-before-interactive-script-outside-document */
-import { ColorScheme, ColorSchemeProvider, MantineProvider } from '@mantine/core';
+import { MantineColorScheme, MantineProvider } from '@mantine/core';
 import { ModalsProvider } from '@mantine/modals';
-import { NotificationsProvider } from '@mantine/notifications';
+import { Notifications } from '@mantine/notifications';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
@@ -9,54 +9,71 @@ import Script from 'next/script';
 import { useEffect, useState } from 'react';
 import { Shell } from '../components/Shell';
 import { SettingsProvider } from '../src/static/state';
+import '@mantine/core/styles.css';
+import '@mantine/notifications/styles.css';
 import theme from '../src/static/theme';
 
 export default function App(props: AppProps) {
-  const { basePath } = useRouter();
-  const { Component, pageProps } = props;
-  const [colorScheme, setColorScheme] = useState<ColorScheme>('dark');
+    const { basePath } = useRouter();
+    const { Component, pageProps } = props;
+    const [colorScheme, setColorScheme] = useState<MantineColorScheme>('dark');
 
-  const toggleColorScheme = (value?: ColorScheme) => {
-    const scheme = value || (colorScheme == 'dark' ? 'light' : 'dark');
-    localStorage.setItem('theme', scheme);
-    setColorScheme(scheme);
-  };
+    const toggleColorScheme = (value?: MantineColorScheme) => {
+        const scheme = value || (colorScheme == 'dark' ? 'light' : 'dark');
+        localStorage.setItem('theme', scheme);
+        setColorScheme(scheme);
+    };
 
-  useEffect(() => {
-    toggleColorScheme((localStorage.getItem('theme') as ColorScheme) || 'dark');
-  }, []);
+    useEffect(() => {
+        toggleColorScheme((localStorage.getItem('theme') as MantineColorScheme) || 'dark');
+    }, []);
 
-  useEffect(() => {
-    document.documentElement.style.colorScheme = colorScheme;
-  }, [colorScheme]);
+    useEffect(() => {
+        document.documentElement.style.colorScheme = colorScheme;
+    }, [colorScheme]);
 
-  return (
-    <>
-      <Head>
-        <title>Are We Anti-Cheat Yet?</title>
-        <link rel="shortcut icon" href={`${basePath}/icon.webp`} />
-        <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
-        <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="ShortName" />
-      </Head>
+    const appColorSchemeManager = {
+        get: function(defaultValue: MantineColorScheme): MantineColorScheme {
+            return colorScheme;
+        },
+        set: function(value: MantineColorScheme): void {
+            toggleColorScheme(value);
+        },
+        subscribe: function(onUpdate: (colorScheme: MantineColorScheme) => void): void {
+            return onUpdate(colorScheme);
+        },
+        unsubscribe: function(): void {
 
-      <Script
-        src="https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.at%2Cdefault"
-        strategy="beforeInteractive"
-      />
+        },
+        clear: function(): void {
+            return localStorage.removeItem("theme");
+        }
+    }
 
-      <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
-        <MantineProvider theme={{ colorScheme, ...theme }} withGlobalStyles withNormalizeCSS>
-          <NotificationsProvider>
-            <SettingsProvider>
-              <ModalsProvider>
-                <Shell>
-                  <Component {...pageProps} />
-                </Shell>
-              </ModalsProvider>
-            </SettingsProvider>
-          </NotificationsProvider>
-        </MantineProvider>
-      </ColorSchemeProvider>
-    </>
-  );
+    return (
+        <>
+            <Head>
+                <title>Are We Anti-Cheat Yet?</title>
+                <link rel="shortcut icon" href={`${basePath}/icon.webp`} />
+                <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+                <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="ShortName" />
+            </Head>
+
+            <Script
+                src="https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.at%2Cdefault"
+                strategy="beforeInteractive"
+            />
+
+            <MantineProvider theme={theme} defaultColorScheme={colorScheme} colorSchemeManager={appColorSchemeManager}>
+                <Notifications />
+                <SettingsProvider>
+                    <ModalsProvider>
+                        <Shell>
+                            <Component {...pageProps} />
+                        </Shell>
+                    </ModalsProvider>
+                </SettingsProvider>
+            </MantineProvider>
+        </>
+    );
 }
