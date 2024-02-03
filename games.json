@@ -5932,5 +5932,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-01-28T03:06:48.598Z"
+  },
+  {
+    "url": "",
+    "slug": "zombie-panic-source",
+    "name": "Zombie Panic! Source",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-03T02:31:35.130Z"
   }
 ]
