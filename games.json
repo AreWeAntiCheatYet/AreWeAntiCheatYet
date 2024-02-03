@@ -3671,8 +3671,8 @@
     "name": "APB Reloaded",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Running",
+    "reference": "https://forums.gamersfirst.com/topic/20780-apb-130-on-linux-new-guide-with-proton-ge/",
     "anticheats": [
       "BattlEye"
     ],
@@ -3682,7 +3682,7 @@
       "steam": "113400"
     },
     "slug": "apb-reloaded",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-02-03T02:30:12.985Z"
   },
   {
     "url": "",
