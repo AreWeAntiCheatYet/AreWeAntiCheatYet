@@ -5916,5 +5916,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-01-24T22:55:44.933Z"
+  },
+  {
+    "url": "",
+    "slug": "fear",
+    "name": "F.E.A.R.",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-01-28T03:06:48.598Z"
   }
 ]
