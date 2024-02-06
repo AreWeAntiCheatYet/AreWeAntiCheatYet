@@ -4101,8 +4101,8 @@
     "name": "Grandchase",
     "logo": "",
     "native": false,
-    "status": "Running",
-    "reference": "https://www.protondb.com/app/985810",
+    "status": "Supported",
+    "reference": "https://store.steampowered.com/news/app/985810?emclan=103582791470333051&emgid=3861338313403449561",
     "anticheats": [
       "nProtect GameGuard"
     ],
@@ -4112,7 +4112,7 @@
       "steam": "985810"
     },
     "slug": "grandchase",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-02-05T22:55:05.000Z"
   },
   {
     "url": "",
