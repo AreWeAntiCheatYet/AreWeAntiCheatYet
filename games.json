@@ -5969,5 +5969,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-05T22:55:48.842Z"
+  },
+  {
+    "url": "",
+    "slug": "suicide-squad-kill-the-justice-league",
+    "name": "Suicide Squad: Kill the Justice League",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-06T22:55:43.960Z"
   }
 ]
