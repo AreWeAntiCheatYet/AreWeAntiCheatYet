@@ -3102,10 +3102,10 @@
   },
   {
     "url": "",
-    "name": "KovaaK 2.0",
+    "name": "KovaaK",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "EQU8"
@@ -3114,7 +3114,7 @@
     "updates": [],
     "storeIds": {},
     "slug": "kovaak-20",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-02-06T22:54:55.626Z"
   },
   {
     "url": "",
