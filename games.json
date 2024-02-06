@@ -3674,7 +3674,7 @@
     "status": "Running",
     "reference": "https://forums.gamersfirst.com/topic/20780-apb-130-on-linux-new-guide-with-proton-ge/",
     "anticheats": [
-      "BattlEye"
+      "Easy Anti-Cheat"
     ],
     "notes": [],
     "updates": [],
@@ -3682,7 +3682,7 @@
       "steam": "113400"
     },
     "slug": "apb-reloaded",
-    "dateChanged": "2024-02-03T02:30:12.985Z"
+    "dateChanged": "2024-02-05T22:54:22.551Z"
   },
   {
     "url": "",
