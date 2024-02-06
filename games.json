@@ -3676,13 +3676,18 @@
     "anticheats": [
       "Easy Anti-Cheat"
     ],
-    "notes": [],
+    "notes": [
+      [
+        "Proton-GE 8.0-5 or newer recommended, due to missing vcrun2017 on official Proton",
+        null
+      ]
+    ],
     "updates": [],
     "storeIds": {
       "steam": "113400"
     },
     "slug": "apb-reloaded",
-    "dateChanged": "2024-02-05T22:54:22.551Z"
+    "dateChanged": "2024-02-06T01:20:15.983Z"
   },
   {
     "url": "",
