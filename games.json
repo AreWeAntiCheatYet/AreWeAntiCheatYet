@@ -4049,7 +4049,7 @@
     "name": "Blazing Sails",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "https://www.protondb.com/app/1158940",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -4065,7 +4065,7 @@
       "steam": "1158940"
     },
     "slug": "blazing-sails",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-02-07T22:43:44.034Z"
   },
   {
     "url": "",
