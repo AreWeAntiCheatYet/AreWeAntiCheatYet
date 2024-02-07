@@ -5985,5 +5985,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-06T22:55:43.960Z"
+  },
+  {
+    "url": "",
+    "slug": "helldivers-2",
+    "name": "Helldivers 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-07T22:44:18.824Z"
   }
 ]
