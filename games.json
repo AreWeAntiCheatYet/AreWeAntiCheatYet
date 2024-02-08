@@ -636,8 +636,8 @@
     "name": "Rust",
     "logo": "",
     "native": false,
-    "status": "Planned",
-    "reference": "https://twitter.com/garrynewman/status/1531235676653510657",
+    "status": "Denied",
+    "reference": "https://www.gamingonlinux.com/2022/10/facepunch-put-out-a-fresh-statement-on-rust-for-steam-deck-linux/",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
@@ -678,7 +678,7 @@
       "steam": "252490"
     },
     "slug": "rust",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-02-08T15:25:52.293Z"
   },
   {
     "url": "https://warthunder.com/",
