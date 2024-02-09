@@ -6017,5 +6017,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-08T15:26:49.723Z"
+  },
+  {
+    "url": "",
+    "slug": "warface-clutch",
+    "name": "Warface: Clutch",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-09T22:20:45.640Z"
   }
 ]
