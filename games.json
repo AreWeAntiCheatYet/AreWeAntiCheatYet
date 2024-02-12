@@ -6081,5 +6081,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-01-19T04:40:56.000Z"
+  },
+  {
+    "url": "",
+    "slug": "kurtzpel",
+    "name": "KurtzPel",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-12T20:20:01.314Z"
   }
 ]
