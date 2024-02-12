@@ -3627,7 +3627,7 @@
     "name": "Honkai Star Rail",
     "logo": "",
     "native": false,
-    "status": "Running",
+    "status": "Broken",
     "reference": "",
     "anticheats": [
       "Anti-Cheat Expert"
@@ -3646,7 +3646,7 @@
         "slug": "honkai-star-rail"
       }
     },
-    "dateChanged": "2024-02-12T01:09:51.667Z"
+    "dateChanged": "2024-02-12T19:52:57.848Z"
   },
   {
     "url": "",
