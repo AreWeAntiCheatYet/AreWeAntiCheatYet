@@ -6065,5 +6065,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-12T01:11:04.919Z"
+  },
+  {
+    "url": "",
+    "slug": "synced",
+    "name": "SYNCED",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Proxima Game Anti Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-01-19T04:40:56.000Z"
   }
 ]
