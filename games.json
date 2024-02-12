@@ -6049,5 +6049,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-10T21:52:02.273Z"
+  },
+  {
+    "url": "",
+    "slug": "the-ship-remastered",
+    "name": "The Ship: Remastered",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-12T01:11:04.919Z"
   }
 ]
