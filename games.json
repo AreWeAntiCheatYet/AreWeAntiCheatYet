@@ -5448,7 +5448,12 @@
     "anticheats": [
       "Hyperion"
     ],
-    "notes": [],
+    "notes": [
+      [
+        "Vinegar or Grapejuice Highly Recommended",
+        null
+      ]
+    ],
     "updates": [
       {
         "name": "Future Wine Support",
@@ -5458,7 +5463,7 @@
     ],
     "storeIds": {},
     "slug": "roblox",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-02-13T21:30:05.957Z"
   },
   {
     "url": "https://www.boundarygame.com/",
