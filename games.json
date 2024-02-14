@@ -6118,5 +6118,22 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-13T21:32:45.617Z"
+  },
+  {
+    "url": "",
+    "slug": "veiled-experts",
+    "name": "Veiled Experts",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "BattlEye",
+      "Nexon Game Security"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-14T22:37:23.636Z"
   }
 ]
