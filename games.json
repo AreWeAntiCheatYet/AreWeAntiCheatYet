@@ -6167,5 +6167,22 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-15T20:51:54.169Z"
+  },
+  {
+    "url": "",
+    "slug": "tree-of-savior",
+    "name": "Tree of Savior",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC",
+      "Nexon Game Security"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-15T20:52:22.592Z"
   }
 ]
