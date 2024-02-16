@@ -6184,5 +6184,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-15T20:52:22.592Z"
+  },
+  {
+    "url": "",
+    "slug": "wargame-european-escalation",
+    "name": "Wargame: European Escalation",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-16T20:24:47.956Z"
   }
 ]
