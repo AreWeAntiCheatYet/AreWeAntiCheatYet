@@ -4327,7 +4327,7 @@
     "name": "Pavlov VR",
     "logo": "",
     "native": false,
-    "status": "Supported",
+    "status": "Broken",
     "reference": "https://www.protondb.com/app/555160#Yo-ndZgjd2",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -4338,7 +4338,7 @@
       "steam": "555160"
     },
     "slug": "pavlov-vr",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-02-16T20:23:44.519Z"
   },
   {
     "url": "https://playdauntless.com/",
