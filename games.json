@@ -6200,5 +6200,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-16T20:24:47.956Z"
+  },
+  {
+    "url": "",
+    "slug": "mini-royale",
+    "name": "Mini Royale",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-17T21:20:07.370Z"
   }
 ]
