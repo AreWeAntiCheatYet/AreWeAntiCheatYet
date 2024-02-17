@@ -6216,5 +6216,26 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-17T21:20:07.370Z"
+  },
+  {
+    "url": "fivem.net",
+    "slug": "fivem",
+    "name": "FiveM",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "https://forum.cfx.re/t/is-adhesive-by-any-chance-ever-going-to-be-supported-over-fivem-proton/5120618/2?u=hebi_kotei",
+    "anticheats": [
+      "Unknown (Custom)"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Proton is missing UWP-related syscalls",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-02-17T21:47:14.286Z"
   }
 ]
