@@ -6237,5 +6237,21 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-02-17T21:47:14.286Z"
+  },
+  {
+    "url": "",
+    "slug": "hawked",
+    "name": "HAWKED",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Mail.ru Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-18T22:01:10.777Z"
   }
 ]
