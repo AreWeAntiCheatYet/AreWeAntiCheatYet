@@ -6269,5 +6269,26 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-18T22:45:18.024Z"
+  },
+  {
+    "url": "",
+    "slug": "tribes3-rivals",
+    "name": "TRIBES 3: Rivals",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Working in the Open Beta",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-02-19T21:15:15.800Z"
   }
 ]
