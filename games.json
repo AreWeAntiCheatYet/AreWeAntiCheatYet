@@ -6290,5 +6290,21 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-02-19T21:15:15.800Z"
+  },
+  {
+    "url": "",
+    "slug": "frontlines-fuel-of-war",
+    "name": "Frontlines: Fuel of War",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-19T21:33:15.536Z"
   }
 ]
