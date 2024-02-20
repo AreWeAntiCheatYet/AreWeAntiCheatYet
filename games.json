@@ -6306,5 +6306,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-19T21:33:15.536Z"
+  },
+  {
+    "url": "",
+    "slug": "paragon-the-overprime",
+    "name": "Paragon: The Overprime",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-20T21:06:18.474Z"
   }
 ]
