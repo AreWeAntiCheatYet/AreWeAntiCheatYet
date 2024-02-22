@@ -6386,5 +6386,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-22T20:01:41.780Z"
+  },
+  {
+    "url": "",
+    "slug": "teamfight-tactics",
+    "name": "Teamfight Tactics",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "https://github.com/AreWeAntiCheatYet/AreWeAntiCheatYet/assets/33342705/266b364f-8964-4ae2-9cc4-58e2fd5f9947",
+    "anticheats": [
+      "Vanguard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-22T20:28:08.195Z"
   }
 ]
