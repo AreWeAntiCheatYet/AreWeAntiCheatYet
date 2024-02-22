@@ -6370,5 +6370,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-01-19T04:40:56.000Z"
+  },
+  {
+    "url": "",
+    "slug": "microworks",
+    "name": "Microworks",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-22T20:01:41.780Z"
   }
 ]
