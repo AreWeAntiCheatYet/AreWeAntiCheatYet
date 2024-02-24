@@ -6418,5 +6418,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-24T04:19:43.190Z"
+  },
+  {
+    "url": "",
+    "slug": "elsword",
+    "name": "Elsword",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-24T04:48:48.953Z"
   }
 ]
