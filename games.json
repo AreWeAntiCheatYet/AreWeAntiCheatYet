@@ -6454,5 +6454,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-24T21:38:19.487Z"
+  },
+  {
+    "url": "",
+    "slug": "battle-teams-2",
+    "name": "Battle Teams 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-24T22:08:12.463Z"
   }
 ]
