@@ -6434,5 +6434,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-24T04:48:48.953Z"
+  },
+  {
+    "url": "",
+    "slug": "cs2-faceit",
+    "name": "Counter-Strike 2 (FACEIT)",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "https://www.reddit.com/r/FACEITcom/comments/xhdr4s/comment/ioxqucy/",
+    "anticheats": [
+      "FACEIT"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-24T21:38:19.487Z"
   }
 ]
