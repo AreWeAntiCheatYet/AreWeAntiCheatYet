@@ -6402,5 +6402,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-22T20:28:08.195Z"
+  },
+  {
+    "url": "",
+    "slug": "smite-2",
+    "name": "Smite 2",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "https://www.gamingonlinux.com/2024/01/smite-2-announced-with-steam-deck-support-from-titan-forge-and-hi-rez-studios/",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-24T04:19:43.190Z"
   }
 ]
