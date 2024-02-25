@@ -6486,5 +6486,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-25T21:10:26.783Z"
+  },
+  {
+    "url": "",
+    "slug": "total-war-shogun-2",
+    "name": "Total War: SHOGUN 2",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-25T21:39:06.741Z"
   }
 ]
