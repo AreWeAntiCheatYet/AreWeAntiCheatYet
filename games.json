@@ -6470,5 +6470,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-24T22:08:12.463Z"
+  },
+  {
+    "url": "",
+    "slug": "smash-legends",
+    "name": "SMASH LEGENDS",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-25T21:10:26.783Z"
   }
 ]
