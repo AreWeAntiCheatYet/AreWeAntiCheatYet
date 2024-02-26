@@ -6502,5 +6502,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-25T21:39:06.741Z"
+  },
+  {
+    "url": "",
+    "slug": "aura-kingdom",
+    "name": "Aura Kingdom",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Unknown (Custom)"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-26T21:42:20.639Z"
   }
 ]
