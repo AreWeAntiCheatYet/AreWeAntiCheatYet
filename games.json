@@ -6534,5 +6534,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-26T22:11:11.644Z"
+  },
+  {
+    "url": "",
+    "slug": "magicka-wizard-wars",
+    "name": "Magicka: Wizard Wars",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-27T21:14:34.272Z"
   }
 ]
