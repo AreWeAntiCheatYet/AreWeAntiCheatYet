@@ -5443,8 +5443,8 @@
     "name": "Roblox",
     "logo": "",
     "native": false,
-    "status": "Running",
-    "reference": "https://www.gamingonlinux.com/2023/08/roblox-support-is-coming-back-to-wine-on-linux/",
+    "status": "Denied",
+    "reference": "https://i.redd.it/wcngc8xapnlc1.png",
     "anticheats": [
       "Hyperion"
     ],
@@ -5463,11 +5463,16 @@
         "name": "Future Wine Support",
         "date": "May 13, 2023, 2:29 PM CDT",
         "reference": "https://user-images.githubusercontent.com/29169102/238155523-b6d53f64-81a1-49a8-be6d-d02d1e784dfb.png"
+      },
+      {
+        "name": "Wine Support Yanked",
+        "date": "Fri, 01 Mar 2024 20:45:14 GMT",
+        "reference": "https://vinegarhq.org/Home/rol_faq.html"
       }
     ],
     "storeIds": {},
     "slug": "roblox",
-    "dateChanged": "2024-02-24T21:53:17.879Z"
+    "dateChanged": "2024-03-01T20:45:31.412Z"
   },
   {
     "url": "https://www.boundarygame.com/",
