@@ -6614,5 +6614,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-03-01T01:24:05.740Z"
+  },
+  {
+    "url": "",
+    "slug": "sky-noon",
+    "name": "Sky Noon",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-01T02:09:30.681Z"
   }
 ]
