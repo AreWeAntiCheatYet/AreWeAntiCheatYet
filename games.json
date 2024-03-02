@@ -6652,5 +6652,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-03-01T20:43:59.035Z"
+  },
+  {
+    "url": "",
+    "slug": "soldier-front-2",
+    "name": "Soldier Front 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-02T21:07:33.912Z"
   }
 ]
