@@ -6668,5 +6668,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-03-02T21:07:33.912Z"
+  },
+  {
+    "url": "",
+    "slug": "once-human",
+    "name": "Once Human",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-03T19:03:48.745Z"
   }
 ]
