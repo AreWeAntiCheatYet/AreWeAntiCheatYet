@@ -6700,5 +6700,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-03-04T19:43:18.238Z"
+  },
+  {
+    "url": "",
+    "slug": "kartrider-drift",
+    "name": "KartRider: Drift",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Nexon Game Security"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-05T20:12:26.756Z"
   }
 ]
