@@ -6716,5 +6716,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-03-05T20:12:26.756Z"
+  },
+  {
+    "url": "",
+    "slug": "mecha-break",
+    "name": "Mecha BREAK",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-06T20:43:51.546Z"
   }
 ]
