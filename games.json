@@ -6748,5 +6748,22 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-03-07T22:15:44.135Z"
+  },
+  {
+    "url": "",
+    "slug": "zzz",
+    "name": "Zenless Zone Zero",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "miHoYo Protect",
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-08T21:26:37.450Z"
   }
 ]
