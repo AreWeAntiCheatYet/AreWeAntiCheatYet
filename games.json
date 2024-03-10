@@ -6781,5 +6781,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-03-10T04:06:17.046Z"
+  },
+  {
+    "url": "",
+    "slug": "gray-zone-warfare",
+    "name": "Gray Zone Warfare",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-10T20:06:54.720Z"
   }
 ]
