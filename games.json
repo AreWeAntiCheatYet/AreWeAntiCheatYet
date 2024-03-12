@@ -6813,5 +6813,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-03-11T20:17:20.227Z"
+  },
+  {
+    "url": "",
+    "slug": "sea-of-thieves",
+    "name": "Sea of Thieves",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-12T20:11:34.208Z"
   }
 ]
