@@ -310,8 +310,8 @@
     "name": "Rainbow Six: Siege",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Denied",
+    "reference": "https://i.redd.it/l4supmm5h0oc1.png",
     "anticheats": [
       "FairFight",
       "BattlEye"
@@ -352,7 +352,7 @@
       }
     },
     "slug": "rainbow-six-siege",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-03-13T21:55:26.695Z"
   },
   {
     "url": "https://www.smitegame.com/",
