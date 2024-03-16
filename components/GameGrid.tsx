@@ -45,7 +45,7 @@ export default function ({ page, games, totalPages, assets, ...props }: GameGrid
       {!filtered && (
         <Pagination
           radius="md"
-          page={page}
+          value={page}
           total={totalPages}
           size={breakpoint ? 'lg' : undefined}
           onChange={(value) => router.push(`/grid/${value}`)}
