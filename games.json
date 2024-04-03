@@ -3939,7 +3939,12 @@
       "FairFight",
       "EA anticheat"
     ],
-    "notes": [],
+    "notes": [
+      [
+        "No longer works due to the implementation of EA Anticheat",
+        ""
+      ]
+    ],
     "updates": [],
     "storeIds": {
       "steam": "1238810",
