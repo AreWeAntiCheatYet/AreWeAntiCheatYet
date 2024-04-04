@@ -1,58 +1,65 @@
-import { Tabs, TabsProps } from '@mantine/core';
+import { getThemeColor, Tabs, TabsProps, useMantineColorScheme, useMantineTheme } from '@mantine/core';
+import { DEFAULT_THEME } from '@mantine/styles';
+import { focusStyles } from '../src/utils/theming';
 
-export default function (props: TabsProps) {
-  return (
-    <Tabs
-      unstyled
-      styles={(theme) => ({
-        tab: {
-          ...theme.fn.focusStyles(),
-          backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[6] : theme.white,
-          color: theme.colorScheme === 'dark' ? theme.colors.dark[0] : theme.colors.gray[9],
-          border: `1px solid ${theme.colorScheme === 'dark' ? theme.colors.dark[6] : theme.colors.gray[4]}`,
-          padding: `${theme.spacing.xs}px ${theme.spacing.md}px`,
-          cursor: 'pointer',
-          fontSize: theme.fontSizes.sm,
-          display: 'flex',
-          alignItems: 'center',
+export default function(props: TabsProps) {
+    const { colorScheme } = useMantineColorScheme();
+    const theme = useMantineTheme();
+    // QUEST: how do I get MantineThemeBase without using the default?
+    const defaultTheme = DEFAULT_THEME;
 
-          '&:disabled': {
-            opacity: 0.5,
-            cursor: 'not-allowed',
-          },
+    return (
+        <Tabs
+            unstyled
+            styles={(theme) => ({
+                tab: {
+                    ...focusStyles(defaultTheme),
+                    backgroundColor: colorScheme === 'dark' ? theme.colors.dark[6] : theme.white,
+                    color: colorScheme === 'dark' ? theme.colors.dark[0] : theme.colors.gray[9],
+                    border: `1px solid ${colorScheme === 'dark' ? theme.colors.dark[6] : theme.colors.gray[4]}`,
+                    padding: `${theme.spacing.xs}px ${theme.spacing.md}px`,
+                    cursor: 'pointer',
+                    fontSize: theme.fontSizes.sm,
+                    display: 'flex',
+                    alignItems: 'center',
 
-          '&:not(:first-of-type)': {
-            borderLeft: 0,
-          },
+                    '&:disabled': {
+                        opacity: 0.5,
+                        cursor: 'not-allowed',
+                    },
 
-          '&:first-of-type': {
-            borderTopLeftRadius: theme.radius.md,
-            borderBottomLeftRadius: theme.radius.md,
-          },
+                    '&:not(:first-of-type)': {
+                        borderLeft: 0,
+                    },
 
-          '&:last-of-type': {
-            borderTopRightRadius: theme.radius.md,
-            borderBottomRightRadius: theme.radius.md,
-          },
+                    '&:first-of-type': {
+                        borderTopLeftRadius: theme.radius.md,
+                        borderBottomLeftRadius: theme.radius.md,
+                    },
 
-          '&[data-active]': {
-            backgroundColor: theme.colors[theme.primaryColor][7],
-            borderColor: theme.colors[theme.primaryColor][7],
-            color: theme.white,
-          },
-        },
+                    '&:last-of-type': {
+                        borderTopRightRadius: theme.radius.md,
+                        borderBottomRightRadius: theme.radius.md,
+                    },
 
-        tabIcon: {
-          marginRight: theme.spacing.xs,
-          display: 'flex',
-          alignItems: 'center',
-        },
+                    '&[data-active]': {
+                        backgroundColor: theme.colors[theme.primaryColor][7],
+                        borderColor: theme.colors[theme.primaryColor][7],
+                        color: theme.white,
+                    },
+                },
 
-        tabsList: {
-          display: 'flex',
-        },
-      })}
-      {...props}
-    />
-  );
+                tabIcon: {
+                    marginRight: theme.spacing.xs,
+                    display: 'flex',
+                    alignItems: 'center',
+                },
+
+                tabsList: {
+                    display: 'flex',
+                },
+            })}
+            {...props}
+        />
+    );
 }
