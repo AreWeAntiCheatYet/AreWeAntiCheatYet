@@ -30,10 +30,6 @@ export default function ({ page, games, totalPages, assets, ...props }: GameGrid
       <SimpleGrid
         spacing="xl"
         cols={4}
-        breakpoints={[
-          { cols: 2, maxWidth: 1335 },
-          { cols: 1, maxWidth: 715 },
-        ]}
         {...props}
       >
         {filteredGames.map((game) => {
