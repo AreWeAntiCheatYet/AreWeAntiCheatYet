@@ -11,131 +11,132 @@ import { defaultSettings, Settings } from '../types/settings';
 import { getChanges } from '../utils/games';
 
 interface SettingsSetter {
-  setDisplay: (arg: Settings['display']) => void;
-  setOverview: (arg: Settings['overview']) => void;
-  setRowHighlight: (arg: Settings['rowHighlight']) => void;
-  setPreviousGames: (arg: Settings['previousGames']) => void;
+    setDisplay: (arg: Settings['display']) => void;
+    setOverview: (arg: Settings['overview']) => void;
+    setRowHighlight: (arg: Settings['rowHighlight']) => void;
+    setPreviousGames: (arg: Settings['previousGames']) => void;
 }
 
 const update = <C extends keyof Settings>(name: C, set: (v: Settings[C]) => void) => {
-  return (value: Settings[C]) => {
-    localStorage.setItem(name, value);
-    set(value);
-  };
+    return (value: Settings[C]) => {
+        localStorage.setItem(name, value);
+        set(value);
+    };
 };
 
 const get = <C extends keyof Settings>(name: C, set: (v: Settings[C]) => void) => {
-  const value = (localStorage.getItem(name)?.toString() as Settings[C]) || defaultSettings[name];
+    const value = (localStorage.getItem(name)?.toString() as Settings[C]) || defaultSettings[name];
 
-  set(value);
-  return value;
+    set(value);
+    return value;
 };
 
 export const SettingsContext = createContext<Settings & SettingsSetter & { changes: Change[] }>(null);
 
 export function SettingsProvider({ children }: { children: ReactNode }) {
-  const [previousGames, setPreviousGames] = useState(defaultSettings.previousGames);
-  const [rowHighlight, setRowHighlight] = useState(defaultSettings.rowHighlight);
-  const [overview, setOverview] = useState(defaultSettings.overview);
-  const [display, setDisplay] = useState(defaultSettings.display);
-  const [changes, setChanges] = useState([]);
-  const router = useRouter();
+    const [previousGames, setPreviousGames] = useState(defaultSettings.previousGames);
+    const [rowHighlight, setRowHighlight] = useState(defaultSettings.rowHighlight);
+    const [overview, setOverview] = useState(defaultSettings.overview);
+    const [display, setDisplay] = useState(defaultSettings.display);
+    const [changes, setChanges] = useState([]);
+    const router = useRouter();
 
-  useEffect(() => {
-    get('overview', setOverview);
-    get('rowHighlight', setRowHighlight);
-    get('previousGames', setPreviousGames);
-    const currentDisplay = get('display', setDisplay);
+    useEffect(() => {
+        get('overview', setOverview);
+        get('rowHighlight', setRowHighlight);
+        get('previousGames', setPreviousGames);
+        const currentDisplay = get('display', setDisplay);
 
-    if (!localStorage.getItem('previousGames')) {
-      localStorage.setItem('previousGames', JSON.stringify(Games));
-    }
+        if (!localStorage.getItem('previousGames')) {
+            localStorage.setItem('previousGames', JSON.stringify(Games));
+        }
 
-    const other = currentDisplay === 'grid' ? 'table' : 'grid';
+        const other = currentDisplay === 'grid' ? 'table' : 'grid';
 
-    if (router.asPath.includes(other)) {
-      router.replace(router.asPath.replace(other, currentDisplay));
-    }
-  }, []);
+        if (router.asPath.includes(other)) {
+            router.replace(router.asPath.replace(other, currentDisplay));
+        }
+    }, []);
 
-  useEffect(() => {
-    if (previousGames === defaultSettings.previousGames) {
-      return;
-    }
+    useEffect(() => {
+        if (previousGames === defaultSettings.previousGames) {
+            return;
+        }
 
-    const lastVersion = localStorage.getItem('lastVersion');
+        const lastVersion = localStorage.getItem('lastVersion');
 
-    if (lastVersion === '3') {
-      return;
-    }
+        if (lastVersion === '3') {
+            return;
+        }
 
-    openConfirmModal({
-      title: 'Updates, Updates, Updates!',
-      children: (
-        <>
-          Hey there 👋
-          <br />
-          We've been working hard on some updates and are happy to tell you about what's new!
-          <Divider orientation="horizontal" m={10} />
-          Some of the cool features include:
-          <Space h={20} />
-          <List>
-            <List.Item>New Grid View</List.Item>
-            <List.Item>Dedicated Game Pages</List.Item>
-            <List.Item>New Overview Options</List.Item>
-          </List>
-          <br />
-          In case you want to test out the new stuff, just open the settings by pressing the gear icon in the top right!
-        </>
-      ),
-      labels: { cancel: 'Remind me later', confirm: 'Alright!' },
-      onConfirm: () => localStorage.setItem('lastVersion', '3'),
-    });
-  }, [previousGames]);
+        openConfirmModal({
+            title: 'Updates, Updates, Updates!',
+            children: (
+                <>
+                    Hey there 👋
+                    <br />
+                    We've been working hard on some updates and are happy to tell you about what's new!
+                    <Divider orientation="horizontal" m={10} />
+                    Some of the cool features include:
+                    <Space h={20} />
+                    <List>
+                        <List.Item>New Grid View</List.Item>
+                        <List.Item>Dedicated Game Pages</List.Item>
+                        <List.Item>New Overview Options</List.Item>
+                    </List>
+                    <br />
+                    In case you want to test out the new stuff, just open the settings by pressing the gear icon in the top right!
+                </>
+            ),
+            labels: { cancel: 'Remind me later', confirm: 'Alright!' },
+            onConfirm: () => localStorage.setItem('lastVersion', '3'),
+        });
+    }, [previousGames]);
 
-  useEffect(() => {
-    showNotification({
-      id: 'changes',
-      loading: true,
-      disallowClose: true,
-      title: 'Loading Changes',
-      message: 'This may take a few seconds!',
-    });
+    useEffect(() => {
+        showNotification({
+            id: 'changes',
+            loading: true,
+            withCloseButton: true,
+            title: 'Loading Changes',
+            message: 'This may take a few seconds!',
+        });
 
-    const changes = getChanges(Games, JSON.parse(previousGames));
-    setChanges(changes);
+        const changes = getChanges(Games, JSON.parse(previousGames));
+        setChanges(changes);
 
-    if (changes.length <= 0) {
-      hideNotification('changes');
-      return;
-    }
+        if (changes.length <= 0) {
+            hideNotification('changes');
+            return;
+        }
 
-    updateNotification({
-      id: 'changes',
-      autoClose: false,
-      disallowClose: false,
-      icon: <IconBellRinging size={16} />,
+        updateNotification({
+            id: 'changes',
+            loading: false,
+            autoClose: false,
+            withCloseButton: true,
+            icon: <IconBellRinging size={16} />,
 
-      title: 'New changes!',
-      message: <ChangeNotification changes={changes} setPreviousGames={update('previousGames', setPreviousGames)} />,
-    });
-  }, [previousGames]);
+            title: 'New changes!',
+            message: <ChangeNotification changes={changes} setPreviousGames={update('previousGames', setPreviousGames)} />,
+        });
+    }, [previousGames]);
 
-  return (
-    <SettingsContext.Provider
-      value={{
-        display,
-        setDisplay: update('display', setDisplay),
-        overview,
-        setOverview: update('overview', setOverview),
-        rowHighlight,
-        setRowHighlight: update('rowHighlight', setRowHighlight),
-        previousGames,
-        setPreviousGames: update('previousGames', setPreviousGames),
-        changes,
-      }}
-    >
-      {children}
-    </SettingsContext.Provider>
-  );
+    return (
+        <SettingsContext.Provider
+            value={{
+                display,
+                setDisplay: update('display', setDisplay),
+                overview,
+                setOverview: update('overview', setOverview),
+                rowHighlight,
+                setRowHighlight: update('rowHighlight', setRowHighlight),
+                previousGames,
+                setPreviousGames: update('previousGames', setPreviousGames),
+                changes,
+            }}
+        >
+            {children}
+        </SettingsContext.Provider>
+    );
 }

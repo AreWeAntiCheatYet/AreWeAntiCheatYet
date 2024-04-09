@@ -11,32 +11,32 @@ import { SettingsContext } from '../src/static/state';
 import { stats } from '../src/utils/games';
 
 export const getStaticProps = async () => {
-  const images = await allImages(Games);
-  const { ...statuses } = stats();
-  const total = Games.length;
+    const images = await allImages(Games);
+    const { ...statuses } = stats();
+    const total = Games.length;
 
-  return { props: { ...statuses, total, images } };
+    return { props: { ...statuses, total, images } };
 };
 
-export default function ({ images: _images, ...props }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { overview } = useContext(SettingsContext);
-  const images = new Map(_images);
+export default function({ images: _images, ...props }: InferGetStaticPropsType<typeof getStaticProps>) {
+    const { overview } = useContext(SettingsContext);
+    const images = new Map(_images);
 
-  return (
-    <>
-      <Stack align="center" mt={70}>
-        <Blockquote cite="- Starz0r" mb={50}>
-          A comprehensive and crowd-sourced list of games using anti-cheats and their compatibility with GNU/Linux or
-          Wine/Proton.
-        </Blockquote>
+    return (
+        <>
+            <Stack align="center" mt={70}>
+                <Blockquote cite="- Starz0r" mb={50}>
+                    A comprehensive and crowd-sourced list of games using anti-cheats and their compatibility with GNU/Linux or
+                    Wine/Proton.
+                </Blockquote>
 
-        <Overview variant={overview} {...props} />
-        <Card mt={30} sx={{ width: '60%' }}>
-          <Description />
-        </Card>
-        <BreakdownLink />
-        <GameTable assets={images} games={[...Games]} style={{ width: '80%' }} mt={50} mb={20} />
-      </Stack>
-    </>
-  );
+                <Overview variant={overview} {...props} />
+                <Card mt={30} style={{ width: '60%' }}>
+                    <Description />
+                </Card>
+                <BreakdownLink />
+                <GameTable assets={images} games={[...Games]} style={{ width: '80%' }} mt={50} mb={20} />
+            </Stack>
+        </>
+    );
 }
