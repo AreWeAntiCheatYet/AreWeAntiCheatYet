@@ -310,8 +310,8 @@
     "name": "Rainbow Six: Siege",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Denied",
+    "reference": "https://i.redd.it/l4supmm5h0oc1.png",
     "anticheats": [
       "FairFight",
       "BattlEye"
@@ -352,7 +352,7 @@
       }
     },
     "slug": "rainbow-six-siege",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-03-13T21:55:26.695Z"
   },
   {
     "url": "https://www.smitegame.com/",
@@ -636,8 +636,8 @@
     "name": "Rust",
     "logo": "",
     "native": false,
-    "status": "Planned",
-    "reference": "https://twitter.com/garrynewman/status/1531235676653510657",
+    "status": "Denied",
+    "reference": "https://www.gamingonlinux.com/2022/10/facepunch-put-out-a-fresh-statement-on-rust-for-steam-deck-linux/",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
@@ -678,7 +678,7 @@
       "steam": "252490"
     },
     "slug": "rust",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-02-08T15:25:52.293Z"
   },
   {
     "url": "https://warthunder.com/",
@@ -1437,7 +1437,7 @@
     "name": "Rec Room",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -1448,7 +1448,7 @@
       "steam": "471710"
     },
     "slug": "rec-room",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-02-09T22:19:40.252Z"
   },
   {
     "url": "https://worldwar3.com/",
@@ -1893,8 +1893,8 @@
     "name": "SoulWorker",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Running",
+    "reference": "https://www.gamingonlinux.com/2023/09/proton-experimental-fixes-up-metro-exodus-sword-art-online-integral-factor-and-more/",
     "anticheats": [
       "XIGNCODE3"
     ],
@@ -1904,7 +1904,7 @@
       "steam": "630100"
     },
     "slug": "soulworker",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-01-28T03:05:01.671Z"
   },
   {
     "url": "https://www.ubisoft.com/en-us/game/ghost-recon/breakpoint",
@@ -2273,7 +2273,7 @@
     "name": "Conan Exiles",
     "logo": "",
     "native": false,
-    "status": "Supported",
+    "status": "Broken",
     "reference": "https://www.protondb.com/app/440900#sjKT3nVDGE",
     "anticheats": [
       "BattlEye"
@@ -2288,7 +2288,7 @@
       }
     },
     "slug": "conan-exiles",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-01-27T04:12:17.907Z"
   },
   {
     "url": "https://www.taleworlds.com/en/Games/Bannerlord/",
@@ -3102,10 +3102,10 @@
   },
   {
     "url": "",
-    "name": "KovaaK 2.0",
+    "name": "KovaaK",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "EQU8"
@@ -3114,7 +3114,7 @@
     "updates": [],
     "storeIds": {},
     "slug": "kovaak-20",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-02-06T22:54:55.626Z"
   },
   {
     "url": "",
@@ -3646,7 +3646,7 @@
         "slug": "honkai-star-rail"
       }
     },
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-02-12T19:52:57.848Z"
   },
   {
     "url": "",
@@ -3671,18 +3671,23 @@
     "name": "APB Reloaded",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Running",
+    "reference": "https://forums.gamersfirst.com/topic/20780-apb-130-on-linux-new-guide-with-proton-ge/",
     "anticheats": [
-      "BattlEye"
+      "Easy Anti-Cheat"
     ],
-    "notes": [],
+    "notes": [
+      [
+        "Proton-GE 8.0-5 or newer recommended, due to missing vcrun2017 on official Proton",
+        null
+      ]
+    ],
     "updates": [],
     "storeIds": {
       "steam": "113400"
     },
     "slug": "apb-reloaded",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-02-06T01:20:15.983Z"
   },
   {
     "url": "",
@@ -4044,7 +4049,7 @@
     "name": "Blazing Sails",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "https://www.protondb.com/app/1158940",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -4060,7 +4065,7 @@
       "steam": "1158940"
     },
     "slug": "blazing-sails",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-02-07T22:43:44.034Z"
   },
   {
     "url": "",
@@ -4098,11 +4103,11 @@
   },
   {
     "url": "",
-    "name": "Grandchase",
+    "name": "GrandChase",
     "logo": "",
     "native": false,
-    "status": "Running",
-    "reference": "https://www.protondb.com/app/985810",
+    "status": "Supported",
+    "reference": "https://store.steampowered.com/news/app/985810?emclan=103582791470333051&emgid=3861338313403449561",
     "anticheats": [
       "nProtect GameGuard"
     ],
@@ -4112,7 +4117,7 @@
       "steam": "985810"
     },
     "slug": "grandchase",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-02-06T01:21:49.754Z"
   },
   {
     "url": "",
@@ -4322,8 +4327,8 @@
     "name": "Pavlov VR",
     "logo": "",
     "native": false,
-    "status": "Supported",
-    "reference": "https://www.protondb.com/app/555160#Yo-ndZgjd2",
+    "status": "Broken",
+    "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
@@ -4333,7 +4338,7 @@
       "steam": "555160"
     },
     "slug": "pavlov-vr",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-02-16T20:24:01.206Z"
   },
   {
     "url": "https://playdauntless.com/",
@@ -5438,22 +5443,36 @@
     "name": "Roblox",
     "logo": "",
     "native": false,
-    "status": "Running",
-    "reference": "",
+    "status": "Denied",
+    "reference": "https://i.redd.it/wcngc8xapnlc1.png",
     "anticheats": [
       "Hyperion"
     ],
-    "notes": [],
+    "notes": [
+      [
+        "Use Vinegar (Recommended)",
+        "https://vinegarhq.org/"
+      ],
+      [
+        "Use Grapejuice",
+        "https://brinkervii.gitlab.io/grapejuice/"
+      ]
+    ],
     "updates": [
       {
         "name": "Future Wine Support",
         "date": "May 13, 2023, 2:29 PM CDT",
         "reference": "https://user-images.githubusercontent.com/29169102/238155523-b6d53f64-81a1-49a8-be6d-d02d1e784dfb.png"
+      },
+      {
+        "name": "Wine Support Yanked",
+        "date": "Fri, 01 Mar 2024 20:45:14 GMT",
+        "reference": "https://vinegarhq.org/Home/rol_faq.html"
       }
     ],
     "storeIds": {},
     "slug": "roblox",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-03-01T20:45:31.412Z"
   },
   {
     "url": "https://www.boundarygame.com/",
@@ -5494,7 +5513,7 @@
     "name": "PROJECT: PLAYTIME",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -5505,7 +5524,7 @@
       "steam": "1961460"
     },
     "slug": "project-playtime",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-02-10T21:51:14.522Z"
   },
   {
     "url": "https://farlight84.farlightgames.com/",
@@ -5575,7 +5594,7 @@
     "name": "Tom Clancy’s Rainbow Six® Extraction",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Denuvo Anti-Cheat"
@@ -5592,7 +5611,7 @@
       "steam": "2379390"
     },
     "slug": "tom-clancys-rainbow-six-extraction",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-01-27T04:14:03.069Z"
   },
   {
     "url": "https://tfd.nexon.com",
@@ -5916,5 +5935,915 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-01-24T22:55:44.933Z"
+  },
+  {
+    "url": "",
+    "slug": "fear",
+    "name": "F.E.A.R.",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-01-28T03:06:48.598Z"
+  },
+  {
+    "url": "",
+    "slug": "zombie-panic-source",
+    "name": "Zombie Panic! Source",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-03T02:31:35.130Z"
+  },
+  {
+    "url": "",
+    "slug": "madden-nfl-24",
+    "name": "Madden NFL 24",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "",
+    "anticheats": [
+      "EA anticheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-05T22:55:48.842Z"
+  },
+  {
+    "url": "",
+    "slug": "suicide-squad-kill-the-justice-league",
+    "name": "Suicide Squad: Kill the Justice League",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-06T22:55:43.960Z"
+  },
+  {
+    "url": "",
+    "slug": "helldivers-2",
+    "name": "Helldivers 2",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-11T02:53:16.080Z"
+  },
+  {
+    "url": "",
+    "slug": "dungeonborne",
+    "name": "Dungeonborne",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-08T15:26:49.723Z"
+  },
+  {
+    "url": "",
+    "slug": "warface-clutch",
+    "name": "Warface: Clutch",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-09T22:20:45.640Z"
+  },
+  {
+    "url": "",
+    "slug": "dark-messiah-of-might-magic",
+    "name": "Dark Messiah of Might & Magic",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-10T21:52:02.273Z"
+  },
+  {
+    "url": "",
+    "slug": "the-ship-remastered",
+    "name": "The Ship: Remastered",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-12T01:11:04.919Z"
+  },
+  {
+    "url": "",
+    "slug": "synced",
+    "name": "SYNCED",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Proxima Game Anti Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-01-19T04:40:56.000Z"
+  },
+  {
+    "url": "",
+    "slug": "kurtzpel",
+    "name": "KurtzPel",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-12T20:20:01.314Z"
+  },
+  {
+    "url": "",
+    "slug": "hoard",
+    "name": "Hoard",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-13T21:32:45.617Z"
+  },
+  {
+    "url": "",
+    "slug": "veiled-experts",
+    "name": "Veiled Experts",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "BattlEye",
+      "Nexon Game Security"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-14T22:37:23.636Z"
+  },
+  {
+    "url": "",
+    "slug": "enlisted-reinforced",
+    "name": "Enlisted: Reinforced",
+    "logo": "",
+    "native": false,
+    "status": "Planned",
+    "reference": "https://steamcommunity.com/app/2051620/discussions/0/4205867749040592896/",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-14T22:39:24.216Z"
+  },
+  {
+    "url": "",
+    "slug": "fifa-24",
+    "name": "EA SPORTS FC™ 24",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "",
+    "anticheats": [
+      "EA anticheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-15T22:03:53.208Z"
+  },
+  {
+    "url": "",
+    "slug": "tree-of-savior",
+    "name": "Tree of Savior",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC",
+      "Nexon Game Security"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-15T20:52:22.592Z"
+  },
+  {
+    "url": "",
+    "slug": "wargame-european-escalation",
+    "name": "Wargame: European Escalation",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-16T20:24:47.956Z"
+  },
+  {
+    "url": "",
+    "slug": "mini-royale",
+    "name": "Mini Royale",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-17T21:20:07.370Z"
+  },
+  {
+    "url": "https://fivem.net",
+    "slug": "fivem",
+    "name": "FiveM",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "https://forum.cfx.re/t/is-adhesive-by-any-chance-ever-going-to-be-supported-over-fivem-proton/5120618/2?u=hebi_kotei",
+    "anticheats": [
+      "Unknown (Custom)"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Proton is missing UWP-related syscalls",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-02-27T22:14:58.978Z"
+  },
+  {
+    "url": "",
+    "slug": "hawked",
+    "name": "HAWKED",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Mail.ru Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-18T22:01:10.777Z"
+  },
+  {
+    "url": "",
+    "slug": "out-of-reach",
+    "name": "Out of Reach",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-18T22:45:18.024Z"
+  },
+  {
+    "url": "",
+    "slug": "tribes3-rivals",
+    "name": "TRIBES 3: Rivals",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Working in the Open Beta",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-02-19T21:15:15.800Z"
+  },
+  {
+    "url": "",
+    "slug": "frontlines-fuel-of-war",
+    "name": "Frontlines: Fuel of War",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-19T21:33:15.536Z"
+  },
+  {
+    "url": "",
+    "slug": "paragon-the-overprime",
+    "name": "Paragon: The Overprime",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-20T21:06:18.474Z"
+  },
+  {
+    "url": "",
+    "slug": "ark-survival-ascended",
+    "name": "ARK: Survival Ascended",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-20T21:24:07.762Z"
+  },
+  {
+    "url": "",
+    "slug": "midair",
+    "name": "Midair",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-21T21:01:17.761Z"
+  },
+  {
+    "url": "https://heaven-burns-red.com/",
+    "slug": "heaven-burns-red",
+    "name": "ヘブンバーンズレッド (Heaven Burns Red)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Crackproof"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-01-19T04:40:56.000Z"
+  },
+  {
+    "url": "",
+    "slug": "microworks",
+    "name": "Microworks",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-22T20:01:41.780Z"
+  },
+  {
+    "url": "",
+    "slug": "teamfight-tactics",
+    "name": "Teamfight Tactics",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "https://github.com/AreWeAntiCheatYet/AreWeAntiCheatYet/assets/33342705/266b364f-8964-4ae2-9cc4-58e2fd5f9947",
+    "anticheats": [
+      "Vanguard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-22T20:28:08.195Z"
+  },
+  {
+    "url": "",
+    "slug": "smite-2",
+    "name": "Smite 2",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "https://www.gamingonlinux.com/2024/01/smite-2-announced-with-steam-deck-support-from-titan-forge-and-hi-rez-studios/",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-24T04:19:43.190Z"
+  },
+  {
+    "url": "",
+    "slug": "elsword",
+    "name": "Elsword",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-24T04:48:48.953Z"
+  },
+  {
+    "url": "",
+    "slug": "cs2-faceit",
+    "name": "Counter-Strike 2 (FACEIT)",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "https://www.reddit.com/r/FACEITcom/comments/xhdr4s/comment/ioxqucy/",
+    "anticheats": [
+      "FACEIT"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-24T21:38:19.487Z"
+  },
+  {
+    "url": "",
+    "slug": "battle-teams-2",
+    "name": "Battle Teams 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-24T22:08:12.463Z"
+  },
+  {
+    "url": "",
+    "slug": "smash-legends",
+    "name": "SMASH LEGENDS",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-25T21:10:26.783Z"
+  },
+  {
+    "url": "",
+    "slug": "total-war-shogun-2",
+    "name": "Total War: SHOGUN 2",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-25T21:39:06.741Z"
+  },
+  {
+    "url": "",
+    "slug": "aura-kingdom",
+    "name": "Aura Kingdom",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Unknown (Custom)"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-26T21:42:20.639Z"
+  },
+  {
+    "url": "",
+    "slug": "ea-sports-fc-25",
+    "name": "EA SPORTS FC™ 25",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "",
+    "anticheats": [
+      "EA anticheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-26T22:11:11.644Z"
+  },
+  {
+    "url": "",
+    "slug": "magicka-wizard-wars",
+    "name": "Magicka: Wizard Wars",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-27T21:14:34.272Z"
+  },
+  {
+    "url": "https://wotblitz.com/",
+    "slug": "wot-blitz",
+    "name": "World of Tanks Blitz",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Unknown (Custom)"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-27T21:32:37.805Z"
+  },
+  {
+    "url": "",
+    "slug": "mir4",
+    "name": "MIR4",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-28T20:51:23.778Z"
+  },
+  {
+    "url": "",
+    "slug": "fear-perseus-mandate",
+    "name": "F.E.A.R.: Perseus Mandate",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-28T21:13:41.615Z"
+  },
+  {
+    "url": "",
+    "slug": "the-bornless",
+    "name": "The Bornless",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-01T01:24:05.740Z"
+  },
+  {
+    "url": "",
+    "slug": "sky-noon",
+    "name": "Sky Noon",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-01T02:09:30.681Z"
+  },
+  {
+    "url": "",
+    "slug": "combat-arms",
+    "name": "Combat Arms: the Classic",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "BattlEye",
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-01T20:43:59.035Z"
+  },
+  {
+    "url": "",
+    "slug": "soldier-front-2",
+    "name": "Soldier Front 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-02T21:07:33.912Z"
+  },
+  {
+    "url": "",
+    "slug": "once-human",
+    "name": "Once Human",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-03T19:03:48.745Z"
+  },
+  {
+    "url": "",
+    "slug": "abiotic-factor",
+    "name": "Abiotic Factor",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-04T19:43:18.238Z"
+  },
+  {
+    "url": "",
+    "slug": "kartrider-drift",
+    "name": "KartRider: Drift",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Nexon Game Security"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-05T20:12:26.756Z"
+  },
+  {
+    "url": "",
+    "slug": "mecha-break",
+    "name": "Mecha BREAK",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-06T20:43:51.546Z"
+  },
+  {
+    "url": "",
+    "slug": "ark-2",
+    "name": "ARK 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-07T22:15:44.135Z"
+  },
+  {
+    "url": "",
+    "slug": "zzz",
+    "name": "Zenless Zone Zero",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "miHoYo Protect",
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-08T21:26:37.450Z"
+  },
+  {
+    "url": "",
+    "slug": "madden-nfl-25",
+    "name": "Madden NFL 25",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "",
+    "anticheats": [
+      "EA anticheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-10T04:06:17.046Z"
+  },
+  {
+    "url": "",
+    "slug": "gray-zone-warfare",
+    "name": "Gray Zone Warfare",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-10T20:06:54.720Z"
+  },
+  {
+    "url": "",
+    "slug": "alara-prime",
+    "name": "ALARA Prime",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-11T20:17:20.227Z"
+  },
+  {
+    "url": "",
+    "slug": "sea-of-thieves",
+    "name": "Sea of Thieves",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-12T20:11:34.208Z"
+  },
+  {
+    "url": "https://www.ea.com/games/plants-vs-zombies/plants-vs-zombies-garden-warfare-2",
+    "slug": "plants-vs-zombies-garden-warfare-2",
+    "name": "Plants vs Zombies: Garden Warfare 2",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "https://www.ea.com/games/plants-vs-zombies/plants-vs-zombies-garden-warfare-2/news/pvzgw2-anticheat-update",
+    "anticheats": [
+      "EA anticheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-13T21:56:13.188Z"
   }
 ]

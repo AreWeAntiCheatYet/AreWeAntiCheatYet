@@ -60,7 +60,7 @@ export default function App(props: AppProps) {
             </Head>
 
             <Script
-                src="https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.at%2Cdefault"
+                src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=Array.prototype.at%2Cdefault"
                 strategy="beforeInteractive"
             />
 
