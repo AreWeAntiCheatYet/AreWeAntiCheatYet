@@ -3933,18 +3933,12 @@
     "name": "Battlefield V",
     "logo": "",
     "native": false,
-    "status": "Denied",
+    "status": "Supported",
     "reference": "https://www.protondb.com/app/1238810",
     "anticheats": [
-      "FairFight",
-      "EA anticheat"
+      "FairFight"
     ],
-    "notes": [
-      [
-        "No longer works due to the implementation of EA Anticheat",
-        ""
-      ]
-    ],
+    "notes": [],
     "updates": [],
     "storeIds": {
       "steam": "1238810",
