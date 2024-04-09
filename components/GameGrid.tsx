@@ -24,7 +24,7 @@ export default function ({ page, games, totalPages, assets, ...props }: GameGrid
 
   return (
     <Stack align="center" {...props}>
-      <Group position="center">
+      <Group justify="center">
         <Filters games={filteredGames} page={page} initialGames={games} setFiltered={setFiltered} setGames={setGames} />
       </Group>
       <SimpleGrid
