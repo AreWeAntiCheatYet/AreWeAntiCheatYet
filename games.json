@@ -3933,10 +3933,10 @@
     "name": "Battlefield V",
     "logo": "",
     "native": false,
-    "status": "Supported",
-    "reference": "https://www.protondb.com/app/1238810",
+    "status": "Denied",
+    "reference": "https://www.ea.com/games/battlefield/battlefield-2042/news/eaac-and-battlefield",
     "anticheats": [
-      "FairFight"
+      "EA anticheat"
     ],
     "notes": [],
     "updates": [],
@@ -3948,7 +3948,7 @@
       }
     },
     "slug": "battlefield-v",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-04-09T20:44:09.962Z"
   },
   {
     "url": "",
