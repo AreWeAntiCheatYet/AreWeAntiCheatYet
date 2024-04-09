@@ -43,9 +43,9 @@ export default function({ style }) {
         // to try and edit the slug in any way. the question now becomes what could I use
         // as a key instead? the index? do I even need a key here anymore?
         <Accordion.Item key={slug} value={slug}>
-            <Box sx={{ display: "flex", alignItems: "center" }}>
+            <Box style={{ display: "flex", alignItems: "center" }}>
                 <Accordion.Control>
-                    <Group noWrap>
+                    <Group wrap="nowrap">
                         <Avatar src={game.logo} radius="xl" size="lg" />
                         <Text>{game.name}</Text>
                     </Group>
@@ -65,7 +65,7 @@ export default function({ style }) {
                     <IconTrash size={16} />
                 </ActionIcon>
             </Box>
-            <Stack key={slug}>
+            <Stack key={slug} align="stretch" justify="center">
                 <TextInput label="URL" {...form.getInputProps(`${idx}.url`)} />
                 <TextInput label="Slug" required {...form.getInputProps(`${idx}.slug`)} />
                 <TextInput label="Game Name" required {...form.getInputProps(`${idx}.name`)} />
@@ -122,16 +122,18 @@ export default function({ style }) {
 
     return (
         <Stack align="center">
-            <ScrollArea type="never" w={style ? undefined : width * 0.8} sx={style}>
+            You should never see this text. This text purely exists to push down the dropdown into view. If you can see this text, notify a maintainer.
+            <NativeSelect id="gamesDropdown" data={
+                // QUEST: should I use value here instead of defaultValue
+                form.values.map((game) => {
+                    return game.name;
+                }
+                )} label="Games" onChange={(e) => {
+                    setSelectedGame(e.currentTarget.selectedIndex)
+                }} defaultValue={form.values[selectedGame].name} />
+
+            <ScrollArea type="never" w={style ? undefined : width * 0.8} className={style}>
                 <Accordion defaultValue="gamelist" >
-                    <NativeSelect id="gamesDropdown" data={
-                        // QUEST: should I use value here instead of defaultValue
-                        form.values.map((game) => {
-                            return game.name;
-                        }
-                        )} label="Games" onChange={(e) => {
-                            setSelectedGame(e.currentTarget.selectedIndex)
-                        }} defaultValue={form.values[selectedGame].name} />
                     <form>
                         {body}
 

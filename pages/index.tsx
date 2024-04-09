@@ -10,55 +10,56 @@ import { allImages } from '../src/assets';
 import { Games, paginationSize } from '../src/static';
 import { paginate, stats } from '../src/utils/games';
 import BreakdownLink from '../components/BreakdownLink';
+import { IconBlockquote } from '@tabler/icons-react';
 
 // TODO: "Request Changes" Page
 
 export const getStaticProps = async () => {
-  const paginated = paginate(paginationSize);
+    const paginated = paginate(paginationSize);
 
-  const images = await allImages(Games);
-  const currentGames = paginated.at(0);
-  const totalPages = paginated.length;
+    const images = await allImages(Games);
+    const currentGames = paginated.at(0);
+    const totalPages = paginated.length;
 
-  const { ...statuses } = stats();
-  const total = Games.length;
+    const { ...statuses } = stats();
+    const total = Games.length;
 
-  return { props: { ...statuses, total, totalPages, currentGames, images } };
+    return { props: { ...statuses, total, totalPages, currentGames, images } };
 };
 
-export default function ({
-  totalPages,
-  currentGames,
-  images: _images,
-  ...props
+export default function({
+    totalPages,
+    currentGames,
+    images: _images,
+    ...props
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { overview, display } = useContext(SettingsContext);
-  const images = new Map(_images);
+    const { overview, display } = useContext(SettingsContext);
+    const images = new Map(_images);
 
-  return (
-    <>
-      <noscript>
-        {/* eslint-disable @next/next/no-html-link-for-pages */}
-        <a href="/no-js">You can find the non-javascript page without pagination here.</a>
-        <style> {'.needsJavascript { display: none }'} </style>
-        <meta httpEquiv="refresh" content="0;url=no-js" />
-      </noscript>
+    return (
+        <>
+            <noscript>
+                {/* eslint-disable @next/next/no-html-link-for-pages */}
+                <a href="/no-js">You can find the non-javascript page without pagination here.</a>
+                <style> {'.needsJavascript { display: none }'} </style>
+                <meta httpEquiv="refresh" content="0;url=no-js" />
+            </noscript>
 
-      <Stack className="needsJavascript" align="center" mt={70}>
-        <Blockquote cite="- Starz0r" mb={50}>
-          A comprehensive and crowd-sourced list of games using anti-cheats and their compatibility with GNU/Linux or
-          Wine/Proton.
-        </Blockquote>
+            <Stack className="needsJavascript" align="center" mt={70}>
+                <Blockquote cite="- Starz0r" mb={50} color="grey" icon={<IconBlockquote />}>
+                    A comprehensive and crowd-sourced list of games using anti-cheats and their compatibility with GNU/Linux or
+                    Wine/Proton.
+                </Blockquote>
 
-        <Overview variant={overview} {...props} />
-        <Legend mt={30} />
-        <BreakdownLink />
-        {display === 'grid' ? (
-          <GameGrid page={1} totalPages={totalPages} games={currentGames} assets={images} mt={50} mb={20} />
-        ) : (
-          <GameTable page={1} totalPages={totalPages} assets={images} games={currentGames} mt={50} mb={20} />
-        )}
-      </Stack>
-    </>
-  );
+                <Overview variant={overview} {...props} />
+                <Legend mt={30} />
+                <BreakdownLink />
+                {display === 'grid' ? (
+                    <GameGrid page={1} totalPages={totalPages} games={currentGames} assets={images} mt={50} mb={20} />
+                ) : (
+                    <GameTable page={1} totalPages={totalPages} assets={images} games={currentGames} mt={50} mb={20} />
+                )}
+            </Stack>
+        </>
+    );
 }
