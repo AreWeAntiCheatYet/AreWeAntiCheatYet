@@ -66,7 +66,7 @@ export function stats(games = Games): {
 export function paginate(chunkSize: number, games = Games) {
   const rtn: Game[][] = [];
 
-  for (let i = 0; chunkSize > i; i++) {
+  for (let i = 0; games.length / chunkSize > i; i++) {
     const start = chunkSize * i;
     const end = i === chunkSize - 1 ? undefined : chunkSize * (i + 1);
 
