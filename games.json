@@ -6845,5 +6845,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-03-13T21:56:13.188Z"
+  },
+  {
+    "url": "",
+    "slug": "csgo-esl",
+    "name": "Counter-Strike: Global Offensive (ESL)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "ESL Wire"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-13T21:56:13.188Z"
   }
 ]
