@@ -1,3 +1,20 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json"
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "enabled": true,
+    "vulnerabilityAlerts": {
+        "enabled": true,
+        "groupName": null,
+        "schedule": [],
+        "dependencyDashboardApproval": false,
+        "minimumReleaseAge": null,
+        "rangeStrategy": "update-lockfile",
+        "commitMessageSuffix": "node: ",
+        "branchTopic": "{{{datasource}}}-{{{depName}}}-vulnerability",
+        "prCreation": "immediate"
+    },
+    "automerge": false,
+    "separateMinorPatch": true,
+    "npm": {
+        "minimumReleaseAge": "14 days"
+    }
 }
