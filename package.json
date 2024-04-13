@@ -20,7 +20,7 @@
     "@mantine/modals": "7.0.0",
     "@mantine/next": "6.0.21",
     "@mantine/notifications": "7.0.0",
-    "@mantinex/mantine-header": "1.0.1",
+    "@mantinex/mantine-header": "1.0.2",
     "@next/bundle-analyzer": "13.2.4",
     "@tabler/icons-react": "2.7.0",
     "dayjs": "1.11.7",
