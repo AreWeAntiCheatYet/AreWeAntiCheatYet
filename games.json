@@ -521,6 +521,10 @@
       [
         "Enabled on Steam and Epic Games Store.",
         "https://store.steampowered.com/news/app/381210/view/3723958226061651097"
+      ],
+      [
+        "Epic Games Store version might be broken. Steam Recommended.",
+        null
       ]
     ],
     "updates": [
@@ -553,7 +557,7 @@
       }
     },
     "slug": "dead-by-daylight",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-04-13T22:01:29.190Z"
   },
   {
     "url": "http://www.destinythegame.com/",
