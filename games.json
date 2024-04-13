@@ -170,9 +170,10 @@
     "logo": "",
     "native": false,
     "status": "Supported",
-    "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/1022",
+    "reference": "https://www.gamingonlinux.com/2024/03/halo-infinite-added-easy-anti-cheat-enabled-for-linux-steam-deck/",
     "anticheats": [
-      "Arbiter"
+      "Arbiter",
+      "Easy Anti-Cheat"
     ],
     "notes": [
       [
@@ -191,7 +192,7 @@
       "steam": "1240440"
     },
     "slug": "halo-infinite",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-04-11T19:24:20.671Z"
   },
   {
     "url": "https://www.back4blood.com/",
@@ -6877,5 +6878,26 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-03-13T21:56:13.188Z"
+  },
+  {
+    "url": "",
+    "slug": "midair-2",
+    "name": "Midair 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Speculative, Unreleased",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-04-13T00:38:46.049Z"
   }
 ]
