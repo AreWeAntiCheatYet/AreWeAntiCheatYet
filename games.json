@@ -6903,5 +6903,21 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-04-13T00:38:46.049Z"
+  },
+  {
+    "url": "",
+    "slug": "2xko",
+    "name": "2XKO",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "Unreleased, Speculative",
+    "anticheats": [
+      "Vanguard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-04-13T23:13:17.478Z"
   }
 ]
