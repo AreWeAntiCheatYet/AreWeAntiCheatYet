@@ -12,9 +12,28 @@
         "branchTopic": "{{{datasource}}}-{{{depName}}}-vulnerability",
         "prCreation": "immediate"
     },
+    "lockFileMaintenance": {
+        "enabled": true,
+        "recreateWhen": "always",
+        "rebaseStalePrs": true,
+        "branchTopic": "lock-file-maintenance",
+        "commitMessageAction": "Lock file maintenance",
+        "commitMessageTopic": null,
+        "commitMessageExtra": null,
+        "schedule": [
+            "before 4am on monday"
+        ],
+        "groupName": null,
+        "prBodyDefinitions": {
+            "Change": "All locks refreshed"
+        }
+    },
     "automerge": false,
     "separateMinorPatch": true,
+    "prConcurrentLimit": 15,
+    "prHourlyLimit": 5,
     "npm": {
+        "enabled": true,
         "minimumReleaseAge": "14 days"
     }
 }
