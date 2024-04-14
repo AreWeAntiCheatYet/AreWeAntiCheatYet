@@ -34,7 +34,7 @@ jobs:
       - name: 📝 Generate RSS-Feed
         run: 'cd current && yarn gen-rss ../previous/games.json'
 
-      - uses: EndBug/add-and-commit@v9.1.3
+      - uses: EndBug/add-and-commit@v9.1.4
         with:
           push: true
           cwd: './current'
