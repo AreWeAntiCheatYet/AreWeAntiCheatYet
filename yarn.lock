@@ -437,10 +437,10 @@
     clsx "1.1.1"
     csstype "3.0.9"
 
-"@mantinex/mantine-header@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/@mantinex/mantine-header/-/mantine-header-1.0.1.tgz"
-  integrity sha512-qokGmi5ObNjdnnzMtSXqJarY5idwOCaFvGcybSfYlYuvKxZHvwr4txPIARpdBkYXo21hCfzU4khpjISX+JJc9w==
+"@mantinex/mantine-header@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@mantinex/mantine-header/-/mantine-header-1.0.2.tgz#abbb4f1637048130f54da0d9a853125554b8b36b"
+  integrity sha512-K6N2Lpm71MgCkXRVLjcWjzCHiAxy9cQrVHyycChloE3mSitFYwKcqVxpCpa/Xbq9+/3VnH1EpI61QT5nW299RQ==
 
 "@next/bundle-analyzer@13.2.4":
   version "13.2.4"
