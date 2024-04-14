@@ -408,12 +408,12 @@
     "@mantine/ssr" "6.0.21"
     "@mantine/styles" "6.0.21"
 
-"@mantine/notifications@7.0.2":
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/@mantine/notifications/-/notifications-7.0.2.tgz#20b3c445e9921e33e65a40d9dd16fbf9c5eee52c"
-  integrity sha512-cTRO/uF3PgW4hUEQkQ57bl4r/+BnA4HN52NXF6auMWxIIhrS5x2t98ra215rqMTNAfedeAEMGARMwBtlGj6MqQ==
+"@mantine/notifications@7.7.1":
+  version "7.7.1"
+  resolved "https://registry.yarnpkg.com/@mantine/notifications/-/notifications-7.7.1.tgz#f004fe608413b418712d8119793b557e845099c9"
+  integrity sha512-UGs3r4CU2hy1Vt0TVtdorDufpI7LWCd4P7qZP0US+mXVeeZqHkNTCiwRTwlledhfaIdqERmmQn9OD2lJu8Wblg==
   dependencies:
-    "@mantine/store" "7.0.2"
+    "@mantine/store" "7.7.1"
     react-transition-group "4.4.5"
 
 "@mantine/ssr@6.0.21":
@@ -424,10 +424,10 @@
     "@mantine/styles" "6.0.21"
     html-react-parser "1.4.12"
 
-"@mantine/store@7.0.2":
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/@mantine/store/-/store-7.0.2.tgz#cb3288829c75c5d6b96555cab33c58c72cc32c3d"
-  integrity sha512-0OAca3r/IQ6c7Pb6YvmL+5hyCo31vA3SfZKTwb1KquX4SjFfjpdhPuTR/tzjmxqwIw4zkzXH/7ckNZ/AHHwm8A==
+"@mantine/store@7.7.1":
+  version "7.7.1"
+  resolved "https://registry.yarnpkg.com/@mantine/store/-/store-7.7.1.tgz#c1e197777651e1140df63b838f282a9e9c2aa98d"
+  integrity sha512-dmuCOLCFlVHYhZARFsi5YckFQR2Vr4giOgs0X1hczqCVUnRDRIgRusAO5GjUhQrtNxfN0EWwFywjLdcrLkA6Lg==
 
 "@mantine/styles@6.0.21":
   version "6.0.21"
