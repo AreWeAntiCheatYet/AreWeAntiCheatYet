@@ -2112,7 +2112,7 @@
     "updates": [],
     "storeIds": {},
     "slug": "combat-arms-reloaded",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-01-20T04:40:56.000Z"
   },
   {
     "url": "",
@@ -6294,7 +6294,8 @@
     "status": "Supported",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "Easy Anti-Cheat",
+	  "Denuvo Anti-Cheat"
     ],
     "updates": [],
     "notes": [
@@ -6304,7 +6305,7 @@
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-02-19T21:15:15.800Z"
+    "dateChanged": "2024-02-20T21:15:15.800Z"
   },
   {
     "url": "",
