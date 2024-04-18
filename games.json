@@ -1174,10 +1174,10 @@
     "name": "Plants vs. Zombies: Battle for Neighborville",
     "logo": "",
     "native": false,
-    "status": "Supported",
-    "reference": "https://www.protondb.com/app/1262240#ZGsEq7x6Kb",
+    "status": "Denied",
+    "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "EA anticheat"
     ],
     "notes": [],
     "updates": [
@@ -1185,13 +1185,18 @@
         "name": "Added required EAC files",
         "date": "Mar 31, 2022, 1:23 AM UTC",
         "reference": "https://steamdb.info/app/1262240/history/?changeid=14379241"
-      }
+      },
+	  {
+		  "name": "Game uses the now incompatible EA anticheat",
+		  "date": "2024-04-18T23:10:43Z",
+		  "reference": "https://answers.ea.com/t5/Other-Plants-vs-Zombies-Games/ANNOUNCEMENT-Plants-vs-Zombies-Battle-for-Neighborville/td-p/13645726",
+	  }
     ],
     "storeIds": {
       "steam": "1262240"
     },
     "slug": "plants-vs-zombies-battle-for-neighborville",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-01-20T04:40:56.000Z"
   },
   {
     "url": "https://www.hellletloose.com/",
