@@ -320,7 +320,7 @@
     "notes": [
       [
         "Show your support!",
-        "https://r6fix.ubi.com/projects/RAINBOW6-SIEGE-LIVE/issues/LIVE-49179"
+        "https://r6fix.ubi.com/projects/RAINBOW6-SIEGE-LIVE/issues/LIVE-57005"
       ]
     ],
     "updates": [
@@ -343,6 +343,11 @@
         "name": "Show your support! (Bug tracker)",
         "date": "May 16, 2023, 0:00 UTC",
         "reference": "https://r6fix.ubi.com/projects/RAINBOW6-SIEGE-LIVE/issues/LIVE-49179"
+      },
+      {
+        "name": "Show your support! (Bug tracker)",
+        "date": "March 23, 2024, 0:00 UTC",
+        "reference": "https://r6fix.ubi.com/projects/RAINBOW6-SIEGE-LIVE/issues/LIVE-58221"
       }
     ],
     "storeIds": {
@@ -353,7 +358,7 @@
       }
     },
     "slug": "rainbow-six-siege",
-    "dateChanged": "2024-03-13T21:55:26.695Z"
+    "dateChanged": "2024-03-14T21:55:26.695Z"
   },
   {
     "url": "https://www.smitegame.com/",
