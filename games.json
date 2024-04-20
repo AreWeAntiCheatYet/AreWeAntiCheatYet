@@ -6425,9 +6425,18 @@
       "Vanguard"
     ],
     "updates": [],
-    "notes": [],
+    "notes": [
+      [
+        "Playable on Android through Waydroid",
+        null
+      ],
+      [
+        "Alternatively available on iOS",
+        null
+      ]
+    ],
     "storeIds": {},
-    "dateChanged": "2024-02-22T20:28:08.195Z"
+    "dateChanged": "2024-02-23T20:28:08.195Z"
   },
   {
     "url": "",
