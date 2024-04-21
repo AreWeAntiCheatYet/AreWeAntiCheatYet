@@ -2431,8 +2431,8 @@
     "name": "Intruder",
     "logo": "",
     "native": false,
-    "status": "Denied",
-    "reference": "https://user-images.githubusercontent.com/13716824/154804088-77eefcbb-a8c5-4877-963a-cc36b60b33d9.png",
+    "status": "Running",
+    "reference": "https://steamdb.info/patchnotes/13913874/#experimental-linux-compatibility-other-housekeeping",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
@@ -2442,7 +2442,7 @@
       "steam": "518150"
     },
     "slug": "intruder",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-01-20T04:40:56.000Z"
   },
   {
     "url": "",
