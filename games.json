@@ -5039,20 +5039,32 @@
     "url": "https://midnightghosthunt.com/",
     "name": "Midnight Ghost Hunt",
     "logo": "",
-    "status": "Broken",
+    "status": "Running",
     "native": false,
-    "reference": "https://www.protondb.com/app/700330#lFAi9NdOla",
+    "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
     "notes": [
       [
         "Tooltip Videos can cause crashes (Disable in Options > Gameplay)",
-        ""
+        null
       ],
       [
         "While the game is listed as broken, you may have luck when running steam inside of flatpak",
         "https://github.com/Starz0r/AreWeAntiCheatYet/issues/903"
+      ],
+      [
+        "Proton 9>= Required",
+        null
+      ],
+      [
+        "EOS Bootstrapper might fail on initial launch",
+        null
+      ],
+	  [
+        "Posing as the Steam Deck could help (env SteamDeck=1)",
+        null
       ]
     ],
     "updates": [
@@ -5066,7 +5078,7 @@
       "steam": "915810"
     },
     "slug": "midnight-ghost-hunt",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-01-20T04:40:56.000Z"
   },
   {
     "url": "https://www.playredfox.com/rumble_fighter",
