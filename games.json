@@ -7042,5 +7042,26 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-03-13T21:56:13.188Z"
+  },
+  {
+    "url": "",
+    "slug": "arena-breakout-infinite",
+    "name": "Arena Breakout: Infinite",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-03-13T21:56:13.188Z"
   }
 ]
