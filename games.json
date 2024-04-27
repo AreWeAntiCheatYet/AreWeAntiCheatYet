@@ -5158,7 +5158,12 @@
     "anticheats": [
       "Easy Anti-Cheat"
     ],
-    "notes": [],
+    "notes": [
+		[
+			"Steam Flatpak Recommended",
+			null
+		]
+	],
     "updates": [
       {
         "name": "Does this prevent people from playing VRChat on platforms like SteamOS on the Steam Deck? - NO!",
@@ -5170,7 +5175,7 @@
       "steam": "438100"
     },
     "slug": "vrchat",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-01-20T04:40:56.000Z"
   },
   {
     "url": "https://www.nttgameonline.com/knight/",
