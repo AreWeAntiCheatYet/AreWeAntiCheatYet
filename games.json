@@ -7068,5 +7068,21 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-03-13T21:56:13.188Z"
+  },
+  {
+    "url": "",
+    "slug": "pixel-gun-3d-pc-edition",
+    "name": "Pixel Gun 3D: PC Edition",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-13T21:56:13.188Z"
   }
 ]
