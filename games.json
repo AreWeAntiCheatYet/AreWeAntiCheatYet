@@ -7142,5 +7142,21 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-03-13T21:56:13.188Z"
+  },
+  {
+    "url": "",
+    "slug": "wow",
+    "name": "World of Warcraft",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Warden"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-13T21:56:13.188Z"
   }
 ]
