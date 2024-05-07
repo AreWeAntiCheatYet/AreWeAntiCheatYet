@@ -1191,11 +1191,11 @@
         "date": "Mar 31, 2022, 1:23 AM UTC",
         "reference": "https://steamdb.info/app/1262240/history/?changeid=14379241"
       },
-	  {
-		  "name": "Game uses the now incompatible EA anticheat",
-		  "date": "2024-04-18T23:10:43Z",
-		  "reference": "https://answers.ea.com/t5/Other-Plants-vs-Zombies-Games/ANNOUNCEMENT-Plants-vs-Zombies-Battle-for-Neighborville/td-p/13645726"
-	  }
+      {
+        "name": "Game uses the now incompatible EA anticheat",
+        "date": "2024-04-18T23:10:43Z",
+        "reference": "https://answers.ea.com/t5/Other-Plants-vs-Zombies-Games/ANNOUNCEMENT-Plants-vs-Zombies-Battle-for-Neighborville/td-p/13645726"
+      }
     ],
     "storeIds": {
       "steam": "1262240"
@@ -2116,7 +2116,7 @@
     "reference": "",
     "anticheats": [
       "BattlEye",
-	  "nProtect GameGuard"
+      "nProtect GameGuard"
     ],
     "notes": [],
     "updates": [],
@@ -5062,7 +5062,7 @@
         "EOS Bootstrapper might fail on initial launch",
         null
       ],
-	  [
+      [
         "Posing as the Steam Deck could help (env SteamDeck=1)",
         null
       ]
@@ -5159,11 +5159,11 @@
       "Easy Anti-Cheat"
     ],
     "notes": [
-		[
-			"Steam Flatpak Recommended",
-			null
-		]
-	],
+      [
+        "Steam Flatpak Recommended",
+        null
+      ]
+    ],
     "updates": [
       {
         "name": "Does this prevent people from playing VRChat on platforms like SteamOS on the Steam Deck? - NO!",
@@ -6322,7 +6322,7 @@
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat",
-	  "Denuvo Anti-Cheat"
+      "Denuvo Anti-Cheat"
     ],
     "updates": [],
     "notes": [
@@ -6853,9 +6853,14 @@
       "Easy Anti-Cheat"
     ],
     "updates": [],
-    "notes": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
     "storeIds": {},
-    "dateChanged": "2024-03-11T20:17:20.227Z"
+    "dateChanged": "2024-05-07T03:28:06.795Z"
   },
   {
     "url": "",
