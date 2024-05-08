@@ -7200,5 +7200,26 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-03-13T21:56:13.188Z"
+  },
+  {
+    "url": "https://wutheringwaves.kurogames.com/en/",
+    "slug": "wuthering-waves",
+    "name": "Wuthering Waves",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Broken in Closed Beta",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-05-06T10:56:58.594Z"
   }
 ]
