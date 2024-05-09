@@ -6954,14 +6954,19 @@
     "logo": "",
     "native": false,
     "status": "Denied",
-    "reference": "Unreleased, Speculative",
+    "reference": "",
     "anticheats": [
       "Vanguard"
     ],
     "updates": [],
-    "notes": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
     "storeIds": {},
-    "dateChanged": "2024-04-13T23:13:17.478Z"
+    "dateChanged": "2024-05-09T00:08:00.889Z"
   },
   {
     "url": "",
