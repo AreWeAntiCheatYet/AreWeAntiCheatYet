@@ -1,7 +1,6 @@
-import { ActionIcon, AppShell, Group, Image, Title, useMantineColorScheme, useMantineTheme } from '@mantine/core';
+import { ActionIcon, AppShell, Group, Image, MantineColor, Title, useMantineColorScheme, useMantineTheme } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
 import { openConfirmModal, openModal } from '@mantine/modals';
-import { HeaderControl } from '@mantinex/mantine-header';
 import { IconBellRinging, IconCopyleft, IconSettings } from '@tabler/icons-react';
 import { useRouter } from 'next/router';
 import { useContext } from 'react';
@@ -20,6 +19,7 @@ function Head() {
     const router = useRouter();
 
     const background = colorScheme === 'dark' ? theme.colors.dark[6] : theme.colors.gray[2];
+    const iconColor = colorScheme === 'dark' ? "white" : "black";
 
     return (
         <AppShell.Header bg={background}>
@@ -35,14 +35,18 @@ function Head() {
                 <Group justify="center">
                     <ThemeToggle />
                     {changes.length > 0 && (
-                        <ActionIcon variant="subtle" color="white" onClick={() => openConfirmModal(ChangesModal(changesBreakpoint, changes, setPreviousGames))}>
+                        <ActionIcon 
+                            variant="subtle" 
+                            color={iconColor} 
+                            onClick={() => openConfirmModal(ChangesModal(changesBreakpoint, changes, setPreviousGames))}
+                        >
                             <IconBellRinging />
                         </ActionIcon>
                     )}
-                    <ActionIcon variant="subtle" color="white" onClick={() => openModal({ children: <Credits mt={-45} /> })}>
+                    <ActionIcon variant="subtle" color={iconColor} onClick={() => openModal({ children: <Credits mt={-45} /> })}>
                         <IconCopyleft />
                     </ActionIcon>
-                    <ActionIcon variant="subtle" color="white" onClick={() => openModal({ children: <Settings /> })}>
+                    <ActionIcon variant="subtle" color={iconColor} onClick={() => openModal({ children: <Settings /> })}>
                         <IconSettings />
                     </ActionIcon>
                 </Group>
