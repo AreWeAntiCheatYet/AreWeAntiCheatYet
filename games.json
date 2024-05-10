@@ -6659,9 +6659,14 @@
       "Easy Anti-Cheat"
     ],
     "updates": [],
-    "notes": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
     "storeIds": {},
-    "dateChanged": "2024-03-01T01:24:05.740Z"
+    "dateChanged": "2024-05-10T04:47:27.068Z"
   },
   {
     "url": "",
