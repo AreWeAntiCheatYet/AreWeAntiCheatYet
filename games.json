@@ -6777,12 +6777,7 @@
       "Easy Anti-Cheat"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {},
     "dateChanged": "2024-03-06T20:43:51.546Z"
   },
@@ -6798,12 +6793,7 @@
       "BattlEye"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {},
     "dateChanged": "2024-03-07T22:15:44.135Z"
   },
@@ -6820,9 +6810,14 @@
       "Anti-Cheat Expert"
     ],
     "updates": [],
-    "notes": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
     "storeIds": {},
-    "dateChanged": "2024-03-08T21:26:37.450Z"
+    "dateChanged": "2024-05-15T03:18:26.337Z"
   },
   {
     "url": "",
