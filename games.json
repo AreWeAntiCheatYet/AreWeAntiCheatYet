@@ -6579,7 +6579,12 @@
       "EA anticheat"
     ],
     "updates": [],
-    "notes": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
     "storeIds": {},
     "dateChanged": "2024-02-26T22:11:11.644Z"
   },
