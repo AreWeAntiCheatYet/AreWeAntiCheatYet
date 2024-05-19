@@ -6579,12 +6579,7 @@
       "EA anticheat"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-26T22:11:11.644Z"
   },
@@ -7246,5 +7241,21 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-05-06T10:56:58.594Z"
+  },
+  {
+    "url": "",
+    "slug": "dota-underlords",
+    "name": "Dota Underlords",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-05-19T21:56:41.247Z"
   }
 ]
