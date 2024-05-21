@@ -7257,5 +7257,26 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-05-19T21:56:41.247Z"
+  },
+  {
+    "url": "",
+    "slug": "battle-crush",
+    "name": "Battle Crush",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-05-20T21:30:11.790Z"
   }
 ]
