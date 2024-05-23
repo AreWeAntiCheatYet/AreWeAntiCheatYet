@@ -1,41 +1,47 @@
 name: Update Game
-description: Request changes to a game that is already on the list
+description: Request changes to a game that is already on the list.
 title: 'Update <Game Name Here>'
 
 body:
   - type: input
     id: game
     attributes:
-      label: Game Title
-      placeholder: ex. Team Fortress 2
+      label: Game title
+      placeholder: e.g. Team Fortress 2
     validations:
       required: true
   - type: dropdown
     id: anti-cheat-status
     attributes:
-      label: Status of the Anti-Cheat
-      description: What is the state of the game? (For more in depth definitions see "Legend" on https://areweanticheatyet.com)
+      label: Status of the game anti-cheat
+      description: What is the state of the game anti-cheat? (For more in depth definitions, see "Legend" on <https://areweanticheatyet.com>.)
       options:
-        - 🚫 Denied
-        - 😥 Broken
-        - 🕧 Planned
-        - 👍 Running
         - ⭐ Supported
+        - 👍 Running
+        - 🕧 Planned
+        - 😥 Broken
+        - 🚫 Denied
     validations:
       required: true
   - type: textarea
     id: tinkering-steps
     attributes:
-      label: Tinkering Steps
-      description: In case tinkering is required please describe the steps here.
-      placeholder: ex. use steam flatpak
+      label: Tinkering steps
+      description: In case tinkering is required, please describe the steps here.
+      placeholder: e.g. use Steam Flatpak
     validations:
       required: false
   - type: input
-    id: anti-cheat-comment
+    id: anti-cheat-proof
     attributes:
-      label: Proof of Mention
-      description: A reputable source that supports your claim of the games status. (https://github.com/Starz0r/AreWeAntiCheatYet/issues/15#issuecomment-1140423344)
-      placeholder: ex. https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic
+      label: Proof of mention
+      description: A reputable source that supports your claim of the game anti-cheat status. (See <https://github.com/Starz0r/AreWeAntiCheatYet/issues/15#issuecomment-1140423344>.)
+      placeholder: e.g. https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic
     validations:
       required: true
+  - type: textarea
+    id: additional-comments
+    attributes:
+      label: Additional comments
+    validations:
+      required: false
