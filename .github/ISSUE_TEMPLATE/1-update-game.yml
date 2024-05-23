@@ -1,4 +1,4 @@
-name: Update Game
+name: Update status
 description: Request changes to a game that is already on the list.
 title: 'Update <Game Name Here>'
 

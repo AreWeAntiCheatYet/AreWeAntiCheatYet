@@ -1,4 +1,4 @@
-name: Request Game
+name: Request game
 description: Request a new game to be added to the list.
 title: 'Request <Game Name Here>'
 labels: ['new-game', 'status-change']
