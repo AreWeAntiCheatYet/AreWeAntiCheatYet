@@ -16,10 +16,10 @@ body:
       label: Status of the game anti-cheat
       description: What is the state of the game anti-cheat? (For more in depth definitions, see "Legend" on <https://areweanticheatyet.com>.)
       options:
-        - ⭐ Supported
-        - 👍 Running
+        - 🚀 Supported
+        - 🏃 Running
         - 🕧 Planned
-        - 😥 Broken
+        - ☹️ Broken
         - 🚫 Denied
     validations:
       required: true
