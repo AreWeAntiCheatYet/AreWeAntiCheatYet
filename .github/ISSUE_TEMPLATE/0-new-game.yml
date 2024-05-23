@@ -13,9 +13,9 @@ body:
   - type: input
     id: game-url
     attributes:
-      label: Game website/main page
-      description: A valid hyperlink to the game's website/main page (Steam Store etc.).
-      placeholder: e.g. https://www.teamfortress.com/
+      label: Game main page
+      description: A valid hyperlink to the game's website or main page (Steam Store etc.).
+      placeholder: e.g. https://www.teamfortress.com/ or https://store.steampowered.com/app/440/Team_Fortress_2/
     validations:
       required: true
   - type: dropdown
@@ -35,7 +35,7 @@ body:
     validations:
       required: true
   - type: input
-    id: other-anti-cheat
+    id: anti-cheat-other
     attributes:
         label: Anti-cheat name
         description: If you selected "Other" in the previous question, please specify the anti-cheat name here.
