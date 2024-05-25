@@ -7331,5 +7331,26 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-05-25T00:57:37.684Z"
+  },
+  {
+    "url": "",
+    "slug": "wakerunners",
+    "name": "Wakerunners",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Nexon Game Security"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-05-25T17:40:12.974Z"
   }
 ]
