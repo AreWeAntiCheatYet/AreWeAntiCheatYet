@@ -6955,7 +6955,7 @@
     "updates": [],
     "notes": [
       [
-        "Unreleased, Speculative",
+        "Speculative, Unreleased",
         null
       ]
     ],
@@ -7315,5 +7315,21 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-05-22T22:24:18.973Z"
+  },
+  {
+    "url": "",
+    "slug": "starcraft-ii",
+    "name": "StarCraft II",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Warden"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-05-25T00:57:37.684Z"
   }
 ]
