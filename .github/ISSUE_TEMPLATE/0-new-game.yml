@@ -1,6 +1,6 @@
 name: Request game
 description: Request a new game to be added to the list.
-title: 'Request <Game Name Here>'
+title: 'Request: <game>'
 labels: ['new-game', 'status-change']
 body:
   - type: input
