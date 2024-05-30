@@ -1,7 +1,7 @@
 name: Update status
 description: Request changes to a game that is already on the list.
 title: 'Update: <game>'
-labels: ['status-change']
+
 body:
   - type: input
     id: game
