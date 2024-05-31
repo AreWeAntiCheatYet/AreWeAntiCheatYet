@@ -7421,5 +7421,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-05-30T23:18:21.782Z"
+  },
+  {
+    "url": "",
+    "slug": "dota-2-for-faceit",
+    "name": "Dota 2 (FACEIT)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "FACEIT"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-05-31T16:21:54.157Z"
   }
 ]
