@@ -7437,5 +7437,26 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-05-31T16:21:54.157Z"
+  },
+  {
+    "url": "",
+    "slug": "perfect-world-m",
+    "name": "Perfect World M",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-06-04T03:16:39.288Z"
   }
 ]
