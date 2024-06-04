@@ -7458,5 +7458,21 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-06-04T03:16:39.288Z"
+  },
+  {
+    "url": "",
+    "slug": "killer-klowns-from-outer-space-the-game",
+    "name": "Killer Klowns from Outer Space: The Game",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-06-04T19:34:56.201Z"
   }
 ]
