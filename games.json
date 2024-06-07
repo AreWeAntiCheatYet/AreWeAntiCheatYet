@@ -7490,5 +7490,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-06-05T20:12:23.036Z"
+  },
+  {
+    "url": "",
+    "slug": "fifa-23-for-faceit",
+    "name": "Fifa 23 (FACEIT)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "FairFight"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-06-07T04:56:05.465Z"
   }
 ]
