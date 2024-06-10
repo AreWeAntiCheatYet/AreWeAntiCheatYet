@@ -7544,5 +7544,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-06-08T22:42:43.843Z"
+  },
+  {
+    "url": "",
+    "slug": "mortal-kombat-11-for-esl",
+    "name": "Mortal Kombat 11 (ESL)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "ESL Wire"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-06-10T01:27:32.177Z"
   }
 ]
