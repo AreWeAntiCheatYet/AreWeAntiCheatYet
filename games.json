@@ -7560,5 +7560,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-06-10T01:27:32.177Z"
+  },
+  {
+    "url": "",
+    "slug": "lol-for-faceit",
+    "name": "League of Legends (FACEIT)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "FACEIT"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-06-10T22:20:18.514Z"
   }
 ]
