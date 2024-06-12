@@ -21,7 +21,7 @@
     "@mantine/next": "6.0.21",
     "@mantine/notifications": "7.0.2",
     "@mantinex/mantine-header": "1.0.2",
-    "@next/bundle-analyzer": "13.2.4",
+    "@next/bundle-analyzer": "14.2.4",
     "@tabler/icons-react": "2.7.0",
     "dayjs": "1.11.10",
     "diff": "5.1.0",
