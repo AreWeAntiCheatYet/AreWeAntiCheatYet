@@ -7592,5 +7592,26 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-06-10T22:20:18.514Z"
+  },
+  {
+    "url": "",
+    "slug": "fragpunk",
+    "name": "FragPunk",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "NEAC Protect"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-06-12T21:40:38.477Z"
   }
 ]
