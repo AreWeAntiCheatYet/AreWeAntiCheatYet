@@ -7629,5 +7629,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-06-14T00:13:32.697Z"
+  },
+  {
+    "url": "",
+    "slug": "ggst-for-esl",
+    "name": "Guilty Gear: Strive (ESL)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "ESL Wire"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-06-14T22:58:58.152Z"
   }
 ]
