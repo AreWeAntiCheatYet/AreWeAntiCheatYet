@@ -22,7 +22,7 @@
     "@mantine/notifications": "7.0.2",
     "@mantinex/mantine-header": "1.0.2",
     "@next/bundle-analyzer": "13.2.4",
-    "@tabler/icons-react": "2.7.0",
+    "@tabler/icons-react": "3.6.0",
     "dayjs": "1.11.10",
     "diff": "5.1.0",
     "fast-xml-parser": "4.2.5",
