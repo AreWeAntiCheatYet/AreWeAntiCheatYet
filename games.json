@@ -7730,5 +7730,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-06-19T21:59:33.994Z"
+  },
+  {
+    "url": "",
+    "slug": "rocket-league-for-faceit",
+    "name": "Rocket League (FACEIT)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "FACEIT"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-06-20T21:56:43.000Z"
   }
 ]
