@@ -7746,5 +7746,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-06-20T21:56:43.000Z"
+  },
+  {
+    "url": "",
+    "slug": "cs2-for-esportal",
+    "name": "Counter-Strike 2 (Esportal)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Esportal"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-06-21T21:16:18.423Z"
   }
 ]
