@@ -7762,5 +7762,26 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-06-21T21:16:18.423Z"
+  },
+  {
+    "url": "https://www.strinova.com/",
+    "slug": "strinova",
+    "name": "Strinova",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-06-22T20:44:24.865Z"
   }
 ]
