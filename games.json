@@ -7799,5 +7799,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-06-23T21:31:29.072Z"
+  },
+  {
+    "url": "",
+    "slug": "fifa-23-for-esl",
+    "name": "FIFA 23 (ESL)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "ESL Wire"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-06-25T00:27:44.427Z"
   }
 ]
