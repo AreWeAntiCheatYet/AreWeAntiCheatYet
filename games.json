@@ -7831,5 +7831,26 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-06-26T03:05:13.012Z"
+  },
+  {
+    "url": "https://momentum-mod.org/",
+    "slug": "momentum-mod",
+    "name": "Momentum Mod",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Working in Closed Playtest",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-06-26T20:51:47.265Z"
   }
 ]
