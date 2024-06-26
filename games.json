@@ -7815,5 +7815,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-06-25T00:27:44.427Z"
+  },
+  {
+    "url": "",
+    "slug": "ow2-for-faceit",
+    "name": "Overwatch 2 (FACEIT)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "FACEIT"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-06-26T03:05:13.012Z"
   }
 ]
