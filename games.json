@@ -7852,5 +7852,21 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-06-26T20:51:47.265Z"
+  },
+  {
+    "url": "",
+    "slug": "warcraft-iii",
+    "name": "WarCraft III",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Warden"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-06-27T20:34:32.020Z"
   }
 ]
