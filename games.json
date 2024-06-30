@@ -7900,5 +7900,26 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-06-29T19:21:58.319Z"
+  },
+  {
+    "url": "https://sbox.game/",
+    "slug": "s%26box",
+    "name": "s&box",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-06-30T19:35:24.182Z"
   }
 ]
