@@ -5651,10 +5651,11 @@
     "name": "The First Descendant",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
-      "Nexon Game Security"
+      "Nexon Game Security",
+      "Easy Anti-Cheat"
     ],
     "notes": [],
     "updates": [],
@@ -5662,7 +5663,7 @@
       "steam": "2074920"
     },
     "slug": "the-first-descendant",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-07-02T01:20:38.623Z"
   },
   {
     "url": "https://www.counter-strike.net/cs2",
