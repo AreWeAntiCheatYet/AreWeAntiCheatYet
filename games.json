@@ -7921,5 +7921,21 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-06-30T19:35:24.182Z"
+  },
+  {
+    "url": "",
+    "slug": "hots",
+    "name": "Heroes of the Storm",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Warden"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-07-02T00:47:14.027Z"
   }
 ]
