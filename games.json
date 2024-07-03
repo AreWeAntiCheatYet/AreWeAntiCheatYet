@@ -7954,5 +7954,26 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-07-02T21:53:46.176Z"
+  },
+  {
+    "url": "",
+    "slug": "dune-awakening",
+    "name": "Dune: Awakening",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-07-03T19:31:11.479Z"
   }
 ]
