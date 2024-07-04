@@ -7975,5 +7975,21 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-07-03T19:31:11.479Z"
+  },
+  {
+    "url": "",
+    "slug": "warcraft-iii-reforged",
+    "name": "WarCraft III: Reforged",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Warden"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-07-04T11:46:26.398Z"
   }
 ]
