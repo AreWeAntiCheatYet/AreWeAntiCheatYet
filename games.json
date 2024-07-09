@@ -8007,5 +8007,26 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-07-09T04:51:10.654Z"
+  },
+  {
+    "url": "",
+    "slug": "throne-and-liberty",
+    "name": "Throne and Liberty",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-07-09T20:08:57.887Z"
   }
 ]
