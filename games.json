@@ -8028,5 +8028,21 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-07-09T20:08:57.887Z"
+  },
+  {
+    "url": "https://www.txchainsawgame.com/",
+    "slug": "the-texas-chain-saw-massacre",
+    "name": "The Texas Chain Saw Massacre",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-07-10T21:01:42.407Z"
   }
 ]
