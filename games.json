@@ -8044,5 +8044,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-07-10T21:01:42.407Z"
+  },
+  {
+    "url": "",
+    "slug": "nba-2k23-for-esl",
+    "name": "NBA 2K23 (ESL)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "ESL Wire"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-07-11T17:46:29.333Z"
   }
 ]
