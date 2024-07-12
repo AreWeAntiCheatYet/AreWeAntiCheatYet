@@ -8060,5 +8060,26 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-07-11T17:46:29.333Z"
+  },
+  {
+    "url": "",
+    "slug": "concord",
+    "name": "Concord",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-07-12T18:10:19.857Z"
   }
 ]
