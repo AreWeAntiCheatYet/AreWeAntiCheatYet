@@ -6804,7 +6804,7 @@
     "name": "Zenless Zone Zero",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "miHoYo Protect",
@@ -6813,12 +6813,12 @@
     "updates": [],
     "notes": [
       [
-        "Unreleased, Speculative",
+        "",
         null
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-05-15T03:18:26.337Z"
+    "dateChanged": "2024-07-12T19:07:43.992Z"
   },
   {
     "url": "",
