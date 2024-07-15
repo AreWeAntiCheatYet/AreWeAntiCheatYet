@@ -8113,5 +8113,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-07-14T22:31:35.521Z"
+  },
+  {
+    "url": "",
+    "slug": "half-life",
+    "name": "Half-Life",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-07-15T21:26:03.841Z"
   }
 ]
