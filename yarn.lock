@@ -382,13 +382,13 @@
     react-textarea-autosize "8.5.2"
     type-fest "^3.13.1"
 
-"@mantine/form@7.0.2":
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/@mantine/form/-/form-7.0.2.tgz#fadfdf416d5b55b4041bcf385d4e3af3edbbd281"
-  integrity sha512-LvH/sXaInqA9qnf8zYTEIR58RxGd/RE7AtILeBlioduQdUUcaAHkbohCWc5q6jhvf5Uoq+zS1qv/4Fcp1eoEHQ==
+"@mantine/form@7.11.2":
+  version "7.11.2"
+  resolved "https://registry.yarnpkg.com/@mantine/form/-/form-7.11.2.tgz#a050d8a2d1d351932904862d61470ec432a90597"
+  integrity sha512-NRY4HDgcArDEP+wUaHITnoVh0Ce3rM3Blo9fLNj2VYO8k7AfuSWp+fQdqrjDI0k9wGU3YEj4/dbwOjKbtXEhxw==
   dependencies:
     fast-deep-equal "^3.1.3"
-    klona "^2.0.5"
+    klona "^2.0.6"
 
 "@mantine/hooks@7.0.2":
   version "7.0.2"
@@ -1958,9 +1958,9 @@ jsonc-parser@^3.2.0, jsonc-parser@^3.2.1:
     array-includes "^3.1.5"
     object.assign "^4.1.2"
 
-klona@^2.0.5:
+klona@^2.0.6:
   version "2.0.6"
-  resolved "https://registry.npmjs.org/klona/-/klona-2.0.6.tgz"
+  resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.6.tgz#85bffbf819c03b2f53270412420a4555ef882e22"
   integrity sha512-dhG34DXATL5hSxJbIexCft8FChFXtmskoZYnoPWjXQuebWYCNkVeV3KkGegCK9CP1oswI/vQibS2GY7Em/sJJA==
 
 levn@^0.4.1:
