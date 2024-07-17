@@ -8129,5 +8129,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-07-15T21:26:03.841Z"
+  },
+  {
+    "url": "",
+    "slug": "re-revelations",
+    "name": "Resident Evil Revelations",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-07-16T23:57:17.915Z"
   }
 ]
