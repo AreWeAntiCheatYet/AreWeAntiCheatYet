@@ -8145,5 +8145,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-07-16T23:57:17.915Z"
+  },
+  {
+    "url": "",
+    "slug": "red-orchestra",
+    "name": "Red Orchestra: Ostfront 41-45",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-07-17T20:23:43.105Z"
   }
 ]
