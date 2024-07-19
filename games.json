@@ -6059,12 +6059,23 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "Anti-Cheat Expert"
     ],
-    "updates": [],
-    "notes": [],
+    "updates": [
+      {
+        "name": "Switched from Easy Anti-Cheat to ACE",
+        "date": "Fri, 19 Jul 2024 01:36:39 GMT",
+        "reference": ""
+      }
+    ],
+    "notes": [
+      [
+        "Reports claiming that Proton 8.0-5, Proton 9.0-2, or Proton Experimental might work",
+        null
+      ]
+    ],
     "storeIds": {},
-    "dateChanged": "2024-02-08T15:26:49.723Z"
+    "dateChanged": "2024-07-19T01:37:49.733Z"
   },
   {
     "url": "",
