@@ -8193,5 +8193,21 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-07-18T19:29:55.985Z"
+  },
+  {
+    "url": "",
+    "slug": "lightning",
+    "name": "Lightning",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "GuardenAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-07-18T19:29:55.985Z"
   }
 ]
