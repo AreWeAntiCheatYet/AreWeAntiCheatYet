@@ -5241,7 +5241,7 @@
     "native": false,
     "reference": "",
     "anticheats": [
-      "KSophon"
+      "Unknown (Custom)"
     ],
     "notes": [],
     "updates": [
@@ -7094,7 +7094,7 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "Anti-Cheat Expert"
     ],
     "updates": [],
     "notes": [
@@ -7104,7 +7104,7 @@
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-03-13T21:56:13.188Z"
+    "dateChanged": "2024-07-21T03:15:28.037Z"
   },
   {
     "url": "",
@@ -8078,20 +8078,20 @@
     "name": "Concord",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Denied",
     "reference": "",
     "anticheats": [
-      "nProtect GameGuard"
+      "Unknown (Custom)"
     ],
     "updates": [],
     "notes": [
       [
-        "Unreleased, Speculative",
+        "Unreleased, explictly unsupported in the Open Beta",
         null
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-07-12T18:10:19.857Z"
+    "dateChanged": "2024-07-21T03:15:28.060Z"
   },
   {
     "url": "",
@@ -8209,5 +8209,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-07-18T19:29:55.985Z"
+  },
+  {
+    "url": "",
+    "slug": "natural-selection-2",
+    "name": "Natural Selection 2",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-07-21T03:15:28.067Z"
   }
 ]
