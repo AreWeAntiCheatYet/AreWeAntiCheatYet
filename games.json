@@ -8225,5 +8225,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-07-21T03:15:28.067Z"
+  },
+  {
+    "url": "",
+    "slug": "brawlhalla-for-esl",
+    "name": "Brawlhalla (ESL)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "ESL Wire"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-07-21T19:19:38.331Z"
   }
 ]
