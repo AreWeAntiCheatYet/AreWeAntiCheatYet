@@ -8241,5 +8241,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-07-21T19:19:38.331Z"
+  },
+  {
+    "url": "",
+    "slug": "n-age",
+    "name": "N-Age",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-07-22T21:02:45.334Z"
   }
 ]
