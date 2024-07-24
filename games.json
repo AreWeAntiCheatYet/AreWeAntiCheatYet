@@ -8257,5 +8257,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-07-22T21:02:45.334Z"
+  },
+  {
+    "url": "",
+    "slug": "red-faction-armageddon",
+    "name": "Red Faction: Armageddon",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-07-24T02:12:01.611Z"
   }
 ]
