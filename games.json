@@ -8289,5 +8289,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-07-24T20:22:45.978Z"
+  },
+  {
+    "url": "",
+    "slug": "100%25-orange-juice",
+    "name": "100% Orange Juice",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-07-25T21:21:20.558Z"
   }
 ]
