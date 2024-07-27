@@ -6419,7 +6419,8 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Crackproof"
+      "Crackproof",
+	  "WFSDrv"
     ],
     "updates": [],
     "notes": [],
