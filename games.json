@@ -8306,5 +8306,37 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-07-25T21:21:20.558Z"
+  },
+  {
+    "url": "https://snowbreak.amazingseasun.com/",
+    "slug": "snowbreak-containment-zone-row%2Fintl",
+    "name": "Snowbreak: Containment Zone (ROW/INTL)",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Seasun Protect"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-07-25T21:21:20.558Z"
+  },
+  {
+    "url": "https://snowbreak.amazingseasun.com/",
+    "slug": "snowbreak-containment-zone-chn",
+    "name": "Snowbreak: Containment Zone (CHN)",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-07-25T21:21:20.558Z"
   }
 ]
