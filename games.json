@@ -5269,7 +5269,7 @@
     "native": false,
     "reference": "https://www.protondb.com/app/1797880",
     "anticheats": [
-      "Unknown (Custom)"
+      "NetEase Anti-Cheat Expert"
     ],
     "notes": [
       [
@@ -5282,7 +5282,7 @@
       "steam": "1797880"
     },
     "slug": "lost-light",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-07-30T04:40:56.000Z"
   },
   {
     "url": "https://www.shatterline.gg",
@@ -6419,12 +6419,13 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Crackproof"
+      "Crackproof",
+	  "WFSDrv"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-07-30T04:40:56.000Z"
   },
   {
     "url": "",
