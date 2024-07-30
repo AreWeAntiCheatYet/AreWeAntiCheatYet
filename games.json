@@ -1488,7 +1488,7 @@
     "name": "iRacing",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -1503,7 +1503,7 @@
       }
     },
     "slug": "iracing",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-07-30T22:31:34.035Z"
   },
   {
     "url": "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2",
@@ -4343,7 +4343,7 @@
     "name": "Pavlov VR",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -4354,7 +4354,7 @@
       "steam": "555160"
     },
     "slug": "pavlov-vr",
-    "dateChanged": "2024-02-16T20:24:01.206Z"
+    "dateChanged": "2024-07-30T22:31:34.098Z"
   },
   {
     "url": "https://playdauntless.com/",
@@ -5269,7 +5269,7 @@
     "native": false,
     "reference": "https://www.protondb.com/app/1797880",
     "anticheats": [
-      "NetEase Anti-Cheat Expert"
+      "Unknown (Custom)"
     ],
     "notes": [
       [
@@ -6419,8 +6419,7 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Crackproof",
-	  "WFSDrv"
+      "Crackproof"
     ],
     "updates": [],
     "notes": [],
@@ -8338,5 +8337,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-07-25T21:21:20.558Z"
+  },
+  {
+    "url": "",
+    "slug": "resident-evil-6",
+    "name": "Resident Evil 6",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-07-30T22:31:34.201Z"
   }
 ]
