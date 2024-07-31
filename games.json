@@ -1493,7 +1493,12 @@
     "anticheats": [
       "Easy Anti-Cheat"
     ],
-    "notes": [],
+    "notes": [
+      [
+        "Proton Experimental or Proton 9+ recommended",
+        null
+      ]
+    ],
     "updates": [],
     "storeIds": {
       "steam": "266410",
@@ -1503,7 +1508,7 @@
       }
     },
     "slug": "iracing",
-    "dateChanged": "2024-07-30T22:31:34.035Z"
+    "dateChanged": "2024-07-31T00:01:49.579Z"
   },
   {
     "url": "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2",
@@ -6420,12 +6425,17 @@
     "reference": "",
     "anticheats": [
       "Crackproof",
-	  "WFSDrv"
+      "WFSDrv"
     ],
     "updates": [],
-    "notes": [],
+    "notes": [
+      [
+        "Playable on Waydroid",
+        null
+      ]
+    ],
     "storeIds": {},
-    "dateChanged": "2024-07-30T04:40:56.000Z"
+    "dateChanged": "2024-07-31T00:01:49.712Z"
   },
   {
     "url": "",
@@ -6592,9 +6602,14 @@
       "EA anticheat"
     ],
     "updates": [],
-    "notes": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
     "storeIds": {},
-    "dateChanged": "2024-02-26T22:11:11.644Z"
+    "dateChanged": "2024-07-31T00:01:49.718Z"
   },
   {
     "url": "",
@@ -6739,12 +6754,12 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "NEAC Protect"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-03-03T19:03:48.745Z"
+    "dateChanged": "2024-07-31T00:01:49.729Z"
   },
   {
     "url": "",
@@ -6811,7 +6826,7 @@
     "dateChanged": "2024-03-07T22:15:44.135Z"
   },
   {
-    "url": "",
+    "url": "https://zenless.hoyoverse.com/",
     "slug": "zzz",
     "name": "Zenless Zone Zero",
     "logo": "",
@@ -6819,8 +6834,7 @@
     "status": "Running",
     "reference": "",
     "anticheats": [
-      "miHoYo Protect",
-      "Anti-Cheat Expert"
+      "miHoYo Protect"
     ],
     "updates": [],
     "notes": [
@@ -6830,7 +6844,7 @@
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-07-12T19:07:43.992Z"
+    "dateChanged": "2024-07-31T00:01:49.730Z"
   },
   {
     "url": "",
@@ -7132,7 +7146,7 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "NEAC Protect"
+      "NetEase Anti-Cheat Expert"
     ],
     "updates": [],
     "notes": [
@@ -7142,7 +7156,7 @@
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-03-13T21:56:13.188Z"
+    "dateChanged": "2024-07-31T00:01:49.739Z"
   },
   {
     "url": "",
