@@ -6760,13 +6760,23 @@
     "name": "Once Human",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Running",
+    "reference": "https://www.protondb.com/app/2139460",
     "anticheats": [
       "NetEase Anti-Cheat Expert"
     ],
     "updates": [],
-    "notes": [],
+    "notes": [
+      [
+        "Use Proton 7.0-6 or Proton GE 7-55 for the best experience.",
+        ""
+      ],
+      [
+        "Said versions also required in order to accept EULA.",
+        ""
+      ]
+
+    ],
     "storeIds": {},
     "dateChanged": "2024-07-31T00:01:49.729Z"
   },
@@ -8337,8 +8347,8 @@
   },
   {
     "url": "https://snowbreak.amazingseasun.com/",
-    "slug": "snowbreak-containment-zone-overseas",
-    "name": "Snowbreak: Containment Zone (INTL)",
+    "slug": "snowbreak-containment-zone",
+    "name": "Snowbreak: Containment Zone (ROW/INTL)",
     "logo": "",
     "native": false,
     "status": "Running",
