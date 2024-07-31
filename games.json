@@ -3657,6 +3657,10 @@
       [
         "Workarounds required.",
         ""
+      ],
+      [
+        "Also playable on GeForce NOW.",
+        "https://blogs.nvidia.com/blog/geforce-now-thursday-honkai-star-rail/"
       ]
     ],
     "updates": [],
@@ -3667,7 +3671,7 @@
         "slug": "honkai-star-rail"
       }
     },
-    "dateChanged": "2024-02-12T19:52:57.848Z"
+    "dateChanged": "2024-07-31T00:00:00.000Z"
   },
   {
     "url": "",
@@ -4876,13 +4880,14 @@
     "native": false,
     "reference": "",
     "anticheats": [
-      "Unknown (Custom)"
+      "Crackproof",
+      "WFSDrv"
     ],
     "notes": [],
     "updates": [],
     "storeIds": {},
     "slug": "another-eden",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-07-31T00:00:00.000Z"
   },
   {
     "url": "https://overwatch2.playoverwatch.com/en-us/trailer",
@@ -5270,13 +5275,17 @@
     "url": "https://www.lostlight.game/",
     "name": "Lost Light",
     "logo": "",
-    "status": "Supported",
+    "status": "Broken",
     "native": false,
     "reference": "https://www.protondb.com/app/1797880",
     "anticheats": [
       "NetEase Anti-Cheat Expert"
     ],
     "notes": [
+      [
+        "Recent reports mention the game crashing as well as detecting Proton/Wine as cheating software when in a server.",
+        ""
+      ],
       [
         "May require Proton-GE",
         ""
@@ -5287,7 +5296,7 @@
       "steam": "1797880"
     },
     "slug": "lost-light",
-    "dateChanged": "2024-07-30T04:40:56.000Z"
+    "dateChanged": "2024-07-31T00:00:00.000Z"
   },
   {
     "url": "https://www.shatterline.gg",
@@ -6754,7 +6763,7 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "NEAC Protect"
+      "NetEase Anti-Cheat Expert"
     ],
     "updates": [],
     "notes": [],
@@ -7146,7 +7155,8 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "NetEase Anti-Cheat Expert"
+      "NetEase Anti-Cheat Expert",
+      "NEAC Protect"
     ],
     "updates": [],
     "notes": [
@@ -7262,12 +7272,16 @@
     "updates": [],
     "notes": [
       [
-        "Unreleased, Broken in Closed Beta",
+        "Workarounds required.",
         null
+      ],
+      [
+        "Also playable on GeForce NOW.",
+        "https://www.reddit.com/r/GeForceNOW/comments/1dqsm7u/wuthering_waves_now_available_in_gfn/"
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-05-06T10:56:58.594Z"
+    "dateChanged": "2024-07-31T00:00:00.000Z"
   },
   {
     "url": "",
@@ -8323,8 +8337,8 @@
   },
   {
     "url": "https://snowbreak.amazingseasun.com/",
-    "slug": "snowbreak-containment-zone-row%2Fintl",
-    "name": "Snowbreak: Containment Zone (ROW/INTL)",
+    "slug": "snowbreak-containment-zone-overseas",
+    "name": "Snowbreak: Containment Zone (INTL)",
     "logo": "",
     "native": false,
     "status": "Running",
@@ -8334,24 +8348,31 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
-    "dateChanged": "2024-07-25T21:21:20.558Z"
+    "storeIds":  {
+      "steam": "2668080"
+    },
+    "dateChanged": "2024-07-31T00:00:00.000Z"
   },
   {
     "url": "https://snowbreak.amazingseasun.com/",
-    "slug": "snowbreak-containment-zone-chn",
-    "name": "Snowbreak: Containment Zone (CHN)",
+    "slug": "snowbreak-containment-zone-china",
+    "name": "Snowbreak: Containment Zone (CN)",
     "logo": "",
     "native": false,
-    "status": "Running",
+    "status": "Broken",
     "reference": "",
     "anticheats": [
       "Anti-Cheat Expert"
     ],
     "updates": [],
-    "notes": [],
+    "notes": [
+      [
+        "Workarounds required.",
+        null
+      ]
+    ],
     "storeIds": {},
-    "dateChanged": "2024-07-25T21:21:20.558Z"
+    "dateChanged": "2024-07-31T00:00:00.000Z"
   },
   {
     "url": "",
