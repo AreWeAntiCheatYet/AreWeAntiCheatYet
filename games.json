@@ -8444,5 +8444,21 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-08-01T01:51:19.285Z"
+  },
+  {
+    "url": "https://www.contractwarsgame.com/",
+    "slug": "contract-wars-client",
+    "name": "Contract Wars Client",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Saberclaw"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-01T21:17:30.871Z"
   }
 ]
