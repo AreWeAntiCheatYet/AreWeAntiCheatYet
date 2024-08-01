@@ -1128,19 +1128,22 @@
     ],
     "notes": [
       [
-        "Since 3.8: Game's Anti-Cheat Service is allowing Proton on clean installs, from update release date.",
-        ""
-      ],
-      [
-        "Since 3.5: Game's Anti-Cheat Service observed allowing Proton in restricted scenarios, 2 business weeks after update launch.",
-        ""
-      ],
-      [
-        "Prior to 3.5: would run when using workarounds (at least 2 available)",
+        "Needed workarounds prior to 3.5",
         ""
       ]
     ],
-    "updates": [],
+    "updates": [
+      {
+        "name": "v3.8: Game Anti-Cheat is allowing Proton on clean installs, on update release.",
+        "date": "Jul 5, 2023, 11:00:00 UTC+8",
+        "reference": "https://www.reddit.com/r/linux_gaming/comments/15sskjh/"
+      },
+      {
+        "name": "v3.5: Game Anti-Cheat observed allowing Proton in restricted scenarios, 2 business weeks after update launch.",
+        "date": "Mar 3, 2023, 11:00:00 UTC+8",
+        "reference": "https://www.reddit.com/r/linux_gaming/comments/123zllz/"
+      }
+    ],
     "storeIds": {
       "epic": {
         "namespace": "879b0d8776ab46a59a129983ba78f0ce",
@@ -1148,7 +1151,7 @@
       }
     },
     "slug": "genshin-impact",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-08-01T00:35:00.000Z"
   },
   {
     "url": "https://www.djmaxrespect.com/",
