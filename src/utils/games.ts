@@ -96,6 +96,7 @@ export function getLogo(anticheat: string) {
     ['ricochet', 'ricochet.webp'],
     ['mail.ru', 'mailru.webp'],
     ['mihoyo', 'mihoyo.webp'],
+    ['netease','nace.webp'],
     ['expert', 'anticheat-expert.webp'],
     ['nexon', 'nexon.webp'],
     ['neac', 'neac.webp'],
@@ -107,6 +108,8 @@ export function getLogo(anticheat: string) {
     ['ea a', 'ea.webp'],
     ['crackproof', 'crackproof.webp'],
     ['esl', 'esl.webp'],
+    ['seasun','seasun.webp'],
+    ['wfsdrv','wfsdrv.webp']
   ];
 
   const file = logo_map.find((x) => anticheat.toLowerCase().includes(x[0]))?.[1];
