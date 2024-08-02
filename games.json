@@ -5493,12 +5493,16 @@
     "name": "Roblox",
     "logo": "",
     "native": false,
-    "status": "Denied",
+    "status": "Running",
     "reference": "https://i.redd.it/wcngc8xapnlc1.png",
     "anticheats": [
       "Hyperion"
     ],
     "notes": [
+      [
+        "Use Sober (Proprietary)",
+        "https://sober.vinegarhq.org/"
+      ],
       [
         "Use Vinegar (Recommended)",
         "https://vinegarhq.org/"
@@ -5518,6 +5522,11 @@
         "name": "Wine Support Yanked",
         "date": "Fri, 01 Mar 2024 20:45:14 GMT",
         "reference": "https://vinegarhq.org/Home/rol_faq.html"
+      },
+      {
+        "name": "Game can now run using a proprietary runtime environment without the need for Wine.",
+        "date": "Fri, 01 August 2024 1:30:13 GMT",
+        "reference": "https://sober.vinegarhq.org/"
       }
     ],
     "storeIds": {},
