@@ -8428,5 +8428,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-01T21:17:30.871Z"
+  },
+  {
+    "url": "",
+    "slug": "ricochet",
+    "name": "Ricochet",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-03T02:55:33.807Z"
   }
 ]
