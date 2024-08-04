@@ -5500,11 +5500,11 @@
     ],
     "notes": [
       [
-        "Use Sober (Proprietary)",
+        "Use Sober (Recommended, Proprietary)",
         "https://sober.vinegarhq.org/"
       ],
       [
-        "Use Vinegar (Recommended)",
+        "Use Vinegar",
         "https://vinegarhq.org/"
       ],
       [
@@ -5531,7 +5531,7 @@
     ],
     "storeIds": {},
     "slug": "roblox",
-    "dateChanged": "2024-03-01T20:45:31.412Z"
+    "dateChanged": "2024-03-02T20:45:31.412Z"
   },
   {
     "url": "https://www.boundarygame.com/",
