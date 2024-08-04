@@ -8459,6 +8459,38 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-08-04T00:39:30.480Z"
+    "dateChanged": "2024-08-04T00:40:30.646Z"
+  },
+  {
+    "url": "",
+    "slug": "witch-it",
+    "name": "Witch It",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-04T00:40:30.646Z"
+  },
+  {
+    "url": "",
+    "slug": "sonic-allstars-racing-transformed-collection",
+    "name": "Sonic & All-Stars Racing Transformed Collection",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-04T00:40:30.647Z"
   }
 ]
