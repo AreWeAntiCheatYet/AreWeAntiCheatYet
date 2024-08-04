@@ -8444,5 +8444,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-03T02:55:33.807Z"
+  },
+  {
+    "url": "",
+    "slug": "armello",
+    "name": "Armello",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-04T00:39:30.480Z"
   }
 ]
