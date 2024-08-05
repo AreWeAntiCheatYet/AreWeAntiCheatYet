@@ -5094,20 +5094,22 @@
     "dateChanged": "2024-01-20T04:40:56.000Z"
   },
   {
-    "url": "",
-    "slug": "rumble-fighter-unleashed",
+    "url": "https://www.playredfox.com/rumble_fighter",
     "name": "Rumble Fighter: Unleashed",
     "logo": "",
-    "native": false,
     "status": "Broken",
-    "reference": "",
+    "native": false,
+    "reference": "https://www.protondb.com/app/357500",
     "anticheats": [
       "nProtect GameGuard"
     ],
-    "updates": [],
     "notes": [],
-    "storeIds": {},
-    "dateChanged": "2024-08-04T22:02:05.827Z"
+    "updates": [],
+    "storeIds": {
+      "steam": "357500"
+    },
+    "slug": "rumble-fighter-unleashed",
+    "dateChanged": "2024-08-05T04:40:56.000Z"
   },
   {
     "url": "https://www.focus-entmt.com/en/games/hood-outlaws-legends",
