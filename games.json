@@ -8501,5 +8501,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-04T00:40:30.647Z"
+  },
+  {
+    "url": "",
+    "slug": "exos-heroes",
+    "name": "Exos Heroes",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-05T07:04:34.647Z"
   }
 ]
