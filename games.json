@@ -6823,12 +6823,12 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "Seasun Protect"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-03-06T20:43:51.546Z"
+    "dateChanged": "2024-08-05T20:28:25.194Z"
   },
   {
     "url": "",
@@ -6870,7 +6870,7 @@
   {
     "url": "",
     "slug": "madden-nfl-25",
-    "name": "Madden NFL 25",
+    "name": "EA SPORTS™ Madden NFL 25",
     "logo": "",
     "native": false,
     "status": "Denied",
@@ -6886,7 +6886,7 @@
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-05-17T02:00:30.200Z"
+    "dateChanged": "2024-08-05T20:28:25.199Z"
   },
   {
     "url": "",
@@ -8517,5 +8517,26 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-05T07:04:34.647Z"
+  },
+  {
+    "url": "https://pnw.perfectworld.com/",
+    "slug": "perfect-new-world",
+    "name": "Perfect New World",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-08-05T20:28:25.228Z"
   }
 ]
