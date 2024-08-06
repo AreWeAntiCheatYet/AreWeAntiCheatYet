@@ -8538,5 +8538,21 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-08-05T20:28:25.228Z"
+  },
+  {
+    "url": "",
+    "slug": "wh40k-speed-freeks",
+    "name": "Warhammer 40,000: Speed Freeks",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-06T21:54:36.387Z"
   }
 ]
