@@ -8554,5 +8554,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-06T21:54:36.387Z"
+  },
+  {
+    "url": "",
+    "slug": "dino-d-day",
+    "name": "Dino D-Day",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-09T22:24:19.311Z"
   }
 ]
