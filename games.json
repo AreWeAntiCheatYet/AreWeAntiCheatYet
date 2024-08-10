@@ -8570,5 +8570,22 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-09T22:24:19.311Z"
+  },
+  {
+    "url": "",
+    "slug": "icarus-online",
+    "name": "Icarus Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3",
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-10T21:30:09.867Z"
   }
 ]
