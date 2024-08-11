@@ -497,7 +497,8 @@
     "status": "Supported",
     "reference": "",
     "anticheats": [
-      "BattlEye"
+      "BattlEye",
+      "VAC"
     ],
     "notes": [],
     "updates": [
@@ -511,7 +512,7 @@
       "steam": "221100"
     },
     "slug": "dayz",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-08-11T23:02:07.322Z"
   },
   {
     "url": "https://deadbydaylight.com/",
@@ -650,7 +651,8 @@
     "status": "Denied",
     "reference": "https://www.gamingonlinux.com/2022/10/facepunch-put-out-a-fresh-statement-on-rust-for-steam-deck-linux/",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "Easy Anti-Cheat",
+      "VAC"
     ],
     "notes": [],
     "updates": [
@@ -689,7 +691,7 @@
       "steam": "252490"
     },
     "slug": "rust",
-    "dateChanged": "2024-02-08T15:25:52.293Z"
+    "dateChanged": "2024-08-11T23:02:07.337Z"
   },
   {
     "url": "https://warthunder.com/",
@@ -8663,5 +8665,26 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-11T10:19:19.122Z"
+  },
+  {
+    "url": "",
+    "slug": "spectre-divide",
+    "name": "Spectre Divide",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Explicitly denied in Open Beta",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-08-11T23:02:07.610Z"
   }
 ]
