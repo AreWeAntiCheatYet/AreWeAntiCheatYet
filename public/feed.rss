@@ -1286,5 +1286,20 @@
       <pubDate>Sun, 11 Aug 2024 11:07:53 GMT</pubDate>
       <description>&lt;b&gt;Notes&lt;/b&gt;: &lt;i&gt;(Nothing)&lt;/i&gt; &lt;b&gt;=&gt;&lt;/b&gt; &lt;a href=&quot;null&quot; target=&quot;_blank&quot;&gt;Unreleased, Speculative&lt;/a&gt;&lt;br/&gt;</description>
     </item>
+    <item>
+      <title>DayZ</title>
+      <pubDate>Sun, 11 Aug 2024 23:08:28 GMT</pubDate>
+      <description>&lt;b&gt;Anticheats&lt;/b&gt;: BattlEye &lt;b&gt;=&gt;&lt;/b&gt; BattlEye, VAC&lt;br/&gt;</description>
+    </item>
+    <item>
+      <title>Rust</title>
+      <pubDate>Sun, 11 Aug 2024 23:08:28 GMT</pubDate>
+      <description>&lt;b&gt;Anticheats&lt;/b&gt;: Easy Anti-Cheat &lt;b&gt;=&gt;&lt;/b&gt; Easy Anti-Cheat, VAC&lt;br/&gt;</description>
+    </item>
+    <item>
+      <title>Spectre Divide</title>
+      <pubDate>Sun, 11 Aug 2024 23:08:28 GMT</pubDate>
+      <description>Spectre Divide was newly added and is &quot;Denied&quot;</description>
+    </item>
   </channel>
 </rss>
