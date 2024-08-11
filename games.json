@@ -8587,5 +8587,69 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-10T21:30:09.867Z"
+  },
+  {
+    "url": "",
+    "slug": "helldivers",
+    "name": "Helldivers",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-10T23:52:25.067Z"
+  },
+  {
+    "url": "",
+    "slug": "avorion",
+    "name": "Avorion",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-10T23:52:25.070Z"
+  },
+  {
+    "url": "",
+    "slug": "half-life-opfor",
+    "name": "Half-Life: Opposing Force",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-10T23:52:25.071Z"
+  },
+  {
+    "url": "",
+    "slug": "blade-and-soul",
+    "name": "Blade & Soul",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-10T23:52:25.072Z"
   }
 ]
