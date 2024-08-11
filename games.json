@@ -458,7 +458,8 @@
     "status": "Supported",
     "reference": "",
     "anticheats": [
-      "BattlEye"
+      "BattlEye",
+      "VAC"
     ],
     "notes": [],
     "updates": [
@@ -486,7 +487,7 @@
       }
     },
     "slug": "ark-survival-evolved",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-08-11T10:19:18.852Z"
   },
   {
     "url": "https://dayz.com",
@@ -4530,7 +4531,8 @@
     "status": "Denied",
     "reference": "https://steamcommunity.com/app/707010/discussions/0/2950411088500148325/",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "Easy Anti-Cheat",
+      "VAC"
     ],
     "notes": [],
     "updates": [],
@@ -4538,7 +4540,7 @@
       "steam": "707010"
     },
     "slug": "will-to-live-online",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-08-11T10:19:18.987Z"
   },
   {
     "url": "",
@@ -5912,9 +5914,14 @@
       "Easy Anti-Cheat"
     ],
     "updates": [],
-    "notes": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
     "storeIds": {},
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-08-11T10:19:19.031Z"
   },
   {
     "url": "",
@@ -6826,9 +6833,14 @@
       "Seasun Protect"
     ],
     "updates": [],
-    "notes": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
     "storeIds": {},
-    "dateChanged": "2024-08-05T20:28:25.194Z"
+    "dateChanged": "2024-08-11T10:19:19.068Z"
   },
   {
     "url": "",
@@ -8637,7 +8649,7 @@
     "dateChanged": "2024-08-10T23:52:25.071Z"
   },
   {
-    "url": "",
+    "url": "https://www.bladeandsoul.com/",
     "slug": "blade-and-soul",
     "name": "Blade & Soul",
     "logo": "",
@@ -8650,6 +8662,6 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-08-10T23:52:25.072Z"
+    "dateChanged": "2024-08-11T10:19:19.122Z"
   }
 ]
