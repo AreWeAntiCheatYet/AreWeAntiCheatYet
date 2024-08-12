@@ -8686,5 +8686,21 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-08-11T23:02:07.610Z"
+  },
+  {
+    "url": "",
+    "slug": "stormgate",
+    "name": "Stormgate",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-12T21:17:06.920Z"
   }
 ]
