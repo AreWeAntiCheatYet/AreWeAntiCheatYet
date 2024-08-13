@@ -8702,5 +8702,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-12T21:17:06.920Z"
+  },
+  {
+    "url": "",
+    "slug": "red-orchestra2",
+    "name": "Red Orchestra 2: Heroes of Stalingrad",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-13T22:00:52.463Z"
   }
 ]
