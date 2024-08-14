@@ -735,7 +735,8 @@
     "status": "Supported",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "Easy Anti-Cheat",
+      "VAC"
     ],
     "notes": [],
     "updates": [
@@ -754,7 +755,7 @@
       "steam": "393380"
     },
     "slug": "squad",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-08-14T21:21:22.275Z"
   },
   {
     "url": "https://newworld.com",
@@ -8718,5 +8719,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-13T22:00:52.463Z"
+  },
+  {
+    "url": "",
+    "slug": "r2beat",
+    "name": "R2BEAT (アールツービート)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-14T21:21:22.469Z"
   }
 ]
