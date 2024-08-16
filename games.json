@@ -8784,5 +8784,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-16T04:30:45.891Z"
+  },
+  {
+    "url": "",
+    "slug": "red-stone-online",
+    "name": "Red Stone Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-16T21:31:57.686Z"
   }
 ]
