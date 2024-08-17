@@ -8800,5 +8800,27 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-16T21:31:57.686Z"
+  },
+  {
+    "url": "",
+    "slug": "ashfall",
+    "name": "Ashfall",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "NEAC Protect",
+      "NetEase Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Broken in closed beta",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-08-17T22:50:54.203Z"
   }
 ]
