@@ -111,7 +111,6 @@ export function getLogo(anticheat: string) {
     ['seasun','seasun.webp'],
     ['wfsdrv','wfsdrv.webp'],
     ['violet','violet.webp'],
-    ['frost','frost.webp'],
   ];
 
   const file = logo_map.find((x) => anticheat.toLowerCase().includes(x[0]))?.[1];
