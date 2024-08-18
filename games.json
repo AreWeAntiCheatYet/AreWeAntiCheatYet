@@ -3061,7 +3061,8 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "Easy Anti-Cheat",
+      "VAC"
     ],
     "notes": [],
     "updates": [],
@@ -3069,7 +3070,7 @@
       "steam": "299360"
     },
     "slug": "block-n-load",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-08-18T17:22:04.083Z"
   },
   {
     "url": "",
@@ -3338,7 +3339,9 @@
     "native": false,
     "status": "Supported",
     "reference": "",
-    "anticheats": [],
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
     "notes": [],
     "updates": [
       {
@@ -3355,7 +3358,7 @@
       }
     },
     "slug": "far-cry-5",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-08-18T17:22:04.098Z"
   },
   {
     "url": "",
@@ -5236,11 +5239,14 @@
     "status": "Supported",
     "native": false,
     "reference": "",
-    "anticheats": [],
+    "anticheats": [
+      "Easy Anti-Cheat",
+      "FACEIT"
+    ],
     "notes": [],
     "updates": [
       {
-        "name": "Removed EAC",
+        "name": "Removed EAC & FACEIT",
         "date": "16 August 2022 16:19:04 UTC",
         "reference": "https://steamdb.info/patchnotes/9316328/"
       }
@@ -5249,7 +5255,7 @@
       "steam": "489940"
     },
     "slug": "battalion-legacy",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-08-18T17:22:04.155Z"
   },
   {
     "url": "https://www.toweroffantasy-global.com/",
@@ -6101,7 +6107,7 @@
       {
         "name": "Switched from Easy Anti-Cheat to ACE",
         "date": "Fri, 19 Jul 2024 01:36:39 GMT",
-        "reference": ""
+        "reference": "https://steamdb.info/app/2452260/history/"
       }
     ],
     "notes": [
@@ -6111,7 +6117,7 @@
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-07-19T01:37:49.733Z"
+    "dateChanged": "2024-08-18T17:22:04.182Z"
   },
   {
     "url": "",
@@ -8713,12 +8719,13 @@
     "status": "Running",
     "reference": "",
     "anticheats": [
-      "VAC"
+      "VAC",
+      "PunkBuster"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-08-13T22:00:52.463Z"
+    "dateChanged": "2024-08-18T17:22:04.239Z"
   },
   {
     "url": "",
@@ -8822,5 +8829,21 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-08-17T22:50:54.203Z"
+  },
+  {
+    "url": "https://msawk.haoplay.com/",
+    "slug": "metal-slug-awakening",
+    "name": "Metal Slug: Awakening",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-18T17:22:04.243Z"
   }
 ]
