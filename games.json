@@ -8845,5 +8845,53 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-18T17:22:04.243Z"
+  },
+  {
+    "url": "",
+    "slug": "gas-guzzlers-extreme",
+    "name": "Gas Guzzlers Extreme",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-19T22:42:58.732Z"
+  },
+  {
+    "url": "",
+    "slug": "magicka",
+    "name": "Magicka",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-19T22:42:58.733Z"
+  },
+  {
+    "url": "",
+    "slug": "grey-goo",
+    "name": "Grey Goo",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-19T22:42:58.733Z"
   }
 ]
