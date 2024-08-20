@@ -8893,5 +8893,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-19T22:42:58.733Z"
+  },
+  {
+    "url": "",
+    "slug": "rappelz",
+    "name": "Rappelz",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-20T19:44:22.578Z"
   }
 ]
