@@ -8954,5 +8954,21 @@
       "steam": "2918300"
     },
     "dateChanged": "2024-08-22T05:58:13.928Z"
+  },
+  {
+    "url": "https://xeragame.com/",
+    "slug": "xera-survival",
+    "name": "XERA: Survival",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-22T21:55:51.977Z"
   }
 ]
