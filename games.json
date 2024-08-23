@@ -8970,5 +8970,53 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-22T21:55:51.977Z"
+  },
+  {
+    "url": "",
+    "slug": "mnc",
+    "name": "Monday Night Combat",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-23T21:30:15.403Z"
+  },
+  {
+    "url": "",
+    "slug": "tallowmere2",
+    "name": "Tallowmere 2: Curse of the Kittens",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-23T21:30:15.404Z"
+  },
+  {
+    "url": "",
+    "slug": "orion-prelude",
+    "name": "ORION: Prelude",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-23T21:30:15.404Z"
   }
 ]
