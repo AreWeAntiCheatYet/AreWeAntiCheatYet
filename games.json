@@ -9018,5 +9018,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-23T21:30:15.404Z"
+  },
+  {
+    "url": "",
+    "slug": "undecember",
+    "name": "Undecember",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-24T16:40:15.281Z"
   }
 ]
