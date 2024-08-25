@@ -2345,8 +2345,8 @@
     "name": "Vampire: The Masquerade - Bloodhunt",
     "logo": "",
     "native": false,
-    "status": "Supported",
-    "reference": "",
+    "status": "Denied",
+    "reference": "https://github.com/AreWeAntiCheatYet/AreWeAntiCheatYet/assets/53239162/d1e81279-66c9-4c53-8525-3c2a94430ed0",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
@@ -2367,7 +2367,7 @@
       "steam": "760160"
     },
     "slug": "vampire-the-masquerade-bloodhunt",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-08-25T21:58:41.884Z"
   },
   {
     "url": "https://maplestory.nexon.net",
@@ -4534,8 +4534,8 @@
     "name": "Will To Live Online",
     "logo": "",
     "native": false,
-    "status": "Denied",
-    "reference": "https://steamcommunity.com/app/707010/discussions/0/2950411088500148325/",
+    "status": "Running",
+    "reference": "https://steamcommunity.com/app/707010/discussions/0/4206994023677197598/",
     "anticheats": [
       "Easy Anti-Cheat",
       "VAC"
@@ -4546,7 +4546,7 @@
       "steam": "707010"
     },
     "slug": "will-to-live-online",
-    "dateChanged": "2024-08-11T10:19:18.987Z"
+    "dateChanged": "2024-08-25T21:58:41.936Z"
   },
   {
     "url": "",
@@ -5379,7 +5379,7 @@
   },
   {
     "url": "https://www.ea.com/de-de/games/fifa/fifa-23",
-    "name": "FIFA 23",
+    "name": "EA SPORTS™ FIFA 23",
     "logo": "",
     "status": "Denied",
     "native": false,
@@ -5393,7 +5393,7 @@
       "steam": "1811260"
     },
     "slug": "fifa-23",
-    "dateChanged": "2024-01-20T13:21:25.000Z"
+    "dateChanged": "2024-08-25T21:58:41.954Z"
   },
   {
     "url": "https://www.callofduty.com/modernwarfare2/pc",
@@ -6973,10 +6973,16 @@
     "anticheats": [
       "EA anticheat"
     ],
-    "updates": [],
+    "updates": [
+      {
+        "name": "Game uses the now incompatible EA anticheat",
+        "date": "2024-04-18T23:10:43Z",
+        "reference": "https://answers.ea.com/t5/Other-Plants-vs-Zombies-Games/Linux-Steam-Deck-thread-for-PvZGW2-PvZ-BFN/m-p/13780421#M151491"
+      }
+    ],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-03-13T21:56:13.188Z"
+    "dateChanged": "2024-08-25T21:58:41.996Z"
   },
   {
     "url": "",
@@ -7304,7 +7310,7 @@
     "updates": [],
     "notes": [
       [
-        "Workarounds required.",
+        "Playable through Waydroid.",
         null
       ],
       [
@@ -7313,7 +7319,7 @@
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-07-31T00:00:00.000Z"
+    "dateChanged": "2024-08-25T21:58:42.001Z"
   },
   {
     "url": "",
@@ -7567,7 +7573,7 @@
   {
     "url": "",
     "slug": "fifa-23-for-faceit",
-    "name": "Fifa 23 (FACEIT)",
+    "name": "EA SPORTS™ FIFA 23 (FACEIT)",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -7578,7 +7584,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-06-07T20:19:50.735Z"
+    "dateChanged": "2024-08-25T21:58:42.008Z"
   },
   {
     "url": "",
@@ -8142,7 +8148,7 @@
     "status": "Denied",
     "reference": "",
     "anticheats": [
-      "Unknown (Custom)"
+      "Easy Anti-Cheat"
     ],
     "updates": [],
     "notes": [
@@ -8152,7 +8158,7 @@
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-07-21T03:15:28.060Z"
+    "dateChanged": "2024-08-25T21:58:42.016Z"
   },
   {
     "url": "",
@@ -9034,5 +9040,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-24T16:40:15.281Z"
+  },
+  {
+    "url": "",
+    "slug": "diablo-ii",
+    "name": "Diablo® II",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Warden"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-25T21:58:42.031Z"
   }
 ]
