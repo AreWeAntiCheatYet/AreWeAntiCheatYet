@@ -9056,5 +9056,26 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-25T21:58:42.031Z"
+  },
+  {
+    "url": "",
+    "slug": "harry-potter-quidditch-champions",
+    "name": "Harry Potter: Quidditch Champions",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-08-26T20:56:24.259Z"
   }
 ]
