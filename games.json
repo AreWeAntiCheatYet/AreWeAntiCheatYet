@@ -2627,10 +2627,10 @@
     "name": "Battlefield 1",
     "logo": "",
     "native": false,
-    "status": "Supported",
-    "reference": "https://www.protondb.com/app/1238840#MzrUkC1o9E",
+    "status": "Denied",
+    "reference": "https://www.ea.com/games/battlefield/battlefield-2042/news/eaac-and-battlefield",
     "anticheats": [
-      "FairFight"
+      "EA anticheat"
     ],
     "notes": [],
     "updates": [],
@@ -2638,7 +2638,7 @@
       "steam": "1238840"
     },
     "slug": "battlefield-1",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-08-28T00:00:00.000Z"
   },
   {
     "url": "",
