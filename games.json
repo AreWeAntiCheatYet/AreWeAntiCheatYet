@@ -4430,7 +4430,7 @@
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
-    "url": "",
+    "url": "https://www.mythofempires.com/",
     "slug": "myth-of-empires",
     "name": "Myth of Empires",
     "logo": "",
@@ -4443,7 +4443,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-08-28T04:16:11.492Z"
+    "dateChanged": "2024-08-29T02:09:01.302Z"
   },
   {
     "url": "https://leagueoflegends.com",
@@ -9088,10 +9088,10 @@
     "reference": "https://forums.aiononline.com/topic/7371-linux-and-aion/",
     "anticheats": [
       "Active Anticheat",
-	  "nProtect GameGuard",
-	  "XIGNCODE3",
-	  "SARD",
-	  "VIOLET"
+      "nProtect GameGuard",
+      "XIGNCODE3",
+      "SARD",
+      "VIOLET"
     ],
     "updates": [],
     "notes": [],
@@ -9108,14 +9108,62 @@
     "reference": "https://forums.aiononline.com/topic/7371-linux-and-aion/",
     "anticheats": [
       "Active Anticheat",
-	  "nProtect GameGuard",
-	  "XIGNCODE3",
-	  "SARD",
-	  "4game Guard / Frost Security"
+      "nProtect GameGuard",
+      "XIGNCODE3",
+      "SARD",
+      "4game Guard / Frost Security"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-26T20:56:24.259Z"
+  },
+  {
+    "url": "",
+    "slug": "serious-sam3",
+    "name": "Serious Sam 3",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-29T02:09:01.414Z"
+  },
+  {
+    "url": "",
+    "slug": "cod-advanced-warfare",
+    "name": "Call of Duty: Advanced Warfare",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-29T02:09:01.415Z"
+  },
+  {
+    "url": "",
+    "slug": "swords-and-soldiers-hd",
+    "name": "Swords and Soldiers HD",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-29T02:09:01.417Z"
   }
 ]
