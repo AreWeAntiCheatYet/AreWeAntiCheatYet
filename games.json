@@ -9084,8 +9084,28 @@
     "name": "AION",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Running",
+    "reference": "https://forums.aiononline.com/topic/7371-linux-and-aion/",
+    "anticheats": [
+      "Active Anticheat",
+	  "nProtect GameGuard",
+	  "XIGNCODE3",
+	  "SARD",
+	  "VIOLET"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-26T20:56:24.259Z"
+  },
+  {
+    "url": "https://aion.gameforge.com/",
+    "slug": "aion-eu",
+    "name": "AION (EU)",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "https://forums.aiononline.com/topic/7371-linux-and-aion/",
     "anticheats": [
       "Active Anticheat",
 	  "nProtect GameGuard",
