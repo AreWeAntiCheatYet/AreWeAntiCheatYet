@@ -9077,5 +9077,25 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-08-26T20:56:24.259Z"
+  },
+  {
+    "url": "https://aion.gameforge.com/",
+    "slug": "aion",
+    "name": "AION",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Active Anticheat",
+	  "nProtect GameGuard",
+	  "XIGNCODE3",
+	  "SARD",
+	  "4game Guard / Frost Security"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-26T20:56:24.259Z"
   }
 ]
