@@ -2630,7 +2630,8 @@
     "status": "Supported",
     "reference": "https://www.protondb.com/app/1238840#MzrUkC1o9E",
     "anticheats": [
-      "FairFight"
+      "FairFight",
+      "EA anticheat"
     ],
     "notes": [],
     "updates": [],
@@ -2638,7 +2639,7 @@
       "steam": "1238840"
     },
     "slug": "battlefield-1",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-08-29T23:39:07.641Z"
   },
   {
     "url": "",
@@ -9165,5 +9166,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-29T02:09:01.417Z"
+  },
+  {
+    "url": "",
+    "slug": "royal-crown",
+    "name": "Royal Crown",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-29T23:39:08.132Z"
   }
 ]
