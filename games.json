@@ -9182,5 +9182,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-29T23:39:08.132Z"
+  },
+  {
+    "url": "",
+    "slug": "starcraft",
+    "name": "StarCraft",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Warden"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-31T00:34:52.421Z"
   }
 ]
