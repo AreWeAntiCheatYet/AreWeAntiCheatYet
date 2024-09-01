@@ -147,7 +147,12 @@
     "anticheats": [
       "Vanguard"
     ],
-    "notes": [],
+    "notes": [
+      [
+        "Possibly playable through a macOS VM",
+        null
+      ]
+    ],
     "updates": [
       {
         "name": "Vanguard developer claims Linux has \"too much attack surface\".",
@@ -162,7 +167,7 @@
       }
     },
     "slug": "valorant",
-    "dateChanged": "2024-01-26T01:27:56.161Z"
+    "dateChanged": "2024-09-01T22:22:14.140Z"
   },
   {
     "url": "https://www.halowaypoint.com/de-de/halo-infinite",
@@ -530,7 +535,7 @@
         "https://store.steampowered.com/news/app/381210/view/3723958226061651097"
       ],
       [
-        "Epic Games Store version might be broken. Steam Recommended.",
+        "Epic Games Store is broken on Linux. Steam Recommended.",
         null
       ]
     ],
@@ -564,7 +569,7 @@
       }
     },
     "slug": "dead-by-daylight",
-    "dateChanged": "2024-04-13T22:01:29.190Z"
+    "dateChanged": "2024-09-01T22:22:14.167Z"
   },
   {
     "url": "http://www.destinythegame.com/",
@@ -3907,7 +3912,7 @@
     "name": "Predator: Hunting Grounds",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -3921,7 +3926,7 @@
       }
     },
     "slug": "predator-hunting-grounds",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-09-01T22:22:14.332Z"
   },
   {
     "url": "",
@@ -4603,7 +4608,7 @@
   },
   {
     "url": "https://www.callofduty.com/blackops4",
-    "name": "Call of Duty: Black Ops 4",
+    "name": "Call of Duty: Black Ops IIII",
     "logo": "",
     "native": false,
     "status": "Supported",
@@ -4615,7 +4620,7 @@
     "updates": [],
     "storeIds": {},
     "slug": "call-of-duty-black-ops-4",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-09-01T22:22:14.359Z"
   },
   {
     "url": "",
@@ -7031,12 +7036,12 @@
     "updates": [],
     "notes": [
       [
-        "Speculative, Unreleased",
+        "Unreleased, Speculative",
         null
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-04-13T00:38:46.049Z"
+    "dateChanged": "2024-09-01T22:22:14.478Z"
   },
   {
     "url": "",
@@ -9203,5 +9208,21 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-08-26T20:56:24.259Z"
+  },
+  {
+    "url": "",
+    "slug": "skull-and-bones",
+    "name": "Skull and Bones",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-01T22:22:14.556Z"
   }
 ]
