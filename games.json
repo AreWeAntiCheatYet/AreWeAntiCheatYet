@@ -6407,6 +6407,22 @@
   },
   {
     "url": "",
+    "slug": "paragon-the-overprime",
+    "name": "Paragon: The Overprime",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-20T21:06:18.474Z"
+  },
+  {
+    "url": "",
     "slug": "ark-survival-ascended",
     "name": "ARK: Survival Ascended",
     "logo": "",
@@ -7432,6 +7448,27 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-05-27T02:52:10.810Z"
+  },
+  {
+    "url": "",
+    "slug": "blue-protocol",
+    "name": "Blue Protocol",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-05-28T00:05:37.755Z"
   },
   {
     "url": "",
