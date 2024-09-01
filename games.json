@@ -2627,8 +2627,8 @@
     "name": "Battlefield 1",
     "logo": "",
     "native": false,
-    "status": "Supported",
-    "reference": "https://www.protondb.com/app/1238840#MzrUkC1o9E",
+    "status": "Denied",
+    "reference": "https://www.ea.com/games/battlefield/battlefield-2042/news/eaac-and-battlefield",
     "anticheats": [
       "FairFight",
       "EA anticheat"
@@ -2639,7 +2639,7 @@
       "steam": "1238840"
     },
     "slug": "battlefield-1",
-    "dateChanged": "2024-08-29T23:39:07.641Z"
+    "dateChanged": "2024-08-30T00:00:00.000Z"
   },
   {
     "url": "",
@@ -8368,22 +8368,6 @@
     "reference": "",
     "anticheats": [
       "VAC"
-    ],
-    "updates": [],
-    "notes": [],
-    "storeIds": {},
-    "dateChanged": "2024-07-25T21:21:20.558Z"
-  },
-  {
-    "url": "https://snowbreak.amazingseasun.com/",
-    "slug": "snowbreak-containment-zone-row%2Fintl",
-    "name": "Snowbreak: Containment Zone (ROW/INTL)",
-    "logo": "",
-    "native": false,
-    "status": "Running",
-    "reference": "",
-    "anticheats": [
-      "Seasun Protect"
     ],
     "updates": [],
     "notes": [],
