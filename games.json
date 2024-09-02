@@ -1139,6 +1139,10 @@
       [
         "Needed workarounds prior to 3.5",
         ""
+      ],
+      [
+        "Possible 100% CPU Usage bug on Linux, play at your own risk",
+        null
       ]
     ],
     "updates": [
@@ -1160,7 +1164,7 @@
       }
     },
     "slug": "genshin-impact",
-    "dateChanged": "2024-08-01T00:35:00.000Z"
+    "dateChanged": "2024-09-02T22:03:09.321Z"
   },
   {
     "url": "https://www.djmaxrespect.com/",
@@ -9101,7 +9105,7 @@
       "nProtect GameGuard",
       "XIGNCODE3",
       "SARD",
-      "4game Guard (Frost Security)"
+      "4game Guard / Frost Security"
     ],
     "updates": [],
     "notes": [],
@@ -9224,5 +9228,53 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-09-01T22:22:14.556Z"
+  },
+  {
+    "url": "",
+    "slug": "critter-crunch",
+    "name": "Critter Crunch",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-02T22:03:09.735Z"
+  },
+  {
+    "url": "",
+    "slug": "inversion",
+    "name": "Inversion™",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-02T22:03:09.737Z"
+  },
+  {
+    "url": "",
+    "slug": "neotokyo",
+    "name": "NEOTOKYO",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-02T22:03:09.738Z"
   }
 ]
