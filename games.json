@@ -9292,5 +9292,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-09-04T04:47:09.096Z"
+  },
+  {
+    "url": "",
+    "slug": "infestation-survivor-stories-classic",
+    "name": "Infestation: Survivor Stories Classic",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-04T22:34:49.721Z"
   }
 ]
