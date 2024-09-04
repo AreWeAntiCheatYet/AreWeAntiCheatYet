@@ -9276,5 +9276,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-09-02T22:03:09.738Z"
+  },
+  {
+    "url": "",
+    "slug": "warlords-awakening",
+    "name": "Warlords Awakening",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-04T04:47:09.096Z"
   }
 ]
