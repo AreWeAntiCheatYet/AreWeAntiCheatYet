@@ -9356,5 +9356,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-09-05T22:01:18.691Z"
+  },
+  {
+    "url": "",
+    "slug": "one-punch-man-a-hero-nobody-knows",
+    "name": "One Punch Man: A Hero Nobody Knows",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-06T20:30:07.639Z"
   }
 ]
