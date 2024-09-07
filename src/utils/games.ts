@@ -92,7 +92,7 @@ export function getLogo(anticheat: string) {
     ['xign', 'xigncode3.webp'],
     ['treyarch', 'treyarch.webp'],
     ['arbiter', 'arbiter.webp'],
-    ['nprotect', 'nprotect.webp'],
+    ['nprotect g', 'nprotect.webp'],
     ['ricochet', 'ricochet.webp'],
     ['mail.ru', 'mailru.webp'],
     ['mihoyo', 'mihoyo.webp'],
