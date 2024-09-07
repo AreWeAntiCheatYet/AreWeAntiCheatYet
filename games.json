@@ -9372,5 +9372,54 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-09-06T20:30:07.639Z"
+  },
+  {
+    "url": "",
+    "slug": "csgo-challengermode",
+    "name": "Counter-Strike: Global Offensive (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-06T20:30:07.639Z"
+  },
+  {
+    "url": "",
+    "slug": "blackshot-mercenary-warfare-fps",
+    "name": "BlackShot: Mercenary Warfare FPS",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye",
+	  "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-06T20:30:07.639Z"
+  },
+  {
+    "url": "",
+    "slug": "ring-of-elysium",
+    "name": "Ring of Elysium",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "TenProtect"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-06T20:30:07.639Z"
   }
 ]
