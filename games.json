@@ -9431,7 +9431,7 @@
     "status": "Planned",
     "reference": "https://steamdeckhq.com/news/test-drive-unlimited-solar-crown-steam-deck/",
     "anticheats": [
-      null
+      "Unknown (Custom)"
     ],
     "updates": [],
     "notes": [
@@ -9441,6 +9441,6 @@
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-09-07T22:48:16.930Z"
+    "dateChanged": "2024-09-08T22:48:16.930Z"
   }
 ]
