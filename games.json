@@ -9399,7 +9399,7 @@
     "reference": "",
     "anticheats": [
       "BattlEye",
-	  "nProtect GameGuard"
+      "nProtect GameGuard"
     ],
     "updates": [],
     "notes": [],
@@ -9421,5 +9421,26 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-09-06T20:30:07.639Z"
+  },
+  {
+    "url": "",
+    "slug": "test-drive-unlimited-solar-crown",
+    "name": "Test Drive Unlimited Solar Crown",
+    "logo": "",
+    "native": false,
+    "status": "Planned",
+    "reference": "https://steamdeckhq.com/news/test-drive-unlimited-solar-crown-steam-deck/",
+    "anticheats": [
+      null
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-09-07T22:48:16.930Z"
   }
 ]
