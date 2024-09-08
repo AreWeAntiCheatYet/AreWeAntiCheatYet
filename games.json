@@ -7498,12 +7498,13 @@
     "status": "Running",
     "reference": "",
     "anticheats": [
-      "IronShield"
+      "IronShield",
+	  "Tavern"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-05-22T22:24:18.973Z"
+    "dateChanged": "2024-05-23T22:24:18.973Z"
   },
   {
     "url": "",
