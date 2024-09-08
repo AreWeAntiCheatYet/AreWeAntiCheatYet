@@ -317,7 +317,7 @@
     "logo": "",
     "native": false,
     "status": "Denied",
-    "reference": "https://i.redd.it/l4supmm5h0oc1.png",
+    "reference": "https://r6fix.ubi.com/projects/RAINBOW6-SIEGE-LIVE/issues/LIVE-59642",
     "anticheats": [
       "FairFight",
       "BattlEye"
@@ -363,7 +363,7 @@
       }
     },
     "slug": "rainbow-six-siege",
-    "dateChanged": "2024-03-14T21:55:26.695Z"
+    "dateChanged": "2024-09-08T21:25:56.675Z"
   },
   {
     "url": "https://www.smitegame.com/",
@@ -2473,7 +2473,8 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "FairFight",
+      "Mail.ru Anti-Cheat"
     ],
     "notes": [],
     "updates": [],
@@ -2485,7 +2486,7 @@
       }
     },
     "slug": "warface",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-09-08T21:25:56.787Z"
   },
   {
     "url": "",
@@ -3719,7 +3720,7 @@
     "status": "Running",
     "reference": "https://forums.gamersfirst.com/topic/20780-apb-130-on-linux-new-guide-with-proton-ge/",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "SARD"
     ],
     "notes": [
       [
@@ -3732,7 +3733,7 @@
       "steam": "113400"
     },
     "slug": "apb-reloaded",
-    "dateChanged": "2024-02-06T01:20:15.983Z"
+    "dateChanged": "2024-09-08T21:25:56.859Z"
   },
   {
     "url": "",
@@ -4328,8 +4329,8 @@
     ],
     "notes": [
       [
-        "Currently requires workaround",
-        "https://github.com/starcitizen-lug/information-howtos/wiki/Quick-Start-Guide"
+        "Quick Start Guide (Recommended)",
+        "https://github.com/starcitizen-lug/knowledge-base/wiki/Quick-Start-Guide"
       ]
     ],
     "updates": [
@@ -4341,7 +4342,7 @@
     ],
     "storeIds": {},
     "slug": "star-citizen",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-09-08T21:25:56.880Z"
   },
   {
     "url": "https://quake.bethesda.net",
@@ -4517,11 +4518,16 @@
     "anticheats": [
       "Easy Anti-Cheat"
     ],
-    "notes": [],
+    "notes": [
+      [
+        "Game may not work out of the box unless you have purchased the DLC, Shadow of the Erdtree.",
+        null
+      ]
+    ],
     "updates": [],
     "storeIds": {},
     "slug": "elden-ring",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-09-08T21:25:56.890Z"
   },
   {
     "url": "https://www.tibia.com/",
@@ -4670,7 +4676,7 @@
     "name": "Vindictus",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Nexon Game Security"
@@ -4681,7 +4687,7 @@
       "steam": "212160"
     },
     "slug": "vindictus",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-09-08T21:25:56.896Z"
   },
   {
     "url": "",
@@ -5514,7 +5520,7 @@
     "name": "Roblox",
     "logo": "",
     "native": false,
-    "status": "Running",
+    "status": "Denied",
     "reference": "https://i.redd.it/wcngc8xapnlc1.png",
     "anticheats": [
       "Hyperion"
@@ -5531,6 +5537,10 @@
       [
         "Use Grapejuice",
         "https://brinkervii.gitlab.io/grapejuice/"
+      ],
+      [
+        "Sober is just Waydroid plus a few additions, which while working, does not constitute as Linux support.",
+        null
       ]
     ],
     "updates": [
@@ -5552,7 +5562,7 @@
     ],
     "storeIds": {},
     "slug": "roblox",
-    "dateChanged": "2024-03-02T20:45:31.412Z"
+    "dateChanged": "2024-09-08T21:25:56.929Z"
   },
   {
     "url": "https://www.boundarygame.com/",
@@ -6795,7 +6805,7 @@
   {
     "url": "",
     "slug": "once-human",
-    "name": "Once Human",
+    "name": "Once Human (ROW/INTL)",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -6806,7 +6816,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-07-31T00:01:49.729Z"
+    "dateChanged": "2024-09-08T21:25:56.976Z"
   },
   {
     "url": "",
@@ -9442,5 +9452,26 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-09-08T22:48:16.930Z"
+  },
+  {
+    "url": "",
+    "slug": "resident-evil-resistance",
+    "name": "Resident Evil Resistance",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Denuvo Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Denuvo has been removed as of October 2020.",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-09-08T21:25:57.076Z"
   }
 ]
