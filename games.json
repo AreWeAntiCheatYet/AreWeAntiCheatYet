@@ -9538,5 +9538,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-09-11T22:09:08.466Z"
+  },
+  {
+    "url": "",
+    "slug": "starcraft-remastered",
+    "name": "StarCraft: Remastered",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Warden"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-12T21:54:30.853Z"
   }
 ]
