@@ -9554,5 +9554,26 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-09-12T21:54:30.853Z"
+  },
+  {
+    "url": "",
+    "slug": "magic-to-master",
+    "name": "Magic to Master",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "SARD"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-09-13T20:25:01.766Z"
   }
 ]
