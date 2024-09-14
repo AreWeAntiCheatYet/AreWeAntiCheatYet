@@ -9079,8 +9079,11 @@
         "reference": "https://steamdb.info/depot/2240861/history/"
       }
     ],
-    "storeIds": {},
-    "dateChanged": "2024-08-26T20:56:24.259Z"
+    "notes": [],
+    "storeIds": {
+       "steam": "976730"
+    },
+    "dateChanged": "2024-09-14T00:00:00.000Z"
   },
   {
     "url": "https://aion.gameforge.com/",
