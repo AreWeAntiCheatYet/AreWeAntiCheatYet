@@ -9068,17 +9068,16 @@
     "name": "Harry Potter: Quidditch Champions",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Supported",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
     ],
-    "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
+    "updates": [
+      {
+        "name": "Removed EAC during playtest.",
+        "date": "Aug 2, 2024, 0:00 AM",
+        "reference": "https://steamdb.info/depot/2240861/history/"
+      }
     ],
     "storeIds": {},
     "dateChanged": "2024-08-26T20:56:24.259Z"
