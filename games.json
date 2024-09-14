@@ -9575,5 +9575,21 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-09-13T20:25:01.766Z"
+  },
+  {
+    "url": "",
+    "slug": "3on3-freestyle-rebound",
+    "name": "3on3 FreeStyle: Rebound",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-14T20:30:51.204Z"
   }
 ]
