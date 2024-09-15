@@ -1932,15 +1932,21 @@
     "status": "Running",
     "reference": "https://www.gamingonlinux.com/2023/09/proton-experimental-fixes-up-metro-exodus-sword-art-online-integral-factor-and-more/",
     "anticheats": [
-      "XIGNCODE3"
+      "nProtect GameGuard"
     ],
     "notes": [],
-    "updates": [],
+    "updates": [
+      {
+        "name": "Switched from XIGNCODE to GameGuard",
+        "date": "Jun 13, 2024, 0:00 AM",
+        "reference": "https://steamdb.info/depot/1377581/history/?changeid=M:6686394954881915639"
+      }
+    ],
     "storeIds": {
-      "steam": "630100"
+      "steam": "1377580"
     },
     "slug": "soulworker",
-    "dateChanged": "2024-01-28T03:05:01.671Z"
+    "dateChanged": "2024-09-14T00:00:00.000Z"
   },
   {
     "url": "https://www.ubisoft.com/en-us/game/ghost-recon/breakpoint",
@@ -9031,20 +9037,22 @@
     "name": "Harry Potter: Quidditch Champions",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Supported",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
     ],
-    "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
+    "updates": [
+      {
+        "name": "Removed EAC during playtest.",
+        "date": "Aug 2, 2024, 0:00 AM",
+        "reference": "https://steamdb.info/depot/2240861/history/"
+      }
     ],
-    "storeIds": {},
-    "dateChanged": "2024-08-26T20:56:24.259Z"
+    "notes": [],
+    "storeIds": {
+       "steam": "2878600"
+    },
+    "dateChanged": "2024-09-14T00:00:00.000Z"
   },
   {
     "url": "https://aion.gameforge.com/",
