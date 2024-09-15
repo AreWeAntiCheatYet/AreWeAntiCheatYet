@@ -4466,20 +4466,7 @@
     "anticheats": [
       "Vanguard"
     ],
-    "notes": [
-      [
-        "Will stop working in the future due to the planned implementation of Vanguard kernel-level anticheat",
-        "https://www.youtube.com/watch?v=9U_jEzKf0_0&t=732s"
-      ],
-      [
-        "Works with Lutris",
-        "https://reddit.com/r/leagueoflinux/wiki/index"
-      ],
-      [
-        "Helper script available",
-        "https://github.com/kyechou/leagueoflegends"
-      ]
-    ],
+    "notes": [],
     "updates": [],
     "storeIds": {
       "epic": {
@@ -4488,7 +4475,7 @@
       }
     },
     "slug": "league-of-legends",
-    "dateChanged": "2024-01-23T02:57:04.027Z"
+    "dateChanged": "2024-09-15T22:37:00.936Z"
   },
   {
     "url": "",
@@ -6140,7 +6127,7 @@
     "dateChanged": "2024-08-18T17:22:04.182Z"
   },
   {
-    "url": "",
+    "url": "https://pc.wfclutch.com/",
     "slug": "warface-clutch",
     "name": "Warface: Clutch",
     "logo": "",
@@ -6149,12 +6136,12 @@
     "reference": "",
     "anticheats": [
       "FairFight",
-	  "MY.GAMES Anti-Cheat"
+      "MY.GAMES Anti-Cheat"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-02-09T22:20:45.640Z"
+    "dateChanged": "2024-09-15T22:37:01.005Z"
   },
   {
     "url": "",
@@ -6364,12 +6351,12 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Mail.ru Anti-Cheat"
+      "MY.GAMES Anti-Cheat"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-02-18T22:01:10.777Z"
+    "dateChanged": "2024-09-15T22:37:01.023Z"
   },
   {
     "url": "",
@@ -6921,14 +6908,9 @@
       "EA anticheat"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-08-05T20:28:25.199Z"
+    "dateChanged": "2024-09-15T22:37:01.048Z"
   },
   {
     "url": "",
@@ -6936,7 +6918,7 @@
     "name": "Gray Zone Warfare",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -6944,7 +6926,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-03-10T20:06:54.720Z"
+    "dateChanged": "2024-09-15T22:37:01.049Z"
   },
   {
     "url": "",
@@ -7144,14 +7126,9 @@
       "Easy Anti-Cheat"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Working in Closed Beta",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-04-13T23:13:17.478Z"
+    "dateChanged": "2024-09-15T22:37:01.062Z"
   },
   {
     "url": "",
@@ -7370,14 +7347,9 @@
       "Easy Anti-Cheat"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-05-20T21:30:11.790Z"
+    "dateChanged": "2024-09-15T22:37:01.071Z"
   },
   {
     "url": "",
@@ -7785,20 +7757,15 @@
     "name": "Project L33T",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-06-17T21:55:25.254Z"
+    "dateChanged": "2024-09-15T22:37:01.101Z"
   },
   {
     "url": "",
@@ -8697,14 +8664,9 @@
       "BattlEye"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Explicitly denied in Open Beta",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-08-11T23:02:07.610Z"
+    "dateChanged": "2024-09-15T22:37:01.139Z"
   },
   {
     "url": "",
@@ -9446,14 +9408,9 @@
       "Unknown (Custom)"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-09-08T22:48:16.930Z"
+    "dateChanged": "2024-09-15T22:37:01.179Z"
   },
   {
     "url": "",
@@ -9592,5 +9549,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-09-14T20:30:51.204Z"
+  },
+  {
+    "url": "",
+    "slug": "dual-universe",
+    "name": "Dual Universe",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-15T22:37:01.190Z"
   }
 ]
