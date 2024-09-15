@@ -68,7 +68,7 @@ export function paginate(chunkSize: number, games = Games) {
 
   for (let i = 0; games.length / chunkSize > i; i++) {
     const start = chunkSize * i;
-    const end = i === chunkSize - 1 ? undefined : chunkSize * (i + 1);
+    const end = chunkSize * (i + 1);
 
     rtn.push(games.slice(start, end));
   }
