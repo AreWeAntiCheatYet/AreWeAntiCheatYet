@@ -9626,5 +9626,56 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-09-16T21:14:19.247Z"
+  },
+  {
+    "url": "",
+    "slug": "infestation-world",
+    "name": "Infestation World",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Punkbuster",
+	  "Easy Anti-Cheat",
+	  "Fredaikis Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-17T21:14:19.247Z"
+  },
+  {
+    "url": "",
+    "slug": "war-rock",
+    "name": "War Rock",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "AhnLab HackShield",
+	  "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-17T21:14:19.247Z"
+  },
+  {
+    "url": "",
+    "slug": "metro-conflict",
+    "name": "Metro Conflict",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-17T21:14:19.247Z"
   }
 ]
