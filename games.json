@@ -9039,8 +9039,7 @@
     "native": false,
     "status": "Supported",
     "reference": "",
-    "anticheats": [
-    ],
+    "anticheats": [],
     "updates": [
       {
         "name": "Removed EAC during playtest.",
@@ -9050,7 +9049,7 @@
     ],
     "notes": [],
     "storeIds": {
-       "steam": "2878600"
+      "steam": "2878600"
     },
     "dateChanged": "2024-09-14T00:00:00.000Z"
   },
@@ -9573,5 +9572,53 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-09-15T22:37:01.190Z"
+  },
+  {
+    "url": "",
+    "slug": "cs2-for-challengermode",
+    "name": "Counter-Strike 2 (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-16T21:14:19.243Z"
+  },
+  {
+    "url": "",
+    "slug": "blacklight-retribution",
+    "name": "Blacklight: Retribution",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-16T21:14:19.247Z"
+  },
+  {
+    "url": "",
+    "slug": "astra-knights-of-veda",
+    "name": "ASTRA: Knights of Veda",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-16T21:14:19.247Z"
   }
 ]
