@@ -4836,14 +4836,13 @@
   },
   {
     "url": "",
-    "name": "Grand Theft Auto Online",
+    "name": "Grand Theft Auto V",
     "logo": "",
     "status": "Denied",
     "native": false,
     "reference": "",
     "anticheats": [
-      "BattlEye",
-      "Unknown (Custom)"
+      "BattlEye"
     ],
     "notes": [],
     "updates": [
@@ -4860,8 +4859,8 @@
         "slug": "grand-theft-auto-v"
       }
     },
-    "slug": "grand-theft-auto-online",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "slug": "grand-theft-auto-v",
+    "dateChanged": "2024-09-17T04:40:56.000Z"
   },
   {
     "url": "https://animalroyale.com",
