@@ -4838,14 +4838,21 @@
     "url": "",
     "name": "Grand Theft Auto Online",
     "logo": "",
-    "status": "Supported",
+    "status": "Denied",
     "native": false,
     "reference": "",
     "anticheats": [
+      "BattlEye",
       "Unknown (Custom)"
     ],
     "notes": [],
-    "updates": [],
+    "updates": [
+      {
+        "name": "BattlEye added",
+        "date": "Tue Sep 17 2024 09:35:47 UTC",
+        "reference": "https://support.rockstargames.com/articles/33490543992467/Grand-Theft-Auto-Online-BattlEye-FAQ"
+      }
+    ],
     "storeIds": {
       "steam": "271590",
       "epic": {
