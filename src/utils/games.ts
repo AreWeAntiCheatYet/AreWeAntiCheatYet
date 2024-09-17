@@ -116,7 +116,10 @@ export function getLogo(anticheat: string) {
 	['frost', 'frost.webp'],
 	['arkos', 'arkos.webp'],
 	['tenprotect', 'tenprotect.webp'],
-	['my.games', 'my.games.webp']
+	['my.games', 'my.games.webp'],
+	['ahnlab', 'hackshield.webp'],
+	['x-trap', 'x-trap.webp'],
+	['fredaikis', 'fredaikis.webp']
   ];
 
   const file = logo_map.find((x) => anticheat.toLowerCase().includes(x[0]))?.[1];
