@@ -9690,9 +9690,14 @@
       "Easy Anti-Cheat"
     ],
     "updates": [],
-    "notes": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
     "storeIds": {},
-    "dateChanged": "2024-09-18T21:36:59.208Z"
+    "dateChanged": "2024-09-19T04:38:21.460Z"
   },
   {
     "url": "",
