@@ -9637,8 +9637,8 @@
     "reference": "",
     "anticheats": [
       "Punkbuster",
-	  "Easy Anti-Cheat",
-	  "Fredaikis Anti-Cheat"
+      "Easy Anti-Cheat",
+      "Fredaikis Anti-Cheat"
     ],
     "updates": [],
     "notes": [],
@@ -9655,7 +9655,7 @@
     "reference": "",
     "anticheats": [
       "AhnLab HackShield",
-	  "Easy Anti-Cheat"
+      "Easy Anti-Cheat"
     ],
     "updates": [],
     "notes": [],
@@ -9677,5 +9677,53 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-09-17T21:14:19.247Z"
+  },
+  {
+    "url": "",
+    "slug": "faaast-penguin",
+    "name": "Faaast Penguin",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-18T21:36:59.208Z"
+  },
+  {
+    "url": "",
+    "slug": "umbrella-corps",
+    "name": "Umbrella Corps",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Unknown (Custom)"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-18T21:36:59.209Z"
+  },
+  {
+    "url": "",
+    "slug": "sven-co-op",
+    "name": "Sven Co-op",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-18T21:36:59.210Z"
   }
 ]
