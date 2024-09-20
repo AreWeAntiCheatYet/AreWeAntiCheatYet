@@ -9730,5 +9730,103 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-09-18T21:36:59.210Z"
+  },
+  {
+    "url": "",
+    "slug": "uncharted-waters-online",
+    "name": "Uncharted Waters Online",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-20T19:51:25.506Z"
+  },
+  {
+    "url": "",
+    "slug": "assassins-creed3",
+    "name": "Assassin's Creed 3",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-20T19:51:25.507Z"
+  },
+  {
+    "url": "",
+    "slug": "diablo-ii-resurrected",
+    "name": "Diablo® II: Resurrected",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Warden"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-20T19:51:25.507Z"
+  },
+  {
+    "url": "",
+    "slug": "ragnarok-online-prime",
+    "name": "Ragnarok Online Prime",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "SARD",
+      "4game Guard / Frost Security"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-20T19:51:25.508Z"
+  },
+  {
+    "url": "",
+    "slug": "bless-online",
+    "name": "Bless Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye",
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-20T19:51:25.508Z"
+  },
+  {
+    "url": "",
+    "slug": "last-oasis",
+    "name": "Last Oasis",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-20T19:51:25.508Z"
   }
 ]
