@@ -9828,5 +9828,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-09-20T19:51:25.508Z"
+  },
+  {
+    "url": "",
+    "slug": "csgo-for-gamersclub",
+    "name": "Counter-Strike: Global Offensive (GamersClub)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "EMAC LAB"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-20T19:51:25.508Z"
   }
 ]
