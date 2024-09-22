@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002F","\u002Fbreakdown","\u002Fgame\u002F[id]","\u002Fgrid\u002F[page]","\u002Fno-js","\u002Ftable\u002F[page]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
