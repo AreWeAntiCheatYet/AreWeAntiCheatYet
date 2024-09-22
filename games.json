@@ -313,7 +313,7 @@
   },
   {
     "url": "https://ubisoft.com/en-us/game/rainbow-six/siege",
-    "name": "Rainbow Six: Siege",
+    "name": "Tom Clancy's Rainbow Six® Siege",
     "logo": "",
     "native": false,
     "status": "Denied",
@@ -363,7 +363,7 @@
       }
     },
     "slug": "rainbow-six-siege",
-    "dateChanged": "2024-09-08T21:25:56.675Z"
+    "dateChanged": "2024-09-22T22:18:43.803Z"
   },
   {
     "url": "https://www.smitegame.com/",
@@ -606,7 +606,7 @@
   },
   {
     "url": "",
-    "name": "Hunt: Showdown",
+    "name": "Hunt: Showdown 1896",
     "logo": "",
     "native": false,
     "status": "Supported",
@@ -646,7 +646,7 @@
       "steam": "594650"
     },
     "slug": "hunt-showdown",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-09-22T22:18:43.810Z"
   },
   {
     "url": "https://rust.facepunch.com/",
@@ -2472,7 +2472,7 @@
     "dateChanged": "2024-01-20T04:40:56.000Z"
   },
   {
-    "url": "",
+    "url": "https://ru.warface.com",
     "name": "Warface",
     "logo": "",
     "native": false,
@@ -2492,7 +2492,7 @@
       }
     },
     "slug": "warface",
-    "dateChanged": "2024-09-08T21:25:56.787Z"
+    "dateChanged": "2024-09-22T22:18:43.840Z"
   },
   {
     "url": "",
@@ -4233,8 +4233,7 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat",
-	  "AnyBrain"
+      "Easy Anti-Cheat"
     ],
     "notes": [
       [
@@ -6809,7 +6808,7 @@
     "name": "Once Human (ROW/INTL)",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "NEAC Protect"
@@ -6817,7 +6816,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-09-08T21:25:56.976Z"
+    "dateChanged": "2024-09-22T22:18:43.901Z"
   },
   {
     "url": "",
@@ -6934,8 +6933,7 @@
     "status": "Running",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat",
-	  "AnyBrain"
+      "Easy Anti-Cheat"
     ],
     "updates": [],
     "notes": [],
@@ -8659,12 +8657,13 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "VIOLET"
+      "VIOLET",
+      "SARD"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-08-17T00:00:00.000Z"
+    "dateChanged": "2024-09-22T22:18:43.923Z"
   },
   {
     "url": "",
@@ -9878,5 +9877,53 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-09-21T20:10:23.468Z"
+  },
+  {
+    "url": "",
+    "slug": "infestation-the-new-z",
+    "name": "Infestation: The New Z",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Fredaikis Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-22T22:18:43.936Z"
+  },
+  {
+    "url": "",
+    "slug": "ragnarok-online2",
+    "name": "Ragnarok Online 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "AhnLab HackShield"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-22T22:18:43.937Z"
+  },
+  {
+    "url": "",
+    "slug": "gunz-the-duel",
+    "name": "GunZ: The Duel",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-22T22:18:43.937Z"
   }
 ]
