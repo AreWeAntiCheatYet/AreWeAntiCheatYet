@@ -6934,7 +6934,8 @@
     "status": "Running",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "Easy Anti-Cheat",
+	  "AnyBrain"
     ],
     "updates": [],
     "notes": [],
