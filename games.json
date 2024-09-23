@@ -4234,7 +4234,7 @@
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat",
-	  "AnyBrain"
+      "AnyBrain"
     ],
     "notes": [
       [
@@ -6935,7 +6935,7 @@
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat",
-	  "AnyBrain"
+      "AnyBrain"
     ],
     "updates": [],
     "notes": [],
@@ -9927,5 +9927,107 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-09-22T22:18:43.937Z"
+  },
+  {
+    "url": "",
+    "slug": "duckside",
+    "name": "DUCKSIDE",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        ""
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-09-23T20:36:25.027Z"
+  },
+  {
+    "url": "",
+    "slug": "flippin-misfits",
+    "name": "Flippin Misfits",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-23T20:36:25.028Z"
+  },
+  {
+    "url": "",
+    "slug": "roller-coaster-rampage",
+    "name": "Roller Coaster Rampage",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-23T20:36:25.029Z"
+  },
+  {
+    "url": "",
+    "slug": "rakion-chaos-force",
+    "name": "Rakion Chaos Force",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard",
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-23T20:36:25.030Z"
+  },
+  {
+    "url": "",
+    "slug": "medal-of-honor-warfighter",
+    "name": "Medal of Honor: Warfighter",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-23T20:36:25.030Z"
+  },
+  {
+    "url": "",
+    "slug": "diablo-iv",
+    "name": "Diablo® IV",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Warden"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-23T20:36:25.031Z"
   }
 ]
