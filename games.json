@@ -10029,5 +10029,117 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-09-23T20:36:25.031Z"
+  },
+  {
+    "url": "",
+    "slug": "silkroad-online",
+    "name": "Silkroad Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "SARD"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-24T20:41:16.928Z"
+  },
+  {
+    "url": "",
+    "slug": "twin-saga",
+    "name": "Twin Saga",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-24T20:41:16.929Z"
+  },
+  {
+    "url": "",
+    "slug": "aew-fight-forever",
+    "name": "AEW Fight Forever",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-24T20:41:16.929Z"
+  },
+  {
+    "url": "",
+    "slug": "cs2-for-gamersclub",
+    "name": "Counter-Strike 2 (GamersClub)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "EMAC LAB"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-24T20:41:16.930Z"
+  },
+  {
+    "url": "",
+    "slug": "just-survive",
+    "name": "Just Survive",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-24T20:41:16.930Z"
+  },
+  {
+    "url": "",
+    "slug": "metin2",
+    "name": "Metin2",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-24T20:41:16.931Z"
+  },
+  {
+    "url": "",
+    "slug": "metin2-korea",
+    "name": "Metin2 (KOR)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-24T20:41:16.932Z"
   }
 ]
