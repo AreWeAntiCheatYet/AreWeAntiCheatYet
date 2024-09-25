@@ -10141,5 +10141,138 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-09-24T20:41:16.932Z"
+  },
+  {
+    "url": "",
+    "slug": "infestation-survivor-stories-revival",
+    "name": "Infestation: Survivor Stories Revival",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Fredaikis Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-25T21:16:49.652Z"
+  },
+  {
+    "url": "",
+    "slug": "arctic-combat",
+    "name": "Arctic Combat",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "AhnLab HackShield"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-25T21:16:49.653Z"
+  },
+  {
+    "url": "",
+    "slug": "grando-espada",
+    "name": "Granado Espada",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-25T21:16:49.653Z"
+  },
+  {
+    "url": "",
+    "slug": "grando-espada-korea",
+    "name": "Granado Espada (KOR)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-25T21:16:49.655Z"
+  },
+  {
+    "url": "",
+    "slug": "grando-espada-japan",
+    "name": "Granado Espada Japan",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-25T21:16:49.655Z"
+  },
+  {
+    "url": "",
+    "slug": "tarisland",
+    "name": "Tarisland",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-09-25T21:16:49.656Z"
+  },
+  {
+    "url": "https://www.breachersvr.com/",
+    "slug": "breachers-vr",
+    "name": "Breachers",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-25T21:16:49.658Z"
+  },
+  {
+    "url": "",
+    "slug": "line-of-sight",
+    "name": "Line of Sight",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-25T21:16:49.658Z"
   }
 ]
