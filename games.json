@@ -10469,5 +10469,109 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-09-26T20:38:09.815Z"
+  },
+  {
+    "url": "",
+    "slug": "ghosts-of-tabor",
+    "name": "Ghosts of Tabor",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-27T20:50:11.625Z"
+  },
+  {
+    "url": "",
+    "slug": "undawn",
+    "name": "Undawn",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-27T20:50:11.625Z"
+  },
+  {
+    "url": "",
+    "slug": "infestation-survivor-stories-2020",
+    "name": "Infestation: Survivor Stories 2020",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster",
+      "Easy Anti-Cheat",
+      "Fredaikis Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-27T20:50:11.625Z"
+  },
+  {
+    "url": "",
+    "slug": "florensia",
+    "name": "Florensia",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "AhnLab HackShield"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-27T20:50:11.626Z"
+  },
+  {
+    "url": "",
+    "slug": "hero-online",
+    "name": "Hero Plus",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap",
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-27T20:50:11.626Z"
+  },
+  {
+    "url": "",
+    "slug": "nakwon-last-paradise",
+    "name": "NAKWON: LAST PARADISE",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Nexon Game Security"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Working in the Closed Beta",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-09-27T20:50:11.627Z"
   }
 ]
