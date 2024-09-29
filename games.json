@@ -1504,12 +1504,16 @@
     "name": "iRacing",
     "logo": "",
     "native": false,
-    "status": "Running",
+    "status": "Broken",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
     "notes": [
+      [
+        "Online Play prohibited, Test Drive & AI Racing only.",
+        null
+      ],
       [
         "Proton Experimental or Proton 9+ recommended",
         null
@@ -1524,7 +1528,7 @@
       }
     },
     "slug": "iracing",
-    "dateChanged": "2024-07-31T00:01:49.579Z"
+    "dateChanged": "2024-09-29T21:31:44.572Z"
   },
   {
     "url": "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2",
@@ -2191,7 +2195,8 @@
     "status": "Supported",
     "reference": "https://albiononline.com/en/download",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "Easy Anti-Cheat",
+      "BattlEye"
     ],
     "notes": [],
     "updates": [],
@@ -2199,7 +2204,7 @@
       "steam": "761890"
     },
     "slug": "albion-online",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-09-29T21:31:44.584Z"
   },
   {
     "url": "",
@@ -2432,7 +2437,8 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "Easy Anti-Cheat",
+      "BattlEye"
     ],
     "notes": [],
     "updates": [
@@ -2451,7 +2457,7 @@
       "steam": "895400"
     },
     "slug": "deadside",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-09-29T21:31:44.588Z"
   },
   {
     "url": "https://intruderfps.com/",
@@ -2538,13 +2544,14 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
+      "VAC",
       "BattlEye"
     ],
     "notes": [],
     "updates": [],
     "storeIds": {},
     "slug": "atlas",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-09-29T21:31:44.589Z"
   },
   {
     "url": "",
@@ -3965,6 +3972,7 @@
     "status": "Supported",
     "reference": "https://www.protondb.com/app/550470",
     "anticheats": [
+      "X-Trap",
       "nProtect GameGuard"
     ],
     "notes": [
@@ -3978,7 +3986,7 @@
       "steam": "550470"
     },
     "slug": "nostale",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-09-29T21:31:44.604Z"
   },
   {
     "url": "",
@@ -5057,7 +5065,7 @@
     "native": false,
     "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/498#issuecomment-1172345129",
     "anticheats": [
-      "Unknown (Custom)"
+      "VAC"
     ],
     "notes": [
       [
@@ -5070,7 +5078,7 @@
       "steam": "700330"
     },
     "slug": "scp-secret-laboratory",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-09-29T21:31:44.618Z"
   },
   {
     "url": "https://midnightghosthunt.com/",
@@ -9413,7 +9421,7 @@
     "dateChanged": "2024-09-06T20:30:07.639Z"
   },
   {
-    "url": "https://testdriveunlimited.com",
+    "url": "",
     "slug": "test-drive-unlimited-solar-crown",
     "name": "Test Drive Unlimited Solar Crown",
     "logo": "",
@@ -9425,9 +9433,7 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {
-      "steam": "1249970"
-    },
+    "storeIds": {},
     "dateChanged": "2024-09-15T22:37:01.179Z"
   },
   {
@@ -10575,5 +10581,295 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-09-27T20:50:11.627Z"
+  },
+  {
+    "url": "https://sealonline.playrohan.com/",
+    "slug": "seal-online",
+    "name": "Seal Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-29T21:31:44.676Z"
+  },
+  {
+    "url": "",
+    "slug": "half-life-vr-mod",
+    "name": "Half-Life: VR Mod",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-29T21:31:44.676Z"
+  },
+  {
+    "url": "",
+    "slug": "atlantica",
+    "name": "Atlantica Global",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-29T21:31:44.676Z"
+  },
+  {
+    "url": "",
+    "slug": "atlantica-europe",
+    "name": "Atlantica Europe",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-29T21:31:44.676Z"
+  },
+  {
+    "url": "",
+    "slug": "far-cry3",
+    "name": "Far Cry 3",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-29T21:31:44.676Z"
+  },
+  {
+    "url": "",
+    "slug": "lineage-2",
+    "name": "Lineage II",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "4game Guard / Frost Security",
+      "Active Anticheat",
+      "SARD"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-29T21:31:44.677Z"
+  },
+  {
+    "url": "",
+    "slug": "audition-online",
+    "name": "Audition Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-29T21:31:44.677Z"
+  },
+  {
+    "url": "",
+    "slug": "summum-aeterna",
+    "name": "Summum Aeterna",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-29T21:31:44.677Z"
+  },
+  {
+    "url": "",
+    "slug": "wild-card-football",
+    "name": "Wild Card Football",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-29T21:31:44.677Z"
+  },
+  {
+    "url": "",
+    "slug": "scavengers",
+    "name": "Scavengers",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-29T21:31:44.677Z"
+  },
+  {
+    "url": "",
+    "slug": "cardlife-creative-survival",
+    "name": "CardLife: Creative Survival",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-29T21:31:44.677Z"
+  },
+  {
+    "url": "",
+    "slug": "video-horror-society",
+    "name": "Video Horror Society",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      null
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-29T21:31:44.678Z"
+  },
+  {
+    "url": "",
+    "slug": "next-day-survival",
+    "name": "Next Day: Survival",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-29T21:31:44.678Z"
+  },
+  {
+    "url": "",
+    "slug": "tf2-for-challengermode",
+    "name": "Team Fortress 2 (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-29T21:31:44.678Z"
+  },
+  {
+    "url": "",
+    "slug": "spirit-detective",
+    "name": "Spirit Detective",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-29T21:31:44.679Z"
+  },
+  {
+    "url": "",
+    "slug": "chimeraland",
+    "name": "Chimeraland",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-29T21:31:44.679Z"
+  },
+  {
+    "url": "",
+    "slug": "infestation-battle-royale",
+    "name": "Infestation: Battle Royale",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Fredaikis Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-29T21:31:44.679Z"
+  },
+  {
+    "url": "",
+    "slug": "dragonica",
+    "name": "Dragonica",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "AhnLab HackShield"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-29T21:31:44.679Z"
   }
 ]
