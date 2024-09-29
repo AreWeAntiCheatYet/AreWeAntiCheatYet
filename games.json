@@ -9413,7 +9413,7 @@
     "dateChanged": "2024-09-06T20:30:07.639Z"
   },
   {
-    "url": "",
+    "url": "https://testdriveunlimited.com",
     "slug": "test-drive-unlimited-solar-crown",
     "name": "Test Drive Unlimited Solar Crown",
     "logo": "",
@@ -9425,7 +9425,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1249970"
+    },
     "dateChanged": "2024-09-15T22:37:01.179Z"
   },
   {
