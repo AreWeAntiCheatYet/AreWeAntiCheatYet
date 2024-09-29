@@ -1,64 +1,78 @@
-name: Request Game
-description: Request a new game to add to the list
-title: 'Request <Game Name Here>'
+name: Request game
+description: Request a new game to be added to the list.
+title: 'Request: <game>'
 labels: ['new-game', 'status-change']
 body:
   - type: input
     id: game
     attributes:
-      label: Game Title
-      placeholder: ex. Team Fortress 2
+      label: Game title
+      placeholder: e.g. Team Fortress 2
     validations:
       required: true
   - type: input
     id: game-url
     attributes:
-      label: Game Website
-      description: A valid hyperlink to the game's website.
-      placeholder: ex. https://teamfortress.com
+      label: Game main page
+      description: A valid hyperlink to the game's website or main page (Steam Store etc.).
+      placeholder: e.g. https://www.teamfortress.com/ or https://store.steampowered.com/app/440/Team_Fortress_2/
     validations:
-      required: false
+      required: true
   - type: dropdown
     id: anti-cheat
     attributes:
-      label: Anti-Cheat Software
-      description: Which anti-cheat software is the game running?
+      label: Anti-cheat software
+      description: Which anti-cheat software is the game using?
       options:
-        - Easy Anti-Cheat
+        - Easy Anti-Cheat (EAC)
         - BattlEye
         - XIGNCODE3
         - nProtect GameGuard
         - EQU8
-        - VAC
-        - Other
+        - Valve Anti-Cheat (VAC)
+        - Denuvo Anti-Cheat
+        - Other (please specify below)
     validations:
       required: true
+  - type: input
+    id: anti-cheat-other
+    attributes:
+        label: Anti-cheat name
+        description: If you selected "Other" in the previous question, please specify the anti-cheat name here.
+    validations:
+        required: false
   - type: dropdown
     id: anti-cheat-status
     attributes:
-      label: Status of the Anti-Cheat
-      description: What is the state of the game? (For more in depth definitions see "Legend" on https://areweanticheatyet.com)
+      label: Status of the game anti-cheat
+      description: What is the state of the game anti-cheat? (For more in depth definitions, see "Legend" on <https://areweanticheatyet.com>.)
       options:
-        - 🚫 Denied
-        - 😥 Broken
+        - 🚀 Supported
+        - 🏃 Running
         - 🕧 Planned
-        - 👍 Running
-        - ⭐ Supported
+        - ☹️ Broken
+        - 🚫 Denied
     validations:
       required: true
   - type: textarea
     id: tinkering-steps
     attributes:
-      label: Tinkering Steps
-      description: In case tinkering is required please describe the steps here.
-      placeholder: ex. use steam flatpak
+      label: Tinkering steps
+      description: In case tinkering is required, please describe the steps here.
+      placeholder: e.g. use Steam Flatpak
     validations:
       required: false
   - type: input
-    id: anti-cheat-comment
+    id: anti-cheat-proof
     attributes:
-      label: Proof of Mention
-      description: A reputable source that supports your claim of the games status. (https://github.com/Starz0r/AreWeAntiCheatYet/issues/15#issuecomment-1140423344)
-      placeholder: ex. https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic
+      label: Proof of mention
+      description: A reputable source that supports your claim of the game anti-cheat status. (See <https://github.com/Starz0r/AreWeAntiCheatYet/issues/15#issuecomment-1140423344>.)
+      placeholder: e.g. https://www.theverge.com/2021/10/5/22709918/valve-steam-deck-supported-games-anti-cheat-proton-eac-battleye-epic
     validations:
       required: true
+  - type: textarea
+    id: additional-comments
+    attributes:
+      label: Additional comments
+    validations:
+      required: false
