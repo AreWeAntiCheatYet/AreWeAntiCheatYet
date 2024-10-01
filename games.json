@@ -10857,5 +10857,301 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-09-29T21:31:44.679Z"
+  },
+  {
+    "url": "",
+    "slug": "new-game-mantine-4ttn1pg9b",
+    "name": "",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      null
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-01T20:07:50.785Z"
+  },
+  {
+    "url": "",
+    "slug": "tales-runner",
+    "name": "Tales Runner",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap",
+      "AhnLab HackShield",
+      "nProtect GameGuard",
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-01T20:31:17.587Z"
+  },
+  {
+    "url": "",
+    "slug": "finalcypher",
+    "name": "FinalCypher",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-01T20:31:17.588Z"
+  },
+  {
+    "url": "",
+    "slug": "f1-24",
+    "name": "F1® 24",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "",
+    "anticheats": [
+      "EA anticheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-01T20:31:17.588Z"
+  },
+  {
+    "url": "",
+    "slug": "insurgency-modern-infantry-combat",
+    "name": "Insurgency: Modern Infantry Combat",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-01T20:31:17.589Z"
+  },
+  {
+    "url": "",
+    "slug": "sentry-obelisk-of-dawn",
+    "name": "Sentry：Obelisk Of Dawn",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-01T20:31:17.589Z"
+  },
+  {
+    "url": "",
+    "slug": "joint-operations-escalation",
+    "name": "Joint Operations: Escalation",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-01T20:31:17.589Z"
+  },
+  {
+    "url": "",
+    "slug": "aion-classic",
+    "name": "AION Classic",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "SARD"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-01T20:31:17.590Z"
+  },
+  {
+    "url": "",
+    "slug": "dragomon-hunter",
+    "name": "Dragomon Hunter",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-01T20:31:17.590Z"
+  },
+  {
+    "url": "",
+    "slug": "friends-vs-friends",
+    "name": "Friends vs Friends",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-01T20:31:17.590Z"
+  },
+  {
+    "url": "",
+    "slug": "the-culling",
+    "name": "The Culling",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-01T20:31:17.590Z"
+  },
+  {
+    "url": "",
+    "slug": "frozen-flame",
+    "name": "Frozen Flame",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-01T20:31:17.591Z"
+  },
+  {
+    "url": "",
+    "slug": "rockshot",
+    "name": "RockShot",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-01T20:31:17.591Z"
+  },
+  {
+    "url": "",
+    "slug": "wayfinder",
+    "name": "Wayfinder",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-01T20:31:17.591Z"
+  },
+  {
+    "url": "",
+    "slug": "kingshunt",
+    "name": "Kingshunt",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-01T20:31:17.591Z"
+  },
+  {
+    "url": "",
+    "slug": "lol-for-challengermode",
+    "name": "League of Legends (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-01T20:31:17.591Z"
+  },
+  {
+    "url": "",
+    "slug": "super-people-2",
+    "name": "SUPER PEOPLE 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-01T20:31:17.591Z"
+  },
+  {
+    "url": "",
+    "slug": "project-n",
+    "name": "Project N",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-01T20:31:17.592Z"
   }
 ]
