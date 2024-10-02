@@ -10860,6 +10860,22 @@
   },
   {
     "url": "",
+    "slug": "new-game-mantine-4ttn1pg9b",
+    "name": "",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      null
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-01T20:07:50.785Z"
+  },
+  {
+    "url": "",
     "slug": "tales-runner",
     "name": "Tales Runner",
     "logo": "",
@@ -11137,5 +11153,106 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-10-01T20:31:17.592Z"
+  },
+  {
+    "url": "",
+    "slug": "nether-the-untold-chapter",
+    "name": "Nether: The Untold Chapter",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Fredaikis Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-02T22:05:44.354Z"
+  },
+  {
+    "url": "",
+    "slug": "arcane-saga-online",
+    "name": "Arcane Saga Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "AhnLab HackShield"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-02T22:05:44.355Z"
+  },
+  {
+    "url": "",
+    "slug": "gunz2-the-second-duel",
+    "name": "GunZ 2: The Second Duel",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-02T22:05:44.355Z"
+  },
+  {
+    "url": "",
+    "slug": "fc24-for-faceit",
+    "name": "EA SPORTS™ FC 24 (FACEIT)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "FACEIT"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-02T22:05:44.356Z"
+  },
+  {
+    "url": "",
+    "slug": "metal-revolution",
+    "name": "Metal Revolution",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "TenProtect"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-02T22:05:44.357Z"
+  },
+  {
+    "url": "https://pgr.kurogame.net",
+    "slug": "punishing-gray-raven",
+    "name": "Punishing: Gray Raven",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-02T22:05:44.357Z"
   }
 ]
