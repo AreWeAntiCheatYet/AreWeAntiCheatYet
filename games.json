@@ -10860,22 +10860,6 @@
   },
   {
     "url": "",
-    "slug": "new-game-mantine-4ttn1pg9b",
-    "name": "",
-    "logo": "",
-    "native": false,
-    "status": "Broken",
-    "reference": "",
-    "anticheats": [
-      null
-    ],
-    "updates": [],
-    "notes": [],
-    "storeIds": {},
-    "dateChanged": "2024-10-01T20:07:50.785Z"
-  },
-  {
-    "url": "",
     "slug": "tales-runner",
     "name": "Tales Runner",
     "logo": "",
