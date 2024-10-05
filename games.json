@@ -8091,20 +8091,15 @@
     "name": "Throne and Liberty",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-07-09T20:08:57.887Z"
+    "dateChanged": "2024-10-05T16:27:40.462Z"
   },
   {
     "url": "https://www.txchainsawgame.com/",
@@ -11242,5 +11237,352 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-10-02T22:05:44.357Z"
+  },
+  {
+    "url": "",
+    "slug": "brainbread-2",
+    "name": "BrainBread 2",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-05T16:27:40.506Z"
+  },
+  {
+    "url": "",
+    "slug": "guardian-chronicle",
+    "name": "Guardian Chronicle",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-05T16:27:40.508Z"
+  },
+  {
+    "url": "",
+    "slug": "prey",
+    "name": "Prey",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-05T16:27:40.508Z"
+  },
+  {
+    "url": "",
+    "slug": "ragnarok-online",
+    "name": "Ragnarok Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat",
+      "SARD"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-05T16:27:40.508Z"
+  },
+  {
+    "url": "",
+    "slug": "zyconix",
+    "name": "Zyconix",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-05T16:27:40.509Z"
+  },
+  {
+    "url": "",
+    "slug": "smelogs-playground",
+    "name": "Smelogs Playground",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-05T16:27:40.510Z"
+  },
+  {
+    "url": "",
+    "slug": "a-twisted-path-to-renown",
+    "name": "A Twisted Path to Renown",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-05T16:27:40.510Z"
+  },
+  {
+    "url": "",
+    "slug": "traha-global",
+    "name": "TRAHA Global",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-05T16:27:40.510Z"
+  },
+  {
+    "url": "",
+    "slug": "life-is-feudal-mmo",
+    "name": "Life is Feudal: MMO",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-05T16:27:40.510Z"
+  },
+  {
+    "url": "",
+    "slug": "babylons-fall",
+    "name": "Babylon's Fall",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-05T16:27:40.511Z"
+  },
+  {
+    "url": "",
+    "slug": "ashes-of-creation-apocalypse",
+    "name": "Ashes of Creation Apocalypse",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat",
+      "MY.GAMES Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-05T16:27:40.511Z"
+  },
+  {
+    "url": "",
+    "slug": "dota2-for-challengermode",
+    "name": "DotA 2 (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-05T16:27:40.511Z"
+  },
+  {
+    "url": "",
+    "slug": "z1-br",
+    "name": "Z1 Battle Royale",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-05T16:27:40.511Z"
+  },
+  {
+    "url": "",
+    "slug": "the-mythical-realm",
+    "name": "仙侠世界 (The Mythical Realm)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "TenProtect",
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-05T16:27:40.511Z"
+  },
+  {
+    "url": "",
+    "slug": "romeros-aftermath",
+    "name": "Romero's Aftermath",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Fredaikis Anti-Cheat",
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-05T16:27:40.512Z"
+  },
+  {
+    "url": "",
+    "slug": "district-187",
+    "name": "District 187",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "AhnLab HackShield"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-05T16:27:40.512Z"
+  },
+  {
+    "url": "",
+    "slug": "crossfire",
+    "name": "CrossFire",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap",
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-05T16:27:40.512Z"
+  },
+  {
+    "url": "",
+    "slug": "fc25-for-faceit",
+    "name": "EA SPORTS™ FC 25 (FACEIT)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "FACEIT"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-05T16:27:40.512Z"
+  },
+  {
+    "url": "",
+    "slug": "neverness-to-everness",
+    "name": "Neverness to Everness",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Crackproof",
+      "KSophon"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-05T16:27:40.513Z"
+  },
+  {
+    "url": "",
+    "slug": "warhammer40k-space-marine2",
+    "name": "Warhammer 40,000: Space Marine 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-05T16:27:40.513Z"
+  },
+  {
+    "url": "",
+    "slug": "hl-escape2",
+    "name": "Half-Life: ESCAPE 2.0",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-05T16:27:40.513Z"
   }
 ]
