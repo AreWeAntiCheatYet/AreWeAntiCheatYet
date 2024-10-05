@@ -55,7 +55,6 @@
     "status": "Denied",
     "reference": "",
     "anticheats": [
-      "BattlEye",
       "Easy Anti-Cheat"
     ],
     "notes": [
@@ -79,6 +78,11 @@
         "name": "Was running for a short period of time",
         "date": "Nov 2, 2022, 8:04 AM GMT+1",
         "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/918#issuecomment-1299673303"
+      },
+      {
+        "name": "Removed BattlEye",
+        "date": "Jun 11, 2024, 5:34 PM GMT+1",
+        "reference": "https://x.com/ShiinaBR/status/1800567329870537171"
       }
     ],
     "storeIds": {
@@ -88,7 +92,7 @@
       }
     },
     "slug": "fortnite",
-    "dateChanged": "2024-01-22T17:23:46.000Z"
+    "dateChanged": "2024-10-04T17:23:46.000Z"
   },
   {
     "url": "",
