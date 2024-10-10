@@ -11868,5 +11868,278 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-10-07T22:48:08.635Z"
+  },
+  {
+    "url": "",
+    "slug": "once-human-china",
+    "name": "Once Human (CHN)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "NEAC Protect",
+      "NetEase Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-10T01:03:28.437Z"
+  },
+  {
+    "url": "",
+    "slug": "dread-hunger",
+    "name": "Dread Hunger",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-10T01:03:28.437Z"
+  },
+  {
+    "url": "",
+    "slug": "record-of-lodoss-war-online",
+    "name": "Record of Lodoss War Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-10T01:03:28.438Z"
+  },
+  {
+    "url": "",
+    "slug": "tom-clancys-rainbow-six-vegas2",
+    "name": "Tom Clancy's Rainbow Six Vegas 2",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-10T01:03:28.438Z"
+  },
+  {
+    "url": "",
+    "slug": "ragnarok-landverse",
+    "name": "Ragnarok Landverse",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "SARD"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-10T01:03:28.439Z"
+  },
+  {
+    "url": "",
+    "slug": "sword-art-online-integral-factor",
+    "name": "Sword Art Online: Integral Factor",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-10T01:03:28.439Z"
+  },
+  {
+    "url": "",
+    "slug": "project-sparrow",
+    "name": "Project Sparrow",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-10T01:03:28.439Z"
+  },
+  {
+    "url": "",
+    "slug": "super-dragon-ball-heroes-world-mission",
+    "name": "Super Dragon Ball Heroes World Mission",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-10T01:03:28.440Z"
+  },
+  {
+    "url": "",
+    "slug": "robocraft",
+    "name": "Robocraft",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-10T01:03:28.440Z"
+  },
+  {
+    "url": "",
+    "slug": "shoot-on-sight",
+    "name": "Shoot on Sight",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-10T01:03:28.440Z"
+  },
+  {
+    "url": "",
+    "slug": "hell-is-others",
+    "name": "Hell is Others",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-10T01:03:28.440Z"
+  },
+  {
+    "url": "",
+    "slug": "sniper-ghost-warrior-contracts",
+    "name": "Sniper Ghost Warrior Contracts",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-10T01:03:28.440Z"
+  },
+  {
+    "url": "",
+    "slug": "cod-blops3-for-challengermode",
+    "name": "Call of Duty: Black Ops 3 (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-10T01:03:28.331Z"
+  },
+  {
+    "url": "",
+    "slug": "fear-the-night",
+    "name": "Fear the Night",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-10T01:03:28.441Z"
+  },
+  {
+    "url": "",
+    "slug": "national-street-basketball",
+    "name": "全民街篮 (National Street Basketball)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-10T01:03:28.441Z"
+  },
+  {
+    "url": "",
+    "slug": "combat-arms",
+    "name": "Combat Arms",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "AhnLab HackShield"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-10T01:03:28.371Z"
+  },
+  {
+    "url": "",
+    "slug": "tower-alliance-online",
+    "name": "Tower Alliance Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-10T01:03:28.441Z"
   }
 ]
