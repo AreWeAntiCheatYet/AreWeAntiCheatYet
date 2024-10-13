@@ -12148,5 +12148,305 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-10-10T01:03:28.441Z"
+  },
+  {
+    "url": "",
+    "slug": "revenblade",
+    "name": "Revenblade",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-13T22:38:31.287Z"
+  },
+  {
+    "url": "",
+    "slug": "war-robots-frontiers",
+    "name": "War Robots: Frontiers",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "MY.GAMES Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-13T22:38:31.287Z"
+  },
+  {
+    "url": "",
+    "slug": "ballistic-overkill",
+    "name": "Ballistic Overkill",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-13T22:38:31.287Z"
+  },
+  {
+    "url": "",
+    "slug": "legend-of-ares",
+    "name": "Legend of Ares",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap",
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-13T22:38:31.288Z"
+  },
+  {
+    "url": "",
+    "slug": "tom-clancys-ghost-recon-future-soldier",
+    "name": "Tom Clancy's Ghost Recon Future Soldier",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-13T22:38:31.288Z"
+  },
+  {
+    "url": "",
+    "slug": "hide-or-die",
+    "name": "Hide or Die",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "EQU8"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-13T22:38:31.288Z"
+  },
+  {
+    "url": "",
+    "slug": "kingdom-under-fire-2",
+    "name": "Kingdom Under Fire 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-13T22:38:31.289Z"
+  },
+  {
+    "url": "",
+    "slug": "ride5",
+    "name": "RIDE 5",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-13T22:38:31.289Z"
+  },
+  {
+    "url": "",
+    "slug": "ggst-for-challengermode",
+    "name": "Guilty Gear: Strive (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-13T22:38:31.290Z"
+  },
+  {
+    "url": "",
+    "slug": "phantomers",
+    "name": "Phantomers",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-13T22:38:31.290Z"
+  },
+  {
+    "url": "",
+    "slug": "honkai-impact-3rd-china",
+    "name": "Honkai Impact 3rd (CHN)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-13T22:38:31.290Z"
+  },
+  {
+    "url": "",
+    "slug": "parapa",
+    "name": "parapa",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-13T22:38:31.290Z"
+  },
+  {
+    "url": "https://fatetrigger.com/",
+    "slug": "fate-trigger-the-novita",
+    "name": "Fate Trigger：The Novita",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-13T22:38:31.290Z"
+  },
+  {
+    "url": "",
+    "slug": "conquerors-blade",
+    "name": "Conqueror's Blade",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Mail.ru Anti-Cheat",
+      "MY.GAMES Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-13T22:38:31.291Z"
+  },
+  {
+    "url": "",
+    "slug": "battlefleet-gothic-armada",
+    "name": "Battlefleet Gothic: Armada",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-13T22:38:31.291Z"
+  },
+  {
+    "url": "",
+    "slug": "navyfield",
+    "name": "NAVYFIELD",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-13T22:38:31.292Z"
+  },
+  {
+    "url": "",
+    "slug": "americas-army-proving-grounds",
+    "name": "America's Army Proving Grounds",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-13T22:38:31.292Z"
+  },
+  {
+    "url": "",
+    "slug": "sands-of-reincarnation",
+    "name": "轮回之沙 (Sands of Reincarnation)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "TenProtect"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-13T22:38:31.292Z"
   }
 ]
