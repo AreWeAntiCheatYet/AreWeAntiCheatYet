@@ -1575,7 +1575,7 @@
   },
   {
     "url": "https://www.ubisoft.com/en-us/game/watch-dogs/watch-dogs-2",
-    "name": "Watch Dogs 2",
+    "name": "Watch_Dogs® 2",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -1592,7 +1592,7 @@
       }
     },
     "slug": "watch-dogs-2",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-10-13T20:19:23.668Z"
   },
   {
     "url": "",
@@ -1636,7 +1636,7 @@
   },
   {
     "url": "https://www.ubisoft.com/en-us/game/the-crew/the-crew-2",
-    "name": "The Crew 2",
+    "name": "The Crew™ 2",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -1654,7 +1654,7 @@
       }
     },
     "slug": "the-crew-2",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-10-13T20:19:23.671Z"
   },
   {
     "url": "https://crsed.net/en/#!/",
@@ -3193,7 +3193,7 @@
   },
   {
     "url": "",
-    "name": "Star Wars: Battlefront (2015)",
+    "name": "STAR WARS™ Battlefront™ (2015)",
     "logo": "",
     "native": false,
     "status": "Supported",
@@ -3211,7 +3211,7 @@
       }
     },
     "slug": "star-wars-battlefront-2015",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-10-13T20:19:23.692Z"
   },
   {
     "url": "",
@@ -3616,7 +3616,7 @@
   },
   {
     "url": "",
-    "name": "Star Wars: Battlefront II (2017)",
+    "name": "STAR WARS™ Battlefront™ II (2017)",
     "logo": "",
     "native": false,
     "status": "Supported",
@@ -3634,7 +3634,7 @@
       }
     },
     "slug": "star-wars-battlefront-ii-2017",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-10-13T20:19:23.696Z"
   },
   {
     "url": "",
@@ -5235,6 +5235,7 @@
     "native": false,
     "reference": "",
     "anticheats": [
+      "X-Trap",
       "XIGNCODE3"
     ],
     "notes": [],
@@ -5243,7 +5244,7 @@
       "steam": "389430"
     },
     "slug": "knight-online",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-10-13T20:19:23.714Z"
   },
   {
     "url": "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-the-breakers",
@@ -6009,9 +6010,14 @@
       "Easy Anti-Cheat"
     ],
     "updates": [],
-    "notes": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
     "storeIds": {},
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-10-13T20:19:23.723Z"
   },
   {
     "url": "",
@@ -6210,12 +6216,13 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Proxima Game Anti Cheat"
+      "Proxima Game Anti Cheat",
+      "Anti-Cheat Expert"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-10-13T20:19:23.725Z"
   },
   {
     "url": "",
@@ -7683,7 +7690,7 @@
     "name": "FragPunk",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "NEAC Protect"
@@ -7691,12 +7698,12 @@
     "updates": [],
     "notes": [
       [
-        "Unreleased, Speculative",
+        "Unreleased, Working in Closed Beta Test",
         null
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-06-12T21:40:38.477Z"
+    "dateChanged": "2024-10-13T20:19:23.741Z"
   },
   {
     "url": "",
