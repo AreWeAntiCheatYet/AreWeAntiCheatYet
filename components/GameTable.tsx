@@ -10,10 +10,11 @@ import {
     StackProps,
     Table,
     Text,
+    useMantineColorScheme,
     ThemeIcon,
     useMantineTheme,
 } from '@mantine/core';
-import { useMediaQuery, useViewportSize } from '@mantine/hooks';
+import { useMediaQuery, useViewportSize, } from '@mantine/hooks';
 import { openModal } from '@mantine/modals';
 import {
     IconBellRinging,
@@ -42,6 +43,7 @@ function GameUpdate({ game }: { game: Game }) {
     const mostRecentUpdate = updatesSorted[0];
 
     const [update, setUpdate] = useState(mostRecentUpdate?.date);
+    const colorScheme = useMantineColorScheme();
     const { basePath } = useRouter();
 
     useEffect(() => {
@@ -51,24 +53,40 @@ function GameUpdate({ game }: { game: Game }) {
 
     const theme = useMantineTheme();
     const yellow4 = theme.colors.yellow[4];
+    const blue4 = "#2A4EB0";
 
     if (mostRecentUpdate) {
         // TODO: for some reason mantine wants to override
         // the actual color I want to put here. so I have
         // to wrap the text in another div to get it to
         // inherit the right color.
-        return (
-            <Group wrap="nowrap">
-                <ThemeIcon color="green" radius="xl">
-                    <IconCalendarEvent size={16} />
-                </ThemeIcon>
-                <Text c={yellow4} style={{ color: yellow4 }} component="a" target="_blank" href={`${basePath}/game/${game.slug}`}>
-                    <div color={yellow4}>
-                        {update}
-                    </div>
-                </Text>
-            </Group>
-        );
+        if (colorScheme.colorScheme == "dark") {
+            return (
+                <Group wrap="nowrap">
+                    <ThemeIcon color="green" radius="xl">
+                        <IconCalendarEvent size={16} />
+                    </ThemeIcon>
+                    <Text c={yellow4} style={{ color: yellow4 }} component="a" target="_blank" href={`${basePath}/game/${game.slug}`}>
+                        <div color={yellow4}>
+                            {update}
+                        </div>
+                    </Text>
+                </Group>
+            );
+        } else {
+            return (
+                <Group wrap="nowrap">
+                    <ThemeIcon color="green" radius="xl">
+                        <IconCalendarEvent size={16} />
+                    </ThemeIcon>
+                    <Text c={blue4} style={{ color: blue4 }} component="a" target="_blank" href={`${basePath}/game/${game.slug}`}>
+                        <div color={blue4}>
+                            {update}
+                        </div>
+                    </Text>
+                </Group>
+            );
+        }
     }
 
     return;
@@ -83,7 +101,7 @@ interface GameTableProps extends Omit<StackProps, 'align' | 'style'> {
     style?: MantineStyleProp;
 }
 
-export default function({ assets, ignoreFilters, games, style, page, totalPages, ...props }: GameTableProps) {
+export default function ({ assets, ignoreFilters, games, style, page, totalPages, ...props }: GameTableProps) {
     const breakpoint = useMediaQuery('(min-width: 1200px)') ?? true;
     const [filteredGames, setGames] = useState(games);
     const [filtered, setFiltered] = useState(false);
@@ -93,6 +111,8 @@ export default function({ assets, ignoreFilters, games, style, page, totalPages,
     const { width } = useViewportSize();
     const theme = useMantineTheme();
     const themeColorFn = themeColor(theme);
+    const colorScheme = useMantineColorScheme();
+    const blue4 = "#2A4EB0";
 
     const body = filteredGames.map((game) => {
         const { name, slug, url, status } = game;

@@ -6,6 +6,7 @@ import {
     ListProps,
     MantineSize,
     Text,
+    useMantineColorScheme,
     ThemeIcon,
     useMantineTheme,
 } from '@mantine/core';
@@ -22,7 +23,9 @@ interface NotesProps extends Omit<ListProps & CardProps, 'spacing' | 'children'>
 
 export default function({ game, iconSize, lineClamp, size, fz, ...props }: NotesProps) {
     const theme = useMantineTheme();
+    const colorScheme = useMantineColorScheme();
     const yellow4 = theme.colors.yellow[4];
+    const blue4 = "#2A4EB0";
 
     if (game.notes.length <= 0) {
         return (
@@ -50,11 +53,18 @@ export default function({ game, iconSize, lineClamp, size, fz, ...props }: Notes
             {game.notes.map((note) => {
                 const text = note[0];
                 const reference = note[1];
+                const clr = (() => {
+                    if (colorScheme.colorScheme == "dark") {
+                        return reference ? yellow4 : "white"
+                    } else {
+                        return reference ? blue4 : "white"
+                }
+                })();
 
                 return (
                     <List.Item key={text}>
                         <Text
-                            c={reference ? yellow4 : "white"}
+                            c={clr}
                             fz={fz || 'xl'}
                             lineClamp={lineClamp}
                             component={reference ? 'a' : undefined}
