@@ -12828,15 +12828,15 @@
     "name": "Princess Connect! Re:Dive",
     "logo": "",
     "native": false,
-    "status": "CrackProof",
+    "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Broken"
+      "CrackProof"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-18T17:04:48.781171-05:00"
+    "dateChanged": "2024-10-18T18:04:48.781171-05:00"
   },
   {
     "url": "https://pt1.subagames.com/",
