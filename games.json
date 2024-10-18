@@ -12448,5 +12448,633 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-10-13T22:38:31.292Z"
+  },
+  {
+    "url": "",
+    "slug": "alchemia-story",
+    "name": "Alchemia Story",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.769172-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dreadnought",
+    "name": "Dreadnought",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.770170-05:00"
+  },
+  {
+    "url": "",
+    "slug": "wolfteam-turkey",
+    "name": "WolfTeam Turkey",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.771170-05:00"
+  },
+  {
+    "url": "",
+    "slug": "days-of-war",
+    "name": "Days of War",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      ""
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.771170-05:00"
+  },
+  {
+    "url": "",
+    "slug": "yulgang-thailand",
+    "name": "Yulgang TH",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.771170-05:00"
+  },
+  {
+    "url": "",
+    "slug": "darkfall-rise-of-agon",
+    "name": "Rise of Agon",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.772187-05:00"
+  },
+  {
+    "url": "",
+    "slug": "cs2-for-esgplay",
+    "name": "Counter-Strike 2 (ESGPLAY)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.772187-05:00"
+  },
+  {
+    "url": "",
+    "slug": "blackshot-revolution",
+    "name": "BlackShot Revolution",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.772187-05:00"
+  },
+  {
+    "url": "",
+    "slug": "cabal-online",
+    "name": "Cabal Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.773188-05:00"
+  },
+  {
+    "url": "",
+    "slug": "anarchy-legends-online",
+    "name": "Anarchy Legends Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.773188-05:00"
+  },
+  {
+    "url": "",
+    "slug": "the-crew-motorfest",
+    "name": "The Crew\u2122 Motorfest",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.773188-05:00"
+  },
+  {
+    "url": "",
+    "slug": "sniper-elite4",
+    "name": "Sniper Elite 4",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.774171-05:00"
+  },
+  {
+    "url": "",
+    "slug": "legend-of-edda-pegasus",
+    "name": "Legend of Edda: Pegasus",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.776174-05:00"
+  },
+  {
+    "url": "",
+    "slug": "enemy-territory-quake-wars",
+    "name": "Enemy Territory: Quake Wars",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Punkbuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.777171-05:00"
+  },
+  {
+    "url": "",
+    "slug": "metro-conflict-the-origin",
+    "name": "Metro Conflict: The Origin",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.778171-05:00"
+  },
+  {
+    "url": "",
+    "slug": "space-junkies",
+    "name": "Space Junkies",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.778171-05:00"
+  },
+  {
+    "url": "",
+    "slug": "kritika-online-sea",
+    "name": "Kritika Online SEA",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.778171-05:00"
+  },
+  {
+    "url": "",
+    "slug": "last-year",
+    "name": "Last Year",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.779171-05:00"
+  },
+  {
+    "url": "",
+    "slug": "rend",
+    "name": "Rend",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.779171-05:00"
+  },
+  {
+    "url": "",
+    "slug": "legends-of-aria",
+    "name": "Legends of Aria",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.779171-05:00"
+  },
+  {
+    "url": "",
+    "slug": "apex-legends-for-challengermode",
+    "name": "Apex Legends (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.780170-05:00"
+  },
+  {
+    "url": "",
+    "slug": "outlaws-of-the-old-west",
+    "name": "Outlaws of the Old West",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.780170-05:00"
+  },
+  {
+    "url": "",
+    "slug": "journeymans-inn",
+    "name": "\u6c5f\u6e56\u5ba2\u6808-\u5355\u4eba\u6a21\u5f0f (Journeyman's Inn)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.780170-05:00"
+  },
+  {
+    "url": "https://dmg.priconne-redive.jp",
+    "slug": "princess-connect-redive",
+    "name": "Princess Connect! Re:Dive",
+    "logo": "",
+    "native": false,
+    "status": "CrackProof",
+    "reference": "",
+    "anticheats": [
+      "Broken"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.781171-05:00"
+  },
+  {
+    "url": "https://pt1.subagames.com/",
+    "slug": "priston-tale",
+    "name": "Priston Tale",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.781171-05:00"
+  },
+  {
+    "url": "",
+    "slug": "ea-sports-fc26",
+    "name": "EA SPORTS FC\u2122 26",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "",
+    "anticheats": [
+      "EA anticheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.781171-05:00"
+  },
+  {
+    "url": " Speculative",
+    "slug": "dominance",
+    "name": "Dominance",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.781171-05:00"
+  },
+  {
+    "url": "",
+    "slug": "project-zero",
+    "name": "Project Zero",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.781171-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dirt-rally-2",
+    "name": "Dirt Rally 2.0",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.782182-05:00"
+  },
+  {
+    "url": "",
+    "slug": "summoners-war",
+    "name": "Summoners War",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.782182-05:00"
+  },
+  {
+    "url": "",
+    "slug": "joint-operations-combined-arms",
+    "name": "Joint Operations: Combined Arms Gold",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Punkbuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.782182-05:00"
+  },
+  {
+    "url": "",
+    "slug": "marvel-end-time-arena",
+    "name": "MARVEL End Time Arena",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.783181-05:00"
+  },
+  {
+    "url": "",
+    "slug": "overstep",
+    "name": "Overstep",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.783181-05:00"
+  },
+  {
+    "url": "",
+    "slug": "teamfight-tactics-for-challengermode",
+    "name": "Teamfight Tactics (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.783181-05:00"
+  },
+  {
+    "url": "",
+    "slug": "zula",
+    "name": "Zula Global",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.784171-05:00"
+  },
+  {
+    "url": "",
+    "slug": "the-mythical-realm-2",
+    "name": "\u4ed9\u4fa0\u4e16\u754c2 (The Mythical Realm 2)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "TenProtect"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.784171-05:00"
+  },
+  {
+    "url": "",
+    "slug": "rusty-hearts",
+    "name": "Rusty Hearts",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.785172-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dragon-ball-project-multi",
+    "name": "DRAGON BALL PROJECT:Multi",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Working in Closed Beta Test.",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-18T17:04:48.785172-05:00"
   }
 ]
