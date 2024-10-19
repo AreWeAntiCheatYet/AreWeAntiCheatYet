@@ -12617,7 +12617,7 @@
   {
     "url": "",
     "slug": "the-crew-motorfest",
-    "name": "The Crew\u2122 Motorfest",
+    "name": "The Crew™ Motorfest",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -12809,7 +12809,7 @@
   {
     "url": "",
     "slug": "journeymans-inn",
-    "name": "\u6c5f\u6e56\u5ba2\u6808-\u5355\u4eba\u6a21\u5f0f (Journeyman's Inn)",
+    "name": "江湖客栈-单人模式 (Journeyman's Inn)",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -12857,7 +12857,7 @@
   {
     "url": "",
     "slug": "ea-sports-fc26",
-    "name": "EA SPORTS FC\u2122 26",
+    "name": "EA SPORTS FC™ 26",
     "logo": "",
     "native": false,
     "status": "Denied",
@@ -13027,7 +13027,7 @@
   {
     "url": "",
     "slug": "the-mythical-realm-2",
-    "name": "\u4ed9\u4fa0\u4e16\u754c2 (The Mythical Realm 2)",
+    "name": "仙侠世界2 (The Mythical Realm 2)",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -13076,5 +13076,101 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-10-18T17:04:48.785172-05:00"
+  },
+  {
+    "url": "",
+    "slug": "contractors-showdown",
+    "name": "Contractors Showdown",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-19T23:30:33.391Z"
+  },
+  {
+    "url": "",
+    "slug": "il-2-sturmovik-cliffs-of-dover",
+    "name": "IL-2 Sturmovik: Cliffs of Dover",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-19T23:30:33.392Z"
+  },
+  {
+    "url": "",
+    "slug": "tempest-tower-of-probatio",
+    "name": "TEMPEST: Tower of Probatio",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-19T23:30:33.392Z"
+  },
+  {
+    "url": "",
+    "slug": "bullet-run",
+    "name": "Bullet Run",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-19T23:30:33.393Z"
+  },
+  {
+    "url": "",
+    "slug": "toram-online",
+    "name": "Toram Online",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-19T23:30:33.393Z"
+  },
+  {
+    "url": "",
+    "slug": "project-f",
+    "name": "Project F",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-19T23:30:33.394Z"
   }
 ]
