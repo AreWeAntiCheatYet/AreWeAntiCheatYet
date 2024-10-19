@@ -12506,7 +12506,7 @@
     "status": "Running",
     "reference": "",
     "anticheats": [
-      ""
+      "Easy Anti-Cheat"
     ],
     "updates": [],
     "notes": [],
@@ -12655,7 +12655,7 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "nProtect"
+      "nProtect GameGuard"
     ],
     "updates": [],
     "notes": [],
@@ -12889,7 +12889,7 @@
     "updates": [],
     "notes": [
       [
-        "Unreleased",
+        "Unreleased, Speculative",
         null
       ]
     ],
