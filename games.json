@@ -2372,7 +2372,8 @@
     "status": "Denied",
     "reference": "https://github.com/AreWeAntiCheatYet/AreWeAntiCheatYet/assets/53239162/d1e81279-66c9-4c53-8525-3c2a94430ed0",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "Easy Anti-Cheat",
+      "Anti-Cheat Expert"
     ],
     "notes": [],
     "updates": [
@@ -2391,7 +2392,7 @@
       "steam": "760160"
     },
     "slug": "vampire-the-masquerade-bloodhunt",
-    "dateChanged": "2024-08-25T21:58:41.884Z"
+    "dateChanged": "2024-10-20T20:59:10.840Z"
   },
   {
     "url": "https://maplestory.nexon.net",
@@ -4000,6 +4001,7 @@
     "status": "Denied",
     "reference": "https://www.ea.com/games/battlefield/battlefield-2042/news/eaac-and-battlefield",
     "anticheats": [
+      "FairFight",
       "EA anticheat"
     ],
     "notes": [],
@@ -4012,7 +4014,7 @@
       }
     },
     "slug": "battlefield-v",
-    "dateChanged": "2024-04-09T20:44:09.962Z"
+    "dateChanged": "2024-10-20T20:59:10.864Z"
   },
   {
     "url": "",
@@ -4299,7 +4301,7 @@
     "name": "Watch Dogs: Legion",
     "logo": "",
     "native": false,
-    "status": "Running",
+    "status": "Supported",
     "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/1095",
     "anticheats": [
       "BattlEye"
@@ -4310,6 +4312,11 @@
         "name": "Multiplayer working",
         "date": "Jan 28, 2023, 11:23 AM GMT+1",
         "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/1095"
+      },
+      {
+        "name": "BattlEye Removed",
+        "date": "Tue Oct 31 2023 09:00:30 GMT-0500 (Central Daylight Time)",
+        "reference": "https://steamdb.info/depot/2239551/history/"
       }
     ],
     "storeIds": {
@@ -4319,7 +4326,7 @@
       }
     },
     "slug": "watch-dogs-legion",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-10-20T20:59:10.871Z"
   },
   {
     "url": "",
@@ -8905,7 +8912,7 @@
     "name": "SUPERVIVE",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Denied",
     "reference": "",
     "anticheats": [
       "NEAC Protect",
@@ -8914,12 +8921,12 @@
     "updates": [],
     "notes": [
       [
-        "Unreleased, Speculative",
+        "Unreleased, Explicitly denied in Steam Next Fest Beta",
         null
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-08-21T20:57:30.623Z"
+    "dateChanged": "2024-10-20T20:59:10.939Z"
   },
   {
     "url": "https://splitgate.com",
@@ -9048,7 +9055,9 @@
     "native": false,
     "status": "Supported",
     "reference": "",
-    "anticheats": [],
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
     "updates": [
       {
         "name": "Removed EAC during playtest.",
@@ -9060,7 +9069,7 @@
     "storeIds": {
       "steam": "2878600"
     },
-    "dateChanged": "2024-09-14T00:00:00.000Z"
+    "dateChanged": "2024-10-20T20:59:10.941Z"
   },
   {
     "url": "https://aion.gameforge.com/",
@@ -11902,12 +11911,13 @@
     "status": "Running",
     "reference": "",
     "anticheats": [
-      "VAC"
+      "VAC",
+      "Easy Anti-Cheat"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-10T01:03:28.437Z"
+    "dateChanged": "2024-10-20T20:59:10.978Z"
   },
   {
     "url": "",
@@ -13033,12 +13043,13 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "TenProtect"
+      "TenProtect",
+      "nProtect GameGuard"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-18T17:04:48.784171-05:00"
+    "dateChanged": "2024-10-20T20:59:10.994Z"
   },
   {
     "url": "",
@@ -13172,5 +13183,106 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-10-19T23:30:33.394Z"
+  },
+  {
+    "url": "",
+    "slug": "fc24-for-challengermode",
+    "name": "EA Sports FC™ 24 (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-20T20:59:10.996Z"
+  },
+  {
+    "url": "",
+    "slug": "hyper-scape",
+    "name": "Hyper Scape",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-20T20:59:10.996Z"
+  },
+  {
+    "url": "",
+    "slug": "his-heroes-in-the-sky",
+    "name": "HIS (Heroes In the Sky)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-20T20:59:10.996Z"
+  },
+  {
+    "url": "",
+    "slug": "flea-madness",
+    "name": "Flea Madness",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-20T20:59:10.997Z"
+  },
+  {
+    "url": "",
+    "slug": "trimurti-online",
+    "name": "Trimurti Online",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-20T20:59:10.997Z"
+  },
+  {
+    "url": "",
+    "slug": "nether-resurrected",
+    "name": "Nether: Resurrected",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-20T20:59:10.997Z"
   }
 ]
