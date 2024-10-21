@@ -13284,5 +13284,170 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-10-20T20:59:10.997Z"
+  },
+  {
+    "url": "",
+    "slug": "luniaz-revival",
+    "name": "LUNIA Z: Revival",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-21T16:34:58.621971-05:00"
+  },
+  {
+    "url": "",
+    "slug": "joint-operations-typhoon-rising",
+    "name": "Joint Operations: Typhoon Rising",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-21T16:34:58.627671-05:00"
+  },
+  {
+    "url": "",
+    "slug": "cronous",
+    "name": "Cronous",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-21T16:34:58.627671-05:00"
+  },
+  {
+    "url": "",
+    "slug": "sweet-time",
+    "name": "Sweet Time",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-21T16:34:58.627671-05:00"
+  },
+  {
+    "url": "",
+    "slug": "wc3-for-challengermode",
+    "name": "WarCraft III (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-21T16:34:58.628671-05:00"
+  },
+  {
+    "url": "",
+    "slug": "grand-theft-auto-vi",
+    "name": "Grand Theft Auto VI",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-21T16:34:58.628671-05:00"
+  },
+  {
+    "url": "",
+    "slug": "monster-jam-showdown",
+    "name": "Monster Jam\u2122 Showdown",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-21T16:34:58.628671-05:00"
+  },
+  {
+    "url": "",
+    "slug": "summoners-war-chronicles",
+    "name": "Summoners War: Chronicles",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-21T16:34:58.628671-05:00"
+  },
+  {
+    "url": "",
+    "slug": "americas-army-3",
+    "name": "America's Army 3",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-21T16:34:58.628671-05:00"
+  },
+  {
+    "url": "",
+    "slug": "eternal-magic",
+    "name": "Eternal Magic",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-21T16:34:58.628671-05:00"
   }
 ]
