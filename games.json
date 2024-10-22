@@ -13449,5 +13449,175 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-10-21T16:34:58.628671-05:00"
+  },
+  {
+    "url": "",
+    "slug": "wolfteam",
+    "name": "WolfTeam",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-22T16:28:22.251565-05:00"
+  },
+  {
+    "url": "",
+    "slug": "smite-for-challengermode",
+    "name": "SMITE (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-22T16:28:22.252564-05:00"
+  },
+  {
+    "url": "",
+    "slug": "x-beat",
+    "name": "X-beat",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-22T16:28:22.252564-05:00"
+  },
+  {
+    "url": "",
+    "slug": "formula1-25",
+    "name": "F1\u00ae 25",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "",
+    "anticheats": [
+      "EA anticheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-22T16:28:22.252564-05:00"
+  },
+  {
+    "url": "",
+    "slug": "midnight-guns",
+    "name": "Midnight Guns",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-22T16:28:22.252564-05:00"
+  },
+  {
+    "url": "",
+    "slug": "gemini-binary-conflict",
+    "name": "Gemini: Binary Conflict",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-22T16:28:22.252564-05:00"
+  },
+  {
+    "url": "",
+    "slug": "o2jam-online",
+    "name": "O2Jam Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-22T16:28:22.252564-05:00"
+  },
+  {
+    "url": "",
+    "slug": "battlefield-heroes",
+    "name": "Battlefield Heroes",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-22T16:28:22.252564-05:00"
+  },
+  {
+    "url": "",
+    "slug": "milkchoco",
+    "name": "MilkChoco",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-22T16:28:22.252564-05:00"
+  },
+  {
+    "url": "",
+    "slug": "light\u26a1\ufe0fnite",
+    "name": "LIGHT\u26a1\ufe0fNITE",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-22T16:28:22.253564-05:00"
   }
 ]
