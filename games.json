@@ -13619,5 +13619,282 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-10-22T16:28:22.253564-05:00"
+  },
+  {
+    "url": "",
+    "slug": "krunker-for-challengermode",
+    "name": "Krunker (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-23T15:17:30.184123-05:00"
+  },
+  {
+    "url": "",
+    "slug": "war-rock2",
+    "name": "War Rock 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-23T15:17:30.184123-05:00"
+  },
+  {
+    "url": "",
+    "slug": "uncharted-waters-origin",
+    "name": "Uncharted Waters Origin",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-23T15:17:30.184123-05:00"
+  },
+  {
+    "url": "",
+    "slug": "legend-of-mir2",
+    "name": "Legend of mir2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-23T15:17:30.185123-05:00"
+  },
+  {
+    "url": "",
+    "slug": "mu",
+    "name": "Mu",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-23T15:17:30.185123-05:00"
+  },
+  {
+    "url": "",
+    "slug": "gunbound",
+    "name": "GunBound",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-23T15:17:30.185123-05:00"
+  },
+  {
+    "url": "",
+    "slug": "assassins-creed-iv-black-flag",
+    "name": "Assassin's Creed IV: Black Flag",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-23T15:17:30.185123-05:00"
+  },
+  {
+    "url": "",
+    "slug": "tom-clancys-rainbow-six3-raven-shield",
+    "name": "Tom Clancy's Rainbow Six 3: Raven Shield",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-23T15:17:30.185123-05:00"
+  },
+  {
+    "url": "",
+    "slug": "ragnarok-the-lost-memories",
+    "name": "Ragnarok: The Lost Memories",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-23T15:17:30.185123-05:00"
+  },
+  {
+    "url": "",
+    "slug": "elyon",
+    "name": "Elyon",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-23T15:17:30.186128-05:00"
+  },
+  {
+    "url": "",
+    "slug": "zone4",
+    "name": "Zone4",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-23T15:17:30.186128-05:00"
+  },
+  {
+    "url": "",
+    "slug": "ragnarok-re-start",
+    "name": "Ragnarok RE:START",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-23T15:17:30.186128-05:00"
+  },
+  {
+    "url": "",
+    "slug": "decksplash",
+    "name": "Decksplash",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-23T15:17:30.186128-05:00"
+  },
+  {
+    "url": "",
+    "slug": "robocraft-royale",
+    "name": "Robocraft Royale",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-23T15:17:30.186128-05:00"
+  },
+  {
+    "url": "",
+    "slug": "warface-turkey",
+    "name": "Warface Turkey",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-23T15:17:30.187123-05:00"
+  },
+  {
+    "url": "",
+    "slug": "leap",
+    "name": "LEAP",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-23T15:17:30.187123-05:00"
+  },
+  {
+    "url": "",
+    "slug": "warhammer-40k-eternal-crusade",
+    "name": "Warhammer 40,000: Eternal Crusade",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-23T15:17:30.187123-05:00"
   }
 ]
