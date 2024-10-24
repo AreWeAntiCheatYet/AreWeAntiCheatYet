@@ -13896,5 +13896,319 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-10-23T15:17:30.187123-05:00"
+  },
+  {
+    "url": "",
+    "slug": "continent-of-the-ninth-seal",
+    "name": "Continent of the Ninth Seal",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-24T16:01:34.371168-05:00"
+  },
+  {
+    "url": "",
+    "slug": "archeage",
+    "name": "ArcheAge",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-24T16:01:34.372167-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dekaron-online-thiland",
+    "name": "Dekaron Online TH",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-24T16:01:34.372167-05:00"
+  },
+  {
+    "url": "",
+    "slug": "worlds-adrift",
+    "name": "Worlds Adrift",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-24T16:01:34.372167-05:00"
+  },
+  {
+    "url": "",
+    "slug": "the-rifleman",
+    "name": "The Riflemen",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-24T16:01:34.372167-05:00"
+  },
+  {
+    "url": "",
+    "slug": "mu-online-philippines",
+    "name": "Mu Online PH",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-24T16:01:34.372167-05:00"
+  },
+  {
+    "url": "",
+    "slug": "code-of-ashes",
+    "name": "Code of Ashes",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-24T16:01:34.372167-05:00"
+  },
+  {
+    "url": "",
+    "slug": "farlight84-for-challengermode",
+    "name": "Farlight 84 (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-24T16:01:34.373167-05:00"
+  },
+  {
+    "url": "",
+    "slug": "ace-online",
+    "name": "ACE Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-24T16:01:34.373167-05:00"
+  },
+  {
+    "url": "",
+    "slug": "madden-nfl-26",
+    "name": "EA SPORTS\u2122 Madden NFL 26",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "",
+    "anticheats": [
+      "EA anticheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-24T16:01:34.373167-05:00"
+  },
+  {
+    "url": "",
+    "slug": "exoborne",
+    "name": "Exoborne",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-24T16:01:34.373167-05:00"
+  },
+  {
+    "url": "",
+    "slug": "jojos-bizarre-adventure-all-star-battle-r",
+    "name": "JoJo's Bizarre Adventure: All-Star Battle R",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-24T16:01:34.373167-05:00"
+  },
+  {
+    "url": "",
+    "slug": "mu-legend",
+    "name": "MU Legend",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-24T16:01:34.373167-05:00"
+  },
+  {
+    "url": "",
+    "slug": "phantasy-star-online-blue-burst",
+    "name": "Phantasy Star Online Blue Burst",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-24T16:01:34.373167-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dekaron",
+    "name": "Dekaron",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-24T16:01:34.374167-05:00"
+  },
+  {
+    "url": "",
+    "slug": "legend-of-mir3",
+    "name": "Legend of mir3",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-24T16:01:34.374167-05:00"
+  },
+  {
+    "url": "",
+    "slug": "solider-of-fortune-ii-double-helix",
+    "name": "Soldier of Fortune II: Double Helix",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-24T16:01:34.374167-05:00"
+  },
+  {
+    "url": "",
+    "slug": "kingdom-the-blood",
+    "name": "Kingdom: The Blood",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-24T16:01:34.374167-05:00"
+  },
+  {
+    "url": "",
+    "slug": "ghost-in-the-shell-stand-alone-complex-first-assault-online",
+    "name": "Ghost in the Shell: Stand Alone Complex - First Assault Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-24T16:01:34.374167-05:00"
   }
 ]
