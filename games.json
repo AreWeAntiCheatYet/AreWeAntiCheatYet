@@ -14210,5 +14210,154 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-10-24T16:01:34.374167-05:00"
+  },
+  {
+    "url": "",
+    "slug": "fc24-for-challengermode",
+    "name": "EA Sports FC\u2122 24 (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T16:23:49.395560-05:00"
+  },
+  {
+    "url": "",
+    "slug": "soul-dossier",
+    "name": "Soul Dossier",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T16:23:49.395560-05:00"
+  },
+  {
+    "url": "",
+    "slug": "brick-force",
+    "name": "Brick-Force",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T16:23:49.396560-05:00"
+  },
+  {
+    "url": "",
+    "slug": "tree-of-savior-japan",
+    "name": "Tree of Savior (Japanese Ver.)",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Nexon Game Security"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T16:23:49.396560-05:00"
+  },
+  {
+    "url": "",
+    "slug": "ragnarok-begins",
+    "name": "Ragnarok Begins",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "SARD"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T16:23:49.396560-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dragon-ball-sparking-zero",
+    "name": "DRAGON BALL: Sparking! ZERO",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T16:23:49.396560-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dirt4",
+    "name": "DiRT 4",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Valve Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T16:23:49.396560-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dance-online",
+    "name": "Dance! Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T16:23:49.396560-05:00"
+  },
+  {
+    "url": "",
+    "slug": "digimonrpg",
+    "name": "DigimonRPG",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T16:23:49.397559-05:00"
   }
 ]
