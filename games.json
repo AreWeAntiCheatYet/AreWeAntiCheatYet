@@ -14359,5 +14359,346 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-10-25T16:23:49.397559-05:00"
+  },
+  {
+    "url": "",
+    "slug": "ez-fighter",
+    "name": "EZ Fighter",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T18:05:16.945229-05:00"
+  },
+  {
+    "url": "",
+    "slug": "gersang",
+    "name": "Gersang",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T18:05:16.945229-05:00"
+  },
+  {
+    "url": "",
+    "slug": "return-to-castle-wolfenstein",
+    "name": "Return to Castle Wolfenstein",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T18:05:16.945229-05:00"
+  },
+  {
+    "url": "",
+    "slug": "war-robots",
+    "name": "War Robots",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Mail.ru Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T18:05:16.946228-05:00"
+  },
+  {
+    "url": "",
+    "slug": "run-and-fire",
+    "name": "Run and Fire",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T18:05:16.946228-05:00"
+  },
+  {
+    "url": "",
+    "slug": "avabel-online",
+    "name": "Avabel Online",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T18:05:16.946228-05:00"
+  },
+  {
+    "url": "",
+    "slug": "crowz",
+    "name": "Crowz",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T18:05:16.946228-05:00"
+  },
+  {
+    "url": "",
+    "slug": "s4-league",
+    "name": "S4 League",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T18:05:16.946228-05:00"
+  },
+  {
+    "url": "",
+    "slug": "mu-legend-philippines",
+    "name": "MU Legend PH",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T18:05:16.946228-05:00"
+  },
+  {
+    "url": "",
+    "slug": "stay-out",
+    "name": "Stay Out",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T18:05:16.946228-05:00"
+  },
+  {
+    "url": "",
+    "slug": "mortal-online2",
+    "name": "Mortal Online 2",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T18:05:16.947229-05:00"
+  },
+  {
+    "url": "",
+    "slug": "crucible",
+    "name": "Crucible",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T18:05:16.947229-05:00"
+  },
+  {
+    "url": "",
+    "slug": "lastchaos-thiland",
+    "name": "Last Chaos TH",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T18:05:16.947229-05:00"
+  },
+  {
+    "url": "",
+    "slug": "ow2-for-challengermode",
+    "name": "Overwatch 2 (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T18:05:16.947229-05:00"
+  },
+  {
+    "url": "",
+    "slug": "propnight",
+    "name": "Propnight",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T18:05:16.947229-05:00"
+  },
+  {
+    "url": "",
+    "slug": "lost-ark-for-challengermode",
+    "name": "Lost Ark (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T18:05:16.947229-05:00"
+  },
+  {
+    "url": "",
+    "slug": "aliance-of-valiant-arms-dog-tag",
+    "name": "AVA: Dog Tag",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T18:05:16.947229-05:00"
+  },
+  {
+    "url": "",
+    "slug": "grand-mar",
+    "name": "Grand mar",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T18:05:16.948229-05:00"
+  },
+  {
+    "url": "",
+    "slug": "ragnarok-v-returns",
+    "name": "Ragnarok V: Returns",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "SARD"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T18:05:16.948229-05:00"
+  },
+  {
+    "url": "",
+    "slug": "kritika-zero",
+    "name": "KRITIKA:Zero",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T18:05:16.948229-05:00"
+  },
+  {
+    "url": "",
+    "slug": "need-for-speed-prostreet",
+    "name": "Need for Speed: ProStreet",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-25T18:05:16.948229-05:00"
   }
 ]
