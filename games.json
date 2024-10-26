@@ -14932,22 +14932,17 @@
   },
   {
     "url": "",
-    "slug": " Virtual Earth",
-    "name": "CityBattle ",
+    "slug": "citybattle-virtual-earth",
+    "name": "CityBattle | Virtual_Earth",
     "logo": "",
     "native": false,
-    "status": "Easy Anti-Cheat",
+    "status": "Broken",
     "reference": "",
     "anticheats": [
-      "citybattle-virtual-earth"
+      "Easy Anti-Cheat"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Broken",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {},
     "dateChanged": "2024-10-26T16:25:55.481593-05:00"
   },
@@ -14972,7 +14967,7 @@
     "slug": "sunset-world-online",
     "name": "Sunset World Online",
     "logo": "",
-    "native": false,
+    "native": true,
     "status": "Supported",
     "reference": "",
     "anticheats": [
