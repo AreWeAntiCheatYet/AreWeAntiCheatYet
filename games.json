@@ -14700,5 +14700,724 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-10-25T18:05:16.948229-05:00"
+  },
+  {
+    "url": "",
+    "slug": "call-of-duty-mobile",
+    "name": "Call of Duty: Mobile",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.477594-05:00"
+  },
+  {
+    "url": "",
+    "slug": "have-online",
+    "name": "Microvolts",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.478595-05:00"
+  },
+  {
+    "url": "",
+    "slug": "wild-assault",
+    "name": "Wild Assault",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Working in Steam Next Fest Playtest",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.479624-05:00"
+  },
+  {
+    "url": "",
+    "slug": "sword-art-online-fractured-daydream",
+    "name": "SWORD ART ONLINE Fractured Daydream",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.479624-05:00"
+  },
+  {
+    "url": "",
+    "slug": "loadout",
+    "name": "Loadout",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Valve Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.479624-05:00"
+  },
+  {
+    "url": "",
+    "slug": "riders-of-icarus",
+    "name": "Riders of Icarus",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.480594-05:00"
+  },
+  {
+    "url": "",
+    "slug": "golf-king",
+    "name": "Golf King",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.480594-05:00"
+  },
+  {
+    "url": "",
+    "slug": "qplay",
+    "name": "Qplay",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.480594-05:00"
+  },
+  {
+    "url": "",
+    "slug": "ran-online",
+    "name": "Ran Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.480594-05:00"
+  },
+  {
+    "url": "",
+    "slug": "yogurting",
+    "name": "Yogurting",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.480594-05:00"
+  },
+  {
+    "url": "",
+    "slug": "battlefield-play4free",
+    "name": "Battlefield Play4Free",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.480594-05:00"
+  },
+  {
+    "url": "",
+    "slug": "freestyle2-street-basketball",
+    "name": "Freestyle 2: Street Basketball",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.481593-05:00"
+  },
+  {
+    "url": "",
+    "slug": "kof-allstar",
+    "name": "The King of Fighters All Star",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.481593-05:00"
+  },
+  {
+    "url": "",
+    "slug": "ashes-of-creation",
+    "name": "Ashes of Creation",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.481593-05:00"
+  },
+  {
+    "url": "",
+    "slug": " Virtual Earth",
+    "name": "CityBattle ",
+    "logo": "",
+    "native": false,
+    "status": "Easy Anti-Cheat",
+    "reference": "",
+    "anticheats": [
+      "citybattle-virtual-earth"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Broken",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.481593-05:00"
+  },
+  {
+    "url": "",
+    "slug": "fear-the-wolves",
+    "name": "Fear The Wolves",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.481593-05:00"
+  },
+  {
+    "url": "",
+    "slug": "sunset-world-online",
+    "name": "Sunset World Online",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.481593-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dreadlands",
+    "name": "Dreadlands",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.482594-05:00"
+  },
+  {
+    "url": "",
+    "slug": "legends-of-kailrate",
+    "name": "Legends of Kailrate",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.482594-05:00"
+  },
+  {
+    "url": "",
+    "slug": "diabotical-for-challengermode",
+    "name": "Diabotical (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.482594-05:00"
+  },
+  {
+    "url": "",
+    "slug": "survarium",
+    "name": "Survarium",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.482594-05:00"
+  },
+  {
+    "url": "",
+    "slug": "need-for-speed-mobile",
+    "name": "Need For Speed Mobile",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.482594-05:00"
+  },
+  {
+    "url": "",
+    "slug": "zmr",
+    "name": "ZMR",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.483594-05:00"
+  },
+  {
+    "url": "",
+    "slug": "motogp-25",
+    "name": "MotoGP\u212225",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.483594-05:00"
+  },
+  {
+    "url": "",
+    "slug": "total-lockdown",
+    "name": "Total Lockdown",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.483594-05:00"
+  },
+  {
+    "url": "",
+    "slug": "left4dead",
+    "name": "Left 4 Dead",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Valve Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.483594-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dark-eden",
+    "name": "Dark Eden",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.483594-05:00"
+  },
+  {
+    "url": "",
+    "slug": "gunster",
+    "name": "GUNSTER",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.483594-05:00"
+  },
+  {
+    "url": "",
+    "slug": "kop",
+    "name": "KOP",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.484593-05:00"
+  },
+  {
+    "url": "",
+    "slug": "mission\u82b1\u672d",
+    "name": "Mission\u82b1\u672d",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.484593-05:00"
+  },
+  {
+    "url": "",
+    "slug": "battlefield-2142",
+    "name": "Battlefield 2142",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.484593-05:00"
+  },
+  {
+    "url": "",
+    "slug": "freestylefootball",
+    "name": "FreeStyleFootball",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.484593-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dragon-nest",
+    "name": "Dragon Nest",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.484593-05:00"
+  },
+  {
+    "url": "",
+    "slug": "fiesta-online",
+    "name": "Fiesta Online",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.484593-05:00"
+  },
+  {
+    "url": "",
+    "slug": "vegas-infinite-by-pokerstars",
+    "name": "Vegas Infinite by PokerStars",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.484593-05:00"
+  },
+  {
+    "url": "",
+    "slug": "beasts-of-bermuda",
+    "name": "Beasts of Bermuda",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.484593-05:00"
+  },
+  {
+    "url": "",
+    "slug": "project-cumberland",
+    "name": "Project Cumberland",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.485593-05:00"
+  },
+  {
+    "url": "",
+    "slug": "ascendantdotcom",
+    "name": "Ascendant.com",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.485593-05:00"
+  },
+  {
+    "url": "",
+    "slug": "ghost-online-thailand",
+    "name": "Ghost Online TH",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.485593-05:00"
+  },
+  {
+    "url": "",
+    "slug": "sabotaj-turkey",
+    "name": "Sabotaj TR",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.485593-05:00"
+  },
+  {
+    "url": "",
+    "slug": "quake-3-arena-for-challengermode",
+    "name": "Quake 3 Arena (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.485593-05:00"
+  },
+  {
+    "url": "",
+    "slug": "sos",
+    "name": "SOS",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.485593-05:00"
+  },
+  {
+    "url": "",
+    "slug": "call-of-duty-online",
+    "name": "Call of Duty: Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.486593-05:00"
+  },
+  {
+    "url": "",
+    "slug": "sd-gundam-online",
+    "name": "SD Gundam Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.486593-05:00"
   }
 ]
