@@ -4551,13 +4551,14 @@
     "status": "Supported",
     "reference": "https://www.tibia.com/support/?subtopic=gethelp&entryid=121",
     "anticheats": [
-      "BattlEye"
+      "BattlEye",
+      "EMAC LAB"
     ],
     "notes": [],
     "updates": [],
     "storeIds": {},
     "slug": "tibia",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-10-27T21:09:55.527Z"
   },
   {
     "url": "",
@@ -4817,21 +4818,19 @@
   },
   {
     "url": "",
+    "slug": "fiesta-online",
     "name": "Fiesta Online",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "XIGNCODE3"
     ],
-    "notes": [],
     "updates": [],
-    "storeIds": {
-      "steam": "280620"
-    },
-    "slug": "fiesta-online",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-26T16:25:55.484593-05:00"
   },
   {
     "url": "",
@@ -5022,6 +5021,7 @@
     "native": false,
     "reference": "https://www.protondb.com/app/495910",
     "anticheats": [
+      "AhnLab HackShield",
       "XIGNCODE3"
     ],
     "notes": [
@@ -5035,7 +5035,7 @@
       "steam": "495910"
     },
     "slug": "dungeon-fighter-online",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-10-27T21:09:55.545Z"
   },
   {
     "url": "https://evildeadthegame.com/en/",
@@ -6045,7 +6045,7 @@
   {
     "url": "",
     "slug": "madden-nfl-23",
-    "name": "Madden NFL 23",
+    "name": "EA SPORTS™ Madden NFL 23",
     "logo": "",
     "native": false,
     "status": "Supported",
@@ -6056,7 +6056,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-01-24T22:55:44.933Z"
+    "dateChanged": "2024-10-27T21:09:55.566Z"
   },
   {
     "url": "",
@@ -6093,7 +6093,7 @@
   {
     "url": "",
     "slug": "madden-nfl-24",
-    "name": "Madden NFL 24",
+    "name": "EA SPORTS™ Madden NFL 24",
     "logo": "",
     "native": false,
     "status": "Denied",
@@ -6104,7 +6104,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-02-05T22:55:48.842Z"
+    "dateChanged": "2024-10-27T21:09:55.568Z"
   },
   {
     "url": "",
@@ -8354,7 +8354,7 @@
   {
     "url": "",
     "slug": "ea-sports-wrc",
-    "name": "EA SPORTS™ WRC",
+    "name": "EA SPORTS™ WRC 24",
     "logo": "",
     "native": false,
     "status": "Denied",
@@ -8365,7 +8365,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-07-24T20:22:45.978Z"
+    "dateChanged": "2024-10-27T21:09:55.615Z"
   },
   {
     "url": "",
@@ -12040,12 +12040,13 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "Easy Anti-Cheat",
+      "AnyBrain"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-10T01:03:28.440Z"
+    "dateChanged": "2024-10-27T21:09:55.705Z"
   },
   {
     "url": "",
@@ -12136,12 +12137,13 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "AhnLab HackShield"
+      "AhnLab HackShield",
+      "Nexon Game Security"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-10T01:03:28.371Z"
+    "dateChanged": "2024-10-27T21:09:55.710Z"
   },
   {
     "url": "",
@@ -12342,9 +12344,9 @@
     "dateChanged": "2024-10-13T22:38:31.290Z"
   },
   {
-    "url": "",
+    "url": "https://parapa.ru",
     "slug": "parapa",
-    "name": "parapa",
+    "name": "Para Pa",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -12355,7 +12357,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-13T22:38:31.290Z"
+    "dateChanged": "2024-10-27T21:09:55.714Z"
   },
   {
     "url": "https://fatetrigger.com/",
@@ -12580,12 +12582,13 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
+      "nProtect GameGuard",
       "BattlEye"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-18T17:04:48.772187-05:00"
+    "dateChanged": "2024-10-27T21:09:55.722Z"
   },
   {
     "url": "",
@@ -12596,12 +12599,14 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "X-Trap"
+      "X-Trap",
+      "nProtect GameGuard",
+      "XIGNCODE3"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-18T17:04:48.773188-05:00"
+    "dateChanged": "2024-10-27T21:09:55.724Z"
   },
   {
     "url": "",
@@ -13044,12 +13049,13 @@
     "reference": "",
     "anticheats": [
       "TenProtect",
-      "nProtect GameGuard"
+      "nProtect GameGuard",
+      "Anti-Cheat Expert"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-20T20:59:10.994Z"
+    "dateChanged": "2024-10-27T21:09:55.732Z"
   },
   {
     "url": "",
@@ -13389,7 +13395,7 @@
   {
     "url": "",
     "slug": "monster-jam-showdown",
-    "name": "Monster Jam\u2122 Showdown",
+    "name": "Monster Jam™ Showdown",
     "logo": "",
     "native": false,
     "status": "Running",
@@ -13501,7 +13507,7 @@
   {
     "url": "",
     "slug": "formula1-25",
-    "name": "F1\u00ae 25",
+    "name": "F1® 25",
     "logo": "",
     "native": false,
     "status": "Denied",
@@ -13606,8 +13612,8 @@
   },
   {
     "url": "",
-    "slug": "light\u26a1\ufe0fnite",
-    "name": "LIGHT\u26a1\ufe0fNITE",
+    "slug": "light⚡️nite",
+    "name": "LIGHT⚡️NITE",
     "logo": "",
     "native": true,
     "status": "Supported",
@@ -14044,7 +14050,7 @@
   {
     "url": "",
     "slug": "madden-nfl-26",
-    "name": "EA SPORTS\u2122 Madden NFL 26",
+    "name": "EA SPORTS™ Madden NFL 26",
     "logo": "",
     "native": false,
     "status": "Denied",
@@ -14214,7 +14220,7 @@
   {
     "url": "",
     "slug": "fc25-for-challengermode",
-    "name": "EA Sports FC\u2122 25 (ChallengerMode)",
+    "name": "EA Sports FC™ 25 (ChallengerMode)",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -14481,12 +14487,13 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "Easy Anti-Cheat",
+      "BattlEye"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-25T18:05:16.946228-05:00"
+    "dateChanged": "2024-10-27T21:09:55.759Z"
   },
   {
     "url": "",
@@ -15077,7 +15084,7 @@
   {
     "url": "",
     "slug": "motogp-25",
-    "name": "MotoGP\u212225",
+    "name": "MotoGP™25",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -15177,8 +15184,8 @@
   },
   {
     "url": "",
-    "slug": "mission\u82b1\u672d",
-    "name": "Mission\u82b1\u672d",
+    "slug": "mission花札",
+    "name": "Mission花札",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -15227,22 +15234,6 @@
     "url": "",
     "slug": "dragon-nest",
     "name": "Dragon Nest",
-    "logo": "",
-    "native": false,
-    "status": "Running",
-    "reference": "",
-    "anticheats": [
-      "XIGNCODE3"
-    ],
-    "updates": [],
-    "notes": [],
-    "storeIds": {},
-    "dateChanged": "2024-10-26T16:25:55.484593-05:00"
-  },
-  {
-    "url": "",
-    "slug": "fiesta-online",
-    "name": "Fiesta Online",
     "logo": "",
     "native": false,
     "status": "Running",
