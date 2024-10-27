@@ -15405,5 +15405,383 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-10-26T16:25:55.486593-05:00"
+  },
+  {
+    "url": "",
+    "slug": "byte-breakers",
+    "name": "Byte Breakers",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.858704-05:00"
+  },
+  {
+    "url": "",
+    "slug": "vigor",
+    "name": "Vigor",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.859702-05:00"
+  },
+  {
+    "url": "",
+    "slug": "magicka-vietnam",
+    "name": "Magicka: Vietnam",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.859702-05:00"
+  },
+  {
+    "url": "",
+    "slug": "atrix",
+    "name": "ATrix",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.859702-05:00"
+  },
+  {
+    "url": "",
+    "slug": "zzanggu-springs",
+    "name": "zzanggu-springs",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.859702-05:00"
+  },
+  {
+    "url": "",
+    "slug": "newbaseball",
+    "name": "NewBaseBall",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.859702-05:00"
+  },
+  {
+    "url": "http://www.gamecity.ne.jp/dol/",
+    "slug": "uncharted-waters-online-japan",
+    "name": "Uncharted Waters Online (JPN)",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.859702-05:00"
+  },
+  {
+    "url": "",
+    "slug": "trickster",
+    "name": "Trickster",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.859702-05:00"
+  },
+  {
+    "url": "",
+    "slug": "battlefield-vietnam",
+    "name": "Battlefield Vietnam",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.859702-05:00"
+  },
+  {
+    "url": "",
+    "slug": "soldier-front2-european",
+    "name": "S.K.I.L.L. - Special Force 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.859702-05:00"
+  },
+  {
+    "url": "",
+    "slug": "microvolts-surge",
+    "name": "MicroVolts Surge",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.859702-05:00"
+  },
+  {
+    "url": "",
+    "slug": "audition-next-level",
+    "name": "Audition Next Level",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.860702-05:00"
+  },
+  {
+    "url": "",
+    "slug": "memories-of-mars",
+    "name": "Memories of Mars",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.860702-05:00"
+  },
+  {
+    "url": "",
+    "slug": "p53-monarch",
+    "name": "P53:MONARCH",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.860702-05:00"
+  },
+  {
+    "url": "",
+    "slug": "mobile-suit-gundam-battle-operation2",
+    "name": "Mobile Suit Gundam Battle Operation 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.860702-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dreadlands",
+    "name": "Dreadlands",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.860702-05:00"
+  },
+  {
+    "url": "",
+    "slug": "onward",
+    "name": "Onward",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.860702-05:00"
+  },
+  {
+    "url": "",
+    "slug": "naraka-bladepoint-for-challengermode",
+    "name": "Naraka: Bladepoint (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.861702-05:00"
+  },
+  {
+    "url": "",
+    "slug": "islands-of-nyne-battle-royale",
+    "name": "Islands of Nyne: Battle Royale",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.861702-05:00"
+  },
+  {
+    "url": "",
+    "slug": "hazrd-ops",
+    "name": "Hazard Ops",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.861702-05:00"
+  },
+  {
+    "url": "",
+    "slug": "maplestory2",
+    "name": "MapleStory 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Nexon Game Security"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.861702-05:00"
+  },
+  {
+    "url": "",
+    "slug": "contenders-arena",
+    "name": "Contenders: Arena",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.861702-05:00"
+  },
+  {
+    "url": "",
+    "slug": "squad44",
+    "name": "Squad 44",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-27T16:28:12.861702-05:00"
   }
 ]
