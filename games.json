@@ -15767,5 +15767,314 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-10-27T16:28:12.861702-05:00"
+  },
+  {
+    "url": "",
+    "slug": "wickland",
+    "name": "Wickland",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.338472-05:00"
+  },
+  {
+    "url": "",
+    "slug": "istorm",
+    "name": "iStorm",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.339473-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dragon-sky",
+    "name": "Dragon Sky",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.339473-05:00"
+  },
+  {
+    "url": "",
+    "slug": "ernis-and-fricky",
+    "name": "Ernis&Fricky",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.339473-05:00"
+  },
+  {
+    "url": "",
+    "slug": "cod-united-offensive",
+    "name": "Call of Duty: United Offensive",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.339473-05:00"
+  },
+  {
+    "url": "",
+    "slug": "elsword-japan",
+    "name": "Elsword (JPN)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.339473-05:00"
+  },
+  {
+    "url": "",
+    "slug": "crsed-cuisine-royale",
+    "name": "CRSED: Cuisine Royale",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.340530-05:00"
+  },
+  {
+    "url": "",
+    "slug": "project-nebula",
+    "name": "Project Nebula",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.341050-05:00"
+  },
+  {
+    "url": "",
+    "slug": "reign-of-kings",
+    "name": "Reign of Kings",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.341050-05:00"
+  },
+  {
+    "url": "",
+    "slug": "soldier-front-2-playpark-philippines",
+    "name": "Special Force 2 - PlayPark PH",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.341050-05:00"
+  },
+  {
+    "url": "",
+    "slug": "mechabellum-for-challengermode",
+    "name": "Mechabellum (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.341050-05:00"
+  },
+  {
+    "url": "",
+    "slug": "mirror-war",
+    "name": "Mirror War",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.341050-05:00"
+  },
+  {
+    "url": "",
+    "slug": "killing-floor3",
+    "name": "Killing Floor 3",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.341050-05:00"
+  },
+  {
+    "url": "",
+    "slug": "sniper-elite-5",
+    "name": "Sniper Elite 5",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.342046-05:00"
+  },
+  {
+    "url": "",
+    "slug": "resident-evil-6",
+    "name": "Resident Evil 6",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.342046-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dark-eden-origin",
+    "name": "Dark Eden Origin",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.342046-05:00"
+  },
+  {
+    "url": "",
+    "slug": "yaburi",
+    "name": "Yaburi",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.342046-05:00"
+  },
+  {
+    "url": "",
+    "slug": "pfamily-new-heavenly-monument-taiwan",
+    "name": "\u65b0\u5929\u4e0a\u7891",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.342046-05:00"
+  },
+  {
+    "url": "",
+    "slug": "assassins-creed-brotherhood",
+    "name": "Assassin's Creed: Brotherhood",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.342046-05:00"
   }
 ]
