@@ -16076,5 +16076,298 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-10-28T10:56:10.342046-05:00"
+  },
+  {
+    "url": "",
+    "slug": "freestyle-football-r",
+    "name": "FreestyleFootball R",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.601297-05:00"
+  },
+  {
+    "url": "",
+    "slug": "night-of-the-dead",
+    "name": "Night of the Dead",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.602277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dysterra",
+    "name": "Dysterra",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.602277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "heat",
+    "name": "Heat",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.603277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "pubg-bg-for-challengermode",
+    "name": "PUBG: Battlegrounds (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.603277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "the-cycle-frontier",
+    "name": "The Cycle: Frontier",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.603277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "club-audition",
+    "name": "Club Audition",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.603277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "space-gears",
+    "name": "Space Gears",
+    "logo": "",
+    "native": false,
+    "status": "Unreleased, Speculative",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Broken",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.604277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "hero-siege",
+    "name": "Hero Siege",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.604277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "moonbase-alpha",
+    "name": "Moonbase Alpha",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.604277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "navyfield4-hongkong",
+    "name": "\u5927\u6d77\u6218 Navy Field IV",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.605284-05:00"
+  },
+  {
+    "url": "",
+    "slug": "onair-online",
+    "name": "Onair Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.605284-05:00"
+  },
+  {
+    "url": "",
+    "slug": "stylia",
+    "name": "STYLIA",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.605284-05:00"
+  },
+  {
+    "url": "",
+    "slug": "doom3-resurrection-of-evil",
+    "name": "DOOM 3 Resurrection of Evil",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.606280-05:00"
+  },
+  {
+    "url": "",
+    "slug": "karos",
+    "name": "Karos",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.606280-05:00"
+  },
+  {
+    "url": "",
+    "slug": "blasterbeat",
+    "name": "BlasterBeat",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.607277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "warcos",
+    "name": "Warcos",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.607277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "code2040",
+    "name": "CODE2040",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.607277-05:00"
   }
 ]
