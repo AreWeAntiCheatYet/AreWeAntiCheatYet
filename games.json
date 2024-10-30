@@ -16195,7 +16195,7 @@
     "name": "Space Gears",
     "logo": "",
     "native": false,
-    "status": "Unreleased, Speculative",
+    "status": "Broken",
     "reference": "",
     "anticheats": [
       "BattlEye"
@@ -16203,7 +16203,7 @@
     "updates": [],
     "notes": [
       [
-        "Broken",
+        "Unreleased, Speculative",
         null
       ]
     ],
@@ -16215,7 +16215,7 @@
     "slug": "hero-siege",
     "name": "Hero Siege",
     "logo": "",
-    "native": false,
+    "native": true,
     "status": "Supported",
     "reference": "",
     "anticheats": [
