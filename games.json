@@ -16630,5 +16630,287 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-10-30T17:48:27.617777-05:00"
+  },
+  {
+    "url": "",
+    "slug": "island-games",
+    "name": "Island games",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.102631-05:00"
+  },
+  {
+    "url": "",
+    "slug": "robocraft2",
+    "name": "Robocraft 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.103630-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dystopia",
+    "name": "Dystopia",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.103630-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dark-blood-online",
+    "name": "Dark Blood Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.103630-05:00"
+  },
+  {
+    "url": "",
+    "slug": "battleteams1-classic-china",
+    "name": "\u751f\u6b7b\u72d9\u51fb\uff1a\u6218\u706b\u91cd\u71c3\uff08\u56fd\u9645\u7248\uff09",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.103630-05:00"
+  },
+  {
+    "url": "https://www.gamecity.ne.jp/sol",
+    "slug": "sangokushi-online",
+    "name": "Sangokushi Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.103630-05:00"
+  },
+  {
+    "url": "",
+    "slug": "far-cry2",
+    "name": "Far Cry 2",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.103630-05:00"
+  },
+  {
+    "url": "",
+    "slug": "tree-of-life",
+    "name": "Tree of Life",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.104637-05:00"
+  },
+  {
+    "url": "",
+    "slug": "longvinter",
+    "name": "Longvinter",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.104637-05:00"
+  },
+  {
+    "url": "",
+    "slug": "new-gundam-breaker",
+    "name": "New Gundam Breaker",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.104637-05:00"
+  },
+  {
+    "url": "",
+    "slug": "reign-of-dwarf",
+    "name": "Reign Of Dwarf",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.104637-05:00"
+  },
+  {
+    "url": "",
+    "slug": "fear-the-wolves",
+    "name": "Fear the Wolves",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.104637-05:00"
+  },
+  {
+    "url": "",
+    "slug": "the-finals-for-challengermode",
+    "name": "The Finals (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.104637-05:00"
+  },
+  {
+    "url": "",
+    "slug": "escape-from-tarkov-arena",
+    "name": "Escape from Tarkov: Arena",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.104637-05:00"
+  },
+  {
+    "url": "",
+    "slug": "mixmaster",
+    "name": "Mixmaster",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.105628-05:00"
+  },
+  {
+    "url": "",
+    "slug": "shaiya",
+    "name": "shaiya",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.105628-05:00"
+  },
+  {
+    "url": "",
+    "slug": "maplestory-worlds",
+    "name": "MapleStory Worlds",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Nexon Game Security"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.105628-05:00"
   }
 ]
