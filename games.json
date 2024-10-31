@@ -5953,25 +5953,36 @@
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
-    "url": "",
+    "url": "https://arcraiders.com",
     "slug": "arc-raiders",
     "name": "ARC Raiders",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Supported",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
-    "updates": [],
+    "updates": [
+      {
+        "name": "Working in October 2024 closed playtest",
+        "date": "Oct 24, 2024, 8:00PM UTC"
+      }
+    ],
     "notes": [
       [
-        "Unreleased, Speculative",
+        "Unreleased, Working in Closed Beta",
         null
       ]
     ],
-    "storeIds": {},
-    "dateChanged": "2024-08-11T10:19:19.031Z"
+    "storeIds": {
+      "steam": "1808500",
+      "epic": {
+        "namespace": "b4bb52a95d0b43d9af543c6ec3c54e04",
+        "slug": "arc-raiders"
+      }
+    },
+    "dateChanged": "2024-10-31T18:15:00.000Z"
   },
   {
     "url": "",
