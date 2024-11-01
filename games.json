@@ -121,7 +121,7 @@
     "name": "Apex Legends",
     "logo": "",
     "native": false,
-    "status": "Supported",
+    "status": "Denied",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat",
@@ -133,13 +133,18 @@
         "name": "Enabled Linux support shortly after SteamDeck launch",
         "date": "2022-03-01T18:00:27+00:00",
         "reference": "https://steamdb.info/patchnotes/8270674/"
+      },
+      {
+        "name": "Linux support disabled",
+        "date": "Oct 31, 2024, 4:07 PM UTC",
+        "reference": "https://x.com/PlayApex/status/1852019667315102151"
       }
     ],
     "storeIds": {
       "steam": "1172470"
     },
     "slug": "apex-legends",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-10-31T18:29:00.000Z"
   },
   {
     "url": "https://playvalorant.com",
