@@ -17152,7 +17152,7 @@
     "slug": "dead-island",
     "name": "Dead Island",
     "logo": "",
-    "native": false,
+    "native": true,
     "status": "Supported",
     "reference": "",
     "anticheats": [
