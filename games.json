@@ -17189,5 +17189,505 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-11-01T15:44:02.213485-05:00"
+  },
+  {
+    "url": "",
+    "slug": "assassins-creed-revelations",
+    "name": "Assassin's Creed: Revelations",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.653851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "wolfteam-classic",
+    "name": "WolfTeam: Classic",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.654851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "fractured-lands",
+    "name": "Fractured Lands",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.654851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "lost-light-for-challengermode",
+    "name": "Lost Light (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.654851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "luna-online",
+    "name": "Luna Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.654851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "marathon",
+    "name": "Marathon",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.654851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "phantasy-star-online2-new-genesis",
+    "name": "Phantasy Star Online 2 New Genesis",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.654851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "fortress-forever",
+    "name": "Fortress Forever",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.655851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "crazy-arcade",
+    "name": "Crazy Arcade",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.655851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "tom-clancys-rainbow-six-vegas",
+    "name": "Tom Clancy's Rainbow Six: Vegas",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.655851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "eos-ragnarok",
+    "name": "EOS Ragnarok",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.655851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "war-of-the-vikings",
+    "name": "War of the Vikings",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.655851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "iracing-for-challengermode",
+    "name": "iRacing (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.656851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "battalion-1944",
+    "name": "Battalion 1944",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.656851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "audition2",
+    "name": "Audition 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.656851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "sparkball",
+    "name": "Sparkball",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.657851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "jabroni-brawl-episode3",
+    "name": "Jabroni Brawl: Episode 3",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.657851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "grid2",
+    "name": "GRID 2",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Online Play working, Rival Data and Global Challenges inaccessible",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.657851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "ctracer-online",
+    "name": "CTRACER ONLINE",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.657851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "space-nations-battlearena",
+    "name": "Space Nations - Battlearena",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.658853-06:00"
+  },
+  {
+    "url": "",
+    "slug": "moonbreaker-for-challengermode",
+    "name": "Moonbreaker (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.658853-06:00"
+  },
+  {
+    "url": "",
+    "slug": "zula-europe",
+    "name": "Zula Europe",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.658853-06:00"
+  },
+  {
+    "url": "",
+    "slug": "audition3-wia",
+    "name": "Audition 3 WIA",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.658853-06:00"
+  },
+  {
+    "url": "",
+    "slug": "sand",
+    "name": "SAND",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.658853-06:00"
+  },
+  {
+    "url": "",
+    "slug": "exoprimal",
+    "name": "Exoprimal",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.658853-06:00"
+  },
+  {
+    "url": "",
+    "slug": "war-of-the-roses",
+    "name": "War of the Roses",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.658853-06:00"
+  },
+  {
+    "url": "",
+    "slug": "bots",
+    "name": "Bots",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.659850-06:00"
+  },
+  {
+    "url": "",
+    "slug": "need-for-speed-undercover",
+    "name": "Need for Speed: Undercover",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.659850-06:00"
+  },
+  {
+    "url": "",
+    "slug": "wolfteam-reboot",
+    "name": "WolfTeam: Reboot",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.659850-06:00"
+  },
+  {
+    "url": "",
+    "slug": "sabotaj",
+    "name": "Sabotaj",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.659850-06:00"
   }
 ]
