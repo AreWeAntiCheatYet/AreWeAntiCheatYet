@@ -17673,5 +17673,234 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-11-03T15:08:08.659850-06:00"
+  },
+  {
+    "url": "",
+    "slug": "warhammer-age-of-sigmar-realms-of-ruin-for-challengermode",
+    "name": "Warhammer Age of Sigmar: Realms of Ruin (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-04T15:07:58.773886-06:00"
+  },
+  {
+    "url": "",
+    "slug": "\u6b7b\u5bc2-deathly-stillness",
+    "name": "\u6b7b\u5bc2\uff08Deathly Stillness\uff09",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "SCUE4"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-04T15:07:58.775886-06:00"
+  },
+  {
+    "url": "",
+    "slug": "rhythmnjoy",
+    "name": "RhythmNjoy",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-04T15:07:58.775886-06:00"
+  },
+  {
+    "url": "",
+    "slug": "lawbreakers",
+    "name": "LawBreakers",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Nexon Game Security"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-04T15:07:58.776886-06:00"
+  },
+  {
+    "url": "",
+    "slug": "arma4",
+    "name": "ArmA 4",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-11-04T15:07:58.776886-06:00"
+  },
+  {
+    "url": "",
+    "slug": "new-world-aeternum",
+    "name": "New World: Aeternum",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-04T15:07:58.776886-06:00"
+  },
+  {
+    "url": "",
+    "slug": "rising-storm",
+    "name": "Rising Storm",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-04T15:07:58.776886-06:00"
+  },
+  {
+    "url": "",
+    "slug": "eternalcity-the-acceleration",
+    "name": "ETERNALCITY THE ACCELERATION",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-04T15:07:58.776886-06:00"
+  },
+  {
+    "url": "",
+    "slug": "crysis-wars",
+    "name": "Crysis Wars",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-04T15:07:58.776886-06:00"
+  },
+  {
+    "url": "",
+    "slug": "project-xendata",
+    "name": "Project Xandata",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-04T15:07:58.776886-06:00"
+  },
+  {
+    "url": "",
+    "slug": "warcraft-iii-reforged-for-challengermode",
+    "name": "WarCraft III: Reforged (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-04T15:07:58.776886-06:00"
+  },
+  {
+    "url": "",
+    "slug": "talesweaver",
+    "name": "Talesweaver",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-04T15:07:58.776886-06:00"
+  },
+  {
+    "url": "",
+    "slug": "counterstrike-nexon",
+    "name": "Counter-Strike Nexon",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Nexon Game Security"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-04T15:07:58.777886-06:00"
+  },
+  {
+    "url": "",
+    "slug": "outpost-infinity-siege",
+    "name": "Outpost: Infinity Siege",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "SCUE4"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-04T15:07:58.777886-06:00"
   }
 ]
