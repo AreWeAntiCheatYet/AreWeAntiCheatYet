@@ -96,7 +96,7 @@
   },
   {
     "url": "",
-    "name": "Battlefield 2042",
+    "name": "Battlefield™ 2042",
     "logo": "",
     "native": false,
     "status": "Denied",
@@ -114,7 +114,7 @@
       }
     },
     "slug": "battlefield-2042",
-    "dateChanged": "2024-01-26T01:24:49.589Z"
+    "dateChanged": "2024-11-04T00:18:17.181Z"
   },
   {
     "url": "https://www.ea.com/games/apex-legends",
@@ -3582,13 +3582,14 @@
     "status": "Supported",
     "reference": "",
     "anticheats": [
-      "VAC"
+      "VAC",
+      "BattlEye"
     ],
     "notes": [],
     "updates": [],
     "storeIds": {},
     "slug": "day-of-infamy",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-11-04T00:18:17.247Z"
   },
   {
     "url": "",
@@ -3825,7 +3826,8 @@
     "status": "Supported",
     "reference": "https://www.protondb.com/app/282440",
     "anticheats": [
-      "PunkBuster"
+      "PunkBuster",
+      "VAC"
     ],
     "notes": [],
     "updates": [],
@@ -3833,7 +3835,7 @@
       "steam": "282440"
     },
     "slug": "quake-live",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-11-04T00:18:17.253Z"
   },
   {
     "url": "",
@@ -4303,7 +4305,7 @@
   },
   {
     "url": "https://www.ubisoft.com/en-us/game/watch-dogs/legion",
-    "name": "Watch Dogs: Legion",
+    "name": "Watch Dogs®: Legion",
     "logo": "",
     "native": false,
     "status": "Supported",
@@ -4331,7 +4333,7 @@
       }
     },
     "slug": "watch-dogs-legion",
-    "dateChanged": "2024-10-20T20:59:10.871Z"
+    "dateChanged": "2024-11-04T00:18:17.261Z"
   },
   {
     "url": "",
@@ -5248,6 +5250,7 @@
     "reference": "",
     "anticheats": [
       "X-Trap",
+      "PunkBuster",
       "XIGNCODE3"
     ],
     "notes": [],
@@ -5256,7 +5259,7 @@
       "steam": "389430"
     },
     "slug": "knight-online",
-    "dateChanged": "2024-10-13T20:19:23.714Z"
+    "dateChanged": "2024-11-04T00:18:17.277Z"
   },
   {
     "url": "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-the-breakers",
@@ -5963,17 +5966,12 @@
     "name": "ARC Raiders",
     "logo": "",
     "native": false,
-    "status": "Supported",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
-    "updates": [
-      {
-        "name": "Working in October 2024 closed playtest",
-        "date": "Oct 24, 2024, 8:00PM UTC"
-      }
-    ],
+    "updates": [],
     "notes": [
       [
         "Unreleased, Working in Closed Beta",
@@ -5987,7 +5985,7 @@
         "slug": "arc-raiders"
       }
     },
-    "dateChanged": "2024-10-31T18:15:00.000Z"
+    "dateChanged": "2024-11-04T00:18:17.287Z"
   },
   {
     "url": "",
@@ -9780,7 +9778,7 @@
   {
     "url": "",
     "slug": "assassins-creed3",
-    "name": "Assassin's Creed 3",
+    "name": "Assassin's Creed® III",
     "logo": "",
     "native": false,
     "status": "Running",
@@ -9791,7 +9789,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-09-20T19:51:25.507Z"
+    "dateChanged": "2024-11-04T00:18:17.338Z"
   },
   {
     "url": "",
@@ -12250,7 +12248,7 @@
   {
     "url": "",
     "slug": "tom-clancys-ghost-recon-future-soldier",
-    "name": "Tom Clancy's Ghost Recon Future Soldier",
+    "name": "Tom Clancy's Ghost Recon: Future Soldier",
     "logo": "",
     "native": false,
     "status": "Running",
@@ -12261,7 +12259,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-13T22:38:31.288Z"
+    "dateChanged": "2024-11-04T00:18:17.371Z"
   },
   {
     "url": "",
@@ -12946,7 +12944,7 @@
   {
     "url": "",
     "slug": "dirt-rally-2",
-    "name": "Dirt Rally 2.0",
+    "name": "DiRT Rally 2.0",
     "logo": "",
     "native": false,
     "status": "Running",
@@ -12957,7 +12955,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-18T17:04:48.782182-05:00"
+    "dateChanged": "2024-11-04T00:18:17.382Z"
   },
   {
     "url": "",
@@ -13481,12 +13479,13 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "Easy Anti-Cheat",
+      "XIGNCODE3"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-22T16:28:22.251565-05:00"
+    "dateChanged": "2024-11-04T00:18:17.391Z"
   },
   {
     "url": "",
@@ -14972,7 +14971,7 @@
   {
     "url": "",
     "slug": "fear-the-wolves",
-    "name": "Fear The Wolves",
+    "name": "Fear the Wolves",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -14983,7 +14982,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-26T16:25:55.481593-05:00"
+    "dateChanged": "2024-10-31T15:26:18.104637-05:00"
   },
   {
     "url": "",
@@ -16064,7 +16063,7 @@
   {
     "url": "",
     "slug": "pfamily-new-heavenly-monument-taiwan",
-    "name": "\u65b0\u5929\u4e0a\u7891",
+    "name": "新天上碑",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -16261,7 +16260,7 @@
   {
     "url": "",
     "slug": "navyfield4-hongkong",
-    "name": "\u5927\u6d77\u6218 Navy Field IV",
+    "name": "大海战 Navy Field IV",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -16719,7 +16718,7 @@
   {
     "url": "",
     "slug": "battleteams1-classic-china",
-    "name": "\u751f\u6b7b\u72d9\u51fb\uff1a\u6218\u706b\u91cd\u71c3\uff08\u56fd\u9645\u7248\uff09",
+    "name": "生死狙击：战火重燃（国际版）",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -16816,22 +16815,6 @@
     "url": "",
     "slug": "reign-of-dwarf",
     "name": "Reign Of Dwarf",
-    "logo": "",
-    "native": false,
-    "status": "Broken",
-    "reference": "",
-    "anticheats": [
-      "Easy Anti-Cheat"
-    ],
-    "updates": [],
-    "notes": [],
-    "storeIds": {},
-    "dateChanged": "2024-10-31T15:26:18.104637-05:00"
-  },
-  {
-    "url": "",
-    "slug": "fear-the-wolves",
-    "name": "Fear the Wolves",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -16980,7 +16963,7 @@
   {
     "url": "",
     "slug": "r2beat-china",
-    "name": "R2Beat: \u97f3\u901f\u89c9\u9192",
+    "name": "R2Beat: 音速觉醒",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -17076,7 +17059,7 @@
   {
     "url": "",
     "slug": "zula-turkey",
-    "name": "Zula T\u00fcrkiye",
+    "name": "Zula Türkiye",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -17412,12 +17395,13 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
+      "Easy Anti-Cheat",
       "BattlEye"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-11-03T15:08:08.656851-06:00"
+    "dateChanged": "2024-11-04T00:18:17.443Z"
   },
   {
     "url": "",
@@ -17461,7 +17445,7 @@
     "slug": "jabroni-brawl-episode3",
     "name": "Jabroni Brawl: Episode 3",
     "logo": "",
-    "native": false,
+    "native": true,
     "status": "Supported",
     "reference": "",
     "anticheats": [
@@ -17470,7 +17454,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-11-03T15:08:08.657851-06:00"
+    "dateChanged": "2024-11-04T00:18:17.444Z"
   },
   {
     "url": "",
