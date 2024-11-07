@@ -58,7 +58,7 @@ function describe<C extends keyof Game>(game: Game, key: C) {
     allowBooleanAttributes: true,
   });
 
-  const parsedFeed = parser.parse(currentFeed) as Feed;
+  const parsedFeed = parser.parse(currentFeed) as unknown as Feed;
 
   const oldGames: Game[] = JSON.parse(readFileSync(argv[2]).toString());
   const changes = getChanges(Games, oldGames);
