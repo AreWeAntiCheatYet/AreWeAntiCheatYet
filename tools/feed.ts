@@ -112,5 +112,7 @@ function describe<C extends keyof Game>(game: Game, key: C) {
     suppressBooleanAttributes: false,
   });
 
-  await writeFile('public/feed.rss', builder.build(parsedFeed));
+  // common TypeScript schizo moment
+  // @ts-ignore
+  await writeFile('public/feed.rss', builder.build(parsedFeed)); 
 })().catch(console.error);
