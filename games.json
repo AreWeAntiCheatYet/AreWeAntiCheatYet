@@ -5029,7 +5029,8 @@
     "reference": "https://www.protondb.com/app/495910",
     "anticheats": [
       "AhnLab HackShield",
-      "XIGNCODE3"
+      "XIGNCODE3",
+      "Nexon Game Security"
     ],
     "notes": [
       [
@@ -5042,7 +5043,7 @@
       "steam": "495910"
     },
     "slug": "dungeon-fighter-online",
-    "dateChanged": "2024-10-27T21:09:55.545Z"
+    "dateChanged": "2024-11-11T06:05:11.329Z"
   },
   {
     "url": "https://evildeadthegame.com/en/",
@@ -5466,7 +5467,8 @@
     "status": "Broken",
     "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/908",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "Easy Anti-Cheat",
+      "Denuvo Anti-Cheat"
     ],
     "notes": [],
     "updates": [
@@ -5480,7 +5482,7 @@
       "steam": "1789480"
     },
     "slug": "marauders",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-11-11T06:05:11.335Z"
   },
   {
     "url": "https://www.predecessorgame.com/",
@@ -5770,7 +5772,7 @@
   {
     "url": "https://www.avaonline.global/",
     "slug": "ava-global",
-    "name": "A.V.A (Global)",
+    "name": "A.V.A Global",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -5781,7 +5783,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-11-11T06:05:11.339Z"
   },
   {
     "url": "",
@@ -8352,7 +8354,7 @@
   {
     "url": "",
     "slug": "red-faction-armageddon",
-    "name": "Red Faction: Armageddon",
+    "name": "Red Faction®: Armageddon™",
     "logo": "",
     "native": false,
     "status": "Supported",
@@ -8363,7 +8365,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-07-24T02:12:01.611Z"
+    "dateChanged": "2024-11-11T06:05:11.374Z"
   },
   {
     "url": "",
@@ -9683,12 +9685,13 @@
     "reference": "",
     "anticheats": [
       "AhnLab HackShield",
+      "PunkBuster",
       "Easy Anti-Cheat"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-09-17T21:14:19.247Z"
+    "dateChanged": "2024-11-11T06:05:11.391Z"
   },
   {
     "url": "",
@@ -10144,12 +10147,13 @@
     "status": "Running",
     "reference": "",
     "anticheats": [
-      "X-Trap"
+      "X-Trap",
+      "nProtect GameGuard"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-09-24T20:41:16.931Z"
+    "dateChanged": "2024-11-11T06:05:11.398Z"
   },
   {
     "url": "",
@@ -10293,12 +10297,13 @@
     "status": "Running",
     "reference": "",
     "anticheats": [
-      "VAC"
+      "VAC",
+      "BattlEye"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-09-25T21:16:49.658Z"
+    "dateChanged": "2024-11-11T06:05:11.400Z"
   },
   {
     "url": "",
@@ -10690,12 +10695,13 @@
     "anticheats": [
       "4game Guard / Frost Security",
       "Active Anticheat",
+      "nProtect GameGuard",
       "SARD"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-09-29T21:31:44.677Z"
+    "dateChanged": "2024-11-11T06:05:11.406Z"
   },
   {
     "url": "",
@@ -11871,12 +11877,13 @@
     "reference": "",
     "anticheats": [
       "X-Trap",
+      "nProtect GameGuard",
       "XIGNCODE3"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-07T22:48:08.635Z"
+    "dateChanged": "2024-11-11T06:05:11.422Z"
   },
   {
     "url": "",
@@ -14092,7 +14099,8 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Anti-Cheat Expert"
+      "Anti-Cheat Expert",
+      "AnyBrain"
     ],
     "updates": [],
     "notes": [
@@ -14102,7 +14110,7 @@
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-10-24T16:01:34.373167-05:00"
+    "dateChanged": "2024-11-11T06:05:11.460Z"
   },
   {
     "url": "",
@@ -16479,12 +16487,13 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
+      "nProtect GameGuard",
       "Easy Anti-Cheat"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-30T17:48:27.615769-05:00"
+    "dateChanged": "2024-11-11T06:05:11.490Z"
   },
   {
     "url": "",
@@ -17692,8 +17701,8 @@
   },
   {
     "url": "",
-    "slug": "\u6b7b\u5bc2-deathly-stillness",
-    "name": "\u6b7b\u5bc2\uff08Deathly Stillness\uff09",
+    "slug": "死寂-deathly-stillness",
+    "name": "死寂（Deathly Stillness）",
     "logo": "",
     "native": false,
     "status": "Running",
@@ -18555,7 +18564,7 @@
   {
     "url": "",
     "slug": "ruse",
-    "name": "R.U.S.E.\u2122",
+    "name": "R.U.S.E.™",
     "logo": "",
     "native": false,
     "status": "Broken",
