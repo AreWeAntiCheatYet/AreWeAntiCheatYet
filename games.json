@@ -3736,7 +3736,12 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "epic": {
+        "namespace": "6827387b744d4a46bd70ea8a145e595b",
+        "slug": "zenless-zone-zero-c7c151"
+      }
+    },
     "dateChanged": "2024-11-15T16:25:00.000Z"
   },
   {
