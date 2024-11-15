@@ -1135,47 +1135,6 @@
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
-    "url": "https://genshin.mihoyo.com/",
-    "name": "Genshin Impact",
-    "logo": "",
-    "native": false,
-    "status": "Running",
-    "reference": "",
-    "anticheats": [
-      "miHoYo Protect"
-    ],
-    "notes": [
-      [
-        "Needed workarounds prior to 3.5",
-        ""
-      ],
-      [
-        "Possible 100% CPU Usage bug on Linux, play at your own risk",
-        null
-      ]
-    ],
-    "updates": [
-      {
-        "name": "v3.8: Game Anti-Cheat is allowing Proton on clean installs, on update release.",
-        "date": "Jul 5, 2023, 11:00:00 UTC+8",
-        "reference": "https://www.reddit.com/r/linux_gaming/comments/15sskjh/"
-      },
-      {
-        "name": "v3.5: Game Anti-Cheat observed allowing Proton in restricted scenarios, 2 business weeks after update launch.",
-        "date": "Mar 3, 2023, 11:00:00 UTC+8",
-        "reference": "https://www.reddit.com/r/linux_gaming/comments/123zllz/"
-      }
-    ],
-    "storeIds": {
-      "epic": {
-        "namespace": "879b0d8776ab46a59a129983ba78f0ce",
-        "slug": "genshin-impact"
-      }
-    },
-    "slug": "genshin-impact",
-    "dateChanged": "2024-09-02T22:03:09.321Z"
-  },
-  {
     "url": "https://www.djmaxrespect.com/",
     "name": "DJMAX RESPECT V",
     "logo": "",
@@ -3662,7 +3621,7 @@
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
-    "url": "https://honkaiimpact3.mihoyo.com/",
+    "url": "https://honkaiimpact3.hoyoverse.com/",
     "name": "Honkai Impact 3rd",
     "logo": "",
     "native": false,
@@ -3686,7 +3645,48 @@
         "slug": "honkai-impact-3rd"
       }
     },
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-11-15T16:25:00.000Z"
+  },
+  {
+    "url": "https://genshin.hoyoverse.com/",
+    "name": "Genshin Impact",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "miHoYo Protect"
+    ],
+    "notes": [
+      [
+        "Needed workarounds prior to 3.5",
+        ""
+      ],
+      [
+        "Possible 100% CPU Usage bug on Linux, play at your own risk",
+        null
+      ]
+    ],
+    "updates": [
+      {
+        "name": "v3.8: Game Anti-Cheat is allowing Proton on clean installs, on update release.",
+        "date": "Jul 5, 2023, 11:00:00 UTC+8",
+        "reference": "https://www.reddit.com/r/linux_gaming/comments/15sskjh/"
+      },
+      {
+        "name": "v3.5: Game Anti-Cheat observed allowing Proton in restricted scenarios, 2 business weeks after update launch.",
+        "date": "Mar 3, 2023, 11:00:00 UTC+8",
+        "reference": "https://www.reddit.com/r/linux_gaming/comments/123zllz/"
+      }
+    ],
+    "storeIds": {
+      "epic": {
+        "namespace": "879b0d8776ab46a59a129983ba78f0ce",
+        "slug": "genshin-impact"
+      }
+    },
+    "slug": "genshin-impact",
+    "dateChanged": "2024-11-15T16:25:00.000Z"
   },
   {
     "url": "https://hsr.hoyoverse.com/",
@@ -3716,7 +3716,28 @@
         "slug": "honkai-star-rail"
       }
     },
-    "dateChanged": "2024-07-31T00:00:00.000Z"
+    "dateChanged": "2024-11-15T16:25:00.000Z"
+  },
+  {
+    "url": "https://zenless.hoyoverse.com/",
+    "slug": "zzz",
+    "name": "Zenless Zone Zero",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "miHoYo Protect"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-11-15T16:25:00.000Z"
   },
   {
     "url": "",
@@ -6914,27 +6935,6 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-03-07T22:15:44.135Z"
-  },
-  {
-    "url": "https://zenless.hoyoverse.com/",
-    "slug": "zzz",
-    "name": "Zenless Zone Zero",
-    "logo": "",
-    "native": false,
-    "status": "Running",
-    "reference": "",
-    "anticheats": [
-      "miHoYo Protect"
-    ],
-    "updates": [],
-    "notes": [
-      [
-        "",
-        null
-      ]
-    ],
-    "storeIds": {},
-    "dateChanged": "2024-07-31T00:01:49.730Z"
   },
   {
     "url": "",
