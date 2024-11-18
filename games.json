@@ -19701,22 +19701,17 @@
   },
   {
     "url": "",
-    "slug": " The Infinite Zero Point",
-    "name": "DUST II ",
+    "slug": "dust-ii-the-infinite-zero-point",
+    "name": "DUST II | The Infinite Zero Point",
     "logo": "",
     "native": false,
-    "status": "Easy Anti-Cheat",
+    "status": "Broken",
     "reference": "",
     "anticheats": [
-      "dust-ii-the-infinite-zero-point"
+      "Easy Anti-Cheat"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Broken",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {},
     "dateChanged": "2024-11-18T16:33:32.435148-06:00"
   },
