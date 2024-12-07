@@ -1135,6 +1135,36 @@
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
+    "url": "https://infinitynikki.infoldgames.com/",
+    "name": "Infinity Nikki",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "notes": [
+      [
+        "Odd behaviour where the game may or may not start, but only on Steam Deck.",
+        ""
+      ],
+      [
+        "As of launch, Infinity Nikki does not run on Desktop Linux.",
+        null
+      ]
+    ],
+    "updates": [ ],
+    "storeIds": {
+      "epic": {
+        "namespace": "b6ab3ae326064cd0884d7df16f69b9cb",
+        "slug": "infinity-nikki-71fc64"
+      }
+    },
+    "slug": "infinity-nikki",
+    "dateChanged": "2024-12-06T02:30:00.000Z"
+  },
+  {
     "url": "https://genshin.mihoyo.com/",
     "name": "Genshin Impact",
     "logo": "",
