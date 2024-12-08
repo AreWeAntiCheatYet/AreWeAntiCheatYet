@@ -6174,12 +6174,12 @@
     ],
     "notes": [
       [
-        "Reports claiming that Proton 8.0-5, Proton 9.0-2, or Proton Experimental might work",
+        "Runs on native Steam Deck hardware only.",
         null
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-08-18T17:22:04.182Z"
+    "dateChanged": "2024-12-07T17:22:04.182Z"
   },
   {
     "url": "https://pc.wfclutch.com/",
@@ -7887,12 +7887,12 @@
     "updates": [],
     "notes": [
       [
-        "Unreleased, Speculative",
+        "Runs on native Steam Deck hardware only.",
         null
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-06-22T20:44:24.865Z"
+    "dateChanged": "2024-12-07T20:44:24.865Z"
   },
   {
     "url": "",
@@ -8280,12 +8280,12 @@
     "updates": [],
     "notes": [
       [
-        "Unreleased, Speculative",
+        "Runs on native Steam Deck hardware only.",
         null
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-07-18T19:29:55.985Z"
+    "dateChanged": "2024-12-07T19:29:55.985Z"
   },
   {
     "url": "",
