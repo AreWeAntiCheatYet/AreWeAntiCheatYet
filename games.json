@@ -6296,16 +6296,17 @@
     "slug": "enlisted-reinforced",
     "name": "Enlisted: Reinforced",
     "logo": "",
-    "native": false,
-    "status": "Planned",
+    "native": true,
+    "status": "Supported",
     "reference": "https://steamcommunity.com/app/2051620/discussions/0/4205867749040592896/",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "Easy Anti-Cheat",
+	  "BattlEye"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-02-14T22:39:24.216Z"
+    "dateChanged": "2024-12-07T22:39:24.216Z"
   },
   {
     "url": "",
