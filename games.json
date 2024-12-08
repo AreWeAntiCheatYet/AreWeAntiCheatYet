@@ -7226,20 +7226,15 @@
     "name": "Marvel Rivals",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "NetEase Anti-Cheat Expert"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-07-31T00:01:49.739Z"
+    "dateChanged": "2024-12-07T00:01:49.739Z"
   },
   {
     "url": "",
