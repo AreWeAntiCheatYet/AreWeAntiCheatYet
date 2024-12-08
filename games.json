@@ -156,12 +156,7 @@
     "anticheats": [
       "Vanguard"
     ],
-    "notes": [
-      [
-        "Possibly playable through a macOS VM",
-        null
-      ]
-    ],
+    "notes": [],
     "updates": [
       {
         "name": "Vanguard developer claims Linux has \"too much attack surface\".",
@@ -176,7 +171,7 @@
       }
     },
     "slug": "valorant",
-    "dateChanged": "2024-09-01T22:22:14.140Z"
+    "dateChanged": "2024-09-02T22:22:14.140Z"
   },
   {
     "url": "https://www.halowaypoint.com/de-de/halo-infinite",
@@ -4500,7 +4495,12 @@
     "anticheats": [
       "Vanguard"
     ],
-    "notes": [],
+    "notes": [
+      [
+        "Possibly playable through a macOS VM",
+        null
+      ]
+	],
     "updates": [],
     "storeIds": {
       "epic": {
@@ -4509,7 +4509,7 @@
       }
     },
     "slug": "league-of-legends",
-    "dateChanged": "2024-09-15T22:37:00.936Z"
+    "dateChanged": "2024-09-16T22:37:00.936Z"
   },
   {
     "url": "",
