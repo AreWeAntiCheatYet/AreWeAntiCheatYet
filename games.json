@@ -708,17 +708,23 @@
     "logo": "",
     "native": true,
     "status": "Supported",
-    "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/43",
+    "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "BattlEye"
     ],
     "notes": [],
-    "updates": [],
+    "updates": [
+		{
+			"name": "War Thunder switches to BattlEye",
+			"date": "2024-12-05T00:00:00.0000000",
+			"reference": "https://warthunder.com/en/news/9247-war-thunder-anti-cheat-system-update-en"
+		}
+	],
     "storeIds": {
       "steam": "236390"
     },
     "slug": "war-thunder",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-12-27T07:56:49.0000000-06:00"
   },
   {
     "url": "http://7daystodie.com/",
@@ -1478,8 +1484,10 @@
       "Easy Anti-Cheat"
     ],
     "notes": [
-		"Anti-cheat currently works, however, Themida anti-tamper is not correctly virtualized under Wine/Proton.",
-		""
+		[
+			"Anti-cheat currently works, however, Themida anti-tamper is not correctly virtualized under Wine/Proton.",
+			""
+		]
 	],
     "updates": [],
     "storeIds": {
