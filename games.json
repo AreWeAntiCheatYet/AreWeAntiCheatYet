@@ -15788,15 +15788,15 @@
     "name": "Squad 44",
     "logo": "",
     "native": false,
-    "status": "Denied",
-    "reference": "",
+    "status": "Planned",
+    "reference": "https://steamcommunity.com/app/736220/discussions/0/7221029098486130805/?ctp=2#c4429939958292527216",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-27T16:28:12.861702-05:00"
+    "dateChanged": "2024-12-27T08:10:43.0000000-06:00"
   },
   {
     "url": "",
