@@ -18228,7 +18228,7 @@
     "name": "Warhammer 40,000: Darktide",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -18236,7 +18236,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-11-10T23:20:07.488699-06:00"
+    "dateChanged": "2024-12-27T08:07:53.0000000-06:00"
   },
   {
     "url": "",
