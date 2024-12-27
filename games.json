@@ -9712,20 +9712,15 @@
     "name": "Faaast Penguin",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-09-19T04:38:21.460Z"
+    "dateChanged": "2024-12-27T08:29:56.0000000-06:00"
   },
   {
     "url": "",
