@@ -8856,9 +8856,14 @@
       "Anti-Cheat Expert"
     ],
     "updates": [],
-    "notes": [],
+    "notes": [
+		[
+			"Running on native Steam Deck LCD hardware only.",
+			""
+		]
+	],
     "storeIds": {},
-    "dateChanged": "2024-08-18T17:22:04.243Z"
+    "dateChanged": "2024-12-27T08:05:36.0000000-06:00"
   },
   {
     "url": "",
