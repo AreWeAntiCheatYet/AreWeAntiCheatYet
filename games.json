@@ -1501,18 +1501,24 @@
     "name": "World War 3",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "https://github.com/ValveSoftware/Proton/issues/1811#issuecomment-981078015",
+    "status": "Running",
+    "reference": "https://www.protondb.com/app/674020#I0Azq2ZzdO",
     "anticheats": [
-      "Mail.ru Anti-Cheat"
+      "Easy Anti-Cheat"
     ],
     "notes": [],
-    "updates": [],
+    "updates": [
+	    { 
+		"name": "Switched to Easy Anti-Cheat" 
+		"date": "Nov 29, 2024, 0:17 AM GMT+3"
+		"reference": "https://store.steampowered.com/news/app/674020/view/4449089138403050314"
+	    }
+    ],
     "storeIds": {
       "steam": "674020"
     },
     "slug": "world-war-3",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2025-02-09T15:29:00.000Z"
   },
   {
     "url": "https://www.iracing.com/",
