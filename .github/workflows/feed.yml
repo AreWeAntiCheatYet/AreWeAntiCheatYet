@@ -12,21 +12,21 @@ jobs:
 
     steps:
       - name: 📦 Checkout Current
-        uses: actions/checkout@v3.6.0
+        uses: actions/checkout@v4
         with:
           path: current
           token: ${{ secrets.GH_TOKEN }}
 
       - name: 📦 Checkout Previous
-        uses: actions/checkout@v3.6.0
+        uses: actions/checkout@v4
         with:
           path: previous
           ref: ${{ github.event.before }}
 
       - name: 🚧 Setup Node
-        uses: actions/setup-node@v3.8.2
+        uses: actions/setup-node@v4
         with:
-          node-version: 18.13.0
+          node-version: 22.13.1
 
       - name: 🤖 Setup Project
         run: 'cd current && yarn'
