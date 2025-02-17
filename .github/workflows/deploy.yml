@@ -16,12 +16,12 @@ jobs:
 
     steps:
       - name: 📦 Checkout
-        uses: actions/checkout@v3.6.0
+        uses: actions/checkout@v4
 
       - name: 🚧 Setup Node
-        uses: actions/setup-node@v3.8.2
+        uses: actions/setup-node@v4
         with:
-          node-version: 18.13.0
+          node-version: 20
 
       - name: 🤖 Setup Project
         run: 'yarn'
@@ -36,8 +36,8 @@ jobs:
           touch out/.nojekyll
 
       - name: 🎉 Deploy
-        uses: peaceiris/actions-gh-pages@v3.9.3
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
           keep_files: true
