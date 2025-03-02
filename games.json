@@ -6895,17 +6895,18 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Seasun Protect"
+      "Anti-Cheat Expert",
+	  "Seasun Protect"
     ],
     "updates": [],
     "notes": [
       [
-        "Unreleased, Speculative",
+        "Likely playable on native Steam Deck hardware (non-OLED only).",
         null
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-08-11T10:19:19.068Z"
+    "dateChanged": "2025-03-02T14:25:09.0000000-05:00"
   },
   {
     "url": "",
