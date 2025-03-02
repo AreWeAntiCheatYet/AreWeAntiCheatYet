@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: current
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: 📦 Checkout Previous
         uses: actions/checkout@v4
