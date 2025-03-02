@@ -21,7 +21,7 @@ jobs:
       - name: 🚧 Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 18.13.0
 
       - name: 🤖 Setup Project
         run: 'yarn'
@@ -38,6 +38,6 @@ jobs:
       - name: 🎉 Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GH_TOKEN }}
           publish_dir: ./out
           keep_files: true
