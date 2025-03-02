@@ -7361,7 +7361,7 @@
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-08-25T21:58:42.001Z"
+    "dateChanged": "2025-03-02T14:19:28.0000000-05:00"
   },
   {
     "url": "",
@@ -7732,7 +7732,7 @@
     "name": "BattleCore Arena",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Supported",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -7740,7 +7740,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-06-14T00:13:32.697Z"
+    "dateChanged": "2025-03-02T14:19:43.0000000-05:00"
   },
   {
     "url": "",
