@@ -8,23 +8,23 @@ on:
 name: Update RSS-Feed
 jobs:
   rss-feed:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
       - name: 📦 Checkout Current
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.0.0
         with:
           path: current
           token: ${{ secrets.GH_TOKEN }}
 
       - name: 📦 Checkout Previous
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.0.0
         with:
           path: previous
           ref: ${{ github.event.before }}
 
       - name: 🚧 Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v4.0.0
         with:
           node-version: 18.13.0
 

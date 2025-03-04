@@ -12,14 +12,14 @@ on:
 name: Deploy to Github-Pages
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
       - name: 📦 Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.0.0
 
       - name: 🚧 Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v4.0.0
         with:
           node-version: 18.13.0
 
@@ -36,7 +36,7 @@ jobs:
           touch out/.nojekyll
 
       - name: 🎉 Deploy
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@v4.0.0
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           publish_dir: ./out
