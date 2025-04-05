@@ -236,7 +236,7 @@
     "name": "Paladins",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -277,6 +277,11 @@
         "name": "No plans to dedicate time for steam deck / linux compatibility",
         "date": "Feb 14, 2023, 02:13 AM",
         "reference": "https://www.reddit.com/r/paladinsgame/comments/110mcuf/with_em_striving_to_do_better_how_about_some/j8g2nam/"
+      },
+      {
+        "name": "EAC updated, and Linux allowed after Evil Mojo layoffs",
+        "date": "April 1, 2025, 12:00 AM",
+        "reference": ""
       }
     ],
     "storeIds": {
@@ -287,7 +292,7 @@
       }
     },
     "slug": "paladins",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2025-04-05T19:13:42.0000000-04:00"
   },
   {
     "url": "https://pubg.com/",
