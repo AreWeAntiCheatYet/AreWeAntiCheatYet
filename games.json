@@ -1281,7 +1281,7 @@
     "name": "Rising Storm 2: Vietnam",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "https://www.protondb.com/app/418460#9Rm6QJUXau",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -1296,7 +1296,7 @@
       }
     },
     "slug": "rising-storm-2-vietnam",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2025-04-05T19:10:15.0000000-04:00"
   },
   {
     "url": "",
