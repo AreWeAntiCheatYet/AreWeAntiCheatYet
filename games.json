@@ -799,17 +799,12 @@
     "name": "Warhammer: Vermintide 2",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "https://www.protondb.com/app/552500#OFEC_7WqWG",
+    "status": "Running",
+    "reference": "https://gamingonlinux.com/2025/03/warhammer-vermintide-2-gets-an-easy-anti-cheat-upgrade-finally-works-properly-on-linux",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
-    "notes": [
-      [
-        "It's complicated...",
-        "https://github.com/AreWeAntiCheatYet/AreWeAntiCheatYet/issues/1271"
-      ]
-    ],
+    "notes": [],
     "updates": [
       {
         "name": "EAC Implementation more complex than suspected",
@@ -826,7 +821,7 @@
       "steam": "552500"
     },
     "slug": "warhammer-vermintide-2",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2025-04-05T19:07:27.0000000-04:00"
   },
   {
     "url": "https://www.escapefromtarkov.com/",
