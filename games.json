@@ -2000,8 +2000,8 @@
     "name": "Digimon Masters Online",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Running",
+    "reference": "https://youtube.com/watch?v=uHA4dOmyPeE",
     "anticheats": [
       "XIGNCODE3"
     ],
@@ -2011,7 +2011,7 @@
       "steam": "537180"
     },
     "slug": "digimon-masters-online",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2025-04-05T19:17:55.0000000-04:00"
   },
   {
     "url": "https://postscriptumgame.com/",
