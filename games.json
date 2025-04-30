@@ -5319,14 +5319,24 @@
     "url": "https://www.toweroffantasy-global.com/",
     "name": "Tower of Fantasy",
     "logo": "",
-    "status": "Denied",
+    "status": "Running",
     "native": false,
     "reference": "",
     "anticheats": [
       "KSophon"
     ],
-    "notes": [],
+    "notes": [
+      [
+        "Didn't work before publisher was changed to Perfect World",
+        ""
+      ]
+    ],
     "updates": [
+      {
+        "name": "Game started working on Linux",
+        "date": "31 March 2025 05:12:08 UTC",
+        "reference": "https://www.protondb.com/app/2064650#nnunTaGO89"
+      },
       {
         "name": "Refused Steam Deck Support",
         "date": "5 August 2022 4:42 PM UTC-5",
@@ -5341,7 +5351,7 @@
       }
     },
     "slug": "tower-of-fantasy",
-    "dateChanged": "2024-01-20T04:40:56.000Z"
+    "dateChanged": "2025-04-30T17:16:00.000Z"
   },
   {
     "url": "https://www.lostlight.game/",
