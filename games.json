@@ -7356,7 +7356,7 @@
     "name": "Wuthering Waves",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Planned",
     "reference": "",
     "anticheats": [
       "Anti-Cheat Expert"
@@ -7370,10 +7370,14 @@
 	  [
         "Might be playable on native Steam Deck hardware (non-OLED only).",
         null
-      ]
+      ],
+	  [
+		"Publisher claims to be looking into better Steam Deck compatibility on the Steam store page description.",
+		"https://store.steampowered.com/app/3513350/Wuthering_Waves/"
+	  ]
     ],
     "storeIds": {},
-    "dateChanged": "2025-03-02T14:19:28.0000000-05:00"
+    "dateChanged": "2025-05-26T17:02:16.0000000-04:00"
   },
   {
     "url": "",
