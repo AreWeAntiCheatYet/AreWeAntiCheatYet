@@ -19788,5 +19788,26 @@
     },
     "slug": "infinity-nikki",
     "dateChanged": "2024-12-06T02:30:00.000Z"
+  },
+  {
+    "url": "",
+    "slug": "rematch",
+    "name": "REMATCH",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+		[
+			"Running in Closed Play Test.",
+			null
+		]
+	],
+    "storeIds": {},
+    "dateChanged": "2025-05-26T17:07:53.0000000-04:00"
   }
 ]
