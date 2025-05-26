@@ -3708,7 +3708,8 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Anti-Cheat Expert"
+      "Anti-Cheat Expert",
+	  "miHoYo Protect"
     ],
     "notes": [
       [
@@ -3728,7 +3729,7 @@
         "slug": "honkai-star-rail"
       }
     },
-    "dateChanged": "2024-07-31T00:00:00.000Z"
+    "dateChanged": "2025-05-26T16:54:01.0000000-04:00"
   },
   {
     "url": "",
