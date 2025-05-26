@@ -7899,10 +7899,14 @@
       [
         "Runs on native Steam Deck hardware only.",
         null
-      ]
+      ],
+	  [
+		"Developers said they would like to enable wide Linux support in the future.",
+		"https://steamcommunity.com/app/1282270/discussions/4/4626981087516566932/?ctp=2#comment_603023633548348038"
+	  ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-12-07T20:44:24.865Z"
+    "dateChanged": "2025-05-26T16:58:56.0000000-04:00"
   },
   {
     "url": "",
