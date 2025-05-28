@@ -3708,7 +3708,6 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Anti-Cheat Expert",
 	  "miHoYo Protect"
     ],
     "notes": [
@@ -6549,6 +6548,7 @@
     "status": "Running",
     "reference": "",
     "anticheats": [
+      "Anti-Cheat Expert",
       "Crackproof",
       "WFSDrv"
     ],
@@ -19834,15 +19834,11 @@
       [
         "Proton 10.x series lacks the patches to run R:1999 for now.",
         null
-      ],
-      [
-        "Odd behaviour where the game may or may not start, but only on Steam Deck.",
-        ""
       ]
     ],
     "updates": [
       {
-        "name": "As of Wine-Staging 10.5, Punishing: Gray Raven is playable on Linux.",
+        "name": "As of Wine-Staging 10.5, Reverse: 1999 is playable on Linux.",
         "date": "May 28, 2025, 13:15:00 UTC",
         "reference": "https://www.protondb.com/app/3092660"
       }
