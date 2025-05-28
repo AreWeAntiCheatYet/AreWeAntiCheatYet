@@ -6546,14 +6546,24 @@
     "name": "ヘブンバーンズレッド (Heaven Burns Red)",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Crackproof",
       "WFSDrv"
     ],
-    "updates": [],
+    "updates": [
+      {
+        "name": "As of Wine-Staging 10.5, Heaven Burns Red is playable on Linux.",
+        "date": "May 28, 2025, 13:15:00 UTC",
+        "reference": "https://www.protondb.com/app/1973710"
+      }
+    ],
     "notes": [
+      [
+        "Proton 10.x series lacks the patches to run HBR for now.",
+        null
+      ],
       [
         "Playable on Waydroid",
         null
@@ -7367,16 +7377,22 @@
         "Playable on GeForce NOW.",
         "https://www.reddit.com/r/GeForceNOW/comments/1dqsm7u/wuthering_waves_now_available_in_gfn/"
       ],
-	  [
+	    [
         "Might be playable on native Steam Deck hardware (non-OLED only).",
         null
       ],
-	  [
-		"Publisher claims to be looking into better Steam Deck compatibility on the Steam store page description.",
-		"https://store.steampowered.com/app/3513350/Wuthering_Waves/"
-	  ]
+      [
+      "Publisher claims to be looking into better Steam Deck compatibility on the Steam store page description.",
+      "https://store.steampowered.com/app/3513350/Wuthering_Waves/"
+      ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3092660",
+      "epic": {
+        "namespace": "e885327ce4414509bff4c10757f88334",
+        "slug": "wuthering-waves-76ebc5"
+      }
+    },
     "dateChanged": "2025-05-26T17:02:16.0000000-04:00"
   },
   {
@@ -11283,12 +11299,18 @@
     "name": "Punishing: Gray Raven",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Anti-Cheat Expert"
     ],
-    "updates": [],
+    "updates": [
+      {
+        "name": "As of Wine-Staging 10.5, Punishing: Gray Raven is playable on Linux.",
+        "date": "May 28, 2025, 13:15:00 UTC",
+        "reference": "https://github.com/AreWeAntiCheatYet/AreWeAntiCheatYet/issues/1792"
+      }
+    ],
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-10-02T22:05:44.357Z"
@@ -19788,6 +19810,39 @@
     },
     "slug": "infinity-nikki",
     "dateChanged": "2024-12-06T02:30:00.000Z"
+  },
+  {
+    "url": "https://re1999.bluepoch.com/",
+    "name": "Reverse: 1999",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "notes": [
+      [
+        "On early Wine-Staging 10.5+ builds, some engine elements, such as video media playback, are broken.",
+        ""
+      ],
+      [
+        "Odd behaviour where the game may or may not start, but only on Steam Deck.",
+        ""
+      ]
+    ],
+    "updates": [
+      {
+        "name": "As of Wine-Staging 10.5, Punishing: Gray Raven is playable on Linux.",
+        "date": "May 28, 2025, 13:15:00 UTC",
+        "reference": "https://www.protondb.com/app/3092660"
+      }
+    ],
+    "storeIds": {
+      "steam": "3092660"
+    },
+    "slug": "reverse-1999",
+    "dateChanged": "2025-05-28T06:30:00.000Z"
   },
   {
     "url": "",
