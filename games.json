@@ -11311,7 +11311,12 @@
         "reference": "https://github.com/AreWeAntiCheatYet/AreWeAntiCheatYet/issues/1792"
       }
     ],
-    "notes": [],
+    "notes": [
+      [
+        "Proton 10.x series lacks the patches to run PGR for now.",
+        null
+      ]
+    ],
     "storeIds": {},
     "dateChanged": "2024-10-02T22:05:44.357Z"
   },
@@ -19825,6 +19830,10 @@
       [
         "On early Wine-Staging 10.5+ builds, some engine elements, such as video media playback, are broken.",
         ""
+      ],
+      [
+        "Proton 10.x series lacks the patches to run R:1999 for now.",
+        null
       ],
       [
         "Odd behaviour where the game may or may not start, but only on Steam Deck.",
