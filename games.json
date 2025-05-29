@@ -7828,7 +7828,7 @@
     "name": "Mabinogi",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "AhnLab HackShield",
@@ -7837,7 +7837,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-07T22:48:08.575Z"
+    "dateChanged": "2025-05-29T18:21:47.0000000-04:00"
   },
   {
     "url": "",
