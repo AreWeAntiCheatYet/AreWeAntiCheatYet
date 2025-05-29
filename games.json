@@ -19809,5 +19809,21 @@
 	],
     "storeIds": {},
     "dateChanged": "2025-05-26T17:07:53.0000000-04:00"
+  },
+  {
+    "url": "",
+    "slug": "nba-2k25",
+    "name": "NBA 2K25",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-05-29T18:34:45.0000000-04:00"
   }
 ]
