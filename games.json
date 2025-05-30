@@ -6546,7 +6546,7 @@
     "name": "ヘブンバーンズレッド (Heaven Burns Red)",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Crackproof",
@@ -6554,13 +6554,17 @@
     ],
     "updates": [],
     "notes": [
+	  [
+		"Requires Wine 10.5+ or Proton 10+.",
+		null
+	  ],
       [
         "Playable on Waydroid",
         null
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-07-31T00:01:49.712Z"
+    "dateChanged": "2025-05-30T17:20:03.0000000-04:00"
   },
   {
     "url": "",
