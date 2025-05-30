@@ -19829,5 +19829,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2025-05-29T18:34:45.0000000-04:00"
+  },
+  {
+    "url": "",
+    "slug": "elden-ring-nightreign",
+    "name": "Elden Ring: Nightreign",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-05-30T17:20:59.0000000-04:00"
   }
 ]
