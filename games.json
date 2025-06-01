@@ -8092,7 +8092,7 @@
     "name": "Dune: Awakening",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -8100,12 +8100,12 @@
     "updates": [],
     "notes": [
       [
-        "Unreleased, Speculative",
+        "Unreleased, Running in the open playtest.",
         null
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-07-03T19:31:11.479Z"
+    "dateChanged": "2025-06-01T19:19:07.0000000-04:00"
   },
   {
     "url": "",
