@@ -15933,7 +15933,7 @@
     ],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-28T10:56:10.340530-05:00"
+    "dateChanged": "2025-06-02T00:04:23.068803+02:00"
   },
   {
     "url": "",
@@ -16221,7 +16221,7 @@
     "status": "Running",
     "reference": "",
     "anticheats": [
-      ""
+      "BattlEye"
     ],
     "updates": [],
     "notes": [],
