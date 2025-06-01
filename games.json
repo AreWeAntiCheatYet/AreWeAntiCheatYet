@@ -19845,5 +19845,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2025-05-30T17:20:59.0000000-04:00"
+  },
+  {
+    "url": "",
+    "slug": "steel-hunters",
+    "name": "Steel Hunters",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-06-01T19:29:24.0000000-04:00"
   }
 ]
