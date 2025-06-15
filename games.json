@@ -19525,7 +19525,7 @@
     "name": "Blindfire",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Supported",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -19533,7 +19533,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-11-18T16:33:32.429148-06:00"
+    "dateChanged": "2025-06-15T14:55:48.0000000-04:00"
   },
   {
     "url": "",
