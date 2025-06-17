@@ -19932,5 +19932,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2025-06-16T15:21:43.0000000-04:00"
+  },
+  {
+    "url": "",
+    "name": "La Tale - Evolved",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "notes": [],
+    "updates": [],
+    "storeIds": {},
+    "slug": "latale-evolved",
+    "dateChanged": "2025-06-17T15:16:34.0000000-04:00"
   }
 ]
