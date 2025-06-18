@@ -6033,7 +6033,7 @@
     "name": "Deceit 2",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -6041,7 +6041,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2025-06-18T15:20:49.0000000-04:00"
   },
   {
     "url": "",
