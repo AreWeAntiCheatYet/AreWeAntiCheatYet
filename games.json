@@ -8992,22 +8992,17 @@
     "name": "Splitgate 2",
     "logo": "",
     "native": false,
-    "status": "Planned",
-    "reference": "https://www.reddit.com/r/Splitgate/comments/1f9s4la/splitgate_2_ama_with_1047_games_ceo_ian_proulx/llnx5tq/",
+    "status": "Running",
+    "reference": "",
     "anticheats": [
-      "EQU8"
+      "RedKard"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Anticheat broken in closed alpha.",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {
       "steam": "2918300"
     },
-    "dateChanged": "2025-03-02T14:23:05.0000000-05:00"
+    "dateChanged": "2025-06-19T15:01:37.0000000-04:00"
   },
   {
     "url": "https://xeragame.com/",
