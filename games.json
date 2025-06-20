@@ -1478,23 +1478,18 @@
     "name": "Rec Room",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Running",
+    "reference": "https://github.com/ValveSoftware/Proton/issues/4395",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
-    "notes": [
-		[
-			"Anti-cheat currently works, however, Themida anti-tamper is not correctly virtualized under Wine/Proton.",
-			""
-		]
-	],
+    "notes": [],
     "updates": [],
     "storeIds": {
       "steam": "471710"
     },
     "slug": "rec-room",
-    "dateChanged": "2024-12-27T07:54:55.0000000-06:00"
+    "dateChanged": "2025-06-20T16:16:24.0000000-04:00"
   },
   {
     "url": "https://worldwar3.com/",
