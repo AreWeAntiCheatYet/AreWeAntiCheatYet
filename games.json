@@ -15926,20 +15926,31 @@
     "dateChanged": "2024-10-28T10:56:10.339473-05:00"
   },
   {
-    "url": "",
+    "url": "https://crsed.net",
     "slug": "crsed-cuisine-royale",
     "name": "CRSED: Cuisine Royale",
     "logo": "",
     "native": false,
-    "status": "Supported",
+    "status": "Denied",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "BattlEye"
     ],
-    "updates": [],
+    "updates": [
+      {
+        "name": "Switched to BattlEye anti-cheat",
+        "date": "May 14, 2025, 8:59 AM GMT+2",
+        "reference": "https://store.steampowered.com/news/app/884660/view/503951081162670247"
+      },
+      {
+        "name": "The end of support for Linux",
+        "date": "May 27, 2025, 6:36 PM GMT+2",
+        "reference": "https://store.steampowered.com/news/app/884660/view/546735912086668871"
+      }
+    ],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-28T10:56:10.340530-05:00"
+    "dateChanged": "2025-06-02T00:04:23.068803+02:00"
   },
   {
     "url": "",
