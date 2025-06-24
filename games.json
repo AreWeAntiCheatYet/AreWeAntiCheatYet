@@ -2073,7 +2073,7 @@
     "name": "Dirty Bomb",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -2084,7 +2084,7 @@
       "steam": "333930"
     },
     "slug": "dirty-bomb",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2025-06-23T22:30:44.0000000-04:00"
   },
   {
     "url": "",
