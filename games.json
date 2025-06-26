@@ -8094,17 +8094,12 @@
     "status": "Running",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "BattlEye"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Running in the open playtest.",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {},
-    "dateChanged": "2025-06-01T19:19:07.0000000-04:00"
+    "dateChanged": "2025-06-26T19:17:36.0000000-04:00"
   },
   {
     "url": "",
