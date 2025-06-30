@@ -19932,5 +19932,21 @@
     "storeIds": {},
     "slug": "latale-evolved",
     "dateChanged": "2025-06-17T15:16:34.0000000-04:00"
+  },
+  {
+    "url": "",
+    "name": "CarX Street",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "notes": [],
+    "updates": [],
+    "storeIds": {},
+    "slug": "carx-street",
+    "dateChanged": "2025-06-30T15:49:34.0000000-04:00"
   }
 ]
