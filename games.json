@@ -9458,17 +9458,17 @@
     "name": "Test Drive Unlimited Solar Crown",
     "logo": "",
     "native": false,
-    "status": "Planned",
-    "reference": "https://steamdeckhq.com/news/test-drive-unlimited-solar-crown-steam-deck/",
+    "status": "Running",
+    "reference": "",
     "anticheats": [
-      "Unknown (Custom)"
+      "SARD"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {
       "steam": "1249970"
     },
-    "dateChanged": "2024-09-23T22:37:01.179Z"
+    "dateChanged": "2025-06-29T22:14:33.0000000-04:00"
   },
   {
     "url": "",
