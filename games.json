@@ -7353,7 +7353,7 @@
     "name": "Wuthering Waves",
     "logo": "",
     "native": false,
-    "status": "Planned",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Anti-Cheat Expert"
@@ -7371,6 +7371,10 @@
       [
       "Publisher claims to be looking into better Steam Deck compatibility on the Steam store page description.",
       "https://store.steampowered.com/app/3513350/Wuthering_Waves/"
+      ],
+      [
+      "Proton-GE 10.8 or greater, recommended.",
+      "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton10-8"
       ]
     ],
     "storeIds": {
@@ -7380,7 +7384,7 @@
         "slug": "wuthering-waves-76ebc5"
       }
     },
-    "dateChanged": "2025-05-26T17:02:16.0000000-04:00"
+    "dateChanged": "2025-07-04T23:34:35.0000000-04:00"
   },
   {
     "url": "",
