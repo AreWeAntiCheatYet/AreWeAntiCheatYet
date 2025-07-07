@@ -19973,5 +19973,21 @@
     ],
     "storeIds": {},
     "dateChanged": "2025-07-05T22:26:53.452Z"
+  },
+  {
+    "url": "",
+    "name": "Karos Classic",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "notes": [],
+    "updates": [],
+    "storeIds": {},
+    "slug": "karos-classic",
+    "dateChanged": "2025-07-06T23:35:08.0000000-04:00"
   }
 ]
