@@ -20005,5 +20005,21 @@
     "storeIds": {},
     "slug": "dead-island-riptide",
     "dateChanged": "2025-07-06T23:35:08.0000000-04:00"
+  },
+  {
+    "url": "",
+    "name": "Lineage",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "notes": [],
+    "updates": [],
+    "storeIds": {},
+    "slug": "lineage",
+    "dateChanged": "2025-07-08T10:19:57.0000000-04:00"
   }
 ]
