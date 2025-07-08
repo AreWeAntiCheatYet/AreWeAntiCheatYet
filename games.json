@@ -19989,5 +19989,21 @@
     "storeIds": {},
     "slug": "karos-classic",
     "dateChanged": "2025-07-06T23:35:08.0000000-04:00"
+  },
+  {
+    "url": "",
+    "name": "Dead Island Riptide",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "notes": [],
+    "updates": [],
+    "storeIds": {},
+    "slug": "dead-island-riptide",
+    "dateChanged": "2025-07-06T23:35:08.0000000-04:00"
   }
 ]
