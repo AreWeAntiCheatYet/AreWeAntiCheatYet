@@ -20021,5 +20021,21 @@
     "storeIds": {},
     "slug": "lineage",
     "dateChanged": "2025-07-08T10:19:57.0000000-04:00"
+  },
+  {
+    "url": "",
+    "name": "Day of Dragons",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "notes": [],
+    "updates": [],
+    "storeIds": {},
+    "slug": "day-of-dragons",
+    "dateChanged": "2025-07-09T23:53:29.0000000-04:00"
   }
 ]
