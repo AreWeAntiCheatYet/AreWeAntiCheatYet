@@ -20037,5 +20037,26 @@
     "storeIds": {},
     "slug": "day-of-dragons",
     "dateChanged": "2025-07-09T23:53:29.0000000-04:00"
+  },
+  {
+    "url": "",
+    "name": "Sonic Rumble",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Uncheater"
+    ],
+    "notes": [
+		[
+			"Unreleased, Speculative",
+			null
+		]
+	],
+    "updates": [],
+    "storeIds": {},
+    "slug": "sonic-rumble",
+    "dateChanged": "2025-07-10T23:58:07.0000000-04:00"
   }
 ]
