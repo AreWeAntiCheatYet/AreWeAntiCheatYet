@@ -20058,5 +20058,26 @@
     "storeIds": {},
     "slug": "sonic-rumble",
     "dateChanged": "2025-07-10T23:58:07.0000000-04:00"
+  },
+  {
+    "url": "",
+    "name": "Black Stigma",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Cheat Blocker"
+    ],
+    "notes": [
+		[
+			"Unreleased, Speculative",
+			null
+		]
+	],
+    "updates": [],
+    "storeIds": {},
+    "slug": "black-stigma",
+    "dateChanged": "2025-07-11T18:36:32.0000000-04:00"
   }
 ]
