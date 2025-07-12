@@ -20079,5 +20079,21 @@
     "storeIds": {},
     "slug": "black-stigma",
     "dateChanged": "2025-07-11T18:36:32.0000000-04:00"
+  },
+  {
+    "url": "",
+    "name": "Umamusume: Pretty Derby",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "CrackProof"
+    ],
+    "notes": [],
+    "updates": [],
+    "storeIds": {},
+    "slug": "umamusume-pretty-derby",
+    "dateChanged": "2025-07-12T15:55:19.0000000-04:00"
   }
 ]
