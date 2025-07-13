@@ -20095,5 +20095,21 @@
     "storeIds": {},
     "slug": "umamusume-pretty-derby",
     "dateChanged": "2025-07-12T15:55:19.0000000-04:00"
+  },
+  {
+    "url": "",
+    "slug": "dirt-rally",
+    "name": "DiRT Rally",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-07-13T17:01:58.0000000-04:00"
   }
 ]
