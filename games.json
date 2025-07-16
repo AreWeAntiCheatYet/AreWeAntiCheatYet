@@ -4248,8 +4248,8 @@
     "name": "Lost Ark",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Supported",
+    "reference": "https://www.gamingonlinux.com/2025/07/lost-ark-from-amazon-games-appears-to-have-enabled-the-anti-cheat-for-linux-steamos/",
     "anticheats": [
       "Easy Anti-Cheat",
       "AnyBrain"
