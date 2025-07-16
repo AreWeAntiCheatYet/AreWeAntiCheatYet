@@ -20079,5 +20079,20 @@
     "storeIds": {},
     "slug": "black-stigma",
     "dateChanged": "2025-07-11T18:36:32.0000000-04:00"
+  },
+  {
+    "url": "https://hachamecha-umamusume.jp/en/",
+    "name": "Umamusume: Pretty Derby",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "CrackProof"
+    ],
+    "storeIds": {
+      "steam": "3224770"
+    },
+    "slug": "umamusume-pretty-derby"
   }
 ]
