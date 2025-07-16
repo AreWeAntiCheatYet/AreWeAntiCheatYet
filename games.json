@@ -4260,7 +4260,13 @@
         "https://www.nvidia.com/en-us/geforce/forums/gfn-game-requests/44/473967/lost-ark-on-geforce-now/3242656/"
       ]
     ],
-    "updates": [],
+    "updates": [
+      {
+       "name": "Lost Ark has turned on Easy Anti Cheat Support for Linux after a lot of going back and forth.",
+       "date": "July 2nd, 2025",
+       "reference": "https://www.protondb.com/app/1599340"
+      }
+    ],
     "storeIds": {},
     "slug": "lost-ark",
     "dateChanged": "2024-09-22T22:18:43.937Z"
