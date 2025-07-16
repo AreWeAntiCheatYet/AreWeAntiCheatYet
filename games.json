@@ -20090,10 +20090,12 @@
     "anticheats": [
       "CrackProof"
     ],
+    "notes": [],
     "updates": [],
     "storeIds": {
       "steam": "3224770"
     },
-    "slug": "umamusume-pretty-derby"
+    "slug": "umamusume-pretty-derby",
+    "dateChanged": ""
   }
 ]
