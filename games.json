@@ -20111,5 +20111,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2025-07-13T17:01:58.0000000-04:00"
+  },
+  {
+    "url": "",
+    "slug": "minifighter",
+    "name": "minifighter",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-07-16T20:21:09.0000000-04:00"
   }
 ]
