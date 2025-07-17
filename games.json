@@ -20127,5 +20127,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2025-07-16T20:21:09.0000000-04:00"
+  },
+  {
+    "url": "",
+    "slug": "hide-and-hold-out-h2o",
+    "name": "Hide & Hold Out - H2o",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-07-16T20:24:29.0000000-04:00"
   }
 ]
