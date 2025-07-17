@@ -4248,22 +4248,22 @@
     "name": "Lost Ark",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Running",
+    "reference": "https://www.gamingonlinux.com/2025/07/lost-ark-from-amazon-games-appears-to-have-enabled-the-anti-cheat-for-linux-steamos/",
     "anticheats": [
       "Easy Anti-Cheat",
       "AnyBrain"
     ],
     "notes": [
-      [
-        "Works with GeForce Now",
-        "https://www.nvidia.com/en-us/geforce/forums/gfn-game-requests/44/473967/lost-ark-on-geforce-now/3242656/"
-      ]
-    ],
+		[
+			"Proton 10 beta; Proton-GE 10.9 or later recommended.",
+			null
+		]
+	],
     "updates": [],
     "storeIds": {},
     "slug": "lost-ark",
-    "dateChanged": "2024-09-22T22:18:43.937Z"
+    "dateChanged": "2025-07-17T18:24:43.0000000-04:00"
   },
   {
     "url": "https://archeageunchained.com/",
