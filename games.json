@@ -7358,7 +7358,18 @@
     "anticheats": [
       "Anti-Cheat Expert"
     ],
-    "updates": [],
+    "updates": [
+      {
+        "name": "Steam Deck rating changed from Unknown to Playable.",
+        "date": "Jul 15, 2025, 12:00 PM GMT-7",
+        "reference": "https://store.steampowered.com/app/3513350/Wuthering_Waves/"
+      },
+      {
+        "name": "Publisher claims to be looking into better Steam Deck compatibility on the Steam store page description.",
+        "date": "Jun 12, 2025, 12:00 PM GMT-7",
+        "reference": "https://store.steampowered.com/app/3513350/Wuthering_Waves/"
+      }
+    ],
     "notes": [
       [
         "Playable on GeForce NOW.",
@@ -7369,11 +7380,7 @@
         null
       ],
       [
-      "Publisher claims to be looking into better Steam Deck compatibility on the Steam store page description.",
-      "https://store.steampowered.com/app/3513350/Wuthering_Waves/"
-      ],
-      [
-      "Proton-GE 10.8 or greater, recommended.",
+      "Proton-GE 10.8 or greater is recommended.",
       "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton10-8"
       ]
     ],
