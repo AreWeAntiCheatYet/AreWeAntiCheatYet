@@ -20166,5 +20166,26 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2025-07-16T20:26:00.0000000-04:00"
+  },
+  {
+    "url": "",
+    "slug": "ghost-of-tsushima-directors-cut",
+    "name": "Ghost of Tsushima Director's Cut",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "",
+    "anticheats": [
+      "PlayStation Overlay"
+    ],
+    "updates": [],
+    "notes": [
+		[
+			"Singleplayer is still completely playable.",
+			null
+		]
+	],
+    "storeIds": {},
+    "dateChanged": "2025-07-19T23:51:36.0000000-04:00"
   }
 ]
