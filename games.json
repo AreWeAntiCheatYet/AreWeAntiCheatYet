@@ -20187,5 +20187,21 @@
 	],
     "storeIds": {},
     "dateChanged": "2025-07-19T23:51:36.0000000-04:00"
+  },
+  {
+    "url": "",
+    "slug": "sword-of-justice",
+    "name": "Sword of Justice",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "NEAC Protect"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-07-20T23:28:51.0000000-04:00"
   }
 ]
