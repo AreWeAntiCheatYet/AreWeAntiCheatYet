@@ -20203,5 +20203,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2025-07-20T23:28:51.0000000-04:00"
+  },
+  {
+    "url": "",
+    "slug": "blade-soul-neo",
+    "name": "Blade & Soul NEO",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Solution"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-07-21T23:43:03.0000000-04:00"
   }
 ]
