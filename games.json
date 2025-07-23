@@ -20204,4 +20204,25 @@
     "storeIds": {},
     "dateChanged": "2025-07-20T23:28:51.0000000-04:00"
   }
+  {
+    "url": "https://thefinals.qq.com",
+    "slug": "the-finals-china",
+    "name": "The Finals (CN)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2025-07-23T13:02:30.0000000-04:00"
+  }
 ]
