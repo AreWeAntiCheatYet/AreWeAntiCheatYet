@@ -1590,7 +1590,7 @@
     "name": "Watch_Dogs® 2",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -1598,13 +1598,14 @@
     "notes": [],
     "updates": [],
     "storeIds": {
+      "steam": "447040"
       "epic": {
         "namespace": "angelonia",
         "slug": "watch-dogs-2"
       }
     },
     "slug": "watch-dogs-2",
-    "dateChanged": "2024-10-13T20:19:23.668Z"
+    "dateChanged": "2025-07-30T04:26:00.000Z"
   },
   {
     "url": "",
