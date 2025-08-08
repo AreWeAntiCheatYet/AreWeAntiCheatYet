@@ -20240,5 +20240,29 @@
     ],
     "storeIds": {},
     "dateChanged": "2025-07-23T13:02:30.0000000-04:00"
+  },
+  {
+    "url": "https://ubisoft.com/en-us/game/rainbow-six/siege",
+    "name": "Tom Clancy's Rainbow Six® Siege X",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "",
+    "anticheats": [
+      "FairFight",
+      "BattlEye",
+	  "R6 ShieldGuard"
+    ],
+    "notes": [],
+    "updates": [],
+    "storeIds": {
+      "steam": "359550",
+      "epic": {
+        "namespace": "carnation",
+        "slug": "rainbow-six-siege"
+      }
+    },
+    "slug": "rainbow-six-siege-x",
+    "dateChanged": "2025-08-07T20:28:01.0000000-04:00"
   }
 ]
