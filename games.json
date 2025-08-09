@@ -20264,5 +20264,21 @@
     },
     "slug": "rainbow-six-siege-x",
     "dateChanged": "2025-08-07T20:28:01.0000000-04:00"
+  },
+  {
+    "url": "",
+    "name": "Dragonheir: Silent Gods",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Proxima Game Anti Cheat"
+    ],
+    "notes": [],
+    "updates": [],
+    "storeIds": {},
+    "slug": "dragonheir-silent-gods",
+    "dateChanged": "2025-08-08T21:35:30.0000000-04:00"
   }
 ]
