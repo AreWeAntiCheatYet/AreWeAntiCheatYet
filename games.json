@@ -20359,11 +20359,27 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Playstation Overlay"
+      "PlayStation Overlay"
     ],
     "notes": [],
     "updates": [],
     "storeIds": {},
     "dateChanged": "2025-08-09T21:58:06.0000000-04:00"
+  },
+  {
+	"slug": "dungeon-done",
+    "url": "",
+    "name": "Dungeon Done",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "notes": [],
+    "updates": [],
+    "storeIds": {},
+    "dateChanged": "2025-08-10T16:48:11.0000000-04:00"
   }
 ]
