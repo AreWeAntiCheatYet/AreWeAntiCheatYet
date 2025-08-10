@@ -20402,5 +20402,26 @@
     "updates": [],
     "storeIds": {},
     "dateChanged": "2025-08-10T16:49:09.0000000-04:00"
+  },
+  {
+	"slug": "solo-leveling-arise",
+    "url": "",
+    "name": "Solo Leveling: Arise",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "updates": [],
+    "storeIds": {},
+    "dateChanged": "2025-08-10T16:49:58.0000000-04:00"
   }
 ]
