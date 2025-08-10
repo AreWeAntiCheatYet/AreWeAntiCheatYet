@@ -20439,5 +20439,26 @@
     "updates": [],
     "storeIds": {},
     "dateChanged": "2025-08-10T16:50:40.0000000-04:00"
+  },
+  {
+	"slug": "open-fortress",
+    "url": "",
+    "name": "Open Fortress",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "updates": [],
+    "storeIds": {},
+    "dateChanged": "2025-08-10T16:51:24.0000000-04:00"
   }
 ]
