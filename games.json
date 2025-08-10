@@ -20460,5 +20460,21 @@
     "updates": [],
     "storeIds": {},
     "dateChanged": "2025-08-10T16:51:24.0000000-04:00"
+  },
+  {
+	"slug": "no-more-room-in-hell-2",
+    "url": "",
+    "name": "No More Room In Hell 2",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "notes": [],
+    "updates": [],
+    "storeIds": {},
+    "dateChanged": "2025-08-10T16:52:03.0000000-04:00"
   }
 ]
