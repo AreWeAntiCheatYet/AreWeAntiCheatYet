@@ -1161,6 +1161,11 @@
     ],
     "updates": [
       {
+        "name": "v5.8: As of August 2025, Genshin Impact 5.8 and onwards seem to be handing out bans ranging from 10 days to 50 years to Linux players",
+        "date": "Aug 10, 2025, 09:00:00 UTC+8",
+        "reference": "https://www.reddit.com/r/linux_gaming/comments/1mmm45r/"
+      },
+      {
         "name": "v3.8: Game Anti-Cheat is allowing Proton on clean installs, on update release.",
         "date": "Jul 5, 2023, 11:00:00 UTC+8",
         "reference": "https://www.reddit.com/r/linux_gaming/comments/15sskjh/"
@@ -1169,11 +1174,6 @@
         "name": "v3.5: Game Anti-Cheat observed allowing Proton in restricted scenarios, 2 business weeks after update launch.",
         "date": "Mar 3, 2023, 11:00:00 UTC+8",
         "reference": "https://www.reddit.com/r/linux_gaming/comments/123zllz/"
-      },
-      {
-        "name": "v5.8: As of August 2025, Genshin Impact 5.8 and onwards seem to be handing out bans ranging from 10 days to 50 years to Linux players",
-        "date": "Aug 10, 2025, 09:00:00 UTC+8",
-        "reference": "https://www.reddit.com/r/linux_gaming/comments/1mmm45r/"
       }
     ],
     "storeIds": {
