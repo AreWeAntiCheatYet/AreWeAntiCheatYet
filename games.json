@@ -20280,5 +20280,21 @@
     "storeIds": {},
     "slug": "dragonheir-silent-gods",
     "dateChanged": "2025-08-08T21:35:30.0000000-04:00"
+  },
+  {
+	"slug": "the-quinfall",
+    "url": "",
+    "name": "The Quinfall",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "notes": [],
+    "updates": [],
+    "storeIds": {},
+    "dateChanged": "2025-08-09T21:46:27.0000000-04:00"
   }
 ]
