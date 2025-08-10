@@ -20423,5 +20423,21 @@
     "updates": [],
     "storeIds": {},
     "dateChanged": "2025-08-10T16:49:58.0000000-04:00"
+  },
+  {
+	"slug": "freedom-wars-remastered",
+    "url": "",
+    "name": "Freedom Wars Remastered",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "notes": [],
+    "updates": [],
+    "storeIds": {},
+    "dateChanged": "2025-08-10T16:50:40.0000000-04:00"
   }
 ]
