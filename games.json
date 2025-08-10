@@ -20333,5 +20333,21 @@
     "updates": [],
     "storeIds": {},
     "dateChanged": "2025-08-09T21:50:32.0000000-04:00"
+  },
+  {
+	"slug": "blue-archive",
+    "url": "",
+    "name": "Blue Archive",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Nexon Game Security"
+    ],
+    "notes": [],
+    "updates": [],
+    "storeIds": {},
+    "dateChanged": "2025-08-09T21:52:11.0000000-04:00"
   }
 ]
