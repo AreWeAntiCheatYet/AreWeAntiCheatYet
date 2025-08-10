@@ -20296,5 +20296,21 @@
     "updates": [],
     "storeIds": {},
     "dateChanged": "2025-08-09T21:46:27.0000000-04:00"
+  },
+  {
+	"slug": "redmatch2",
+    "url": "https://redmatchgame.com/",
+    "name": "Redmatch 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Enforcer"
+    ],
+    "notes": [],
+    "updates": [],
+    "storeIds": {},
+    "dateChanged": "2025-08-09T21:48:10.0000000-04:00"
   }
 ]
