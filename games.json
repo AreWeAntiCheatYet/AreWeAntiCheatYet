@@ -20312,5 +20312,26 @@
     "updates": [],
     "storeIds": {},
     "dateChanged": "2025-08-09T21:48:10.0000000-04:00"
+  },
+  {
+	"slug": "blade-and-soul-heroes",
+    "url": "",
+    "name": "Blade & Soul Heroes",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Solution"
+    ],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "updates": [],
+    "storeIds": {},
+    "dateChanged": "2025-08-09T21:50:32.0000000-04:00"
   }
 ]
