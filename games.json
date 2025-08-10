@@ -20349,5 +20349,21 @@
     "updates": [],
     "storeIds": {},
     "dateChanged": "2025-08-09T21:52:11.0000000-04:00"
+  },
+  {
+	"slug": "midnight-murder-club",
+    "url": "",
+    "name": "Midnight Murder Club",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Playstation Overlay"
+    ],
+    "notes": [],
+    "updates": [],
+    "storeIds": {},
+    "dateChanged": "2025-08-09T21:58:06.0000000-04:00"
   }
 ]
