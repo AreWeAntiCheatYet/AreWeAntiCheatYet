@@ -1140,12 +1140,16 @@
     "name": "Genshin Impact",
     "logo": "",
     "native": false,
-    "status": "Running",
+    "status": "Broken",
     "reference": "",
     "anticheats": [
       "miHoYo Protect"
     ],
     "notes": [
+      [
+        "5.8 onwards will ban Linux, until communicated otherwise",
+        ""
+      ],
       [
         "Needed workarounds prior to 3.5",
         ""
@@ -1165,6 +1169,11 @@
         "name": "v3.5: Game Anti-Cheat observed allowing Proton in restricted scenarios, 2 business weeks after update launch.",
         "date": "Mar 3, 2023, 11:00:00 UTC+8",
         "reference": "https://www.reddit.com/r/linux_gaming/comments/123zllz/"
+      },
+      {
+        "name": "v5.8: As of August 2025, Genshin Impact 5.8 and onwards seem to be handing out bans ranging from 10 days to 50 years to Linux players",
+        "date": "Aug 10, 2025, 09:00:00 UTC+8",
+        "reference": "https://www.reddit.com/r/linux_gaming/comments/1mmm45r/"
       }
     ],
     "storeIds": {
@@ -1174,7 +1183,7 @@
       }
     },
     "slug": "genshin-impact",
-    "dateChanged": "2024-09-02T22:03:09.321Z"
+    "dateChanged": "2025-08-10T16:00:00.000Z"
   },
   {
     "url": "https://www.djmaxrespect.com/",
