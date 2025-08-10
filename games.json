@@ -8964,7 +8964,7 @@
     "name": "SUPERVIVE",
     "logo": "",
     "native": false,
-    "status": "Denied",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "NEAC Protect",
@@ -8973,7 +8973,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-12-27T08:28:56.0000000-06:00"
+    "dateChanged": "2025-08-09T21:39:50.0000000-04:00"
   },
   {
     "url": "https://splitgate.com",
