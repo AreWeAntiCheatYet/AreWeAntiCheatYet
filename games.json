@@ -5657,18 +5657,29 @@
     "name": "Farlight 84",
     "logo": "",
     "native": false,
-    "status": "Supported",
+    "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "Unknown (Custom)"
     ],
     "notes": [],
-    "updates": [],
+    "updates": [
+      {
+        "name": "EAC removed",
+        "date": "Sep 11, 2024, 4:00 AM GMT",
+        "reference": "https://steamdb.info/depot/1928421/history/?changeid=M:5622484311305688663"
+      },
+      {
+        "name": "Account ban reported for playing on Linux",
+        "date": "Sep 10, 2025, 4:00 AM GMT",
+        "reference": "https://www.protondb.com/app/1928420/?device=any"
+      }
+	],
     "storeIds": {
       "steam": "1928420"
     },
     "slug": "farlight84",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2025-09-10T04:00:00.000Z"
   },
   {
     "url": "https://www.ubisoft.com/en-us/game/riders-republic",
