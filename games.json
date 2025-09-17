@@ -5658,21 +5658,21 @@
     "name": "Farlight 84",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Denied",
     "reference": "",
     "anticheats": [
-      "Unknown (Custom)"
+      "NetEase Yidun"
     ],
     "notes": [],
     "updates": [
       {
-        "name": "EAC removed",
+        "name": "EAC replaced by NetEase Yidun",
         "date": "Sep 11, 2024, 4:00 AM GMT",
         "reference": "https://steamdb.info/depot/1928421/history/?changeid=M:5622484311305688663"
       },
       {
-        "name": "Account ban reported for playing on Linux",
-        "date": "Sep 10, 2025, 4:00 AM GMT",
+        "name": "Game started apply 1 day account ban with explicit linux denied message",
+        "date": "Aug 21, 2025, 4:00 AM GMT",
         "reference": "https://www.protondb.com/app/1928420/?device=any"
       }
 	],
@@ -5680,7 +5680,7 @@
       "steam": "1928420"
     },
     "slug": "farlight84",
-    "dateChanged": "2025-09-10T04:00:00.000Z"
+    "dateChanged": "2025-09-17T04:00:00.000Z"
   },
   {
     "url": "https://www.ubisoft.com/en-us/game/riders-republic",
