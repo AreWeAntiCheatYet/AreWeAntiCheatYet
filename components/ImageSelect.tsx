@@ -2,7 +2,7 @@ import { ComboboxProps, Group, Select, SelectProps, Text, ThemeIcon } from '@man
 import { IconQuestionMark } from '@tabler/icons-react';
 import { Dispatch, FormEventHandler, forwardRef, SetStateAction } from 'react';
 import { useState } from 'react';
-import { Combobox, Input, InputBase, useCombobox } from '@mantine/core';
+import { Combobox, Input, InputBase, useCombobox, ScrollArea } from '@mantine/core';
 
 interface ItemProps extends React.ComponentPropsWithoutRef<'div'> {
     image: string;
@@ -79,7 +79,9 @@ export default function ImageSelect({ data, defaultOption, onChangeCb }: ImageSe
             </Combobox.Target>
 
             <Combobox.Dropdown>
-                <Combobox.Options>{options}</Combobox.Options>
+                <Combobox.Options>
+                    <ScrollArea.Autosize type='scroll' mah={400}>{options}</ScrollArea.Autosize>
+                </Combobox.Options>
             </Combobox.Dropdown>
         </Combobox>
     );
