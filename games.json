@@ -719,12 +719,12 @@
     ],
     "notes": [],
     "updates": [
-		{
-			"name": "War Thunder switches to BattlEye",
-			"date": "2024-12-05T00:00:00.0000000",
-			"reference": "https://warthunder.com/en/news/9247-war-thunder-anti-cheat-system-update-en"
-		}
-	],
+      {
+        "name": "War Thunder switches to BattlEye",
+        "date": "2024-12-05T00:00:00.0000000",
+        "reference": "https://warthunder.com/en/news/9247-war-thunder-anti-cheat-system-update-en"
+      }
+    ],
     "storeIds": {
       "steam": "236390"
     },
@@ -743,7 +743,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "251570"
+    },
     "slug": "7-days-to-die",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -906,7 +908,9 @@
         "reference": "https://store.steampowered.com/news/group/4145017/view/3104663180636096966"
       }
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "107410"
+    },
     "slug": "arma-3",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -1469,7 +1473,9 @@
         "reference": "https://www.reddit.com/r/dueprocess/comments/pu252w/bring_steam_decklinux_support_to_due_process/he04229/?context=1"
       }
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "753650"
+    },
     "slug": "due-process",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -1503,11 +1509,11 @@
     ],
     "notes": [],
     "updates": [
-	    { 
-		"name": "Switched to Easy Anti-Cheat",
-		"date": "Nov 29, 2024, 0:17 AM GMT+3",
-		"reference": "https://store.steampowered.com/news/app/674020/view/4449089138403050314"
-	    }
+      {
+        "name": "Switched to Easy Anti-Cheat",
+        "date": "Nov 29, 2024, 0:17 AM GMT+3",
+        "reference": "https://store.steampowered.com/news/app/674020/view/4449089138403050314"
+      }
     ],
     "storeIds": {
       "steam": "674020"
@@ -1637,7 +1643,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1940990"
+    },
     "slug": "ironsight",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -2038,7 +2046,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1024890"
+    },
     "slug": "sectors-edge",
     "dateChanged": "2024-12-27T08:16:57.0000000-06:00"
   },
@@ -2127,7 +2137,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1962663"
+    },
     "slug": "call-of-duty-warzone",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -2178,7 +2190,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1241100"
+    },
     "slug": "polygon",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -2194,7 +2208,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1985810"
+    },
     "slug": "call-of-duty-black-ops-cold-war",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -2561,7 +2577,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "834910"
+    },
     "slug": "atlas",
     "dateChanged": "2024-09-29T21:31:44.589Z"
   },
@@ -2583,7 +2601,9 @@
         "date": "Thu 2, June 2016, 5:32 PM"
       }
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "360940"
+    },
     "slug": "the-mean-greens-plastic-warfare",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -2617,7 +2637,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "33900"
+    },
     "slug": "arma-2",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -2688,7 +2710,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "17710"
+    },
     "slug": "nuclear-dawn",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -2704,7 +2728,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "17570"
+    },
     "slug": "pirates-vikings-and-knights-ii",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -2736,7 +2762,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "20"
+    },
     "slug": "team-fortress-classic",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -2752,7 +2780,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "407530"
+    },
     "slug": "ark-survival-of-the-fittest",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -2851,7 +2881,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "30"
+    },
     "slug": "day-of-defeat",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -2963,7 +2995,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1093170"
+    },
     "slug": "monstrum-2",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -3033,7 +3067,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "40"
+    },
     "slug": "deathmatch-classic",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -3067,7 +3103,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1009290"
+    },
     "slug": "sword-art-online-alicization-lycoris",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -3460,7 +3498,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1058650"
+    },
     "slug": "beyond-the-wire",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -3589,7 +3629,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "447820"
+    },
     "slug": "day-of-infamy",
     "dateChanged": "2024-11-04T00:18:17.247Z"
   },
@@ -3698,7 +3740,7 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-	  "miHoYo Protect"
+      "miHoYo Protect"
     ],
     "notes": [
       [
@@ -3864,7 +3906,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1163550"
+    },
     "slug": "captain-tsubasa-rise-of-new-champions",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -4110,7 +4154,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1227800"
+    },
     "slug": "quantum-league",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -4167,7 +4213,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "950180"
+    },
     "slug": "lemnis-gate",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -4224,7 +4272,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "714080"
+    },
     "slug": "black-clover-quartet-knights",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -4240,7 +4290,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1504620"
+    },
     "slug": "nine-to-five",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -4256,13 +4308,15 @@
       "AnyBrain"
     ],
     "notes": [
-		[
-			"Proton 10 beta; Proton-GE 10.9 or later recommended.",
-			null
-		]
-	],
+      [
+        "Proton 10 beta; Proton-GE 10.9 or later recommended.",
+        null
+      ]
+    ],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1599340"
+    },
     "slug": "lost-ark",
     "dateChanged": "2025-07-17T18:24:43.0000000-04:00"
   },
@@ -4278,7 +4332,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1147660"
+    },
     "slug": "archeage-unchained",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -4344,7 +4400,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1985820"
+    },
     "slug": "call-of-duty-vanguard",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -4484,7 +4542,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1371580"
+    },
     "dateChanged": "2024-08-29T02:09:01.302Z"
   },
   {
@@ -4502,7 +4562,7 @@
         "Possibly playable through a macOS VM",
         null
       ]
-	],
+    ],
     "updates": [],
     "storeIds": {
       "epic": {
@@ -4548,7 +4608,9 @@
       ]
     ],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1245620"
+    },
     "slug": "elden-ring",
     "dateChanged": "2024-09-08T21:25:56.890Z"
   },
@@ -4618,7 +4680,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1190340"
+    },
     "slug": "super-people",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -4859,7 +4923,9 @@
         "reference": "https://www.protondb.com/app/438740#k8v0JyaD8l"
       }
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "438740"
+    },
     "slug": "friday-the-13th-the-game",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -4940,7 +5006,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1252600"
+    },
     "slug": "another-eden",
     "dateChanged": "2024-07-31T00:00:00.000Z"
   },
@@ -4962,7 +5030,9 @@
         "date": "Fri Apr 20 2018 23:26:33 GMT+0000"
       }
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2357570"
+    },
     "slug": "overwatch-2",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -5276,7 +5346,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1692200"
+    },
     "slug": "dragon-ball-the-breakers",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -5613,7 +5685,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1364020"
+    },
     "slug": "boundary",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -5831,7 +5905,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2170420"
+    },
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
@@ -5848,7 +5924,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "528010"
+    },
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
@@ -5864,7 +5942,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1888160"
+    },
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
@@ -5880,7 +5960,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "820520"
+    },
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
@@ -5896,7 +5978,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "629540"
+    },
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
@@ -5912,7 +5996,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1568590"
+    },
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
@@ -5928,7 +6014,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "813820"
+    },
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
@@ -5944,7 +6032,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2051120"
+    },
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
@@ -5960,7 +6050,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1607250"
+    },
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
@@ -5976,7 +6068,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1426440"
+    },
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
@@ -6035,7 +6129,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2064870"
+    },
     "dateChanged": "2025-06-18T15:20:49.0000000-04:00"
   },
   {
@@ -6056,7 +6152,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1551810"
+    },
     "dateChanged": "2024-10-13T20:19:23.723Z"
   },
   {
@@ -6072,7 +6170,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1688720"
+    },
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
@@ -6088,7 +6188,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1760250"
+    },
     "dateChanged": "2024-10-27T21:09:55.566Z"
   },
   {
@@ -6104,7 +6206,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "21090"
+    },
     "dateChanged": "2024-01-28T03:06:48.598Z"
   },
   {
@@ -6120,7 +6224,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "17500"
+    },
     "dateChanged": "2024-02-03T02:31:35.130Z"
   },
   {
@@ -6136,7 +6242,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2140330"
+    },
     "dateChanged": "2024-10-27T21:09:55.568Z"
   },
   {
@@ -6152,7 +6260,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "315210"
+    },
     "dateChanged": "2024-02-06T22:55:43.960Z"
   },
   {
@@ -6168,7 +6278,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "553850"
+    },
     "dateChanged": "2024-02-11T02:53:16.080Z"
   },
   {
@@ -6195,7 +6307,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2448970"
+    },
     "dateChanged": "2024-12-07T17:22:04.182Z"
   },
   {
@@ -6261,7 +6375,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1722080"
+    },
     "dateChanged": "2024-10-13T20:19:23.725Z"
   },
   {
@@ -6277,7 +6393,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "844870"
+    },
     "dateChanged": "2024-02-12T20:20:01.314Z"
   },
   {
@@ -6293,7 +6411,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "63000"
+    },
     "dateChanged": "2024-02-13T21:32:45.617Z"
   },
   {
@@ -6310,7 +6430,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1979310"
+    },
     "dateChanged": "2024-02-14T22:37:23.636Z"
   },
   {
@@ -6323,11 +6445,13 @@
     "reference": "https://steamcommunity.com/app/2051620/discussions/0/4205867749040592896/",
     "anticheats": [
       "Easy Anti-Cheat",
-	  "BattlEye"
+      "BattlEye"
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2051620"
+    },
     "dateChanged": "2024-12-07T22:39:24.216Z"
   },
   {
@@ -6360,7 +6484,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "372000"
+    },
     "dateChanged": "2024-02-15T20:52:22.592Z"
   },
   {
@@ -6376,7 +6502,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "58610"
+    },
     "dateChanged": "2024-02-16T20:24:47.956Z"
   },
   {
@@ -6392,7 +6520,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1657090"
+    },
     "dateChanged": "2024-02-17T21:20:07.370Z"
   },
   {
@@ -6429,7 +6559,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1955960"
+    },
     "dateChanged": "2024-09-15T22:37:01.023Z"
   },
   {
@@ -6445,7 +6577,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "327090"
+    },
     "dateChanged": "2024-02-18T22:45:18.024Z"
   },
   {
@@ -6483,7 +6617,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "9460"
+    },
     "dateChanged": "2024-02-19T21:33:15.536Z"
   },
   {
@@ -6515,7 +6651,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2399830"
+    },
     "dateChanged": "2024-02-20T21:24:07.762Z"
   },
   {
@@ -6531,7 +6669,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "439370"
+    },
     "dateChanged": "2024-02-21T21:01:17.761Z"
   },
   {
@@ -6555,10 +6695,10 @@
       }
     ],
     "notes": [
-	  [
-		"Requires Wine 10.5+ or Proton 10+.",
-		null
-	  ],
+      [
+        "Requires Wine 10.5+ or Proton 10+.",
+        null
+      ],
       [
         "Proton 10.x series lacks the patches to run HBR for now.",
         null
@@ -6568,7 +6708,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1973710"
+    },
     "dateChanged": "2025-05-30T17:20:03.0000000-04:00"
   },
   {
@@ -6584,7 +6726,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1233410"
+    },
     "dateChanged": "2024-02-22T20:01:41.780Z"
   },
   {
@@ -6625,7 +6769,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2437170"
+    },
     "dateChanged": "2024-02-24T04:19:43.190Z"
   },
   {
@@ -6641,7 +6787,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1011810"
+    },
     "dateChanged": "2024-02-24T04:48:48.953Z"
   },
   {
@@ -6673,7 +6821,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1969870"
+    },
     "dateChanged": "2024-02-24T22:08:12.463Z"
   },
   {
@@ -6689,7 +6839,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1352080"
+    },
     "dateChanged": "2024-02-25T21:10:26.783Z"
   },
   {
@@ -6705,7 +6857,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "34330"
+    },
     "dateChanged": "2024-02-25T21:39:06.741Z"
   },
   {
@@ -6721,7 +6875,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "268420"
+    },
     "dateChanged": "2024-02-26T21:42:20.639Z"
   },
   {
@@ -6737,7 +6893,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2669320"
+    },
     "dateChanged": "2024-12-27T08:32:03.0000000-06:00"
   },
   {
@@ -6822,7 +6980,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2411280"
+    },
     "dateChanged": "2024-05-10T04:47:27.068Z"
   },
   {
@@ -6838,7 +6998,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "569530"
+    },
     "dateChanged": "2024-03-01T02:09:30.681Z"
   },
   {
@@ -6855,7 +7017,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1263550"
+    },
     "dateChanged": "2024-03-01T20:43:59.035Z"
   },
   {
@@ -6871,7 +7035,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "239660"
+    },
     "dateChanged": "2024-03-02T21:07:33.912Z"
   },
   {
@@ -6887,7 +7053,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2139460"
+    },
     "dateChanged": "2024-09-22T22:18:43.901Z"
   },
   {
@@ -6903,7 +7071,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1184140"
+    },
     "dateChanged": "2024-03-05T20:12:26.756Z"
   },
   {
@@ -6916,7 +7086,7 @@
     "reference": "",
     "anticheats": [
       "Anti-Cheat Expert",
-	  "Seasun Protect"
+      "Seasun Protect"
     ],
     "updates": [],
     "notes": [
@@ -6925,7 +7095,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2452280"
+    },
     "dateChanged": "2025-03-02T14:25:09.0000000-05:00"
   },
   {
@@ -6995,7 +7167,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2479810"
+    },
     "dateChanged": "2024-09-22T22:18:43.937Z"
   },
   {
@@ -7016,7 +7190,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "971700"
+    },
     "dateChanged": "2024-05-07T03:28:06.795Z"
   },
   {
@@ -7032,7 +7208,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1172620"
+    },
     "dateChanged": "2024-03-12T20:11:34.208Z"
   },
   {
@@ -7070,7 +7248,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1924490"
+    },
     "dateChanged": "2024-04-11T19:23:20.579Z"
   },
   {
@@ -7107,7 +7287,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1469060"
+    },
     "dateChanged": "2024-09-01T22:22:14.478Z"
   },
   {
@@ -7165,7 +7347,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1245480"
+    },
     "dateChanged": "2024-04-13T23:13:17.478Z"
   },
   {
@@ -7181,7 +7365,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1407200"
+    },
     "dateChanged": "2024-02-27T21:32:37.805Z"
   },
   {
@@ -7234,7 +7420,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2073620"
+    },
     "dateChanged": "2024-07-21T03:15:28.037Z"
   },
   {
@@ -7266,7 +7454,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2767030"
+    },
     "dateChanged": "2025-02-02T22:33:43.0000000-06:00"
   },
   {
@@ -7282,7 +7472,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "307950"
+    },
     "dateChanged": "2024-03-13T21:56:13.188Z"
   },
   {
@@ -7303,7 +7495,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1759220"
+    },
     "dateChanged": "2024-03-13T21:56:13.188Z"
   },
   {
@@ -7340,7 +7534,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2468730"
+    },
     "dateChanged": "2024-03-13T21:56:13.188Z"
   },
   {
@@ -7356,7 +7552,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2450450"
+    },
     "dateChanged": "2024-03-13T21:56:13.188Z"
   },
   {
@@ -7392,8 +7590,8 @@
         null
       ],
       [
-      "Proton-GE 10.8 or greater is recommended.",
-      "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton10-8"
+        "Proton-GE 10.8 or greater is recommended.",
+        "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton10-8"
       ]
     ],
     "storeIds": {
@@ -7418,7 +7616,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1046930"
+    },
     "dateChanged": "2024-05-19T21:56:41.247Z"
   },
   {
@@ -7434,7 +7634,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2287920"
+    },
     "dateChanged": "2024-09-15T22:37:01.071Z"
   },
   {
@@ -7471,7 +7673,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1313230"
+    },
     "dateChanged": "2024-05-22T22:24:18.973Z"
   },
   {
@@ -7545,7 +7749,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2139230"
+    },
     "dateChanged": "2024-05-28T00:05:37.755Z"
   },
   {
@@ -7562,7 +7768,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2016590"
+    },
     "dateChanged": "2024-05-23T22:24:18.973Z"
   },
   {
@@ -7631,7 +7839,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1556100"
+    },
     "dateChanged": "2024-06-04T19:34:56.201Z"
   },
   {
@@ -7680,7 +7890,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2933620"
+    },
     "dateChanged": "2024-12-27T08:27:26.0000000-06:00"
   },
   {
@@ -7696,7 +7908,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2805060"
+    },
     "dateChanged": "2024-06-08T22:42:43.843Z"
   },
   {
@@ -7765,7 +7979,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2943650"
+    },
     "dateChanged": "2024-10-13T20:19:23.741Z"
   },
   {
@@ -7781,7 +7997,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "689570"
+    },
     "dateChanged": "2025-03-02T14:19:43.0000000-05:00"
   },
   {
@@ -7845,7 +8063,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2803360"
+    },
     "dateChanged": "2024-09-15T22:37:01.101Z"
   },
   {
@@ -7862,7 +8082,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "212200"
+    },
     "dateChanged": "2025-05-29T18:21:47.0000000-04:00"
   },
   {
@@ -7930,12 +8152,14 @@
         "Runs on native Steam Deck hardware only.",
         null
       ],
-	  [
-		"Developers said they would like to enable wide Linux support in the future.",
-		"https://steamcommunity.com/app/1282270/discussions/4/4626981087516566932/?ctp=2#comment_603023633548348038"
-	  ]
+      [
+        "Developers said they would like to enable wide Linux support in the future.",
+        "https://steamcommunity.com/app/1282270/discussions/4/4626981087516566932/?ctp=2#comment_603023633548348038"
+      ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1282270"
+    },
     "dateChanged": "2025-05-26T16:58:56.0000000-04:00"
   },
   {
@@ -8004,7 +8228,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1802710"
+    },
     "dateChanged": "2024-06-26T20:51:47.265Z"
   },
   {
@@ -8121,7 +8347,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1172710"
+    },
     "dateChanged": "2025-06-26T19:17:36.0000000-04:00"
   },
   {
@@ -8169,7 +8397,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2429640"
+    },
     "dateChanged": "2024-10-05T16:27:40.462Z"
   },
   {
@@ -8185,7 +8415,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1433140"
+    },
     "dateChanged": "2024-07-10T21:01:42.407Z"
   },
   {
@@ -8222,7 +8454,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "907630"
+    },
     "dateChanged": "2024-08-25T21:58:42.016Z"
   },
   {
@@ -8238,7 +8472,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1189800"
+    },
     "dateChanged": "2024-07-14T02:22:06.803Z"
   },
   {
@@ -8270,7 +8506,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "70"
+    },
     "dateChanged": "2024-07-15T21:26:03.841Z"
   },
   {
@@ -8302,7 +8540,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1200"
+    },
     "dateChanged": "2024-07-17T20:23:43.105Z"
   },
   {
@@ -8322,10 +8562,10 @@
         "Maybe runs on native Steam Deck (non-OLED) hardware only.",
         null
       ],
-	  [
-		"Game Director says you should play on mobile through Google Play. (Waydroid might be usuable here?)",
-		"https://www.reddit.com/r/gaming/comments/1k8evyo/comment/mpc3vcd/"
-	  ]
+      [
+        "Game Director says you should play on mobile through Google Play. (Waydroid might be usuable here?)",
+        "https://www.reddit.com/r/gaming/comments/1k8evyo/comment/mpc3vcd/"
+      ]
     ],
     "storeIds": {},
     "dateChanged": "2025-05-26T17:05:13.0000000-04:00"
@@ -8343,7 +8583,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2137090"
+    },
     "dateChanged": "2024-07-18T19:29:55.985Z"
   },
   {
@@ -8359,7 +8601,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "4920"
+    },
     "dateChanged": "2024-07-21T03:15:28.067Z"
   },
   {
@@ -8391,7 +8635,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1863390"
+    },
     "dateChanged": "2024-07-22T21:02:45.334Z"
   },
   {
@@ -8407,7 +8653,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "55110"
+    },
     "dateChanged": "2024-11-11T06:05:11.374Z"
   },
   {
@@ -8423,7 +8671,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1849250"
+    },
     "dateChanged": "2024-10-27T21:09:55.615Z"
   },
   {
@@ -8439,7 +8689,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "282800"
+    },
     "dateChanged": "2024-07-25T21:21:20.558Z"
   },
   {
@@ -8499,7 +8751,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1354980"
+    },
     "dateChanged": "2024-08-01T01:51:19.285Z"
   },
   {
@@ -8531,7 +8785,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "60"
+    },
     "dateChanged": "2024-08-03T02:55:33.807Z"
   },
   {
@@ -8547,7 +8803,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "290340"
+    },
     "dateChanged": "2024-08-04T00:40:30.646Z"
   },
   {
@@ -8563,7 +8821,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "559650"
+    },
     "dateChanged": "2024-08-04T00:40:30.646Z"
   },
   {
@@ -8595,7 +8855,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1687760"
+    },
     "dateChanged": "2024-08-05T07:04:34.647Z"
   },
   {
@@ -8616,7 +8878,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2359600"
+    },
     "dateChanged": "2024-08-05T20:28:25.228Z"
   },
   {
@@ -8632,7 +8896,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2078450"
+    },
     "dateChanged": "2024-08-06T21:54:36.387Z"
   },
   {
@@ -8648,7 +8914,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "70000"
+    },
     "dateChanged": "2024-08-09T22:24:19.311Z"
   },
   {
@@ -8665,7 +8933,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "921940"
+    },
     "dateChanged": "2024-08-10T21:30:09.867Z"
   },
   {
@@ -8681,7 +8951,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "394510"
+    },
     "dateChanged": "2024-08-10T23:52:25.067Z"
   },
   {
@@ -8697,7 +8969,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "445220"
+    },
     "dateChanged": "2024-08-10T23:52:25.070Z"
   },
   {
@@ -8746,7 +9020,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2641470"
+    },
     "dateChanged": "2024-09-15T22:37:01.139Z"
   },
   {
@@ -8762,7 +9038,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2012510"
+    },
     "dateChanged": "2024-08-12T21:17:06.920Z"
   },
   {
@@ -8795,7 +9073,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2340400"
+    },
     "dateChanged": "2024-08-14T21:21:22.469Z"
   },
   {
@@ -8811,7 +9091,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "260430"
+    },
     "dateChanged": "2024-08-16T04:30:45.889Z"
   },
   {
@@ -8827,7 +9109,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "227100"
+    },
     "dateChanged": "2024-08-16T04:30:45.890Z"
   },
   {
@@ -8844,7 +9128,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "299740"
+    },
     "dateChanged": "2024-08-16T04:30:45.891Z"
   },
   {
@@ -8860,7 +9146,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "350700"
+    },
     "dateChanged": "2024-08-16T21:31:57.686Z"
   },
   {
@@ -8882,7 +9170,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2131860"
+    },
     "dateChanged": "2024-08-17T22:50:54.203Z"
   },
   {
@@ -8898,12 +9188,14 @@
     ],
     "updates": [],
     "notes": [
-		[
-			"Running on native Steam Deck LCD hardware only.",
-			""
-		]
-	],
-    "storeIds": {},
+      [
+        "Running on native Steam Deck LCD hardware only.",
+        ""
+      ]
+    ],
+    "storeIds": {
+      "steam": "2963870"
+    },
     "dateChanged": "2024-12-27T08:05:36.0000000-06:00"
   },
   {
@@ -8919,7 +9211,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "243800"
+    },
     "dateChanged": "2024-08-19T22:42:58.732Z"
   },
   {
@@ -8935,7 +9229,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "42910"
+    },
     "dateChanged": "2024-08-19T22:42:58.733Z"
   },
   {
@@ -8951,7 +9247,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "290790"
+    },
     "dateChanged": "2024-08-19T22:42:58.733Z"
   },
   {
@@ -8967,7 +9265,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1342630"
+    },
     "dateChanged": "2024-08-20T19:44:22.578Z"
   },
   {
@@ -9018,7 +9318,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "625340"
+    },
     "dateChanged": "2024-08-22T21:55:51.977Z"
   },
   {
@@ -9034,7 +9336,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "63209"
+    },
     "dateChanged": "2024-08-23T21:30:15.403Z"
   },
   {
@@ -9050,7 +9354,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "655740"
+    },
     "dateChanged": "2024-08-23T21:30:15.404Z"
   },
   {
@@ -9066,7 +9372,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "104900"
+    },
     "dateChanged": "2024-08-23T21:30:15.404Z"
   },
   {
@@ -9082,7 +9390,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1549250"
+    },
     "dateChanged": "2024-08-24T16:40:15.281Z"
   },
   {
@@ -9194,7 +9504,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "209650"
+    },
     "dateChanged": "2024-08-29T02:09:01.415Z"
   },
   {
@@ -9226,7 +9538,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1094710"
+    },
     "dateChanged": "2024-08-29T23:39:08.132Z"
   },
   {
@@ -9263,7 +9577,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1422450"
+    },
     "dateChanged": "2024-08-26T20:56:24.259Z"
   },
   {
@@ -9279,7 +9595,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2853730"
+    },
     "dateChanged": "2024-09-01T22:22:14.556Z"
   },
   {
@@ -9295,7 +9613,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "61730"
+    },
     "dateChanged": "2024-09-02T22:03:09.735Z"
   },
   {
@@ -9311,7 +9631,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "212410"
+    },
     "dateChanged": "2024-09-02T22:03:09.737Z"
   },
   {
@@ -9327,7 +9649,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "244630"
+    },
     "dateChanged": "2024-09-02T22:03:09.738Z"
   },
   {
@@ -9343,7 +9667,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "838330"
+    },
     "dateChanged": "2024-09-04T04:47:09.096Z"
   },
   {
@@ -9407,7 +9733,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "624910"
+    },
     "dateChanged": "2024-09-05T22:01:18.691Z"
   },
   {
@@ -9423,7 +9751,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "991560"
+    },
     "dateChanged": "2024-09-06T20:30:07.639Z"
   },
   {
@@ -9472,7 +9802,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "755790"
+    },
     "dateChanged": "2024-09-06T20:30:07.639Z"
   },
   {
@@ -9511,7 +9843,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "952070"
+    },
     "dateChanged": "2024-09-08T21:25:57.076Z"
   },
   {
@@ -9527,7 +9861,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "17520"
+    },
     "dateChanged": "2024-09-09T19:46:10.761Z"
   },
   {
@@ -9543,7 +9879,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "201070"
+    },
     "dateChanged": "2024-09-09T19:46:10.765Z"
   },
   {
@@ -9559,7 +9897,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "390090"
+    },
     "dateChanged": "2024-09-10T21:16:34.803Z"
   },
   {
@@ -9575,7 +9915,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "24840"
+    },
     "dateChanged": "2024-09-11T22:09:08.466Z"
   },
   {
@@ -9644,7 +9986,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2000270"
+    },
     "dateChanged": "2024-09-15T22:37:01.190Z"
   },
   {
@@ -9676,7 +10020,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "209870"
+    },
     "dateChanged": "2024-09-16T21:14:19.247Z"
   },
   {
@@ -9692,7 +10038,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2484250"
+    },
     "dateChanged": "2024-09-16T21:14:19.247Z"
   },
   {
@@ -9728,7 +10076,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "880850"
+    },
     "dateChanged": "2024-11-11T06:05:11.391Z"
   },
   {
@@ -9760,7 +10110,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2590150"
+    },
     "dateChanged": "2024-12-27T08:29:56.0000000-06:00"
   },
   {
@@ -9776,7 +10128,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "390340"
+    },
     "dateChanged": "2024-09-18T21:36:59.209Z"
   },
   {
@@ -9792,7 +10146,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "225840"
+    },
     "dateChanged": "2024-09-18T21:36:59.210Z"
   },
   {
@@ -9808,7 +10164,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "890400"
+    },
     "dateChanged": "2024-09-20T19:51:25.506Z"
   },
   {
@@ -9874,7 +10232,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "681660"
+    },
     "dateChanged": "2024-09-20T19:51:25.508Z"
   },
   {
@@ -9890,7 +10250,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "903950"
+    },
     "dateChanged": "2024-09-20T19:51:25.508Z"
   },
   {
@@ -9954,7 +10316,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "555570"
+    },
     "dateChanged": "2024-09-22T22:18:43.936Z"
   },
   {
@@ -9970,7 +10334,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "231060"
+    },
     "dateChanged": "2024-09-22T22:18:43.937Z"
   },
   {
@@ -10007,7 +10373,9 @@
         ""
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2682580"
+    },
     "dateChanged": "2024-09-23T20:36:25.027Z"
   },
   {
@@ -10023,7 +10391,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1765520"
+    },
     "dateChanged": "2024-09-23T20:36:25.028Z"
   },
   {
@@ -10039,7 +10409,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "209610"
+    },
     "dateChanged": "2024-09-23T20:36:25.029Z"
   },
   {
@@ -10056,7 +10428,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1218740"
+    },
     "dateChanged": "2024-09-23T20:36:25.030Z"
   },
   {
@@ -10088,7 +10462,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2344520"
+    },
     "dateChanged": "2024-09-23T20:36:25.031Z"
   },
   {
@@ -10120,7 +10496,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "454910"
+    },
     "dateChanged": "2024-09-24T20:41:16.929Z"
   },
   {
@@ -10168,7 +10546,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2394590"
+    },
     "dateChanged": "2024-09-24T20:41:16.930Z"
   },
   {
@@ -10185,7 +10565,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "550900"
+    },
     "dateChanged": "2024-11-11T06:05:11.398Z"
   },
   {
@@ -10249,7 +10631,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "319730"
+    },
     "dateChanged": "2024-09-25T21:16:49.653Z"
   },
   {
@@ -10281,7 +10665,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1219160"
+    },
     "dateChanged": "2024-09-25T21:16:49.655Z"
   },
   {
@@ -10302,7 +10688,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3126180"
+    },
     "dateChanged": "2024-09-25T21:16:49.656Z"
   },
   {
@@ -10318,7 +10706,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1922010"
+    },
     "dateChanged": "2024-09-25T21:16:49.658Z"
   },
   {
@@ -10335,7 +10725,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "436520"
+    },
     "dateChanged": "2024-11-11T06:05:11.400Z"
   },
   {
@@ -10399,7 +10791,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1106750"
+    },
     "dateChanged": "2024-09-26T20:38:09.812Z"
   },
   {
@@ -10431,7 +10825,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2152790"
+    },
     "dateChanged": "2024-09-26T20:38:09.812Z"
   },
   {
@@ -10482,7 +10878,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1226470"
+    },
     "dateChanged": "2024-09-26T20:38:09.814Z"
   },
   {
@@ -10498,7 +10896,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "314430"
+    },
     "dateChanged": "2024-09-26T20:38:09.814Z"
   },
   {
@@ -10562,7 +10962,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1881700"
+    },
     "dateChanged": "2024-09-27T20:50:11.625Z"
   },
   {
@@ -10596,7 +10998,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "384030"
+    },
     "dateChanged": "2024-09-27T20:50:11.626Z"
   },
   {
@@ -10613,7 +11017,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "747920"
+    },
     "dateChanged": "2024-09-27T20:50:11.626Z"
   },
   {
@@ -10634,7 +11040,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2582960"
+    },
     "dateChanged": "2024-09-27T20:50:11.627Z"
   },
   {
@@ -10666,7 +11074,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1908720"
+    },
     "dateChanged": "2024-09-29T21:31:44.676Z"
   },
   {
@@ -10698,7 +11108,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1563940"
+    },
     "dateChanged": "2024-09-29T21:31:44.676Z"
   },
   {
@@ -10714,7 +11126,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "220240"
+    },
     "dateChanged": "2024-09-29T21:31:44.676Z"
   },
   {
@@ -10749,7 +11163,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "349720"
+    },
     "dateChanged": "2024-09-29T21:31:44.677Z"
   },
   {
@@ -10765,7 +11181,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1815230"
+    },
     "dateChanged": "2024-09-29T21:31:44.677Z"
   },
   {
@@ -10781,7 +11199,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1206370"
+    },
     "dateChanged": "2024-09-29T21:31:44.677Z"
   },
   {
@@ -10797,7 +11217,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1183940"
+    },
     "dateChanged": "2024-09-29T21:31:44.677Z"
   },
   {
@@ -10829,7 +11251,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "611360"
+    },
     "dateChanged": "2024-09-29T21:32:44.678Z"
   },
   {
@@ -10845,7 +11269,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "519190"
+    },
     "dateChanged": "2024-09-29T21:31:44.678Z"
   },
   {
@@ -10877,7 +11303,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1872760"
+    },
     "dateChanged": "2024-09-29T21:31:44.679Z"
   },
   {
@@ -10893,7 +11321,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1913730"
+    },
     "dateChanged": "2024-09-29T21:31:44.679Z"
   },
   {
@@ -10909,7 +11339,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1240290"
+    },
     "dateChanged": "2024-09-29T21:31:44.679Z"
   },
   {
@@ -10944,7 +11376,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "328060"
+    },
     "dateChanged": "2024-10-01T20:31:17.587Z"
   },
   {
@@ -10981,7 +11415,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2488620"
+    },
     "dateChanged": "2024-10-01T20:31:17.588Z"
   },
   {
@@ -10997,7 +11433,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "17700"
+    },
     "dateChanged": "2024-10-01T20:31:17.589Z"
   },
   {
@@ -11013,7 +11451,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1608220"
+    },
     "dateChanged": "2024-10-01T20:31:17.589Z"
   },
   {
@@ -11061,7 +11501,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "356330"
+    },
     "dateChanged": "2024-10-01T20:31:17.590Z"
   },
   {
@@ -11077,7 +11519,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1785150"
+    },
     "dateChanged": "2024-10-01T20:31:17.590Z"
   },
   {
@@ -11093,7 +11537,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "437220"
+    },
     "dateChanged": "2024-10-01T20:31:17.590Z"
   },
   {
@@ -11109,7 +11555,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "715400"
+    },
     "dateChanged": "2024-10-01T20:31:17.591Z"
   },
   {
@@ -11125,7 +11573,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "653120"
+    },
     "dateChanged": "2024-10-01T20:31:17.591Z"
   },
   {
@@ -11141,7 +11591,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1171690"
+    },
     "dateChanged": "2024-10-01T20:31:17.591Z"
   },
   {
@@ -11157,7 +11609,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "922620"
+    },
     "dateChanged": "2024-10-01T20:31:17.591Z"
   },
   {
@@ -11221,7 +11675,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1010270"
+    },
     "dateChanged": "2024-10-02T22:05:44.354Z"
   },
   {
@@ -11253,7 +11709,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "242720"
+    },
     "dateChanged": "2024-10-02T22:05:44.355Z"
   },
   {
@@ -11290,7 +11748,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "994560"
+    },
     "dateChanged": "2024-10-02T22:05:44.357Z"
   },
   {
@@ -11333,7 +11793,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "346330"
+    },
     "dateChanged": "2024-10-05T16:27:40.506Z"
   },
   {
@@ -11365,7 +11827,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "480490"
+    },
     "dateChanged": "2024-10-05T16:27:40.508Z"
   },
   {
@@ -11382,7 +11846,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "215100"
+    },
     "dateChanged": "2024-10-05T16:27:40.508Z"
   },
   {
@@ -11398,7 +11864,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1658740"
+    },
     "dateChanged": "2024-10-05T16:27:40.509Z"
   },
   {
@@ -11414,7 +11882,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1799530"
+    },
     "dateChanged": "2024-10-05T16:27:40.510Z"
   },
   {
@@ -11430,7 +11900,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2304660"
+    },
     "dateChanged": "2024-10-05T16:27:40.510Z"
   },
   {
@@ -11446,7 +11918,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2119490"
+    },
     "dateChanged": "2024-10-05T16:27:40.510Z"
   },
   {
@@ -11462,7 +11936,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "700030"
+    },
     "dateChanged": "2024-10-05T16:27:40.510Z"
   },
   {
@@ -11478,7 +11954,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "889750"
+    },
     "dateChanged": "2024-10-05T16:27:40.511Z"
   },
   {
@@ -11495,7 +11973,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1133430"
+    },
     "dateChanged": "2024-10-05T16:27:40.511Z"
   },
   {
@@ -11680,7 +12160,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "390100"
+    },
     "dateChanged": "2024-10-07T22:48:08.630Z"
   },
   {
@@ -11696,7 +12178,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "47790"
+    },
     "dateChanged": "2024-10-07T22:48:08.630Z"
   },
   {
@@ -11730,7 +12214,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1175210"
+    },
     "dateChanged": "2024-10-07T22:48:08.631Z"
   },
   {
@@ -11746,7 +12232,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2581700"
+    },
     "dateChanged": "2024-10-07T22:48:08.631Z"
   },
   {
@@ -11778,7 +12266,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1268750"
+    },
     "dateChanged": "2024-10-07T22:48:08.632Z"
   },
   {
@@ -11826,7 +12316,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1133060"
+    },
     "dateChanged": "2024-10-07T22:48:08.632Z"
   },
   {
@@ -11858,7 +12350,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2562000"
+    },
     "dateChanged": "2024-10-07T22:48:08.633Z"
   },
   {
@@ -11875,7 +12369,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2285150"
+    },
     "dateChanged": "2024-10-07T22:48:08.634Z"
   },
   {
@@ -11947,7 +12443,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2279730"
+    },
     "dateChanged": "2024-10-07T22:48:08.635Z"
   },
   {
@@ -11981,7 +12479,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1464970"
+    },
     "dateChanged": "2024-10-20T20:59:10.978Z"
   },
   {
@@ -11997,7 +12497,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "949690"
+    },
     "dateChanged": "2024-10-10T01:03:28.438Z"
   },
   {
@@ -12045,7 +12547,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2371630"
+    },
     "dateChanged": "2024-10-10T01:03:28.439Z"
   },
   {
@@ -12061,7 +12565,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1618710"
+    },
     "dateChanged": "2024-10-10T01:03:28.439Z"
   },
   {
@@ -12077,7 +12583,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "798510"
+    },
     "dateChanged": "2024-10-10T01:03:28.440Z"
   },
   {
@@ -12093,7 +12601,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "301520"
+    },
     "dateChanged": "2024-10-10T01:03:28.440Z"
   },
   {
@@ -12110,7 +12620,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1204040"
+    },
     "dateChanged": "2024-10-27T21:09:55.705Z"
   },
   {
@@ -12126,7 +12638,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2091110"
+    },
     "dateChanged": "2024-10-10T01:03:28.440Z"
   },
   {
@@ -12142,7 +12656,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "973580"
+    },
     "dateChanged": "2024-10-10T01:03:28.440Z"
   },
   {
@@ -12174,7 +12690,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "764920"
+    },
     "dateChanged": "2024-10-10T01:03:28.441Z"
   },
   {
@@ -12244,7 +12762,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2247220"
+    },
     "dateChanged": "2024-10-13T22:38:31.287Z"
   },
   {
@@ -12260,7 +12780,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1491000"
+    },
     "dateChanged": "2024-10-13T22:38:31.287Z"
   },
   {
@@ -12293,7 +12815,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "536950"
+    },
     "dateChanged": "2024-10-13T22:38:31.288Z"
   },
   {
@@ -12309,7 +12833,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "212630"
+    },
     "dateChanged": "2024-11-04T00:18:17.371Z"
   },
   {
@@ -12325,7 +12851,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "731620"
+    },
     "dateChanged": "2024-10-13T22:38:31.288Z"
   },
   {
@@ -12436,14 +12964,9 @@
       "Anti-Cheat Expert"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-13T22:38:31.290Z"
+    "dateChanged": "2025-07-27T03:21:19.485Z"
   },
   {
     "url": "",
@@ -12459,7 +12982,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "835570"
+    },
     "dateChanged": "2024-10-13T22:38:31.291Z"
   },
   {
@@ -12475,7 +13000,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "363680"
+    },
     "dateChanged": "2024-10-13T22:38:31.291Z"
   },
   {
@@ -12507,7 +13034,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "203290"
+    },
     "dateChanged": "2024-10-13T22:38:31.292Z"
   },
   {
@@ -12539,7 +13068,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2208530"
+    },
     "dateChanged": "2024-10-18T17:04:48.769172-05:00"
   },
   {
@@ -12555,7 +13086,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "835860"
+    },
     "dateChanged": "2024-10-18T17:04:48.770170-05:00"
   },
   {
@@ -12587,7 +13120,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "454350"
+    },
     "dateChanged": "2024-10-18T17:04:48.771170-05:00"
   },
   {
@@ -12619,7 +13154,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2077110"
+    },
     "dateChanged": "2024-10-18T17:04:48.772187-05:00"
   },
   {
@@ -12670,7 +13207,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "253490"
+    },
     "dateChanged": "2024-10-27T21:09:55.724Z"
   },
   {
@@ -12691,7 +13230,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1587100"
+    },
     "dateChanged": "2024-10-18T17:04:48.773188-05:00"
   },
   {
@@ -12707,7 +13248,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2698940"
+    },
     "dateChanged": "2024-10-18T17:04:48.773188-05:00"
   },
   {
@@ -12723,7 +13266,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "312660"
+    },
     "dateChanged": "2024-10-18T17:04:48.774171-05:00"
   },
   {
@@ -12771,7 +13316,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "662320"
+    },
     "dateChanged": "2024-10-18T17:04:48.778171-05:00"
   },
   {
@@ -12787,7 +13334,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "647590"
+    },
     "dateChanged": "2024-10-18T17:04:48.778171-05:00"
   },
   {
@@ -12819,7 +13368,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1195460"
+    },
     "dateChanged": "2024-10-18T17:04:48.779171-05:00"
   },
   {
@@ -12835,7 +13386,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "547860"
+    },
     "dateChanged": "2024-10-18T17:04:48.779171-05:00"
   },
   {
@@ -12851,7 +13404,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "594770"
+    },
     "dateChanged": "2024-10-18T17:04:48.779171-05:00"
   },
   {
@@ -12883,7 +13438,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "840800"
+    },
     "dateChanged": "2024-10-18T17:04:48.780170-05:00"
   },
   {
@@ -12973,7 +13530,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2175780"
+    },
     "dateChanged": "2024-10-18T17:04:48.781171-05:00"
   },
   {
@@ -12989,7 +13548,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2257910"
+    },
     "dateChanged": "2024-10-18T17:04:48.781171-05:00"
   },
   {
@@ -13037,7 +13598,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "32770"
+    },
     "dateChanged": "2024-10-18T17:04:48.782182-05:00"
   },
   {
@@ -13053,7 +13616,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "790650"
+    },
     "dateChanged": "2024-10-18T17:04:48.783181-05:00"
   },
   {
@@ -13069,7 +13634,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1008580"
+    },
     "dateChanged": "2024-10-18T17:04:48.783181-05:00"
   },
   {
@@ -13101,7 +13668,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "747610"
+    },
     "dateChanged": "2024-10-18T17:04:48.784171-05:00"
   },
   {
@@ -13188,7 +13757,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "63950"
+    },
     "dateChanged": "2024-10-19T23:30:33.392Z"
   },
   {
@@ -13204,7 +13775,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2552340"
+    },
     "dateChanged": "2024-10-19T23:30:33.392Z"
   },
   {
@@ -13236,7 +13809,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1827180"
+    },
     "dateChanged": "2024-10-19T23:30:33.393Z"
   },
   {
@@ -13252,7 +13827,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1419640"
+    },
     "dateChanged": "2024-10-19T23:30:33.394Z"
   },
   {
@@ -13300,7 +13877,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "342570"
+    },
     "dateChanged": "2024-10-20T20:59:10.996Z"
   },
   {
@@ -13321,7 +13900,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1025560"
+    },
     "dateChanged": "2024-10-20T20:59:10.997Z"
   },
   {
@@ -13337,7 +13918,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2083800"
+    },
     "dateChanged": "2024-10-20T20:59:10.997Z"
   },
   {
@@ -13417,7 +14000,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2730410"
+    },
     "dateChanged": "2024-10-21T16:34:58.627671-05:00"
   },
   {
@@ -13470,7 +14055,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2350280"
+    },
     "dateChanged": "2024-10-21T16:34:58.628671-05:00"
   },
   {
@@ -13486,7 +14073,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2167580"
+    },
     "dateChanged": "2024-10-21T16:34:58.628671-05:00"
   },
   {
@@ -13502,7 +14091,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "13140"
+    },
     "dateChanged": "2024-10-21T16:34:58.628671-05:00"
   },
   {
@@ -13518,7 +14109,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1153700"
+    },
     "dateChanged": "2024-10-21T16:34:58.628671-05:00"
   },
   {
@@ -13609,7 +14202,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1877600"
+    },
     "dateChanged": "2024-10-22T16:28:22.252564-05:00"
   },
   {
@@ -13625,7 +14220,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1293660"
+    },
     "dateChanged": "2024-10-22T16:28:22.252564-05:00"
   },
   {
@@ -13673,7 +14270,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "871120"
+    },
     "dateChanged": "2024-10-22T16:28:22.252564-05:00"
   },
   {
@@ -13742,7 +14341,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1574360"
+    },
     "dateChanged": "2024-10-23T15:17:30.184123-05:00"
   },
   {
@@ -13806,7 +14407,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "242050"
+    },
     "dateChanged": "2024-10-23T15:17:30.185123-05:00"
   },
   {
@@ -13838,7 +14441,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1379750"
+    },
     "dateChanged": "2024-10-23T15:17:30.185123-05:00"
   },
   {
@@ -13854,7 +14459,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1695900"
+    },
     "dateChanged": "2024-10-23T15:17:30.186128-05:00"
   },
   {
@@ -13870,7 +14477,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "518660"
+    },
     "dateChanged": "2024-10-23T15:17:30.186128-05:00"
   },
   {
@@ -13886,7 +14495,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "660330"
+    },
     "dateChanged": "2024-10-23T15:17:30.186128-05:00"
   },
   {
@@ -13902,7 +14513,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "499470"
+    },
     "dateChanged": "2024-10-23T15:17:30.186128-05:00"
   },
   {
@@ -13918,7 +14531,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "804810"
+    },
     "dateChanged": "2024-10-23T15:17:30.186128-05:00"
   },
   {
@@ -13950,7 +14565,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1867420"
+    },
     "dateChanged": "2024-10-23T15:17:30.187123-05:00"
   },
   {
@@ -13966,7 +14583,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "375230"
+    },
     "dateChanged": "2024-10-23T15:17:30.187123-05:00"
   },
   {
@@ -13982,7 +14601,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "212390"
+    },
     "dateChanged": "2024-10-24T16:01:34.371168-05:00"
   },
   {
@@ -13998,7 +14619,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "304030"
+    },
     "dateChanged": "2024-10-24T16:01:34.372167-05:00"
   },
   {
@@ -14030,7 +14653,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "322780"
+    },
     "dateChanged": "2024-10-24T16:01:34.372167-05:00"
   },
   {
@@ -14046,7 +14671,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2022330"
+    },
     "dateChanged": "2024-10-24T16:01:34.372167-05:00"
   },
   {
@@ -14131,7 +14758,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3230400"
+    },
     "dateChanged": "2024-10-24T16:01:34.373167-05:00"
   },
   {
@@ -14153,7 +14782,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2705130"
+    },
     "dateChanged": "2024-11-11T06:05:11.460Z"
   },
   {
@@ -14169,7 +14800,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1372110"
+    },
     "dateChanged": "2024-10-24T16:01:34.373167-05:00"
   },
   {
@@ -14185,7 +14818,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "874240"
+    },
     "dateChanged": "2024-10-24T16:01:34.373167-05:00"
   },
   {
@@ -14265,7 +14900,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2258870"
+    },
     "dateChanged": "2024-10-24T16:01:34.374167-05:00"
   },
   {
@@ -14281,7 +14918,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "369200"
+    },
     "dateChanged": "2024-10-24T16:01:34.374167-05:00"
   },
   {
@@ -14313,7 +14952,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1383550"
+    },
     "dateChanged": "2024-10-25T16:23:49.395560-05:00"
   },
   {
@@ -14366,7 +15007,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2176770"
+    },
     "dateChanged": "2024-10-25T16:23:49.396560-05:00"
   },
   {
@@ -14382,7 +15025,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1790600"
+    },
     "dateChanged": "2024-12-27T07:40:54.0000000-06:00"
   },
   {
@@ -14478,7 +15123,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "9010"
+    },
     "dateChanged": "2024-10-25T18:05:16.945229-05:00"
   },
   {
@@ -14494,7 +15141,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "767560"
+    },
     "dateChanged": "2024-10-25T18:05:16.946228-05:00"
   },
   {
@@ -14510,7 +15159,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "360760"
+    },
     "dateChanged": "2024-10-25T18:05:16.946228-05:00"
   },
   {
@@ -14526,7 +15177,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1130700"
+    },
     "dateChanged": "2024-10-25T18:05:16.946228-05:00"
   },
   {
@@ -14542,7 +15195,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1692070"
+    },
     "dateChanged": "2024-10-25T18:05:16.946228-05:00"
   },
   {
@@ -14591,7 +15246,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1180380"
+    },
     "dateChanged": "2024-10-25T18:05:16.946228-05:00"
   },
   {
@@ -14607,7 +15264,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1725420"
+    },
     "dateChanged": "2024-10-25T18:05:16.947229-05:00"
   },
   {
@@ -14623,7 +15282,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1057240"
+    },
     "dateChanged": "2024-10-25T18:05:16.947229-05:00"
   },
   {
@@ -14671,7 +15332,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1743770"
+    },
     "dateChanged": "2024-10-25T18:05:16.947229-05:00"
   },
   {
@@ -14703,7 +15366,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "815940"
+    },
     "dateChanged": "2024-10-25T18:05:16.947229-05:00"
   },
   {
@@ -14825,7 +15490,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2827230"
+    },
     "dateChanged": "2024-10-26T16:25:55.479624-05:00"
   },
   {
@@ -14841,7 +15508,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1858630"
+    },
     "dateChanged": "2024-10-26T16:25:55.479624-05:00"
   },
   {
@@ -14857,7 +15526,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "208090"
+    },
     "dateChanged": "2024-10-26T16:25:55.479624-05:00"
   },
   {
@@ -14873,7 +15544,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "442080"
+    },
     "dateChanged": "2024-10-26T16:25:55.480594-05:00"
   },
   {
@@ -14969,7 +15642,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "339610"
+    },
     "dateChanged": "2024-10-26T16:25:55.481593-05:00"
   },
   {
@@ -15017,7 +15692,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "876460"
+    },
     "dateChanged": "2024-10-26T16:25:55.481593-05:00"
   },
   {
@@ -15033,7 +15710,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "819500"
+    },
     "dateChanged": "2024-10-31T15:26:18.104637-05:00"
   },
   {
@@ -15049,7 +15728,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1903270"
+    },
     "dateChanged": "2024-10-26T16:25:55.481593-05:00"
   },
   {
@@ -15065,7 +15746,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1054690"
+    },
     "dateChanged": "2024-10-26T16:25:55.482594-05:00"
   },
   {
@@ -15081,7 +15764,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3126860"
+    },
     "dateChanged": "2024-10-26T16:25:55.482594-05:00"
   },
   {
@@ -15113,7 +15798,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "355840"
+    },
     "dateChanged": "2024-10-26T16:25:55.482594-05:00"
   },
   {
@@ -15166,7 +15853,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3077390"
+    },
     "dateChanged": "2024-10-26T16:25:55.483594-05:00"
   },
   {
@@ -15182,7 +15871,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1121710"
+    },
     "dateChanged": "2024-10-26T16:25:55.483594-05:00"
   },
   {
@@ -15198,7 +15889,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "500"
+    },
     "dateChanged": "2024-10-26T16:25:55.483594-05:00"
   },
   {
@@ -15214,7 +15907,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "548290"
+    },
     "dateChanged": "2024-10-26T16:25:55.483594-05:00"
   },
   {
@@ -15310,7 +16005,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "11610"
+    },
     "dateChanged": "2024-10-26T16:25:55.484593-05:00"
   },
   {
@@ -15326,7 +16023,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "886250"
+    },
     "dateChanged": "2024-10-26T16:25:55.484593-05:00"
   },
   {
@@ -15342,7 +16041,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "719890"
+    },
     "dateChanged": "2024-10-26T16:25:55.484593-05:00"
   },
   {
@@ -15374,7 +16075,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1803110"
+    },
     "dateChanged": "2024-10-26T16:25:55.485593-05:00"
   },
   {
@@ -15438,7 +16141,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "619080"
+    },
     "dateChanged": "2024-10-26T16:25:55.485593-05:00"
   },
   {
@@ -15507,7 +16212,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2818260"
+    },
     "dateChanged": "2024-10-27T16:28:12.859702-05:00"
   },
   {
@@ -15683,7 +16390,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "644290"
+    },
     "dateChanged": "2024-10-27T16:28:12.860702-05:00"
   },
   {
@@ -15715,7 +16424,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1367080"
+    },
     "dateChanged": "2024-10-27T16:28:12.860702-05:00"
   },
   {
@@ -15731,7 +16442,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "496240"
+    },
     "dateChanged": "2024-10-27T16:28:12.860702-05:00"
   },
   {
@@ -15763,7 +16476,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "728540"
+    },
     "dateChanged": "2024-10-27T16:28:12.861702-05:00"
   },
   {
@@ -15795,7 +16510,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "560380"
+    },
     "dateChanged": "2024-10-27T16:28:12.861702-05:00"
   },
   {
@@ -15816,7 +16533,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2445510"
+    },
     "dateChanged": "2024-10-27T16:28:12.861702-05:00"
   },
   {
@@ -15832,7 +16551,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "736220"
+    },
     "dateChanged": "2025-04-05T19:12:01.0000000-04:00"
   },
   {
@@ -15848,7 +16569,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "321260"
+    },
     "dateChanged": "2024-10-28T10:56:10.338472-05:00"
   },
   {
@@ -15864,7 +16587,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "610940"
+    },
     "dateChanged": "2024-10-28T10:56:10.339473-05:00"
   },
   {
@@ -15987,7 +16712,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "344760"
+    },
     "dateChanged": "2024-10-28T10:56:10.341050-05:00"
   },
   {
@@ -16072,7 +16799,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1029690"
+    },
     "dateChanged": "2024-10-28T10:56:10.342046-05:00"
   },
   {
@@ -16088,7 +16817,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "221040"
+    },
     "dateChanged": "2024-10-28T10:56:10.342046-05:00"
   },
   {
@@ -16104,7 +16835,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "658510"
+    },
     "dateChanged": "2024-10-28T10:56:10.342046-05:00"
   },
   {
@@ -16152,7 +16885,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "48190"
+    },
     "dateChanged": "2024-10-28T10:56:10.342046-05:00"
   },
   {
@@ -16168,7 +16903,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1826980"
+    },
     "dateChanged": "2024-10-29T18:06:44.601297-05:00"
   },
   {
@@ -16184,7 +16921,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1377380"
+    },
     "dateChanged": "2024-10-29T18:06:44.602277-05:00"
   },
   {
@@ -16200,7 +16939,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1562450"
+    },
     "dateChanged": "2024-10-29T18:06:44.602277-05:00"
   },
   {
@@ -16216,7 +16957,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "656240"
+    },
     "dateChanged": "2024-10-29T18:06:44.603277-05:00"
   },
   {
@@ -16248,7 +16991,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1600360"
+    },
     "dateChanged": "2024-10-29T18:06:44.603277-05:00"
   },
   {
@@ -16285,7 +17030,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2302770"
+    },
     "dateChanged": "2024-10-29T18:06:44.604277-05:00"
   },
   {
@@ -16301,7 +17048,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "269210"
+    },
     "dateChanged": "2024-10-29T18:06:44.604277-05:00"
   },
   {
@@ -16317,7 +17066,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "39000"
+    },
     "dateChanged": "2024-10-29T18:06:44.604277-05:00"
   },
   {
@@ -16397,7 +17148,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "337410"
+    },
     "dateChanged": "2024-10-29T18:06:44.606280-05:00"
   },
   {
@@ -16413,7 +17166,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1575680"
+    },
     "dateChanged": "2024-10-29T18:06:44.607277-05:00"
   },
   {
@@ -16429,7 +17184,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1769930"
+    },
     "dateChanged": "2024-10-29T18:06:44.607277-05:00"
   },
   {
@@ -16445,7 +17202,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "993870"
+    },
     "dateChanged": "2024-10-29T18:06:44.607277-05:00"
   },
   {
@@ -16498,7 +17257,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1908530"
+    },
     "dateChanged": "2024-10-30T17:48:27.614771-05:00"
   },
   {
@@ -16595,7 +17356,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "215120"
+    },
     "dateChanged": "2024-10-30T17:48:27.615769-05:00"
   },
   {
@@ -16627,7 +17390,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "13520"
+    },
     "dateChanged": "2024-10-30T17:48:27.616768-05:00"
   },
   {
@@ -16643,7 +17408,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1185560"
+    },
     "dateChanged": "2024-10-30T17:48:27.616768-05:00"
   },
   {
@@ -16659,7 +17426,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2393590"
+    },
     "dateChanged": "2024-10-30T17:48:27.616768-05:00"
   },
   {
@@ -16691,7 +17460,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "555440"
+    },
     "dateChanged": "2024-10-30T17:48:27.616768-05:00"
   },
   {
@@ -16744,7 +17515,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1991140"
+    },
     "dateChanged": "2024-10-31T15:26:18.103630-05:00"
   },
   {
@@ -16760,7 +17533,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "912630"
+    },
     "dateChanged": "2024-10-31T15:26:18.103630-05:00"
   },
   {
@@ -16824,7 +17599,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "19900"
+    },
     "dateChanged": "2024-10-31T15:26:18.103630-05:00"
   },
   {
@@ -16840,7 +17617,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "361800"
+    },
     "dateChanged": "2024-10-31T15:26:18.104637-05:00"
   },
   {
@@ -16856,7 +17635,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1635450"
+    },
     "dateChanged": "2024-10-31T15:26:18.104637-05:00"
   },
   {
@@ -16872,7 +17653,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "738530"
+    },
     "dateChanged": "2024-10-31T15:26:18.104637-05:00"
   },
   {
@@ -16888,7 +17671,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1442910"
+    },
     "dateChanged": "2024-10-31T15:26:18.104637-05:00"
   },
   {
@@ -16957,7 +17742,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2690190"
+    },
     "dateChanged": "2024-10-31T15:26:18.105628-05:00"
   },
   {
@@ -16989,7 +17776,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "273350"
+    },
     "dateChanged": "2024-11-01T15:44:02.207468-05:00"
   },
   {
@@ -17021,7 +17810,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1477730"
+    },
     "dateChanged": "2024-11-01T15:44:02.208468-05:00"
   },
   {
@@ -17053,7 +17844,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "15000"
+    },
     "dateChanged": "2024-11-01T15:44:02.210479-05:00"
   },
   {
@@ -17069,7 +17862,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "542590"
+    },
     "dateChanged": "2024-11-01T15:44:02.211480-05:00"
   },
   {
@@ -17085,7 +17880,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1995520"
+    },
     "dateChanged": "2025-02-02T22:17:50.0000000-06:00"
   },
   {
@@ -17149,7 +17946,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "475100"
+    },
     "dateChanged": "2024-11-01T15:44:02.212468-05:00"
   },
   {
@@ -17186,7 +17985,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2139090"
+    },
     "dateChanged": "2024-11-01T15:44:02.212468-05:00"
   },
   {
@@ -17250,7 +18051,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "201870"
+    },
     "dateChanged": "2024-11-03T15:08:08.653851-06:00"
   },
   {
@@ -17282,7 +18085,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "751240"
+    },
     "dateChanged": "2024-11-03T15:08:08.654851-06:00"
   },
   {
@@ -17335,7 +18140,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3065800"
+    },
     "dateChanged": "2024-11-03T15:08:08.654851-06:00"
   },
   {
@@ -17351,7 +18158,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1056640"
+    },
     "dateChanged": "2024-11-03T15:08:08.654851-06:00"
   },
   {
@@ -17367,7 +18176,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "253530"
+    },
     "dateChanged": "2024-11-03T15:08:08.655851-06:00"
   },
   {
@@ -17399,7 +18210,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "13540"
+    },
     "dateChanged": "2024-11-03T15:08:08.655851-06:00"
   },
   {
@@ -17501,7 +18314,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "672890"
+    },
     "dateChanged": "2024-11-03T15:08:08.657851-06:00"
   },
   {
@@ -17517,7 +18332,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "869480"
+    },
     "dateChanged": "2024-11-04T00:18:17.444Z"
   },
   {
@@ -17655,7 +18472,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1286320"
+    },
     "dateChanged": "2024-11-03T15:08:08.658853-06:00"
   },
   {
@@ -17687,7 +18506,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1184780"
+    },
     "dateChanged": "2024-11-03T15:08:08.659850-06:00"
   },
   {
@@ -17703,7 +18524,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "17430"
+    },
     "dateChanged": "2024-11-03T15:08:08.659850-06:00"
   },
   {
@@ -17719,7 +18542,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2170050"
+    },
     "dateChanged": "2024-11-03T15:08:08.659850-06:00"
   },
   {
@@ -17799,7 +18624,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "350280"
+    },
     "dateChanged": "2024-11-04T15:07:58.776886-06:00"
   },
   {
@@ -17836,7 +18663,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1724660"
+    },
     "dateChanged": "2024-11-04T15:07:58.776886-06:00"
   },
   {
@@ -17900,7 +18729,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1401240"
+    },
     "dateChanged": "2024-11-04T15:07:58.776886-06:00"
   },
   {
@@ -17948,7 +18779,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "273110"
+    },
     "dateChanged": "2024-11-04T15:07:58.777886-06:00"
   },
   {
@@ -17964,7 +18797,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1566690"
+    },
     "dateChanged": "2024-11-04T15:07:58.777886-06:00"
   },
   {
@@ -17980,7 +18815,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1604030"
+    },
     "dateChanged": "2024-11-10T23:20:07.485699-06:00"
   },
   {
@@ -17996,7 +18833,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "338540"
+    },
     "dateChanged": "2024-11-10T23:20:07.485699-06:00"
   },
   {
@@ -18028,7 +18867,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "747970"
+    },
     "dateChanged": "2024-11-10T23:20:07.486705-06:00"
   },
   {
@@ -18044,7 +18885,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "520530"
+    },
     "dateChanged": "2024-11-10T23:20:07.486705-06:00"
   },
   {
@@ -18092,7 +18935,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "910490"
+    },
     "dateChanged": "2024-11-10T23:20:07.486705-06:00"
   },
   {
@@ -18156,7 +19001,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "739630"
+    },
     "dateChanged": "2024-11-10T23:20:07.487700-06:00"
   },
   {
@@ -18209,7 +19056,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "714010"
+    },
     "dateChanged": "2024-11-10T23:20:07.487700-06:00"
   },
   {
@@ -18262,7 +19111,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1361210"
+    },
     "dateChanged": "2024-12-27T08:07:53.0000000-06:00"
   },
   {
@@ -18278,7 +19129,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "696170"
+    },
     "dateChanged": "2024-11-10T23:20:07.488699-06:00"
   },
   {
@@ -18326,7 +19179,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "102700"
+    },
     "dateChanged": "2024-11-10T23:20:07.488699-06:00"
   },
   {
@@ -18342,7 +19197,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "331810"
+    },
     "dateChanged": "2024-11-10T23:20:07.488699-06:00"
   },
   {
@@ -18358,7 +19215,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "419520"
+    },
     "dateChanged": "2024-11-10T23:20:07.489698-06:00"
   },
   {
@@ -18390,7 +19249,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "927130"
+    },
     "dateChanged": "2024-11-10T23:20:07.489698-06:00"
   },
   {
@@ -18422,7 +19283,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2344320"
+    },
     "dateChanged": "2025-02-19T12:27:09.0000000-05:00"
   },
   {
@@ -18454,7 +19317,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "10"
+    },
     "dateChanged": "2024-11-10T23:20:07.490699-06:00"
   },
   {
@@ -18470,7 +19335,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "556440"
+    },
     "dateChanged": "2024-11-10T23:20:07.490699-06:00"
   },
   {
@@ -18486,7 +19353,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2088180"
+    },
     "dateChanged": "2024-11-10T23:20:07.490699-06:00"
   },
   {
@@ -18518,7 +19387,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1873030"
+    },
     "dateChanged": "2024-11-10T23:20:07.490699-06:00"
   },
   {
@@ -18603,7 +19474,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "21979"
+    },
     "dateChanged": "2024-11-10T23:20:07.491700-06:00"
   },
   {
@@ -18619,7 +19492,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "622170"
+    },
     "dateChanged": "2024-11-10T23:20:07.492706-06:00"
   },
   {
@@ -18635,7 +19510,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2356310"
+    },
     "dateChanged": "2024-11-10T23:20:07.492706-06:00"
   },
   {
@@ -18736,7 +19613,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2799860"
+    },
     "dateChanged": "2024-11-10T23:20:07.495701-06:00"
   },
   {
@@ -18752,7 +19631,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "80"
+    },
     "dateChanged": "2024-11-10T23:20:07.495701-06:00"
   },
   {
@@ -18768,7 +19649,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "867400"
+    },
     "dateChanged": "2024-11-10T23:20:07.495701-06:00"
   },
   {
@@ -18853,7 +19736,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2790930"
+    },
     "dateChanged": "2024-11-18T16:33:32.398149-06:00"
   },
   {
@@ -18885,7 +19770,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "45500"
+    },
     "dateChanged": "2024-11-18T16:33:32.403615-06:00"
   },
   {
@@ -18917,13 +19804,15 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "212740"
+    },
     "dateChanged": "2024-11-18T16:33:32.409612-06:00"
   },
   {
     "url": "",
     "slug": "navy-field3-china",
-    "name": "\u5927\u6d77\u62183 Navy Field III",
+    "name": "大海战3 Navy Field III",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -18970,7 +19859,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3218230"
+    },
     "dateChanged": "2024-11-18T16:33:32.410612-06:00"
   },
   {
@@ -18986,7 +19877,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1648190"
+    },
     "dateChanged": "2024-11-18T16:33:32.411611-06:00"
   },
   {
@@ -19002,7 +19895,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "451130"
+    },
     "dateChanged": "2024-11-18T16:33:32.411611-06:00"
   },
   {
@@ -19050,7 +19945,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1524370"
+    },
     "dateChanged": "2024-11-18T16:33:32.411611-06:00"
   },
   {
@@ -19146,7 +20043,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2073930"
+    },
     "dateChanged": "2024-11-18T16:33:32.414611-06:00"
   },
   {
@@ -19199,7 +20098,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1123160"
+    },
     "dateChanged": "2024-11-18T16:33:32.418633-06:00"
   },
   {
@@ -19215,7 +20116,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3659280"
+    },
     "dateChanged": "2024-11-18T16:33:32.420653-06:00"
   },
   {
@@ -19231,7 +20134,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "421650"
+    },
     "dateChanged": "2024-11-18T16:33:32.420653-06:00"
   },
   {
@@ -19247,7 +20152,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "591530"
+    },
     "dateChanged": "2024-11-18T16:33:32.421148-06:00"
   },
   {
@@ -19279,7 +20186,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "805110"
+    },
     "dateChanged": "2024-11-18T16:33:32.424149-06:00"
   },
   {
@@ -19300,7 +20209,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "883120"
+    },
     "dateChanged": "2024-11-18T16:33:32.424149-06:00"
   },
   {
@@ -19316,7 +20227,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "378860"
+    },
     "dateChanged": "2024-11-18T16:33:32.424149-06:00"
   },
   {
@@ -19332,7 +20245,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "61700"
+    },
     "dateChanged": "2024-11-18T16:33:32.424149-06:00"
   },
   {
@@ -19438,7 +20353,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1194810"
+    },
     "dateChanged": "2024-11-18T16:33:32.427172-06:00"
   },
   {
@@ -19454,7 +20371,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "18110"
+    },
     "dateChanged": "2024-11-18T16:33:32.427172-06:00"
   },
   {
@@ -19486,7 +20405,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2373990"
+    },
     "dateChanged": "2024-11-18T16:33:32.428148-06:00"
   },
   {
@@ -19539,7 +20460,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2854480"
+    },
     "dateChanged": "2025-06-15T14:55:48.0000000-04:00"
   },
   {
@@ -19555,7 +20478,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "293220"
+    },
     "dateChanged": "2024-11-18T16:33:32.431148-06:00"
   },
   {
@@ -19587,7 +20512,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "381990"
+    },
     "dateChanged": "2024-11-18T16:33:32.431148-06:00"
   },
   {
@@ -19640,7 +20567,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1566880"
+    },
     "dateChanged": "2024-11-18T16:33:32.432148-06:00"
   },
   {
@@ -19704,7 +20633,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2107670"
+    },
     "dateChanged": "2024-11-18T16:33:32.433149-06:00"
   },
   {
@@ -19725,7 +20656,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2353050"
+    },
     "dateChanged": "2024-11-18T16:33:32.433149-06:00"
   },
   {
@@ -19757,7 +20690,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "255220"
+    },
     "dateChanged": "2024-11-18T16:33:32.435148-06:00"
   },
   {
@@ -19796,7 +20731,7 @@
         null
       ]
     ],
-    "updates": [ ],
+    "updates": [],
     "storeIds": {
       "epic": {
         "namespace": "b6ab3ae326064cd0884d7df16f69b9cb",
@@ -19819,11 +20754,11 @@
     ],
     "updates": [],
     "notes": [
-		[
-			"Running in Closed Play Test.",
-			null
-		]
-	],
+      [
+        "Running in Closed Play Test.",
+        null
+      ]
+    ],
     "storeIds": {},
     "dateChanged": "2025-05-26T17:07:53.0000000-04:00"
   },
@@ -19840,7 +20775,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2878980"
+    },
     "dateChanged": "2025-05-29T18:34:45.0000000-04:00"
   },
   {
@@ -19856,7 +20793,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2622380"
+    },
     "dateChanged": "2025-05-30T17:20:59.0000000-04:00"
   },
   {
@@ -19872,7 +20811,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1691340"
+    },
     "dateChanged": "2025-06-01T19:29:24.0000000-04:00"
   },
   {
@@ -19973,7 +20914,7 @@
     "dateChanged": "2025-06-30T15:49:34.0000000-04:00"
   },
   {
-	"url": "",
+    "url": "",
     "slug": "warcos2",
     "name": "Warcos 2",
     "logo": "",
@@ -19981,14 +20922,14 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-        "Easy Anti-Cheat"
+      "Easy Anti-Cheat"
     ],
     "updates": [],
     "notes": [
-        [
-            "Unreleased, Speculative",
-            null
-        ]
+      [
+        "Unreleased, Speculative",
+        null
+      ]
     ],
     "storeIds": {},
     "dateChanged": "2025-07-05T22:26:53.452Z"
@@ -20053,7 +20994,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1088090"
+    },
     "slug": "day-of-dragons",
     "dateChanged": "2025-07-09T23:53:29.0000000-04:00"
   },
@@ -20068,13 +21011,15 @@
       "Uncheater"
     ],
     "notes": [
-		[
-			"Unreleased, Speculative",
-			null
-		]
-	],
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2951690"
+    },
     "slug": "sonic-rumble",
     "dateChanged": "2025-07-10T23:58:07.0000000-04:00"
   },
@@ -20089,13 +21034,15 @@
       "Cheat Blocker"
     ],
     "notes": [
-		[
-			"Unreleased, Speculative",
-			null
-		]
-	],
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1277530"
+    },
     "slug": "black-stigma",
     "dateChanged": "2025-07-11T18:36:32.0000000-04:00"
   },
@@ -20111,7 +21058,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3224770"
+    },
     "slug": "umamusume-pretty-derby",
     "dateChanged": "2025-07-12T15:55:19.0000000-04:00"
   },
@@ -20128,7 +21077,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "310560"
+    },
     "dateChanged": "2025-07-13T17:01:58.0000000-04:00"
   },
   {
@@ -20160,7 +21111,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "377140"
+    },
     "dateChanged": "2025-07-16T20:24:29.0000000-04:00"
   },
   {
@@ -20176,7 +21129,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2807960"
+    },
     "dateChanged": "2025-07-16T20:26:00.0000000-04:00"
   },
   {
@@ -20192,12 +21147,14 @@
     ],
     "updates": [],
     "notes": [
-		[
-			"Singleplayer is still completely playable.",
-			null
-		]
-	],
-    "storeIds": {},
+      [
+        "Singleplayer is still completely playable.",
+        null
+      ]
+    ],
+    "storeIds": {
+      "steam": "2215430"
+    },
     "dateChanged": "2025-07-19T23:51:36.0000000-04:00"
   },
   {
@@ -20263,7 +21220,7 @@
     "anticheats": [
       "FairFight",
       "BattlEye",
-	  "R6 ShieldGuard"
+      "R6 ShieldGuard"
     ],
     "notes": [],
     "updates": [],
@@ -20289,12 +21246,14 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2203070"
+    },
     "slug": "dragonheir-silent-gods",
     "dateChanged": "2025-08-08T21:35:30.0000000-04:00"
   },
   {
-	"slug": "the-quinfall",
+    "slug": "the-quinfall",
     "url": "",
     "name": "The Quinfall",
     "logo": "",
@@ -20306,11 +21265,13 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2294660"
+    },
     "dateChanged": "2025-08-09T21:46:27.0000000-04:00"
   },
   {
-	"slug": "redmatch2",
+    "slug": "redmatch2",
     "url": "https://redmatchgame.com/",
     "name": "Redmatch 2",
     "logo": "",
@@ -20322,11 +21283,13 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1280770"
+    },
     "dateChanged": "2025-08-09T21:48:10.0000000-04:00"
   },
   {
-	"slug": "blade-and-soul-heroes",
+    "slug": "blade-and-soul-heroes",
     "url": "",
     "name": "Blade & Soul Heroes",
     "logo": "",
@@ -20343,11 +21306,13 @@
       ]
     ],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3616890"
+    },
     "dateChanged": "2025-08-09T21:50:32.0000000-04:00"
   },
   {
-	"slug": "blue-archive",
+    "slug": "blue-archive",
     "url": "",
     "name": "Blue Archive",
     "logo": "",
@@ -20359,11 +21324,13 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3557620"
+    },
     "dateChanged": "2025-08-09T21:52:11.0000000-04:00"
   },
   {
-	"slug": "midnight-murder-club",
+    "slug": "midnight-murder-club",
     "url": "",
     "name": "Midnight Murder Club",
     "logo": "",
@@ -20375,11 +21342,13 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2698870"
+    },
     "dateChanged": "2025-08-09T21:58:06.0000000-04:00"
   },
   {
-	"slug": "dungeon-done",
+    "slug": "dungeon-done",
     "url": "",
     "name": "Dungeon Done",
     "logo": "",
@@ -20391,11 +21360,13 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2939830"
+    },
     "dateChanged": "2025-08-10T16:48:11.0000000-04:00"
   },
   {
-	"slug": "project-wraith",
+    "slug": "project-wraith",
     "url": "",
     "name": "Project Wraith",
     "logo": "",
@@ -20416,7 +21387,7 @@
     "dateChanged": "2025-08-10T16:49:09.0000000-04:00"
   },
   {
-	"slug": "solo-leveling-arise",
+    "slug": "solo-leveling-arise",
     "url": "",
     "name": "Solo Leveling: Arise",
     "logo": "",
@@ -20433,11 +21404,13 @@
       ]
     ],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2373990"
+    },
     "dateChanged": "2025-08-10T16:49:58.0000000-04:00"
   },
   {
-	"slug": "freedom-wars-remastered",
+    "slug": "freedom-wars-remastered",
     "url": "",
     "name": "Freedom Wars Remastered",
     "logo": "",
@@ -20449,11 +21422,13 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3004100"
+    },
     "dateChanged": "2025-08-10T16:50:40.0000000-04:00"
   },
   {
-	"slug": "open-fortress",
+    "slug": "open-fortress",
     "url": "",
     "name": "Open Fortress",
     "logo": "",
@@ -20474,7 +21449,7 @@
     "dateChanged": "2025-08-10T16:51:24.0000000-04:00"
   },
   {
-	"slug": "no-more-room-in-hell-2",
+    "slug": "no-more-room-in-hell-2",
     "url": "",
     "name": "No More Room In Hell 2",
     "logo": "",
@@ -20486,7 +21461,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "292000"
+    },
     "dateChanged": "2025-08-10T16:52:03.0000000-04:00"
   }
 ]
