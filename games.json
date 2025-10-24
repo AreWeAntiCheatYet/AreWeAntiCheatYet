@@ -7739,25 +7739,18 @@
   {
     "url": "",
     "slug": "blue-protocol",
-    "name": "Blue Protocol",
+    "name": "Blue Protocol: Star Resonance",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "Anti-Cheat Expert"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
-    "storeIds": {
-      "steam": "2139230"
-    },
-    "dateChanged": "2024-05-28T00:05:37.755Z"
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-10-24T12:59:40.0000000-04:00"
   },
   {
     "url": "",
