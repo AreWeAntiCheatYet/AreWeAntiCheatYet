@@ -14767,17 +14767,16 @@
     "name": "Exoborne",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Denied",
+    "reference": "https://imgur.com/a/jTz3mId",
     "anticheats": [
-      "Anti-Cheat Expert",
+      "Easy Anti-Cheat",
       "AnyBrain"
     ],
     "updates": [],
     "notes": [
       [
-        "Unreleased, Speculative",
-        null
+        "Unreleased"
       ]
     ],
     "storeIds": {
