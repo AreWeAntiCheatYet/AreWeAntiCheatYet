@@ -5699,7 +5699,9 @@
     "status": "Supported",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "Easy Anti-Cheat",
+	  "Denuvo Anti-Cheat",
+	  "AnyBrain"
     ],
     "notes": [],
     "updates": [],
@@ -5707,7 +5709,7 @@
       "steam": "2073850"
     },
     "slug": "the-finals",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2025-11-08T12:54:47.0000000-05:00"
   },
   {
     "url": "",
