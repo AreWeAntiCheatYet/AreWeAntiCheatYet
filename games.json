@@ -7415,22 +7415,17 @@
     "name": "Arena Breakout: Infinite",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Denied",
+    "reference": "https://www.arenabreakoutinfinite.com/act/a20250421safecentercag/index.html?Language=EN",
     "anticheats": [
       "Anti-Cheat Expert"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {
       "steam": "2073620"
     },
-    "dateChanged": "2024-07-21T03:15:28.037Z"
+    "dateChanged": "2025-11-08T12:58:21.0000000-05:00"
   },
   {
     "url": "",
