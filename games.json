@@ -21432,5 +21432,28 @@
       "steam": "292000"
     },
     "dateChanged": "2025-08-10T16:52:03.0000000-04:00"
+  },
+  {
+    "url": "",
+    "slug": "cod-blackops7",
+    "name": "Call of Duty: Black Ops 7",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "",
+    "anticheats": [
+      "Ricochet"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {
+      "steam": "3606480"
+    },
+    "dateChanged": "2025-11-08T23:40:22.0000000-05:00"
   }
 ]
