@@ -6092,12 +6092,7 @@
       "Easy Anti-Cheat"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Working in Closed Beta",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {
       "steam": "1808500",
       "epic": {
@@ -6105,7 +6100,7 @@
         "slug": "arc-raiders"
       }
     },
-    "dateChanged": "2024-11-04T00:18:17.287Z"
+    "dateChanged": "2025-11-08T23:38:29.0000000-05:00"
   },
   {
     "url": "",
