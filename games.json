@@ -20887,8 +20887,8 @@
     "name": "CarX Street",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Running",
+    "reference": "https://gamingonlinux.com/2025/08/carx-street-adds-official-linux-and-steam-deck-support",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
@@ -20896,7 +20896,7 @@
     "updates": [],
     "storeIds": {},
     "slug": "carx-street",
-    "dateChanged": "2025-06-30T15:49:34.0000000-04:00"
+    "dateChanged": "2025-12-11T00:31:12.0000000-05:00"
   },
   {
     "url": "",
