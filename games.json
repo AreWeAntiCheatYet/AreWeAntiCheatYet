@@ -18131,17 +18131,17 @@
     "name": "Phantasy Star Online 2 New Genesis",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
-      "nProtect GameGuard"
+      "XIGNCODE3"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {
       "steam": "1056640"
     },
-    "dateChanged": "2024-11-03T15:08:08.654851-06:00"
+    "dateChanged": "2025-12-11T00:39:07.0000000-05:00"
   },
   {
     "url": "",
