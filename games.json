@@ -21455,5 +21455,21 @@
       "steam": "3606480"
     },
     "dateChanged": "2025-11-08T23:40:22.0000000-05:00"
+  },
+  {
+    "url": "",
+    "slug": "skate.",
+    "name": "skate.",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "",
+    "anticheats": [
+      "EA anticheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-11T00:11:04.0000000-05:00"
   }
 ]
