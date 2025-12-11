@@ -21472,5 +21472,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2025-12-11T00:29:17.0000000-05:00"
+  },
+  {
+    "url": "https://www.playfellowship.com/en/",
+    "slug": "fellowship",
+    "name": "Fellowship",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-11T00:42:03.0000000-05:00"
   }
 ]
