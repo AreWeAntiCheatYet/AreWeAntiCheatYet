@@ -9908,7 +9908,7 @@
   },
   {
     "url": "",
-    "slug": "magic-to-master",
+    "slug": "playm2m",
     "name": "Magic to Master",
     "logo": "",
     "native": false,
@@ -9918,14 +9918,9 @@
       "SARD"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-09-13T20:25:01.766Z"
+    "dateChanged": "2025-12-11T00:58:32.0000000-05:00"
   },
   {
     "url": "",
