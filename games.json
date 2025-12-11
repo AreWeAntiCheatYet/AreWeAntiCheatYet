@@ -21494,5 +21494,90 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2025-12-11T00:56:55.0000000-05:00"
+  },
+  {
+    "url": "",
+    "slug": "king-of-meat",
+    "name": "King of Meat",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-11T13:51:13.862133-05:00"
+  },
+  {
+    "url": "",
+    "slug": "last-flag",
+    "name": "Last Flag",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2025-12-11T13:51:13.862133-05:00"
+  },
+  {
+    "url": "",
+    "slug": "skidrush",
+    "name": "SkidRush",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-11T13:51:13.862133-05:00"
+  },
+  {
+    "url": "",
+    "slug": "nosgoth",
+    "name": "Nosgoth",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-11T13:51:13.862133-05:00"
+  },
+  {
+    "url": "",
+    "slug": "cs-online2",
+    "name": "Counter-Strike Online 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Nexon Game Security"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-11T13:51:13.862133-05:00"
   }
 ]
