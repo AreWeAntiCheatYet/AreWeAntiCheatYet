@@ -21483,5 +21483,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2025-12-11T00:42:03.0000000-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dragon-ball-xenoverse",
+    "name": "Dragon Ball Xenoverse",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-11T00:56:55.0000000-05:00"
   }
 ]
