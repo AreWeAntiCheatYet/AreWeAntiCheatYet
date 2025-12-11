@@ -21466,5 +21466,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2025-12-11T00:11:04.0000000-05:00"
+  },
+  {
+    "url": "",
+    "slug": "wildgate",
+    "name": "Wildgate",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-11T00:29:17.0000000-05:00"
   }
 ]
