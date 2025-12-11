@@ -10929,15 +10929,15 @@
     "name": "Ghosts of Tabor",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Denied",
+    "reference": "https://github.com/AreWeAntiCheatYet/AreWeAntiCheatYet/issues/1866",
     "anticheats": [
       "BattlEye"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-09-27T20:50:11.625Z"
+    "dateChanged": "2025-12-11T00:08:55.0000000-05:00"
   },
   {
     "url": "",
