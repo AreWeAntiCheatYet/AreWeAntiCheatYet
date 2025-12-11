@@ -21246,7 +21246,7 @@
     "name": "Redmatch 2",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Enforcer"
@@ -21256,7 +21256,7 @@
     "storeIds": {
       "steam": "1280770"
     },
-    "dateChanged": "2025-08-09T21:48:10.0000000-04:00"
+    "dateChanged": "2025-12-11T00:52:52.0000000-05:00"
   },
   {
     "slug": "blade-and-soul-heroes",
