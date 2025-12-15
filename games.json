@@ -21579,5 +21579,229 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2025-12-11T13:51:13.862133-05:00"
+  },
+  {
+    "url": "",
+    "slug": "game-of-thrones-kingsroad",
+    "name": "Game of Thrones: Kingsroad",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-15T11:14:48.882623-05:00"
+  },
+  {
+    "url": "",
+    "slug": "vindictus-defying-fate",
+    "name": "Vindictus: Defying Fate",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Nexon Game Security"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2025-12-15T11:14:48.882623-05:00"
+  },
+  {
+    "url": "",
+    "slug": "gears-of-war-remaster",
+    "name": "Gears of War: Reloaded",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-15T11:14:48.882623-05:00"
+  },
+  {
+    "url": "",
+    "slug": "swords-and-soldiers",
+    "name": "Swords & Soldiers",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-15T11:14:48.882623-05:00"
+  },
+  {
+    "url": "",
+    "slug": "super-people-2025",
+    "name": "SUPER PEOPLE (2025)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-15T11:14:48.882623-05:00"
+  },
+  {
+    "url": "",
+    "slug": "afk-journey",
+    "name": "AFK Journey",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "NetEase Yidun"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-15T11:14:48.882623-05:00"
+  },
+  {
+    "url": "",
+    "slug": "the-midnight-walkers",
+    "name": "The Midnight Walkers",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2025-12-15T11:14:48.882623-05:00"
+  },
+  {
+    "url": "https://isekaiisekai.jp",
+    "slug": "isekaiisekai-which-title-should-i-collect-next",
+    "name": "\u7570\u4e16\u754c\u221e\u7570\u4e16\u754c \uff5e\u6b21\u306f\u3069\u306e\u4f5c\u54c1\u3092\u3001\u96c6\u3081\u3088\u3046\uff5e",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-15T11:14:48.882623-05:00"
+  },
+  {
+    "url": "",
+    "slug": "chrono-odyssey",
+    "name": "Chrono Odyssey",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-15T11:14:48.882623-05:00"
+  },
+  {
+    "url": "",
+    "slug": "madoka-magica-magia-exedra",
+    "name": "Madoka Magica Magia Exedra",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "CrackProof"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-15T11:14:48.882623-05:00"
+  },
+  {
+    "url": "",
+    "slug": "pubg-black-budget",
+    "name": "PUBG: Black Budget",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Zakynthos"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Broken in Closed Playtest",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2025-12-15T11:14:48.882623-05:00"
+  },
+  {
+    "url": "",
+    "slug": "sniper-elite5-resistance",
+    "name": "Sniper Elite: Resistance",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Denuvo",
+	  "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-15T11:14:48.882623-05:00"
+  },
+  {
+    "url": "",
+    "slug": "gigantic",
+    "name": "Gigantic",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-15T11:14:48.882623-05:00"
   }
 ]
