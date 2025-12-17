@@ -10664,7 +10664,7 @@
     "name": "Breachers",
     "logo": "",
     "native": false,
-    "status": "Running",
+    "status": "Denied",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -10674,7 +10674,7 @@
     "storeIds": {
       "steam": "1922010"
     },
-    "dateChanged": "2024-09-25T21:16:49.658Z"
+    "dateChanged": "2025-12-17T12:41:42.0000000-05:00"
   },
   {
     "url": "",
