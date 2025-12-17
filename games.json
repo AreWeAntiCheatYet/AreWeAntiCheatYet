@@ -21827,8 +21827,8 @@
   },
   {
     "url": "",
-    "slug": "breach",
-    "name": "Breach",
+    "slug": "panzer-arena",
+    "name": "Panzer Arena: Coop",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -21838,7 +21838,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "763420"
+    },
     "dateChanged": "2025-12-17T12:21:49.196311-05:00"
   },
   {
