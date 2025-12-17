@@ -21803,5 +21803,143 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2025-12-15T11:14:48.882623-05:00"
+  },
+  {
+    "url": "",
+    "slug": "tf2-classic",
+    "name": "Team Fortress 2 Classified",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative, Classified",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2025-12-17T12:21:49.196311-05:00"
+  },
+  {
+    "url": "",
+    "slug": "breach",
+    "name": "Breach",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-17T12:21:49.196311-05:00"
+  },
+  {
+    "url": "",
+    "slug": "girls-frontline",
+    "name": "Girls' Frontline",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "NetEase Yidun"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-17T12:21:49.196311-05:00"
+  },
+  {
+    "url": "",
+    "slug": "bf6-redsec",
+    "name": "Battlefield REDSEC",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "",
+    "anticheats": [
+      "EA anticheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-17T12:21:49.196311-05:00"
+  },
+  {
+    "url": "",
+    "slug": "evolve",
+    "name": "Evolve: Stage 2",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-17T12:21:49.196311-05:00"
+  },
+  {
+    "url": "",
+    "slug": "aura-kingdom-impact",
+    "name": "Aura Kingdom - Impact",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-17T12:21:49.196311-05:00"
+  },
+  {
+    "url": "",
+    "slug": "ryl-online",
+    "name": "Risk Your Life",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2025-12-17T12:21:49.196311-05:00"
+  },
+  {
+    "url": "",
+    "slug": "forefront",
+    "name": "Forefront",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Same developers of Breachers, they do not believe enabling support would give the same security as Windows",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2025-12-17T12:21:49.197311-05:00"
   }
 ]
