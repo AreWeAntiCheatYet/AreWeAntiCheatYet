@@ -315,7 +315,11 @@
       }
     ],
     "storeIds": {
-      "steam": "578080"
+      "steam": "578080",
+      "epic": {
+        "namespace": "9361c8c6d2f34b42b5f2f61093eedf48",
+        "slug": "pubg-59c1d9"
+      }
     },
     "slug": "pubg-battlegrounds",
     "dateChanged": "2024-01-19T04:40:56.000Z"
