@@ -5,26 +5,31 @@ on:
       - 'games.json'
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 name: Update RSS-Feed
 jobs:
   rss-feed:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
 
     steps:
       - name: 📦 Checkout Current
-        uses: actions/checkout@v4.0.0
+        uses: actions/checkout@v6
         with:
           path: current
           token: ${{ secrets.GH_TOKEN }}
 
       - name: 📦 Checkout Previous
-        uses: actions/checkout@v4.0.0
+        uses: actions/checkout@v6
         with:
           path: previous
           ref: ${{ github.event.before }}
 
       - name: 🚧 Setup Node
-        uses: actions/setup-node@v4.0.0
+        uses: actions/setup-node@v6
         with:
           node-version: 18.13.0
 
