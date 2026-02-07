@@ -20609,7 +20609,7 @@
     "name": "WTF: Waifu Tactical Force",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -20617,14 +20617,18 @@
     "updates": [],
     "notes": [
       [
-        "Unreleased, Speculative",
+        "Working in CBT",
+        ""
+      ],
+      [
+        "Launcher has issues",
         null
       ]
     ],
     "storeIds": {
       "steam": "2353050"
     },
-    "dateChanged": "2024-11-18T16:33:32.433149-06:00"
+    "dateChanged": "2026-02-07T03:19:14.487000-05:00"
   },
   {
     "url": "",
