@@ -315,7 +315,11 @@
       }
     ],
     "storeIds": {
-      "steam": "578080"
+      "steam": "578080",
+      "epic": {
+        "namespace": "9361c8c6d2f34b42b5f2f61093eedf48",
+        "slug": "pubg-59c1d9"
+      }
     },
     "slug": "pubg-battlegrounds",
     "dateChanged": "2024-01-19T04:40:56.000Z"
@@ -1262,7 +1266,11 @@
       }
     ],
     "storeIds": {
-      "steam": "686810"
+      "steam": "686810",
+      "epic": {
+        "namespace": "3e02273b543f4ff0a1c24d3b534a9ac3",
+        "slug": "hell-let-loose-03f036"
+      }
     },
     "slug": "hell-let-loose",
     "dateChanged": "2024-01-19T04:40:56.000Z"
@@ -5212,7 +5220,11 @@
       }
     ],
     "storeIds": {
-      "steam": "915810"
+      "steam": "915810",
+      "epic": {
+        "namespace": "456f53b28c384f02865874299f956501",
+        "slug": "midnight-ghost-hunt"
+      }
     },
     "slug": "midnight-ghost-hunt",
     "dateChanged": "2024-01-20T04:40:56.000Z"
@@ -5575,7 +5587,11 @@
     "notes": [],
     "updates": [],
     "storeIds": {
-      "steam": "961200"
+      "steam": "961200",
+      "epic": {
+        "namespace": "97b084f37e344733ac82f493ac90753c",
+        "slug": "predecessor"
+      }
     },
     "slug": "predecessor",
     "dateChanged": "2024-01-19T04:40:56.000Z"
@@ -5968,7 +5984,11 @@
     "updates": [],
     "notes": [],
     "storeIds": {
-      "steam": "820520"
+      "steam": "820520",
+      "epic": {
+        "namespace": "cccdbadd66124f609ba706a9c4c73756",
+        "slug": "deceive-inc"
+      }
     },
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -11165,7 +11185,11 @@
     "updates": [],
     "notes": [],
     "storeIds": {
-      "steam": "1206370"
+      "steam": "1206370",
+      "epic": {
+        "namespace": "6fd5e6a8632c499fa2657cf650c96b14",
+        "slug": ""
+      }
     },
     "dateChanged": "2024-09-29T21:31:44.677Z"
   },
@@ -12604,7 +12628,11 @@
     "updates": [],
     "notes": [],
     "storeIds": {
-      "steam": "2091110"
+      "steam": "2091110",
+      "epic": {
+        "namespace": "0e70be0cea0446599acb4c26d2e925f9",
+        "slug": "hell-is-others-789262"
+      }
     },
     "dateChanged": "2024-10-10T01:03:28.440Z"
   },
@@ -19736,7 +19764,11 @@
     "updates": [],
     "notes": [],
     "storeIds": {
-      "steam": "45500"
+      "steam": "45500",
+      "epic": {
+        "namespace": "2a7875f5060d4381af355104773ca649",
+        "slug": ""
+      }
     },
     "dateChanged": "2024-11-18T16:33:32.403615-06:00"
   },
@@ -21460,7 +21492,12 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "epic": {
+        "namespace": "0ad0ed7b851c46378f9fcac07b72b548",
+        "slug": "wildgate-2e3419"
+      }
+    },
     "dateChanged": "2025-12-11T00:29:17.0000000-05:00"
   },
   {
