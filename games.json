@@ -13234,17 +13234,28 @@
     "name": "The Crew™ Motorfest",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Supported",
     "reference": "",
     "anticheats": [
       "BattlEye"
     ],
-    "updates": [],
+    "updates": [
+      {
+        "name": "Running on Proton",
+        "date": "Jun 5, 2025, 0:00 AM GMT",
+        "reference": "https://www.protondb.com/app/2698940#nICRHhtT8P"
+      },
+      {
+        "name": "Officially supported",
+        "date": "Oct 30, 2025, 0:00 AM GMT",
+        "reference": "https://www.ubisoft.com/en-us/game/the-crew/motorfest/news-updates/35DPcha72DbvZFcSFkHP28/season-8-quality-of-life-improvements"
+      }
+	],
     "notes": [],
     "storeIds": {
       "steam": "2698940"
     },
-    "dateChanged": "2024-10-18T17:04:48.773188-05:00"
+    "dateChanged": "2025-10-30T04:00:00.000Z"
   },
   {
     "url": "",
@@ -14762,23 +14773,24 @@
     "name": "Exoborne",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Denied",
+    "reference": "https://imgur.com/a/jTz3mId",
     "anticheats": [
-      "Anti-Cheat Expert",
+      "Easy Anti-Cheat",
       "AnyBrain"
     ],
-    "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
+    "updates": [
+	  {
+        "name": "Denied in playtest",
+        "date": "Sep 18, 2025, 0:00 AM GMT",
+        "reference": "https://imgur.com/a/znTffem"
+      }
+	],
+    "notes": [],
     "storeIds": {
       "steam": "2705130"
     },
-    "dateChanged": "2024-11-11T06:05:11.460Z"
+    "dateChanged": "2025-10-30T04:00:000Z"
   },
   {
     "url": "",
