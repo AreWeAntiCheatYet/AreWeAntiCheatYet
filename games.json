@@ -5813,12 +5813,17 @@
     "name": "Nikke: Goddess of Victory",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Anti-Cheat Expert"
     ],
-    "notes": [],
+    "notes": [
+      [
+        "It's running with tweaks (Try at your own risk)",
+        "https://gist.github.com/d-kja/74633df5f2d6e55cb2a77c3f9d6acece"
+      ]
+    ],
     "updates": [],
     "storeIds": {},
     "slug": "nikke",
