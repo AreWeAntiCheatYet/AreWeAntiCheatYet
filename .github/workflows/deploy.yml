@@ -8,18 +8,22 @@ on:
       - 'yarn.lock'
       - 'games.json'
       - 'package.json'
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 name: Deploy to Github-Pages
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
 
     steps:
       - name: 📦 Checkout
-        uses: actions/checkout@v4.0.0
+        uses: actions/checkout@v6
 
       - name: 🚧 Setup Node
-        uses: actions/setup-node@v4.0.0
+        uses: actions/setup-node@v6
         with:
           node-version: 18.13.0
 
@@ -36,7 +40,7 @@ jobs:
           touch out/.nojekyll
 
       - name: 🎉 Deploy
-        uses: peaceiris/actions-gh-pages@v4.0.0
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           publish_dir: ./out
