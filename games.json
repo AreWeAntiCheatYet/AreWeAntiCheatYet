@@ -2214,7 +2214,12 @@
     "anticheats": [
       "Treyarch Anti-Cheat"
     ],
-   "notes": [],
+   "notes": [
+      [
+        "Tested running Battle.net runner in Lutris. Chatting/typing in some text seems to lock up all keyboard inputs when in-game. Otherwise the gameplay seems fine.",
+        ""
+      ]
+    ],
     "updates": [],
     "storeIds": {
       "steam": "1985810"
