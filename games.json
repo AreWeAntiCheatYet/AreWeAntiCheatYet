@@ -2214,13 +2214,7 @@
     "anticheats": [
       "Treyarch Anti-Cheat"
     ],
-    "notes": [
-      [
-        "Tested running Battle.net runner in Lutris",
-        "Chatting/typing in some text seems to lock up all keyboard inputs.",
-        "Otherwise the gameplay seems fine."
-      ]
-    ],
+   "notes": [],
     "updates": [],
     "storeIds": {
       "steam": "1985810"
