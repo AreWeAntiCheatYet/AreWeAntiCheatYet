@@ -2209,18 +2209,24 @@
     "name": "Call of Duty Black Ops: Cold War",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Treyarch Anti-Cheat"
     ],
-    "notes": [],
+    "notes": [
+      [
+        "Tested running Battle.net runner in Lutris",
+        "Chatting/typing in some text seems to lock up all keyboard inputs.",
+        "Otherwise the gameplay seems fine."
+      ]
+    ],
     "updates": [],
     "storeIds": {
       "steam": "1985810"
     },
     "slug": "call-of-duty-black-ops-cold-war",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2026-04-26T16:24:56.000Z"
   },
   {
     "url": "https://albiononline.com/",
