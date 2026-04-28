@@ -1634,10 +1634,14 @@
     "notes": [],
     "updates": [],
     "storeIds": {
-      "steam": "1359090"
-    },
+      "steam": "1359090",
+      "epic": {
+        "namespace": "0074f9a4082041f1869d9d6f26b99521",
+        "slug": "zero-hour-8449a0"
+      }
+    },  
     "slug": "zero-hour",
-    "dateChanged": "2025-06-24T20:12:49.0000000-04:00"
+    "dateChanged": "2026-03-10T16:10:000Z"
   },
   {
     "url": "https://wiplegames.com/?page_id=53",
@@ -2628,10 +2632,14 @@
     "notes": [],
     "updates": [],
     "storeIds": {
-      "steam": "629760"
+      "steam": "629760",
+      "epic": {
+        "namespace": "2e26af55c1a146e7a939dcc1014fc9fd",
+        "slug": "mordhau"
+      }
     },
     "slug": "mordhau",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2026-03-10T16:10:000Z"
   },
   {
     "url": "",
@@ -6574,17 +6582,27 @@
     "name": "HAWKED",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Supported",
+    "reference": "https://www.protondb.com/app/1955960#edW1GRLAL8",
     "anticheats": [
       "MY.GAMES Anti-Cheat"
     ],
-    "updates": [],
+    "updates": [
+      {
+        "name": "Play HAWKED Anywhere: Now on Steam Deck!",
+        "date": "Aug 07, 2024, 12:09 PM GMT+3",
+        "reference": "https://steamcommunity.com/games/1955960/announcements/detail/4380397191418147903"
+      }
+    ],
     "notes": [],
     "storeIds": {
-      "steam": "1955960"
+      "steam": "1955960",
+      "epic": {
+        "namespace": "9492a5380afe447c82348cd5ae149c9b",
+        "slug": "hawked-b256b5"
+      }
     },
-    "dateChanged": "2024-09-15T22:37:01.023Z"
+    "dateChanged": "2026-03-10T16:10:000Z"
   },
   {
     "url": "",
