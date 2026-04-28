@@ -6587,11 +6587,13 @@
     "anticheats": [
       "MY.GAMES Anti-Cheat"
     ],
-    "updates": {
+    "updates": [
+      {
         "name": "Play HAWKED Anywhere: Now on Steam Deck!",
         "date": "Aug 07, 2024, 12:09 PM GMT+3",
         "reference": "https://steamcommunity.com/games/1955960/announcements/detail/4380397191418147903"
-      },
+      }
+    ],
     "notes": [],
     "storeIds": {
       "steam": "1955960",
