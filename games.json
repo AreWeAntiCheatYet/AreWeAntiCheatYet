@@ -8131,7 +8131,7 @@
     "name": "Strinova",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Anti-Cheat Expert"
@@ -8139,18 +8139,14 @@
     "updates": [],
     "notes": [
       [
-        "Runs on native Steam Deck hardware only.",
-        null
-      ],
-      [
-        "Developers said they would like to enable wide Linux support in the future.",
-        "https://steamcommunity.com/app/1282270/discussions/4/4626981087516566932/?ctp=2#comment_603023633548348038"
+        "Seems to run fine under wine but most people report using patched wine is better"
+        "https://www.protondb.com/app/1282270?device=pc"
       ]
     ],
     "storeIds": {
       "steam": "1282270"
     },
-    "dateChanged": "2025-05-26T16:58:56.0000000-04:00"
+    "dateChanged": "2026-05-01T17:45:56.000Z"
   },
   {
     "url": "",
@@ -12088,21 +12084,20 @@
     "name": "Neverness to Everness",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
-      "Crackproof",
-      "KSophon"
+      "Anti-Cheat Expert"
     ],
-    "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
+    "updates": [
+      {
+        "name":"Requires patches to proton for the launcher (use dwproton)",
+        "date": "Apr 29, 2026, 03:00:00 UTC"
+      }
     ],
+    "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-05T16:27:40.513Z"
+    "dateChanged": "2026-05-01T17:38:16.000Z"
   },
   {
     "url": "",
