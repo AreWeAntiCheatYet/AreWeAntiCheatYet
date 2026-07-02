@@ -839,17 +839,12 @@
     "name": "Escape from Tarkov",
     "logo": "",
     "native": false,
-    "status": "Planned",
+    "status": "Denied",
     "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/430",
     "anticheats": [
       "BattlEye"
     ],
-    "notes": [
-      [
-        "Logging in to the game works with BattlEye runtime, including trading, hideout management and offline raids",
-        ""
-      ]
-    ],
+    "notes": [],
     "updates": [
       {
         "name": "Emailed BattlEye",
@@ -860,6 +855,11 @@
         "name": "BattlEye have not yet activated support",
         "date": "Oct 12, 2022, 11:46 AM GMT+2",
         "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/859"
+      },
+      {
+        "name": "BattlEye support officially declined",
+        "date": "Sep 16, 2025, 16:24 PM GMT+2",
+        "reference": "https://steamcommunity.com/app/3932890/discussions/6/804596162400132757/"
       }
     ],
     "storeIds": {},
