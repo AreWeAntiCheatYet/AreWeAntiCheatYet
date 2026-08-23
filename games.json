@@ -1579,25 +1579,32 @@
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
-    "url": "https://www.ubisoft.com/en-us/game/ghost-recon/breakpoint/wildlands",
+    "url": "",
     "name": "Tom Clancy's Ghost Recon Wildlands",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Supported",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
     "notes": [],
-    "updates": [],
+    "updates": [
+      {
+        "name": "Removed EAC",
+        "date": "13 August 2026 13:00:46 UTC",
+        "reference": "https://steamdb.info/depot/460932/history/?changeid=M:3449041125799887280"
+      }
+    ],
     "storeIds": {
       "epic": {
         "namespace": "hyacinth",
         "slug": "ghost-recon-wildlands"
-      }
+      },
+      "steam": "460930"
     },
     "slug": "tom-clancys-ghost-recon-wildlands",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2026-08-23T21:22:24.000Z"
   },
   {
     "url": "https://www.ubisoft.com/en-us/game/watch-dogs/watch-dogs-2",
