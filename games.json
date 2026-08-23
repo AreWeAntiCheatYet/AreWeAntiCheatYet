@@ -8095,6 +8095,33 @@
   },
   {
     "url": "",
+    "slug": "rocket-league",
+    "name": "Rocket League®",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "EAC added. Steam Deck and Linux are supported",
+        "https://x.com/RocketLeague/status/2049157167719256165"
+      ]
+    ],
+    "storeIds": {
+      "steam": "252950",
+      "epic": {
+        "namespace": "9773aa1aa54f4f7b80e44bef04986cea",
+        "slug": "rocket-league"
+      }
+    },
+    "dateChanged": "2026-04-28T10:00:00.000Z"
+  },
+  {
+    "url": "",
     "slug": "rocket-league-for-faceit",
     "name": "Rocket League (FACEIT)",
     "logo": "",
