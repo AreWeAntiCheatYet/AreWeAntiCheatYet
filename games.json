@@ -5813,16 +5813,21 @@
     "name": "Nikke: Goddess of Victory",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Anti-Cheat Expert"
     ],
-    "notes": [],
+    "notes": [
+      [
+        "It's running with tweaks (Try at your own risk)",
+        "https://gist.github.com/d-kja/74633df5f2d6e55cb2a77c3f9d6acece"
+      ]
+    ],
     "updates": [],
     "storeIds": {},
     "slug": "nikke",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2026-08-21T11:22:52.0000000-04:00"
   },
   {
     "url": "https://www.ubisoft.com/en-us/game/rainbow-six/extraction",
