@@ -862,7 +862,9 @@
         "reference": "https://github.com/Starz0r/AreWeAntiCheatYet/issues/859"
       }
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3932890"
+    },
     "slug": "escape-from-tarkov",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -1459,7 +1461,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2051620"
+    },
     "slug": "enlisted",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -2133,7 +2137,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2000950"
+    },
     "slug": "call-of-duty-modern-warfare-2019",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -2186,7 +2192,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "905640"
+    },
     "slug": "combat-arms-reloaded",
     "dateChanged": "2024-01-20T04:40:56.000Z"
   },
@@ -3480,7 +3488,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "439350"
+    },
     "slug": "kritikareboot",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -3832,7 +3842,9 @@
       ]
     ],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1238880"
+    },
     "slug": "battlefield-hardline",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -3958,7 +3970,10 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "33930"
+
+    },
     "slug": "arma-2-operation-arrowhead",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -3974,7 +3989,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "721030"
+    },
     "slug": "latale",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -3990,7 +4007,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "17330"
+    },
     "slug": "crysis-warhead",
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
@@ -4918,7 +4937,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "280620"
+    },
     "dateChanged": "2024-10-26T16:25:55.484593-05:00"
   },
   {
@@ -5888,7 +5909,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "730"
+    },
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
@@ -5920,7 +5943,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3595270"
+    },
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
@@ -6143,7 +6168,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1501750"
+    },
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
@@ -6372,7 +6399,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2100"
+    },
     "dateChanged": "2024-02-10T21:52:02.273Z"
   },
   {
@@ -6641,7 +6670,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2687970"
+    },
     "dateChanged": "2024-02-20T21:15:15.800Z"
   },
   {
@@ -6951,7 +6982,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "202090"
+    },
     "dateChanged": "2024-02-27T21:14:34.272Z"
   },
   {
@@ -6967,11 +7000,13 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "444200"
+    },
     "dateChanged": "2024-02-27T21:32:37.805Z"
   },
   {
-    "url": "",
+    "url": "https://mir4global.com/",
     "slug": "mir4",
     "name": "MIR4",
     "logo": "",
@@ -6983,7 +7018,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1623660"
+    },
     "dateChanged": "2024-02-28T20:51:23.778Z"
   },
   {
@@ -7174,7 +7211,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "4162040"
+    },
     "dateChanged": "2024-07-31T00:01:49.730Z"
   },
   {
@@ -7190,7 +7229,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2582560"
+    },
     "dateChanged": "2024-09-15T22:37:01.048Z"
   },
   {
@@ -7272,7 +7313,9 @@
       }
     ],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1922560"
+    },
     "dateChanged": "2024-08-25T21:58:41.996Z"
   },
   {
@@ -7333,7 +7376,7 @@
     "dateChanged": "2024-09-01T22:22:14.478Z"
   },
   {
-    "url": "",
+    "url": "https://2xko.riotgames.com",
     "slug": "2xko",
     "name": "2XKO",
     "logo": "",
@@ -7413,7 +7456,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1456940"
+    },
     "dateChanged": "2024-09-15T22:37:01.062Z"
   },
   {
@@ -7463,7 +7508,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2524890"
+    },
     "dateChanged": "2024-03-13T21:56:13.188Z"
   },
   {
@@ -7521,7 +7568,7 @@
     "dateChanged": "2025-12-11T00:40:24.0000000-05:00"
   },
   {
-    "url": "",
+    "url": "https://worldofwarcraft.blizzard.com",
     "slug": "wow",
     "name": "World of Warcraft",
     "logo": "",
@@ -7667,7 +7714,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1962663"
+    },
     "dateChanged": "2024-05-22T04:43:24.490Z"
   },
   {
@@ -7694,7 +7743,7 @@
     "dateChanged": "2024-05-22T22:24:18.973Z"
   },
   {
-    "url": "",
+    "url": "https://starcraft2.blizzard.com/",
     "slug": "starcraft-ii",
     "name": "StarCraft II",
     "logo": "",
@@ -7759,7 +7808,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3681810"
+    },
     "dateChanged": "2025-10-24T12:59:40.0000000-04:00"
   },
   {
@@ -8183,7 +8234,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "362890"
+    },
     "dateChanged": "2024-06-23T21:31:29.072Z"
   },
   {
@@ -8243,22 +8296,6 @@
   },
   {
     "url": "",
-    "slug": "warcraft-iii",
-    "name": "WarCraft III",
-    "logo": "",
-    "native": false,
-    "status": "Running",
-    "reference": "",
-    "anticheats": [
-      "Warden"
-    ],
-    "updates": [],
-    "notes": [],
-    "storeIds": {},
-    "dateChanged": "2024-06-27T20:34:32.020Z"
-  },
-  {
-    "url": "",
     "slug": "sf6-for-esl",
     "name": "Street Fighter 6 (ESL)",
     "logo": "",
@@ -8290,28 +8327,7 @@
     "dateChanged": "2024-06-29T19:21:58.319Z"
   },
   {
-    "url": "https://sbox.game/",
-    "slug": "s%26box",
-    "name": "s&box",
-    "logo": "",
-    "native": true,
-    "status": "Supported",
-    "reference": "",
-    "anticheats": [
-      "VAC"
-    ],
-    "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
-    "storeIds": {},
-    "dateChanged": "2024-06-30T19:35:24.182Z"
-  },
-  {
-    "url": "",
+    "url": "https://heroesofthestorm.blizzard.com/",
     "slug": "hots",
     "name": "Heroes of the Storm",
     "logo": "",
@@ -8361,7 +8377,7 @@
     "dateChanged": "2025-06-26T19:17:36.0000000-04:00"
   },
   {
-    "url": "",
+    "url": "https://warcraft3.blizzard.com",
     "slug": "warcraft-iii-reforged",
     "name": "WarCraft III: Reforged",
     "logo": "",
@@ -19314,7 +19330,7 @@
   {
     "url": "",
     "slug": "bloodstrike",
-    "name": "BLOODSTRIKE",
+    "name": "BLOOD STRIKE",
     "logo": "",
     "native": false,
     "status": "Running",
@@ -19324,7 +19340,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3199170"
+    },
     "dateChanged": "2024-11-10T23:20:07.489698-06:00"
   },
   {
@@ -19690,7 +19708,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2229260"
+    },
     "dateChanged": "2024-11-10T23:20:07.495701-06:00"
   },
   {
@@ -19706,7 +19726,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3929740"
+    },
     "dateChanged": "2024-11-10T23:20:07.495701-06:00"
   },
   {
@@ -20197,7 +20219,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3825780"
+    },
     "dateChanged": "2024-11-18T16:33:32.421148-06:00"
   },
   {
@@ -20705,7 +20729,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3213300"
+    },
     "dateChanged": "2024-11-18T16:33:32.435148-06:00"
   },
   {
@@ -20790,7 +20816,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2138720"
+    },
     "dateChanged": "2025-05-26T17:07:53.0000000-04:00"
   },
   {
@@ -20909,7 +20937,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2993780"
+    },
     "dateChanged": "2025-06-16T15:21:43.0000000-04:00"
   },
   {
@@ -20940,7 +20970,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "1114150"
+    },
     "slug": "carx-street",
     "dateChanged": "2025-12-11T00:31:12.0000000-05:00"
   },
@@ -20977,7 +21009,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2720700"
+    },
     "slug": "karos-classic",
     "dateChanged": "2025-07-06T23:35:08.0000000-04:00"
   },
@@ -20993,7 +21027,9 @@
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "383180"
+    },
     "slug": "dead-island-riptide",
     "dateChanged": "2025-07-06T23:35:08.0000000-04:00"
   },
@@ -21201,7 +21237,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2782500"
+    },
     "dateChanged": "2025-07-20T23:28:51.0000000-04:00"
   },
   {
@@ -21217,7 +21255,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3669060"
+    },
     "dateChanged": "2025-07-21T23:43:03.0000000-04:00"
   },
   {
@@ -21414,7 +21454,9 @@
       ]
     ],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "950660"
+    },
     "dateChanged": "2025-08-10T16:49:09.0000000-04:00"
   },
   {
@@ -21437,7 +21479,7 @@
   },
   {
     "slug": "open-fortress",
-    "url": "",
+    "url": "https://openfortress.fun/",
     "name": "Open Fortress",
     "logo": "",
     "native": false,
@@ -21453,7 +21495,9 @@
       ]
     ],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3561320"
+    },
     "dateChanged": "2025-08-10T16:51:24.0000000-04:00"
   },
   {
@@ -21510,7 +21554,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3354750"
+    },
     "dateChanged": "2025-12-11T00:11:04.0000000-05:00"
   },
   {
@@ -21547,7 +21593,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2352620"
+    },
     "dateChanged": "2025-12-11T00:42:03.0000000-05:00"
   },
   {
@@ -21563,7 +21611,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "323470"
+    },
     "dateChanged": "2025-12-11T00:56:55.0000000-05:00"
   },
   {
@@ -21588,19 +21638,16 @@
     "name": "Last Flag",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Running",
+    "reference": "https://www.protondb.com/app/2721340",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
-    "storeIds": {},
+    "notes": [],
+    "storeIds": {
+      "steam": "2721340"
+    },
     "dateChanged": "2025-12-11T13:51:13.862133-05:00"
   },
   {
@@ -21664,7 +21711,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3183280"
+    },
     "dateChanged": "2025-12-15T11:14:48.882623-05:00"
   },
   {
@@ -21685,7 +21734,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2814860"
+    },
     "dateChanged": "2025-12-15T11:14:48.882623-05:00"
   },
   {
@@ -21701,7 +21752,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2523720"
+    },
     "dateChanged": "2025-12-15T11:14:48.882623-05:00"
   },
   {
@@ -21717,7 +21770,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "63500"
+    },
     "dateChanged": "2025-12-15T11:14:48.882623-05:00"
   },
   {
@@ -21733,7 +21788,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3619270"
+    },
     "dateChanged": "2025-12-15T11:14:48.882623-05:00"
   },
   {
@@ -21749,7 +21806,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "4195600"
+    },
     "dateChanged": "2025-12-15T11:14:48.882623-05:00"
   },
   {
@@ -21764,13 +21823,10 @@
       "Anti-Cheat Expert"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
-    "storeIds": {},
+    "notes": [],
+    "storeIds": {
+      "steam": "2795540"
+    },
     "dateChanged": "2025-12-15T11:14:48.882623-05:00"
   },
   {
@@ -21802,7 +21858,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2873440"
+    },
     "dateChanged": "2025-12-15T11:14:48.882623-05:00"
   },
   {
@@ -21818,7 +21876,9 @@
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2987800"
+    },
     "dateChanged": "2025-12-15T11:14:48.882623-05:00"
   },
   {
@@ -21839,7 +21899,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "4077740"
+    },
     "dateChanged": "2025-12-15T11:14:48.882623-05:00"
   },
   {
@@ -21852,31 +21914,17 @@
     "reference": "",
     "anticheats": [
       "Denuvo Anti-Cheat",
-	  "Easy Anti-Cheat"
-    ],
-    "updates": [],
-    "notes": [],
-    "storeIds": {},
-    "dateChanged": "2025-12-15T11:14:48.882623-05:00"
-  },
-  {
-    "url": "",
-    "slug": "gigantic",
-    "name": "Gigantic",
-    "logo": "",
-    "native": false,
-    "status": "Broken",
-    "reference": "",
-    "anticheats": [
       "Easy Anti-Cheat"
     ],
     "updates": [],
     "notes": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2169200"
+    },
     "dateChanged": "2025-12-15T11:14:48.882623-05:00"
   },
   {
-    "url": "",
+    "url": "https://tf2classified.com/",
     "slug": "tf2-classic",
     "name": "Team Fortress 2 Classified",
     "logo": "",
@@ -21893,7 +21941,9 @@
         null
       ]
     ],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "3545060"
+    },
     "dateChanged": "2025-12-17T12:21:49.196311-05:00"
   },
   {
