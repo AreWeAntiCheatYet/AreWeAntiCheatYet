@@ -21480,19 +21480,30 @@
     "dateChanged": "2025-11-08T23:40:22.0000000-05:00"
   },
   {
-    "url": "",
+    "url": "https://store.steampowered.com/app/3354750/",
     "slug": "skate.",
     "name": "skate.",
     "logo": "",
     "native": false,
     "status": "Denied",
-    "reference": "",
+    "reference": "https://www.gamingonlinux.com/2025/09/full-circle-ea-confirm-again-that-skate-will-not-support-linux-steam-deck-or-macos/",
     "anticheats": [
       "EA anticheat"
     ],
     "updates": [],
-    "notes": [],
-    "storeIds": {},
+    "notes": [
+      [
+        "Earlier report: skate. unsupported on Linux/SteamOS/Deck due to anti-cheat (July 2025)",
+        "https://www.gamingonlinux.com/2025/07/the-upcoming-skate-from-ea-will-be-unsupported-on-linux-steamos-and-steam-deck-due-to-anti-cheat/"
+      ],
+      [
+        "Proton compatibility report confirming this is an anti-cheat restriction, not a Proton bug",
+        "https://github.com/ValveSoftware/Proton/issues/10108"
+      ]
+    ],
+    "storeIds": {
+      "steam": "3354750"
+    },
     "dateChanged": "2025-12-11T00:11:04.0000000-05:00"
   },
   {
