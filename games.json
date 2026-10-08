@@ -22028,5 +22028,34 @@
     ],
     "storeIds": {},
     "dateChanged": "2025-12-17T12:21:49.197311-05:00"
+  },
+  {
+    "url": "https://operationharshdoorstop.com/",
+    "slug": "operation-harsh-doorstop",
+    "name": "Operation: Harsh Doorstop",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "https://www.protondb.com/app/736590",
+    "anticheats": [
+      "No Anti-Cheat"
+    ],
+    "updates": [
+      {
+        "name": "Early Access launch on Steam",
+        "date": "2023-02-15T00:00:00.000Z",
+        "reference": "https://store.steampowered.com/app/736590/"
+      }
+    ],
+    "notes": [
+      [
+        "EAC on roadmap (opt-in for server owners), unlikely to break on Linux",
+        "https://steamcommunity.com/app/736590/discussions/1/2934616148069709070/"
+      ]
+    ],
+    "storeIds": {
+      "steam": "736590"
+    },
+    "dateChanged": "2026-09-24T00:00:00.000Z"
   }
 ]
