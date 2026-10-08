@@ -1077,8 +1077,8 @@
     "name": "For Honor",
     "logo": "",
     "native": false,
-    "status": "Supported",
-    "reference": "https://www.protondb.com/app/304390",
+    "status": "Denied",
+    "reference": "https://www.ubisoft.com/en-us/game/for-honor/news-updates/4WKJhG6v6C9sbCOZkFZ6wG/ranked-faq",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
@@ -1089,6 +1089,11 @@
       ]
     ],
     "updates": [
+      {
+        "name": "Support Denied with ranked update untill further notice.",
+        "date": "Sep 10, 2026, 0:00 AM",
+        "reference": "https://www.ubisoft.com/en-us/game/for-honor/news-updates/4WKJhG6v6C9sbCOZkFZ6wG/ranked-faq"
+      },
       {
         "name": "EasyAntiCheat.so added!",
         "date": "Jul 28, 2022, 0:00 AM",
@@ -6111,13 +6116,24 @@
     "name": "ARC Raiders",
     "logo": "",
     "native": false,
-    "status": "Running",
+    "status": "Supported",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
-    "updates": [],
-    "notes": [],
+    "updates": [
+      {
+        "name": "Steam Deck verified",
+        "date": "Jul. 10, 2026, 02:44UTC",
+        "reference": "https://steamdb.info/changelist/37155792/"
+      }
+    ],
+    "notes": [
+      [
+        "Just like the Finals, support breaks sometimes. Report this, they usually work on it quickly.",
+        null
+      ]
+    ],
     "storeIds": {
       "steam": "1808500",
       "epic": {
@@ -7150,18 +7166,15 @@
     "logo": "",
     "native": false,
     "status": "Running",
-    "reference": "",
+    "reference": "https://www.protondb.com/app/4162040",
     "anticheats": [
       "miHoYo Protect"
     ],
     "updates": [],
-    "notes": [
-      [
-        "",
-        null
-      ]
-    ],
-    "storeIds": {},
+    "notes": [],
+    "storeIds": {
+      "steam": "4162040"
+    },
     "dateChanged": "2024-07-31T00:01:49.730Z"
   },
   {
@@ -7957,7 +7970,7 @@
     "dateChanged": "2024-06-10T22:20:18.514Z"
   },
   {
-    "url": "",
+    "url": "https://www.fragpunk.com/#/",
     "slug": "fragpunk",
     "name": "FragPunk",
     "logo": "",
@@ -7967,11 +7980,17 @@
     "anticheats": [
       "NEAC Protect"
     ],
-    "updates": [],
+    "updates": [
+      {
+        "name": "Released as Unsupported",
+        "date": "Mar. 07, 2026, 0:00UTC",
+        "reference": "https://store.steampowered.com/app/2943650/FragPunk/"
+      }
+    ],
     "notes": [
       [
-        "Unreleased, Working in Closed Beta Test",
-        null
+        "Works but performance is inconsistent. Check protonDB for more information.",
+        "https://www.protondb.com/app/2943650"
       ]
     ],
     "storeIds": {
@@ -8309,18 +8328,24 @@
     "name": "s&box",
     "logo": "",
     "native": true,
-    "status": "Supported",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "VAC"
     ],
-    "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
+    "updates": [
+      {
+        "name": "Released as Unsupported",
+        "date": "Apr. 28, 2026, 0:00UTC",
+        "reference": "https://store.steampowered.com/app/590830/sbox/"
+      },
+      {
+        "name": "Downranked to running, as Steamdeck and steamOS is unsupported offically.",
+        "date": "Sep. 16, 2026, 22:00UTC",
+        "reference": "https://www.protondb.com/app/590830"
+      }
     ],
+    "notes": [],
     "storeIds": {},
     "dateChanged": "2024-06-30T19:35:24.182Z"
   },
@@ -8457,29 +8482,6 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-07-11T17:46:29.333Z"
-  },
-  {
-    "url": "",
-    "slug": "concord",
-    "name": "Concord",
-    "logo": "",
-    "native": false,
-    "status": "Denied",
-    "reference": "",
-    "anticheats": [
-      "Easy Anti-Cheat"
-    ],
-    "updates": [],
-    "notes": [
-      [
-        "Unreleased, explictly unsupported in the Open Beta",
-        null
-      ]
-    ],
-    "storeIds": {
-      "steam": "907630"
-    },
-    "dateChanged": "2024-08-25T21:58:42.016Z"
   },
   {
     "url": "",
@@ -10383,11 +10385,17 @@
     "anticheats": [
       "Easy Anti-Cheat"
     ],
-    "updates": [],
+    "updates": [
+      {
+        "name": "Released as Unsupported",
+        "date": "Sep. 25, 2024 0:00UTC",
+        "reference": "https://store.steampowered.com/app/2682580/DUCKSIDE/"
+      }
+    ],
     "notes": [
       [
-        "Unreleased, Speculative",
-        ""
+        "Issues seem to be related to choppy programing, rather than the anticheat itself.",
+        "https://www.protondb.com/app/2682580"
       ]
     ],
     "storeIds": {
@@ -10686,29 +10694,6 @@
       "steam": "1219160"
     },
     "dateChanged": "2024-09-25T21:16:49.655Z"
-  },
-  {
-    "url": "",
-    "slug": "tarisland",
-    "name": "Tarisland",
-    "logo": "",
-    "native": false,
-    "status": "Broken",
-    "reference": "",
-    "anticheats": [
-      "Anti-Cheat Expert"
-    ],
-    "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
-    "storeIds": {
-      "steam": "3126180"
-    },
-    "dateChanged": "2024-09-25T21:16:49.656Z"
   },
   {
     "url": "https://www.breachersvr.com/",
@@ -11045,18 +11030,19 @@
     "name": "NAKWON: LAST PARADISE",
     "logo": "",
     "native": false,
-    "status": "Running",
+    "status": "Broken",
     "reference": "",
     "anticheats": [
       "Nexon Game Security"
     ],
-    "updates": [],
-    "notes": [
-      [
-        "Unreleased, Working in the Closed Beta",
-        null
-      ]
+    "updates": [
+      {
+        "name": "Recent playtest seems to have broken support.",
+        "date": "Mar. 01, 2026 0:00UTC",
+        "reference": "https://www.protondb.com/app/2582960"
+      }
     ],
+    "notes": [],
     "storeIds": {
       "steam": "2582960"
     },
@@ -12115,22 +12101,27 @@
     "dateChanged": "2024-10-05T16:27:40.512Z"
   },
   {
-    "url": "",
+    "url": "https://nte.perfectworld.com/en/",
     "slug": "neverness-to-everness",
     "name": "Neverness to Everness",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Running",
+    "reference": "https://www.protondb.com/app/4508340",
     "anticheats": [
-      "Crackproof",
-      "KSophon"
+      "AntiCheatExpert"
     ],
-    "updates": [],
+    "updates": [
+      {
+        "name": "Released as Unsupported",
+        "date": "Jul. 08, 2026, 0:00 UTC",
+        "reference": "https://store.steampowered.com/app/4508340/NTE_Neverness_to_Everness/"
+      }
+    ],
     "notes": [
       [
-        "Unreleased, Speculative",
-        null
+        "Runs inconsistently. Refer to ProtonDB for more information.",
+        "https://www.protondb.com/app/4508340"
       ]
     ],
     "storeIds": {},
@@ -12452,16 +12443,22 @@
     "name": "King Arthur: Legends Rise",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "XIGNCODE3"
     ],
-    "updates": [],
+    "updates": [
+      {
+        "name": "Released as Deck Playable",
+        "date": "Jan. 22, 2025, 0:00UTC",
+        "reference": "https://store.steampowered.com/app/2279730/King_Arthur_Legends_Rise/"
+      }
+    ],
     "notes": [
       [
-        "Unreleased, Speculative",
-        null
+        "Game is no longer available on Steam, however still remains playable apparently?",
+        "https://steamdb.info/changelist/34386434/"
       ]
     ],
     "storeIds": {
@@ -13239,29 +13236,6 @@
   },
   {
     "url": "",
-    "slug": "anarchy-legends-online",
-    "name": "Anarchy Legends Online",
-    "logo": "",
-    "native": false,
-    "status": "Broken",
-    "reference": "",
-    "anticheats": [
-      "Easy Anti-Cheat"
-    ],
-    "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
-    "storeIds": {
-      "steam": "1587100"
-    },
-    "dateChanged": "2024-10-18T17:04:48.773188-05:00"
-  },
-  {
-    "url": "",
     "slug": "the-crew-motorfest",
     "name": "The Crew™ Motorfest",
     "logo": "",
@@ -13533,16 +13507,27 @@
     "name": "EA SPORTS FC™ 26",
     "logo": "",
     "native": false,
-    "status": "Denied",
-    "reference": "",
+    "status": "Broken",
+    "reference": "https://store.steampowered.com/app/3405690/EA_SPORTS_FC_26/",
     "anticheats": [
       "EA anticheat"
     ],
-    "updates": [],
+    "updates": [
+      {
+        "name": "Released as Unsupported",
+        "date": "Sep. 26, 2025, 0:00 UTC",
+        "reference": "https://store.steampowered.com/app/3405690/EA_SPORTS_FC_26/"
+      },
+      {
+        "name": "Changed to Broken; Some players are apparently able to run it since about 2 months.",
+        "date": "Jul. 01, 2026, 0:00UTC",
+        "reference": "https://www.protondb.com/app/3405690#83wJkQuWS3"
+      }
+    ],
     "notes": [
       [
-        "Unreleased, Speculative",
-        null
+        "Check protondb.com; some player are apparently able to run it.",
+        "https://www.protondb.com/app/3405690#83wJkQuWS3"
       ]
     ],
     "storeIds": {},
@@ -14222,29 +14207,6 @@
   },
   {
     "url": "",
-    "slug": "midnight-guns",
-    "name": "Midnight Guns",
-    "logo": "",
-    "native": false,
-    "status": "Broken",
-    "reference": "",
-    "anticheats": [
-      "Easy Anti-Cheat"
-    ],
-    "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
-    "storeIds": {
-      "steam": "1877600"
-    },
-    "dateChanged": "2024-10-22T16:28:22.252564-05:00"
-  },
-  {
-    "url": "",
     "slug": "gemini-binary-conflict",
     "name": "Gemini: Binary Conflict",
     "logo": "",
@@ -14787,13 +14749,14 @@
     "anticheats": [
       "EA anticheat"
     ],
-    "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
+    "updates": [
+      {
+        "name": "Released, Denied.",
+        "date": "Aug. 14, 2025, 0:00 UTC",
+        "reference": "https://www.protondb.com/app/3230400"
+      }
     ],
+    "notes": [],
     "storeIds": {
       "steam": "3230400"
     },
@@ -15520,13 +15483,14 @@
     "anticheats": [
       "Easy Anti-Cheat"
     ],
-    "updates": [],
-    "notes": [
-      [
-        "Unreleased, Working in Steam Next Fest Playtest",
-        null
-      ]
+    "updates": [
+      {
+        "name": "Released. Works perfectly fine according to ProtonDB",
+        "date": "May 28, 2026, 0:00 UTC",
+        "reference": "https://www.protondb.com/app/2827230"
+      }
     ],
+    "notes": [],
     "storeIds": {
       "steam": "2827230"
     },
@@ -15878,18 +15842,19 @@
     "name": "MotoGP™25",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
-    "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
+    "updates": [
+      {
+        "name": "Released as Deck Playable",
+        "date": "Apr. 30, 2025, 0:00UTC",
+        "reference": "https://store.steampowered.com/app/3077390/MotoGP25/?curator_clanid=4777282"
+      }
     ],
+    "notes": [],
     "storeIds": {
       "steam": "3077390"
     },
@@ -17763,29 +17728,6 @@
   },
   {
     "url": "",
-    "slug": "shaiya",
-    "name": "shaiya",
-    "logo": "",
-    "native": false,
-    "status": "Broken",
-    "reference": "",
-    "anticheats": [
-      "VAC"
-    ],
-    "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
-    "storeIds": {
-      "steam": "2690190"
-    },
-    "dateChanged": "2024-10-31T15:26:18.105628-05:00"
-  },
-  {
-    "url": "",
     "slug": "maplestory-worlds",
     "name": "MapleStory Worlds",
     "logo": "",
@@ -18160,7 +18102,7 @@
     "dateChanged": "2024-11-03T15:08:08.654851-06:00"
   },
   {
-    "url": "",
+    "url": "https://www.marathonthegame.com/",
     "slug": "marathon",
     "name": "Marathon",
     "logo": "",
@@ -18170,13 +18112,14 @@
     "anticheats": [
       "BattlEye"
     ],
-    "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
+    "updates": [
+      {
+        "name": "Released as Unsupported",
+        "date": "Mar. 05, 2026, 18:00 UTC",
+        "reference": "https://store.steampowered.com/app/3065800/Marathon/?curator_clanid=4777282"
+      }
     ],
+    "notes": [],
     "storeIds": {
       "steam": "3065800"
     },
@@ -19757,29 +19700,6 @@
   },
   {
     "url": "",
-    "slug": "velev",
-    "name": "Velev",
-    "logo": "",
-    "native": false,
-    "status": "Broken",
-    "reference": "",
-    "anticheats": [
-      "Easy Anti-Cheat"
-    ],
-    "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
-    "storeIds": {
-      "steam": "2790930"
-    },
-    "dateChanged": "2024-11-18T16:33:32.398149-06:00"
-  },
-  {
-    "url": "",
     "slug": "divine-knockout",
     "name": "Divine Knockout (DKO)",
     "logo": "",
@@ -20229,29 +20149,6 @@
     "notes": [],
     "storeIds": {
       "steam": "805110"
-    },
-    "dateChanged": "2024-11-18T16:33:32.424149-06:00"
-  },
-  {
-    "url": "",
-    "slug": "stormdivers",
-    "name": "Stormdivers",
-    "logo": "",
-    "native": false,
-    "status": "Broken",
-    "reference": "",
-    "anticheats": [
-      "Easy Anti-Cheat"
-    ],
-    "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
-    "storeIds": {
-      "steam": "883120"
     },
     "dateChanged": "2024-11-18T16:33:32.424149-06:00"
   },
@@ -20761,7 +20658,7 @@
     "name": "Infinity Nikki",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Anti-Cheat Expert"
@@ -20769,15 +20666,18 @@
     "notes": [
       [
         "Odd behaviour where the game may or may not start, but only on Steam Deck.",
-        ""
-      ],
-      [
-        "As of launch, Infinity Nikki does not run on Desktop Linux.",
         null
       ]
-    ],
-    "updates": [],
+		],
+    "updates": [
+			{
+				"name": "Storepage set as Supported on steamOS",
+				"date": "Jul. 23, 2026, 7:50UTC",
+				"reference": "https://steamdb.info/app/3164330/history/?changeid=37467610"
+			}
+		],
     "storeIds": {
+			"steam": "3164330",
       "epic": {
         "namespace": "b6ab3ae326064cd0884d7df16f69b9cb",
         "slug": "infinity-nikki-71fc64"
@@ -20960,27 +20860,6 @@
   },
   {
     "url": "",
-    "slug": "warcos2",
-    "name": "Warcos 2",
-    "logo": "",
-    "native": false,
-    "status": "Broken",
-    "reference": "",
-    "anticheats": [
-      "Easy Anti-Cheat"
-    ],
-    "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
-    "storeIds": {},
-    "dateChanged": "2025-07-05T22:26:53.452Z"
-  },
-  {
-    "url": "",
     "name": "Karos Classic",
     "logo": "",
     "native": false,
@@ -21047,25 +20926,26 @@
   },
   {
     "url": "",
-    "name": "Sonic Rumble",
+    "name": "Sonic Rumble Party",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Supported",
     "reference": "",
     "anticheats": [
       "Uncheater"
     ],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
-    "updates": [],
+    "notes": [],
+    "updates": [
+			{
+				"name": "Released as Deck Verified",
+				"date": "Nov. 05, 2025, 0:00 UTC",
+				"reference": "https://store.steampowered.com/app/2951690/Sonic_Rumble_Party/"
+			}
+		],
     "storeIds": {
       "steam": "2951690"
     },
-    "slug": "sonic-rumble",
+    "slug": "sonic-rumble-party",
     "dateChanged": "2025-07-10T23:58:07.0000000-04:00"
   },
   {
@@ -21080,7 +20960,7 @@
     ],
     "notes": [
       [
-        "Unreleased, Speculative",
+        "Released, but not enough references to determine a status.",
         null
       ]
     ],
@@ -21254,30 +21134,6 @@
     ],
     "storeIds": {},
     "dateChanged": "2025-07-23T13:02:30.0000000-04:00"
-  },
-  {
-    "url": "https://ubisoft.com/en-us/game/rainbow-six/siege",
-    "name": "Tom Clancy's Rainbow Six® Siege X",
-    "logo": "",
-    "native": false,
-    "status": "Denied",
-    "reference": "",
-    "anticheats": [
-      "FairFight",
-      "BattlEye",
-      "R6 ShieldGuard"
-    ],
-    "notes": [],
-    "updates": [],
-    "storeIds": {
-      "steam": "359550",
-      "epic": {
-        "namespace": "carnation",
-        "slug": "rainbow-six-siege"
-      }
-    },
-    "slug": "rainbow-six-siege-x",
-    "dateChanged": "2025-08-07T20:28:01.0000000-04:00"
   },
   {
     "url": "",
@@ -21602,18 +21458,19 @@
     "name": "Last Flag",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
-    "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
+    "updates": [
+      {
+        "name": "Game release, runs fine according to players.",
+        "date": "Apr. 14, 2026, 0:00 UTC",
+        "reference": "https://www.protondb.com/app/2721340"
+      }
     ],
+    "notes": [],
     "storeIds": {},
     "dateChanged": "2025-12-11T13:51:13.862133-05:00"
   },
@@ -21777,13 +21634,14 @@
     "anticheats": [
       "Anti-Cheat Expert"
     ],
-    "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
+    "updates": [
+			{
+				"name" : "Game release",
+				"date" : "Jan. 29, 2026, 0:00 UTC",
+				"reference" : "https://www.protondb.com/app/2795540"
+			}
+		],
+    "notes":[],
     "storeIds": {},
     "dateChanged": "2025-12-15T11:14:48.882623-05:00"
   },
@@ -22014,19 +21872,27 @@
     "name": "Forefront",
     "logo": "",
     "native": false,
-    "status": "Denied",
-    "reference": "",
+    "status": "Running",
+    "reference": "https://www.protondb.com/app/2981220",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
-    "updates": [],
-    "notes": [
-      [
-        "Same developers of Breachers, they do not believe enabling support would give the same security as Windows",
-        null
-      ]
+    "updates": [
+      {
+        "name": "Released as Unsupported",
+        "date": "Apr. 23, 2026, 0:00UTC",
+        "reference": "https://store.steampowered.com/app/2981220/Forefront/"
+      },
+      {
+        "name": "EAC enabled for Linux. Now running. No offical support.",
+        "date": "Apr. 26, 2026, 21:00UTC",
+        "reference": "https://private-user-images.githubusercontent.com/13170204/597763791-871ee953-f4ad-4d81-87f7-c80455ce52e7.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODk2NzQxMDcsIm5iZiI6MTc4OTY3MzgwNywicGF0aCI6Ii8xMzE3MDIwNC81OTc3NjM3OTEtODcxZWU5NTMtZjRhZC00ZDgxLTg3ZjctYzgwNDU1Y2U1MmU3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA5MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwOTE3VDE5MzY0N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTgwNmU4NjkyODljYmQ2ZTNmZmU2NjQxNjcyZjg1ZjE4MjZlNTFkZjFkY2Q0ZWM3ZTg2MjNhMDcwMzMwYTYzZTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.LsALoNF8srUcnNgqKO5cMMUPIVbg4gybrkQdlyqVULM"
+      }
     ],
-    "storeIds": {},
+    "notes": [],
+    "storeIds": {
+      "steam": "2981220"
+    },
     "dateChanged": "2025-12-17T12:21:49.197311-05:00"
   }
 ]
