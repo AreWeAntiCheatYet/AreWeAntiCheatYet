@@ -52,7 +52,7 @@
     "name": "Fortnite",
     "logo": "",
     "native": false,
-    "status": "Denied",
+    "status": "Planned",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -83,6 +83,11 @@
         "name": "Removed BattlEye",
         "date": "Jun 11, 2024, 5:34 PM GMT+1",
         "reference": "https://x.com/ShiinaBR/status/1800567329870537171"
+      },
+      {
+        "name": "Epic Games confirmed EasyAntiCheat Linux V2 is coming, and being piloted in Fortnite.",
+        "date": "Oct 14, 2026, 00:00 UTC",
+        "reference": "https://onlineservices.epicgames.com/news/introducing-easy-anti-cheat-linux-v2"
       }
     ],
     "storeIds": {
