@@ -152,6 +152,30 @@
     "dateChanged": "2024-10-31T18:29:00.000Z"
   },
   {
+    "url": "https://www.aniimo.com/",
+    "name": "Aniimo",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "https://www.protondb.com/app/4126040",
+    "anticheats": [
+      "NEAC Protect"
+    ],
+    "notes": [],
+    "updates": [
+      {
+        "name": "Released as Deck Playable",
+        "date": "Sep 16, 2026, 0:00 UTC",
+        "reference": null
+      }
+    ],
+    "storeIds": {
+      "steam": "4126040"
+    },
+    "slug": "aniimo",
+    "dateChanged": "2026-10-21T19:43:00.000Z"
+  },
+  {
     "url": "https://playvalorant.com",
     "name": "Valorant",
     "logo": "",
