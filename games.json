@@ -7325,7 +7325,7 @@
     "dateChanged": "2024-09-01T22:22:14.478Z"
   },
   {
-    "url": "",
+    "url": "https://2xko.riotgames.com/fr-fr/",
     "slug": "2xko",
     "name": "2XKO",
     "logo": "",
@@ -7336,9 +7336,14 @@
       "Vanguard"
     ],
     "updates": [],
-    "notes": [],
+    "notes": [
+      [
+        "May only be playable with the Offline Launcher",
+        null
+      ]
+    ],
     "storeIds": {},
-    "dateChanged": "2025-12-11T00:26:07.0000000-05:00"
+    "dateChanged": "2026-10-27T02:45:00.0000000+01:00"
   },
   {
     "url": "",
