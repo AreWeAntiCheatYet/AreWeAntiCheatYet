@@ -6348,12 +6348,18 @@
     "name": "Helldivers 2",
     "logo": "",
     "native": false,
-    "status": "Running",
+    "status": "Supported",
     "reference": "",
     "anticheats": [
-      "nProtect GameGuard"
+      "Easy Anti-Cheat"
     ],
-    "updates": [],
+    "updates": [
+      {
+        "name": "Switched from nProtect to EAC",
+        "date": "Tue, Oct 20, 2026, 08:00:00 AM (Central European Summer Time)",
+        "reference": "https://store.steampowered.com/news/app/553850/view/713415392836453548?l=english"
+      }
+    ],
     "notes": [],
     "storeIds": {
       "steam": "553850"
