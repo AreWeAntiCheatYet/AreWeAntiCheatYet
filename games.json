@@ -672,7 +672,12 @@
       "Easy Anti-Cheat",
       "VAC"
     ],
-    "notes": [],
+    "notes": [
+      [
+        "Can be played on anti-cheat disabled servers",
+        ""
+      ]
+    ],
     "updates": [
       {
         "name": "Working with EAC",
