@@ -3745,14 +3745,14 @@
     "name": "Honkai Star Rail",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "miHoYo Protect"
     ],
     "notes": [
       [
-        "Workarounds required.",
+        "Workarounds required : Use DW Proton.",
         ""
       ],
       [
@@ -3768,7 +3768,7 @@
         "slug": "honkai-star-rail"
       }
     },
-    "dateChanged": "2025-05-26T16:54:01.0000000-04:00"
+    "dateChanged": "2026-10-30T16:54:01.0000000-04:00"
   },
   {
     "url": "",
