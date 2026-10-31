@@ -124,8 +124,7 @@
     "status": "Denied",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat",
-      "Hyperion"
+      "EA anticheat"
     ],
     "notes": [],
     "updates": [
@@ -138,13 +137,18 @@
         "name": "Linux support disabled",
         "date": "Oct 31, 2024, 4:07 PM UTC",
         "reference": "https://x.com/PlayApex/status/1852019667315102151"
+      },
+      {
+        "name": "Switch EAC to EA Javelin Anticheat",
+        "date": "2024-09-26T00:00:00.000Z",
+        "reference": "https://www.ea.com/games/apex-legends/apex-legends/news/javelin-anticheat-announcement"
       }
     ],
     "storeIds": {
       "steam": "1172470"
     },
     "slug": "apex-legends",
-    "dateChanged": "2024-10-31T18:29:00.000Z"
+    "dateChanged": "2026-10-31T18:29:00.000Z"
   },
   {
     "url": "https://playvalorant.com",
