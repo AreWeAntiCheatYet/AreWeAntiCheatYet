@@ -6303,17 +6303,23 @@
     "name": "Helldivers 2",
     "logo": "",
     "native": false,
-    "status": "Running",
+    "status": "Supported",
     "reference": "",
     "anticheats": [
-      "nProtect GameGuard"
+      "Easy Anti-Cheat"
     ],
-    "updates": [],
+    "updates": [
+      {
+        "name": "Switch nProtect to Easy Anti-Cheat",
+        "date": "2026-10-20T06:00:00.000Z",
+        "reference": "https://store.steampowered.com/news/app/553850/view/713415392836453548"
+      }
+    ],
     "notes": [],
     "storeIds": {
       "steam": "553850"
     },
-    "dateChanged": "2024-02-11T02:53:16.080Z"
+    "dateChanged": "2026-10-20T06:00:00.000Z"
   },
   {
     "url": "",
